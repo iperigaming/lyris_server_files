@@ -380,6 +380,11 @@ quest akumea_dungeon_c20_an begin
                 d.notice_sub_mission("(%d / %d)", 0, 8)
             elseif level == 9 then
                 local boss = data["level"][level]["boss"]
+
+                if not d.is_unique_dead("boss") then
+                    return
+                end
+
                 d.set_unique("boss", d.spawn_mob_dir(boss["vnum"], boss["pos"][X], boss["pos"][Y], boss["pos"][DIR]))
 
                 local stone_count = d.getf("stone_count") - 1

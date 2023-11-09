@@ -326,6 +326,10 @@ quest akumea_dungeon_lv105_py begin
                 d.spawn_mob(stone["vnum"], stone["pos"]["x"], stone["pos"]["y"])
                 d.notice_mission(91761)
             elseif level == 11 then
+                if not d.is_unique_dead("level11_boss") then
+                    return
+                end
+
                 d.notice_mission(91717, mob_link(data["level"][level]["boss"]["vnum"]))
                 d.set_unique("level11_boss", d.spawn_mob_dir(data["level"][level]["boss"]["vnum"], data["level"][level]["boss"]["pos"]["x"], data["level"][level]["boss"]["pos"]["y"], data["level"][level]["boss"]["pos"]["dir"]))
 

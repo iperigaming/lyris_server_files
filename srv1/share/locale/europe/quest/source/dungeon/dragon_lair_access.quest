@@ -74,8 +74,12 @@ quest dragon_lair_access begin
                 d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
             end
 
+            if not d.is_unique_dead("boss") then
+                return
+            end
+
             d.set_regen_file("data/dungeon/dragon_lair.txt")
-			d.spawn_mob(settings["data"]["dragon"]["vnum"], settings["data"]["dragon"]["x"], settings["data"]["dragon"]["y"])
+			d.set_unique("boss", d.spawn_mob(settings["data"]["dragon"]["vnum"], settings["data"]["dragon"]["x"], settings["data"]["dragon"]["y"]))
 
             d.set_warp_location(settings["out_pos"]["map_index"], settings["out_pos"]["x"], settings["out_pos"]["y"]);
 			server_timer("akumea_dungeon_lv50_60min_left", 15*60, d.get_map_index())

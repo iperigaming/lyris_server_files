@@ -247,7 +247,12 @@ quest akumea_dungeon_c10_ru begin
             elseif level == 10 then
                 local vnum = data["level"][level]["boss"]["vnum"]
                 local pos = data["level"][level]["boss"]["pos"]
-                d.spawn_mob(vnum, pos["x"], pos["y"])
+
+                if not d.is_unique_dead("level10_boss") then
+                    return
+                end
+
+                d.set_unique("level10_boss", d.spawn_mob(vnum, pos["x"], pos["y"]))
                 d.notice_mission(91717, mob_link(vnum))
 
                 d.set_regen_file(string.format(DUNGEON_REGEN_PATH, "regen_boss"))

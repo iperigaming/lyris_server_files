@@ -284,8 +284,12 @@ quest nuyah_dungeon_lv30 begin
 
 				d.notice_mission(91717, mob_link(DUNGEON_MOB_LEVEL10_BOSS))
 			elseif level == 11 then
+				if not d.is_unique_dead("level11_boss") then
+					return
+				end
+
 				local boss = data["level"][level]["boss"]
-				d.spawn_mob(boss["vnum"], boss["pos"][X], boss["pos"][Y])
+				d.set_unique("level11_boss", d.spawn_mob(boss["vnum"], boss["pos"][X], boss["pos"][Y]))
 
 				d.notice_mission(91717, mob_link(DUNGEON_MOB_LEVEL11_BOSS))
 			end

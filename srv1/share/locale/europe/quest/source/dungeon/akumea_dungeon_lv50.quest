@@ -108,6 +108,11 @@ quest akumea_dungeon_lv50 begin
                 d.notice_sub_mission("(%d / %d)", 0, 100)
             elseif level == 5 then
                 local boss = settings["data"]["boss"]
+
+                if not d.is_unique_dead("final_boss") then
+                    return
+                end
+                
                 d.set_unique("final_boss", d.spawn_mob(boss["vnum"], boss["x"], boss["y"]))
 
 			    d.notice_mission(91755)

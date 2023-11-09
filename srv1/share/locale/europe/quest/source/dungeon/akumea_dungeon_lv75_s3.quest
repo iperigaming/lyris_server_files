@@ -144,6 +144,11 @@ quest akumea_dungeon_lv75_s3 begin
             d.setf("egg_count", 9)
 
             d.regen_file(DUNGEON_REGEN_FILE_PATH)
+
+            if not d.is_unique_dead("boss") then
+                return
+            end
+
             d.set_unique("boss", d.spawn_mob(settings["data"]["boss"]["vnum"], settings["data"]["boss"]["x"], settings["data"]["boss"]["y"]))
         end
 

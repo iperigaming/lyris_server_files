@@ -232,7 +232,11 @@ quest akumea_dungeon_lv100_rz begin
                     d.spawn_mob(data["level"][6]["stone"]["vnum"], pos[1], pos[2])
                 end
 			elseif d.getf("dungeon_level") == 7 then
-                d.spawn_mob(data["level"][7]["razador"]["vnum"], data["level"][7]["razador"]["pos"]["x"], data["level"][7]["razador"]["pos"]["y"])
+                if not d.is_unique_dead("level7_boss") then
+                    return
+                end
+
+                d.set_unique("level7_boss", d.spawn_mob(data["level"][7]["razador"]["vnum"], data["level"][7]["razador"]["pos"]["x"], data["level"][7]["razador"]["pos"]["y"]))
                 d.notice_mission(91717, mob_link(data["level"][7]["razador"]["vnum"]))
 			else
 				say(locale_quest(1357))

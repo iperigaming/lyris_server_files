@@ -111,7 +111,11 @@ quest akumea_dungeon_lv75_dc begin
 				d.spawn_mob(data["devil_great_king"]["vnum"], data["devil_great_king"]["x"], data["devil_great_king"]["y"])
 				d.notice_mission(91717, mob_link(data["devil_great_king"]["vnum"]))
 			elseif level == 5 then
-				d.spawn_mob(data["devil_emperor"]["vnum"], data["devil_emperor"]["x"], data["devil_emperor"]["y"])
+				if not d.is_unique_dead("level5_boss") then
+                    return
+                end
+
+				d.set_unique("level5_boss", d.spawn_mob(data["devil_emperor"]["vnum"], data["devil_emperor"]["x"], data["devil_emperor"]["y"]))
 				d.notice_mission(91717, mob_link(data["devil_emperor"]["vnum"]))
 			end
 		end
