@@ -6,3 +6,7 @@ srv1/share/local/europe/object/
 srv1/share/local/europe/pre_qc/
 srv1/share/local/europe/gem
 srv1/share/mark/
+gen_settings.pyc
+gen_settings.py
+__pycache__/gen_settings.cpython-39.pyc
+*.rules
