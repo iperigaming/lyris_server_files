@@ -276,6 +276,8 @@ quest akumea_dungeon_lv50 begin
 
             local count = d.getf("kill_count")
             if count >= 4 then
+                d.setf("kill_count", 0)
+
                 pc.give_item2(DUNGEON_BOOK_KEY);
                 d.notice_mission(91774)
             else
