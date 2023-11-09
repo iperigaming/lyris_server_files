@@ -1,0 +1,21 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\ymir work\npc2\plechi_summer2022_pet7\plechi_summer2022_pet7.GR2"
+
+Group ShapeData
+{
+    PathName 		 "D:\ymir work\npc2\plechi_summer2022_pet7\"
+    ShapeDataCount 		 1
+    Group ShapeData00
+    {
+        ShapeIndex 		 0
+        Model 		 "plechi_summer2022_pet7.gr2"
+        SourceSkin 		 "plechito_tex.dds"
+        TargetSkin 		 "plechito_tex.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       0
+    
+}
