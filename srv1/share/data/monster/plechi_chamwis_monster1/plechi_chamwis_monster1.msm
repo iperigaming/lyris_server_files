@@ -1,0 +1,58 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/monster2/plechi_chamber_wisdom/plechi_chamwis_monster1/plechi_chamwis_monster1.gr2"
+
+Group ShapeData
+{
+    PathName            "d:\ymir work\monster2\plechi_chamber_wisdom\plechi_chamwis_monster1\"
+    ShapeDataCount      1
+
+    Group ShapeData00
+    {
+        ShapeIndex       0
+
+        Model            "plechi_chamwis_monster1.gr2"
+        SourceSkin       "plechito_tex.dds"
+        TargetSkin       "plechito_tex.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Spine1_book_01"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Spine1_book_01"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+}

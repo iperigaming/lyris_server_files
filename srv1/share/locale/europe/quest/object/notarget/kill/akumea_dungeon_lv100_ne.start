@@ -1,0 +1,41 @@
+if akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then if number ( 1 , 1000 ) <= 8 then 
+local settings = akumea_dungeon_lv100_ne . settings ( ) 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+d . give_or_drop_leader_item ( settings [ "data" ] [ "level" ] [ 2 ] [ "drop" ] , 1 ) 
+end 
+ return end if npc . get_race ( ) == 6151 and akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then akumea_dungeon_lv100_ne . set_level ( 5 ) 
+ return end if akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then if number ( 1 , 1000 ) <= 10 then 
+local settings = akumea_dungeon_lv100_ne . settings ( ) 
+d . give_or_drop_leader_item ( settings [ "data" ] [ "level" ] [ 5 ] [ "drop" ] , 1 ) 
+end 
+ return end if npc . get_race ( ) == 8058 and akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then local count = d . getf ( "kill_count" ) + 1 
+d . setf ( "kill_count" , count ) 
+local settings = akumea_dungeon_lv100_ne . settings ( ) 
+local need_count = table . getn ( settings [ "data" ] [ "level" ] [ 6 ] [ "stone" ] [ "pos" ] ) 
+if count >= need_count then 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_ne . set_level ( 7 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , need_count ) 
+end 
+ return end if npc . get_race ( ) == 20399 and akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then d . kill_monster ( ) 
+akumea_dungeon_lv100_ne . set_level ( 8 ) 
+ return end if npc . get_race ( ) == 6191 and akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then local settings = akumea_dungeon_lv100_ne . settings ( ) 
+akumea_dungeon_lv100_ne . clear_timers ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "akumea_dungeon_lv100_ne_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( settings [ "data" ] [ "level" ] [ 8 ] [ "nemere" ] [ "vnum" ] ) ) 
+ return end if akumea_dungeon_lv100_ne . is_dungeon ( ) then local level = d . getf ( "dungeon_level" ) 
+local count = d . getf ( "monster_count" ) - d . new_count_monster ( ) 
+if level == 1 or level == 3 then 
+local need_count = 100 
+if count >= need_count then 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_ne . set_level ( level + 1 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , need_count ) 
+end 
+end 
+ return end 

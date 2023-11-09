@@ -1,0 +1,299 @@
+define DUNGEON_MAP_INDEX 406
+define DUNGEON_REGEN_PATH = "data/dungeon/akumea_dungeon_lv105_jt/%s.txt"
+
+define DUNGEON_MOB_ENTRY 20412
+define DUNGEON_MOB_FIRST_BOSS 6408
+define DUNGEON_MOB_JOTUN 6192
+
+define DUNGEON_MOB_LEVEL1_STONE 8077
+
+define X 1
+define Y 2
+define DIR 3
+
+quest akumea_dungeon_lv105_jt begin
+    state start begin
+        function settings()
+            return {
+                ["requirements"] = {
+                    ["min_level"] = 105,
+                    ["max_level"] = 150,
+                    ["ticket"] = 30613,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 12430,
+                    ["y"] = 16045,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 12430,
+                    ["y"] = 16045,
+                },
+                ["cooldown"] = 9000,
+                ["data"] = {
+                    ["level"] = {
+                        [1] = {
+                            ["stone"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL1_STONE,
+                                ["pos"] = {
+                                    { 60, 948 },
+                                    { 60, 935 },
+                                    { 75, 935 },
+                                    { 75, 948 },
+                                }
+                            }
+                        },
+                    },
+                    ["erebus"] = {
+                        ["vnum"] = DUNGEON_MOB_FIRST_BOSS,
+                        ["pos"] = {
+                            ["x"] = 69,
+                            ["y"] = 941,
+                        },
+                    },
+                    ["jotun"] = {
+                        ["vnum"] = DUNGEON_MOB_JOTUN,
+                        ["pos"] = {
+                            ["x"] = 69,
+                            ["y"] = 941,
+                        },
+                    },
+                },
+            }
+        end
+
+        function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= DUNGEON_MAP_INDEX * 10000 and index < (DUNGEON_MAP_INDEX + 1) * 10000;
+        end
+
+        function set_level(level)
+            d.setf("dungeon_level", level)
+            server_timer("akumea_dungeon_lv105_jt_warp", 1, pc.get_map_index())
+        end
+
+        function clear_timers()
+            clear_server_timer("akumea_dungeon_lv105_jt_warp", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_monster_wave", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_spawn_jotun", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_60min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_45min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_30min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_15min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_10min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_5min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_1min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv105_jt_final_exit", get_server_timer_arg())
+        end
+
+        function create_dungeon()
+            local settings = akumea_dungeon_lv105_jt.settings()
+            local requirements = settings["requirements"]
+            local pos = settings["pos"]
+
+            if party.is_party() then
+                local near_count = party.get_near_count()
+
+                local pids = { party.get_member_pids() };
+                for i, pid in next, pids, nil do
+                    q.begin_other_pc_block(pid)
+                    pc.remove_item(requirements["ticket"], 1)
+                    pc.setf("akumea_dungeon_lv105_jt", "enter_time", get_global_time())
+                    q.end_other_pc_block()
+                end
+
+                d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+                d.setf("dungeon_member_count", near_count)
+            else
+                pc.remove_item(requirements["ticket"], 1)
+                pc.setf("akumea_dungeon_lv105_jt", "enter_time", get_global_time())
+                d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+            end
+
+            server_timer("akumea_dungeon_lv105_jt_60min_left", 15*60, d.get_map_index())
+        end
+
+        function create_level()
+            local settings = akumea_dungeon_lv105_jt.settings()
+            local data = settings["data"]
+
+            local level = d.getf("dungeon_level")
+
+            if level == 1 then
+                local stone = data["level"][level]["stone"]
+                for _, pos in ipairs(stone["pos"]) do
+                    d.spawn_mob(stone["vnum"], pos[X], pos[Y])
+                end
+
+                d.notice_mission(91725)
+                d.notice_sub_mission("(%d / %d)", 0, 4)
+            elseif level == 2 then
+                d.notice_mission(91716)
+                d.regen_file(string.format(DUNGEON_REGEN_PATH, "regen_1"))
+
+                d.setf("monster_count", d.new_count_monster())
+                d.notice_sub_mission("(%d / %d)", 0, 70)
+            elseif level == 3 then
+                d.notice_mission(91717, mob_link(data["erebus"]["vnum"]))
+                d.spawn_mob(data["erebus"]["vnum"], data["erebus"]["pos"]["x"], data["erebus"]["pos"]["y"])
+            elseif level == 4 then
+                d.notice_mission(91717, mob_link(data["jotun"]["vnum"]))
+                d.spawn_mob(data["jotun"]["vnum"], data["jotun"]["pos"]["x"], data["jotun"]["pos"]["y"])
+            end
+        end
+
+        when login with akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 0 begin
+            if party.is_party() then
+                local count = d.getf("dungeon_member_count")
+
+                if count == 0 then
+                    d.notice_mission(91721)
+                    return
+                end
+
+                if count < party.get_near_count() then
+                    d.notice_mission(91721)
+                    return
+                end
+            end
+
+            akumea_dungeon_lv105_jt.set_level(1)
+        end
+
+        -- dungeon entry
+        when DUNGEON_MOB_ENTRY.chat.locale_quest(799) with not akumea_dungeon_lv105_jt.is_dungeon() begin
+            say_title(mob_name(DUNGEON_MOB_ENTRY))
+            say(locale_quest(794))
+
+            local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = akumea_dungeon_lv105_jt.settings()
+
+            if dungeonLib.CheckEnter("akumea_dungeon_lv105_jt", settings["cooldown"], settings["requirements"]) == false then
+                return
+            end
+
+            say_reward(locale_quest(91723))
+            wait()
+
+            akumea_dungeon_lv105_jt.create_dungeon()
+        end
+
+       -- level 1
+       when kill with npc.get_race() == DUNGEON_MOB_LEVEL1_STONE and akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 1 begin
+            local count = d.getf("stone_kill") + 1
+            d.setf("stone_kill", count)
+
+            d.notice_sub_mission("(%d / %d)", count, 4)
+
+            if count >= 4 then
+                d.kill_monster()
+
+                akumea_dungeon_lv105_jt.set_level(2)
+            end
+        end
+
+        -- level 3
+        when kill with npc.get_race() == DUNGEON_MOB_FIRST_BOSS and akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 3 begin
+            d.notice_mission(91781, mob_link(DUNGEON_MOB_JOTUN), 5)
+
+            akumea_dungeon_lv105_jt.set_level(4)
+        end
+
+        -- level 4
+        when kill with npc.get_race() == DUNGEON_MOB_JOTUN and akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 4 begin
+            local settings = akumea_dungeon_lv105_jt.settings()
+
+            akumea_dungeon_lv105_jt.clear_timers()
+            d.kill_all()
+
+            d.complete()
+
+            server_timer("akumea_dungeon_lv105_jt_final_exit", 2*60, d.get_map_index())
+            d.notice_mission(91728, mob_link(settings["data"]["jotun"]["vnum"]))
+        end
+
+        when kill with akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 2 begin
+            local count = d.getf("monster_count")
+
+            if d.new_count_monster() <= (count - 70) then
+                d.kill_monster()
+                
+                d.setf("monster_count", 0)
+
+                akumea_dungeon_lv105_jt.set_level(3)
+            else
+                d.notice_sub_mission("(%d / %d)", count - d.new_count_monster(), 70)
+            end
+        end
+
+         -- server time left timers
+         when akumea_dungeon_lv105_jt_warp.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                akumea_dungeon_lv105_jt.create_level()
+            end
+        end
+
+         when akumea_dungeon_lv105_jt_60min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91733)
+                server_timer("akumea_dungeon_lv105_jt_45min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_45min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91734)
+                server_timer("akumea_dungeon_lv105_jt_30min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_30min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91735)
+                server_timer("akumea_dungeon_lv105_jt_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_15min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91736)
+                server_timer("akumea_dungeon_lv105_jt_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_10min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91737)
+                server_timer("akumea_dungeon_lv105_jt_5min_left", 4*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_5min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91738)
+                server_timer("akumea_dungeon_lv105_jt_5min_left", 60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_1min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91739)
+                server_timer("akumea_dungeon_lv105_jt_final_exit", 3, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv105_jt_final_exit.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_lv105_jt.settings()
+                d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+            end
+        end
+    end
+end

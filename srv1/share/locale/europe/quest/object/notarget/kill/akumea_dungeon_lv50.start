@@ -1,0 +1,22 @@
+if npc . get_race ( ) == 8480 and akumea_dungeon_lv50 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 1 then pc . give_item2 ( 30812 ) 
+d . notice_mission ( 91774 ) 
+ return end if npc . get_race ( ) == 8481 and akumea_dungeon_lv50 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then d . setf ( "kill_count" , d . getf ( "kill_count" ) + 1 ) 
+local count = d . getf ( "kill_count" ) 
+if count >= 4 then 
+pc . give_item2 ( 30812 ) ; 
+d . notice_mission ( 91774 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 4 ) 
+end 
+ return end if akumea_dungeon_lv50 . is_dungeon ( ) then local level = d . getf ( "dungeon_level" ) 
+local count = d . getf ( "mob_count" ) 
+if level == 2 or level == 4 then 
+if count - d . new_count_monster ( ) >= 100 then 
+d . kill_monster ( ) 
+d . give_or_drop_leader_item ( 30812 , 1 ) ; 
+d . notice_mission ( 91774 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , 100 ) 
+end 
+end 
+ return end 

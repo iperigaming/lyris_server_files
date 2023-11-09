@@ -1,0 +1,6 @@
+if akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then item . remove ( ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_c20_an/%s.txt" , "regen_3f_mobs" ) ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , d . new_count_monster ( ) ) 
+ return end 

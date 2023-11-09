@@ -1,0 +1,13 @@
+if nuyah_dungeon_lv30 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 0 then if party . is_party ( ) then 
+local count = d . getf ( "dungeon_member_count" ) 
+if count == 0 then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+if count < party . get_near_count ( ) then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+end 
+nuyah_dungeon_lv30 . set_level ( 1 ) 
+ return end 

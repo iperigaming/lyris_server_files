@@ -1,0 +1,35 @@
+if npc . get_race ( ) == 1091 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 1 then d . clear_regen ( ) 
+d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 2 ) 
+ return end if npc . get_race ( ) == 8016 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 3 ) 
+ return end if npc . get_race ( ) == 8017 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then if d . is_unique_dead ( "stone_1" ) then 
+d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 4 ) 
+end 
+ return end if nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 and d . getf ( "lock_drop" ) == 0 then if number ( 1 , 100 ) <= 5 then 
+d . setf ( "lock_drop" , 1 ) 
+d . give_or_drop_leader_item ( 50084 , 1 ) 
+end 
+ return end if npc . get_race ( ) == 1092 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 6 ) 
+ return end if npc . get_race ( ) == 8018 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then local count = d . getf ( "stone_kill" ) + 1 
+d . setf ( "stone_kill" , count ) 
+d . notice_sub_mission ( "(%d / %d)" , count , 4 ) 
+if count >= 4 then 
+d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 7 ) 
+end 
+ return end if npc . get_race ( ) == 8019 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then d . kill_monster ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 8 ) 
+ return end if nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then if number ( 1 , 100 ) <= 5 then 
+d . kill_monster ( ) 
+d . give_or_drop_leader_item ( 30304 , 1 ) 
+end 
+ return end if npc . get_race ( ) == 1093 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 9 then nuyah_dungeon_lv75_dt . clear_timers ( ) 
+d . clear_regen ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "nuyah_dungeon_lv75_dt_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( 1093 ) ) 
+ return end 

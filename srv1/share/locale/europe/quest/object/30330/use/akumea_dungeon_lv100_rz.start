@@ -1,0 +1,14 @@
+if akumea_dungeon_lv100_rz . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+local unique = dungeonLib . GetUnique ( "seal_%d" , 7 ) 
+d . kill_unique ( unique ) 
+item . remove ( ) 
+if count >= 7 then 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+d . setf ( "seal_count" , 0 ) 
+akumea_dungeon_lv100_rz . set_random_level ( ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 7 ) 
+end 
+ return end 

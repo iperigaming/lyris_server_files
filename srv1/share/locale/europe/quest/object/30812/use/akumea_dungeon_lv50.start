@@ -1,0 +1,19 @@
+if akumea_dungeon_lv50 . is_dungeon ( ) and d . getf ( "dungeon_level" ) <= 4 then local level = d . getf ( "dungeon_level" ) 
+if d . is_unique_dead ( string . format ( "book_%d" , level ) ) then 
+return 
+end 
+local unique_clicked = akumea_dungeon_lv50 . GetUnique ( "book_%d" , 4 , level ) 
+item . remove ( ) 
+d . setf ( unique_clicked , 1 ) 
+if d . get_unique_vid ( string . format ( "book_%d" , level ) ) == d . get_unique_vid ( unique_clicked ) then 
+d . kill_unique ( unique_clicked ) 
+d . kill_monster ( ) 
+d . setf ( "dungeon_level" , level + 1 ) 
+for i = 1 , 4 begin 
+d . setf ( string . format ( "book_%d" , i ) , 0 ) 
+end 
+else 
+chat ( "That is not the key to this book, the key is broken." ) 
+end 
+akumea_dungeon_lv50 . create_level ( ) 
+ return end 

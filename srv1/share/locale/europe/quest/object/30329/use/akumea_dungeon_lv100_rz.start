@@ -1,0 +1,6 @@
+if akumea_dungeon_lv100_rz . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then d . kill_unique ( "seal" ) 
+item . remove ( ) 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_rz . set_random_level ( ) 
+ return end 

@@ -1,0 +1,5 @@
+say_title ( mob_name ( 60003 ) .. ":" ) 
+say ( locale_quest ( 11830 ) ) 
+wait ( ) 
+setskin ( NOWINDOW ) 
+game . open_aura_evolve_window ( ) 

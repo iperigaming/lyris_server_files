@@ -1,0 +1,1695 @@
+----------------------------------------------- METIN DROPS START
+Group	tier1_steinchen
+{
+	Mob	8001 8002 8003 8004 8005 
+	Type	drop
+	1	71151	5	300 -- Grüner Zauber
+	2	71152	1	300 -- Grüne Stärke
+	3	50300	1	10 -- Fertigkeitsbuch
+	4	25040	1	15 -- Segensschriftrolle
+	5	39070	1	400 -- Graues Fragment
+}
+
+Group	tier2_steinchen
+{
+	Mob	8006 8007
+	Type	drop
+	1	71084	5	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	50300	1	400 -- Fertigkeitsbuch
+	5	27987	1	25 -- Muschel
+	6	50132	1	400 -- Mysteriöse Rubintruhe
+	7	50133	1	10 -- Mysteriöse Smaragdtruhe
+	8	50134	1	5 -- Mysteriöse Saphirtruhe
+	9	25040	1	45 -- Segensschriftrolle
+	10	30270	1	250 -- Drachensteinsplitter
+	11	50926	1	15 -- Schmuckstein
+	12	39070	1	400 -- Graues Fragment
+}
+
+Group	tier3_steinchen
+{
+	Mob	8008 8009 8010 8437 8438
+	Type	drop
+	1	71084	10	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	50300	1	400 -- Fertigkeitsbuch
+	5	50300	1	400 -- Fertigkeitsbuch
+	6	27987	1	25 -- Muschel
+	7	50132	1	400 -- Mysteriöse Rubintruhe
+	8	50133	1	10 -- Mysteriöse Smaragdtruhe
+	9	50134	1	5 -- Mysteriöse Saphirtruhe
+	10	50513	1	3 -- Seelenstein
+	11	39070	1	400 -- Graues Fragment
+	12	39071	1	100 -- Weißes Fragment
+	13	25040	1	45 -- Segensschriftrolle
+	14	30270	1	250 -- Drachensteinsplitter
+	15	50926	1	15 -- Schmuckstein
+	16	61031	1	3 -- Buffi Seelenstein
+}
+
+Group	tier4_steinchen
+{
+	Mob	8011 8012 8013 8480 8481
+	Type	drop
+	1	71084	14	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	2	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	10 -- Mysteriöse Smaragdtruhe
+	7	50134	1	5 -- Mysteriöse Saphirtruhe
+	8	50513	1	3 -- Seelenstein
+	9	39071	1	400 -- Weißes Fragment
+	10	50300	1	400 -- Fertigkeitsbuch
+	11	50300	1	400 -- Fertigkeitsbuch
+	12	50300	1	400 -- Fertigkeitsbuch
+	13	25040	1	45 -- Segensschriftrolle
+	14	30270	2	250 -- Drachensteinsplitter
+	15	50926	2	15 -- Schmuckstein
+	16	61031	1	3 -- Buffi Seelenstein
+}
+
+Group	tier5_steinchen
+{
+	Mob	8014
+	Type	drop
+	1	71084	16	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	10 -- Mysteriöse Smaragdtruhe
+	7	50134	1	5 -- Mysteriöse Saphirtruhe
+	8	50513	1	5 -- Seelenstein
+	9	50300	1	400 -- Fertigkeitsbuch
+	10	50300	1	400 -- Fertigkeitsbuch
+	11	50300	1	400 -- Fertigkeitsbuch
+	12	50300	1	400 -- Fertigkeitsbuch
+	13	39071	1	400 -- Weißes Fragment
+	14	39072	1	180 -- Grünes Fragment
+	15	25040	1	45 -- Segensschriftrolle
+	16	30270	2	250 -- Drachensteinsplitter
+	17	50926	2	15 -- Schmuckstein
+	18	61031	1	5 -- Buffi Seelenstein
+}
+
+Group	tier6_steinchen
+{
+	Mob	8024
+	Type	drop
+	1	71084	18	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	15 -- Mysteriöse Smaragdtruhe
+	7	50134	1	20 -- Mysteriöse Saphirtruhe
+	8	50513	1	8 -- Seelenstein
+	9	50300	1	400 -- Fertigkeitsbuch
+	10	50300	1	400 -- Fertigkeitsbuch
+	11	50300	1	400 -- Fertigkeitsbuch
+	12	50300	1	400 -- Fertigkeitsbuch
+	13	39071	1	400 -- Weißes Fragment
+	14	39072	1	350 -- Grünes Fragment
+	15	2130	1	5 -- Aprikosen-Bogen+0
+	16	1110	1	5 -- Blitzmesser+0
+	17	7140	1	5 -- Erlösungsfächer+0
+	18	240	1	5 -- Exorzismusschwert+0
+	19	5100	1	5 -- Himmel-&-Erde-Glocke+0
+	20	3140	1	5 -- Magnetische Klinge+0
+	21	160	1	5 -- Nymphenschwert+0
+	22	25040	1	45 -- Segensschriftrolle
+	23	30270	2	250 -- Drachensteinsplitter
+	24	80019	1	15 -- Feines Tuch
+	25	50926	3	15 -- Schmuckstein
+	26	61031	1	8 -- Buffi Seelenstein
+}
+
+Group	tier7_steinchen
+{
+	Mob	8025 8026
+	Type	drop
+	1	71084	20	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	20 -- Mysteriöse Smaragdtruhe
+	7	50134	1	15 -- Mysteriöse Saphirtruhe
+	8	50513	1	8 -- Seelenstein
+	9	50300	1	400 -- Fertigkeitsbuch
+	10	50300	1	400 -- Fertigkeitsbuch
+	11	50300	1	400 -- Fertigkeitsbuch
+	12	50300	1	400 -- Fertigkeitsbuch
+	13	39071	1	400 -- Weißes Fragment
+	14	39072	1	350 -- Grünes Fragment
+	15	2130	1	5 -- Aprikosen-Bogen+0
+	16	1110	1	5 -- Blitzmesser+0
+	17	7140	1	5 -- Erlösungsfächer+0
+	18	240	1	5 -- Exorzismusschwert+0
+	19	5100	1	5 -- Himmel-&-Erde-Glocke+0
+	20	3140	1	5 -- Magnetische Klinge+0
+	21	160	1	5 -- Nymphenschwert+0
+	22	11280	1	5 -- Drachengott-Panzer+0
+	23	11480	1	5 -- Fuchsienanzug+0
+	24	11680	1	5 -- Seelen-Plattenpanzer+0
+	25	11880	1	5 -- Kleidung der Baronin+0
+	26	72002	1	3 -- Erfahrungsring(30m)
+	27	72005	1	3 -- Diebeshandschuh
+	28	25040	1	45 -- Segensschriftrolle
+	29	30270	2	250 -- Drachensteinsplitter
+	30	80019	1	15 -- Feines Tuch
+	31	50926	3	20 -- Schmuckstein
+	32	61031	1	8 -- Buffi Seelenstein
+	33	12530	1	2 -- Gehörnter Helm+0
+	34	12390	1	2 -- Orkkapuze+0
+	35	12670	1	2 -- Kardinalshut+0
+	36	12260	1	2 -- Furchtmaske+0
+}
+
+Group	tier8_steinchen
+{
+	Mob	8027 8038
+	Type	drop
+	1	71084	25	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	50 -- Mysteriöse Smaragdtruhe
+	7	50134	1	30 -- Mysteriöse Saphirtruhe
+	8	50513	1	10 -- Seelenstein
+	9	50300	1	400 -- Fertigkeitsbuch
+	10	50300	1	400 -- Fertigkeitsbuch
+	11	50300	1	400 -- Fertigkeitsbuch
+	12	50300	1	400 -- Fertigkeitsbuch
+	13	2140	1	5 -- Großgelbdrachenbogen+0
+	14	1100	1	5 -- Drachenmesser+0
+	15	7130	1	5 -- Himmelsvogelfächer+0
+	16	150	1	5 -- Geisterzahnklinge+0
+	17	5090	1	5 -- Donnervogelglocke+0
+	18	3130	1	5 -- Partisane+0
+	19	140	1	5 -- Schlachtschwert+0
+	20	11280	1	5 -- Drachengott-Panzer+0
+	21	11480	1	5 -- Fuchsienanzug+0
+	22	11680	1	5 -- Seelen-Plattenpanzer+0
+	23	11880	1	5 -- Kleidung der Baronin+0
+	24	72002	1	3 -- Erfahrungsring(30m)
+	25	72005	1	3 -- Diebeshandschuh
+	26	39072	1	400 -- Grünes Fragment
+	27	39073	1	150 -- Gelbes Fragment
+	28	11290	1	2 -- Schwarzstahl-Panzer+0
+	29	11690	1	2 -- Magie-Plattenpanzer+0
+	30	11490	1	2 -- Schwarzwindanzug+0
+	31	11890	1	2 -- Schwarze Kleidung+0
+	32	100300	1	5 -- Grüne Drachenbohne
+	33	14200	1	5 -- Himmelstränenarmband+0
+	34	16200	1	5 -- Himmelstränenhalskette+0
+	35	17200	1	5 -- Himmelstränenohrringe+0
+	36	15200	1	5 -- Phönixschuhe+0
+	37	25040	1	80 -- Segensschriftrolle
+	38	30270	3	250 -- Drachensteinsplitter
+	39	80019	1	15 -- Feines Tuch
+	40	13060	1	5 -- Falkenschild+0
+	41	13080	1	5 -- Tigerschild+0
+	42	13100	1	5 -- Löwenkantenschild+0
+	43	13120	1	5 -- Drachenschuppenschild+0
+	44	50926	3	60 -- Schmuckstein
+	45	61031	1	10 -- Buffi Seelenstein
+	46	39071	1	300 -- Weißes Fragment
+	47	12530	1	5 -- Gehörnter Helm+0
+	48	12390	1	5 -- Orkkapuze+0
+	49	12670	1	5 -- Kardinalshut+0
+	50	12260	1	5 -- Furchtmaske+0
+}
+
+Group	tier9_steinchen
+{
+	Mob	8051 8052 8053 8054 8057 8058 20399
+	Type	drop
+	1	71084	30	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	1	80 -- Mysteriöse Smaragdtruhe
+	7	50134	1	80 -- Mysteriöse Saphirtruhe
+	8	50513	1	10 -- Seelenstein
+	9	2147	1	5 -- Großgelbdrachenbogen+7
+	10	1107	1	5 -- Drachenmesser+7
+	11	7137	1	5 -- Himmelsvogelfächer+7
+	12	157	1	5 -- Geisterzahnklinge+7
+	13	5097	1	5 -- Donnervogelglocke+7
+	14	3137	1	5 -- Partisane+7
+	15	147	1	5 -- Schlachtschwert+7
+	16	72002	1	10 -- Erfahrungsring(30m)
+	17	72005	1	10 -- Diebeshandschuh
+	18	39072	1	400 -- Grünes Fragment
+	19	39073	1	350 -- Gelbes Fragment      
+	20	11297	1	5 -- Schwarzstahl-Panzer+7
+	21	11697	1	5 -- Magie-Plattenpanzer+7
+	22	11497	1	5 -- Schwarzwindanzug+7
+	23	11897	1	5 -- Schwarze Kleidung+7
+	24	100300	1	10 -- Grüne Drachenbohne
+	25	100400	1	5 -- Blaue Drachenbohne
+	26	14207	1	5 -- Himmelstränenarmband+7
+	27	16207	1	5 -- Himmelstränenhalskette+7
+	28	17207	1	5 -- Himmelstränenohrringe+7
+	29	15207	1	5 -- Phönixschuhe+7
+	30	25040	1	80 -- Segensschriftrolle
+	31	30270	4	250 -- Drachensteinsplitter
+	32	80019	1	20 -- Feines Tuch
+	33	50323	1	15 -- Büchertruhe Konter
+	34	50515	1	1 -- Lehrbuch Konter
+	35	50525	1	3 -- Seelenstein+
+	36	30500	1	10 -- Rubin-Gravurmesser
+	37	30501	1	10 -- Goldschelle
+	38	30502	1	10 -- Rubinverzierung
+	39	30503	1	10 -- Amethyst-Gravurmesser
+	40	30504	1	10 -- Silberschelle
+	41	30505	1	10 -- Smaragdverzierung
+	42	30506	1	10 -- Saphir-Gravurmesser
+	43	30507	1	10 -- Bronzeschelle
+	44	30508	1	10 -- Saphirverzierung
+	45	30509	1	10 -- Blaudrachenstahl
+	46	30510	1	10 -- Prächtiges Schulterstück
+	47	30511	1	10 -- Roter Stoff
+	48	30512	1	10 -- Rotdrachenstahl
+	49	30513	1	10 -- Edles Schulterstück
+	50	30514	1	10 -- Violetter Stoff
+	51	30515	1	10 -- Purpurdrachenstahl
+	52	30516	1	10 -- Antikes Schulterstück
+	53	30517	1	10 -- Goldener Stoff
+	54	30518	1	10 -- Goldgarn
+	55	30519	1	10 -- Goldhaken
+	56	30520	1	10 -- Goldschnalle
+	57	30521	1	10 -- Ringelement
+	58	12537	1	5 -- Gehörnter Helm+7
+	59	12397	1	5 -- Orkkapuze+7
+	60	12677	1	5 -- Kardinalshut+7
+	61	12267	1	5 -- Furchtmaske+7
+	62	51001	1	250 -- Energiesplitter
+	63	13060	1	20 -- Falkenschild+0
+	64	13080	1	5 -- Tigerschild+0
+	65	13100	1	5 -- Löwenkantenschild+0
+	66	13120	1	5 -- Drachenschuppenschild+0
+	67	50926	4	60 -- Schmuckstein
+	68	61031	1	10 -- Buffi Seelenstein
+	69	30611	1	10 -- Schwere Gurte
+	70	30605	1	10 -- Goldplatten
+	71	30606	1	10 -- Silberplatten
+}
+
+Group	tier10_steinchen
+{
+	Mob	8055 8056
+	Type	drop
+	1	71084	35	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	3	80 -- Mysteriöse Smaragdtruhe
+	7	50134	3	80 -- Mysteriöse Saphirtruhe
+	8	50513	1	10 -- Seelenstein
+	9	2147	1	5 -- Großgelbdrachenbogen+7
+	10	1107	1	5 -- Drachenmesser+7
+	11	7137	1	5 -- Himmelsvogelfächer+7
+	12	157	1	20 -- Geisterzahnklinge+7
+	13	5097	1	5 -- Donnervogelglocke+7
+	14	3137	1	5 -- Partisane+7
+	15	147	1	5 -- Schlachtschwert+7
+	16	72002	1	10 -- Erfahrungsring(30m)
+	17	72005	1	10 -- Diebeshandschuh
+	18	39074	1	250 -- Blaues Fragment
+	19	39073	1	400 -- Gelbes Fragment
+	20	11297	1	5 -- Schwarzstahl-Panzer+7
+	21	11697	1	5 -- Magie-Plattenpanzer+7
+	22	11497	1	5 -- Schwarzwindanzug+7
+	23	11897	1	5 -- Schwarze Kleidung+7
+	24	100300	1	15 -- Grüne Drachenbohne
+	25	100400	1	10 -- Blaue Drachenbohne
+	26	14207	1	5 -- Himmelstränenarmband+7
+	27	16207	1	5 -- Himmelstränenhalskette+7
+	28	17207	1	5 -- Himmelstränenohrringe+7
+	29	15207	1	5 -- Phönixschuhe+7
+	30	25040	1	80 -- Segensschriftrolle
+	31	30270	4	250 -- Drachensteinsplitter
+	32	80019	1	20 -- Feines Tuch
+	33	50323	1	25 -- Büchertruhe Konter
+	34	50515	1	1 -- Lehrbuch Konter
+	35	50525	1	5 -- Seelenstein+
+	36	30500	1	10 -- Rubin-Gravurmesser
+	37	30501	1	10 -- Goldschelle
+	38	30502	1	10 -- Rubinverzierung
+	39	30503	1	10 -- Amethyst-Gravurmesser
+	40	30504	1	10 -- Silberschelle
+	41	30505	1	10 -- Smaragdverzierung
+	42	30506	1	10 -- Saphir-Gravurmesser
+	43	30507	1	10 -- Bronzeschelle
+	44	30508	1	10 -- Saphirverzierung
+	45	30509	1	10 -- Blaudrachenstahl
+	46	30510	1	10 -- Prächtiges Schulterstück
+	47	30511	1	10 -- Roter Stoff
+	48	30512	1	10 -- Rotdrachenstahl
+	49	30513	1	10 -- Edles Schulterstück
+	50	30514	1	10 -- Violetter Stoff
+	51	30515	1	10 -- Purpurdrachenstahl
+	52	30516	1	10 -- Antikes Schulterstück
+	53	30517	1	10 -- Goldener Stoff
+	54	30518	1	10 -- Goldgarn
+	55	30519	1	10 -- Goldhaken
+	56	30520	1	10 -- Goldschnalle
+	57	30521	1	10 -- Ringelement
+	58	12530	1	5 -- Gehörnter Helm+0
+	59	12390	1	5 -- Orkkapuze+0
+	60	12670	1	5 -- Kardinalshut+0
+	61	12260	1	5 -- Furchtmaske+0
+	62	51001	1	250 -- Energiesplitter
+	63	13060	1	5 -- Falkenschild+0
+	64	13080	1	5 -- Tigerschild+0
+	65	13100	1	5 -- Löwenkantenschild+0
+	66	13120	1	5 -- Drachenschuppenschild+0
+	67	50926	4	60 -- Schmuckstein
+	68	61031	1	10 -- Buffi Seelenstein
+	69	30611	1	10 -- Schwere Gurte
+	70	30605	1	10 -- Goldplatten
+	71	30606	1	10 -- Silberplatten
+}
+
+Group	wald_pvp_stein
+{
+	Mob	8061 8059
+	Type	drop
+	1	71084	40	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskuge
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	50513	1	12 -- Seelenstein
+	9	72002	1	10 -- Erfahrungsring(30m)
+	10	72005	1	10 -- Diebeshandschuh
+	11	39074	1	400 -- Blaues Fragment
+	12	39073	1	350 -- Gelbes Fragment
+	13	100500	1	10 -- Rosa Drachenbohne
+	14	100400	1	20 -- Blaue Drachenbohne
+	15	25041	1	2 -- Magisches Metall
+	16	30270	5	250 -- Drachensteinsplitter
+	17	80019	1	80 -- Feines Tuch
+	18	50323	1	50 -- Büchertruhe Konter
+	19	50515	1	1 -- Lehrbuch Konter
+	20	50525	1	10 -- Seelenstein+
+	21	50324	1	30 -- Büchertruhe Boost
+	22	50514	1	1 -- Lehrbuch Boost
+	23	27992	1	3 -- Weiße Perle
+	24	27993	1	3 -- Blaue Perle
+	25	27994	1	3 -- Rote Perle
+	26	30626	1	60 -- Kyanit
+	27	30629	1	20 -- Elixier der Götter
+	28	30627	1	10 -- Frucht der Götter
+	29	30624	1	5 -- Seele der Wahrheit
+	30	31019	1	30 -- Carapax-Pulver
+	31	30559	1	30 -- Glänzender Sand(purpur)
+	32	30623	1	30 -- Buch der Wahrheit
+	33	31226	1	30 -- Verdorbener Kern
+	34	31018	1	30 -- Carapax-Script
+	35	30625	1	30 -- Padparadscha
+	36	30628	1	30 -- Gottesblume
+	37	30616	1	5 -- Titandioxid
+	38	30617	1	5 -- Achat
+	39	30618	1	5 -- Mondstein
+	40	50926	5	70 -- Schmuckstein
+	41	31150	1	8 -- Aura-Veredelungsbox
+	42	61031	1	12 -- Buffi Seelenstein
+	43	25040	1	80 -- Segenschriftrolle
+	44	31077	1	30 -- Fundamentsteinpulver
+	45	170	1	5 -- Stichschwert
+	46	3150	1	5 -- Halbmenschenklinge+0
+	47	250	1	5 -- Dämonenklinge+0
+	48	2180	1	5 -- Blaudrachenbogen+0
+	49	1120	1	5 -- Siamesenmesser+0
+	50	7150	1	5 -- Ekstasefächer+0
+}
+
+Group	ochao_pvm_stein
+{
+	Mob	8077 8472 8473 8474 8475 8476
+	Type	drop
+	1	71084	40	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	50513	1	12 -- Seelenstein
+	9	72002	1	10 -- Erfahrungsring(30m)
+	10	72005	1	10 -- Diebeshandschuh
+	11	39074	1	400 -- Blaues Fragment
+	12	39073	1	350 -- Gelbes Fragment
+	13	100500	1	10 -- Rosa Drachenbohne
+	14	100400	1	20 -- Blaue Drachenbohne
+	15	25041	1	2 -- Magisches Metall
+	16	30270	5	250 -- Drachensteinsplitter
+	17	80019	1	80 -- Feines Tuch
+	18	50323	1	50 -- Büchertruhe Konter
+	19	50515	1	1 -- Lehrbuch Konter
+	20	50525	1	10 -- Seelenstein+
+	21	50324	1	30 -- Büchertruhe Boost
+	22	50514	1	1 -- Lehrbuch Boost
+	23	27992	1	3 -- Weiße Perle
+	24	27993	1	3 -- Blaue Perle
+	25	27994	1	3 -- Rote Perle
+	26	30616	1	20 -- Titandioxid
+	27	30619	1	20 -- Goldmetallic Farbstoff
+	28	33029	1	20 -- Rote Zodiakschatulle
+	29	30618	1	20 -- Mondstein
+	30	33030	1	60 -- Blaue Zodiakschatulle
+	31	30612	1	20 -- Stabile Schnüre
+	32	30611	1	20 -- Schwere Gurte
+	33	50926	5	70 -- Schmuckstein
+	34	31150	1	8 -- Aura-Veredelungsbox
+	35	61031	1	12 -- Buffi Seelenstein
+	36	25040	1	80 -- Segenschriftrolle
+	37	30617	1	5 -- Achat
+	38	170	1	5 -- Stichschwert
+	39	3150	1	5 -- Halbmenschenklinge+0
+	40	250	1	5 -- Dämonenklinge+0
+	41	2180	1	5 -- Blaudrachenbogen+0
+	42	1120	1	5 -- Siamesenmesser+0
+	43	7150	1	5 -- Ekstasefächer+0
+}
+
+Group	yohara_tier1glove_stein
+{
+	Mob	8063
+	Type	drop
+	1	71084	45	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39075	1	350 -- Violettes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	6	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	150 -- Büchertruhe Konter
+	18	50515	1	3 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	150 -- Büchertruhe Boost
+	21	50514	1	3 -- Lehrbuch Boost
+	22	27992	1	3 -- Weiße Perle
+	23	27993	1	3 -- Blaue Perle
+	24	27994	1	3 -- Rote Perle
+	25	72353	1	20 -- Willenstopas
+	26	31251	1	20 -- Lederhärter
+	27	31252	1	5 -- Lederhärter+
+	28	31247	1	20 -- Rote SungMa-Rune
+	29	31248	1	20 -- Lila SungMa-Rune
+	30	31249	1	20 -- Blaue SungMa-Rune
+	31	31250	1	20 -- Grüne SungMa-Rune
+	32	31245	1	20 -- Hartes Leder
+	33	30618	1	5 -- Mondstein
+	34	50926	6	70 -- Schmuckstein
+	35	31150	1	8 -- Aura-Veredelungsbox
+	36	61031	1	12 -- Buffi Seelenstein
+	37	25040	1	80 -- Segenschriftrolle
+	38	170	1	5 -- Stichschwert
+	39	3150	1	5 -- Halbmenschenklinge+0
+	40	250	1	5 -- Dämonenklinge+0
+	41	2180	1	5 -- Blaudrachenbogen+0
+	42	1120	1	5 -- Siamesenmesser+0
+	43	7150	1	5 -- Ekstasefächer+0
+	44	69155	1	400 -- 500k Yang
+}
+
+Group	yohara_tier2glove_stein
+{
+	Mob	8067
+	Type	drop
+	1	71084	45	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39075	1	350 -- Violettes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	7	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	150 -- Büchertruhe Konter
+	18	50515	1	3 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	150 -- Büchertruhe Boost
+	21	50514	1	3 -- Lehrbuch Boost
+	22	27992	1	3 -- Weiße Perle
+	23	27993	1	3 -- Blaue Perle
+	24	27994	1	3 -- Rote Perle
+	25	72353	1	20 -- Willenstopas
+	26	31245	1	20 -- Hartes Leder
+	27	30618	1	5 -- Mondstein
+	28	31238	1	30 -- Schimmernde Muschel
+	29	31244	1	50 -- Nordwind-Handschuhstein
+	30	30617	1	5 -- Achat
+	31	30616	1	5 -- Titandioxid
+	32	50926	6	70 -- Schmuckstein
+	33	31150	1	10 -- Aura-Veredelungsbox
+	34	25040	1	80 -- Segenschriftrolle
+	35	170	1	5 -- Stichschwert
+	36	3150	1	5 -- Halbmenschenklinge+0
+	37	250	1	5 -- Dämonenklinge+0
+	38	2180	1	5 -- Blaudrachenbogen+0
+	39	1120	1	5 -- Siamesenmesser+0
+	40	7150	1	5 -- Ekstasefächer+0
+	41	69156	1	400 -- 750K Yang
+}
+
+Group	yohara_eq_pvm_stein
+{
+	Mob	8065 8729 8730 8731
+
+	Type	drop
+	1	71084	45	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39075	1	350 -- Violettes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	10	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	150 -- Büchertruhe Konter
+	18	50515	1	3 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	150 -- Büchertruhe Boost
+	21	50514	1	3 -- Lehrbuch Boost
+	22	27992	1	3 -- Weiße Perle
+	23	27993	1	3 -- Blaue Perle
+	24	27994	1	3 -- Rote Perle
+	25	31257	1	20 -- Schlangemuster
+	26	31259	1	20 -- Nordwindamboss
+	27	31258	1	20 -- Schlangenseide
+	28	31263	1	20 -- Nordwindschleifstein
+	29	31262	1	20 -- Schlangenpolitur
+	30	31245	1	20 -- Hartes Leder
+	31	70428	1	20 -- Schlangenstaub
+	32	70429	1	20 -- Schlangenschatz
+	33	31242	1	20 -- Nordwind-Waffenstein
+	34	31243	1	10 -- Nordwind-Waffenstein+
+	35	31216	1	10 -- Rohmetallplatte
+	36	30617	1	5 -- Achat
+	37	30616	1	5 -- Titandioxid
+	38	30618	1	5 -- Mondstein
+	39	31238	1	30 -- Schimmernde Muschel
+	40	31233	1	30 -- Schlangenstein
+	41	31234	1	10 -- Schlangenstein+
+	42	50577	1	3 -- Legendärer Seelenstein
+	43	50926	8	70 -- Schmuckstein
+	44	31150	1	10 -- Aura-Veredelungsbox
+	45	61032	1	3 -- Legendärer Buffi Seelenstein
+	46	25040	1	80 -- Segenschriftrolle
+	47	70411	1	30 -- W. Drachentruhe (Leicht)
+	48	170	1	5 -- Stichschwert
+	49	3150	1	5 -- Halbmenschenklinge+0
+	50	250	1	5 -- Dämonenklinge+0
+	51	2180	1	5 -- Blaudrachenbogen+0
+	52	1120	1	5 -- Siamesenmesser+0
+	53	7150	1	5 -- Ekstasefächer+0
+	54	69157	1	400 -- 1KK Yang
+}
+
+Group	yohara_eq_pvp_stein
+{
+	Mob	8066 8723 8724 8725 8726 8727 8728 
+	Type	drop
+	1	71084	45	400 -- Gegenstand Verzaubern
+	2	71085	1	250 -- Gegenstand Verstärken
+	3	70024	1	50 -- Segenskugel
+	4	27987	3	25 -- Muschel
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39075	1	350 -- Violettes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	10	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	150 -- Büchertruhe Konter
+	18	50515	1	3 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	150 -- Büchertruhe Boost
+	21	50514	1	3 -- Lehrbuch Boost
+	22	27992	1	3 -- Weiße Perle
+	23	27993	1	3 -- Blaue Perle
+	24	27994	1	3 -- Rote Perle
+	25	31115	1	20 -- Amboss
+	26	31121	1	20 -- Stahl
+	27	31112	1	20 -- Starker Erweckungsstein
+	28	31118	1	20 -- Abzeichen des Ruhmes
+	29	31114	1	20 -- Einfaches Leder
+	30	31117	1	20 -- Dünnes Garn
+	31	31111	1	20 -- Edler Erweckungsstein
+	32	31149	1	20 -- Feste Schnur
+	33	31084	1	20 -- Nimbustinktur
+	34	31109	1	20 -- Feiner Erweckungsstein
+	35	31122	1	20 -- Stoff
+	36	31124	1	20 -- Dünner Faden
+	37	31133	1	5 -- Gewöhnlicher Farbstoff
+	38	31134	1	5 -- Verbesserter Farbstoff
+	39	31131	1	5 -- Seide
+	40	31136	1	5 -- Einfacher Chaosstein
+	41	31137	1	5 -- Schöner Chaosstein
+	42	31138	1	5 -- Prächtiger Chaosstein
+	43	31135	1	5 -- Besonderer Farbstoff
+	44	50577	1	3 -- Legendärer Seelenstein
+	45	31123	1	20 -- Dünnes Leder
+	46	31125	1	20 -- Dicker Faden
+	47	50926	8	70 -- Schmuckstein
+	48	31150	1	10 -- Aura-Veredelungsbox
+	49	61032	1	3 -- Legendärer Buffi Seelenstein
+	50	25040	1	80 -- Segenschriftrolle
+	51	170	1	5 -- Stichschwert
+	52	3150	1	5 -- Halbmenschenklinge+0
+	53	250	1	5 -- Dämonenklinge+0
+	54	2180	1	5 -- Blaudrachenbogen+0
+	55	1120	1	5 -- Siamesenmesser+0
+	56	7150	1	5 -- Ekstasefächer+0
+	57	69158	1	400 -- 1,5KK Yang
+}
+---------------------------------------------------------- METIN DROPS ENDE
+
+
+---------------------------------------------------------- BOSS DROPS START
+
+Group	miniboss_low
+{
+	Mob	1091 1092 2095 2094
+	Type	drop
+	1	71084	20	400 -- Gegenstand Verzaubern
+	2	50300	1	200 -- Fertigkeitsbuch
+	3	50300	1	200 -- Fertigkeitsbuch
+	4	50300	1	200 -- Fertigkeitsbuch
+	5	50513	1	20 -- Seelenstein
+}
+
+Group	miniboss_plague
+{
+	Mob	1204 1205
+	Type	drop
+	1	71084	20	400 -- Gegenstand Verzaubern
+	2	50300	1	200 -- Fertigkeitsbuch
+	3	50300	1	200 -- Fertigkeitsbuch
+	4	50300	1	200 -- Fertigkeitsbuch
+	5	50513	1	20 -- Seelenstein
+	6	50007	1	450 -- Silberne Schatztruhe
+}
+
+Group	miniboss_high
+{
+	Mob	6151 6051
+	Type	drop
+	1	71084	50	400 -- Gegenstand Verzaubern
+	2	50513	1	20 -- Seelenstein
+	3	50525	1	10 -- Seelenstein+
+	4	50323	1	30 -- Büchertruhe Konter
+	5	50324	1	30 -- Büchertruhe Boost
+	6	50254	1	450 -- Truhe der Dunkelheit
+}
+
+Group	brutaler_hauptmann
+{
+	Mob	591
+	Type	drop
+	1	71084	30	400 -- Gegenstand Verzaubern
+	2	50513	1	25 -- Seelenstein
+	3	50132	3	400 -- Mysteriöse Rubintruhe
+	4	50133	3	80 -- Mysteriöse Smaragdtruhe
+	5	50134	3	80 -- Mysteriöse Saphirtruhe
+	6	50300	1	400 -- Fertigkeitsbuch
+	7	50300	1	300 -- Fertigkeitsbuch
+	8	50300	1	200 -- Fertigkeitsbuch
+	9	25040	1	45 -- Segensschriftrolle
+	10	27987	5	100 -- Muschel
+	11	38060	1	60 -- Emotionstasche
+	12	50007	1	450 -- Silberne Schatztruhe
+}
+
+Group	oberork
+{
+	Mob	691
+	Type	drop
+	1	71084	40	400 -- Gegenstand Verzaubern
+	2	50513	1	35 -- Seelenstein
+	3	50132	3	400 -- Mysteriöse Rubintruhe
+	4	50133	3	80 -- Mysteriöse Smaragdtruhe
+	5	50134	3	80 -- Mysteriöse Saphirtruhe
+	6	50300	1	400 -- Fertigkeitsbuch
+	7	50300	1	300 -- Fertigkeitsbuch
+	8	50300	1	200 -- Fertigkeitsbuch
+	9	25040	1	45 -- Segensschriftrolle
+	10	27987	5	100 -- Muschel
+	11	27992	1	20 -- Weiße Perle
+	12	27993	1	20 -- Blaue Perle
+	13	27994	1	20 -- Rote Perle
+	14	80019	1	60 -- Feines Tuch
+	15	38060	1	60 -- Emotionstasche
+	16	50070	1	450 -- Oberork-Truhe
+}
+
+Group	lowtierbosse
+{
+	Mob	1901 2091 1304 2191 791 2206
+	Type	drop
+	1	71084	40	400 -- Gegenstand Verzaubern
+	2	50513	1	10 -- Seelenstein
+	3	50132	3	400 -- Mysteriöse Rubintruhe
+	4	50133	3	80 -- Mysteriöse Smaragdtruhe
+	5	50134	3	80 -- Mysteriöse Saphirtruhe
+	6	25040	1	45 -- Segensschriftrolle
+	7	27987	5	100 -- Muschel
+	8	27992	1	40 -- Weiße Perle
+	9	27993	1	40 -- Blaue Perle
+	10	27994	1	40 -- Rote Perle
+	11	50255	3	50 -- Cor Draconis(Roh)
+	12	50256	1	20 -- Cor Draconis(Schliff)
+	13	80019	1	60 -- Feines Tuch
+	14	72002	1	25 -- Erfahrungsring(30m)
+	15	72005	1	25 -- Diebeshandschuh
+	16	38060	1	60 -- Emotionstasche
+	17	50006	1	450 -- Goldene Schatztruhe
+}
+
+Group	90erbosse
+{
+	Mob	3291 3091 3590 3090 3290 3490 3491 3690 3691 3591 3190 3595 3790 3191 3791 3596 3910 3890 3390 3891 3391
+	Type	drop
+	1	50254	1	450 -- Truhe der Dunkelheit
+	2	50133	4	80 -- Mysteriöse Smaragdtruhe
+	3	50134	4	80 -- Mysteriöse Saphirtruhe
+	4	25040	1	45 -- Segensschriftrolle
+	5	27987	8	100 -- Muschel
+	6	71084	60	400 -- Gegenstand Verzaubern
+	7	50513	1	15 -- Seelenstein
+	8	31150	1	5 -- Aura-Veredelungsbox
+	9	38060	1	60 -- Emotionstasche
+}
+
+Group	wald_boss
+{
+	Mob	6407
+	Type	drop
+	1	71084	60	400 -- Gegenstand Verzaubern
+	2	50133	4	80 -- Mysteriöse Smaragdtruhe
+	3	50134	4	80 -- Mysteriöse Saphirtruhe
+	4	25040	1	45 -- Segensschriftrolle
+	5	27987	8	100 -- Muschel
+	6	54701	1	450 -- Truhe des Bagjanamu
+	7	50513	1	20 -- Seelenstein
+	8	31150	1	8 -- Aura-Veredelungsbox
+	9	38060	1	60 -- Emotionstasche
+}
+
+Group	ochao_boss
+{
+	Mob	6391 6392 6394 6393 4178 4179 4180 4181
+	Type	drop
+	1	71084	100	400 -- Gegenstand Verzaubern
+	2	50513	1	20 -- Seelenstein
+	3	50133	4	80 -- Mysteriöse Smaragdtruhe
+	4	50134	4	80 -- Mysteriöse Saphirtruhe
+	5	25040	1	45 -- Segensschriftrolle
+	6	27987	8	100 -- Muschel
+	7	31255	1	450 -- Goldverzierte Truhe
+	8	31150	1	8 -- Aura-Veredelungsbox
+	9	38060	1	60 -- Emotionstasche
+}
+
+Group	yohara_tier1boss
+{
+	Mob	6691 6698 6699 6692
+	Type	drop
+	1	71084	100	400 -- Gegenstand Verzaubern
+	2	70024	1	50 -- Segenskugel
+	3	27987	3	25 -- Muschel
+	4	50525	1	60 -- Seelenstein+
+	5	50577	1	15 -- Legendärer Seelenstein
+	6	31150	1	10 -- Aura-Veredelungsbox
+	7	61031	1	12 -- Buffi Seelenstein
+	8	61032	1	10 -- Legendärer Buffi Seelenstein
+	9	50133	2	80 -- Mysteriöse Smaragdtruhe
+	10	50134	2	80 -- Mysteriöse Saphirtruhe
+	11	50528	1	450 -- Yohara-Schatztruhe
+	12	38060	1	60 -- Emotionstasche
+}
+
+Group	yohara_tier2boss
+{
+	Mob	6706 6717 
+	Type	drop
+	1	71084	120	400 -- Gegenstand Verzaubern
+	2	70024	1	50 -- Segenskugel
+	3	27987	3	25 -- Muschel
+	4	50525	1	60 -- Seelenstein+
+	5	50577	1	15 -- Legendärer Seelenstein
+	6	31150	1	10 -- Aura-Veredelungsbox
+	7	61032	1	10 -- Legendärer Buffi Seelenstein
+	8	50133	2	80 -- Mysteriöse Smaragdtruhe
+	9	50134	2	80 -- Mysteriöse Saphirtruhe
+	10	50578	1	450 -- Yohara-Schatztruhe+
+	11	38060	1	60 -- Emotionstasche
+}
+
+Group	yohara_pvp
+{
+	Mob	6730 6731 6705 4544 4545 4546 4547 4548
+	Type	drop
+	1	71084	150	400 -- Gegenstand Verzaubern
+	2	70024	1	50 -- Segenskugel
+	3	27987	3	25 -- Muschel
+	4	50525	1	60 -- Seelenstein+
+	5	50577	1	15 -- Legendärer Seelenstein
+	6	31150	1	10 -- Aura-Veredelungsbox
+	7	61032	1	10 -- Legendärer Buffi Seelenstein
+	8	50133	2	80 -- Mysteriöse Smaragdtruhe
+	9	50134	2	80 -- Mysteriöse Saphirtruhe
+	10	70446	1	450 -- Verdammnis-Truhe
+	11	38060	1	60 -- Emotionstasche
+}
+
+Group	yohara_pvm
+{
+	Mob	6723 6724 4557 4558
+	Type	drop
+	1	71084	150	400 -- Gegenstand Verzaubern
+	2	70024	1	50 -- Segenskugel
+	3	27987	3	25 -- Muschel
+	4	50525	1	60 -- Seelenstein+
+	5	50577	1	15 -- Legendärer Seelenstein
+	6	31150	1	10 -- Aura-Veredelungsbox
+	7	61032	1	10 -- Legendärer Buffi Seelenstein
+	8	50133	2	80 -- Mysteriöse Smaragdtruhe
+	9	50134	2	80 -- Mysteriöse Saphirtruhe
+	10	70447	1	450 -- Verdammnis-Truhe+
+	11	38060	1	60 -- Emotionstasche*7
+}
+
+Group	eishexe
+{
+	Mob	1192
+	Type	drop
+	1	27987	5	90 -- Muschel
+	2	38060	1	80 -- Emotionstasche
+	3	72058	1	100 -- 5erSteine
+	4	72058	1	100 -- 5erSteine
+	5	72058	1	80 -- 5erSteine
+	6	50513	1	50 -- Seelenstein
+	7	31150	1	15 -- Aura-Veredelungsbox
+	8	69151	1	5 -- Ungewöhnliche Verzauberung
+	9	69152	1	3 -- Seltene Verzauberung
+	10	69153	1	2 -- Epische Verzauberung
+	11	69154	1	1 -- Legendäre Verzauberung
+	12	38057	1	450 -- Truhe des Nordens
+	13	50121	1	100 -- Eisenkiste
+	14	50121	1	50 -- Eisenkiste
+	15	50121	1	25 -- Eisenkiste
+	16	38057	1	200 -- Truhe des Nordens
+}
+
+Group	grotte2boss
+{
+	Mob	2492
+	Type	drop
+	1	71084	100	100 -- Gegenstand Verzaubern
+	2	50513	1	30 -- Seelenstein
+	3	38060	1	60 -- Emotionstasche
+	4	50133	2	100 -- Mysteriöse Smaragdtruhe
+	5	50134	2	100 -- Mysteriöse Saphirtruhe
+	6	50821	1	100 -- Roter Tau
+	7	50822	1	100 -- Pinker Tau
+	8	50823	1	100 -- Gelber Tau
+	9	50824	1	100 -- Grüner Tau
+	10	50825	1	100 -- Blauer Tau
+	11	50826	1	100 -- Weißer Tau
+	12	71028	1	100 -- Drachengott-Angriff
+	13	71030	1	100 -- Drachengott-Verteidigung
+	14	71027	1	100 -- Drachengott-Leben
+	15	71029	1	100 -- Drachengott-Intelligenz
+	16	71045	1	100 -- Durchbohrender Kampf
+	17	61031	1	12 -- Buffi Seelenstein
+	18	50121	1	450 -- Eisenkiste
+	19	50255	5	50 -- Cor Draconis(Roh)
+	20	50256	1	20 -- Cor Draconis(Schliff)
+	21	50259	1	10 -- Cor Legendär
+}
+
+----------------------------------------------- BOSSE ENDE
+
+
+----------------------------------------------- DUNGEON BOSSE START
+
+Group	plague_dungeon
+{
+	Mob	1206
+	Type	drop
+	1	71084	50	400 -- Gegenstand Verzaubern
+	2	27987	5	200 -- Muschel
+	3	70440	1	450 -- Schatzkiste(Grad C)
+	4	50513	1	50 -- Seelenstein
+	5	50132	2	400 -- Mysteriöse Rubintruhe
+	6	50133	2	100 -- Mysteriöse Smaragdtruhe
+	7	50134	2	100 -- Mysteriöse Saphirtruhe
+	8	50300	1	400 -- Fertigkeitsbuch
+	9	50300	1	300 -- Fertigkeitsbuch
+	10	50300	1	200 -- Fertigkeitsbuch
+	11	25040	5	45 -- Segensschriftrolle
+	12	27987	5	100 -- Muschel
+	13	50821	1	100 -- Roter Tau
+	14	50822	1	100 -- Pinker Tau
+	15	50823	1	100 -- Gelber Tau
+	16	50824	1	100 -- Grüner Tau
+	17	50825	1	100 -- Blauer Tau
+	18	50826	1	100 -- Weißer Tau
+	19	71028	1	100 -- Drachengott-Angriff
+	20	71030	1	100 -- Drachengott-Verteidigung
+	21	71027	1	100 -- Drachengott-Leben
+	22	71029	1	100 -- Drachengott-Intelligenz
+	23	71045	1	100 -- Durchbohrender Kampf
+	24	71044	1	100 -- Kritischer Kampf	
+	25	38060	1	60 -- Emotionstasche
+	26	61031	1	30 -- Buffi Seelenstein
+	27	72002	1	25 -- Erfahrungsring(30m)
+	28	72005	1	25 -- Diebeshandschuh
+}
+
+Group	wisdom_boss
+{
+	Mob 4313
+	Type	drop
+	1	71084	60	400 -- Gegenstand Verzaubern
+	2	50513	1	50 -- Seelenstein
+	3	50132	2	400 -- Mysteriöse Rubintruhe
+	4	50133	2	100 -- Mysteriöse Smaragdtruhe
+	5	50134	2	100 -- Mysteriöse Saphirtruhe
+	6	50300	1	400 -- Fertigkeitsbuch
+	7	50300	1	300 -- Fertigkeitsbuch
+	8	50300	1	200 -- Fertigkeitsbuch
+	9	25040	5	45 -- Segensschriftrolle
+	10	27987	5	100 -- Muschel
+	11	55414	1	60 -- Schlaues-Ei
+	12	70441	1	450 -- Schatzkiste (Grad B)
+	13	50821	1	100 -- Roter Tau
+	14	50822	1	100 -- Pinker Tau
+	15	50823	1	100 -- Gelber Tau
+	16	50824	1	100 -- Grüner Tau
+	17	50825	1	100 -- Blauer Tau
+	18	50826	1	100 -- Weißer Tau
+	19	71028	1	100 -- Drachengott-Angriff
+	20	71030	1	100 -- Drachengott-Verteidigung
+	21	71027	1	100 -- Drachengott-Leben
+	22	71029	1	100 -- Drachengott-Intelligenz
+	23	71045	1	100 -- Durchbohrender Kampf
+	24	71044	1	100 -- Kritischer Kampf
+	25	38060	1	60 -- Emotionstasche
+	26	69151	1	5 -- Ungewöhnliche Verzauberung
+	27	61031	1	30 -- Buffi Seelenstein
+	28	72002	1	25 -- Erfahrungsring(30m)
+	29	72005	1	25 -- Diebeshandschuh
+}
+
+Group	sensenmann
+{
+	Mob	1093
+	Type	drop
+	1	71084	80	400 -- Gegenstand Verzaubern
+	2	27987	5	200 -- Muschel
+	3	50513	1	50 -- Seelenstein
+	4	50133	2	100 -- Mysteriöse Smaragdtruhe
+	5	50134	2	100 -- Mysteriöse Saphirtruhe
+	6	50821	1	100 -- Roter Tau
+	7	50822	1	100 -- Pinker Tau
+	8	50823	1	100 -- Gelber Tau
+	9	50824	1	100 -- Grüner Tau
+	10	50825	1	100 -- Blauer Tau
+	11	50826	1	100 -- Weißer Tau
+	12	71028	1	100 -- Drachengott-Angriff
+	13	71030	1	100 -- Drachengott-Verteidigung
+	14	71027	1	100 -- Drachengott-Leben
+	15	71029	1	100 -- Drachengott-Intelligenz
+	16	71045	1	100 -- Durchbohrender Kampf
+	17	71044	1	100 -- Kritischer Kampf
+	18	50082	1	450 -- Sensenmanntruhe
+	19	38060	1	60 -- Emotionstasche
+	20	69151	1	5 -- Ungewöhnliche Verzauberung
+	21	69152	1	3 -- Seltene Verzauberung
+	22	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	spinnenbaroness
+{
+	Mob	2092
+	Type	drop
+	1	71084	80	400 -- Gegenstand Verzaubern
+	2	27987	5	200 -- Muschel
+	3	50513	1	50 -- Seelenstein
+	4	50133	5	100 -- Mysteriöse Smaragdtruhe
+	5	50134	5	100 -- Mysteriöse Saphirtruhe
+	6	50821	1	100 -- Roter Tau
+	7	50822	1	100 -- Pinker Tau
+	8	50823	1	100 -- Gelber Tau
+	9	50824	1	100 -- Grüner Tau
+	10	50825	1	100 -- Blauer Tau
+	11	50826	1	100 -- Weißer Tau
+	12	71028	1	100 -- Drachengott-Angriff
+	13	71030	1	100 -- Drachengott-Verteidigung
+	14	71027	1	100 -- Drachengott-Leben
+	15	71029	1	100 -- Drachengott-Intelligenz
+	16	71045	1	100 -- Durchbohrender Kampf
+	17	71044	1	100 -- Kritischer Kampf
+	18	55402	1	60 -- Spinnenei
+	19	50074	1	450 -- Riesenspinnentruhe
+	20	38060	1	60 -- Emotionstasche
+	21	69151	1	5 -- Ungewöhnliche Verzauberung
+	22	69152	1	3 -- Seltene Verzauberung
+	23	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	drachenraum
+{
+	Mob	2493
+	Type	drop
+	1	71084	80	400 -- Gegenstand Verzaubern
+	2	27987	5	200 -- Muschel
+	3	50513	1	50 -- Seelenstein
+	4	50133	5	100 -- Mysteriöse Smaragdtruhe
+	5	50134	5	100 -- Mysteriöse Saphirtruhe
+	6	50821	1	100 -- Roter Tau
+	7	50822	1	100 -- Pinker Tau
+	8	50823	1	100 -- Gelber Tau
+	9	50824	1	100 -- Grüner Tau
+	10	50825	1	100 -- Blauer Tau
+	11	50826	1	100 -- Weißer Tau
+	12	71028	1	100 -- Drachengott-Angriff
+	13	71030	1	100 -- Drachengott-Verteidigung
+	14	71027	1	100 -- Drachengott-Leben
+	15	71029	1	100 -- Drachengott-Intelligenz
+	16	71045	1	100 -- Durchbohrender Kampf
+	17	71044	1	100 -- Kritischer Kampf
+	18	55405	1	80 -- Blaues Drachenei
+	19	31139	1	450 -- Truhe des Beran-Setaou
+	20	38060	1	60 -- Emotionstasche
+	21	69151	1	10 -- Ungewöhnliche Verzauberung
+	22	69152	1	8 -- Seltene Verzauberung
+	23	69153	1	6 -- Epische Verzauberung
+	24	69154	1	4 -- Legendäre Verzauberung
+	25	61031	1	12 -- Buffi Seelenstein
+}
+
+
+Group	devils_catacomb
+{
+	Mob	2598
+	Type	drop
+	1	71084	150	400 -- Gegenstand Verzaubern
+	2	27987	5	200 -- Muschel
+	3	50513	1	50 -- Seelenstein
+	4	50133	5	100 -- Mysteriöse Smaragdtruhe
+	5	50134	5	100 -- Mysteriöse Saphirtruhe
+	6	50821	1	100 -- Roter Tau
+	7	50822	1	100 -- Pinker Tau
+	8	50823	1	100 -- Gelber Tau
+	9	50824	1	100 -- Grüner Tau
+	10	50825	1	100 -- Blauer Tau
+	11	50826	1	100 -- Weißer Tau
+	12	71028	1	100 -- Drachengott-Angriff
+	13	71030	1	100 -- Drachengott-Verteidigung
+	14	71027	1	100 -- Drachengott-Leben
+	15	71029	1	100 -- Drachengott-Intelligenz
+	16	71045	1	100 -- Durchbohrender Kampf
+	17	71044	1	100 -- Kritischer Kampf
+	18	55407	1	80 -- Azraelchens Ei
+	19	50186	1	450 -- Truhe des Azrael
+	20	31150	1	10 -- Aura-Veredelungsbox
+	21	38060	1	60 -- Emotionstasche
+	22	69151	1	12 -- Ungewöhnliche Verzauberung
+	23	69152	1	10 -- Seltene Verzauberung
+	24	69153	1	8 -- Epische Verzauberung
+	25	69154	1	6 -- Legendäre Verzauberung
+	26	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	nemere
+{
+	Mob	6191
+	Type	drop
+	1	71084	200	400 -- Gegenstand Verzaubern
+	2	50513	1	80 -- Seelenstein
+	3	50133	10	100 -- Mysteriöse Smaragdtruhe
+	4	50134	10	100 -- Mysteriöse Saphirtruhe
+	5	50821	1	100 -- Roter Tau
+	6	50822	1	100 -- Pinker Tau
+	7	50823	1	100 -- Gelber Tau
+	8	50824	1	100 -- Grüner Tau
+	9	50825	1	100 -- Blauer Tau
+	10	50826	1	100 -- Weißer Tau
+	11	71028	1	100 -- Drachengott-Angriff
+	12	71030	1	100 -- Drachengott-Verteidigung
+	13	71027	1	100 -- Drachengott-Leben
+	14	71029	1	100 -- Drachengott-Intelligenz
+	15	71045	1	100 -- Durchbohrender Kampf
+	16	71044	1	100 -- Kritischer Kampf
+	17	55404	1	80 -- Ei des Nemere
+	18	54703	1	450 -- Truhe des Nemere
+	19	31150	1	15 -- Aura-Veredelungsbox
+	20	38060	1	60 -- Emotionstasche
+	21	69151	1	20 -- Ungewöhnliche Verzauberung
+	22	69152	1	16 -- Seltene Verzauberung
+	23	69153	1	12 -- Epische Verzauberung
+	24	69154	1	10 -- Legendäre Verzauberung
+	25	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	razador
+{
+	Mob	6091
+	Type	drop
+	1	71084	200	400 -- Gegenstand Verzaubern
+	2	50513	1	80 -- Seelenstein
+	3	50133	10	100 -- Mysteriöse Smaragdtruhe
+	4	50134	10	100 -- Mysteriöse Saphirtruhe
+	5	50821	1	100 -- Roter Tau
+	6	50822	1	100 -- Pinker Tau
+	7	50823	1	100 -- Gelber Tau
+	8	50824	1	100 -- Grüner Tau
+	9	50825	1	100 -- Blauer Tau
+	10	50826	1	100 -- Weißer Tau
+	11	71028	1	100 -- Drachengott-Angriff
+	12	71030	1	100 -- Drachengott-Verteidigung
+	13	71027	1	100 -- Drachengott-Leben
+	14	71029	1	100 -- Drachengott-Intelligenz
+	15	71045	1	100 -- Durchbohrender Kampf
+	16	71044	1	100 -- Kritischer Kampf
+	17	55403	1	80 -- Ei des Razador
+	18	54702	1	450 -- Truhe des Razador
+	19	31150	1	15 -- Aura-Veredelungsbox
+	20	38060	1	60 -- Emotionstasche
+	21	69151	1	20 -- Ungewöhnliche Verzauberung
+	22	69152	1	16 -- Seltene Verzauberung
+	23	69153	1	12 -- Epische Verzauberung
+	24	69154	1	10 -- Legendäre Verzauberung
+	25	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	jotun
+{
+	Mob	6192
+	Type	drop
+	1	71084	250	400 -- Gegenstand Verzaubern
+	2	50513	1	80 -- Seelenstein
+	3	50133	10	100 -- Mysteriöse Smaragdtruhe
+	4	50134	10	100 -- Mysteriöse Saphirtruhe
+	5	55415	1	15 -- Steiniges-Ei
+	6	54704	1	450 -- Truhe des Jotun Thrym
+	7	31150	1	30 -- Aura-Veredelungsbox
+	8	38060	1	60 -- Emotionstasche
+	9	69151	1	25 -- Ungewöhnliche Verzauberung
+	10	69152	1	20 -- Seltene Verzauberung
+	11	69153	1	18 -- Epische Verzauberung
+	12	69154	1	12 -- Legendäre Verzauberung
+	13	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	pyramid_dungeon
+{
+	Mob	4182
+	Type	drop
+	1	71084	250	400 -- Gegenstand Verzaubern
+	2	50513	1	80 -- Seelenstein
+	3	50133	10	100 -- Mysteriöse Smaragdtruhe
+	4	50134	10	100 -- Mysteriöse Saphirtruhe
+	5	55416	1	15 -- Uraltes-Ei
+	6	38054	1	450 -- Wüstensturm-Truhe
+	7	31150	1	30 -- Aura-Veredelungsbox
+	8	38060	1	60 -- Emotionstasche
+	9	69151	1	25 -- Ungewöhnliche Verzauberung
+	10	69152	1	20 -- Seltene Verzauberung
+	11	69153	1	18 -- Epische Verzauberung
+	12	69154	1	12 -- Legendäre Verzauberung
+	13	61031	1	30 -- Buffi Seelenstein
+}
+
+Group	atlantis_dungeon
+{
+	Mob	4559
+	Type	drop
+	1	71084	350	400 -- Gegenstand Verzaubern
+	2	50577	1	50 -- Legendärer Seelenstein
+	3	50577	1	30 -- Legendärer Seelenstein
+	4	50577	1	10 -- Legendärer Seelenstein
+	5	55418	1	15 -- Nasses Ei
+	6	30921	1	450 -- Atlantis Truhe
+	7	31150	1	40 -- Aura-Veredelungsbox
+	8	38060	1	60 -- Emotionstasche
+	9	69151	1	50 -- Ungewöhnliche Verzauberung
+	10	69152	1	40 -- Seltene Verzauberung
+	11	69153	1	30 -- Epische Verzauberung
+	12	69154	1	20 -- Legendäre Verzauberung
+	13	61031	1	30 -- Buffi Seelenstein
+	14	61031	1	30 -- Legendärer Buffi Seelenstein
+	15	50525	1	60 -- Seelenstein+
+}
+
+Group	andun_dungeon
+{
+	Mob	4549
+	Type	drop
+	1	71084	350	400 -- Gegenstand Verzaubern
+	2	50577	1	50 -- Legendärer Seelenstein
+	3	50577	1	30 -- Legendärer Seelenstein
+	4	50577	1	10 -- Legendärer Seelenstein
+	5	55417	1	15 -- Böses Ei
+	6	30918	1	450 -- Kaiserliche Truhe
+	7	31150	1	40 -- Aura-Veredelungsbox
+	8	38060	1	60 -- Emotionstasche
+	9	69151	1	50 -- Ungewöhnliche Verzauberung
+	10	69152	1	40 -- Seltene Verzauberung
+	11	69153	1	30 -- Epische Verzauberung
+	12	69154	1	20 -- Legendäre Verzauberung
+	13	61031	1	30 -- Legendärer Buffi Seelenstein
+	14	50525	1	60 -- Seelenstein+
+}
+----------------------------------------------- DUNGEON BOSSE ENDE
+
+
+----------------------------------------------- MOB DROPS START
+
+Group	map1
+{
+	Mob	101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 131 132 133 134 135 136 137 138 139 140 141 142 143 144 151 152 153 154 155 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 191 192 193 194 301 302 303 304 331 332 333 334 351 352 353 354 391 392 393 394 395 396 397 398
+	Type	drop
+	1	19	1	0.005 -- Schwert +9
+	2	29	1	0.005 -- Langschwert+9
+	3	39	1	0.005 -- Sichelschwert+9
+	4	49	1	0.005 -- Bambusschwert+9
+	5	59	1	0.005 -- Breitschwert+9
+	6	1009	1	0.005 -- Dolch+9
+	7	1019	1	0.005 -- Kobradolch+9
+	8	1029	1	0.005 -- Scherendolch+9
+	9	4009	1	0.005 -- Amija+9
+	10	4019	1	0.005 -- Neunklingen+9
+	11	2009	1	0.005 -- Bogen+9
+	12	2019	1	0.005 -- Langbogen+9
+	13	2029	1	0.005 -- Kompsitbogen+9
+	14	2039	1	0.005 -- Kriegsbogen+9
+	15	2049	1	0.005 -- Reiterlangbogen+9
+	16	5009	1	0.005 -- Kupferglocke+9
+	17	5019	1	0.005 -- Silberglocke+9
+	18	7009	1	0.005 -- Fächer+9
+	19	7019	1	0.005 -- Eisenfächer+9
+	20	7029	1	0.005 -- Schwarztigerfächer+9
+	21	7039	1	0.005 -- Kranichflügelfächer+9
+	22	7049	1	0.005 -- Pfauenfächer+9
+	23	11209	1	0.005 -- Mönchsplattenpanzer+9
+	24	11219	1	0.005 -- Eisenplattenpanzer+9
+	25	11229	1	0.005 -- Tiger-Plattenpanzer+9
+	26	11409	1	0.005 -- Azuranzug+9
+	27	11419	1	0.005 -- Elfenbeinanzug+9
+	28	11429	1	0.005 -- Scharlachroter Anzug+9
+	29	11609	1	0.005 -- Requiem-Plattenpanzer+9
+	30	11619	1	0.005 -- Sturm-Plattenpanzer+9
+	31	11629	1	0.005 -- Unglücksplattenpanzer+9
+	32	11809	1	0.005 -- Purpurkleidung+9
+	33	11819	1	0.005 -- Türkiskleidung+9
+	34	11829	1	0.005 -- Rosafarbene Kleidung+9
+	35	3009	1	0.005 -- Glefe+9
+	36	3019	1	0.005 -- Speer+9
+	37	3029	1	0.005 -- Enthauptungsklinge+9
+	38	3039	1	0.005 -- Spinnenspeer+9
+	39	3049	1	0.005 -- Guisarme+9
+	40	5029	1	0.005 -- Goldglocke+9
+}
+
+Group	map2
+{
+	Mob	401 402 403 404 405 406 431 432 433 434 435 436 451 452 453 454 455 456 491 492 493 494 501 502 503 504 531 532 533 534 551 552 553 554 595
+	Type	drop
+	1	66	1	0.005 -- Silberschwert+6
+	2	76	1	0.005 -- Orchideenschwert+6
+	3	86	1	0.005 -- Anderthalbhänder+6
+	4	96	1	0.005 -- Barbarenschwert+6
+	5	3056	1	0.005 -- Kriegssense+6
+	6	3066	1	0.005 -- Kampfheugabel+6
+	7	3076	1	0.005 -- Hellebarde+6
+	8	3086	1	0.005 -- Riesenaxt+6
+	9	2056	1	0.005 -- Reiterkriegsbogen+6
+	10	2066	1	0.005 -- Kupferverziert. Bogen+6
+	11	2076	1	0.005 -- Zerstörungsbogen+6
+	12	2086	1	0.005 -- Rotaugenbogen+6
+	13	4026	1	0.005 -- Kurzes Messer+6
+	14	1036	1	0.005 -- Glücksmesser+6
+	15	1046	1	0.005 -- Katzenbissmesser+6
+	16	1056	1	0.005 -- Teufelsmaskendolch+6
+	17	5036	1	0.005 -- Jadeglocke+6
+	18	5046	1	0.005 -- Brunnenglocke+6
+	19	5056	1	0.005 -- Aprikosenglocke+6
+	20	7056	1	0.005 -- Aquatischer Fächer+6
+	21	7066	1	0.005 -- Steinfächer+6
+	22	7076	1	0.005 -- Ozeanfächer+6
+	23	7086	1	0.005 -- Stichfächer+6
+	24	11236	1	0.005 -- Löwenplattenpanzer+6
+	25	11246	1	0.005 -- Tödl. Plattenpanzer+6
+	26	11256	1	0.005 -- Drachen-Plattenpanzer+6
+	27	11436	1	0.005 -- Roter Ameisenanzug+6
+	28	11446	1	0.005 -- Ameisenlöwenanzug+6
+	29	11456	1	0.005 -- Ninjaanzug+6
+	30	11636	1	0.005 -- Geistplattenpanzer+6
+	31	11646	1	0.005 -- YinYang-Plattenpanzer+6
+	32	11656	1	0.005 -- Mystikerplattenpanzer+6
+	33	11836	1	0.005 -- Kleidung der Liebe+6
+	34	11846	1	0.005 -- Kleidung des Himmels+6
+	35	11856	1	0.005 -- Sonnenkleidung+6
+	36	17106	1	0.005 -- Ebenholzohrringe+6
+	37	15086	1	0.005 -- Lederstiefel+6
+	38	14049	1	0.005 -- Silberarmband+9
+	39	14146	1	0.005 -- Weißgoldarmband+6
+	40	13026	1	0.005 -- Fünfeckschild+6
+	41	12226	1	0.005 -- Eisenhelm+6
+	42	12506	1	0.005 -- Verhöhnender Helm+6
+	43	12366	1	0.005 -- Kettenkapuze+6
+	44	12646	1	0.005 -- Phönixhut+6
+}
+
+Group	lv_25_42
+{
+	Mob	2101 2102 2103 2104 2105 2106 2107 2108 2131 2132 2133 2134 2135 2151 2152 2153 2154 2155 2156 2157 2158 2001 2002 2003 2004 2005 2031 2032 2033 2034 2035 2036 2037 2051 2052 2053 2054 2055 2061 2062 2063 2071 2072 2073 2076 601 602 603 604 631 632 633 634 635 636 637 651 652 653 654 655 656 657 692 693 701 702 703 704 705 706 707
+	Type	drop
+	1	66	1	0.005 -- Silberschwert+6
+	2	76	1	0.005 -- Orchideenschwert+6
+	3	86	1	0.005 -- Anderthalbhänder+6
+	4	96	1	0.005 -- Barbarenschwert+6
+	5	3056	1	0.005 -- Kriegssense+6
+	6	3066	1	0.005 -- Kampfheugabel+6
+	7	3076	1	0.005 -- Hellebarde+6
+	8	3086	1	0.005 -- Riesenaxt+6
+	9	2056	1	0.005 -- Reiterkriegsbogen+6
+	10	2066	1	0.005 -- Kupferverziert. Bogen+6
+	11	2076	1	0.005 -- Zerstörungsbogen+6
+	12	2086	1	0.005 -- Rotaugenbogen+6
+	13	4026	1	0.005 -- Kurzes Messer+6
+	14	1036	1	0.005 -- Glücksmesser+6
+	15	1046	1	0.005 -- Katzenbissmesser+6
+	16	1056	1	0.005 -- Teufelsmaskendolch+6
+	17	5036	1	0.005 -- Jadeglocke+6
+	18	5046	1	0.005 -- Brunnenglocke+6
+	19	5056	1	0.005 -- Aprikosenglocke+6
+	20	7056	1	0.005 -- Aquatischer Fächer+6
+	21	7066	1	0.005 -- Steinfächer+6
+	22	7076	1	0.005 -- Ozeanfächer+6
+	23	7086	1	0.005 -- Stichfächer+6
+	24	11236	1	0.005 -- Löwenplattenpanzer+6
+	25	11246	1	0.005 -- Tödl. Plattenpanzer+6
+	26	11256	1	0.005 -- Drachen-Plattenpanzer+6
+	27	11436	1	0.005 -- Roter Ameisenanzug+6
+	28	11446	1	0.005 -- Ameisenlöwenanzug+6
+	29	11456	1	0.005 -- Ninjaanzug+6
+	30	11636	1	0.005 -- Geistplattenpanzer+6
+	31	11646	1	0.005 -- YinYang-Plattenpanzer+6
+	32	11656	1	0.005 -- Mystikerplattenpanzer+6
+	33	11836	1	0.005 -- Kleidung der Liebe+6
+	34	11846	1	0.005 -- Kleidung des Himmels+6
+	35	11856	1	0.005 -- Sonnenkleidung+6
+	36	17106	1	0.005 -- Ebenholzohrringe+6
+	37	15086	1	0.005 -- Lederstiefel+6
+	38	14049	1	0.005 -- Silberarmband+9
+	39	14146	1	0.005 -- Weißgoldarmband+6
+	40	13026	1	0.005 -- Fünfeckschild+6
+	41	12226	1	0.005 -- Eisenhelm+6
+	42	12506	1	0.005 -- Verhöhnender Helm+6
+	43	12366	1	0.005 -- Kettenkapuze+6
+	44	12646	1	0.005 -- Phönixhut+6
+	45	13040	1	0.005 -- Schwarzer Rundschild+0
+	46	12520	1	0.005 -- Burghelm+0
+	47	12380	1	0.005 -- Stahlkapuze+0
+	48	12660	1	0.005 -- Sonnenlichthut+0
+	49	12240	1	0.005 -- Geistermaskenschaller+0
+}
+
+Group	lv45_60
+{
+	Mob	2064 2065 731 732 733 734 735 736 737 751 752 753 754 755 756 757 771 772 773 774 775 776 777 901 902 903 904 905 906 907 931 932 933 934 935 936 937 991 992 993 2201 2202 2203 2204 2205 2301 2302 2303 2304 2305
+	Type	drop
+	1	14200	1	0.005 -- Himmelstränenarmband+0
+	2	16200	1	0.005 -- Himmelstränenhalskette+0
+	3	17200	1	0.005 -- Himmelstränenohrringe+0
+	4	15200	1	0.005 -- Phönixschuhe+0
+	5	13060	1	0.005 -- Falkenschild+0
+	6	13080	1	0.005 -- Tigerschild+0
+	7	13100	1	0.005 -- Löwenkantenschild+0
+	8	13120	1	0.005 -- Drachenschuppenschild+0
+	9	100	1	0.005 -- Blutiges Schwert+0
+	10	110	1	0.005 -- Großschwer+0
+	11	120	1	0.005 -- Zauberschwert+0
+	12	130	1	0.005 -- Halbmondschwert+0
+	13	3090	1	0.005 -- Gletscherpicke+0
+	14	3100	1	0.005 -- Zwölfgeisterschwert+0
+	15	3110	1	0.005 -- Erlösungsklinge+0
+	16	3120	1	0.005 -- Löwentöter+0
+	17	2090	1	0.005 -- Dornblattbogen+0
+	18	2100	1	0.005 -- Bullenhornbogen+0
+	19	2110	1	0.005 -- Einhornbogen+0
+	20	2120	1	0.005 -- Riesenflügelbogen+0
+	21	1060	1	0.005 -- Teufelsfaustdolch+0
+	22	1070	1	0.005 -- Blutiger Dolch+0
+	23	1080	1	0.005 -- Rippenmesser+0
+	24	1090	1	0.005 -- Chakram+0
+	25	5060	1	0.005 -- Magische Glocke+0
+	26	5070	1	0.005 -- Goldkäferglocke+0
+	27	5080	1	0.005 -- Stahlkäferglocke+0
+	28	7090	1	0.005 -- Phönixfächer+0
+	29	7100	1	0.005 -- Dreifachfächer+0
+	30	7110	1	0.005 -- Brauenfächer+0
+	31	7120	1	0.005 -- Sonnenfächer+0
+	32	11260	1	0.005 -- Schuppenplattenpanzer+0
+	33	11270	1	0.005 -- Gold-Plattenpanzer+0
+	34	11660	1	0.005 -- Nebelplattenpanzer+0
+	35	11670	1	0.005 -- Geistermaskenpanzer+0
+	36	11460	1	0.005 -- Jungdrachenanzug+0
+	37	11470	1	0.005 -- Mörderwindanzug+0
+	38	11860	1	0.005 -- Kleidung der Moral+0
+	39	11870	1	0.005 -- Oranges Katzenkleid+0
+	40	12520	1	0.005 -- Burghelm+0
+	41	12380	1	0.005 -- Stahlkapuze+0
+	42	12660	1	0.005 -- Sonnenlichthut+0
+	43	12240	1	0.005 -- Geistermaskenschaller+0
+}
+
+Group	rw+
+{
+	Mob	2311 2312 2313 2314 2315 1401 1402 1403 1501 1502 1503 1601 1602 1603 1131 1132 1133 1134 1135 1136 1137 1138 3001 3002 3003 3004 3005 3201 3202 3203 3204 3205 3501 3502 3503 3504 3505 3551 3552 3553 3554 3601 3602 3603 3604 3605 3401 3402 3403 3404 3405 3551 3552 3553 3554 3555 3101 3102 3103 3104 3105 3701 3702 3703 3704 3705 3301 3302 3303 3304 3305 3801 3802 3803 3804 3805 6301 6302 6303 6304 6305 6306 6307 6308 6309 6310 6401 6402 6403 6404 6405 6406 6410 6411 6412 6413 6414 2401 2402 2403 2404 2411 2412 2413 2414 2415 2431 2432 2433 2434 2451 2452 2453 2454 2074 2075
+	Type	drop
+	1	14200	1	0.005 -- Himmelstränenarmband+0
+	2	16200	1	0.005 -- Himmelstränenhalskette+0
+	3	17200	1	0.005 -- Himmelstränenohrringe+0
+	4	15200	1	0.005 -- Phönixschuhe+0
+	5	13060	1	0.005 -- Falkenschild+0
+	6	13080	1	0.005 -- Tigerschild+0
+	7	13100	1	0.005 -- Löwenkantenschild+0
+	8	13120	1	0.005 -- Drachenschuppenschild+0
+	9	11280	1	0.005 -- Drachengott-Panzer+0
+	10	11480	1	0.005 -- Fuchsienanzug+0
+	11	11680	1	0.005 -- Seelenplattenpanzer+0
+	12	11880	1	0.005 -- Kleidung der Baronin+0
+	13	2140	1	0.005 -- Großgelbdrachenbogen+0
+	14	1100	1	0.005 -- Drachenmesser+0
+	15	7140	1	0.005 -- Erlösungsfächer+0
+	16	150	1	0.005 -- Geisterzahnklinge+0
+	17	5100	1	0.005 -- Himmel-&-Erde-Glocke+0
+	18	3130	1	0.005 -- Partisane+0
+	19	140	1	0.005 -- Schlachtschwert+0
+	20	12530	1	0.005 -- Gehörnter Helm+0
+	21	12390	1	0.005 -- Orkkapuze+0
+	22	12670	1	0.005 -- Kardinalshut+0
+	23	12260	1	0.005 -- Furchtmaske+0
+}
+
+Group	grotte
+{
+	Mob	2401 2402 2403 2404 2411 2412 2413 2414 2415 2431 2432 2433 2434 2451 2452 2453 2454
+	Type	drop
+	1	170	1	0.005 -- Stichschwert
+	2	3150	1	0.005 -- Halbmenschenklinge+0
+	3	250	1	0.005 -- Dämonenklinge+0
+	4	2180	1	0.005 -- Blaudrachenbogen+0
+	5	1120	1	0.005 -- Siamesenmesser+0
+	6	7150	1	0.005 -- Ekstasefächer+0
+}
+
+----------------------------------------------- MOB DROPS ENDE
+
+------------------------------------------------ BIO START
+
+Group	biolog_lv30
+{
+	Mob	601 602 603 604 631 632 633 634 635 636 637 651 652 653 654 655 656 657
+	Type	biolog
+	level_limit	30	0
+	1	30006	1	2 -- Orkzahn
+}
+
+Group	biolog_lv30_soulstone
+{
+	Mob	601 602 603 604 631 632 633 634 635 636 637 651 652 653 654 655 656 657
+	Type	biolog
+	level_limit	30	1
+	1	30220	1	1 -- Seelenstein
+}
+
+Group	biolog_lv40
+{
+	Mob	701 702 703 704 705 707 731 732 733 734 735 736 737 751 752 753 754 755 756 757 771 772 773 774 775 776 777
+	Type	biolog
+	level_limit	40	0
+	1	30047	1	1 -- Fluchsammlung
+}
+
+Group	biolog_lv40_soulstone
+{
+	Mob	701 702 703 704 705 707 731 732 733 734 735 736 737 751 752 753 754 755 756 757 771 772 773 774 775 776 777
+	Type	biolog
+	level_limit	40	1
+	1	30221	1	0.5 -- Seelenstein
+}
+
+Group	biolog_lv50
+{
+	Mob	1301 1302 1303 1304 1305 1331 1332 1333 1335 1336
+	Type	biolog
+	level_limit	50	0
+	1	30061	1	1 -- Froschschenkel
+}
+
+Group	biolog_lv50_soulstone
+{
+	Mob	1301 1302 1303 1304 1305 1331 1332 1333 1335 1336
+	Type	biolog
+	level_limit	50	1
+	1	30222	1	0.5 -- Seelenstein
+}
+
+Group	biolog_lv60
+{
+	Mob	1101 1102 1103 1104 1105 1106 1107
+	Type	biolog
+	level_limit	60	0
+	1	30050	1	2 -- Eiskugel
+}
+
+Group	biolog_lv60_soulstone
+{
+	Mob	1102 1104 1105
+	Type	biolog
+	level_limit	60	1
+	1	30223	1	1 -- Seelenstein
+}
+
+Group	biolog_lv70
+{
+	Mob	2301 2302 2303 2304 2305 2306 2307
+	Type	biolog
+	level_limit	70	0
+	1	30165	1	1 -- Zelkova Holzast
+}
+
+Group	biolog_lv70_soulstone
+{
+	Mob	2301 2302 2303 2304 2305 2306 2307
+	Type	biolog
+	level_limit	70	1
+	1	30224	1	1 -- Seelenstein
+}
+
+Group	biolog_lv75
+{
+	Mob	2311 2312 2313 2314 2315
+	Type	biolog
+	level_limit	75	0
+	1	30167	1	1 -- Roter Geisterbaum-Ast
+}
+
+Group	biolog_lv75_soulstone
+{
+	Mob	2311 2312 2313 2314 2315
+	Type	biolog
+	level_limit	75	1
+	1	30226	1	1 -- Seelenstein
+}
+
+Group	biolog_lv80
+{
+	Mob	2401 2402 2403 2404 2411 2412 2413 2414 2415 2431 2432 2433 2434 2451 2452 2453 2454
+	Type	biolog
+	level_limit	80	0
+	1	30166	1	3 -- Tugyis Tafel
+}
+
+Group	biolog_lv80_soulstone
+{
+	Mob	2401 2402 2403 2404 2411 2412 2413 2414 2415 2431 2432 2433 2434 2451 2452 2453 2454
+	Type	biolog
+	level_limit	80	1
+	1	30225	1	1 -- Seelenstein
+}
+
+Group	biolog_lv92
+{
+	Mob 3001 3002 3003 3004 3005 3090 3091 3101 3102 3103 3104 3105 3190 3191 3201 3202 3203 3204 3205 3290 3291 3301 3302 3303 3304 3305 3390 3391
+	Type	biolog
+	level_limit	92	0
+	1	30251	1	1 -- Juwel der Missgunst
+}
+
+Group	biolog_lv94
+{
+	Mob 3401 3402 3403 3404 3405 3490 3491 3501 3502 3503 3504 3505 3551 3552 3553 3554 3555 3590 3591 3595 3596 3601 3602 3603 3604 3605 3690 3691 3701 3702 3703 3704 3705 3790 3791 3801 3802 3803 3804 3805 3890 3891
+	Type	biolog
+	level_limit	94	0
+	1	30252	1	1 -- Juwel der Weissheit
+}
+
+Group	biolog_lv94_soulstone
+{
+	Mob	2493
+	Type	biolog
+	level_limit	94	1
+	1	30228	1	20 -- Seelenstein
+}
+
+--------------------------------- BIO ENDE

@@ -1,2 +1,0 @@
-# nuyah2-serverfiles
-

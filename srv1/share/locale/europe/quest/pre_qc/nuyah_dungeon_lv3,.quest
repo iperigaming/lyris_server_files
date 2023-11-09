@@ -1,0 +1,320 @@
+quest nuyah_dungeon_lv30 begin
+    state start begin
+        function settings()
+            return {
+                ["requirements"] = {
+                    ["min_level"] = 75,
+                    ["max_level"] = 90,
+                    ["ticket"] = 30319,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = 78,
+                    ["x"] = 19803,
+                    ["y"] = 1135,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = 78,
+                    ["x"] = 19803,
+                    ["y"] = 1135,
+                },
+                ["cooldown"] = 0, -- 3600,
+                ["data"] = {
+                    ["warp"] = {},
+                    ["level"] = {
+                        [1] = {
+                            ["door"] = {
+                                ["vnum"] = 9252,
+                                ["pos"] = {
+                                    233, 280, 5
+                                }
+                            }
+                        }
+                        --[[ [1] = {
+                            ["boss"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL1_BOSS,
+                                ["pos"] = {
+                                    ["x"] = 189,
+                                    ["y"] = 424
+                                }
+                            }
+                        },
+                        [3] = {
+                            ["stone"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL3_STONE,
+                                ["pos"] = {
+                                    { 368, 629 }, { 419, 630 }, { 428, 653 }, { 422, 679 },
+				                    { 395, 689 }, { 369, 679 }, { 361, 658 },
+                                }
+                            }
+                        },
+                        [4] = {
+                            ["seal"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL4_SEAL,
+                                ["pos"] = {
+                                    { 421, 452 },
+                                    { 380, 460 },
+                                    { 428, 414 },
+                                    { 398, 392 },
+                                    { 359, 426 },
+                                }
+                            }
+                        },
+                        [5] = {
+                            ["boss"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL5_BOSS,
+                                ["pos"] = {
+                                    ["x"] = 418,
+                                    ["y"] = 208
+                                }
+                            }
+                        },
+                        [6] = {
+                            ["stone"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL6_STONE,
+                                ["pos"] = {
+                                    { 639, 658 },
+                                    { 611, 637 },
+                                    { 596, 674 },
+                                    { 629, 670 },
+                                }
+                            }
+                        },
+                        [8] = {
+                            ["seal"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL8_SEAL,
+                                ["pos"] = {
+                                    ["x"] = 640,
+                                    ["y"] = 460
+                                }
+                            }
+                        },
+                        [9] = {
+                            ["boss"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL9_BOSS,
+                                ["pos"] = {
+                                    ["x"] = 607,
+                                    ["y"] = 218
+                                }
+                            }
+                        }, --]]
+                    },
+                },
+            }
+        end
+
+        function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= 78 * 10000 and index < (78 + 1) * 10000;
+        end
+
+        function clear_timers()
+            clear_server_timer("nuyah_dungeon_lv30_monster_wave", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_warp", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_60min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_45min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_30min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_15min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_10min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_5min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_1min_left", get_server_timer_arg())
+            clear_server_timer("nuyah_dungeon_lv30_final_exit", get_server_timer_arg())
+        end
+
+        function create_dungeon()
+            local settings = nuyah_dungeon_lv30.settings()
+            local requirements = settings["requirements"]
+            local pos = settings["pos"]
+
+            if party.is_party() then
+                local near_count = party.get_near_count()
+
+                local pids = { party.get_member_pids() };
+                for i, pid in next, pids, nil do
+                    q.begin_other_pc_block(pid)
+                    pc.remove_item(requirements["ticket"], 1)
+                    pc.setf("nuyah_dungeon_lv30", "enter_time", get_global_time())
+                    q.end_other_pc_block()
+                end
+
+                d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+                d.setf("dungeon_member_count", near_count)
+            else
+                pc.remove_item(requirements["ticket"], 1)
+                pc.setf("nuyah_dungeon_lv30", "enter_time", get_global_time())
+                d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+            end
+
+
+            server_timer("nuyah_dungeon_lv30_60min_left", 15*60, d.get_map_index())
+        end
+
+        function set_warp_timer()
+            local settings = nuyah_dungeon_lv30.settings()
+            local data = settings["data"]
+
+            local level = d.getf("dungeon_level")
+            if data["warp"][level] ~= nil then
+                d.notice_mission(824)
+                server_timer("nuyah_dungeon_lv30_warp", 5, d.get_map_index())
+            else
+                nuyah_dungeon_lv30.create_level()
+            end
+        end
+        
+        function create_level()
+            local settings = nuyah_dungeon_lv30.settings()
+            local data = settings["data"]
+            
+            local level = d.getf("dungeon_level")
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
+            end
+
+            if level == 1 then
+                d.regen_file(string.format("data/dungeon/nuyah_dungeon_lv30/%s.txt", "regen_1a"))
+                
+                local door = data["level"][level]["door"]
+                d.spawn_mob_dir(door["vnum"], door["pos"][1], door["pos"][2], door["pos"][3])
+
+                d.notice_mission(91716)
+
+                d.setf("monster_count", d.count_monster())
+                d.notice_sub_mission("(%d / %d)", 0, 20)
+
+                server_loop_timer("nuyah_dungeon_lv30_monster_wave", 5, d.get_map_index())
+            end
+        end
+
+        when login with nuyah_dungeon_lv30.is_dungeon() and d.getf("dungeon_level") == 0 begin
+            if party.is_party() then
+                local count = d.getf("dungeon_member_count")
+
+                if count == 0 then
+                    d.notice_mission(91721)
+                    return
+                end
+
+                if count < party.get_near_count() then
+                    d.notice_mission(91721)
+                    return
+                end
+            end
+
+            d.setf("dungeon_level", 1)
+            -- prepare level 1
+            nuyah_dungeon_lv30.create_level()
+        end
+
+        -- dungeon entry
+        when 9251.chat.locale_quest(13586) with not nuyah_dungeon_lv30.is_dungeon() begin
+            say_title(mob_name(DUNGEON_NPC))
+            say(locale_quest(91722))
+
+            local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = nuyah_dungeon_lv30.settings()
+
+            if dungeonLib.CheckEnter("nuyah_dungeon_lv30", settings["cooldown"], settings["requirements"]) == false then
+                return
+            end
+
+            say_reward(locale_quest(91723))
+            wait()
+
+            nuyah_dungeon_lv30.create_dungeon()
+        end
+
+        -- level 2
+
+
+        -- server timer
+        when nuyah_dungeon_lv30_warp.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                nuyah_dungeon_lv30.create_level()
+            end
+        end
+
+        when nuyah_dungeon_lv30_monster_wave.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                local level = d.getf("dungeon_level")
+                local count = d.getf("monster_count")
+
+                if level == 1 then
+                    if d.count_monster() <= (count - 20) then
+                        clear_server_timer("nuyah_dungeon_lv30_warp", get_server_timer_arg())
+                        d.kill_monster()
+                        
+                        d.setf("monster_count", 0)
+                        
+                        d.setf("dungeon_level", 2)
+                        akumea_dungeon_c10_an.set_warp_timer()
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), 20)
+                    end
+            end
+        end
+
+        -- server time left timers
+        when nuyah_dungeon_lv30_60min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91733)
+                server_timer("nuyah_dungeon_lv30_45min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_45min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91734)
+                server_timer("nuyah_dungeon_lv30_30min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_30min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91735)
+                server_timer("nuyah_dungeon_lv30_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_15min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91736)
+                server_timer("nuyah_dungeon_lv30_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_10min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91737)
+                server_timer("nuyah_dungeon_lv30_5min_left", 4*60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_5min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91738)
+                server_timer("nuyah_dungeon_lv30_5min_left", 60, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_1min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91739)
+                server_timer("nuyah_dungeon_lv30_final_exit", 3, d.get_map_index())
+            end
+        end
+
+        when nuyah_dungeon_lv30_final_exit.server_timer begin
+			if d.select(get_server_timer_arg()) then
+                local settings = nuyah_dungeon_lv30.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+    end
+end

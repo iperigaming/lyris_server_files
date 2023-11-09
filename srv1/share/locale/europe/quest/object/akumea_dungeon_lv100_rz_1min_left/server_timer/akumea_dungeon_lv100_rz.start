@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( "You failed to complete the dungeon in the right time. You will be teleported out." ) 
+server_timer ( "akumea_dungeon_lv100_rz_final_exit" , 3 , d . get_map_index ( ) ) 
+end 

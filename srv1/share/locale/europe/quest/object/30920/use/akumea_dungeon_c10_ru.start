@@ -1,0 +1,7 @@
+if akumea_dungeon_c10_ru . is_dungeon ( ) and d . getf ( "dungeon_level" ) >= 3 and d . getf ( "dungeon_level" ) <= 6 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+local unique = dungeonLib . GetUnique ( "level2_pillar_%d" , 4 ) 
+d . kill_unique ( unique ) 
+item . remove ( ) 
+akumea_dungeon_c10_ru . set_level ( d . getf ( "dungeon_level" ) + 1 ) 
+ return end 

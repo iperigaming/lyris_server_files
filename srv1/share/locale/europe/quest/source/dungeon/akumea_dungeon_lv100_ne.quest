@@ -1,0 +1,458 @@
+define DUNGEON_MAP_INDEX 352
+define DUNGEON_MOB_ENTRY 20395
+define DUNGEON_REGEN_PATH = "data/dungeon/snow_dungeon/%s.txt"
+define DUNGOEN_ITEM_LEVEL2_KEY 30331
+define DUNGEON_ITEM_LEVEL5_KEY 30332
+
+define DUNGEON_MOB_SZEL 6151
+define DUNGEON_MOB_CUBE 20398
+define DUNGEON_MOB_LEVEL6_STONE 8058
+define DUNGEON_MOB_LEVEL7_STONE 20399
+define DUNGEON_MOB_NEMERE 6191
+
+quest akumea_dungeon_lv100_ne begin
+    state start begin
+        function settings()
+            return {
+                ["requirements"] = {
+                    ["min_level"] = 100,
+                    ["max_level"] = 150,
+                    ["ticket"] = 71095,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 5291,
+                    ["y"] = 1814,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 5291,
+                    ["y"] = 1814,
+                },
+                ["cooldown"] = 7200,
+                ["data"] = {
+                    ["warp"] = {
+                        [2] = { 5540, 1797 },
+                        [3] = { 5882, 1800 },
+                        [4] = { 5293, 2071 },
+                        [5] = { 5540, 2074 },
+                        [6] = { 5866, 2076 },
+                        [7] = { 5969, 2229 },
+                        [8] = { 6047, 1924 }
+                    },
+                    ["level"] = {
+                        [2] = {
+                            ["drop"] = DUNGOEN_ITEM_LEVEL2_KEY,
+                        },
+                        [4] = {
+                            ["szel"] = {
+                                ["vnum"] = DUNGEON_MOB_SZEL,
+                                ["pos"] = {
+                                    ["x"] = 160,
+                                    ["y"] = 490,
+                                },
+                            },
+                        },
+                        [5] = {
+                            ["cube"] = {
+                                ["vnum"] = DUNGEON_MOB_CUBE,
+                                ["pos"] = {
+                                    { 449, 488 },
+                                    { 455, 445 },
+                                    { 419, 422 },
+                                    { 382, 444 },
+                                    { 389, 488 }
+                                },
+                            },
+                            ["drop"] = DUNGEON_ITEM_LEVEL5_KEY,
+                        },
+                        [6] = {
+                            ["stone"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL6_STONE,
+                                ["pos"] = {
+                                    { 744, 497 },
+                                    { 721, 461 },
+                                    { 767, 449 }
+                                },
+                            },
+                        },
+                        [7] = {
+                            ["stone"] = {
+                                ["vnum"] = DUNGEON_MOB_LEVEL7_STONE,
+                                ["pos"] = {
+                                    ["x"] = 849,
+                                    ["y"] = 660,
+                                },
+                            },
+                        },
+                        [8] = {
+                            ["nemere"] = {
+                                ["vnum"] = DUNGEON_MOB_NEMERE,
+                                ["pos"] = {
+                                    ["x"] = 927,
+                                    ["y"] = 333,
+                                },
+                            }
+                        },
+                    },
+                },
+            }
+        end
+
+        function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= DUNGEON_MAP_INDEX * 10000 and index < (DUNGEON_MAP_INDEX + 1) * 10000;
+        end
+
+        function clear_timers()
+            clear_server_timer("akumea_dungeon_lv100_ne_monster_wave", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_warp", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_60min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_45min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_30min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_15min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_10min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_5min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_1min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_final_exit", get_server_timer_arg())
+        end
+
+        function create_dungeon()
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local requirements = settings["requirements"]
+            local pos = settings["pos"]
+
+            if party.is_party() then
+                local near_count = party.get_near_count()
+
+                local pids = { party.get_member_pids() };
+                for i, pid in next, pids, nil do
+                    q.begin_other_pc_block(pid)
+                    pc.remove_item(requirements["ticket"], 1)
+                    pc.setf("akumea_dungeon_lv100_ne", "enter_time", get_global_time())
+                    q.end_other_pc_block()
+                end
+
+                d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+                d.setf("dungeon_member_count", near_count)
+            else
+                pc.remove_item(requirements["ticket"], 1)
+                pc.setf("akumea_dungeon_lv100_ne", "enter_time", get_global_time())
+                d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+            end
+
+			server_timer("akumea_dungeon_lv100_ne_60min_left", 15*60, d.get_map_index())
+        end
+
+        function set_warp_timer()
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local data = settings["data"]
+
+            local level = d.getf("dungeon_level")
+
+            if data["warp"][level] ~= nil then
+                d.notice_mission(824)
+                server_timer("akumea_dungeon_lv100_ne_warp", 5, d.get_map_index())
+            else
+                server_timer("akumea_dungeon_lv100_ne_warp", 1, d.get_map_index())
+            end
+        end
+
+        function set_level(level)
+			d.setf("dungeon_level", level)
+			akumea_dungeon_lv100_ne.set_warp_timer()
+		end
+
+        function create_level()
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local data = settings["data"]
+
+            local level = d.getf("dungeon_level")
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
+            end
+
+            if level == 1 then
+                d.notice_mission(91754)
+                d.notice_sub_mission("(%d / %d)", 0, 100)
+
+                d.regen_file(string.format(DUNGEON_REGEN_PATH, "sd_1"))
+                d.setf("monster_count", d.new_count_monster())
+            elseif level == 2 then
+                d.notice_mission(91778, item_name(data["level"][2]["drop"]))
+                d.set_regen_file(string.format(DUNGEON_REGEN_PATH, "sd_2"))
+            elseif level == 3 then
+                d.notice_mission(91754)
+                d.notice_sub_mission("(%d / %d)", 0, 100)
+
+                d.regen_file(string.format(DUNGEON_REGEN_PATH, "sd_3"))
+                d.setf("monster_count", d.new_count_monster())
+            elseif level == 4 then
+                d.notice_mission(91717, mob_link(data["level"][4]["szel"]["vnum"]))
+                d.spawn_mob(data["level"][4]["szel"]["vnum"], data["level"][4]["szel"]["pos"]["x"], data["level"][4]["szel"]["pos"]["y"])
+            elseif level == 5 then
+                d.notice_mission(91779, item_name(data["level"][5]["drop"]))
+
+                local pos_arr = data["level"][5]["cube"]["pos"]
+                d.notice_sub_mission("(%d / %d)", 0, table.getn(pos_arr))
+
+                d.set_regen_file(string.format(DUNGEON_REGEN_PATH, "sd_5"))
+                for index, pos in ipairs(pos_arr) do
+                    d.set_unique(string.format("cube_%d", index), d.spawn_mob(data["level"][5]["cube"]["vnum"], pos[1], pos[2]))
+                end
+            elseif level == 6 then
+                d.notice_mission(91725)
+
+                local pos_arr = data["level"][6]["stone"]["pos"]
+                d.notice_sub_mission("(%d / %d)", 0, table.getn(pos_arr))
+
+                for _, pos in ipairs(pos_arr) do
+                    d.spawn_mob(data["level"][6]["stone"]["vnum"], pos[1], pos[2])
+                end
+            elseif level == 7 then
+                d.notice_mission(91717, mob_link(data["level"][7]["stone"]["vnum"]))
+                d.spawn_mob(data["level"][7]["stone"]["vnum"], data["level"][7]["stone"]["pos"]["x"], data["level"][7]["stone"]["pos"]["y"])
+            elseif level == 8 then
+                d.notice_mission(91717, mob_link(data["level"][8]["nemere"]["vnum"]))
+                d.spawn_mob(data["level"][8]["nemere"]["vnum"], data["level"][8]["nemere"]["pos"]["x"], data["level"][8]["nemere"]["pos"]["y"])
+            end
+        end
+
+        when login with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 0 begin
+            if party.is_party() then
+                local count = d.getf("dungeon_member_count")
+
+                if count == 0 then
+                    d.notice_mission(91721)
+                    return
+                end
+
+                if count < party.get_near_count() then
+                    d.notice_mission(91721)
+                    return
+                end
+            end
+
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local data = settings["data"]
+
+            akumea_dungeon_lv100_ne.set_level(1)
+        end
+
+        -- dungeon entry
+        when DUNGEON_MOB_ENTRY.chat.locale_quest(8173) with not akumea_dungeon_lv100_ne.is_dungeon() begin
+            say_title(mob_name(DUNGEON_NPC))
+            say(locale_quest(8178))
+
+            local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = akumea_dungeon_lv100_ne.settings()
+
+            if dungeonLib.CheckEnter("akumea_dungeon_lv100_ne", settings["cooldown"], settings["requirements"]) == false then
+                return
+            end
+
+            say_reward(locale_quest(91723))
+            wait()
+
+            akumea_dungeon_lv100_ne.create_dungeon()
+        end
+
+        -- level 2
+        when kill with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 2 begin
+            if number(1, 1000) <= 8 then
+                local settings = akumea_dungeon_lv100_ne.settings()
+
+                d.clear_regen()
+                d.kill_monster()
+
+                d.give_or_drop_leader_item(settings["data"]["level"][2]["drop"], 1)
+            end
+        end
+
+        when DUNGOEN_ITEM_LEVEL2_KEY.use with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 2 begin
+            item.remove()
+
+            akumea_dungeon_lv100_ne.set_level(3)
+        end
+
+        -- level 4
+        when kill with npc.get_race() == DUNGEON_MOB_SZEL and akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 4 begin
+            akumea_dungeon_lv100_ne.set_level(5)
+        end
+
+        -- level 5
+        when kill with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            if number(1, 1000) <= 10 then
+                local settings = akumea_dungeon_lv100_ne.settings()
+                d.give_or_drop_leader_item(settings["data"]["level"][5]["drop"], 1)
+            end
+        end
+
+        when DUNGEON_ITEM_LEVEL5_KEY.use with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local need_count = table.getn(settings["data"]["level"][5]["cube"]["pos"])
+
+            local count = d.getf("cube_count") + 1
+            d.setf("cube_count", count)
+
+            local unique = dungeonLib.GetUnique("cube_%d", need_count)
+            d.kill_unique(unique)
+
+            item.remove()
+
+            if count >= need_count then
+                d.clear_regen()
+                d.kill_monster()
+
+                akumea_dungeon_lv100_ne.set_level(6)
+            else
+                d.notice_sub_mission("(%d / %d)", count, need_count)
+            end
+        end
+
+        when DUNGEON_MOB_CUBE.take with item.get_vnum() == DUNGEON_ITEM_LEVEL5_KEY and akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            npc.purge()
+            item.remove()
+
+            local count = d.getf("cube_count") + 1
+            d.setf("cube_count", count)
+
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local need_count = table.getn(settings["data"]["level"][5]["cube"]["pos"])
+
+            if count >= need_count then
+                d.clear_regen()
+                d.kill_monster()
+
+                akumea_dungeon_lv100_ne.set_level(6)
+            else
+                d.notice_sub_mission("(%d / %d)", count, need_count)
+            end
+        end
+
+        -- level 6
+        when kill with npc.get_race() == DUNGEON_MOB_LEVEL6_STONE and akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 6 begin
+            local count = d.getf("kill_count") + 1
+            d.setf("kill_count", count)
+
+            local settings = akumea_dungeon_lv100_ne.settings()
+            local need_count = table.getn(settings["data"]["level"][6]["stone"]["pos"])
+
+            if count >= need_count then
+                d.kill_monster()
+
+                akumea_dungeon_lv100_ne.set_level(7)
+            else
+                d.notice_sub_mission("(%d / %d)", count, need_count)
+            end
+        end
+
+        -- level 7
+        when kill with npc.get_race() == DUNGEON_MOB_LEVEL7_STONE and akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 7 begin
+            d.kill_monster()
+
+            akumea_dungeon_lv100_ne.set_level(8)
+        end
+
+        -- level 8
+        when kill with npc.get_race() == DUNGEON_MOB_NEMERE and akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 8 begin
+            local settings = akumea_dungeon_lv100_ne.settings()
+
+            akumea_dungeon_lv100_ne.clear_timers()
+            d.kill_all()
+
+            d.complete()
+
+            server_timer("akumea_dungeon_lv100_ne_final_exit", 2*60, d.get_map_index())
+            d.notice_mission(91728, mob_link(settings["data"]["level"][8]["nemere"]["vnum"]))
+        end
+
+        -- server timer
+        when kill with akumea_dungeon_lv100_ne.is_dungeon() begin
+            local level = d.getf("dungeon_level")
+            local count = d.getf("monster_count") - d.new_count_monster()
+
+            if level == 1 or level == 3 then
+                local need_count = 100
+
+                if count >= need_count then
+                    d.kill_monster()
+
+                    akumea_dungeon_lv100_ne.set_level(level + 1)
+                else
+                    d.notice_sub_mission("(%d / %d)", count, need_count)
+                end
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_warp.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                akumea_dungeon_lv100_ne.create_level()
+            end
+        end
+
+        -- server time left timers
+        when akumea_dungeon_lv100_ne_60min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91733)
+                server_timer("akumea_dungeon_lv100_ne_45min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_45min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91734)
+                server_timer("akumea_dungeon_lv100_ne_30min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_30min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91735)
+                server_timer("akumea_dungeon_lv100_ne_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_15min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91736)
+                server_timer("akumea_dungeon_lv100_ne_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_10min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91737)
+                server_timer("akumea_dungeon_lv100_ne_5min_left", 4*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_5min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91738)
+                server_timer("akumea_dungeon_lv100_ne_5min_left", 60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_1min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91739)
+                server_timer("akumea_dungeon_lv100_ne_final_exit", 3, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv100_ne_final_exit.server_timer begin
+			if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_lv100_ne.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+    end
+end

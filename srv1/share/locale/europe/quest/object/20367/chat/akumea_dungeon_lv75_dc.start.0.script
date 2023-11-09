@@ -1,0 +1,13 @@
+say_title ( mob_name ( 20367 ) ) 
+say ( locale_quest ( 810 ) ) 
+local s = select ( locale_quest ( 811 ) , locale_quest ( 812 ) ) 
+if s == 2 then 
+return 
+end 
+local settings = akumea_dungeon_lv75_dc . settings ( ) 
+if dungeonLib . CheckEnter ( "akumea_dungeon_lv75_dc" , settings [ "cooldown" ] , settings [ "requirements" ] ) == false then 
+return 
+end 
+say_reward ( locale_quest ( 91723 ) ) 
+wait ( ) 
+akumea_dungeon_lv75_dc . create_dungeon ( ) 

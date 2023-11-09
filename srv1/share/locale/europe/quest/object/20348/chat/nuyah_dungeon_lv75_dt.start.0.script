@@ -1,0 +1,13 @@
+say_title ( mob_name ( DUNGEON_NPC ) ) 
+say ( locale_quest ( 91722 ) ) 
+local s = select ( locale_quest ( 811 ) , locale_quest ( 812 ) ) 
+if s == 2 then 
+return 
+end 
+local settings = nuyah_dungeon_lv75_dt . settings ( ) 
+if dungeonLib . CheckEnter ( "nuyah_dungeon_lv75_dt" , settings [ "cooldown" ] , settings [ "requirements" ] ) == false then 
+return 
+end 
+say_reward ( locale_quest ( 91723 ) ) 
+wait ( ) 
+nuyah_dungeon_lv75_dt . create_dungeon ( ) 

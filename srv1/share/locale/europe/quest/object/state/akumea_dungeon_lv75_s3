@@ -1,0 +1,64 @@
+akumea_dungeon_lv75_s3={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 75 , 
+[ "max_level" ] = 105 , 
+[ "ticket" ] = 30324 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 405 , 
+[ "x" ] = 3520 , 
+[ "y" ] = 68 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 405 , 
+[ "x" ] = 3520 , 
+[ "y" ] = 68 , 
+} , 
+[ "cooldown" ] = 3600 , 
+[ "data" ] = { 
+[ "baron" ] = { 
+[ "vnum" ] = 2094 , 
+[ "x" ] = 130 , 
+[ "y" ] = 139 , 
+} , 
+[ "boss" ] = { 
+[ "vnum" ] = 2092 , 
+[ "x" ] = 130 , 
+[ "y" ] = 99 , 
+} , 
+} 
+} 
+end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 405 * 10000 and index < ( 405 + 1 ) * 10000 ; 
+end ,clear_timers= function ()clear_server_timer ( "akumea_dungeon_lv75_s3_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_s3_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = akumea_dungeon_lv75_s3 . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv75_s3" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv75_s3" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+server_timer ( "akumea_dungeon_lv75_s3_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end }

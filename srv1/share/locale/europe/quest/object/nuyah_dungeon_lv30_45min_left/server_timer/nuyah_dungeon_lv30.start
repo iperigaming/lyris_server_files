@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( 91734 ) 
+server_timer ( "nuyah_dungeon_lv30_30min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end 

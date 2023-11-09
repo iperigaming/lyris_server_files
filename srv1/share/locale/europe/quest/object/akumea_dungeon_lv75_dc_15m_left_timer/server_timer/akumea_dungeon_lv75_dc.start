@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( 816 , 15 ) 
+server_timer ( "akumea_dungeon_lv75_dc_5m_left_timer" , 60 * 10 , get_server_timer_arg ( ) ) 
+end 

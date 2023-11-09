@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+d . exit_all_to ( settings [ "out_pos" ] [ "x" ] , settings [ "out_pos" ] [ "y" ] , settings [ "out_pos" ] [ "map_index" ] ) ; 
+end 

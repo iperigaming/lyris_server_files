@@ -1,0 +1,3 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+akumea_dungeon_lv100_ne . create_level ( ) 
+end 

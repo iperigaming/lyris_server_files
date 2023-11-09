@@ -1,0 +1,19 @@
+if akumea_dungeon_lv100_rz . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 0 then if party . is_party ( ) then 
+local count = d . getf ( "dungeon_member_count" ) 
+if count == 0 then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+if count < party . get_near_count ( ) then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+end 
+local settings = akumea_dungeon_lv100_rz . settings ( ) 
+local data = settings [ "data" ] 
+for i = 1 , 6 begin 
+d . set_unique ( "block_door_" .. i , d . spawn_mob_ac_dir ( data [ "block_door" ] [ "vnum" ] , data [ "block_door" ] [ "pos" ] [ i ] [ 1 ] , data [ "block_door" ] [ "pos" ] [ i ] [ 2 ] , data [ "block_door" ] [ "dir" ] [ i ] ) ) 
+d . set_unique ( "in_door_" .. i , d . spawn_mob_ac_dir ( data [ "in_door" ] [ "vnum" ] , data [ "in_door" ] [ "pos" ] [ i ] [ 1 ] , data [ "in_door" ] [ "pos" ] [ i ] [ 2 ] , data [ "in_door" ] [ "dir" ] [ i ] ) ) 
+end 
+akumea_dungeon_lv100_rz . set_random_level ( ) 
+ return end 

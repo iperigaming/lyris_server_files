@@ -1,0 +1,265 @@
+akumea_dungeon_lv105_py={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 105 , 
+[ "max_level" ] = 150 , 
+[ "ticket" ] = 30806 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 79 , 
+[ "x" ] = 9051 , 
+[ "y" ] = 22617 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 79 , 
+[ "x" ] = 9051 , 
+[ "y" ] = 22617 , 
+} , 
+[ "cooldown" ] = 9000 , 
+[ "data" ] = { 
+[ "warp" ] = { 
+[ 2 ] = { 9266 , 22621 } , 
+[ 4 ] = { 9536 , 22608 } , 
+[ 6 ] = { 9993 , 22751 } , 
+[ 7 ] = { 9137 , 23558 } , 
+[ 9 ] = { 9759 , 23655 } , 
+} , 
+[ "level" ] = { 
+[ 1 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8472 , 
+[ "pos" ] = { 
+[ "x" ] = 91 , 
+[ "y" ] = 130 , 
+} 
+} 
+} , 
+[ 2 ] = { 
+[ "seal" ] = { 
+[ "vnum" ] = 9332 , 
+[ "pos" ] = { 
+{ 295 , 140 } , 
+{ 295 , 110 } , 
+{ 315 , 140 } , 
+{ 315 , 110 } 
+} , 
+} , 
+} , 
+[ 3 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 4178 , 
+[ "pos" ] = { 
+[ "x" ] = 306 , 
+[ "y" ] = 126 , 
+} , 
+} , 
+} , 
+[ 4 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8473 , 
+[ "pos" ] = { 
+{ 587 , 108 } , 
+{ 564 , 108 } , 
+{ 564 , 128 } , 
+{ 587 , 128 } , 
+{ 564 , 148 } , 
+{ 587 , 148 } , 
+{ 564 , 168 } , 
+{ 587 , 168 } 
+} , 
+} , 
+} , 
+[ 5 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 4179 , 
+[ "pos" ] = { 
+[ "x" ] = 577 , 
+[ "y" ] = 136 , 
+} 
+} , 
+} , 
+[ 6 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 4180 , 
+[ "pos" ] = { 
+{ 1033 , 137 } , 
+{ 1033 , 169 } , 
+{ 1033 , 211 } 
+} , 
+} , 
+} , 
+[ 7 ] = { 
+[ "seal" ] = { 
+[ "vnum" ] = 9333 , 
+[ "pos" ] = { 
+{ 166 , 1044 , 4 } , 
+{ 188 , 1045 , 6 } , 
+{ 188 , 1016 , 8 } , 
+{ 166 , 1015 , 2 } 
+} , 
+} , 
+[ "drop" ] = 30804 , 
+} , 
+[ 8 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 4181 , 
+[ "pos" ] = { 
+[ "x" ] = 177 , 
+[ "y" ] = 1031 , 
+} 
+} , 
+} , 
+[ 9 ] = { 
+[ "seal" ] = { 
+[ "vnum" ] = 9334 , 
+[ "pos" ] = { 999 , 1143 , 3 } 
+} , 
+} , 
+[ 10 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8475 , 
+[ "pos" ] = { 
+[ "x" ] = 948 , 
+[ "y" ] = 1142 
+} 
+} , 
+} , 
+[ 11 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8476 , 
+[ "pos" ] = { 
+[ "x" ] = 961 , 
+[ "y" ] = 1142 , 
+[ "dir" ] = 3 , 
+} , 
+} , 
+[ "boss" ] = { 
+[ "vnum" ] = 4182 , 
+[ "pos" ] = { 
+[ "x" ] = 1012 , 
+[ "y" ] = 1144 , 
+[ "dir" ] = 7 
+} 
+} , 
+} , 
+} , 
+} , 
+} 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 79 * 10000 and index < ( 79 + 1 ) * 10000 ; 
+end ,clear_timers= function ()clear_server_timer ( "akumea_dungeon_lv105_py_boss_health_checker" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_warp" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_py_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = akumea_dungeon_lv105_py . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv105_py" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv105_py" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+server_timer ( "akumea_dungeon_lv105_py_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
+akumea_dungeon_lv105_py . set_warp_timer ( ) 
+end ,set_warp_timer= function ()local settings = akumea_dungeon_lv105_py . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . notice_mission ( 824 ) 
+server_timer ( "akumea_dungeon_lv105_py_warp" , 5 , d . get_map_index ( ) ) 
+else 
+server_timer ( "akumea_dungeon_lv105_py_warp" , 1 , d . get_map_index ( ) ) 
+end 
+end ,create_level= function ()local settings = akumea_dungeon_lv105_py . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . jump_all ( data [ "warp" ] [ level ] [ 1 ] , data [ "warp" ] [ level ] [ 2 ] ) 
+end 
+if level == 1 then 
+d . notice_mission ( 91761 ) 
+d . spawn_mob ( data [ "level" ] [ level ] [ "stone" ] [ "vnum" ] , data [ "level" ] [ level ] [ "stone" ] [ "pos" ] [ "x" ] , data [ "level" ] [ level ] [ "stone" ] [ "pos" ] [ "y" ] ) 
+elseif level == 2 then 
+d . notice_mission ( 91779 , item_name ( 30800 ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , table . getn ( data [ "level" ] [ level ] [ "seal" ] [ "pos" ] ) ) 
+d . set_regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv105_py/%s.txt" , "regen_2f_a" ) ) 
+for i , pos in ipairs ( data [ "level" ] [ level ] [ "seal" ] [ "pos" ] ) begin 
+d . set_unique ( string . format ( "seal_lv2_%d" , i ) , d . spawn_mob ( data [ "level" ] [ level ] [ "seal" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) ) 
+end 
+elseif level == 3 then 
+d . notice_mission ( 91717 , mob_link ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] ) ) 
+d . spawn_mob ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "x" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "y" ] ) 
+elseif level == 4 then 
+d . notice_mission ( 91719 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , table . getn ( data [ "level" ] [ level ] [ "stone" ] [ "pos" ] ) ) 
+d . setf ( "kill_count" , 0 ) 
+local r_index = number ( 1 , table . getn ( data [ "level" ] [ level ] [ "stone" ] [ "pos" ] ) ) 
+for index , pos in ipairs ( data [ "level" ] [ level ] [ "stone" ] [ "pos" ] ) begin 
+if index == r_index then 
+d . set_unique ( "r_stone" , d . spawn_mob ( data [ "level" ] [ level ] [ "stone" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) ) 
+else 
+d . spawn_mob ( data [ "level" ] [ level ] [ "stone" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) 
+end 
+end 
+elseif level == 5 then 
+d . notice_mission ( 91717 , mob_link ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] ) ) 
+d . spawn_mob ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "x" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "y" ] ) 
+elseif level == 6 then 
+d . notice_mission ( 91782 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , table . getn ( data [ "level" ] [ level ] [ "boss" ] [ "pos" ] ) ) 
+d . setf ( "kill_count" , 0 ) 
+local r_index = number ( 1 , table . getn ( data [ "level" ] [ level ] [ "boss" ] [ "pos" ] ) ) 
+for index , pos in ipairs ( data [ "level" ] [ level ] [ "boss" ] [ "pos" ] ) begin 
+if index == r_index then 
+d . set_unique ( "r_boss" , d . spawn_mob ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) ) 
+else 
+d . spawn_mob ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) 
+end 
+end 
+elseif level == 7 then 
+d . notice_mission ( 91779 , item_name ( 30804 ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , table . getn ( data [ "level" ] [ level ] [ "seal" ] [ "pos" ] ) ) 
+d . set_regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv105_py/%s.txt" , "regen_5f_a" ) ) 
+for i , pos in ipairs ( data [ "level" ] [ level ] [ "seal" ] [ "pos" ] ) begin 
+d . set_unique ( string . format ( "seal_lv7_%d" , i ) , d . spawn_mob_dir ( data [ "level" ] [ level ] [ "seal" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] , pos [ 3 ] ) ) 
+end 
+elseif level == 8 then 
+d . notice_mission ( 91717 , mob_link ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] ) ) 
+d . spawn_mob ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "x" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "y" ] ) 
+elseif level == 9 then 
+d . notice_mission ( 91716 ) 
+local seal = settings [ "data" ] [ "level" ] [ level ] [ "seal" ] 
+d . set_unique ( "seal_lv9" , d . spawn_mob_dir ( seal [ "vnum" ] , seal [ "pos" ] [ 1 ] , seal [ "pos" ] [ 2 ] , seal [ "pos" ] [ 3 ] ) ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv105_py/%s.txt" , "regen_6f_a" ) ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv105_py/%s.txt" , "regen_6f_b" ) ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 100 ) 
+elseif level == 10 then 
+local stone = settings [ "data" ] [ "level" ] [ level ] [ "stone" ] 
+d . spawn_mob ( stone [ "vnum" ] , stone [ "pos" ] [ "x" ] , stone [ "pos" ] [ "y" ] ) 
+d . notice_mission ( 91761 ) 
+elseif level == 11 then 
+d . notice_mission ( 91717 , mob_link ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] ) ) 
+d . set_unique ( "level11_boss" , d . spawn_mob_dir ( data [ "level" ] [ level ] [ "boss" ] [ "vnum" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "x" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "y" ] , data [ "level" ] [ level ] [ "boss" ] [ "pos" ] [ "dir" ] ) ) 
+server_loop_timer ( "akumea_dungeon_lv105_py_boss_health_checker" , 5 , d . get_map_index ( ) ) 
+end 
+end }

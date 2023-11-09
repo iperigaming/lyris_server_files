@@ -1,0 +1,61 @@
+dragon_lair_access={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 75 , 
+[ "max_level" ] = 105 , 
+[ "ticket" ] = 30179 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 208 , 
+[ "x" ] = 8436 , 
+[ "y" ] = 10662 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 208 , 
+[ "x" ] = 8436 , 
+[ "y" ] = 10662 , 
+} , 
+[ "cooldown" ] = 3600 , 
+[ "data" ] = { 
+[ "dragon" ] = { 
+[ "vnum" ] = 2493 , 
+[ "x" ] = 155 , 
+[ "y" ] = 199 , 
+} , 
+} 
+} 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 208 * 10000 and index < ( 208 + 1 ) * 10000 ; 
+end ,clear_timers= function ()clear_server_timer ( "dragon_lair_access_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "dragon_lair_access_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = dragon_lair_access . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "dragon_lair_access" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "dragon_lair_access" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+d . set_regen_file ( "data/dungeon/dragon_lair.txt" ) 
+d . spawn_mob ( settings [ "data" ] [ "dragon" ] [ "vnum" ] , settings [ "data" ] [ "dragon" ] [ "x" ] , settings [ "data" ] [ "dragon" ] [ "y" ] ) 
+d . set_warp_location ( settings [ "out_pos" ] [ "map_index" ] , settings [ "out_pos" ] [ "x" ] , settings [ "out_pos" ] [ "y" ] ) ; 
+server_timer ( "akumea_dungeon_lv50_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end }

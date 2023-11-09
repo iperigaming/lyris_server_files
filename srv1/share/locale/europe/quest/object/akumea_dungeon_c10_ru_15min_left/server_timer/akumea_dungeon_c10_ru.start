@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( 91736 ) 
+server_timer ( "akumea_dungeon_c10_ru_15min_left" , 5 * 60 , d . get_map_index ( ) ) 
+end 

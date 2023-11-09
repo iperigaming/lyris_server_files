@@ -1,0 +1,3 @@
+if akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then item . remove ( ) 
+akumea_dungeon_lv100_ne . set_level ( 3 ) 
+ return end 

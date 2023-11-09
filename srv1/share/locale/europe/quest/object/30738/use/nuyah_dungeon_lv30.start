@@ -1,0 +1,13 @@
+if nuyah_dungeon_lv30 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+local unique = dungeonLib . GetUnique ( "seal_%d" , 3 ) 
+d . kill_unique ( unique ) 
+item . remove ( ) 
+if count >= 3 then 
+d . kill_all ( ) 
+d . setf ( "seal_count" , 0 ) 
+nuyah_dungeon_lv30 . set_level ( 9 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 3 ) 
+end 
+ return end 

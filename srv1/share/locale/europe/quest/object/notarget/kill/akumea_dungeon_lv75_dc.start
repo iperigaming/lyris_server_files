@@ -1,0 +1,25 @@
+if akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 1 and d . getf ( "drop_deny" ) == 0 then local j = number ( 1 , 100 ) 
+if j <= 5 then 
+d . give_or_drop_leader_item ( 30311 , 1 ) 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+d . notice_sub_mission ( "(%d / %d)" , 1 , 1 ) 
+d . setf ( "drop_deny" , 1 ) 
+end 
+ return end if npc . get_race ( ) == 8038 and not npc . is_pc ( ) and akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+if count >= 7 then 
+akumea_dungeon_lv75_dc . set_level ( 3 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 7 ) 
+end 
+ return end if npc . get_race ( ) == 2591 and akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then d . kill_monster ( ) 
+akumea_dungeon_lv75_dc . set_level ( 4 ) 
+ return end if npc . get_race ( ) == 2597 and akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then d . kill_monster ( ) 
+akumea_dungeon_lv75_dc . set_level ( 5 ) 
+ return end if npc . get_race ( ) == 2598 and akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then d . kill_all ( ) 
+akumea_dungeon_lv75_dc . clear_timers ( ) 
+d . complete ( ) 
+server_timer ( "akumea_dungeon_lv75_dc_exit_timer" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( 2598 ) ) 
+ return end 

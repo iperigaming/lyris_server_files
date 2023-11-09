@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( locale_quest ( 91735 ) ) 
+server_timer ( "dragon_lair_access_15min_left" , 5 * 60 , d . get_map_index ( ) ) 
+end 

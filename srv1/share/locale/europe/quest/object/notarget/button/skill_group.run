@@ -1,0 +1,4 @@
+game . open_skill_group_select ( ) 
+setskin ( NOWINDOW ) 
+set_state ( "start" ) 
+clear_letter ( ) 

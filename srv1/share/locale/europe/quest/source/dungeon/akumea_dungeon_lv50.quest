@@ -1,0 +1,368 @@
+define DUNGEON_NPC 9341
+define DUNGEON_MAP_INDEX 77
+define DUNGEON_REGEN_FILE_PATH = "data/dungeon/akumea_dungeon_lv50/regen_%d_%d.txt"
+define DUNGEON_BOOK_KEY 30812
+define DUNGEON_MOB_BOOK_VNUM 9345
+
+quest akumea_dungeon_lv50 begin
+    state start begin
+        function settings()
+            return {
+                ["requirements"] = {
+                    ["min_level"] = 50,
+                    ["max_level"] = 80,
+                    ["ticket"] = 30811,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 11534,
+                    ["y"] = 22752,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = DUNGEON_MAP_INDEX,
+                    ["x"] = 11534,
+                    ["y"] = 22752,
+                },
+                ["cooldown"] = 1800,
+                ["unique_regen"] = {
+                    ["books"] = {
+                        {299, 246, 7},
+                        {299, 283, 7},
+                        {244, 246, 3},
+                        {241, 283, 3}
+                    },
+                },
+                ["data"] = {
+                    ["book_item"] = {30813, 30814, 30815, 30816},
+                    ["boss"] = {
+                        ["vnum"] = 4313,
+                        ["x"] = 271,
+                        ["y"] = 286,
+                    },
+                }
+            }
+        end
+
+        function GetUnique(name, count, level)
+            local avail = {}
+
+            for i = level, count do
+                if not d.is_unique_dead(string.format(name, i)) and d.getf(string.format(name, i)) == 0 then
+                    table.insert(avail, string.format(name, i))
+                end
+            end
+
+            return avail[math.random(1, table.getn(avail))]
+        end
+
+        function GetUniqueByVID(name, count, vid)
+            for i = 1, count do
+                if not d.is_unique_dead(string.format(name, i)) and d.get_unique_vid(string.format(name, i)) == vid then
+                    return string.format(name, i)
+                end
+            end
+        end
+
+        function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= DUNGEON_MAP_INDEX * 10000 and index < (DUNGEON_MAP_INDEX + 1) * 10000;
+        end
+
+        function clear_timers()
+            clear_server_timer("akumea_dungeon_lv50_60min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_45min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_30min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_15min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_10min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_5min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_1min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv50_final_exit", get_server_timer_arg())
+        end
+        
+        function create_level()
+            local settings = akumea_dungeon_lv50.settings()
+            local level = d.getf("dungeon_level")
+
+            if level == 1 then
+                d.spawn_mob(8480, 273, 266)
+
+                d.notice_mission(91761)
+            elseif level == 2 then
+                d.regen_file(string.format(DUNGEON_REGEN_FILE_PATH, 2, 1))
+                d.setf("mob_count", d.new_count_monster())
+
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, 100)
+            elseif level == 3 then
+                d.regen_file(string.format(DUNGEON_REGEN_FILE_PATH, 3, 1))
+
+                d.notice_mission(91725)
+                d.notice_sub_mission("(%d / %d)", 0, 4)
+            elseif level == 4 then
+                d.regen_file(string.format(DUNGEON_REGEN_FILE_PATH, 2, 1))
+                d.setf("mob_count", d.new_count_monster())
+
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, 100)
+            elseif level == 5 then
+                local boss = settings["data"]["boss"]
+                d.set_unique("final_boss", d.spawn_mob(boss["vnum"], boss["x"], boss["y"]))
+
+			    d.notice_mission(91755)
+            end
+        end
+
+        function create_dungeon()
+            local settings = akumea_dungeon_lv50.settings()
+            local requirements = settings["requirements"]
+            local pos = settings["pos"]
+
+            if party.is_party() then
+                local near_count = party.get_near_count()
+
+                local pids = { party.get_member_pids() };
+                for i, pid in next, pids, nil do
+                    q.begin_other_pc_block(pid)
+                    pc.remove_item(requirements["ticket"], 1)
+                    pc.setf("akumea_dungeon_lv50", "enter_time", get_global_time())
+                    q.end_other_pc_block()
+                end
+
+                d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+                d.setf("dungeon_member_count", near_count)
+            else
+                pc.remove_item(requirements["ticket"], 1)
+                pc.setf("akumea_dungeon_lv50", "enter_time", get_global_time())
+                d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+            end
+
+            d.regen_file(string.format(DUNGEON_REGEN_FILE_PATH, 0, 1));
+            d.set_warp_location(settings["out_pos"]["map_index"], settings["out_pos"]["x"], settings["out_pos"]["y"]);
+
+            server_timer("akumea_dungeon_lv50_60min_left", 15*60, d.get_map_index())
+        end
+
+        when DUNGEON_NPC.chat.locale_quest(13586) with not akumea_dungeon_lv50.is_dungeon() begin
+            local settings = akumea_dungeon_lv50.settings()
+            local requirements = settings["requirements"]
+            say_title(mob_name(DUNGEON_NPC))
+			say(locale_quest(91722))
+
+            local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = akumea_dungeon_lv50.settings()
+
+            if dungeonLib.CheckEnter("akumea_dungeon_lv50", settings["cooldown"], settings["requirements"]) == false then
+                return
+            end
+            
+            say_reward(locale_quest(91723))
+            wait()
+
+            akumea_dungeon_lv50.create_dungeon()
+        end
+
+        -- first mission trigger
+        when login with akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") == 0 begin
+            if party.is_party() then
+                local count = d.getf("dungeon_member_count")
+
+                if count == 0 then
+                    d.notice_mission(91721)
+                    return
+                end
+
+                if count < party.get_near_count() then
+                    d.notice_mission(91721)
+                    return
+                end
+            end
+
+            local settings = akumea_dungeon_lv50.settings()
+            
+            d.setf("dungeon_level", 1)
+
+            local books = settings["unique_regen"]["books"]
+            books = table_shuffle(books)
+
+            for index, position in ipairs(books) do
+                d.set_unique(string.format("book_%d", index), d.spawn_mob_dir(DUNGEON_MOB_BOOK_VNUM, position[1], position[2], position[3]))
+            end
+
+            -- prepare level 1
+            akumea_dungeon_lv50.create_level()
+        end
+
+        when DUNGEON_BOOK_KEY.use with akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") <= 4 begin
+            local level = d.getf("dungeon_level")
+                    
+            if d.is_unique_dead(string.format("book_%d", level)) then
+                return
+            end
+
+            local unique_clicked = akumea_dungeon_lv50.GetUnique("book_%d", 4, level)
+
+            item.remove()
+            d.setf(unique_clicked, 1)
+
+            if d.get_unique_vid(string.format("book_%d", level)) == d.get_unique_vid(unique_clicked) then
+                d.kill_unique(unique_clicked)
+
+                d.kill_monster()
+                d.setf("dungeon_level", level + 1)
+
+                for i=1,4 do
+                    d.setf(string.format("book_%d", i), 0)
+                end
+            else
+                chat("That is not the key to this book, the key is broken.")
+            end
+            
+            akumea_dungeon_lv50.create_level()
+        end
+
+        when DUNGEON_MOB_BOOK_VNUM.take with item.get_vnum() == DUNGEON_BOOK_KEY and akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") <= 4 begin
+            local level = d.getf("dungeon_level")
+                
+            if d.is_unique_dead(string.format("book_%d", level)) then
+                return
+            end
+
+            local unique_clicked = akumea_dungeon_lv50.GetUniqueByVID("book_%d", 4, npc.get_vid())
+
+            if d.getf(string.format(unique_clicked, i)) == 1 then
+                chat(locale_quest(91795))
+                return
+            end
+
+            item.remove()
+            d.setf(unique_clicked, 1)
+
+            if npc.get_vid() == d.get_unique_vid(unique_clicked) then
+                d.kill_unique(string.format("book_%d", level))
+
+                d.kill_monster()
+                d.setf("dungeon_level", level + 1)
+
+                for i=1,4 do
+                    d.setf(string.format("book_%d", i), 0)
+                end
+            else
+                chat("That is not the key to this book, the key is broken.")
+            end
+
+            akumea_dungeon_lv50.create_level()
+        end
+
+        -- level 1 - kill metin stone
+        when kill with npc.get_race() == 8480 and akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") == 1 begin
+            pc.give_item2(DUNGEON_BOOK_KEY)
+            d.notice_mission(91774)
+        end
+
+        -- level 3 - kill all metin stones
+        when kill with npc.get_race() == 8481 and akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") == 3 begin
+            d.setf("kill_count", d.getf("kill_count") + 1)
+
+            local count = d.getf("kill_count")
+            if count >= 4 then
+                pc.give_item2(DUNGEON_BOOK_KEY);
+                d.notice_mission(91774)
+            else
+                d.notice_sub_mission("(%d / %d)", count, 4)
+            end
+        end
+
+        -- level 5 kill boss
+        when 4313.kill with akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            akumea_dungeon_lv50.clear_timers()
+
+            d.clear_regen()
+			d.kill_all()
+
+            d.complete()
+
+            server_timer("akumea_dungeon_lv50_final_exit", 2*60, d.get_map_index())
+            d.notice_mission(91728, mob_link(4313))
+        end
+
+        -- monster count server timers
+        when kill with akumea_dungeon_lv50.is_dungeon() begin
+            local level = d.getf("dungeon_level")
+            local count = d.getf("mob_count")
+
+            if level == 2 or level == 4 then
+                if count - d.new_count_monster() >= 100 then
+                    d.kill_monster()
+
+                    d.give_or_drop_leader_item(DUNGEON_BOOK_KEY, 1);
+                    d.notice_mission(91774)
+                else
+                    d.notice_sub_mission("(%d / %d)", count - d.new_count_monster(), 100)
+                end
+            end
+        end
+
+        -- server time left timers
+        when akumea_dungeon_lv50_60min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91733)
+                server_timer("akumea_dungeon_lv50_45min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_45min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91734)
+                server_timer("akumea_dungeon_lv50_30min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_30min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91735)
+                server_timer("akumea_dungeon_lv50_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_15min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91736)
+                server_timer("akumea_dungeon_lv50_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_10min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91737)
+                server_timer("akumea_dungeon_lv50_5min_left", 4*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_5min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91738)
+                server_timer("akumea_dungeon_lv50_5min_left", 60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_1min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91739)
+                server_timer("akumea_dungeon_lv50_final_exit", 3, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_lv50_final_exit.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				local settings = akumea_dungeon_lv50.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+    end
+end

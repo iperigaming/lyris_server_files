@@ -1,0 +1,5 @@
+if akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 10 then item . remove ( ) 
+d . clear_regen ( ) 
+d . kill_all ( ) 
+akumea_dungeon_lv105_py . set_level ( 11 ) 
+ return end 

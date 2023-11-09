@@ -1,0 +1,4 @@
+if item . get_vnum ( ) == 30304 and nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then item . remove ( ) 
+d . kill_all ( ) 
+nuyah_dungeon_lv75_dt . set_level ( 9 ) 
+ return end 

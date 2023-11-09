@@ -1,0 +1,2376 @@
+#Neues EQ
+#WAFFEN
+#OT SURA
+
+section
+npc	20091	
+item	149	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	270	1
+gold	10000000
+percent	100
+allow_copy	149
+end
+
+section
+npc	20091	
+item	159	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	280	1
+gold	10000000
+percent	100
+allow_copy	159
+end
+
+section
+npc	20091	
+item	1109	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	4040	1
+gold	10000000
+percent	100
+allow_copy	1109
+end
+
+section
+npc	20091	
+item	2149	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	2160	1
+gold	10000000
+percent	100
+allow_copy	2149
+end
+
+section
+npc	20091	
+item	3139	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	3170	1
+gold	10000000
+percent	100
+allow_copy	3139
+end
+
+section
+npc	20091	
+item	5109	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	5330	1
+gold	10000000
+percent	100
+allow_copy	5109
+end
+
+
+section
+npc	20091	
+item	7149	1
+item	25040	20 -- Segensschriftrolle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	7190	1
+gold	10000000
+percent	100
+allow_copy	7149
+end
+
+section
+npc	20091	
+item	14209	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	14220	1
+gold	5000000
+percent	100
+allow_copy	14209
+end
+
+section
+npc	20091	
+item	17209	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	17220	1
+gold	5000000
+percent	100
+allow_copy	17209
+end
+
+section
+npc	20091	
+item	16209	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	16220	1
+gold	5000000
+percent	100
+allow_copy	16209
+end
+
+section
+npc	20091	
+item	15209	1
+item	71123	1 -- Drachenschuppe
+item	71129	1 -- Drachenkralle
+reward	15410	1
+gold	5000000
+percent	100
+allow_copy	15209
+end
+
+section
+npc	20091	
+item	12269	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	12280	1
+gold	5000000
+percent	100
+allow_copy	12269
+end
+
+section
+npc	20091	
+item	12399	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	12400	1
+gold	5000000
+percent	100
+allow_copy	12399
+end
+
+section
+npc	20091	
+item	12539	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	12540	1
+gold	5000000
+percent	100
+allow_copy	12539
+end
+
+section
+npc	20091	
+item	12679	1
+item	31085	1 -- Schweres Wasser
+item	31086	1 -- Pilzsporen
+reward	12680	1
+gold	5000000
+percent	100
+allow_copy	12679
+end
+
+#OT SURA ENDE
+
+section
+npc	20377
+item	279	1
+item	70036	1 -- Notiz der Studenten
+item	30500	10 -- Rubin Gravurmesser
+item	30505	10 -- Smaragdverzierung
+item	51001	200 -- Energiesplitter
+reward	460	1
+gold	20000000
+percent	100
+allow_copy	279
+end
+
+section
+npc	20377
+item	3179	1
+item	70036	1 -- Notiz der Studenten
+item	30504	10 -- Silberschelle
+item	30508	10 -- Saphirverzierung
+item	51001	200 -- Energiesplitter
+reward	3190	1
+gold	20000000
+percent	100
+allow_copy	3179
+end
+
+section
+npc	20377
+item	289	1
+item	70036	1 -- Notiz der Studenten
+item	30502	10 -- Rubinverzierung
+item	30503	10 -- Amethyst-Gravurmesser
+item	51001	200 -- Energiesplitter
+reward	470	1
+gold	20000000
+percent	100
+allow_copy	289
+end
+
+section
+npc	20377	
+item	2169	1
+item	70036	1 -- Notiz der Studenten
+item	30501	10 -- Goldschelle
+item	30506	10 -- Saphir-Gravurmesser
+item	51001	200 -- Energiesplitter
+reward	2370	1
+gold	20000000
+percent	100
+allow_copy	2169	
+end
+
+section
+npc	20377	
+item	4049	1
+item	70036	1 -- Notiz der Studenten
+item	30507	10 -- Bronzeschelle
+item	30506	10 -- Saphir-Gravurmesser
+item	51001	200 -- Energiesplitter
+reward	1340	1
+gold	20000000
+percent	100
+allow_copy	4049
+end
+
+section
+npc	20377	
+item	5339	1
+item	70036	1 -- Notiz der Studenten
+item	30507	10 -- Bronzeschelle
+item	30503	10 -- Amethyst-Gravurmesser
+item	51001	200 -- Energiesplitter
+reward	5340	1
+gold	20000000
+percent	100
+allow_copy	5339
+end
+
+section
+npc	20377	
+item	7199	1
+item	70036	1 -- Notiz der Studenten
+item	30504	10 -- Silberschelle
+item	30508	10 -- Saphirverzierung
+item	51001	200 -- Energiesplitter
+reward	7370	1
+gold	20000000
+percent	100
+allow_copy	7199
+end
+
+#WAFFEN ENDE
+
+
+#RUSTUNGEN
+#OT SURA
+
+section
+npc	20091
+item	11299	1
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+reward	12010	1
+gold	10000000
+percent	100
+allow_copy	11299
+end
+
+section
+npc	20091
+item	11499	1
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+reward	12020	1
+gold	10000000
+percent	100
+allow_copy	11499
+end
+
+section
+npc	20091
+item	11699	1
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+reward	12030	1
+gold	10000000
+percent	100
+allow_copy	11699
+end
+
+section
+npc	20091
+item	11899	1
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+reward	12040	1
+gold	10000000
+percent	100
+allow_copy	11899
+end
+
+section
+npc	20091
+item	189	1 -- Giftschwert+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	520	1 -- Blaustahlschwert
+gold	10000000
+percent	100
+allow_copy	189
+end
+
+section
+npc	20091
+item	199	1 -- Löwenschwert+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	530	1 -- Blaustahlklinge
+gold	10000000
+percent	100
+allow_copy	199
+end
+
+section
+npc	20091
+item	3169	1 -- Grollschwert+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	3510	1 -- Blaustahlklinge
+gold	10000000
+percent	100
+allow_copy	3169
+end
+
+section
+npc	20091
+item	2179	1 -- Krähenstahlbogen+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	2510	1 -- Blaustahlbogen
+gold	10000000
+percent	100
+allow_copy	2179
+end
+
+section
+npc	20091
+item	5129	1 -- Orchidennglocke+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	5510	1 -- Blaustahlglocke
+gold	10000000
+percent	100
+allow_copy	5129
+end
+
+section
+npc	20091
+item	1139	1 -- Teufelsflügel-Chakram+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	1510	1 -- Blaustahldolch
+gold	10000000
+percent	100
+allow_copy	1139
+end
+
+section
+npc	20091
+item	7179	1 -- Acht-Trigramme-Fächer+9
+item	71123	3 -- Drachenschuppe
+item	71129	4 -- Drachenkralle
+item	70031	1 -- Traktat zur Schwertkunst
+reward	7510	1 -- Blaustahlfächer
+gold	10000000
+percent	100
+allow_copy	7179
+end
+
+## OT SURA ENDE
+
+section
+npc	20377
+item	12019	1
+item	30601	1 -- Rüstungsplan
+item	30509	20 -- Blaudrachenstahl
+item	30514	20 -- Violetter Stoff
+item	30516	20 -- Antikes Schulterstück
+reward	20000	1
+gold	10000000
+percent	100
+allow_copy	12019
+end
+
+section
+npc	20377
+item	12029	1
+item	30601	1 -- Rüstungsplan
+item	30512	20 -- Rotdrachenstahl
+item	30517	20 -- Goldener Stoff
+item	30513	20 -- Edles Schulterstück
+reward	20250	1
+gold	10000000
+percent	100
+allow_copy	12029
+end
+
+section
+npc	20377
+item	12039	1
+item	30601	1 -- Rüstungsplan
+item	30515	20 -- Purpurdrachenstahl
+item	30511	20 -- Roter Stoff
+item	30510	20 -- Prächtiges Schulterstück
+reward	20500	1
+gold	10000000
+percent	100
+allow_copy	12039
+end
+
+section
+npc	20377
+item	12049	1
+item	30601	1 -- Rüstungsplan
+item	30509	20 -- Blaudrachenstahl
+item	30517	20 -- Goldener Stoff
+item	30510	20 -- Prächtiges Schulterstück
+reward	20750	1
+gold	10000000
+percent	100
+allow_copy	12049
+end
+
+section
+npc	20377
+item	15419	1
+item	30600	1 -- Schnittmuster
+item	30509	10 -- Blaudrachenstahl
+item	30611	10 -- Schwere Gurte
+reward	15440	1
+gold	10000000
+percent	100
+allow_copy	15419
+end
+
+section
+npc	20377
+item	13069	1
+item	31026	1 -- Krustenpanzer
+item	30605	20 -- Goldplatten
+item	30606	20 -- Silberplatten
+reward	13140	1
+gold	10000000
+percent	100
+allow_copy	13069
+end
+
+section
+npc	20377
+item	13089	1
+item	31026	1 -- Krustenpanzer
+item	30605	20 -- Goldplatten
+item	30606	20 -- Silberplatten
+reward	13140	1
+gold	10000000
+percent	100
+allow_copy	13089
+end
+
+section
+npc	20377
+item	13109	1
+item	31026	1 -- Krustenpanzer
+item	30605	20 -- Goldplatten
+item	30606	20 -- Silberplatten
+reward	13140	1
+gold	10000000
+percent	100
+allow_copy	13109
+end
+
+section
+npc	20377
+item	13129	1
+item	31026	1 -- Krustenpanzer
+item	30605	20 -- Goldplatten
+item	30606	20 -- Silberplatten
+reward	13140	1
+gold	10000000
+percent	100
+allow_copy	13129
+end
+
+section
+npc	20377
+item	12289	1
+item	30622	1 -- Rüstungsplan: Helm
+item	30502	10 -- Rubinverzierung
+item	30512	10 -- Rotdrachenstahl
+item	30500	10 -- Rubin-Gravurmesser
+reward	12690	1
+gold	10000000
+percent	100
+allow_copy	12289
+end
+
+section
+npc	20377
+item	12549	1
+item	30622	1 -- Rüstungsplan: Helm
+item	30502	10 -- Rubinverzierung
+item	30512	10 -- Rotdrachenstahl
+item	30500	10 -- Rubin-Gravurmesser
+reward	12710	1
+gold	10000000
+percent	100
+allow_copy	12549
+end
+
+section
+npc	20377
+item	12689	1
+item	30622	1 -- Rüstungsplan: Helm
+item	30502	10 -- Rubinverzierung
+item	30512	10 -- Rotdrachenstahl
+item	30500	10 -- Rubin-Gravurmesser
+reward	12720	1
+gold	10000000
+percent	100
+allow_copy	12689
+end
+
+section
+npc	20377
+item	12409	1
+item	30622	1 -- Rüstungsplan: Helm
+item	30502	10 -- Rubinverzierung
+item	30512	10 -- Rotdrachenstahl
+item	30500	10 -- Rubin-Gravurmesser
+reward	12700	1
+gold	10000000
+percent	100
+allow_copy	12409
+end
+
+section
+npc	20377
+item	17229	1
+item	30585	1 -- Glatter Schmuck(rot)
+item	30520	10 -- Goldschnalle
+item	30521	10 -- Ringelement
+reward	17500	1
+gold	10000000
+percent	100
+allow_copy	17229
+end
+
+section
+npc	20377
+item	16229	1
+item	30585	1 -- Glatter Schmuck(rot)
+item	30520	10 -- Goldschnalle
+item	30519	10 -- Goldhaken
+reward	16500	1
+gold	10000000
+percent	100
+allow_copy	16229
+end
+
+section
+npc	20377
+item	14229	1
+item	30585	1 -- Glatter Schmuck(rot)
+item	30518	10 -- Goldgarn
+item	30519	10 -- Goldhaken
+reward	14500	1
+gold	10000000
+percent	100
+allow_copy	14229
+end
+
+#SCHMUCK ENDE
+#Neues EQ ENDE
+
+
+#TAU NPC
+
+section		
+npc	20018	
+item	50725	10
+item	50721	10
+item	50901	1
+reward	50822	1 -- Pinker Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50725	10
+item	50722	10
+item	50901	1
+reward	50821	1 -- Roter Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50727	10
+item	50721	10
+item	50728	10
+item	50901	1
+reward	50825	1 -- Blauer Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50727	10
+item	50722	10
+item	50728	10
+item	50901	1
+reward	50826	1 -- Weisser Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50726	10
+item	50724	10
+item	50728	10
+item	50901	1
+reward	50823	1 -- Gelber Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50728	10
+item	50726	10
+item	50723	10
+item	50901	1
+reward	50824	1 -- Grüner Tau
+gold	500000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50725	500
+item	50721	500
+item	50901	1
+reward	950822	1 -- Pinker Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50725	500
+item	50722	500
+item	50901	1
+reward	950821	1 -- Roter Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50727	500
+item	50721	500
+item	50728	500
+item	50901	1
+reward	950825	1 -- Blauer Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50727	500
+item	50722	500
+item	50728	500
+item	50901	1
+reward	950826	1 -- Weisser Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50726	500
+item	50724	500
+item	50728	500
+item	50901	1
+reward	950823	1 -- Gelber Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018	
+item	50728	500
+item	50726	500
+item	50723	500
+item	50901	1
+reward	950824	1 -- Grüner Tau(P)
+gold	10000000
+percent	100
+end	
+
+section		
+npc	20018
+item	50728	500
+item	50726	500	
+item	71028	1 -- Drachengott-Angriff
+reward	939018	1 -- Drachengott-Angriff(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50724	500
+item	50728	500	
+item	71030	1 -- Drachengott-Verteidigung
+reward	939020	1 -- Drachengott-Verteidigung(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50727	500
+item	50722	500	
+item	71027	1 -- Drachengott-Leben
+reward	939017	1 -- Drachengott-Leben(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50727	500
+item	50721	500	
+item	71029	1 -- Drachengott-Intelligenz
+reward	939019	1 -- Drachengott-Intelligenz(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50725	500
+item	50722	500	
+item	71045	1 -- Durchbohrender Kampf
+reward	939024 	1  -- Durchbohrender Kampf(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50725	500
+item	50721	500	
+item	71044	1 -- Kritischer Kampf
+reward	939025 	1 -- Kritischer Kampf(P)
+gold	10000000
+percent	100
+end
+
+#TAU NPC ENDE
+
+#ALCHEMIST START
+
+
+
+section
+npc	20001	
+item	50255	5
+reward	100000 	1 -- Elixier der Zeit (K)
+gold	1000000
+percent	100
+end
+
+section
+npc	20001	
+item	50255	10
+reward	100001 	1 -- Elixier der Zeit (M)
+gold	1000000
+percent	100
+end
+
+section
+npc	20001	
+item	30606	20 -- Silberplatten
+item	30504	20 -- Silberschelle
+item	30521	20 -- Ringelement
+reward	51511 	1 -- Cor Diamas
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	30500	20 -- Rubin-Gravurmesser
+item	30512	20 -- Rotdrachenstahl
+item	30511	20 -- Roter Stoff
+reward	51512 	1 -- Cor Rubinum
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	30505	20 -- Smaragdverzierung
+item	30513	20 -- Edles Schulterstück
+item	30611	20 -- Schwere Gurte
+reward	51513 	1 -- Cor Jadeit
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	30508	20 -- Saphirverzierung
+item	30506	20 -- Saphir-Gravurmesser
+item	30509	20 -- Blaudrachenstahl
+reward	51514 	1 -- Cor Saphirum
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	30515	20 -- Purpurdrachenstahl
+item	30514	20 -- Violetter Stoff
+item	30520	20 -- Goldschnalle
+reward	51515 	1 -- Cor Granatum
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	30612	20 -- Stabile Schnüre
+item	30517	20 -- Goldener Stoff
+item	30519	20 -- Goldhaken
+reward	51516 	1 -- Cor Artrum
+gold	100000
+percent	100
+end
+
+section
+npc	20001	
+item	31242	10 -- Nordwind-Waffenstein
+item	27992	10 -- Weiße Perle
+reward	51511 	1 -- Cor Diamas
+gold	300000
+percent	100
+end
+
+section
+npc	20001	
+item	31247	10 -- Rote SungMa-Rune
+item	27994	10 -- Rote Perle
+reward	51512 	1 -- Cor Rubinum
+gold	300000
+percent	100
+end
+
+section
+npc	20001	
+item	31250	10 -- Grüne SungMa-Rune
+item	31251	10 -- Lederhärter
+reward	51513 	1 -- Cor Jadeit
+gold	300000
+percent	100
+end
+
+section
+npc	20001	
+item	31249	10 -- Blaue SungMa-Rune
+item	27993	10 -- Blaue Perle
+reward	51514 	1 -- Cor Saphirum
+gold	300000
+percent	100
+end
+
+section
+npc	20001	
+item	30616	10 -- Titandioxid
+item	31245	10 -- Purpurdrachenstahl
+reward	51515 	1 -- Cor Granatum
+gold	300000
+percent	100
+end
+
+section
+npc	20001	
+item	70411	10 -- W.Drachentruhe(Leicht)
+item	30612	10 -- Stabile Schnüre
+reward	51516 	1 -- Cor Artrum
+gold	300000
+percent	100
+end
+
+section
+npc	20001
+item	50513	100 -- Seelenstein
+item	71001	50 -- Exorzismus-Schriftrolle
+item	71094	50 -- Konzentriertes Lesen
+item	70102	10 -- Zen-Bohne
+reward	50577 	1 -- Legendärer Seelenstein
+gold	100000000
+percent	100
+end
+
+section
+npc	20001	
+item	71085	50
+reward	71084 	20 -- Switcher
+gold	100000
+percent	100
+end
+
+section		
+npc	20001	
+item	70024	50
+reward	71084 	20 -- Switcher
+gold	100000
+percent	100
+end
+
+section		
+npc	20001	
+item	72005	4
+reward	72006 	1 -- Diebeshandschuh
+gold	5000000
+percent	100
+end
+
+section		
+npc	20001	
+item	72002	6
+reward	72003 	1 -- EXP RING
+gold	5000000
+percent	100
+end
+
+section		
+npc	20001	
+item	72002	30
+reward	71153 	1 -- 100% Exp Trank
+gold	2000000
+percent	100
+end
+
+section
+npc	20001
+item	28430	1 -- Stein des Durchbruchs+4
+item	27990	30 -- 30 Steinstück
+reward	28530	1 -- Stein des Durchbruchs+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28431	1 -- Stein des Todesstoß+4
+item	27990	30 -- 30 Steinstück
+reward	28531	1 -- Stein des Todesstoß+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28432	1 -- Stein der Wiederkehr+4
+item	27990	30 -- 30 Steinstück
+reward	28532	1 -- Stein der Wiederkehr+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28433	1 -- Stein gegen Krieger+4
+item	27990	30 -- 30 Steinstück
+reward	28533	1 -- Stein gegen Krieger+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28434	1 -- Stein gegen Ninja+4
+item	27990	30 -- 30 Steinstück
+reward	28534	1 -- Stein gegen Ninja+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28435	1 -- Stein gegen Sura+4
+item	27990	30 -- 30 Steinstück
+reward	28535	1 -- Stein gegen Sura+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28436	1 -- Stein gegen Schamanen+4
+item	27990	30 -- 30 Steinstück
+reward	28536	1 -- Stein gegen Schamanen+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28437	1 -- Stein der Monster+4
+item	27990	30 -- 30 Steinstück
+reward	28537	1 -- Stein der Monster+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28438	1 -- Stein des Ausweichens+4
+item	27990	30 -- 30 Steinstück
+reward	28538	1 -- Stein des Ausweichens+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28439	1 -- Stein des Duckens+4
+item	27990	30 -- 30 Steinstück
+reward	28539	1 -- Stein des Duckens+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28440	1 -- Stein der Magie+4
+item	27990	30 -- 30 Steinstück
+reward	28540	1 -- Stein der Magie+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28441	1 -- Stein der Lebenskraft+4
+item	27990	30 -- 30 Steinstück
+reward	28541	1 -- Stein der Lebenskraft+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28442	1 -- Stein des Schutzes+4
+item	27990	30 -- 30 Steinstück
+reward	28542	1 -- Stein des Schutzes+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28443	1 -- Stein der Hast+4
+item	27990	30 -- 30 Steinstück
+reward	28543	1 -- Stein der Hast+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28444	1 -- Magiebruch-Stein+4
+item	27990	30 -- 30 Steinstück
+reward	28544	1 -- Magiebruch-Stein+5
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	28445	1 -- Magiebruch-Stein+4
+item	27990	30 -- 30 Steinstück
+reward	28545	1 -- Magiebruch-Stein+5
+gold	5000000
+percent	100
+end
+
+#ALCHEMIST ENDE
+
+#SCHMIED
+
+section
+npc	20016	
+item	70035	1
+item	25040	1
+reward	39014	1  -- Schriftrolle des Krieges
+gold	500000
+percent	100
+end
+
+section
+npc	20016	
+item	71026	1
+item	25040	1
+reward	39022	1 --Schriftrolle des Drachen
+gold	800000
+percent	100
+end
+
+section
+npc	20016	
+item	71025	1
+item	25040	1
+reward	39007	1  -- Schmiedehandbuch
+gold	1600000
+percent	100
+end
+
+section
+npc	20016	
+item	71025	10 -- Magisches Eisenerz
+item	71026	10 -- Stein des Schmiedes
+item	25040	10 -- Segenschriftrolle
+reward	25041	1  
+gold	10000000
+percent	100
+end
+
+section
+npc	20016
+item	25041	1 -- Magischer Stein
+item	69151	5 -- Ungewöhnliche Verzauberung
+reward	25044	1 -- Verzauberter Stein(10%)
+gold	10000000
+percent	100
+end
+
+section
+npc	20016
+item	25041	1 -- Magischer Stein
+item	69152	3 -- Seltene Verzauberung
+reward	25045	1 -- Verhexter Stein(15%)
+gold	10000000
+percent	100
+end
+
+
+
+#Schmied ENDE
+
+#SASHES
+
+section
+npc	60003	
+item	80019	10
+item	27994	1
+reward	85001	1  -- Herrscherband (einfach)
+gold	1000000
+percent	100
+end
+
+section
+npc	60003	
+item	80019	10
+item	27993	1
+reward	85011	1  -- Furstenband (einfach)
+gold	1000000
+percent	100
+end
+
+section
+npc	60003	
+item	80019	10
+item	27992	1
+reward	85015	1  -- Konigsband (einfach)
+gold	1000000
+percent	100
+end
+
+section
+npc	60003	
+item	31137	1
+item	51001	200
+item	31135	1
+reward	49001	1  -- Gewöhnliches Auragewand
+gold	1000000
+percent	40
+end
+
+#SASHES ENDE
+
+##############################################################
+
+#DRACHEN EQ ANFANG
+
+section
+npc	20823	
+item	509	1
+item	31196	1 -- EW: Schwertentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	320	1
+gold	40000000
+percent	100
+allow_copy	509
+end
+
+section
+npc	20823	
+item	519	1
+item	31197	1 -- EW: Schneidenentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	340	1
+gold	40000000
+percent	100
+allow_copy	519
+end
+
+section
+npc	20823	
+item	2509	1
+item	31199	1 -- EW: Bogenentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	2210	1
+gold	40000000
+percent	100
+allow_copy	2509
+end
+
+section
+npc	20823	
+item	1509	1
+item	31198	1 -- EW: Dolchentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	1190	1
+gold	40000000
+percent	100
+allow_copy	1509
+end
+
+section
+npc	20823	
+item	3509	1
+item	31200	1 -- EW: Klingenentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	3230	1
+gold	40000000
+percent	100
+allow_copy	3509
+end
+
+section
+npc	20823	
+item	5509	1
+item	31201	1 -- EW: Glockenentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	5170	1
+gold	40000000
+percent	100
+allow_copy	5509
+end
+
+section
+npc	20823	
+item	7509	1
+item	31203	1 -- EW: Fächerentwurf
+item 	31115	50 -- Amboss
+item	31121	50 -- Stahl
+item	31112	100 -- Starker Erweckungsstein
+reward	7310	1
+gold	40000000
+percent	100
+allow_copy	7509
+end
+
+section
+npc	20823	
+item	12059	1
+item	31204	1 -- EW: Kriegerrüst.-Entw.
+item	31121	50 -- Stahl
+item	31118	50 -- Abzeichen des Ruhmes
+item	31112	100 -- Starker Erweckungsstein
+reward	21210	1
+gold	40000000
+percent	100
+allow_copy	12059
+end
+
+section
+npc	20823	
+item	12069	1
+item	31205	1 -- EW: Ninjarüst.-Entw.
+item	31121	50 -- Stahl
+item	31118	50 -- Abzeichen des Ruhmes
+item	31112	100 -- Starker Erweckungsstein
+reward	21230	1
+gold	40000000
+percent	100
+allow_copy	12069
+end
+
+section
+npc	20823	
+item	12079	1
+item	31206	1 -- EW: Surarüst.-Entw.
+item	31121	50 -- Stahl
+item	31118	50 -- Abzeichen des Ruhmes
+item	31112	100 -- Starker Erweckungsstein
+reward	21250	1
+gold	40000000
+percent	100
+allow_copy	12079
+end
+
+section
+npc	20823	
+item	12089	1
+item	31207	1 -- EW: Schamanenrüst.-Entw.
+item	31121	50 -- Stahl
+item	31118	50 -- Abzeichen des Ruhmes
+item	31112	100 -- Starker Erweckungsstein
+reward	21270	1
+gold	40000000
+percent	100
+allow_copy	12089
+end
+
+section
+npc	20823	
+item	12929	1
+item	31209	1 -- EW: Kriegerhelmentwurf
+item	31114	50 -- Einfaches Leder
+item	31117	50 -- Dünnes Garn
+item	31111	100 -- Edler Erweckungsstein
+reward	12780	1
+gold	30000000
+percent	100
+allow_copy	12929
+end
+
+section
+npc	20823	
+item	12939	1
+item	31210	1 -- EW: Ninjahelmentwurf
+item	31114	50 -- Einfaches Leder
+item	31117	50 -- Dünnes Garn
+item	31111	100 -- Edler Erweckungsstein
+reward	12800	1
+gold	30000000
+percent	100
+allow_copy	12939
+end
+
+section
+npc	20823	
+item	12949	1
+item	31211	1 -- EW: Surahelmentwurf
+item	31114	50 -- Einfaches Leder
+item	31117	50 -- Dünnes Garn
+item	31111	100 -- Edler Erweckungsstein
+reward	12820	1
+gold	30000000
+percent	100
+allow_copy	12949
+end
+
+section
+npc	20823	
+item	12959	1
+item	31212	1 -- EW: Schamanenhelmentwurf
+item	31114	50 -- Einfaches Leder
+item	31117	50 -- Dünnes Garn
+item	31111	100 -- Edler Erweckungsstein
+reward	12840	1
+gold	30000000
+percent	100
+allow_copy	12959
+end
+
+section
+npc	20823	
+item	17599	1
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31149	20 -- Feste Schnur
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	17600	1
+gold	30000000
+percent	100
+allow_copy	17599
+end
+
+section
+npc	20823	
+item	15479	1
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31149	20 -- Feste Schnur
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	15240	1
+gold	30000000
+percent	100
+allow_copy	15479
+end
+
+section
+npc	20823	
+item	16609	1
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31149	20 -- Feste Schnur
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	16610	1
+gold	30000000
+percent	100
+allow_copy	16609
+end
+
+section
+npc	20823	
+item	14609	1
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31149	20 -- Feste Schnur
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	14610	1
+gold	30000000
+percent	100
+allow_copy	14609
+end
+
+section
+npc	20823	
+item	13229	1
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31149	20 -- Feste Schnur
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	13230	1
+gold	30000000
+percent	100
+allow_copy	13229
+end
+
+section
+npc	20823	
+item	18039	1 -- Gürtel der Weisheit+9
+item	18009	1 -- Leinengürtel+9
+item	30583	1 -- Glatter Schmuck(Blau)
+item	31084	20 -- Nimbustinktur
+item	31109	50 -- Feiner Erweckungsstein
+reward	18100	1 -- Titangürtel+0
+gold	30000000
+percent	100
+end
+
+section
+npc	20823
+item	23019	1 -- Flinke Handschuhe+9
+item	30618	5 -- Mondstein
+item	30617	5 -- Achat
+item	30616	5 -- Titandioxid
+item	31246	1 -- Handschuhzeichung
+reward	23070	1 -- Dunkeldrachenhandschuhe+0
+gold	30000000
+percent	100
+allow_copy	23019
+end
+
+#DRACHEN EQ ENDE
+
+##############################################################
+
+#ZODIAK EQ START
+
+section
+npc	20378	
+item	529	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	310	1
+gold	20000000
+percent	100
+allow_copy	529
+end
+
+section
+npc	20378	
+item	539	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	300	1
+gold	20000000
+percent	100
+allow_copy	539
+end
+
+section
+npc	20378	
+item	2519	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	2200	1
+gold	20000000
+percent	100
+allow_copy	2519
+end
+
+section
+npc	20378	
+item	1519	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	1180	1
+gold	20000000
+percent	100
+allow_copy	1519
+end
+
+section
+npc	20378	
+item	3519	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	3220	1
+gold	20000000
+percent	100
+allow_copy	3519
+end
+
+section
+npc	20378	
+item	5519	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	5160	1
+gold	20000000
+percent	100
+allow_copy	5519
+end
+
+section
+npc	20378	
+item	7519	1
+item	39112	1 -- Waffen-Setvorlage
+item 	30616	50 -- Titanoxid
+item	30619	50 -- Goldmetallic Farbstoff
+item	33029	100 -- Rote Zodiakschatulle
+reward	7300	1
+gold	20000000
+percent	100
+allow_copy	7519
+end
+
+section
+npc	20378	
+item	20009	1
+item	39111	1 -- Rüstung-Setvorlage
+item 	30618	50 -- Mondstein
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	19290	1
+gold	20000000
+percent	100
+allow_copy	20009
+end
+
+section
+npc	20378	
+item	20259	1
+item	39111	1 -- Rüstung-Setvorlage
+item 	30618	50 -- Mondstein
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	19490	1
+gold	20000000
+percent	100
+allow_copy	20259
+end
+
+section
+npc	20378	
+item	20509	1
+item	39111	1 -- Rüstung-Setvorlage
+item 	30618	50 -- Mondstein
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	19690	1
+gold	20000000
+percent	100
+allow_copy	20509
+end
+
+section
+npc	20378	
+item	20759	1
+item	39111	1 -- Rüstung-Setvorlage
+item 	30618	50 -- Mondstein
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	19890	1
+gold	20000000
+percent	100
+allow_copy	20759
+end
+
+section
+npc	20378	
+item	12699	1
+item	39110	1 -- Helm-Setvorlage
+item	30612	50 -- Stabile Schnüre
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	12880	1
+gold	10000000
+percent	100
+allow_copy	12699
+end
+
+section
+npc	20378	
+item	12709	1
+item	39110	1 -- Helm-Setvorlage
+item	30612	50 -- Stabile Schnüre
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	12890	1
+gold	10000000
+percent	100
+allow_copy	12709
+end
+
+section
+npc	20378	
+item	12719	1
+item	39110	1 -- Helm-Setvorlage
+item	30612	50 -- Stabile Schnüre
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	12900	1
+gold	10000000
+percent	100
+allow_copy	12719
+end
+
+section
+npc	20378	
+item	12729	1
+item	39110	1 -- Helm-Setvorlage
+item	30612	50 -- Stabile Schnüre
+item	30619	50 -- Goldmetallic Farbstoff
+item	33030	100 -- Blaue Zodiakschatulle
+reward	12910	1
+gold	10000000
+percent	100
+allow_copy	12729
+end
+
+section
+npc	20378	
+item	17509	1
+item	30581	1 -- Glatter Bronzeschmuck
+item	30611	20 -- Schwere Gurte
+item	30619	20 -- Goldmetallic Farbstoff
+item	33030	50 -- Blaue Zodiakschatulle
+reward	17570	1
+gold	10000000
+percent	100
+allow_copy	17509
+end
+
+section
+npc	20378	
+item	15449	1
+item	30581	1 -- Glatter Bronzeschmuck
+item	30611	20 -- Schwere Gurte
+item	30619	20 -- Goldmetallic Farbstoff
+item	33030	50 -- Blaue Zodiakschatulle
+reward	15460	1
+gold	10000000
+percent	100
+allow_copy	15449
+end
+
+section
+npc	20378
+item	16509	1
+item	30581	1 -- Glatter Bronzeschmuck
+item	30611	20 -- Schwere Gurte
+item	30619	20 -- Goldmetallic Farbstoff
+item	33030	50 -- Blaue Zodiakschatulle
+reward	16580	1
+gold	10000000
+percent	100
+allow_copy	16509
+end
+
+
+section
+npc	20378
+item	14509	1
+item	30581	1 -- Glatter Bronzeschmuck
+item	30611	20 -- Schwere Gurte
+item	30619	20 -- Goldmetallic Farbstoff
+item	33030	50 -- Blaue Zodiakschatulle
+reward	14580	1
+gold	10000000
+percent	100
+allow_copy	14509
+end
+
+section
+npc	20378
+item	13149	1
+item	30581	1 -- Glatter Bronzeschmuck
+item	30611	20 -- Schwere Gurte
+item	30619	20 -- Goldmetallic Farbstoff
+item	33030	50 -- Blaue Zodiakschatulle
+reward	13210	1
+gold	10000000
+percent	100
+allow_copy	13149
+end
+
+#ZODIAK EQ ENDE
+##############################################################
+
+
+#KYANIT EQ ANFANG
+
+section
+npc	20383	
+item	469	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	500	1
+gold	20000000
+percent	100
+allow_copy	469
+end
+
+section
+npc	20383	
+item	479	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	510	1
+gold	20000000
+percent	100
+allow_copy	479
+end
+
+section
+npc	20383	
+item	2379	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	2500	1
+gold	20000000
+percent	100
+allow_copy	2379
+end
+
+section
+npc	20383	
+item	1349	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	1500	1
+gold	20000000
+percent	100
+allow_copy	1349
+end
+
+section
+npc	20383	
+item	3199	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	3500	1
+gold	20000000
+percent	100
+allow_copy	3199
+end
+
+section
+npc	20383	
+item	5349	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	5500	1
+gold	20000000
+percent	100
+allow_copy	5349
+end
+
+section
+npc	20383	
+item	7379	1
+item	39112	1 -- Waffen-Setvorlage
+item	31019	50 -- Carapax-Pulver
+item	30624	50 -- Seele der Wahrheit
+item	30626	100 -- Kyanit
+reward	7500	1
+gold	20000000
+percent	100
+allow_copy	7379
+end
+
+section
+npc	20383	
+item	20009	1
+item	39111	1 -- Rüstung-Setvorlage
+item	30559	50 -- Glänzender Sand(purpur)
+item	30623	50 -- Buch der Wahrheit
+item	30626	100 -- Kyanit
+reward	12050	1
+gold	20000000
+percent	100
+allow_copy	20009
+end
+
+section
+npc	20383	
+item	20259	1
+item	39111	1 -- Rüstung-Setvorlage
+item	30559	50 -- Glänzender Sand(purpur)
+item	30623	50 -- Buch der Wahrheit
+item	30626	100 -- Kyanit
+reward	12060	1
+gold	20000000
+percent	100
+allow_copy	20259
+end
+
+section
+npc	20383	
+item	20509	1
+item	39111	1 -- Rüstung-Setvorlage
+item	30559	50 -- Glänzender Sand(purpur)
+item	30623	50 -- Buch der Wahrheit
+item	30626	100 -- Kyanit
+reward	12070	1
+gold	20000000
+percent	100
+allow_copy	20509
+end
+
+section
+npc	20383	
+item	20759	1
+item	39111	1 -- Rüstung-Setvorlage
+item	30559	50 -- Glänzender Sand(purpur)
+item	30623	50 -- Buch der Wahrheit
+item	30626	100 -- Kyanit
+reward	12080	1
+gold	20000000
+percent	100
+allow_copy	20759
+end
+
+section
+npc	20383	
+item	12699	1
+item	39110	1 -- Helm-Setvorlage
+item	31226	20 -- Verdorbener Kern
+item	31018	20 -- Carapax-Script
+item	30626	50 -- Kyanit
+reward	12920	1
+gold	10000000
+percent	100
+allow_copy	12699
+end
+
+section
+npc	20383	
+item	12709	1
+item	39110	1 -- Helm-Setvorlage
+item	31226	20 -- Verdorbener Kern
+item	31018	20 -- Carapax-Script
+item	30626	50 -- Kyanit
+reward	12930	1
+gold	10000000
+percent	100
+allow_copy	12709
+end
+
+section
+npc	20383	
+item	12719	1
+item	39110	1 -- Helm-Setvorlage
+item	31226	20 -- Verdorbener Kern
+item	31018	20 -- Carapax-Script
+item	30626	50 -- Kyanit
+reward	12940	1
+gold	10000000
+percent	100
+allow_copy	12719
+end
+
+section
+npc	20383	
+item	12729	1
+item	39110	1 -- Helm-Setvorlage
+item	31226	20 -- Verdorbener Kern
+item	31018	20 -- Carapax-Script
+item	30626	50 -- Kyanit
+reward	12950	1
+gold	10000000
+percent	100
+allow_copy	12729
+end
+
+section
+npc	20383	
+item	17509	1
+item	30586	1 -- Glatter Schmuck(Purpur)
+item	31226	20 -- Verdorbener Kern
+item	31077	20 -- Fundamentsteinpulver
+item	30626	50 -- Kyanit
+reward	17590	1
+gold	10000000
+percent	100
+allow_copy	17509
+end
+
+section
+npc	20383	
+item	15449	1
+item	30586	1 -- Glatter Schmuck(Purpur)
+item	31226	20 -- Verdorbener Kern
+item	31077	20 -- Fundamentsteinpulver
+item	30626	50 -- Kyanit
+reward	15470	1
+gold	10000000
+percent	100
+allow_copy	15449
+end
+
+section
+npc	20383
+item	16509	1
+item	30586	1 -- Glatter Schmuck(Purpur)
+item	31226	20 -- Verdorbener Kern
+item	31077	20 -- Fundamentsteinpulver
+item	30626	50 -- Kyanit
+reward	16600	1
+gold	10000000
+percent	100
+allow_copy	16509
+end
+
+
+section
+npc	20383
+item	14509	1
+item	30586	1 -- Glatter Schmuck(Purpur)
+item	31226	20 -- Verdorbener Kern
+item	31077	20 -- Fundamentsteinpulver
+item	30626	50 -- Kyanit
+reward	14600	1
+gold	10000000
+percent	100
+allow_copy	14509
+end
+
+section
+npc	20383
+item	13149	1
+item	30586	1 -- Glatter Schmuck(Purpur)
+item	31226	20 -- Verdorbener Kern
+item	31077	20 -- Fundamentsteinpulver
+item	30626	50 -- Kyanit
+reward	13220	1
+gold	10000000
+percent	100
+allow_copy	13149
+end
+
+#KYANIT EQ ENDE
+
+##############################################################
+
+#SCHLANGEN EQ START
+
+section
+npc	20829
+item	319	1
+item	376	1 -- Schlangenschwert(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	360	1
+gold	40000000
+percent	100
+allow_copy	319
+end
+
+section
+npc	20829
+item	309	1
+item	396	1	--	Schlangenklinge(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	380	1
+gold	40000000
+percent	100
+allow_copy	309
+end
+
+section
+npc	20829
+item	2209	1
+item	2246	1 -- Schlangenbogen(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	2230	1
+gold	40000000
+percent	100
+allow_copy	2209
+end
+
+section
+npc	20829
+item	1189	1
+item	1226	1	-- Schlangendolch(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	1210	1
+gold	40000000
+percent	100
+allow_copy	1189
+end
+
+section
+npc	20829
+item	3229	1
+item	3266	1	-- Schlangengroßschw.(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	3250	1
+gold	40000000
+percent	100
+allow_copy	3229
+end
+
+section
+npc	20829
+item	5169	1
+item	5216	1	--	Schlangenglocke.(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	5200	1
+gold	40000000
+percent	100
+allow_copy	5169
+end
+
+section
+npc	20829
+item	7309	1
+item	7346	1	--	Schlangenfächer.(herst.)
+item	31257	50 -- Schlangenmuster 
+item	31259	50 -- Nordwindamobss
+item	31263	100 -- Nordwindschleifstein
+reward	7330	1
+gold	40000000
+percent	100
+allow_copy	7309
+end
+
+section
+npc	20829	
+item	19299	1
+item	21326	1 -- Schlangenmantel (herst.)
+item	31257	50 -- Schlangenmuster
+item	31258	50 -- Schlangenseide
+item	31262	100 -- Schlangenpolitur
+reward	21310	1
+gold	40000000
+percent	100
+allow_copy	19299
+end
+
+section
+npc	20829	
+item	19499	1
+item	21346	1 -- Schlangenwams (herst.)
+item	31257	50 -- Schlangenmuster
+item	31258	50 -- Schlangenseide
+item	31262	100 -- Schlangenpolitur
+reward	21330	1
+gold	40000000
+percent	100
+allow_copy	19499
+end
+
+section
+npc	20829	
+item	19699	1
+item	21366	1 -- B. Schlangenm. (herst.)
+item	31257	50 -- Schlangenmuster
+item	31258	50 -- Schlangenseide
+item	31262	100 -- Schlangenpolitur
+reward	21350	1
+gold	40000000
+percent	100
+allow_copy	19699
+end
+
+section
+npc	20829
+item	19899	1
+item	21386	1 -- R. Schlangenm. (herst.)
+item	31257	50 -- Schlangenmuster
+item	31258	50 -- Schlangenseide
+item	31262	100 -- Schlangenpolitur
+reward	21370	1
+gold	40000000
+percent	100
+allow_copy	19899
+end
+
+section
+npc	20829	
+item	12889	1
+item	31209	1 -- EW:Kriegerhelmentwurf
+item	31245	20 -- Hartes Leder
+item	31258	20 -- Schlangenseide
+item	31262	50 -- Schlangenpolitur
+reward	12100	1
+gold	40000000
+percent	100
+allow_copy	12889
+end
+
+section
+npc	20829	
+item	12899	1
+item	31210	1 -- EW:Ninjahelmentwurf
+item	31245	20 -- Hartes Leder
+item	31258	20 -- Schlangenseide
+item	31262	50 -- Schlangenpolitur
+reward	12120	1
+gold	40000000
+percent	100
+allow_copy	12899
+end
+
+section
+npc	20829	
+item	12909	1
+item	31211	1 -- EW:Surahelmentwurf
+item	31245	20 -- Hartes Leder
+item	31258	20 -- Schlangenseide
+item	31262	50 -- Schlangenpolitur
+reward	12140	1
+gold	40000000
+percent	100
+allow_copy	12909
+end
+
+section
+npc	20829	
+item	12919	1
+item	31212	1 -- EW:Schamanenhelmentwurf
+item	31245	20 -- Hartes Leder
+item	31258	20 -- Schlangenseide
+item	31262	50 -- Schlangenpolitur
+reward	12160	1
+gold	40000000
+percent	100
+allow_copy	12919
+end
+
+section
+npc	20829	
+item	17579	1
+item	30584	1 -- Glatter Schmuck(Grün)
+item	70428	20 -- Schlangenstaub
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	17620	1
+gold	30000000
+percent	100
+allow_copy	17579
+end
+
+section
+npc	20829	
+item	15469	1
+item	30584	1 -- Glatter Schmuck(Grün)
+item	70428	20 -- Schlangenstaub
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	15260	1
+gold	30000000
+percent	100
+allow_copy	15469
+end
+
+section
+npc	20829
+item	16589	1
+item	30584	1 -- Glatter Schmuck(Grün)
+item	70428	20 -- Schlangenstaub
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	16630	1
+gold	30000000
+percent	100
+allow_copy	16589
+end
+
+
+section
+npc	20829
+item	14589	1
+item	30584	1 -- Glatter Schmuck(Grün)
+item	70428	20 -- Schlangenstaub
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	14630	1
+gold	30000000
+percent	100
+allow_copy	14589
+end
+
+section
+npc	20829
+item	13219	1
+item	30584	1 -- Glatter Schmuck(Grün)
+item	70428	20 -- Schlangenstaub
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	13250	1
+gold	30000000
+percent	100
+allow_copy	13219
+end
+
+section
+npc	20829
+item	18089	1 -- Seelengürtel+9
+item	18029	1 -- Prunkvoller Gürtel+9
+item	30584	1 -- Glatter Schmuck(Grün)
+item	31257	20 -- Schlangenmuster
+item	70429	50 -- Schlangenschatz
+reward	18090	1 -- Turmalingürtel+0
+gold	30000000
+percent	100
+end
+
+section
+npc	20829
+item	23009	1 -- Krafthandschuhe+9
+item	30618	5 -- Mondstein
+item	30617	5 -- Achat
+item	30616	5 -- Titandioxid
+item	31246	1 -- Handschuhzeichung
+reward	23080	1 -- Schlangenhandschuhe+0
+gold	30000000
+percent	100
+allow_copy	23009
+end
+
+#SCHLANGEN EQ ENDE
+##############################################################
+#HANDSCHUHE EQ
+
+section
+npc	20802
+item	31247	10 -- Rote SungMa-Rune
+item	31249	10 -- Blaue SungMa-Rune
+item	31245	25 -- Hartes Leder
+item	31225	5 -- Runenstein
+item	31246	1 -- Handschuhzeichung
+reward	23000	1 -- Krafthandschuhe+0
+gold	10000000
+percent	100
+allow_copy	23000
+end
+
+section
+npc	20802
+item	31248	10 -- Lila SungMa-Rune
+item	31250	10 -- Grüne SungMa-Rune
+item	31245	25 -- Hartes Leder
+item	31225	5 -- Runenstein
+item	31246	1 -- Handschuhzeichung
+reward	23010	1 -- Krafthandschuhe+0
+gold	10000000
+percent	100
+allow_copy	23010
+end
+
+#HANDSCHUHE EQ ENDE
+
+##############################################################

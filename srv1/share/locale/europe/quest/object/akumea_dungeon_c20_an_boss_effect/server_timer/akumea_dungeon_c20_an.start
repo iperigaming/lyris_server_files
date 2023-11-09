@@ -1,0 +1,21 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+local health = { 75 , 50 , 25 } 
+local phase = d . getf ( "boss_phase" ) + 1 
+if phase > 3 or d . is_unique_dead ( "boss" ) then 
+clear_server_timer ( "akumea_dungeon_c20_an_boss_effect" , get_server_timer_arg ( ) ) 
+return 
+end 
+if d . new_count_monster ( ) > 1 then 
+return 
+end 
+if d . unique_get_hp_perc ( "boss" ) <= health [ phase ] then 
+d . setf ( "boss_phase" , phase ) 
+for _ , pos in ipairs ( settings [ "data" ] [ "level" ] [ 9 ] [ "stone" ] [ "pos" ] ) begin 
+d . spawn_mob ( settings [ "data" ] [ "level" ] [ 9 ] [ "stone" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) 
+end 
+d . setf ( "stone_count" , 0 ) 
+d . notice_mission ( 91729 ) 
+d . unique_set_damage_block_flag ( "boss" , true ) 
+end 
+end 

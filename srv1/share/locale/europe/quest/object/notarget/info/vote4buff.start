@@ -1,0 +1,84 @@
+say_title ( "Vote 4 Buff" ) 
+say ( "" ) 
+say ( "Select options: " ) 
+local affectDuration = 60 * 60 * 24 
+local options = select ( "Vote " , "Check Vote" , "Vote to Bonus" , "Cancel" ) 
+if options == 1 then 
+local leftTime = game . get_event_flag ( string . format ( "%d_vote_lefttime" , pc . get_account_id ( ) ) ) - get_global_time ( ) 
+if leftTime > 0 then 
+say ( "You need wait " .. CalculateTime ( leftTime ) .. " for next vote!" ) 
+return 
+end 
+cmdchat ( "OpenBrowser " .. string . format ( "https://www.metin2pserver.info/vote.htm?id=Kazuyan2&name=%s" , string . lower ( pc . get_account ( ) ) ) ) 
+setskin ( 0 ) 
+elseif options == 2 then 
+local leftTime = game . get_event_flag ( string . format ( "%d_vote4buff_lefttime" , pc . get_account_id ( ) ) ) - get_global_time ( ) 
+if leftTime > 0 then 
+say ( "You need wait " .. CalculateTime ( leftTime ) .. " for next vote!" ) 
+return 
+end 
+local voteStatus = pc . check_vote_coin ( ) 
+if voteStatus == 0 or voteStatus == 5 then 
+say ( "Something went wrong..." ) 
+return 
+elseif voteStatus == 1 then 
+say ( "Can't get data from vote website..." ) 
+return 
+elseif voteStatus == 2 or voteStatus == 3 then 
+say ( "You not voted in 24hour." ) 
+return 
+elseif voteStatus == 4 then 
+say ( "Vote4Buff" ) 
+local voteCoin = pc . get_vote_coin ( ) 
+pc . set_vote_coin ( voteCoin + 1 ) 
+say ( "Congratulations you voted well current coin: " .. voteCoin + 1 ) 
+say ( "Not miss next day for vote. Good game." ) 
+game . set_event_flag ( string . format ( "%d_vote4buff_lefttime" , pc . get_account_id ( ) ) , get_global_time ( ) + affectDuration ) 
+end 
+elseif options == 3 then 
+local accountFlag = true 
+local leftTime = 0 
+if accountFlag == true then 
+leftTime = game . get_event_flag ( string . format ( "%d_vote4buff_affect" , pc . get_account_id ( ) ) ) - get_global_time ( ) 
+else 
+leftTime = pc . getf ( "vote4buff_" , "_lefttime" ) - get_global_time ( ) 
+end 
+if leftTime > 0 then 
+say ( "You need wait " .. CalculateTime ( leftTime ) ) 
+return 
+end 
+local voteCoin = pc . get_vote_coin ( ) 
+if voteCoin < 1 then 
+say ( "You need vote for buff." ) 
+return 
+end 
+local affectList = { { 63 , 10 } , { 45 , 10 } , { 44 , 20 } , { 43 , 20 } } 
+local affetNames = { } 
+for i = 1 , table . getn ( affectList ) , 1 
+begin 
+table . insert ( affetNames , vote4buff . GetPointName ( affectList [ i ] [ 1 ] , affectList [ i ] [ 2 ] ) ) 
+end 
+table . insert ( affetNames , "Cancel" ) 
+say ( "Vote 4 Buff affect duration is " .. CalculateTime ( affectDuration ) ) 
+say ( "Select your want bonus." ) 
+local selectedBonus = select_table ( affetNames ) 
+if selectedBonus >= table . getn ( affetNames ) then 
+return 
+end 
+say_title ( "Vote 4 Buff" ) 
+say ( "" ) 
+say ( "Do you want select " .. vote4buff . GetPointName ( affectList [ selectedBonus ] [ 1 ] , affectList [ selectedBonus ] [ 2 ] ) .. " ?" ) 
+local x = select ( "Yes" , "Cancel" ) 
+if x ~= 1 then 
+return 
+end 
+if accountFlag == true then 
+game . set_event_flag ( string . format ( "%d_vote4buff_affect" , pc . get_account_id ( ) ) , get_global_time ( ) + affectDuration ) 
+else 
+pc . setf ( "vote4buff_" , "_lefttime" , get_global_time ( ) + affectDuration ) 
+end 
+pc . set_vote_coin ( voteCoin - 1 ) 
+affect . add ( 714 , affectList [ selectedBonus ] [ 1 ] , affectList [ selectedBonus ] [ 2 ] , affectDuration ) 
+else 
+return 
+end 

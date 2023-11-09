@@ -1,0 +1,108 @@
+91614	Ich bin nur der Grundstücksverwalter und kann den[ENTER]Preis daher nicht senken. Du benötigst mehr Yang.
+91615	Die Gilde hat das Grundstück erworben!
+91613	Grundstücksverwalter:
+91616	Komm wieder, wenn du es dir anders überlegt hast.[ENTER]Und bedenke: Wer zuerst kommt, mahlt zuerst.
+91617	Ich bin Grundstücksverwalter und zuständig für[ENTER]den Verkauf von Landflächen. Bevor die Monster[ENTER]das Land in der Mitte des Kontinents besetzten,[ENTER]hatten wir nicht unter Landknappheit zu leiden[ENTER]und es ging allen gut. Jetzt verkaufe ich das[ENTER]Land nur noch an die Gildenleiter, die es als[ENTER]Gildenland nutzen.[ENTER]Willst du dieses Grundstück kaufen?
+91618	Wie ich schon sagte, kann das Land nicht an jeden[ENTER]verkauft werden.[ENTER]Ich hoffe, du verstehst das.
+91619	Eine Gilde, die bereits Land besitzt, kann kein[ENTER]weiteres Grundstück kaufen.
+91620	Es ist ein Auftragsfehler aufgetreten.
+91621	Um dieses Grundstück kaufen zu können, muss das[ENTER]Gildenlevel über %s liegen.[ENTER]Der Preis beträgt %s.
+91622	Deine Gilde hat dieses Level noch nicht erreicht.[ENTER]Tut mir leid.
+91623	Willst du das Land kaufen?
+91624	Dieses Grundstück wurde bereits an eine andere[ENTER]Gilde verkauft. Tut mir leid.
+91700	%s ist nun auf Legendärer Meister.
+91701	Wenn du jetzt eine Perfekte Meister-Fertigkeit[ENTER]steigerst, könnten deine Rangpunkte in den[ENTER]negativen Bereich fallen, da du im Moment nur[ENTER]wenige besitzt. Willst du die Fertigkeit wirklich[ENTER]steigern?
+91702	Fertigkeitstraining zu Legendärer Meister
+91703	Deine Rangpunkte sind im negativen Bereich.[ENTER]Das bedeutet, dass du zum Steigern einer[ENTER]Perfekter-Meister-Fertigkeit doppelt so viele[ENTER]Rangpunkte ausgeben musst, wie jemand, dessen[ENTER]Punkte sich im positiven Bereich befinden.
+91704	Herzlichen Glückwunsch! Du hast es geschafft.[ENTER]Durch das Fertigkeitstraining der legendären Meister[ENTER]stieg
+91705	Du hast noch keine Fertigkeit so weit erlernt,[ENTER]dass du den Status des legendären Meisters erlangen[ENTER]kannst.
+91706	%s Legendärer Meister Fertigkeitstraining
+91707	Das Training auf legendärer Meister verbraucht Rangpunkte.[ENTER]Es kann also sein, dass du in den negativen[ENTER]Punktebereich fällst.
+91708	Anfang
+91709	Mitte
+91710	Ende
+91711	Pet-Verwandlung
+91712	Yohara Gebiete
+91713	Beschwöre erst eine Buffi.
+91714	Gebe den neuen Namen ein:
+91715	Der Name deiner Buffi wurde geändert.
+91716	Besiege alle Monster.
+91717	Töte %s
+91718	Zerstöre den Metinstein um %s zu erhalten und öffne alle Tore.
+91719	Zerstöre den richtigen Metinstein.
+91720	Zerstöre den richtigen Metinstein. Alle falschen Steine erhöhen die TP des Bosses.
+91721	Warte bis alle Gruppenmitglieder den Dungeon beigetreten sind...
+91722	Möchtest du den Dungeon beitreten?
+91723	Du musst den Dungeon innerhalb 60 Minuten beenden,[ENTER]sonst werdet ihr aus dem Dungeon teleportiert!
+91724	Benutze %s, um eine welle Monster zu rufen.
+91725	Zerstöre alle Metinsteine.
+91726	Zerstöre den Metinstein um %s zu erhalten. Benutze den Gegenstand auf das Siegel, um es zu brechen.
+91727	Zerstöre den Metinstein um %s zu erhalten.
+91728	Du hast %s besiegt! Ihr werdet in 2 Minuten aus den Dungeon teleportiert.
+91729	Zerstöre alle Metinsteine, jeder zerstörte Metinstein erhöht den Schaden des Bosses, bis du alle Zerstört hast.
+91730	Beschwöre %s , indem du %s benutzt.
+91731	Benutze %s auf das Siegel, um es zu brechen.
+91732	Sammle das Symbol auf und aktiviere das Siegel.
+91733	Ihr habt noch 45 Minuten, um den Dungeon abzuschließen.
+91734	Ihr habt noch 30 Minuten, um den Dungeon abzuschließen.
+91735	Ihr habt noch 15 Minuten, um den Dungeon abzuschließen.
+91736	Ihr habt noch 10 Minuten, um den Dungeon abzuschließen.
+91737	Ihr habt noch 5 Minuten, um den Dungeon abzuschließen.
+91738	Ihr habt noch 1 Minute, um den Dungeon abzuschließen.
+91739	Ihr habt es leider nicht geschafft den Dungeon rechtzeitig abzuschließen. Er werdet nun aus den Dungeon teleportiert.
+91740	Wenn du den Dungeon betreten möchtest brauchst du mindestens %s Gruppenmitglieder.
+91741	Manche Gruppenmitglieder müssen noch warten,[ENTER] bis sie den Dungeon wieder betreten können.
+91742	Wenn ihr den Dungeon betreten wollt müssen alle Gruppenmitglieder im Levelbereich von %d - %d sein.[ENTER][ENTER]Die folgenden Spieler erfüllen das Level nicht:
+91743	Wenn ihr den Dungeon betreten wollt muss jedes Gruppenmitglied folgendes Ticket besitzen:
+91744	Die folgenden Spieler haben nicht das benötigte Ticket:
+91745	Du musst noch warten, bis du den Dungeon wieder betreten kannst.
+91746	Eintritt wieder möglich in:
+91747	Der Levelbereich, um den Dungeon zu betreten ist zwischen %d - %d.
+91748	Um den Dungeon zu betreten benötigst du:
+91749	Zerstöre alle Metinsteine, um die Siegel zu beschwören.
+91750	Töte Monster, bis du %s erhälst.
+91751	Die Toren sind offen!
+91752	Töte Monster, bis du einen Schlüssel erhälst.
+91753	Suche den gefallenen Krieger.
+91754	Töte Monster.
+91755	Töte den Boss.
+91756	Finde den gefallenen Schamane.
+91757	Öffne das Tor.
+91758	%d Metinsteine übrig!
+91759	Alle Metinsteine sind zerstört.
+91760	Nur der Gruppenleiter kann fortfahren!
+91761	Zerstöre den Metinstein.
+91762	Bringe den Trank zum gefallenen Krieger.
+91763	Öffne das nächste Siegel.
+91764	Oooh... Es ist zu spät...[ENTER]Ich sterbe... hier ist der Schlüssel für die nächste Ebene...
+91765	Du hast %s besiegt!
+91766	Es sind noch %d von %s übrig.
+91767	Bringe den Kristall zum gefallenen Schamane.
+91768	Bringe mir bitte den Kristall.
+91769	Es hat nicht funktioniert...
+91770	Du musst noch %d monster töten.
+91771	Öffne alle Siegel.
+91772	Zerstöre alle Metinsteine und ziehe das Item auf die Siegel, um sie zu brechen.
+91773	Du hast alle Bücher rede mit %s.
+91774	Du hast einen Schlüssel erhalten benutze ihn auf das richtige Buch.
+91775	Ich habe alle Bücher
+91776	Du brauchst alle Bücher.
+91777	%s übrig: %d / %d
+91778	Töte Monster um %s zu erhalten, wenn du es erhalten hast, benutze es.
+91779	Töte Monster, um %s zu erhalten. Öffne alle Siegel, um fortzufahren.
+91780	Beende deine nächste Aufgabe, um näher an Razador zu gelangen.
+91781	%s wird in %d Sekunden erscheinen.
+91782	Töte den richtigen Boss.
+91783	Schnappe dir den ersten Schlüssel und breche ein Siegel, um fortzufahren.
+91784	Du hast einen Schlüsselstein erhalten. Benutze ihn auf ein Siegel.
+91785	Rede mit %s.
+91786	Alle Gruppenmitglieder müssen mindestens Level %d sein, um in die nächste Ebene zu gelangen.
+91787	Töte Monster, um %s zu erhalten. Ziehe das Item auf das Siegel, um es zu brechen.
+91788	Levelmaps
+91789	Farmmaps
+91790	Lowlevel Maps
+91791	Grotte der Verbannung 3
+91792	Nordwindhort
+91793	Shamanenbücher für Buffi umtauschen
+91794	Veredelungsstufe verbessern
+91795	Du hast schon versucht dieses Buch mit dem Schlüssel zu öffnen.

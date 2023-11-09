@@ -1,0 +1,7 @@
+if akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then d . kill_unique ( "statue" ) 
+item . remove ( ) 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+local boss = settings [ "data" ] [ "level" ] [ 5 ] [ "boss" ] 
+d . spawn_mob_dir ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] , boss [ "pos" ] [ 3 ] ) 
+d . notice_mission ( 91717 , mob_link ( boss [ "vnum" ] ) ) 
+ return end 

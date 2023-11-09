@@ -1,0 +1,18 @@
+if item . get_vnum ( ) == 30912 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then local count = d . getf ( "door_count" ) + 1 
+d . setf ( "door_count" , count ) 
+item . remove ( ) 
+for i = 1 , 3 begin 
+if npc . get_vid ( ) == d . get_unique_vid ( string . format ( "door_%d" , i ) ) then 
+d . kill_unique ( string . format ( "door_%d" , i ) ) 
+d . kill_monster ( ) 
+local letter = { "c" , "b" , "a" } 
+local regen = string . format ( "regen_2f_mobs_%s" , letter [ i ] ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_c20_an/%s.txt" , regen ) ) 
+d . setf ( "current_door" , i ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , d . new_count_monster ( ) ) 
+return 
+end 
+end 
+ return end 

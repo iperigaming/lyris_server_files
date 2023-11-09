@@ -1,0 +1,20 @@
+if akumea_dungeon_lv50 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 0 then if party . is_party ( ) then 
+local count = d . getf ( "dungeon_member_count" ) 
+if count == 0 then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+if count < party . get_near_count ( ) then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+end 
+local settings = akumea_dungeon_lv50 . settings ( ) 
+d . setf ( "dungeon_level" , 1 ) 
+local books = settings [ "unique_regen" ] [ "books" ] 
+books = table_shuffle ( books ) 
+for index , position in ipairs ( books ) begin 
+d . set_unique ( string . format ( "book_%d" , index ) , d . spawn_mob_dir ( 9345 , position [ 1 ] , position [ 2 ] , position [ 3 ] ) ) 
+end 
+akumea_dungeon_lv50 . create_level ( ) 
+ return end 

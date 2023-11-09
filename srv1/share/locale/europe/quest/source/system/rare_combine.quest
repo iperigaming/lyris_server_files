@@ -1,0 +1,8 @@
+quest rare_combine begin
+	state start begin
+		when 60003.chat.locale_quest(91794) begin
+			setskin(NOWINDOW)
+			game.open_rare_combine()
+		end
+	end
+end

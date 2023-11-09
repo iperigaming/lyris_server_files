@@ -1,0 +1,51 @@
+if npc . get_race ( ) == 8472 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 1 then akumea_dungeon_lv105_py . set_level ( 2 ) 
+d . kill_monster ( ) 
+ return end if akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then if number ( 1 , 1000 ) <= 6 then 
+d . give_or_drop_leader_item ( 30800 , 1 ) 
+end 
+ return end if npc . get_race ( ) == 4178 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then akumea_dungeon_lv105_py . set_level ( 4 ) 
+ return end if npc . get_race ( ) == 8473 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then local count = d . getf ( "kill_count" ) + 1 
+d . setf ( "kill_count" , count ) 
+if d . is_unique_dead ( "r_stone" ) == true then 
+d . kill_monster ( ) 
+akumea_dungeon_lv105_py . set_level ( 5 ) 
+else 
+local settings = akumea_dungeon_lv105_py . settings ( ) 
+d . notice_sub_mission ( "(%d / %d)" , count , table . getn ( settings [ "data" ] [ "level" ] [ 4 ] [ "stone" ] [ "pos" ] ) ) 
+end 
+ return end if npc . get_race ( ) == 4179 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then akumea_dungeon_lv105_py . set_level ( 6 ) 
+ return end if npc . get_race ( ) == 4180 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then local count = d . getf ( "kill_count" ) + 1 
+d . setf ( "kill_count" , count ) 
+if d . is_unique_dead ( "r_boss" ) == true then 
+d . kill_monster ( ) 
+akumea_dungeon_lv105_py . set_level ( 7 ) 
+else 
+local settings = akumea_dungeon_lv105_py . settings ( ) 
+d . notice_sub_mission ( "(%d / %d)" , count , table . getn ( settings [ "data" ] [ "level" ] [ 6 ] [ "boss" ] [ "pos" ] ) ) 
+end 
+ return end if akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then if number ( 1 , 1000 ) <= 10 then 
+local settings = akumea_dungeon_lv105_py . settings ( ) 
+d . give_or_drop_leader_item ( settings [ "data" ] [ "level" ] [ 7 ] [ "drop" ] , 1 ) 
+end 
+ return end if npc . get_race ( ) == 4181 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then d . kill_all ( ) 
+akumea_dungeon_lv105_py . set_level ( 9 ) 
+ return end if akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 9 then local count = d . getf ( "monster_count" ) 
+if d . new_count_monster ( ) <= ( count - 100 ) then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+akumea_dungeon_lv105_py . set_level ( 10 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , 100 ) 
+end 
+ return end if npc . get_race ( ) == 8475 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 10 then d . notice_mission ( 91783 ) 
+d . give_or_drop_leader_item ( 30805 , 1 ) 
+ return end if npc . get_race ( ) == 8476 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 11 then local settings = akumea_dungeon_lv105_py . settings ( ) 
+d . notice_mission ( 91717 , mob_link ( settings [ "data" ] [ "level" ] [ 11 ] [ "boss" ] [ "vnum" ] ) ) 
+d . unique_set_damage_block_flag ( "level11_boss" , false ) 
+ return end if npc . get_race ( ) == 4182 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 11 then local settings = akumea_dungeon_lv105_py . settings ( ) 
+akumea_dungeon_lv105_py . clear_timers ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "akumea_dungeon_lv105_py_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( 4182 ) ) 
+ return end 

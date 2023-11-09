@@ -1,0 +1,9 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = akumea_dungeon_lv105_py . settings ( ) 
+if d . unique_get_hp_perc ( "level11_boss" ) <= 50 then 
+clear_server_timer ( "akumea_dungeon_lv105_py_boss_health_checker" , get_server_timer_arg ( ) ) 
+d . spawn_mob_dir ( settings [ "data" ] [ "level" ] [ 11 ] [ "stone" ] [ "vnum" ] , settings [ "data" ] [ "level" ] [ 11 ] [ "stone" ] [ "pos" ] [ "x" ] , settings [ "data" ] [ "level" ] [ 11 ] [ "stone" ] [ "pos" ] [ "y" ] , settings [ "data" ] [ "level" ] [ 11 ] [ "stone" ] [ "pos" ] [ "dir" ] ) 
+d . notice_mission ( 91717 , mob_link ( settings [ "data" ] [ "level" ] [ 11 ] [ "stone" ] [ "vnum" ] ) ) 
+d . unique_set_damage_block_flag ( "level11_boss" , true ) 
+end 
+end 

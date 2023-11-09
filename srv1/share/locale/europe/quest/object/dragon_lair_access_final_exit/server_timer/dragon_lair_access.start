@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+local settings = dragon_lair_access . settings ( ) 
+d . exit_all_to ( settings [ "out_pos" ] [ "x" ] , settings [ "out_pos" ] [ "y" ] , settings [ "out_pos" ] [ "map_index" ] ) ; 
+end 

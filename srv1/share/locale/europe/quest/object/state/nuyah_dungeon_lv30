@@ -1,0 +1,207 @@
+nuyah_dungeon_lv30={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 30 , 
+[ "max_level" ] = 50 , 
+[ "ticket" ] = 30734 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 78 , 
+[ "x" ] = 19803 , 
+[ "y" ] = 1135 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 78 , 
+[ "x" ] = 19803 , 
+[ "y" ] = 1135 , 
+} , 
+[ "cooldown" ] = 0 , 
+[ "data" ] = { 
+[ "warp" ] = { 
+[ 8 ] = { 20313 , 1820 } , 
+} , 
+[ "level" ] = { 
+[ 1 ] = { 
+[ "door" ] = { 
+[ "vnum" ] = 9252 , 
+[ "pos" ] = { 
+233 , 280 , 5 
+} 
+} 
+} , 
+[ 2 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8010 , 
+[ "pos" ] = { 191 , 227 } 
+} , 
+} , 
+[ 3 ] = { 
+[ "door" ] = { 
+[ "vnum" ] = 9253 , 
+[ "pos" ] = { 356 , 461 , 5 } 
+} 
+} , 
+[ 4 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8437 , 
+[ "pos" ] = { 345 , 607 } 
+} , 
+[ "door" ] = { 
+[ "vnum" ] = 9253 , 
+[ "pos" ] = { 347 , 684 , 5 } 
+} 
+} , 
+[ 5 ] = { 
+[ "door" ] = { 
+[ "vnum" ] = 9253 , 
+[ "pos" ] = { 458 , 796 , 7 } 
+} 
+} , 
+[ 7 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 1204 , 
+[ "pos" ] = { 521 , 801 } 
+} 
+} , 
+[ 8 ] = { 
+[ "door" ] = { 
+[ "vnum" ] = 9252 , 
+[ "pos" ] = { 672 , 621 , 1 } 
+} , 
+[ "seal" ] = { 
+[ "vnum" ] = 9255 , 
+[ "pos" ] = { 
+{ 663 , 682 } , 
+{ 696 , 701 } , 
+{ 681 , 715 } 
+} 
+} , 
+} , 
+[ 9 ] = { 
+[ "door" ] = { 
+[ "vnum" ] = 9253 , 
+[ "pos" ] = { 741 , 440 , 1 } 
+} 
+} , 
+[ 10 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 1205 , 
+[ "pos" ] = { 739 , 378 } 
+} 
+} , 
+[ 11 ] = { 
+[ "boss" ] = { 
+[ "vnum" ] = 1206 , 
+[ "pos" ] = { 739 , 357 } 
+} 
+} , 
+} , 
+} , 
+} 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 78 * 10000 and index < ( 78 + 1 ) * 10000 ; 
+end ,clear_timers= function ()clear_server_timer ( "nuyah_dungeon_lv30_warp" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "nuyah_dungeon_lv30_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = nuyah_dungeon_lv30 . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "nuyah_dungeon_lv30" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "nuyah_dungeon_lv30" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+server_timer ( "nuyah_dungeon_lv30_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end ,set_warp_timer= function ()local settings = nuyah_dungeon_lv30 . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . notice_mission ( 824 ) 
+server_timer ( "nuyah_dungeon_lv30_warp" , 5 , d . get_map_index ( ) ) 
+else 
+nuyah_dungeon_lv30 . create_level ( ) 
+end 
+end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
+nuyah_dungeon_lv30 . set_warp_timer ( ) 
+end ,create_level= function ()local settings = nuyah_dungeon_lv30 . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . jump_all ( data [ "warp" ] [ level ] [ 1 ] , data [ "warp" ] [ level ] [ 2 ] ) 
+end 
+if data [ "level" ] [ level ] ~= nil then 
+local door = data [ "level" ] [ level ] [ "door" ] 
+if door ~= nil then 
+d . spawn_mob_dir ( door [ "vnum" ] , door [ "pos" ] [ 1 ] , door [ "pos" ] [ 2 ] , door [ "pos" ] [ 3 ] ) 
+end 
+end 
+if level == 1 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_1a" ) ) 
+d . notice_mission ( 91716 ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 20 ) 
+elseif level == 2 then 
+local stone = data [ "level" ] [ level ] [ "stone" ] 
+d . spawn_mob ( stone [ "vnum" ] , stone [ "pos" ] [ 1 ] , stone [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91761 ) 
+elseif level == 3 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_2b" ) ) 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 2 ) 
+elseif level == 4 then 
+local stone = data [ "level" ] [ level ] [ "stone" ] 
+d . spawn_mob ( stone [ "vnum" ] , stone [ "pos" ] [ 1 ] , stone [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91761 ) 
+elseif level == 5 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_4a" ) ) 
+d . notice_mission ( 91716 ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 20 ) 
+elseif level == 6 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_4b" ) ) 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 2 ) 
+elseif level == 7 then 
+local boss = data [ "level" ] [ level ] [ "boss" ] 
+d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91755 ) 
+elseif level == 8 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_5a" ) ) 
+for index , pos in ipairs ( data [ "level" ] [ level ] [ "seal" ] [ "pos" ] ) begin 
+d . set_unique ( string . format ( "seal_%d" , index ) , d . spawn_mob ( 9255 , pos [ 1 ] , pos [ 2 ] ) ) 
+end 
+d . notice_mission ( 91772 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 3 ) 
+elseif level == 9 then 
+d . regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv30/%s.txt" , "regen_6a" ) ) 
+d . notice_mission ( 91716 ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 20 ) 
+elseif level == 10 then 
+local boss = data [ "level" ] [ level ] [ "boss" ] 
+d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91717 , mob_link ( 1205 ) ) 
+elseif level == 11 then 
+local boss = data [ "level" ] [ level ] [ "boss" ] 
+d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91717 , mob_link ( 1206 ) ) 
+end 
+end }

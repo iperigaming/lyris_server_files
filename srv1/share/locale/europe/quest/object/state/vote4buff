@@ -1,0 +1,11 @@
+vote4buff={["start"]=0,GetPointName= function (pointIndex,value)if pointIndex == 63 then 
+return string . format ( "Stark gegen Monster +%d" , value ) 
+elseif pointIndex == 45 then 
+return string . format ( "Doppeldrop +%d" , value ) 
+elseif pointIndex == 44 then 
+return string . format ( "Yangdrop +%d" , value ) 
+elseif pointIndex == 43 then 
+return string . format ( "Erfahrung +%d" , value ) 
+end 
+return string . format ( "None Bonus: %d" , value ) 
+end }

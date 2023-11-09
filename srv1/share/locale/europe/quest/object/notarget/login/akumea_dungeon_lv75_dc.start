@@ -1,0 +1,14 @@
+if akumea_dungeon_lv75_dc . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 0 then if party . is_party ( ) then 
+local count = d . getf ( "dungeon_member_count" ) 
+if count == 0 then 
+d . notice_mission ( "Wait until all party members joined the lobby." ) 
+return 
+end 
+if count < party . get_near_count ( ) then 
+d . notice_mission ( "Wait until all party members joined the lobby." ) 
+return 
+end 
+end 
+local settings = akumea_dungeon_lv75_dc . settings ( ) 
+akumea_dungeon_lv75_dc . set_level ( 1 ) 
+ return end 

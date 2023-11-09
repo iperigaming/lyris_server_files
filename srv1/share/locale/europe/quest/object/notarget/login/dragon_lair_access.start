@@ -1,0 +1,3 @@
+if dragon_lair_access . is_dungeon ( ) then local settings = dragon_lair_access . settings ( ) 
+d . notice ( 91717 , mob_link ( settings [ "data" ] [ "dragon" ] [ "vnum" ] ) ) 
+ return end 

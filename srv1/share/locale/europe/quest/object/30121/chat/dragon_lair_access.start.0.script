@@ -1,0 +1,13 @@
+say_title ( mob_name ( 30121 ) ) 
+say ( locale_quest ( 91722 ) ) 
+local s = select ( locale_quest ( 811 ) , locale_quest ( 812 ) ) 
+if s == 2 then 
+return 
+end 
+local settings = dragon_lair_access . settings ( ) 
+if dungeonLib . CheckEnter ( "dragon_lair_access" , settings [ "cooldown" ] , settings [ "requirements" ] ) == false then 
+return 
+end 
+say_reward ( locale_quest ( 91723 ) ) 
+wait ( ) 
+dragon_lair_access . create_dungeon ( ) 

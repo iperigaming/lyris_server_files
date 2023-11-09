@@ -1,0 +1,108 @@
+91614	I am only the land manager, so I cannot lower the [ENTER] price. You need more Yang.
+91615	The guild has acquired the property!
+91613	Property Manager:
+91616	Come back if you change your mind.[ENTER]And remember, first come, first served.
+91617	I am a land administrator and responsible for[ENTER]selling land. Before the monsters[ENTER]occupied the land in the middle of the continent,[ENTER]we didn't suffer from land shortages[ENTER]and everyone was doing well. Now I only sell the[ENTER]land to the guild leaders who use it as[ENTER]guild land.[ENTER]Do you want to buy this land?
+91618	As I said, the land can't be sold to everyone[ENTER]I hope you understand.
+91619	A guild that already owns land cannot buy an[ENTER]additional plot of land.
+91620	An order error has occurred.
+91621	To be able to buy this plot of land, the [ENTER]Guild level must be above %s.[ENTER]The price is %s.
+91622	Your guild has not reached this level yet.[ENTER]Sorry.
+91623	Do you want to buy the land?
+91624	This property has already been sold to another[ENTER]guild. Sorry.
+91700	%s is now on Legendary Master.
+91701	If you [ENTER]increase a Perfect Master skill now, your rank points might fall into the [ENTER]negative range, since you have only [ENTER]few at the moment. Do you really want to [ENTER]increase the skill?
+91702	Skill Training for Legendary Master
+91703	Your rank points are in the negative range.[ENTER]This means that to increase a[ENTER]Perfect Master skill, you must spend twice as many[ENTER]rank points as someone whose[ENTER]points are in the positive range.
+91704	Congratulations! You have made it.[ENTER]Through the skill training of the legendary masters[ENTER]rose
+91705	You have not yet learned a skill to the point where you can[ENTER]attain legendary master status.
+91706	%s Legendary Master Skill Training
+91707	Training on legendary master consumes rank points,[ENTER]so you may fall into the negative[ENTER] points range.
+91708	Beginning
+91709	Center
+91710	End
+91711	Pet transformation
+91712	Yohara areas
+91713	Summon a Buffi first.
+91714	Enter the new name:
+91715	The name of your Buffi has been changed.
+91716	Defeat all monsters.
+91717	Kill %s
+91718	Destroy the metin stone to get %s and open all the gates.
+91719	Destroy the correct metin stone.
+91720	Destroy the correct metinstone. All wrong stones increase the TP of the boss.
+91721	Wait until all party members have joined the dungeon....
+91722	Would you like to join the dungeon?
+91723	You must finish the dungeon within 60 minutes,[ENTER]otherwise you will be teleported out of the dungeon!
+91724	Use %s to call a wave of monsters.
+91725	Destroy all the metinstones.
+91726	Destroy the metal stone to get %s. Use the item on the seal to break it.
+91727	Destroy the metin stone to get %s.
+91728	You have defeated %s! You will be teleported out of the dungeon in 2 minutes.
+91729	Destroy all the metinstones, each destroyed metinstone increases the damage of the boss until you have destroyed all of them.
+91730	Summon %s , using %s.
+91731	Use %s on the seal to break it.
+91732	Collect the symbol and activate the seal.
+91733	You have 45 minutes left to complete the dungeon.
+91734	You have 30 minutes left to complete the dungeon.
+91735	You have 15 minutes left to complete the dungeon.
+91736	You have 10 minutes left to complete the dungeon.
+91737	You have 5 minutes left to complete the dungeon.
+91738	You have 1 minute left to complete the dungeon.
+91739	Unfortunately, you did not manage to complete the dungeon in time. You will now be teleported out of the dungeon.
+91740	If you want to enter the dungeon you need at least %s party members.
+91741	Some party members still have to wait[ENTER] until they can enter the dungeon again.
+91742	If you want to enter the dungeon all party members must be in the level range of %d - %d.[ENTER][ENTER]The following players do not meet the level:
+91743	If you want to enter the dungeon, each party member must have the following ticket:
+91744	The following players do not have the required ticket:
+91745	You still have to wait until you can enter the dungeon again.
+91746	Entry possible again in:
+91747	The level range to enter the dungeon is between %d - %d.
+91748	To enter the dungeon you need:
+91749	Destroy all the metin stones to summon the seals.
+91750	Kill monsters until you get %s.
+91751	The gates are open!
+91752	Kill monsters until you get a key.
+91753	Search for the fallen warrior.
+91754	Kill monsters.
+91755	Kill the boss.
+91756	Find the fallen shaman.
+91757	Open the gate.
+91758	%d Metin stones left!
+91759	All of the metinstones are destroyed.
+91760	Only the group leader can continue!
+91761	Destroy the metin stone.
+91762	Bring the potion to the fallen warrior.
+91763	Open the next seal.
+91764	Oooh... It's too late...[ENTER]I'm dying... here is the key for the next level...
+91765	You have defeated %s!
+91766	There are %d of %s left.
+91767	Bring the crystal to the fallen shaman.
+91768	Bring me the crystal, please.
+91769	It didn't work...
+91770	You still have %d monsters to kill.
+91771	Open all seals.
+91772	Destroy all the metal stones and drag the item onto the seals to break them.
+91773	You have all the books talk with %s.
+91774	You have received a key use it on the right book.
+91775	I have all the books
+91776	You need all the books.
+91777	%s left: %d / %d
+91778	Kill monsters to get %s, when you get it, use it.
+91779	Kill monsters to get %s. Open all the seals to continue.
+91780	Complete your next task to get closer to Razador.
+91781	%s will appear in %d seconds.
+91782	Kill the right boss.
+91783	Grab the first key and break a seal to continue.
+91784	You have received a keystone. Use it on a seal.
+91785	Talk to %s.
+91786	All party members must be at least level %d to advance to the next level.
+91787	Kill monsters to get %s. Drag the item onto the seal to break it.
+91788	Level maps
+91789	Farmmaps
+91790	Lowlevel Maps
+91791	Grotto of banishment 3
+91792	Nordwindhort
+91793	Exchange shaman books for Buffi
+91794	Improve refinement level
+91795	You have already tried to open this book with the key.

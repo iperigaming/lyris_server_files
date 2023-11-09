@@ -1,0 +1,617 @@
+quest warpring begin
+	state start begin
+		when 70007.use or 9012.chat.locale_quest(6423) begin
+			local settings = warpring.getSettings()
+			if not settings or not settings.IS_ENABLED then
+				syschat("Error 404 contact an GM")
+				return
+			end
+			
+			warpring.showWarpMenu(settings.WARPS, {})
+		end
+		
+		function showWarpMenu(warps, parents)
+			local warps = warpring.checkShowCondition(warps)
+			local selectables = warpring.getSelectableTable(warps)
+			local parentCount = table.getn(parents)
+			
+			if parentCount >= 1 then
+				table.insert(selectables, locale_quest(14125))
+			end
+			table.insert(selectables, locale_quest(1117))
+			
+			
+			local selectedi = select_table(selectables)
+			local selectedWarp = warps[selectedi]
+			
+			if not selectedWarp then
+				local selCount = table.getn(selectables)
+				
+				if selectedi == selCount - 1 then--zur�ck
+					local parent = parents[parentCount]
+					table.remove(parents, parentCount)
+					
+					warpring.showWarpMenu(parent, parents)
+					return
+				elseif selectedi == selCount then--abbrechen
+					return
+				else
+					syschat("Something went wrong ...")
+					return
+				end
+			end
+			
+			
+			table.insert(parents, warps)
+			parentCount = table.getn(parents)
+			
+			if not warpring.requirementsFulfilled(selectedWarp.requirements, selectedWarp.superRequirement) then
+				local selectables = {}
+				if parentCount >= 1 then
+					table.insert(selectables, locale_quest(14125))
+				end
+				table.insert(selectables, locale_quest(14124))
+				say_title(locale_quest(6444))
+				say("")
+				
+				 local reqTypes = warpring.getRequirementTypes()
+			
+				 if selectedWarp.requirements then
+					 for _,requirement in ipairs(selectedWarp.requirements) do
+						 if requirement[1] == reqTypes.MIN_LEVEL then
+							 if pc.get_level() < requirement[2][1] then
+								 say_reward(locale_quest(6466))
+							 end
+						 elseif requirement[1] == reqTypes.MAX_LEVEL then
+							 if pc.get_level() > requirement[2][1] then
+								 say_reward(locale_quest(6466))
+							 end
+						 elseif requirement[1] == reqTypes.ITEM then
+							 if pc.count_item(requirement[2][1]) < requirement[2][2] then
+								 say_reward("ITEM REQ")
+							 end
+						 elseif requirement[1] == reqTypes.GOLD then
+							 if pc.get_gold() < requirement[2][1] then
+								 say_reward(locale_quest(716))
+							 end
+						 elseif requirement[1] == reqTypes.MIN_CONQ then
+							 if pc.get_conqueror_level() < requirement[2][1] then
+								 say_reward(locale_quest(6466))
+							 end
+						 end
+					 end
+				 end
+				
+				say_reward(locale_quest(2082))
+				say("")
+				if select_table(selectables) == table.getn(selectables) then
+					return
+				end
+				
+				local parent = parents[parentCount]
+				table.remove(parents, parentCount)
+				
+				warpring.showWarpMenu(parent, parents)
+				return
+			end
+			
+			if selectedWarp.subs then
+				warpring.showWarpMenu(selectedWarp.subs, parents)
+			elseif selectedWarp.koords then
+				for _,warp in ipairs(parents) do
+					warpring.removeRequirements(warp.requirements, warp.superRequirementRemover)
+				end
+				
+				while not pc.can_warp() do
+					say_title(locale_quest(6444))
+					say("")
+					say_reward(locale_quest(9346))
+					say("")
+					if select(locale_quest(14125), locale_quest(14124)) == 2 then return end
+				end
+				
+				warpring.removeRequirements(selectedWarp.requirements, selectedWarp.superRequirementRemover)
+				
+				if type(selectedWarp.koords) == "table" then
+					pc.warp(unpack(selectedWarp.koords))
+				elseif type(selectedWarp.koords) == "function" then
+					selectedWarp.koords()
+				end
+			else
+				syschat("Something went wrong ...")
+			end
+		end
+		
+		function getSelectableTable(warps)
+			local tbl = {}
+			
+			for _, warp in ipairs(warps) do
+				table.insert(tbl, warpring.getWarpString(warp))
+			end
+			
+			return tbl
+		end
+		
+		function getWarpString(warp)
+			local warpName = warp.name
+			
+			if warp.requirements then
+				warpName = string.format("%s (%s)", warpName, warpring.getRequirementString(warp.requirements))
+			end
+			
+			return warpName
+		end
+		
+		function getRequirementString(requirements)
+			local reqTypes = warpring.getRequirementTypes()
+			local reqString = ""
+			
+			local function strAppend(str, toAppend, seperator)
+				seperator = seperator or ", "
+				
+				if str == "" then
+					seperator = ""
+				end
+				
+				return str .. seperator .. toAppend
+			end
+			
+			for _,requirement in ipairs(requirements) do
+				if requirement[1] == reqTypes.MIN_LEVEL then
+					reqString = strAppend(reqString, string.format("Lv.%d", requirement[2][1]))
+				elseif requirement[1] == reqTypes.MAX_LEVEL then
+					reqString = strAppend(reqString, string.format("Max.Lv.%d", requirement[2][1]))
+				elseif requirement[1] == reqTypes.ITEM then
+					--
+				elseif requirement[1] == reqTypes.GOLD then
+					--
+				elseif requirement[1] == reqTypes.MIN_CONQ then
+					level = "Champ. Lv. %d"
+					reqString = strAppend(reqString, string.format(level, requirement[2][1]))
+				end
+			end
+			
+			return reqString
+		end
+		
+		function requirementsFulfilled(requirements, superRequirement)
+			local reqTypes = warpring.getRequirementTypes()
+			
+			if requirements then
+				for _,requirement in ipairs(requirements) do
+					if requirement[1] == reqTypes.MIN_LEVEL then
+						if pc.get_level() < requirement[2][1] then
+							return false
+						end
+					elseif requirement[1] == reqTypes.MAX_LEVEL then
+						if pc.get_level() > requirement[2][1] then
+							return false
+						end
+					elseif requirement[1] == reqTypes.ITEM then
+						if pc.count_item(requirement[2][1]) < requirement[2][2] then
+							return false
+						end
+					elseif requirement[1] == reqTypes.GOLD then
+						if pc.get_gold() < requirement[2][1] then
+							return false
+						end
+					elseif requirement[1] == reqTypes.MIN_CONQ then
+						if pc.get_conqueror_level() < requirement[2][1] then
+							return false
+						end
+					end
+				end
+			end
+			
+			if superRequirement then
+				return superRequirement()
+			end
+			
+			return true
+		end
+		
+		function removeRequirements(requirements, superRequirementRemover)
+			local reqTypes = warpring.getRequirementTypes()
+			
+			if requirements then
+				for _,requirement in ipairs(requirements) do
+					if requirement[1] == reqTypes.ITEM then
+						pc.remove_item(requirement[2][1], requirement[2][2])
+					elseif requirement[1] == reqTypes.GOLD then
+						pc.change_gold(-requirement[2][1])
+					end
+				end
+			end
+			
+			if superRequirementRemover then
+				superRequirementRemover()
+			end
+		end
+		
+		function checkShowCondition(warps)
+			local filteredWarps = {}
+			for _, warp in ipairs(warps) do
+				if not warp.showCondition or warp.showCondition() then
+					table.insert(filteredWarps, warp)
+				end
+			end
+			
+			return filteredWarps
+		end
+		
+		function getRequirementTypes()
+			if not warpring.requirementTypes then
+				warpring.requirementTypes = {
+					MIN_LEVEL = {},
+					MAX_LEVEL = {},
+					ITEM = {},
+					GOLD = {},
+					MIN_CONQ = {},
+				}
+			end
+			
+			return warpring.requirementTypes
+		end
+		
+		function getSettings()
+			return {
+				IS_ENABLED = true,
+				WARPS = {
+					{
+						name = "Event",
+						showCondition = function() return game.get_event_flag("event_map") == 1 end,
+						requirements = {
+							{warpring.getRequirementTypes().MAX_LEVEL, {80}},
+						},
+						koords = {4601495, 4558520},
+					},				
+					{
+						name = locale_quest(752),
+						koords = ({{469300, 964200}, {55700, 157900}, {969600, 278400}})[pc.get_empire()],
+					},
+					{
+						name = "Map1",
+						subs = {
+							{
+								name = locale_quest(1425),
+								koords = {469300, 964200},
+							},
+							{
+								name = locale_quest(1426),
+								koords = {55700, 157900},
+							},
+							{
+								name = locale_quest(1427),
+								koords = {969600, 278400},
+							},
+						},
+					},
+					{
+						name = "Map2",
+						subs = {
+							{
+								name = locale_quest(1428),
+								koords = {352900, 882700},
+							},
+							{
+								name = locale_quest(1429),
+								koords = {145500, 239700},
+							},
+							{
+								name = locale_quest(1430),
+								koords = {863500, 246100},
+							},
+						},
+					},
+					{
+						name = locale_quest(91790), -- Lowlevelmaps
+						subs = {
+							{
+								name = locale_quest(1434),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {30}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = ({{402100, 673900}, {270400, 739900}, {321300, 808000}})[pc.get_empire()],
+									},
+									{
+										name = locale_quest(91709),
+										koords = {333600, 753100},
+									},
+								},
+							},
+							{
+								name = locale_quest(1437),
+									requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {30}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = ({{217800, 627200}, {221900, 502700}, {344000, 502500}})[pc.get_empire()],
+									},
+									{
+										name = locale_quest(91709),
+										koords = {296800, 547100},
+									},
+								},
+							},
+							{
+								name = locale_quest(1438),
+									requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {40}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {553804, 143969},
+									},
+									{
+										name = locale_quest(6485),
+										koords = {590300, 110800},
+									},
+									{
+										name = locale_quest(6447),
+										koords = {591600, 100100},
+									},
+								},
+							},
+							{
+								name = locale_quest(1435),
+									requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {50}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = ({{433910, 293649}, {374094, 180230}, {496895, 169416}})[pc.get_empire()],
+									},
+									{
+										name = locale_quest(91709),
+										koords = {434700, 213900},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {470307, 230661},
+									},
+								},
+							},
+							{
+								name = locale_quest(1436),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {60}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = ({{599409, 757748}, {597063, 621446}, {733352, 689735}})[pc.get_empire()],
+									},
+									{
+										name = locale_quest(91709),
+										koords = {599800, 689400},
+									},
+								},
+							},
+							{
+								name = locale_quest(6479),
+									requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {65}},
+								},
+								koords = {828300, 763500},
+							},
+							{
+								name = locale_quest(6486),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {65}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {288688, 5759},
+									},
+									{
+										name = locale_quest(91709),
+										koords = {303265, 26671},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {292800, 40100},
+									},
+								},
+							},
+						},
+					},
+					{
+						name = locale_quest(91788), -- Levelmaps
+						subs = {
+							{
+								name = locale_quest(6425),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {40}},
+								},
+								koords = {60000, 497000},
+							},
+	
+							{
+								name = locale_quest(6481),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {60}},
+								},
+								koords = {704000, 522500},
+							},
+							{
+								name = locale_quest(6482),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {75}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {10000, 1207800},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {136700, 1343700},
+									},
+								},
+							},
+							{
+								name = locale_quest(6483),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {75}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {241765, 1275174},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {181212, 1220582},
+									},
+								},
+							},
+							{
+								name = locale_quest(6448),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {90}},
+								},
+								koords = {97600, 570900},
+							},
+							{
+								name = locale_quest(91791),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {105}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {157600, 1061500},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {237800, 1171400},
+									},
+								},
+							},
+							
+							{
+								name = locale_quest(91792),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_CONQ, {1}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {1000700, 1267300},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {1145200, 1338300},
+									},
+								},
+							},
+						},
+					},
+					{
+						name = locale_quest(91789), -- Farmmaps
+						subs = {
+							{
+								name = locale_quest(6487),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {75}},
+								},
+								subs = {
+									{
+										name = locale_quest(91708),
+										koords = {1117700, 69500},
+									},
+									{
+										name = locale_quest(91710),
+										koords = {1119600, 6700},
+									},
+								},
+							},
+							{
+								name = locale_quest(6453),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_LEVEL, {90}},
+								},
+								subs = {
+									{
+										name = locale_quest(6460),
+										koords = {1104483, 1788222},
+									},
+									{
+										name = locale_quest(6461),
+										koords = {1225700, 1682000},
+									},
+									{
+										name = locale_quest(6462),
+										koords = {1087518, 1652788},
+									},
+									{
+										name = locale_quest(6463),
+										koords = {1135230, 1653867},
+									},
+								},
+							},
+							{
+								name = locale_quest(6469),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {105}},
+								},
+								koords = {816100, 1505200},
+							},
+							{
+								name = locale_quest(13126),
+								requirements = {			
+									{warpring.getRequirementTypes().MIN_LEVEL, {105}},
+								},
+								koords = {30600, 1414800},
+							},
+							{
+								name = locale_quest(91712),
+								requirements = {
+									{warpring.getRequirementTypes().MIN_CONQ, {1}},
+								},
+								subs = {
+									{
+										name = locale_quest(13137),
+										requirements = {			
+										{warpring.getRequirementTypes().MIN_CONQ, {1}},
+									},
+										koords = {537500, 494200},
+									},
+									{
+										name = locale_quest(12892),
+										requirements = {			
+										{warpring.getRequirementTypes().MIN_CONQ, {10}},
+									},
+										koords = {1101300, 505800},
+									},
+									{
+										name = locale_quest(12893),
+										requirements = {			
+											{warpring.getRequirementTypes().MIN_CONQ, {10}},
+										},
+										koords = {1223300, 491700},
+									},
+									{
+										name = locale_quest(12894),
+										requirements = {			
+										{warpring.getRequirementTypes().MIN_CONQ, {20}},
+									},
+										koords = {1278600, 441200},
+									},
+								},
+							},
+						},
+					},
+				},
+			}
+		end
+	end
+end

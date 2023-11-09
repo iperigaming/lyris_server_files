@@ -1,0 +1,20 @@
+if akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then local settings = akumea_dungeon_c20_an . settings ( ) 
+local index = d . getf ( "seal_index" ) + 1 
+d . setf ( "seal_index" , index ) 
+item . remove ( ) 
+d . kill_unique ( "seal" ) 
+local seal = settings [ "data" ] [ "level" ] [ 6 ] [ "seal" ] 
+d . set_unique ( "seal" , d . spawn_mob_dir ( seal [ "vnum" ] [ index ] , seal [ "pos" ] [ 1 ] , seal [ "pos" ] [ 2 ] , seal [ "pos" ] [ 3 ] ) ) 
+if index <= 3 then 
+local group = { "a" , "b" , "c" } 
+local regen = string . format ( "regen_4f_mobs_%s" , group [ index ] ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_c20_an/%s.txt" , regen ) ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , d . new_count_monster ( ) ) 
+else 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_c20_an/%s.txt" , "regen_4f_stones" ) ) 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 5 ) 
+end 
+ return end 

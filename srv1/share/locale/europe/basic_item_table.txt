@@ -1,0 +1,172 @@
+Group	give_basic_item_all
+{
+	index	0
+	type	item
+	1	72724	1	0 -- Elixier der Sonne (M)
+	2	72728	1	0 -- Elixier des Mondes (M)
+	3	53001	1	0 -- Feuerphönix(3d)
+	4	71128	1	0 -- Schlachtenlöwe(3d)
+	5	70007	1	0 -- Teleportring
+	6	76047	1	0 -- Lolli der Kraft(3d)
+	7	70038	1	0 -- Tapferkeitsumhang
+	8	61025	1	0 -- Buffi(3d)
+	9	50053	1	0 -- Militär-Pferdebuch
+}
+
+Group	give_basic_warrior
+{
+	index	1
+	type	item
+	1	16009	1	1 -- Holzhalskette+9
+	2	15009	1	2 -- Lederschuhe+9
+	3	17009	1	3 -- Holzohrringe+9
+	4	14009	1	4 -- Holzarmband+9
+	5	13009	1	5 -- Schlachtschild+9
+	6	12209	1	6 -- Traditioneller Helm+9
+	7	11209	1	7 -- Mönchsplattenpanzer+9
+	8	19	1	8 -- Schwert+9
+	9	3009	1	8 -- Glefe+9
+	10	21940	1	0 -- Stahlgesang
+	11	21943	1	0 -- Armageddon
+}
+
+Group	give_basic_assassin
+{
+	index	2
+	type	item
+	1	16009	1	1 -- Holzhalskette+9
+	2	15009	1	2 -- Lederschuhe+9
+	3	17009	1	3 -- Holzohrringe+9
+	4	14009	1	4 -- Holzarmband+9
+	5	13009	1	5 -- Schlachtschild+9
+	6	12349	1	6 -- Lederkapuze+9
+	7	11409	1	7 -- Azuranzug+9
+	8	1009	1	8 -- Dolch+9
+	9	2009	1	8 -- Bogen+9
+	10	19	1	8 -- Schwert+9
+	11	21941	1	0 -- Mondlichtskalpell
+	12	21942	1	0 -- Schatteblatt
+	13	21940	1	0 -- Stahlgesang
+	14	79501	1	0 -- Pfeilköcher
+}
+
+Group	give_basic_sura
+{
+	index	3
+	type	item
+	1	16009	1	1 -- Holzhalskette+9
+	2	15009	1	2 -- Lederschuhe+9
+	3	17009	1	3 -- Holzohrringe+9
+	4	14009	1	4 -- Holzarmband+9
+	5	13009	1	5 -- Schlachtschild+9
+	6	12489	1	6 -- Blutiger Helm+9
+	7	11609	1	7 -- Requiem-Plattenpanzer+9
+	8	19	1	8 -- Schwert+9
+	9	21940	1	0 -- Stahlgesang
+}
+
+Group	give_basic_shaman
+{
+	index	4
+	type	item
+	1	16009	1	1 -- Holzhalskette+9
+	2	15009	1	2 -- Lederschuhe+9
+	3	17009	1	3 -- Holzohrringe+9
+	4	14009	1	4 -- Holzarmband+9
+	5	13009	1	5 -- Schlachtschild+9
+	6	12629	1	6 -- Mönchshut+9
+	7	11809	1	7 -- Purpurkleidung+9
+	8	7009	1	8 -- Fächer+9
+	9	5009	1	8 -- Kupferglocke+9
+	10	21945	1	0 -- Rabenklaue
+	11	21944	1	0 -- Ehrenklang
+}
+
+Group attr1
+{
+	index	1
+	type	attr
+	1	1	2000
+	2	15	10
+	3	10	30
+	4	34	15
+	5	16	10
+}
+
+Group attr2
+{
+	index	2
+	type	attr
+	1	1	2000
+	2	15	10
+	3	34	15
+	4	7	8
+	5	2	200
+}
+
+Group attr3
+{
+	index	3
+	type	attr
+	1	34	15
+	2	18	20
+	3	19	20
+	4	8	20
+	5	24	10
+}
+
+Group attr4
+{
+	index	4
+	type	attr
+	1	1	2000
+	2	16	10
+	3	18	20
+	4	19	20
+	5	24	10
+}
+
+Group attr5
+{
+	index	5
+	type	attr
+	1	48	1
+	2	18	20
+	3	19	20
+	4	27	15
+	5	39	15
+}
+
+Group attr6
+{
+	index	6
+	type	attr
+	1	18	20
+	2	19	20
+	3	10	30
+	4	7	8
+	5	28	15
+	
+}
+
+Group attr7
+{
+	index	7
+	type	attr
+	1	1	2000
+	2	23	10
+	3	53	50
+	4	34	15
+	5	2	200
+}
+
+Group attr8
+{
+	index	8
+	type	attr
+	1	15	10
+	2	16	10
+	3	18	20
+	4	19	20
+	5	9	20
+}

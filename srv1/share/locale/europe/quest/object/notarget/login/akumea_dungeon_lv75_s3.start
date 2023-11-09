@@ -1,0 +1,17 @@
+if akumea_dungeon_lv75_s3 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 0 then if party . is_party ( ) then 
+local count = d . getf ( "dungeon_member_count" ) 
+if count == 0 then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+if count < party . get_near_count ( ) then 
+d . notice_mission ( 91721 ) 
+return 
+end 
+end 
+local settings = akumea_dungeon_lv75_s3 . settings ( ) 
+akumea_dungeon_lv75_s3 . set_level ( 1 ) 
+local settings = akumea_dungeon_lv75_s3 . settings ( ) 
+d . spawn_mob ( settings [ "data" ] [ "baron" ] [ "vnum" ] , settings [ "data" ] [ "baron" ] [ "x" ] , settings [ "data" ] [ "baron" ] [ "y" ] ) 
+d . notice_mission ( 91717 , mob_link ( settings [ "data" ] [ "baron" ] [ "vnum" ] ) ) 
+ return end 

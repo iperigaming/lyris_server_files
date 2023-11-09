@@ -1,0 +1,417 @@
+quest devilcatacomb_zone begin
+	state start begin
+		function settings()
+			return {
+                ["requirements"] = {
+                    ["min_level"] = 75,
+                    ["max_level"] = 105,
+                    ["ticket"] = 30320,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = 216,
+                    ["x"] = 3361,
+                    ["y"] = 12353,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = 216,
+                    ["x"] = 3361,
+                    ["y"] = 12353,
+                },
+                ["cooldown"] = 3600,
+				["data"] = {
+					["devil_king"] = {
+						["vnum"] = 2591,
+						["pos"] = {
+							{ 673, 829 },
+							{ 691, 638 },
+							{ 848, 568 },
+							{ 1026, 642 },
+							{ 1008, 862 }
+						},
+					},
+					["devil_great_king"] = {
+						["vnum"] = 2597,
+						["x"] = 1303,
+						["y"] = 704,
+					},
+					["devil_emperor"] = {
+						["vnum"] = 2598,
+						["x"] = 74,
+						["y"] = 1103,
+					},
+					["floor_1_key"] = 30311,
+					["floor_pos"] = {
+						[1] = {
+							["x"] = 3361,
+							["y"] = 12353,
+						},
+						[2] = {
+							["x"] = 3072 + 1372,
+							["y"] = 12032 + 250,
+						},
+						[3] = {
+							["x"] = 3072 + 846,
+							["y"] = 12032 + 898,
+						},
+						[4] = {
+							["x"] = 3072 + 1362,
+							["y"] = 12032 + 666,
+						},
+						[5] = {
+							["x"] = 3072 + 73,
+							["y"] = 12032 + 1156,
+						},
+					},
+				},
+			}
+		end
+
+		function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= 216 * 10000 and index < (216 + 1) * 10000;
+        end
+
+		function set_warp_timer()
+			d.notice_mission("You will be teleported soon.")
+			server_timer("devilcatacomb_zone_warp_timer", 5, d.get_map_index())
+		end
+
+		function create_level()
+			local settings = devilcatacomb_zone.settings()
+			local data = settings["data"]
+			local level = d.getf("level")
+
+			d.purge()
+
+			if level == 1 then
+				d.set_regen_file("data/dungeon/devilcatacomb/" .. "regen_base.txt")
+				d.notice_mission("Kill monsters to get the key.")
+				d.notice_sub_mission("(%d / %d)", 0, 1)
+			elseif level == 2 then
+				d.regen_file("data/dungeon/devilcatacomb/" .. "regen_floor_2.txt")
+				d.notice_mission("Destroy all metin stones.")
+				d.notice_sub_mission("(%d / %d)", 0, 7)
+			elseif level == 3 then				
+				local pos_table = data["devil_king"]["pos"]
+				pos_table = table_shuffle(pos_table)
+
+				d.spawn_mob(data["devil_king"]["vnum"], pos_table[1][1], pos_table[1][2])
+				d.notice_mission("Kill %s", mob_name(data["devil_king"]["vnum"]))
+			elseif level == 4 then
+				d.spawn_mob(data["devil_great_king"]["vnum"], data["devil_great_king"]["x"], data["devil_great_king"]["y"])
+				d.notice_mission("Kill %s", mob_name(data["devil_great_king"]["vnum"]))
+			elseif level == 5 then
+				d.spawn_mob(data["devil_emperor"]["vnum"], data["devil_emperor"]["x"], data["devil_emperor"]["y"])
+				d.notice_mission("Kill %s", mob_name(data["devil_emperor"]["vnum"]))
+			end
+		end
+
+		function clear_timers()
+			clear_server_timer("devilcatacomb_zone_warp_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_60m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_45m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_30m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_15m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_5m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_1m_left_timer", get_server_timer_arg())
+			clear_server_timer("devilcatacomb_0m_left_timer", get_server_timer_arg())
+		end
+
+		function create_dungeon()
+			local settings = devilcatacomb_zone.settings()
+			local requirements = settings["requirements"]
+			local pos = settings["pos"]
+
+			if party.is_party() then
+				local near_count = party.get_near_count()
+
+				local pids = { party.get_member_pids() };
+				for i, pid in next, pids, nil do
+					q.begin_other_pc_block(pid)
+					pc.remove_item(requirements["ticket"], 1)
+					q.end_other_pc_block()
+				end
+
+				d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+				d.setf("dungeon_member_count", near_count)
+			else
+				pc.remove_item(requirements["ticket"], 1)
+				d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+			end
+
+			server_timer("devilcatacomb_60m_left_timer", 15*60, d.get_map_index())
+		end
+
+		when login with devilcatacomb_zone.is_dungeon() and d.getf("level") == 0 begin
+			if party.is_party() then
+				local count = d.getf("dungeon_member_count")
+
+				if count == 0 then
+					d.notice_mission("Wait until all party members joined the lobby.")
+					return
+				end
+
+				if count < party.get_near_count() then
+					d.notice_mission("Wait until all party members joined the lobby.")
+					return
+				end
+			end
+
+			local settings = devilcatacomb_zone.settings()
+			
+			d.setf("level", 1)
+			-- prepare level 1
+			devilcatacomb_zone.create_level()
+		end
+
+		when 20367.chat.locale_quest(806) with not devilcatacomb_zone.is_dungeon() begin
+			say_title(mob_name(20367))
+
+            say(locale_quest(810))
+
+			local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = devilcatacomb_zone.settings()
+            local requirements = settings["requirements"]
+            
+            if party.is_party() then
+                local pids = { party.get_member_pids() };
+                local minLev, minLevCheck, itemNeed, itemNeedCheck = {}, true, {}, true;
+                
+                if not party.is_map_member_flag_lt("exit_time", get_global_time() - settings["cooldown"] ) then
+                    say_reward("Some members still have to wait[ENTER]until they can join the dungeon again.")
+                    return;
+                end
+                
+                if (not party.is_leader()) then
+                    say("If you want to enter dungeon,[ENTER]let me talk with the group leader first.")
+                    return;
+                end
+                
+                if (party.get_near_count() < requirements["min_party_members"]) then
+                    say(string.format("If you want to enter the dungeon,[ENTER]there must be atleast %d players with you...", requirements["min_party_members"]))
+                    return;
+                end
+                
+                for index, pid in ipairs(pids) do
+                    q.begin_other_pc_block(pid);
+                        if (pc.get_level() < requirements["min_level"] or pc.get_level() > requirements["max_level"]) then
+                            table.insert(minLev, pc.get_name());
+                            minLevCheck = false;
+                        end
+                        
+                        if (pc.count_item(requirements["ticket"]) < 1) then
+                            table.insert(itemNeed, string.format("%s", pc.get_name()));
+                            itemNeedCheck = false;
+                        end
+                    q.end_other_pc_block();
+                end
+                
+                if (not minLevCheck) then
+                    say(string.format("If you want to enter the dungeon,[ENTER]each group member must be level between %d - %d.[ENTER][ENTER]The next following players don't have the necessary level:", requirements["min_level"], requirements["max_level"]))
+                    for i, str in next, minLev, nil do
+                        say(string.format("- %s", str))
+                    end
+                    return;
+                end
+                
+                if (not itemNeedCheck) then
+                    say("If you wish to enter the dungeon,[ENTER]each group memeber must have:")
+                    say_item(""..item_name(requirements["ticket"]).."", requirements["ticket"], "")
+                    say("The following players don't have the required item:")
+                    for i, str in next, itemNeed, nil do
+                        say(string.format("- %s", str))
+                    end
+                    return;
+                end
+            elseif requirements["party"] == false then
+                if ((get_global_time() - pc.getf("devilcatacomb_zone", "exit_time")) < settings["cooldown"]) then
+                
+                    local remaining_wait_time = (pc.getf("devilcatacomb_zone","exit_time") - get_global_time() + settings["cooldown"])
+                    say("You have to wait until you can enter the dungeon again.")
+                    say_reward(string.format("You can go there again in: %s", get_time_remaining(remaining_wait_time)))
+                    return
+                end
+        
+                if (pc.get_level() < requirements["min_level"]) or pc.get_level() > requirements["max_level"] then
+                    say(string.format("The level to enter the dungeon is between %d - %d.", requirements["min_level"], requirements["max_level"]))
+                    return;
+                end
+                
+                if (pc.count_item(requirements["ticket"]) < 1) then
+                    say("If you want to enter the dungeon[ENTER]you must have:")
+                    say_item(""..item_name(requirements["ticket"]).."", requirements["ticket"], "")
+                    return;
+                end
+            else
+                return
+            end
+
+            say_reward(string.format("You must finish the dungeon in %d minutes.[ENTER]Otherwise you will be teleported out[ENTER]of the dungeon.[ENTER][ENTER]I wish you best luck!", 60))
+            wait()
+
+            devilcatacomb_zone.create_dungeon()
+		end
+
+		-- kill monsters to get the key.
+		when kill with devilcatacomb_zone.is_dungeon() and d.getf("level") == 1 and d.getf("drop_deny") == 0 begin
+			local settings = devilcatacomb_zone.settings()
+			local j = number(1, 100)
+			if j <= 5 then
+				d.drop_leader_item(settings["data"]["floor_1_key"], 1)
+				d.clear_regen()
+				d.kill_monster()
+				d.notice_sub_mission("(%d / %d)", 1, 1)
+				d.setf("drop_deny", 1)
+			end
+		end
+
+		-- use key on seal.
+		when 30101.take with devilcatacomb_zone.is_dungeon() and d.getf("level") == 1 begin
+			local settings = devilcatacomb_zone.settings()
+
+			if item.get_vnum() == settings["data"]["floor_1_key"] then
+				if party.is_party() then
+					if not party.is_leader() then
+						say("Let me talk with the group leader first.")
+						return
+					end
+				end
+
+				item.remove()
+				say(locale_quest(815))
+				wait()
+				say(locale_quest(817))
+				wait()
+
+				d.setf("level", 2)
+				devilcatacomb_zone.set_warp_timer()
+			end
+		end
+
+		-- destroy all metin stones.
+		when kill with npc.get_race() == 8038 and not npc.is_pc() and devilcatacomb_zone.is_dungeon() and d.getf("level") == 2 begin
+			local count = d.getf("stone_count") + 1
+			d.setf("stone_count", count)
+
+			if count >= 7 then
+				d.setf("level", 3)
+				devilcatacomb_zone.set_warp_timer()
+			else
+				d.notice_sub_mission("(%d / %d)", count, 7)
+			end
+		end
+
+		-- kill tataros
+		when kill with npc.get_race() == 2591 and devilcatacomb_zone.is_dungeon() and d.getf("level") == 3 begin
+			d.kill_monster()
+
+			d.setf("level", 4)
+			devilcatacomb_zone.set_warp_timer()
+		end
+
+		-- kill charon
+		when kill with npc.get_race() == 2597 and devilcatacomb_zone.is_dungeon() and d.getf("level") == 4 begin
+			d.kill_monster()
+
+			d.setf("level", 5)
+			devilcatacomb_zone.set_warp_timer()
+		end
+
+		-- kill azrael
+		when kill with npc.get_race() == 2598 and devilcatacomb_zone.is_dungeon() and d.getf("level") == 5 begin
+			d.kill_all()
+
+			if party.is_party() then
+				local pids = { party.get_member_pids() };
+				for i, pid in next, pids, nil do
+					q.begin_other_pc_block(pid)
+					pc.setf("deviltower_zone", "exit_time", get_global_time())
+					q.end_other_pc_block()
+				end
+			else
+				pc.setf("deviltower_zone", "exit_time", get_global_time())
+			end
+
+			server_timer("devilcatacomb_exit_timer", 2*60, d.get_map_index())
+			d.notice_mission(string.format("You killed %s! You will be teleported out of dungeon in 2 minutes", mob_name(2598)))
+		end
+
+		-- server timers
+		when devilcatacomb_zone_warp_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				local settings = devilcatacomb_zone.settings()
+				local level = d.getf("level")
+
+				if settings["data"]["floor_pos"][level] ~= nil then
+					local pos = settings["data"]["floor_pos"][level]
+					d.jump_all(pos["x"], pos["y"])
+				end
+
+				devilcatacomb_zone.create_level()
+			end
+		end
+
+		when devilcatacomb_60m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 45) --d.notice(string.format(locale_quest(816), 45))
+				server_timer("devilcatacomb_45m_left_timer", 60 * 15, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_45m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 45) --d.notice(string.format(locale_quest(816), 45))
+				server_timer("devilcatacomb_30m_left_timer", 60 * 15, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_30m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 30) --d.notice(string.format(locale_quest(816), 30))
+				server_timer("devilcatacomb_15m_left_timer", 60 * 15, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_15m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 15) --d.notice(string.format(locale_quest(816), 15))
+				server_timer("devilcatacomb_5m_left_timer", 60 * 10, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_5m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 5) --d.notice(string.format(locale_quest(816), 5))
+				server_timer("devilcatacomb_1m_left_timer", 60 * 4, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_1m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(816, 1) --d.notice(string.format(locale_quest(816), 1))
+				server_timer("devilcatacomb_0m_left_timer", 60 * 1, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_0m_left_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(818) --d.notice(locale_quest(818))
+				d.set_warp_location(65, 5914, 992)
+				server_timer("devilcatacomb_exit_timer", 7, get_server_timer_arg())
+			end
+		end
+
+		when devilcatacomb_exit_timer.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				local settings = devilcatacomb_zone.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+	end -- state
+end -- quest

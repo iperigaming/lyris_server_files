@@ -1,0 +1,8 @@
+if npc . get_race ( ) == 2493 and dragon_lair_access . is_dungeon ( ) then local settings = dragon_lair_access . settings ( ) 
+dragon_lair_access . clear_timers ( ) 
+d . clear_regen ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "dragon_lair_access_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( settings [ "data" ] [ "dragon" ] ) ) 
+ return end 

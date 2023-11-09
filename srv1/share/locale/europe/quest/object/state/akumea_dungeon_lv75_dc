@@ -1,0 +1,117 @@
+akumea_dungeon_lv75_dc={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 80 , 
+[ "max_level" ] = 105 , 
+[ "ticket" ] = 30320 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 216 , 
+[ "x" ] = 3361 , 
+[ "y" ] = 12353 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 216 , 
+[ "x" ] = 3361 , 
+[ "y" ] = 12353 , 
+} , 
+[ "cooldown" ] = 7200 , 
+[ "data" ] = { 
+[ "warp" ] = { 
+[ 2 ] = { 3072 + 1372 , 12032 + 250 } , 
+[ 3 ] = { 3072 + 846 , 12032 + 898 } , 
+[ 4 ] = { 3072 + 1362 , 12032 + 666 } , 
+[ 5 ] = { 3072 + 73 , 12032 + 1156 } 
+} , 
+[ "devil_king" ] = { 
+[ "vnum" ] = 2591 , 
+[ "pos" ] = { 
+{ 673 , 829 } , 
+{ 691 , 638 } , 
+{ 848 , 568 } , 
+{ 1026 , 642 } , 
+{ 1008 , 862 } 
+} , 
+} , 
+[ "devil_great_king" ] = { 
+[ "vnum" ] = 2597 , 
+[ "x" ] = 1303 , 
+[ "y" ] = 704 , 
+} , 
+[ "devil_emperor" ] = { 
+[ "vnum" ] = 2598 , 
+[ "x" ] = 74 , 
+[ "y" ] = 1103 , 
+} , 
+[ "floor_1_key" ] = 30311 , 
+} , 
+} 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 216 * 10000 and index < ( 216 + 1 ) * 10000 ; 
+end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
+akumea_dungeon_lv75_dc . set_warp_timer ( ) 
+end ,set_warp_timer= function ()local settings = akumea_dungeon_lv75_dc . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . notice_mission ( 824 ) 
+server_timer ( "akumea_dungeon_lv75_dc_warp_timer" , 5 , d . get_map_index ( ) ) 
+else 
+server_timer ( "akumea_dungeon_lv75_dc_warp_timer" , 1 , d . get_map_index ( ) ) 
+end 
+end ,create_level= function ()local settings = akumea_dungeon_lv75_dc . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if data [ "warp" ] [ level ] ~= nil then 
+d . jump_all ( data [ "warp" ] [ level ] [ 1 ] , data [ "warp" ] [ level ] [ 2 ] ) 
+end 
+if level == 1 then 
+d . set_regen_file ( "data/dungeon/devilcatacomb/" .. "regen_base.txt" ) 
+d . notice_mission ( 91754 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 1 ) 
+elseif level == 2 then 
+d . regen_file ( "data/dungeon/devilcatacomb/" .. "regen_floor_2.txt" ) 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 7 ) 
+elseif level == 3 then 
+local pos_table = data [ "devil_king" ] [ "pos" ] 
+pos_table = table_shuffle ( pos_table ) 
+d . spawn_mob ( data [ "devil_king" ] [ "vnum" ] , pos_table [ 1 ] [ 1 ] , pos_table [ 1 ] [ 2 ] ) 
+d . notice_mission ( 91717 , mob_link ( data [ "devil_king" ] [ "vnum" ] ) ) 
+elseif level == 4 then 
+d . spawn_mob ( data [ "devil_great_king" ] [ "vnum" ] , data [ "devil_great_king" ] [ "x" ] , data [ "devil_great_king" ] [ "y" ] ) 
+d . notice_mission ( 91717 , mob_link ( data [ "devil_great_king" ] [ "vnum" ] ) ) 
+elseif level == 5 then 
+d . spawn_mob ( data [ "devil_emperor" ] [ "vnum" ] , data [ "devil_emperor" ] [ "x" ] , data [ "devil_emperor" ] [ "y" ] ) 
+d . notice_mission ( 91717 , mob_link ( data [ "devil_emperor" ] [ "vnum" ] ) ) 
+end 
+end ,clear_timers= function ()clear_server_timer ( "akumea_dungeon_lv75_dc_warp_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_60m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_45m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_30m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_15m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_5m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_1m_left_timer" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv75_dc_0m_left_timer" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = akumea_dungeon_lv75_dc . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv75_dc" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv75_dc" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+server_timer ( "akumea_dungeon_lv75_dc_60m_left_timer" , 15 * 60 , d . get_map_index ( ) ) 
+end }

@@ -1,0 +1,861 @@
+quest akumea_dungeon_c10_an begin
+    state start begin
+        function settings()
+            return {
+                ["requirements"] = {
+                    ["min_level"] = 140,
+                    ["max_level"] = 150,
+                    ["ticket"] = 30909,
+                    ["party"] = false,
+                    ["min_party_members"] = 1,
+                },
+                ["pos"] = {
+                    ["map_index"] = 80,
+                    ["x"] = 36989,
+                    ["y"] = 22643,
+                },
+                ["out_pos"] = {
+                    ["map_index"] = 80,
+                    ["x"] = 36989,
+                    ["y"] = 22643,
+                },
+                ["cooldown"] = 10800, -- 3600,
+                ["data"] = {
+                    ["warp"] = {
+                        [3] = {37473, 22880},
+                        [5] = {37023, 23041},
+                        [6] = {37049, 23403},
+                        [7] = {37349, 23465},
+                        [8] = {37706, 23427},
+                    },
+                    ["level"] = {
+                        [2] = {
+                            ["boss"] = {
+                                ["vnum"] = 4544,
+                                ["pos"] = {
+                                    ["x"] = 125,
+                                    ["y"] = 155
+                                },
+                            },
+                        },
+                        [3] = {
+                            ["door"] = {
+                                ["vnum"] = 9448,
+                                ["pos"] = {
+                                    {551, 310, 7},
+                                    {610, 234, 5},
+                                    {664, 310, 3}
+                                },
+                            },
+                            ["seal"] = {
+                                ["vnum"] = 9449,
+                                ["pos"] = {
+                                    {750, 296, 7},
+                                    {596, 155, 1},
+                                    {467, 321, 3}
+                                },
+                            },
+                            ["stone"] = {
+                                ["vnum"] = 8723,
+                                ["pos"] = {
+                                    ["x"] = 609,
+                                    ["y"] = 309
+                                },
+                            },
+                            ["boss"] = {
+                                ["vnum"] = 4544,
+                                ["pos"] = {
+                                    { 485, 325 },
+                                    { 595, 175 },
+                                    { 731, 295 },
+                                },
+                            },
+                        },
+                        [4] = {
+                            ["boss"] = {
+                                ["vnum"] = 4545,
+                                ["pos"] = {
+                                    ["x"] = 609,
+                                    ["y"] = 309
+                                },
+                            },
+                        },
+                        [5] = {
+                            ["stone"] = {
+                                ["vnum"] = 8724,
+                                ["pos"] = {
+                                    { 118, 560 },
+                                    { 127, 557 },
+                                    { 136, 543 },
+                                    { 144, 535 },
+                                    { 135, 526 },
+                                    { 127, 517 },
+                                    { 118, 511 },
+                                    { 118, 535 }
+                                },
+                            },
+                            ["statue"] = {
+                                ["vnum"] = 9451,
+                                ["pos"] = { 85, 535, 3 }
+                            },
+                            ["boss"] = {
+                                ["vnum"] = 4546,
+                                ["pos"] = { 85, 535, 3 }
+                            },
+                        },
+                        [6] = {
+                            ["seal"] = {
+                                ["vnum"] = { 9452, 9453, 9454 },
+                                ["pos"] = { 85, 875, 3 }
+                            },
+                            ["boss"] = {
+                                ["vnum"] = 4547,
+                                ["pos"] = { 141, 875 },
+                            },
+                        },
+                        [7] = {
+                            ["seal"] = {
+                                ["vnum"] = 9455,
+                                ["pos"] = {
+                                    {508, 840, 1},
+                                    {462, 840, 1},
+                                    {469, 822, 3},
+                                    {499, 822, 7}
+                                },
+                            },
+                            ["stone"] = {
+                                ["vnum"] = 8726,
+                                ["pos"] = { 485, 899 },
+                            },
+                            ["boss"] = {
+                                ["vnum"] = 4548,
+                                ["pos"] = { 485, 899 },
+                            },
+                        },
+                        [8] = {
+                            ["stone"] = {
+                                ["vnum"] = 8727,
+                                ["pos"] = {
+                                    {842, 836},
+                                    {826, 843},
+                                    {821, 859},
+                                    {828, 872},
+                                    {842, 877},
+                                    {855, 872},
+                                    {862, 857},
+                                    {856, 844}
+                                },
+                            },
+                            --[[ ["seal"] = {
+                                ["vnum"] = 9456,
+                                ["pos"] = { 841, 774, 1 },
+                            },
+                            ["symbol"] = {
+                                ["vnum"] = 9458,
+                                ["pos"] = { 841, 803, 1 },
+                            }, --]]
+                        },
+                        [9] = {
+                            ["stone"] = {
+                                ["vnum"] = 8728,
+                                ["pos"] = {
+                                    { 834, 869 },
+                                    { 827, 857 },
+                                    { 832, 848 },
+                                    { 852, 848 },
+                                    { 857, 857 },
+                                    { 849, 869 },
+                                }
+                            },
+                            ["boss"] = {
+                                ["vnum"] = 4549,
+                                ["pos"] = { 842, 855, 5 },
+                            },
+                        }
+                    },
+                },
+            }
+        end
+
+        function is_dungeon()
+            local index = pc.get_map_index();
+            return pc.in_dungeon() and index >= 80 * 10000 and index < (80 + 1) * 10000;
+        end
+
+        function clear_timers()
+            clear_server_timer("akumea_dungeon_c10_an_boss_effect", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_warp", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_60min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_45min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_30min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_15min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_10min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_5min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_1min_left", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_c10_an_final_exit", get_server_timer_arg())
+        end
+
+        function create_dungeon()
+            local settings = akumea_dungeon_c10_an.settings()
+            local requirements = settings["requirements"]
+            local pos = settings["pos"]
+
+            if party.is_party() then
+                local near_count = party.get_near_count()
+
+                local pids = { party.get_member_pids() };
+                for i, pid in next, pids, nil do
+                    q.begin_other_pc_block(pid)
+                    pc.remove_item(requirements["ticket"], 1)
+                    pc.setf("akumea_dungeon_c10_an", "enter_time", get_global_time())
+                    q.end_other_pc_block()
+                end
+
+                d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+                d.setf("dungeon_member_count", near_count)
+            else
+                pc.remove_item(requirements["ticket"], 1)
+                pc.setf("akumea_dungeon_c10_an", "enter_time", get_global_time())
+                d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+            end
+
+
+            server_timer("akumea_dungeon_c10_an_60min_left", 15*60, d.get_map_index())
+        end
+
+        function set_warp_timer()
+            local settings = akumea_dungeon_c10_an.settings()
+            local data = settings["data"]
+
+            local level = d.getf("dungeon_level")
+            if data["warp"][level] ~= nil then
+                d.notice_mission(824)
+                server_timer("akumea_dungeon_c10_an_warp", 5, d.get_map_index())
+            else
+                akumea_dungeon_c10_an.create_level()
+            end
+        end
+        
+        function create_level()
+            local settings = akumea_dungeon_c10_an.settings()
+            local data = settings["data"]
+            
+            local level = d.getf("dungeon_level")
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
+            end
+
+            if level == 1 then
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_1f_mobs"));
+                d.notice_mission(91716)
+
+                d.setf("monster_count", d.count_monster())
+                d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+            elseif level == 2 then
+                local boss = data["level"][level]["boss"]
+                d.spawn_mob(boss["vnum"], boss["pos"]["x"], boss["pos"]["y"])
+                d.notice_mission(91717, mob_link(boss["vnum"]))
+            elseif level == 3 then
+                for index, pos in ipairs(data["level"][level]["door"]["pos"]) do
+                    d.set_unique(string.format("door_%d", index), d.spawn_mob_dir(data["level"][level]["door"]["vnum"], pos[1], pos[2], pos[3]))
+                end
+
+                local stone = data["level"][level]["stone"]
+                d.spawn_mob(stone["vnum"], stone["pos"]["x"], stone["pos"]["y"])
+
+                d.notice_mission(91718, item_name(30912))
+                d.notice_sub_mission("(%d / %d)", d.getf("door_count"), 3)
+            elseif level == 4 then
+                local boss = data["level"][level]["boss"]
+                d.spawn_mob(boss["vnum"], boss["pos"]["x"], boss["pos"]["y"])
+                d.notice_mission(91717, mob_link(boss["vnum"]))
+            elseif level == 5 then
+                local stone_pos = data["level"][level]["stone"]["pos"]
+                stone_pos = table_shuffle(stone_pos)
+
+                for index, pos in ipairs(stone_pos) do
+                    d.set_unique(string.format("stone_%d", index), d.spawn_mob(data["level"][level]["stone"]["vnum"], pos[1], pos[2]))
+                end
+
+                local statue = data["level"][level]["statue"]
+                d.set_unique("statue", d.spawn_mob_dir(statue["vnum"], statue["pos"][1], statue["pos"][2], statue["pos"][3]))
+
+                d.notice_mission(91719)
+                d.notice_sub_mission("(%d / %d)", 0, table.getn(pos))
+            elseif level == 6 then
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_4f_mobs_a"));
+
+                d.setf("monster_count", d.count_monster())
+
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                local seal = data["level"][level]["seal"]
+                d.spawn_mob_dir(seal["vnum"][1], seal["pos"][1], seal["pos"][2], seal["pos"][3])
+
+                server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+            elseif level == 7 then
+                for index, pos in ipairs(data["level"][level]["seal"]["pos"]) do
+                    d.spawn_mob_dir(data["level"][level]["seal"]["vnum"], pos[1], pos[2], pos[3])
+                end
+
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_5f_mobs_a"))
+
+                d.setf("monster_count", d.count_monster())
+
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+            elseif level == 8 then
+                local stone_pos = data["level"][level]["stone"]["pos"]
+                stone_pos = table_shuffle(stone_pos)
+
+                for index, pos in ipairs(stone_pos) do
+                    d.set_unique(string.format("stone_%d", index), d.spawn_mob(data["level"][level]["stone"]["vnum"], pos[1], pos[2]))
+                end
+
+                --[[
+                local seal = data["level"][level]["seal"]
+                d.spawn_mob_dir(seal["vnum"], seal["pos"][1], seal["pos"][2], seal["pos"][3])
+
+                local symbol = data["level"][level]["symbol"]
+                d.spawn_mob_dir(symbol["vnum"], symbol["pos"][1], symbol["pos"][2], symbol["pos"][3])
+                --]]
+
+                d.notice_mission(91720)
+                d.notice_sub_mission("(%d / %d)", 0, 8)
+            elseif level == 9 then
+                local boss = data["level"][level]["boss"]
+                d.set_unique("boss", d.spawn_mob_dir(boss["vnum"], boss["pos"][1], boss["pos"][2], boss["pos"][3]))
+
+                local stone_count = d.getf("stone_count") - 1
+
+                local health = d.unique_get_hp("boss")
+                d.unique_set_maxhp("boss", health + ((health * 3) / 100) * stone_count)
+                d.unique_set_hp_perc("boss", 100)
+
+                d.notice_mission(91717, mob_link(boss["vnum"]))
+
+                server_loop_timer("akumea_dungeon_c10_an_boss_effect", 2, d.get_map_index())
+            end
+        end
+
+        when login with akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 0 begin
+            if party.is_party() then
+                local count = d.getf("dungeon_member_count")
+
+                if count == 0 then
+                    d.notice_mission(91721)
+                    return
+                end
+
+                if count < party.get_near_count() then
+                    d.notice_mission(91721)
+                    return
+                end
+            end
+
+            d.setf("dungeon_level", 1)
+            -- prepare level 1
+            akumea_dungeon_c10_an.create_level()
+        end
+
+        -- dungeon entry
+        when 9447.chat.locale_quest(13586) with not akumea_dungeon_c10_an.is_dungeon() begin
+            say_title(mob_name(DUNGEON_NPC))
+            say(locale_quest(91722))
+
+            local s = select(locale_quest(811), locale_quest(812))
+            if s == 2 then
+                return
+            end
+
+            local settings = akumea_dungeon_c10_an.settings()
+
+            if dungeonLib.CheckEnter("akumea_dungeon_c10_an", settings["cooldown"], settings["requirements"]) == false then
+                return
+            end
+
+            say_reward(locale_quest(91723))
+            wait()
+
+            akumea_dungeon_c10_an.create_dungeon()
+        end
+
+        -- level 2
+        when kill with npc.get_race() == 4544 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 2 begin
+            d.setf("dungeon_level", 3)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end
+
+        -- level 3
+        when kill with npc.get_race() == 8723 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 3 begin
+            d.give_or_drop_leader_item(30912, 1)
+        end
+
+        when 9448.take with item.get_vnum() == 30912 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 3 begin
+            local settings = akumea_dungeon_c10_an.settings()
+
+            d.setf("door_count", d.getf("door_count") + 1)
+            item.remove()
+            
+            for i = 1, 3 do
+                if npc.get_vid() == d.get_unique_vid(string.format("door_%d", i)) then
+                    d.kill_unique(string.format("door_%d", i))
+                    
+                    local letter = {"c", "b", "a"}
+                    local regen = string.format("regen_2f_mobs_%s", letter[i])
+                    d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", regen))
+
+                    d.setf("current_door", i)
+                    d.setf("monster_count", d.count_monster())
+
+                    d.notice_mission(91716)
+                    d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                    server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+                    return
+                end
+            end
+        end
+
+        when kill with npc.get_race() == 4544 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 3 begin
+            if d.getf("door_count") >= 3 then
+                d.setf("dungeon_level", 4)
+                akumea_dungeon_c10_an.set_warp_timer()
+            else
+                local settings = akumea_dungeon_c10_an.settings()
+                local stone = settings["data"]["level"][3]["stone"]
+                d.spawn_mob(stone["vnum"], stone["pos"]["x"], stone["pos"]["y"])
+
+                d.notice_mission(91718, item_name(30912))
+                d.notice_sub_mission("(%d / %d)", d.getf("door_count"), 3)
+            end
+        end
+
+        -- level 4
+        when kill with npc.get_race() == 4545 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 4 begin
+            d.setf("dungeon_level", 5)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end
+
+        -- level 5
+        when kill with npc.get_race() == 8724 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            local count = d.getf("stone_count") + 1
+            d.setf("stone_count", count)
+
+            if d.is_unique_dead("stone_1") or npc.get_vid() == d.get_unique_vid("stone_1") then
+                d.purge_monster()
+
+                d.setf("stone_count", 0)
+
+                d.give_or_drop_leader_item(30913, 1)
+
+                d.notice_mission(91724, item_name(30913))
+            end
+        end
+
+        when 30913.use with akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            item.remove()
+
+            d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_3f_mobs"))
+
+            d.setf("monster_count", d.count_monster())
+
+            d.notice_mission(91716)
+            d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+            server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+        end
+
+        when 30914.use with akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            d.purge_unique("statue")
+            item.remove()
+
+            local settings = akumea_dungeon_c10_an.settings()
+            local boss = settings["data"]["level"][5]["boss"]
+            d.spawn_mob_dir(boss["vnum"], boss["pos"][1], boss["pos"][2], boss["pos"][3])
+
+            d.notice_mission(91717, mob_link(boss["vnum"]))
+        end
+
+        when kill with npc.get_race() == 4546 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 5 begin
+            d.setf("dungeon_level", 6)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end
+
+        -- level 6
+        when 9452.take or 9453.take or 9454.take with item.get_vnum() == 30915 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 6 begin
+            local settings = akumea_dungeon_c10_an.settings()
+            item.remove()
+
+            local pos = npc.get_race() - 9452 + 2
+
+            if pos <= 3 then
+                local seal = settings["data"]["level"][6]["seal"]
+                d.spawn_mob_dir(seal["vnum"][pos], seal["pos"][1], seal["pos"][2], seal["pos"][3])
+            end
+
+            npc.kill()
+
+            if pos <= 3 then
+                local group = { "a", "b", "c" }
+                local regen = string.format("regen_4f_mobs_%s", group[pos])
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", regen))
+
+                d.setf("monster_count", d.count_monster())
+
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+            else
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_4f_stones"))
+
+                d.notice_mission(91725)
+                d.notice_sub_mission("(%d / %d)", 0, 5)
+            end
+        end
+
+        when kill with npc.get_race() == 8725 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 6 begin
+            local count = d.getf("stone_count") + 1
+            d.setf("stone_count", count)
+
+            if count >= 5 then
+                d.purge_monster()
+
+                d.setf("stone_count", 0)
+
+                local settings = akumea_dungeon_c10_an.settings()
+                local boss = settings["data"]["level"][6]["boss"]
+                d.spawn_mob(boss["vnum"], boss["pos"][1], boss["pos"][2])
+
+                d.notice_mission(91717, mob_link(boss["vnum"]))
+            else
+                d.notice_sub_mission("(%d / %d)", count, 5)
+            end
+        end
+
+        when kill with npc.get_race() == 4547 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 6 begin
+            d.setf("dungeon_level", 7)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end
+
+        -- level 7
+        when 9455.take with item.get_vnum() == 30916 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 7 begin
+            local settings = akumea_dungeon_c10_an.settings()
+
+            npc.purge()
+            item.remove()
+
+            local count = d.getf("seal_count") + 1
+            d.setf("seal_count", count)
+
+            if count >= 4 then
+                local boss = settings["data"]["level"][7]["boss"]
+                d.spawn_mob(boss["vnum"], boss["pos"][1], boss["pos"][2])
+
+                d.notice_mission(91717, mob_link(boss["vnum"]))
+            else
+                if count == 1 or count == 2 then
+                    local stone = settings["data"]["level"][7]["stone"]
+                    d.spawn_mob(stone["vnum"], stone["pos"][1], stone["pos"][2])
+
+                    d.notice_mission(91726)
+                    d.notice_sub_mission("(%d / %d)", count, 4)
+                elseif count == 3 then
+                    d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_5f_stones"))
+
+                    d.notice_mission(91727)
+                    d.notice_sub_mission("(%d / %d)", 0, 6)
+                end
+            end
+        end
+
+        when kill with npc.get_race() == 8726 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 7 begin
+            local seal_level = d.getf("seal_count")
+
+            if seal_level < 3 then
+                d.purge_monster()
+
+                d.give_or_drop_leader_item(30916, 1)
+            else
+                local count = d.getf("stone_count") + 1
+                d.setf("stone_count", count)
+                
+                if count >= 6 then
+                    d.purge_monster()
+
+                    d.setf("stone_count", 0)
+
+                    d.give_or_drop_leader_item(30916, 1)
+                else
+                    d.notice_sub_mission("(%d / %d)", count, 6)
+                end
+            end
+        end
+
+        when kill with npc.get_race() == 4548 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 7 begin
+            d.setf("dungeon_level", 8)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end
+
+        -- level 8
+        when kill with npc.get_race() == 8727 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 8 begin
+            local count = d.getf("stone_count") + 1
+            d.setf("stone_count", count)
+
+            if d.is_unique_dead("stone_1") or npc.get_vid() == d.get_unique_vid("stone_1") then
+                d.purge_monster()
+
+                -- d.setf("stone_count", 0)
+
+                d.regen_file(string.format("data/dungeon/akumea_dungeon_c10_an/%s.txt", "regen_6f_mobs"))
+
+                d.setf("monster_count", d.count_monster())
+                
+                d.notice_mission(91716)
+                d.notice_sub_mission("(%d / %d)", 0, d.count_monster())
+
+                -- dev test
+                -- d.kill_monster()
+
+                server_loop_timer("akumea_dungeon_c10_an_monster_wave", 5, d.get_map_index())
+            else
+                d.notice_sub_mission("(%d / %d)", count, 8)
+            end
+        end
+
+        --[[ when 9458.click with akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 8 and d.getf("can_pickup") == 1 begin
+            d.setf("can_pickup", 0)
+            npc.purge()
+
+            d.give_or_drop_leader_item(30917, 1)
+        end
+
+        when 9456.take with item.get_vnum() == 30917 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 8 begin
+            npc.purge()
+            item.remove()
+
+            d.setf("dungeon_level", 9)
+            akumea_dungeon_c10_an.set_warp_timer()
+        end --]]
+
+        -- level 9
+        when kill with npc.get_race() == 4549 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 9 begin
+            akumea_dungeon_c10_an.clear_timers()
+
+            d.clear_regen()
+            d.kill_all()
+
+            d.complete()
+
+            server_timer("akumea_dungeon_c10_an_final_exit", 2*60, d.get_map_index())
+            d.notice_mission(91728, mob_link(4549))
+        end
+
+        when kill with npc.get_race() == 8728 and akumea_dungeon_c10_an.is_dungeon() and d.getf("dungeon_level") == 9 begin
+            local count = d.getf("stone_count") + 1
+            d.setf("stone_count", count)
+
+            local boss = d.get_unique_vid("boss")
+
+            if count >= 6 then
+                d.unique_set_damage_block_flag("boss", false)
+
+                d.setf("stone_count", 0)
+
+                d.notice_mission(91717, mob_link(4549))
+            end
+        end
+
+        -- server timer
+        when akumea_dungeon_c10_an_warp.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                akumea_dungeon_c10_an.create_level()
+            end
+        end
+
+        when akumea_dungeon_c10_an_boss_effect.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_c10_an.settings()
+
+                local health = { 75, 50, 25 }
+                local phase = d.getf("boss_phase") + 1
+
+                if phase > 3 or d.is_unique_dead("boss") then
+                    clear_server_timer("akumea_dungeon_c10_an_boss_effect", get_server_timer_arg())
+                    return
+                end
+
+                if d.count_monster() > 1 then
+                    return
+                end
+
+                if d.unique_get_hp_perc("boss") <= health[phase] then
+                    d.setf("boss_phase", phase)
+
+                    for _, pos in ipairs(settings["data"]["level"][9]["stone"]["pos"]) do 
+                        d.spawn_mob(settings["data"]["level"][9]["stone"]["vnum"], pos[1], pos[2])
+                    end
+
+                    d.setf("stone_count", 0)
+
+                    d.notice_mission(91729)
+                    d.unique_set_damage_block_flag("boss", true)
+                end
+            end
+        end
+
+        when akumea_dungeon_c10_an_monster_wave.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                local level = d.getf("dungeon_level")
+                local count = d.getf("monster_count")
+
+                if level == 1 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+                        
+                        d.setf("monster_count", 0)
+
+                        d.setf("dungeon_level", 2)
+                        akumea_dungeon_c10_an.set_warp_timer()
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                elseif level == 3 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+
+                        d.setf("monster_count", 0)
+                    
+                        local cur = d.getf("current_door")
+
+                        local settings = akumea_dungeon_c10_an.settings()
+                        local boss = settings["data"]["level"][3]["boss"]
+                        d.spawn_mob(boss["vnum"], boss["pos"][cur][1], boss["pos"][cur][2])
+
+                        d.notice_mission(91717, mob_link(boss["vnum"]))
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                elseif level == 5 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+
+                        d.setf("monster_count", 0)
+
+                        d.give_or_drop_leader_item(30914, 1)
+                        d.notice_mission(91730, mob_link(4546), item_name(30914))
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                elseif level == 6 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+
+                        d.setf("monster_count", 0)
+
+                        d.give_or_drop_leader_item(30915, 1)
+                        d.notice_mission(91731, mob_link(4546), item_name(30915))
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                elseif level == 7 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+
+                        d.setf("monster_count", 0)
+
+                        d.give_or_drop_leader_item(30916, 1)
+                        d.notice_mission("Use %s onto the seal to release it.", mob_link(9455), item_name(30916))
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                elseif level == 8 then
+                    if d.count_monster() <= 0 then
+                        clear_server_timer("akumea_dungeon_c10_an_monster_wave", get_server_timer_arg())
+                        d.purge_monster()
+
+                        d.setf("monster_count", 0)
+
+                        -- d.setf("can_pickup", 1)
+                        -- d.notice_mission(91732)
+
+                        d.setf("dungeon_level", 9)
+                        akumea_dungeon_c10_an.set_warp_timer()
+                    else
+                        d.notice_sub_mission("(%d / %d)", count - d.count_monster(), count)
+                    end
+                end
+            end
+        end
+
+        -- server time left timers
+        when akumea_dungeon_c10_an_60min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91733)
+                server_timer("akumea_dungeon_c10_an_45min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_45min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91734)
+                server_timer("akumea_dungeon_c10_an_30min_left", 15*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_30min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91735)
+                server_timer("akumea_dungeon_c10_an_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_15min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91736)
+                server_timer("akumea_dungeon_c10_an_15min_left", 5*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_10min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91737)
+                server_timer("akumea_dungeon_c10_an_5min_left", 4*60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_5min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91738)
+                server_timer("akumea_dungeon_c10_an_5min_left", 60, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_1min_left.server_timer begin
+            if d.select(get_server_timer_arg()) then
+                d.notice(91739)
+                server_timer("akumea_dungeon_c10_an_final_exit", 3, d.get_map_index())
+            end
+        end
+
+        when akumea_dungeon_c10_an_final_exit.server_timer begin
+			if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_c10_an.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+    end
+end

@@ -1,0 +1,107 @@
+akumea_dungeon_lv105_jt={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 105 , 
+[ "max_level" ] = 150 , 
+[ "ticket" ] = 30613 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 406 , 
+[ "x" ] = 12430 , 
+[ "y" ] = 16045 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 406 , 
+[ "x" ] = 12430 , 
+[ "y" ] = 16045 , 
+} , 
+[ "cooldown" ] = 9000 , 
+[ "data" ] = { 
+[ "level" ] = { 
+[ 1 ] = { 
+[ "stone" ] = { 
+[ "vnum" ] = 8077 , 
+[ "pos" ] = { 
+{ 60 , 948 } , 
+{ 60 , 935 } , 
+{ 75 , 935 } , 
+{ 75 , 948 } , 
+} 
+} 
+} , 
+} , 
+[ "erebus" ] = { 
+[ "vnum" ] = 6408 , 
+[ "pos" ] = { 
+[ "x" ] = 69 , 
+[ "y" ] = 941 , 
+} , 
+} , 
+[ "jotun" ] = { 
+[ "vnum" ] = 6192 , 
+[ "pos" ] = { 
+[ "x" ] = 69 , 
+[ "y" ] = 941 , 
+} , 
+} , 
+} , 
+} 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 406 * 10000 and index < ( 406 + 1 ) * 10000 ; 
+end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
+server_timer ( "akumea_dungeon_lv105_jt_warp" , 1 , pc . get_map_index ( ) ) 
+end ,clear_timers= function ()clear_server_timer ( "akumea_dungeon_lv105_jt_warp" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_monster_wave" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_spawn_jotun" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv105_jt_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_dungeon= function ()local settings = akumea_dungeon_lv105_jt . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv105_jt" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv105_jt" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+server_timer ( "akumea_dungeon_lv105_jt_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end ,create_level= function ()local settings = akumea_dungeon_lv105_jt . settings ( ) 
+local data = settings [ "data" ] 
+local level = d . getf ( "dungeon_level" ) 
+if level == 1 then 
+local stone = data [ "level" ] [ level ] [ "stone" ] 
+for _ , pos in ipairs ( stone [ "pos" ] ) begin 
+d . spawn_mob ( stone [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) 
+end 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 4 ) 
+elseif level == 2 then 
+d . notice_mission ( 91716 ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv105_jt/%s.txt" , "regen_1" ) ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 70 ) 
+elseif level == 3 then 
+d . notice_mission ( 91717 , mob_link ( data [ "erebus" ] [ "vnum" ] ) ) 
+d . spawn_mob ( data [ "erebus" ] [ "vnum" ] , data [ "erebus" ] [ "pos" ] [ "x" ] , data [ "erebus" ] [ "pos" ] [ "y" ] ) 
+elseif level == 4 then 
+d . notice_mission ( 91717 , mob_link ( data [ "jotun" ] [ "vnum" ] ) ) 
+d . spawn_mob ( data [ "jotun" ] [ "vnum" ] , data [ "jotun" ] [ "pos" ] [ "x" ] , data [ "jotun" ] [ "pos" ] [ "y" ] ) 
+end 
+end }

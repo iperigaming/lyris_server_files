@@ -1,0 +1,15 @@
+if akumea_dungeon_lv100_ne . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then local settings = akumea_dungeon_lv100_ne . settings ( ) 
+local need_count = table . getn ( settings [ "data" ] [ "level" ] [ 5 ] [ "cube" ] [ "pos" ] ) 
+local count = d . getf ( "cube_count" ) + 1 
+d . setf ( "cube_count" , count ) 
+local unique = dungeonLib . GetUnique ( "cube_%d" , need_count ) 
+d . kill_unique ( unique ) 
+item . remove ( ) 
+if count >= need_count then 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_ne . set_level ( 6 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , need_count ) 
+end 
+ return end 

@@ -1,0 +1,545 @@
+quest akumea_dungeon_lv30 begin
+	state start begin
+		function settings()
+			return
+			{
+				["requirements"] = {
+					["min_level"] = 30,
+					["max_level"] = 50,
+					["ticket"] = 30734,
+					["party"] = false,
+					["min_party_members"] = 1,
+				},
+				["pos"] = {
+					["map_index"] = 78,
+					["x"] = 19803,
+					["y"] = 1135,
+				},
+				["out_pos"] = {
+					["map_index"] = 78,
+					["x"] = 19803,
+					["y"] = 1135,
+				},
+				["data"] = {
+					["warp"] = {
+						[1] = {19803, 1135},
+						[2] = {20313, 1820}
+					},
+				},
+				["cooldown"] = 1200,
+				["Items"] = {30735, 30736, 30737, 30738, 30739}, 
+				-- First floor
+				["door1"] = 9252, 				
+				["door1_pos"] = {
+					[1] = {233, 280, 5},
+					[2] = {672, 621, 1}
+				},
+				["door2"] = 9253, 				
+				["door2_pos"] = {
+					[1] = {356, 461, 5},
+					[2] = {347, 684, 5},
+					[3] = {458, 796, 7},
+					[4] = {741, 440, 1}
+				},
+
+				["first_metin"] = 8010, 				
+				["first_metin_pos"] = {191, 227},
+				["second_metin"] = 8437, 				
+				["second_metin_pos"] = {345, 607, 677, 696},
+				["plague_warrior"] = 9254, 				
+				["plague_warrior_pos"] = {370, 590},
+				["firstboss"] = 1204, 				
+				["firstboss_pos"] = {521, 801},
+				["plague_dragon"] = 1205, 				
+				["plague_dragon_pos"] = {
+					[1] = {678, 695},
+					[2] = {739, 378}
+				},
+				["plague_shaman"] = 9256, 				
+				["plague_shaman_pos"] = {755, 416},
+				["plague_finalboss"] = 1206, 				
+				["plague_finalboss_pos"] = {739, 357},
+			}
+		end	
+		
+		function is_dungeon()
+			local index = pc.get_map_index();
+			return pc.in_dungeon() and index >= 78 * 10000 and index < (78 + 1) * 10000;
+		end
+		
+		function clear_plaguedungeon()
+			d.clear_regen();
+			d.kill_all();
+		end
+		
+		function clear_plaguetimers()
+			clear_server_timer("akumea_dungeon_lv30_wave_kill", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_60min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_45min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_30min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_15min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_10min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_5min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_1min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_0min_left", get_server_timer_arg())
+			clear_server_timer("akumea_dungeon_lv30_final_exit", get_server_timer_arg())
+		end
+
+		------------CREATE DUNGEON
+		function create_dungeon()
+			local settings = akumea_dungeon_lv30.settings()
+			local requirements = settings["requirements"]
+			local pos = settings["pos"]
+
+			if party.is_party() then
+				local near_count = party.get_near_count()
+
+				local pids = { party.get_member_pids() };
+				for i, pid in next, pids, nil do
+					q.begin_other_pc_block(pid)
+					pc.remove_item(requirements["ticket"], 1)
+					pc.setf("akumea_dungeon_lv30", "enter_time", get_global_time())
+					q.end_other_pc_block()
+				end
+
+				d.new_jump_party(pos["map_index"], pos["x"], pos["y"])
+				d.setf("dungeon_member_count", near_count)
+			else
+				pc.remove_item(requirements["ticket"], 1)
+				pc.setf("akumea_dungeon_lv30", "enter_time", get_global_time())
+				d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
+			end
+			
+			d.setf("dungeon_level", 1)
+			d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_1a"))
+			
+			d.spawn_mob_dir(setting["door1"], setting["door1_pos"][1][1], setting["door1_pos"][1][2], setting["door1_pos"][1][3])
+			
+			server_timer("akumea_dungeon_lv30_60min_left", 15*60, d.get_map_index())
+			server_loop_timer("akumea_dungeon_lv30_wave_kill", 5, d.get_map_index())
+		end
+
+		--DUNGEON ENTER
+		when 9251.chat.locale_quest(13586) with not akumea_dungeon_lv30.is_dungeon() begin
+			say_title(mob_name(DUNGEON_NPC))
+			say(locale_quest(91722))
+
+			local s = select(locale_quest(811), locale_quest(812))
+			if s == 2 then
+				return
+			end
+
+			local settings = akumea_dungeon_lv30.settings()
+			if dungeonLib.CheckEnter("akumea_dungeon_lv30", settings["cooldown"], settings["requirements"]) == false then
+				return
+			end
+
+			say_reward(locale_quest(91723))
+			wait()
+
+			akumea_dungeon_lv30.create_dungeon()
+		end
+
+		when 9252.take with item.get_vnum() == 30735 and akumea_dungeon_lv30.is_dungeon() begin
+			local settings = akumea_dungeon_lv30.settings()
+			-----1. FLOOR
+			if d.getf("dungeon_level") == 3 then
+				d.kill_all()
+				pc.remove_item(settings["Items"][1], 1)
+				d.notice(91751)
+				d.spawn_mob_dir(settings["door2"], settings["door2_pos"][1][1], settings["door2_pos"][1][2], settings["door2_pos"][1][3])
+
+				d.setf("dungeon_level", 5)
+				d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_2b"))
+				d.notice_mission(91725)
+				d.notice_sub_mission("(%d / %d)", 0, 5)
+			elseif d.getf("dungeon_level") == 26 then
+				d.kill_all()
+				pc.remove_item(settings["Items"][1], 1)
+				d.setf("dungeon_level", 27)
+				d.notice_mission(91752)
+				d.set_regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_6a"))
+				d.spawn_mob_dir(settings["door2"], settings["door2_pos"][4][1], settings["door2_pos"][4][2], settings["door2_pos"][4][3])
+			end
+		end
+		
+		----- BIG DOOR
+		when 9253.take with item.get_vnum() == 30736 and akumea_dungeon_lv30.is_dungeon() begin 
+			local settings = akumea_dungeon_lv30.settings()
+			-----2. FLOOR
+			if d.getf("dungeon_level") == 6 then
+				d.kill_all()
+				d.notice_mission(91753)
+				pc.remove_item(settings["Items"][2], 1)
+				d.setf("dungeon_level", 7)
+				d.spawn_mob(settings["plague_warrior"], settings["plague_warrior_pos"][1], settings["plague_warrior_pos"][2])
+				d.spawn_mob_dir(settings["door2"], settings["door2_pos"][2][1], settings["door2_pos"][2][2], settings["door2_pos"][2][3])
+			----3. FLOOR
+			elseif d.getf("dungeon_level") == 11 then
+				d.kill_all()
+				pc.remove_item(settings["Items"][2], 1)
+				d.setf("dungeon_level", 12)
+				d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_4a"))
+				d.spawn_mob_dir(settings["door2"], settings["door2_pos"][3][1], settings["door2_pos"][3][2], settings["door2_pos"][3][3])
+
+				d.setf("plaque_dungeon_mob_count", d.count_monster())
+				d.notice_mission(91754)
+				d.notice_sub_mission("(%d / %d)", 0, 20)
+
+				server_loop_timer("akumea_dungeon_lv30_wave_kill", 5, d.get_map_index())
+			elseif d.getf("dungeon_level") == 14 then
+				d.kill_all()
+				d.notice_mission(91755)
+				pc.remove_item(settings["Items"][2], 1)
+				d.setf("dungeon_level", 15)
+				d.spawn_mob(settings["firstboss"], settings["firstboss_pos"][1], settings["firstboss_pos"][2])
+			elseif d.getf("dungeon_level") == 28 then
+				akumea_dungeon_lv30.clear_plaguedungeon()
+				d.notice_mission(91756)
+				pc.remove_item(settings["Items"][2], 1)
+				d.setf("dungeon_level", 29)
+				d.spawn_mob(settings["plague_shaman"], settings["plague_shaman_pos"][1], settings["plague_shaman_pos"][2])
+			end
+		end
+		
+-----------1. FLOOR
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 8010 begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.getf("dungeon_level") == 2 then
+				d.setf("dungeon_level", 3)
+				game.drop_item(settings["Items"][1], 1)
+				d.notice_mission(91757)
+----------2. FLOOR
+			elseif d.getf("dungeon_level") == 5 then
+				local kills = 5;
+				d.setf("metin1_count", d.getf("metin1_count")+1);
+				if (d.getf("metin1_count") < kills) then
+					d.notice(string.format(91758, kills - d.getf("metin1_count")))
+					d.notice_sub_mission("(%d / %d)", kills - d.getf("metin1_count"), kills)
+				else
+					d.notice(91759)
+					d.notice_mission(91757)
+					d.setf("dungeon_level", 6)
+					game.drop_item(settings["Items"][2], 1)
+				end -- if/else
+			end
+		end
+		
+-----------3. FLOOR
+		when 9254.chat.locale_quest(9906) with akumea_dungeon_lv30.is_dungeon() and d.getf("dungeon_level") == 7 begin
+			local settings = akumea_dungeon_lv30.settings()
+			say_title(locale_quest(3912))
+			say("")
+			if party.is_party() then
+				if not party.is_leader() then
+					say_reward(locale_quest(91760))
+					return
+				end
+			end
+			wait()
+			say_title(locale_quest(3912))
+			say("")
+			say(locale_quest(10944))
+			say_item("", settings["Items"][3], "")
+			d.setf("dungeon_level", 9)
+			d.notice_mission(91761)
+			d.spawn_mob(settings["second_metin"], settings["second_metin_pos"][1], settings["second_metin_pos"][2])
+		end
+		
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 8437 begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.getf("dungeon_level") == 9 then
+				d.setf("dungeon_level", 10)
+				game.drop_item(settings["Items"][3], 1)
+				d.notice_mission(91762)
+			----4. FLOOR
+			elseif d.getf("dungeon_level") == 13 then
+				local kills1 = 2;
+				d.setf("metin2_count", d.getf("metin2_count")+1);
+				d.notice_sub_mission("(%d / %d)", d.getf("metin2_count"), kills1)
+				if (d.getf("metin2_count") < kills1) then
+					d.notice(string.format(91758, kills1-d.getf("metin2_count")))
+				else
+					d.notice_mission(91757)
+					d.setf("dungeon_level", 14)
+					game.drop_item(settings["Items"][2], 1)
+				end -- if/else
+			elseif d.getf("dungeon_level") == 17 then
+				game.drop_item(settings["Items"][4], 1)
+				d.notice_mission("Open first seal!")
+			elseif d.getf("dungeon_level") == 23 then
+				game.drop_item(settings["Items"][4], 1)
+				d.notice_mission(91763)
+			end
+		end
+
+		when 9254.take with item.get_vnum() == 30737 and akumea_dungeon_lv30.is_dungeon() and d.getf("dungeon_level") == 10 begin
+			local settings = akumea_dungeon_lv30.settings()
+			say_title(locale_quest(3912))
+			say(locale_quest(91764))
+			wait()
+			pc.remove_item(settings["Items"][3], 1)
+			pc.give_item2(settings["Items"][2], 1)
+			d.setf("dungeon_level", 11)
+			d.notice_mission(91757)
+			npc.kill()
+		end
+
+-----------5.FLOOR
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 1204 begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.getf("dungeon_level") == 15 then
+				d.notice(string.format(91765, mob_name(1204)))
+				d.notice_mission(824)
+				d.setf("dungeon_level", 16)
+				server_timer("plague_jumper", 10, d.get_map_index())
+			elseif d.getf("dungeon_level") == 20 then
+				local kills_4 = 2;
+				d.setf("boss1b_count", d.getf("boss1b_count")+1);
+				if (d.getf("boss1b_count") < kills_4) then
+					d.notice(string.format(91766, kills_4-d.getf("boss1b_count"), mob_name(1204)))
+				else
+					d.notice(91763)
+					d.setf("dungeon_level", 21)
+					game.drop_item(settings["Items"][4], 1)
+				end -- if/else
+			end
+		end -- when
+
+-----------6.FLOOR
+
+		when 9255.take with item.get_vnum() == 30738 and akumea_dungeon_lv30.is_dungeon() begin
+			local settings = akumea_dungeon_lv30.settings()
+			local seal_count = 5;
+
+			d.setf("seal_count", d.getf("seal_count") + 1)
+
+			npc.kill()
+			pc.remove_item(settings["Items"][4], 1)
+
+			if (d.getf("seal_count") < seal_count) then
+				d.notice_sub_mission("(%d / %d)", d.getf("seal_count"), seal_count)
+				return
+			end
+
+			game.drop_item(settings["Items"][1], 1)
+			d.notice_mission(91757)
+			d.setf("dungeon_level", 26)
+		end
+		
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 8438 and d.getf("dungeon_level") == 18 begin
+			local settings = akumea_dungeon_lv30.settings()
+			game.drop_item(settings["Items"][4], 1)
+		end
+
+
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 1205 begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.getf("dungeon_level") == 30 then
+				d.setf("dungeon_level", 31)
+				game.drop_item(settings["Items"][5], 1)
+				d.notice_mission(91767)
+			end
+		end
+		
+-----------7.FLOOR
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and d.getf("dungeon_level") == 27 begin
+			local settings = akumea_dungeon_lv30.settings()
+			if number(1, 100) <= 5 then
+				game.drop_item(settings["Items"][2], 1);
+				d.setf("dungeon_level", 28)
+				d.clear_regen();
+			end
+		end
+
+----------8.FLOOR
+		when 9256.chat.locale_quest(9906) with akumea_dungeon_lv30.is_dungeon() and d.getf("dungeon_level") == 29 begin
+			local settings = akumea_dungeon_lv30.settings()
+			say_title(locale_quest(3914))
+			say("")
+			if party.is_party() then
+				if not party.is_leader() then
+					say_reward(locale_quest(91760))
+					return
+				end
+			end
+			say_item("", settings["Items"][5], "")
+			say(locale_quest(91768))
+			wait()
+
+			d.setf("dungeon_level", 30)
+			d.notice_mission(91717, mob_name(1205))
+			d.spawn_mob(settings["plague_dragon"], settings["plague_dragon_pos"][2][1], settings["plague_dragon_pos"][2][2])
+			
+			server_loop_timer("akumea_dungeon_lv30_wave_kill", 5, d.get_map_index())
+		end
+
+		when 9256.take with item.get_vnum() == 30739 and akumea_dungeon_lv30.is_dungeon() and d.getf("dungeon_level") == 31 begin
+			local settings = akumea_dungeon_lv30.settings()
+			say_title(locale_quest(3914))
+			say(locale_quest(91769))
+			wait()
+			pc.remove_item(settings["Items"][5], 1)
+			d.setf("dungeon_level", 32)
+			npc.kill()
+			d.notice_mission(91717, mob_name(settings["plague_finalboss"]))
+			d.spawn_mob(settings["plague_finalboss"], settings["plague_finalboss_pos"][1], settings["plague_finalboss_pos"][2])			
+		end
+		 
+		when kill with akumea_dungeon_lv30.is_dungeon() and not npc.is_pc() and npc.get_race() == 1206 and d.getf("dungeon_level") == 32 begin
+			local settings = akumea_dungeon_lv30.settings()
+			akumea_dungeon_lv30.clear_plaguetimers()
+
+			d.update_ranking()
+			d.update_rank()
+			
+			server_timer("akumea_dungeon_lv30_final_exit", 2*60, d.get_map_index())
+			d.setf("dungeon_level", 33)
+			d.notice_mission(string.format(91728, mob_name(settings["plague_finalboss"])))
+		end
+		
+		when kill with akumea_dungeon_lv30.is_dungeon() begin
+			local count = d.getf("plaque_dungeon_mob_count")
+			local level = d.getf("dungeon_level")
+
+			if count <= 0 then 
+				return
+			end
+
+			if level == 1 or level == 12 then
+				d.notice_sub_mission("(%d / %d)", math.max(0, math.min(count - d.count_monster(), 20)), 20)
+			end
+		end
+
+------- TIMERS
+		when akumea_dungeon_lv30_wave_kill.server_timer begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.select(get_server_timer_arg()) then
+				local count = d.getf("plaque_dungeon_mob_count")
+
+				if d.getf("dungeon_level") == 1 then
+					if count == 0 then
+						d.setf("plaque_dungeon_mob_count", d.count_monster())
+						count = d.getf("plaque_dungeon_mob_count")
+						d.notice_mission(91754)
+						d.notice_sub_mission("(%d / %d)", 0, 20)
+					end
+
+					if count - d.count_monster() >= 20 then
+						clear_server_timer("akumea_dungeon_lv30_wave_kill", get_server_timer_arg())
+						d.setf("dungeon_level", 2)
+
+						d.setf("plaque_dungeon_mob_count", 0)
+						d.notice_mission(91761)
+						
+						d.spawn_mob(settings["first_metin"], settings["first_metin_pos"][1], settings["first_metin_pos"][2])
+					else
+						d.notice(91770, 20 - math.min(20, math.max(0, count - d.count_monster())))
+					end
+
+				elseif d.getf("dungeon_level") == 12 then
+					if count - d.count_monster() >= 20 then
+						clear_server_timer("akumea_dungeon_lv30_wave_kill", get_server_timer_arg())
+						d.setf("dungeon_level", 13)
+						d.setf("plaque_dungeon_mob_count", 0)
+						d.notice_mission(91725)
+						d.notice_sub_mission("(%d / %d)", 0, 2)
+
+						d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_4b"))
+					else
+						d.notice(string.format(91770, 20 - math.min(20, math.max(0, count - d.count_monster()))))
+					end
+				elseif d.getf("dungeon_level") == 22 then
+					if d.count_monster() == 0 then
+						clear_server_timer("akumea_dungeon_lv30_wave_kill", get_server_timer_arg())
+						d.setf("dungeon_level", 23)
+						d.notice(91761)
+						d.spawn_mob(settings["second_metin"], settings["second_metin_pos"][3], settings["second_metin_pos"][4])
+					else
+						d.notice(string.format(91770, d.count_monster()));
+					end
+				end
+			end
+		end
+		
+		when plague_jumper.server_timer begin
+			local settings = akumea_dungeon_lv30.settings()
+			if d.select(get_server_timer_arg()) then
+				d.jump_all(settings["data"]["warp"][2][1], settings["data"]["warp"][2][2])
+				d.notice(91771)
+
+				d.notice_mission(91772)
+				d.notice_sub_mission("(%d / %d)", 0, 5)
+				d.setf("dungeon_level", 18)
+
+				d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_5a"))
+				d.regen_file(string.format("data/dungeon/plague_dungeon/%s.txt", "regen_5c"))
+
+				d.spawn_mob_dir(settings["door1"], settings["door1_pos"][2][1], settings["door1_pos"][2][2], settings["door1_pos"][2][3])
+			end
+		end
+		
+		when akumea_dungeon_lv30_60min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91733)
+				server_timer("akumea_dungeon_lv30_45min_left", 15*60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_45min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91734)
+				server_timer("akumea_dungeon_lv30_30min_left", 15*60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_30min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91735)
+				server_timer("akumea_dungeon_lv30_15min_left", 5*60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_15min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91736)
+				server_timer("akumea_dungeon_lv30_10min_left", 5*60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_10min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91737)
+				server_timer("akumea_dungeon_lv30_5min_left", 4*60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_5min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91738)
+				server_timer("akumea_dungeon_lv30_1min_left", 60, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_1min_left.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				d.notice(91739)
+				server_timer("akumea_dungeon_lv30_final_exit", 3, d.get_map_index())
+			end
+		end
+		
+		when akumea_dungeon_lv30_final_exit.server_timer begin
+			if d.select(get_server_timer_arg()) then
+				local settings = akumea_dungeon_lv30.settings()
+				d.exit_all_to(settings["out_pos"]["x"], settings["out_pos"]["y"], settings["out_pos"]["map_index"]);
+			end
+		end
+		
+		when logout with akumea_dungeon_lv30.is_dungeon() begin 
+			pc.setf("akumea_dungeon_lv30","exit_akumea_dungeon_lv30_time", get_global_time())
+			pc.setqf("akumea_dungeon_lv30", get_time() + 3600)
+		end		
+	end
+end	
+		
+		

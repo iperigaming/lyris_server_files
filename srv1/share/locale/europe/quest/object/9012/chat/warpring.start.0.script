@@ -1,0 +1,6 @@
+local settings = warpring . getSettings ( ) 
+if not settings or not settings . IS_ENABLED then 
+syschat ( "Error 404 contact an GM" ) 
+return 
+end 
+warpring . showWarpMenu ( settings . WARPS , { } ) 

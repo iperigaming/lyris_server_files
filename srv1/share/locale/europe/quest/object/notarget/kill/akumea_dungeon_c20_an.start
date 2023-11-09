@@ -1,0 +1,141 @@
+if npc . get_race ( ) == 4544 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then akumea_dungeon_c20_an . set_level ( 3 ) 
+ return end if akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then if npc . get_race ( ) == 8723 then 
+d . kill_monster ( ) 
+d . give_or_drop_leader_item ( 30912 , 1 ) 
+elseif npc . get_race ( ) == 4544 then 
+if d . getf ( "door_count" ) >= 3 then 
+akumea_dungeon_c20_an . set_level ( 4 ) 
+else 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+local stone = settings [ "data" ] [ "level" ] [ 3 ] [ "stone" ] 
+d . spawn_mob ( stone [ "vnum" ] , stone [ "pos" ] [ "x" ] , stone [ "pos" ] [ "y" ] ) 
+d . notice_mission ( 91718 , item_name ( 30912 ) ) 
+d . notice_sub_mission ( "(%d / %d)" , d . getf ( "door_count" ) , 3 ) 
+end 
+else 
+if d . new_count_monster ( ) <= 0 then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+local cur = d . getf ( "current_door" ) 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+local boss = settings [ "data" ] [ "level" ] [ 3 ] [ "boss" ] 
+d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ cur ] [ 1 ] , boss [ "pos" ] [ cur ] [ 2 ] ) 
+d . notice ( string . format ( "boss: %d - %d x %d" , boss [ "vnum" ] , boss [ "pos" ] [ cur ] [ 1 ] , boss [ "pos" ] [ cur ] [ 2 ] ) ) 
+d . setf ( "can_spawn_boss" , 0 ) 
+d . notice_mission ( 91717 , mob_link ( boss [ "vnum" ] ) ) 
+else 
+local count = d . getf ( "monster_count" ) 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , count ) 
+end 
+end 
+ return end if npc . get_race ( ) == 4545 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then akumea_dungeon_c20_an . set_level ( 5 ) 
+ return end if npc . get_race ( ) == 8724 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+if d . is_unique_dead ( "stone_1" ) or npc . get_vid ( ) == d . get_unique_vid ( "stone_1" ) then 
+d . kill_monster ( ) 
+d . setf ( "stone_count" , 0 ) 
+d . give_or_drop_leader_item ( 30913 , 1 ) 
+d . notice_mission ( 91724 , item_name ( 30913 ) ) 
+end 
+ return end if npc . get_race ( ) == 4546 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 5 then akumea_dungeon_c20_an . set_level ( 6 ) 
+ return end if npc . get_race ( ) == 8725 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+if count >= 5 then 
+d . kill_monster ( ) 
+d . setf ( "stone_count" , 0 ) 
+local settings = akumea_dungeon_c20_an . settings ( ) 
+local boss = settings [ "data" ] [ "level" ] [ 6 ] [ "boss" ] 
+d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
+d . notice_mission ( 91717 , mob_link ( boss [ "vnum" ] ) ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 5 ) 
+end 
+ return end if npc . get_race ( ) == 4547 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 6 then akumea_dungeon_c20_an . set_level ( 7 ) 
+ return end if npc . get_race ( ) == 8726 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then local seal_level = d . getf ( "seal_count" ) 
+if seal_level < 3 then 
+d . kill_monster ( ) 
+d . give_or_drop_leader_item ( 30916 , 1 ) 
+else 
+local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+if count >= 6 then 
+d . kill_monster ( ) 
+d . setf ( "stone_count" , 0 ) 
+d . give_or_drop_leader_item ( 30916 , 1 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 6 ) 
+end 
+end 
+ return end if npc . get_race ( ) == 4548 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then akumea_dungeon_c20_an . set_level ( 8 ) 
+ return end if npc . get_race ( ) == 8727 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 8 then local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+if d . is_unique_dead ( "stone_1" ) or npc . get_vid ( ) == d . get_unique_vid ( "stone_1" ) then 
+d . kill_monster ( ) 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_c20_an/%s.txt" , "regen_6f_mobs" ) ) 
+d . setf ( "monster_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , d . new_count_monster ( ) ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 8 ) 
+end 
+ return end if npc . get_race ( ) == 4549 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 9 then akumea_dungeon_c20_an . clear_timers ( ) 
+d . clear_regen ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "akumea_dungeon_c20_an_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( 4549 ) ) 
+ return end if npc . get_race ( ) == 8728 and akumea_dungeon_c20_an . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 9 then local count = d . getf ( "stone_count" ) + 1 
+d . setf ( "stone_count" , count ) 
+local boss = d . get_unique_vid ( "boss" ) 
+if count >= 6 then 
+d . unique_set_damage_block_flag ( "boss" , false ) 
+d . setf ( "stone_count" , 0 ) 
+d . notice_mission ( 91717 , mob_link ( 4549 ) ) 
+end 
+ return end if akumea_dungeon_c20_an . is_dungeon ( ) then local level = d . getf ( "dungeon_level" ) 
+local count = d . getf ( "monster_count" ) 
+if level == 1 then 
+if d . new_count_monster ( ) <= ( count - 100 ) then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+akumea_dungeon_c20_an . set_level ( 2 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , 100 ) 
+end 
+elseif level == 5 then 
+if d . new_count_monster ( ) <= 0 then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+d . give_or_drop_leader_item ( 30914 , 1 ) 
+d . notice_mission ( 91730 , mob_link ( 4546 ) , item_name ( 30914 ) ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , count ) 
+end 
+elseif level == 6 then 
+if d . new_count_monster ( ) <= 0 then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+d . give_or_drop_leader_item ( 30915 , 1 ) 
+d . notice_mission ( 91731 , mob_link ( 4546 ) , item_name ( 30915 ) ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , count ) 
+end 
+elseif level == 7 then 
+if d . new_count_monster ( ) <= 0 then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+d . give_or_drop_leader_item ( 30916 , 1 ) 
+d . notice_mission ( "Use %s onto the seal to release it." , mob_link ( 9455 ) , item_name ( 30916 ) ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , count ) 
+end 
+elseif level == 8 then 
+if d . new_count_monster ( ) <= 0 then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+akumea_dungeon_c20_an . set_level ( 9 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , count ) 
+end 
+end 
+ return end 

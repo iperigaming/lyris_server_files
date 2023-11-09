@@ -1,0 +1,4 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . notice ( 91739 ) 
+server_timer ( "akumea_dungeon_lv100_ne_final_exit" , 3 , d . get_map_index ( ) ) 
+end 

@@ -1,0 +1,16 @@
+if nuyah_dungeon_lv75_dt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+local unique = dungeonLib . GetUnique ( "seal_%d" , 5 ) 
+item . remove ( ) 
+d . kill_unique ( unique ) 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+if count >= 5 then 
+d . setf ( "seal_count" , 0 ) 
+nuyah_dungeon_lv75_dt . set_level ( 5 ) 
+else 
+d . setf ( "lock_drop" , 0 ) 
+d . notice_sub_mission ( "(%d / %d)" , 5 - d . getf ( "seal_count" ) , 5 ) 
+d . set_regen_file ( string . format ( "data/dungeon/nuyah_dungeon_lv75_dt/%s.txt" , "5_regen" ) ) 
+end 
+ return end 

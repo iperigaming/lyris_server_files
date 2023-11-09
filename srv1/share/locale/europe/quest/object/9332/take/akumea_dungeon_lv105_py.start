@@ -1,0 +1,13 @@
+if item . get_vnum ( ) == 30800 and akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+npc . purge ( ) 
+item . remove ( ) 
+if count >= 4 then 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+d . setf ( "seal_count" , 0 ) 
+akumea_dungeon_lv105_py . set_level ( 3 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 4 ) 
+end 
+ return end 

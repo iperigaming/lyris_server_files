@@ -1,0 +1,105 @@
+akumea_dungeon_lv50={["start"]=0,settings= function ()return { 
+[ "requirements" ] = { 
+[ "min_level" ] = 50 , 
+[ "max_level" ] = 80 , 
+[ "ticket" ] = 30811 , 
+[ "party" ] = false , 
+[ "min_party_members" ] = 1 , 
+} , 
+[ "pos" ] = { 
+[ "map_index" ] = 77 , 
+[ "x" ] = 11534 , 
+[ "y" ] = 22752 , 
+} , 
+[ "out_pos" ] = { 
+[ "map_index" ] = 77 , 
+[ "x" ] = 11534 , 
+[ "y" ] = 22752 , 
+} , 
+[ "cooldown" ] = 1800 , 
+[ "unique_regen" ] = { 
+[ "books" ] = { 
+{ 299 , 246 , 7 } , 
+{ 299 , 283 , 7 } , 
+{ 244 , 246 , 3 } , 
+{ 241 , 283 , 3 } 
+} , 
+} , 
+[ "data" ] = { 
+[ "book_item" ] = { 30813 , 30814 , 30815 , 30816 } , 
+[ "boss" ] = { 
+[ "vnum" ] = 4313 , 
+[ "x" ] = 271 , 
+[ "y" ] = 286 , 
+} , 
+} 
+} 
+end ,GetUnique= function (name,count,level)local avail = { } 
+for i = level , count begin 
+if not d . is_unique_dead ( string . format ( name , i ) ) and d . getf ( string . format ( name , i ) ) == 0 then 
+table . insert ( avail , string . format ( name , i ) ) 
+end 
+end 
+return avail [ math . random ( 1 , table . getn ( avail ) ) ] 
+end ,GetUniqueByVID= function (name,count,vid)for i = 1 , count begin 
+if not d . is_unique_dead ( string . format ( name , i ) ) and d . get_unique_vid ( string . format ( name , i ) ) == vid then 
+return string . format ( name , i ) 
+end 
+end 
+end ,is_dungeon= function ()local index = pc . get_map_index ( ) ; 
+return pc . in_dungeon ( ) and index >= 77 * 10000 and index < ( 77 + 1 ) * 10000 ; 
+end ,clear_timers= function ()clear_server_timer ( "akumea_dungeon_lv50_60min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_45min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_30min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_15min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_10min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_5min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_1min_left" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "akumea_dungeon_lv50_final_exit" , get_server_timer_arg ( ) ) 
+end ,create_level= function ()local settings = akumea_dungeon_lv50 . settings ( ) 
+local level = d . getf ( "dungeon_level" ) 
+if level == 1 then 
+d . spawn_mob ( 8480 , 273 , 266 ) 
+d . notice_mission ( 91761 ) 
+elseif level == 2 then 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv50/regen_%d_%d.txt" , 2 , 1 ) ) 
+d . setf ( "mob_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 100 ) 
+elseif level == 3 then 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv50/regen_%d_%d.txt" , 3 , 1 ) ) 
+d . notice_mission ( 91725 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 4 ) 
+elseif level == 4 then 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv50/regen_%d_%d.txt" , 2 , 1 ) ) 
+d . setf ( "mob_count" , d . new_count_monster ( ) ) 
+d . notice_mission ( 91716 ) 
+d . notice_sub_mission ( "(%d / %d)" , 0 , 100 ) 
+elseif level == 5 then 
+local boss = settings [ "data" ] [ "boss" ] 
+d . set_unique ( "final_boss" , d . spawn_mob ( boss [ "vnum" ] , boss [ "x" ] , boss [ "y" ] ) ) 
+d . notice_mission ( 91755 ) 
+end 
+end ,create_dungeon= function ()local settings = akumea_dungeon_lv50 . settings ( ) 
+local requirements = settings [ "requirements" ] 
+local pos = settings [ "pos" ] 
+if party . is_party ( ) then 
+local near_count = party . get_near_count ( ) 
+local pids = { party . get_member_pids ( ) } ; 
+for i , pid in next , pids , nil begin 
+q . begin_other_pc_block ( pid ) 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv50" , "enter_time" , get_global_time ( ) ) 
+q . end_other_pc_block ( ) 
+end 
+d . new_jump_party ( pos [ "map_index" ] , pos [ "x" ] , pos [ "y" ] ) 
+d . setf ( "dungeon_member_count" , near_count ) 
+else 
+pc . remove_item ( requirements [ "ticket" ] , 1 ) 
+pc . setf ( "akumea_dungeon_lv50" , "enter_time" , get_global_time ( ) ) 
+d . new_jump ( pos [ "map_index" ] , pos [ "x" ] * 100 , pos [ "y" ] * 100 ) 
+end 
+d . regen_file ( string . format ( "data/dungeon/akumea_dungeon_lv50/regen_%d_%d.txt" , 0 , 1 ) ) ; 
+d . set_warp_location ( settings [ "out_pos" ] [ "map_index" ] , settings [ "out_pos" ] [ "x" ] , settings [ "out_pos" ] [ "y" ] ) ; 
+server_timer ( "akumea_dungeon_lv50_60min_left" , 15 * 60 , d . get_map_index ( ) ) 
+end }

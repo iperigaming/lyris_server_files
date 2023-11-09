@@ -1,0 +1,59 @@
+quest cube begin
+	state start begin
+		when 20018.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+	
+		when 20091.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+		
+		when 20383.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end	
+		
+		when 20378.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end	
+		
+		when 20001.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end	
+
+		when 20016.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end	
+		
+		when 60003.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+		
+		when 20377.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+
+		when 20823.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+		
+		when 20829.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+		
+		when 20802.chat.locale_quest(223) begin
+			setskin(NOWINDOW)
+			command("cube open")
+		end
+		
+	end
+end

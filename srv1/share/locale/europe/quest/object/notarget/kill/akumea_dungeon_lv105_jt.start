@@ -1,0 +1,24 @@
+if npc . get_race ( ) == 8077 and akumea_dungeon_lv105_jt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 1 then local count = d . getf ( "stone_kill" ) + 1 
+d . setf ( "stone_kill" , count ) 
+d . notice_sub_mission ( "(%d / %d)" , count , 4 ) 
+if count >= 4 then 
+d . kill_monster ( ) 
+akumea_dungeon_lv105_jt . set_level ( 2 ) 
+end 
+ return end if npc . get_race ( ) == 6408 and akumea_dungeon_lv105_jt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then d . notice_mission ( 91781 , mob_link ( 6192 ) , 5 ) 
+akumea_dungeon_lv105_jt . set_level ( 4 ) 
+ return end if npc . get_race ( ) == 6192 and akumea_dungeon_lv105_jt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 4 then local settings = akumea_dungeon_lv105_jt . settings ( ) 
+akumea_dungeon_lv105_jt . clear_timers ( ) 
+d . kill_all ( ) 
+d . complete ( ) 
+server_timer ( "akumea_dungeon_lv105_jt_final_exit" , 2 * 60 , d . get_map_index ( ) ) 
+d . notice_mission ( 91728 , mob_link ( settings [ "data" ] [ "jotun" ] [ "vnum" ] ) ) 
+ return end if akumea_dungeon_lv105_jt . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then local count = d . getf ( "monster_count" ) 
+if d . new_count_monster ( ) <= ( count - 70 ) then 
+d . kill_monster ( ) 
+d . setf ( "monster_count" , 0 ) 
+akumea_dungeon_lv105_jt . set_level ( 3 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count - d . new_count_monster ( ) , 70 ) 
+end 
+ return end 

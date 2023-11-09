@@ -1,0 +1,17 @@
+if item . get_vnum ( ) == 30329 and akumea_dungeon_lv100_rz . is_dungeon ( ) then npc . purge ( ) 
+item . remove ( ) 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_rz . set_random_level ( ) 
+ return end if item . get_vnum ( ) == 30330 and akumea_dungeon_lv100_rz . is_dungeon ( ) then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+npc . purge ( ) 
+item . remove ( ) 
+if count >= 7 then 
+d . clear_regen ( ) 
+d . kill_monster ( ) 
+akumea_dungeon_lv100_rz . set_random_level ( ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 7 ) 
+end 
+ return end 

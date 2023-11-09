@@ -1,0 +1,14 @@
+if akumea_dungeon_lv105_py . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 7 then local count = d . getf ( "seal_count" ) + 1 
+d . setf ( "seal_count" , count ) 
+local unique = dungeonLib . GetUnique ( "seal_lv7_%d" , 4 ) 
+item . remove ( ) 
+d . kill_unique ( unique ) 
+if count >= 4 then 
+d . clear_regen ( ) 
+d . kill_all ( ) 
+d . setf ( "seal_count" , 0 ) 
+akumea_dungeon_lv105_py . set_level ( 8 ) 
+else 
+d . notice_sub_mission ( "(%d / %d)" , count , 4 ) 
+end 
+ return end 
