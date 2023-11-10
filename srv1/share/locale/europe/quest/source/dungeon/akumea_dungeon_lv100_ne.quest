@@ -221,6 +221,10 @@ quest akumea_dungeon_lv100_ne begin
             end
         end
 
+        when jump begin
+            d.notice("TEST")
+        end
+
         when login with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 0 begin
             if party.is_party() then
                 local count = d.getf("dungeon_member_count")
