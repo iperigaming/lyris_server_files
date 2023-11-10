@@ -397,6 +397,7 @@ quest akumea_dungeon_lv100_ne begin
                 local settings = akumea_dungeon_lv100_ne.settings()
                 local data = settings["data"]
 
+                d.notice(string.format("WARP %dx%d", data["warp"][level][1], data["warp"][level][2]))
                 d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
 
                 server_timer("akumea_dungeon_lv100_ne_level", 1, d.get_map_index())
