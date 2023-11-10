@@ -153,7 +153,7 @@ quest akumea_dungeon_lv100_ne begin
             local level = d.getf("dungeon_level")
 
             if data["warp"][level] ~= nil then
-                d.notice_mission(824)
+                -- d.notice_mission(824)
                 d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_lv100_ne_warp", 1, d.get_map_index())
