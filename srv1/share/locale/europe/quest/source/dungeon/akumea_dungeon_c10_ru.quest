@@ -180,7 +180,7 @@ quest akumea_dungeon_c10_ru begin
             local level = d.getf("dungeon_level")
 
             if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
+                d.warp_all(data["warp"][level][1], data["warp"][level][2])
             end
 
             if level == 1 then
