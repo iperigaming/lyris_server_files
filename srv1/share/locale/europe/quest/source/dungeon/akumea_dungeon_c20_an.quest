@@ -393,10 +393,6 @@ quest akumea_dungeon_c20_an begin
 
                 server_loop_timer("akumea_dungeon_c20_an_boss_effect", 2, d.get_map_index())
             end
-
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
         end
 
         when login with akumea_dungeon_c20_an.is_dungeon() and d.getf("dungeon_level") == 0 begin
@@ -797,6 +793,13 @@ quest akumea_dungeon_c20_an begin
         -- server timer
         when akumea_dungeon_c20_an_warp.server_timer begin
             if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_c20_an.settings()
+                local data = settings["data"]
+
+                if data["warp"][level] ~= nil then
+                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
+                end
+                
                 akumea_dungeon_c20_an.create_level()
             end
         end

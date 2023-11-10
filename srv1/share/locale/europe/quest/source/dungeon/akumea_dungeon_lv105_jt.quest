@@ -197,7 +197,7 @@ quest akumea_dungeon_lv105_jt begin
             d.notice_sub_mission("(%d / %d)", count, 4)
 
             if count >= 4 then
-                d.kill_monster()
+                d.kill_all()
 
                 akumea_dungeon_lv105_jt.set_level(2)
             end

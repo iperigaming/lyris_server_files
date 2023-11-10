@@ -41,7 +41,7 @@ quest akumea_dungeon_c10_ru begin
                 ["cooldown"] = 10800,
                 ["data"] = {
                     ["warp"] = {
-                        [7] = { 38688, 23003 },
+                        [7] = { 544, 475 },
                     },
                     ["level"] = {
                         [2] = {
@@ -253,10 +253,6 @@ quest akumea_dungeon_c10_ru begin
 
                 d.set_regen_file(string.format(DUNGEON_REGEN_PATH, "regen_boss"))
             end
-
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
         end
 
         when login with akumea_dungeon_c10_ru.is_dungeon() and d.getf("dungeon_level") == 0 begin
@@ -429,6 +425,13 @@ quest akumea_dungeon_c10_ru begin
         -- server timer
         when akumea_dungeon_c10_ru_warp.server_timer begin
             if d.select(get_server_timer_arg()) then
+                local settings = akumea_dungeon_c10_ru.settings()
+                local data = settings["data"]
+
+                if data["warp"][level] ~= nil then
+                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
+                end
+
                 akumea_dungeon_c10_ru.create_level()
             end
         end

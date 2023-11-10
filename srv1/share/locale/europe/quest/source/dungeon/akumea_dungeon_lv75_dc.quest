@@ -31,10 +31,10 @@ quest akumea_dungeon_lv75_dc begin
                 ["cooldown"] = 7200,
 				["data"] = {
 					["warp"] = {
-						[2] = { 3072 + 1372, 12032 + 250 },
-						[3] = { 3072 + 846, 12032 + 898 },
-						[4] = { 3072 + 1362, 12032 + 666 },
-						[5] = { 3072 + 73, 12032 + 1156 }
+						[2] = { 1372, 250 },
+						[3] = { 846, 898 },
+						[4] = { 1362, 666 },
+						[5] = { 73, 1156 }
 					},
 					["devil_king"] = {
 						["vnum"] = DUNGEON_DEVIL_KING,
@@ -87,6 +87,7 @@ quest akumea_dungeon_lv75_dc begin
 		function create_level()
 			local settings = akumea_dungeon_lv75_dc.settings()
 			local data = settings["data"]
+
 			local level = d.getf("dungeon_level")
 
 			if level == 1 then
@@ -114,10 +115,6 @@ quest akumea_dungeon_lv75_dc begin
 				d.set_unique("level5_boss", d.spawn_mob(data["devil_emperor"]["vnum"], data["devil_emperor"]["x"], data["devil_emperor"]["y"]))
 				d.notice_mission(91717, mob_link(data["devil_emperor"]["vnum"]))
 			end
-
-			if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
 		end
 
 		function clear_timers()
@@ -262,6 +259,13 @@ quest akumea_dungeon_lv75_dc begin
 		-- server timers
 		when akumea_dungeon_lv75_dc_warp_timer.server_timer begin
 			if d.select(get_server_timer_arg()) then
+				local settings = akumea_dungeon_lv75_dc.settings()
+				local data = settings["data"]
+
+				if data["warp"][level] ~= nil then
+					d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
+				end
+
 				akumea_dungeon_lv75_dc.create_level()
 			end
 		end
