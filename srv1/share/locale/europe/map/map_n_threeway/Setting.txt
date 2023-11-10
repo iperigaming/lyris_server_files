@@ -6,7 +6,7 @@ HeightScale	0.500000
 ViewRadius	128
 
 MapSize	6	6
-BasePosition	256000	665600
+BasePosition	281600	665600
 TextureSet	textureset\metin2_A2.txt
 Environment	A2.msenv
 
