@@ -254,10 +254,6 @@ quest akumea_dungeon_c20_an begin
             
             local level = d.getf("dungeon_level")
 
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
-
             if level == 1 then
                 d.regen_file(string.format("data/dungeon/akumea_dungeon_c20_an/%s.txt", "regen_1f_mobs"));
                 d.notice_mission(91716)
@@ -294,7 +290,7 @@ quest akumea_dungeon_c20_an begin
                 d.set_unique("statue", d.spawn_mob_dir(statue["vnum"], statue["pos"][1], statue["pos"][2], statue["pos"][3]))
 
                 d.notice_mission(91719)
-                d.notice_sub_mission("(%d / %d)", 0, table.getn(pos))
+                d.notice_sub_mission("(%d / %d)", 0, table.getn(stone_pos))
             elseif level == 6 then
                 d.regen_file(string.format("data/dungeon/akumea_dungeon_c20_an/%s.txt", "regen_4f_mobs_a"));
 
@@ -337,6 +333,11 @@ quest akumea_dungeon_c20_an begin
                 d.notice_sub_mission("(%d / %d)", 0, 8)
             elseif level == 9 then
                 local boss = data["level"][level]["boss"]
+
+                if not d.is_unique_dead("boss") then
+                    return
+                end
+
                 d.set_unique("boss", d.spawn_mob_dir(boss["vnum"], boss["pos"][1], boss["pos"][2], boss["pos"][3]))
 
                 local stone_count = d.getf("stone_count") - 1
@@ -348,6 +349,10 @@ quest akumea_dungeon_c20_an begin
                 d.notice_mission(91717, mob_link(boss["vnum"]))
 
                 server_loop_timer("akumea_dungeon_c20_an_boss_effect", 2, d.get_map_index())
+            end
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 

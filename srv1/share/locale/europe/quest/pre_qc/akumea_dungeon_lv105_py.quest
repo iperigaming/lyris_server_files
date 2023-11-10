@@ -220,10 +220,6 @@ quest akumea_dungeon_lv105_py begin
             
             local level = d.getf("dungeon_level")
 
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
-
             if level == 1 then
                 d.notice_mission(91761)
                 d.spawn_mob(data["level"][level]["stone"]["vnum"], data["level"][level]["stone"]["pos"]["x"], data["level"][level]["stone"]["pos"]["y"])
@@ -295,10 +291,18 @@ quest akumea_dungeon_lv105_py begin
                 d.spawn_mob(stone["vnum"], stone["pos"]["x"], stone["pos"]["y"])
                 d.notice_mission(91761)
             elseif level == 11 then
+                if not d.is_unique_dead("level11_boss") then
+                    return
+                end
+
                 d.notice_mission(91717, mob_link(data["level"][level]["boss"]["vnum"]))
                 d.set_unique("level11_boss", d.spawn_mob_dir(data["level"][level]["boss"]["vnum"], data["level"][level]["boss"]["pos"]["x"], data["level"][level]["boss"]["pos"]["y"], data["level"][level]["boss"]["pos"]["dir"]))
 
                 server_loop_timer("akumea_dungeon_lv105_py_boss_health_checker", 5, d.get_map_index())
+            end
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 

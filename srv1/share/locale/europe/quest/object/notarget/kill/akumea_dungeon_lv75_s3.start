@@ -4,6 +4,9 @@ d . notice_mission ( 91717 , mob_link ( 2094 ) )
 d . notice_sub_mission ( 91777 , mob_link ( 2095 ) , 9 , 9 ) 
 d . setf ( "egg_count" , 9 ) 
 d . regen_file ( "data/dungeon/akumea_dungeon_lv75_s3/regen.txt" ) 
+if not d . is_unique_dead ( "boss" ) then 
+return 
+end 
 d . set_unique ( "boss" , d . spawn_mob ( settings [ "data" ] [ "boss" ] [ "vnum" ] , settings [ "data" ] [ "boss" ] [ "x" ] , settings [ "data" ] [ "boss" ] [ "y" ] ) ) 
  return end if npc . get_race ( ) == 2095 and akumea_dungeon_lv75_s3 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 2 then local boss = d . get_unique_vid ( "boss" ) 
 d . setf ( "egg_count" , d . getf ( "egg_count" ) - 1 ) 

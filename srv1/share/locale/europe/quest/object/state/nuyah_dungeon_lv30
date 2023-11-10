@@ -144,9 +144,6 @@ nuyah_dungeon_lv30 . set_warp_timer ( )
 end ,create_level= function ()local settings = nuyah_dungeon_lv30 . settings ( ) 
 local data = settings [ "data" ] 
 local level = d . getf ( "dungeon_level" ) 
-if data [ "warp" ] [ level ] ~= nil then 
-d . jump_all ( data [ "warp" ] [ level ] [ 1 ] , data [ "warp" ] [ level ] [ 2 ] ) 
-end 
 if data [ "level" ] [ level ] ~= nil then 
 local door = data [ "level" ] [ level ] [ "door" ] 
 if door ~= nil then 
@@ -200,8 +197,14 @@ local boss = data [ "level" ] [ level ] [ "boss" ]
 d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
 d . notice_mission ( 91717 , mob_link ( 1205 ) ) 
 elseif level == 11 then 
+if not d . is_unique_dead ( "level11_boss" ) then 
+return 
+end 
 local boss = data [ "level" ] [ level ] [ "boss" ] 
-d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) 
+d . set_unique ( "level11_boss" , d . spawn_mob ( boss [ "vnum" ] , boss [ "pos" ] [ 1 ] , boss [ "pos" ] [ 2 ] ) ) 
 d . notice_mission ( 91717 , mob_link ( 1206 ) ) 
+end 
+if data [ "warp" ] [ level ] ~= nil then 
+d . jump_all ( data [ "warp" ] [ level ] [ 1 ] , data [ "warp" ] [ level ] [ 2 ] ) 
 end 
 end }

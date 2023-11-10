@@ -3,6 +3,7 @@ d . notice_mission ( 91774 )
  return end if npc . get_race ( ) == 8481 and akumea_dungeon_lv50 . is_dungeon ( ) and d . getf ( "dungeon_level" ) == 3 then d . setf ( "kill_count" , d . getf ( "kill_count" ) + 1 ) 
 local count = d . getf ( "kill_count" ) 
 if count >= 4 then 
+d . setf ( "kill_count" , 0 ) 
 pc . give_item2 ( 30812 ) ; 
 d . notice_mission ( 91774 ) 
 else 

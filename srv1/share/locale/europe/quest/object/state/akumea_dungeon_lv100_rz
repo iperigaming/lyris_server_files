@@ -142,9 +142,6 @@ server_timer ( "akumea_dungeon_lv100_rz_60min_left" , 15 * 60 , d . get_map_inde
 end ,create_level= function ()local settings = akumea_dungeon_lv100_rz . settings ( ) 
 local data = settings [ "data" ] 
 local level = d . getf ( "dungeon_level" ) 
-if data [ "warp" ] [ level ] ~= nil then 
-d . jump_all ( 7424 + data [ "warp" ] [ level ] [ 1 ] , 6144 + data [ "warp" ] [ level ] [ 2 ] ) 
-end 
 if level <= 6 then 
 d . kill_unique ( string . format ( "block_door_%d" , level ) ) 
 d . kill_unique ( string . format ( "in_door_%d" , level ) ) 
@@ -181,10 +178,16 @@ for _ , pos in ipairs ( data [ "level" ] [ 6 ] [ "stone" ] [ "pos" ] ) begin
 d . spawn_mob ( data [ "level" ] [ 6 ] [ "stone" ] [ "vnum" ] , pos [ 1 ] , pos [ 2 ] ) 
 end 
 elseif d . getf ( "dungeon_level" ) == 7 then 
-d . spawn_mob ( data [ "level" ] [ 7 ] [ "razador" ] [ "vnum" ] , data [ "level" ] [ 7 ] [ "razador" ] [ "pos" ] [ "x" ] , data [ "level" ] [ 7 ] [ "razador" ] [ "pos" ] [ "y" ] ) 
+if not d . is_unique_dead ( "level7_boss" ) then 
+return 
+end 
+d . set_unique ( "level7_boss" , d . spawn_mob ( data [ "level" ] [ 7 ] [ "razador" ] [ "vnum" ] , data [ "level" ] [ 7 ] [ "razador" ] [ "pos" ] [ "x" ] , data [ "level" ] [ 7 ] [ "razador" ] [ "pos" ] [ "y" ] ) ) 
 d . notice_mission ( 91717 , mob_link ( data [ "level" ] [ 7 ] [ "razador" ] [ "vnum" ] ) ) 
 else 
 say ( locale_quest ( 1357 ) ) 
+end 
+if data [ "warp" ] [ level ] ~= nil then 
+d . jump_all ( 7424 + data [ "warp" ] [ level ] [ 1 ] , 6144 + data [ "warp" ] [ level ] [ 2 ] ) 
 end 
 end ,set_level= function (level)d . setf ( "dungeon_level" , level ) 
 akumea_dungeon_lv100_rz . set_warp_timer ( ) 
@@ -197,7 +200,10 @@ server_timer ( "akumea_dungeon_lv100_rz_warp" , 5 , d . get_map_index ( ) )
 else 
 server_timer ( "akumea_dungeon_lv100_rz_warp" , 1 , d . get_map_index ( ) ) 
 end 
-end ,set_random_level= function ()local levels = { } 
+end ,set_random_level= function ()if d . getf ( "dungeon_level" ) == 7 then 
+return 
+end 
+local levels = { } 
 for i = 1 , 6 begin 
 if not d . is_unique_dead ( string . format ( "block_door_%d" , i ) ) then 
 table . insert ( levels , i ) 

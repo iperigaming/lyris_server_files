@@ -101,7 +101,10 @@ elseif level == 3 then
 d . notice_mission ( 91717 , mob_link ( data [ "erebus" ] [ "vnum" ] ) ) 
 d . spawn_mob ( data [ "erebus" ] [ "vnum" ] , data [ "erebus" ] [ "pos" ] [ "x" ] , data [ "erebus" ] [ "pos" ] [ "y" ] ) 
 elseif level == 4 then 
+if not d . is_unique_dead ( "level4_boss" ) then 
+return 
+end 
 d . notice_mission ( 91717 , mob_link ( data [ "jotun" ] [ "vnum" ] ) ) 
-d . spawn_mob ( data [ "jotun" ] [ "vnum" ] , data [ "jotun" ] [ "pos" ] [ "x" ] , data [ "jotun" ] [ "pos" ] [ "y" ] ) 
+d . set_unique ( "level4_boss" , d . spawn_mob ( data [ "jotun" ] [ "vnum" ] , data [ "jotun" ] [ "pos" ] [ "x" ] , data [ "jotun" ] [ "pos" ] [ "y" ] ) ) 
 end 
 end }

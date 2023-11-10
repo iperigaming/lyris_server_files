@@ -159,10 +159,6 @@ quest akumea_dungeon_lv100_ne begin
 
             local level = d.getf("dungeon_level")
 
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
-
             if level == 1 then
                 d.notice_mission(91754)
                 d.notice_sub_mission("(%d / %d)", 0, 100)
@@ -204,8 +200,16 @@ quest akumea_dungeon_lv100_ne begin
                 d.notice_mission(91717, mob_link(data["level"][7]["stone"]["vnum"]))
                 d.spawn_mob(data["level"][7]["stone"]["vnum"], data["level"][7]["stone"]["pos"]["x"], data["level"][7]["stone"]["pos"]["y"])
             elseif level == 8 then
+                if not d.is_unique_dead("level8_boss") then
+                    return
+                end
+
                 d.notice_mission(91717, mob_link(data["level"][8]["nemere"]["vnum"]))
-                d.spawn_mob(data["level"][8]["nemere"]["vnum"], data["level"][8]["nemere"]["pos"]["x"], data["level"][8]["nemere"]["pos"]["y"])
+                d.set_unique("level8_boss", d.spawn_mob(data["level"][8]["nemere"]["vnum"], data["level"][8]["nemere"]["pos"]["x"], data["level"][8]["nemere"]["pos"]["y"]))
+            end
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 
