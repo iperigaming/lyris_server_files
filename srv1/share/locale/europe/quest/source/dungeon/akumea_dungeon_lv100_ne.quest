@@ -107,7 +107,7 @@ quest akumea_dungeon_lv100_ne begin
         end
 
         function clear_timers()
-            clear_server_timer("akumea_dungeon_lv100_ne_level", get_server_timer_arg())
+            clear_server_timer("akumea_dungeon_lv100_ne_monster_wave", get_server_timer_arg())
             clear_server_timer("akumea_dungeon_lv100_ne_warp", get_server_timer_arg())
             clear_server_timer("akumea_dungeon_lv100_ne_60min_left", get_server_timer_arg())
             clear_server_timer("akumea_dungeon_lv100_ne_45min_left", get_server_timer_arg())
@@ -156,7 +156,7 @@ quest akumea_dungeon_lv100_ne begin
                 d.notice_mission(824)
                 server_timer("akumea_dungeon_lv100_ne_warp", 5, d.get_map_index())
             else
-                server_timer("akumea_dungeon_lv100_ne_level", 1, d.get_map_index())
+                server_timer("akumea_dungeon_lv100_ne_warp", 1, d.get_map_index())
             end
         end
 
@@ -397,19 +397,13 @@ quest akumea_dungeon_lv100_ne begin
                 local settings = akumea_dungeon_lv100_ne.settings()
                 local data = settings["data"]
 
-                d.notice(string.format("WARP %dx%d", data["warp"][level][1], data["warp"][level][2]))
-                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
+                if data["warp"][level] ~= nil then
+                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
+                end
 
-                server_timer("akumea_dungeon_lv100_ne_level", 1, d.get_map_index())
-            end
-        end
-
-        when akumea_dungeon_lv100_ne_level.server_timer begin
-            if d.select(get_server_timer_arg()) then
                 akumea_dungeon_lv100_ne.create_level()
             end
         end
-
 
         -- server time left timers
         when akumea_dungeon_lv100_ne_60min_left.server_timer begin
