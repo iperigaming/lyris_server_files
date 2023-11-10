@@ -183,10 +183,6 @@ quest akumea_dungeon_lv100_rz begin
 
             local level = d.getf("dungeon_level")
 
-            if data["warp"][level] ~= nil then
-                d.jump_all(DUNGEON_MAP_BASE_X + data["warp"][level][1], DUNGEON_MAP_BASE_Y + data["warp"][level][2])
-            end
-
             if level <= 6 then
                 d.kill_unique(string.format("block_door_%d", level))
 				d.kill_unique(string.format("in_door_%d", level))
@@ -241,6 +237,10 @@ quest akumea_dungeon_lv100_rz begin
 			else
 				say(locale_quest(1357))
 			end
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(DUNGEON_MAP_BASE_X + data["warp"][level][1], DUNGEON_MAP_BASE_Y + data["warp"][level][2])
+            end
         end
 
         function set_level(level)

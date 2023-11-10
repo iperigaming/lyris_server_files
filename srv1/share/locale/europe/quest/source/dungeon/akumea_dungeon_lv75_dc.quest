@@ -89,10 +89,6 @@ quest akumea_dungeon_lv75_dc begin
 			local data = settings["data"]
 			local level = d.getf("dungeon_level")
 
-			if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
-            end
-
 			if level == 1 then
 				d.set_regen_file(DUNGEON_REGEN_PATH .. "regen_base.txt")
 				d.notice_mission(91754)
@@ -118,6 +114,10 @@ quest akumea_dungeon_lv75_dc begin
 				d.set_unique("level5_boss", d.spawn_mob(data["devil_emperor"]["vnum"], data["devil_emperor"]["x"], data["devil_emperor"]["y"]))
 				d.notice_mission(91717, mob_link(data["devil_emperor"]["vnum"]))
 			end
+
+			if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
+            end
 		end
 
 		function clear_timers()
