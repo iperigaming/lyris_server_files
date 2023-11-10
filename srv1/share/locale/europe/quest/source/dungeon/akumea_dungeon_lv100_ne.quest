@@ -221,8 +221,8 @@ quest akumea_dungeon_lv100_ne begin
             end
         end
 
-        when jump begin
-            d.notice("TEST")
+        when jump with akumea_dungeon_lv100_ne.is_dungeon() begin
+            akumea_dungeon_lv100_ne.create_level()
         end
 
         when login with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 0 begin
