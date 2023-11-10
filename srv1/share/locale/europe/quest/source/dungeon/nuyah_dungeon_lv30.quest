@@ -211,10 +211,6 @@ quest nuyah_dungeon_lv30 begin
 			
 			local level = d.getf("dungeon_level")
 
-			if data["warp"][level] ~= nil then
-				d.jump_all(data["warp"][level][1], data["warp"][level][2])
-			end
-
 			if data["level"][level] ~= nil then
 				local door = data["level"][level]["door"]
 				if door ~= nil then
@@ -292,6 +288,10 @@ quest nuyah_dungeon_lv30 begin
 				d.set_unique("level11_boss", d.spawn_mob(boss["vnum"], boss["pos"][X], boss["pos"][Y]))
 
 				d.notice_mission(91717, mob_link(DUNGEON_MOB_LEVEL11_BOSS))
+			end
+
+			if data["warp"][level] ~= nil then
+				d.jump_all(data["warp"][level][1], data["warp"][level][2])
 			end
 		end
 

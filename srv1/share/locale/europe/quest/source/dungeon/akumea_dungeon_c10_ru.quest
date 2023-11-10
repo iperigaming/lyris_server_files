@@ -179,10 +179,6 @@ quest akumea_dungeon_c10_ru begin
             
             local level = d.getf("dungeon_level")
 
-            if data["warp"][level] ~= nil then
-                d.warp_all(data["warp"][level][1], data["warp"][level][2])
-            end
-
             if level == 1 then
                 d.regen_file(string.format(DUNGEON_REGEN_PATH, "regen_1f_mobs"));
                 d.notice_mission(91716)
@@ -256,6 +252,10 @@ quest akumea_dungeon_c10_ru begin
                 d.notice_mission(91717, mob_link(vnum))
 
                 d.set_regen_file(string.format(DUNGEON_REGEN_PATH, "regen_boss"))
+            end
+
+            if data["warp"][level] ~= nil then
+                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 
