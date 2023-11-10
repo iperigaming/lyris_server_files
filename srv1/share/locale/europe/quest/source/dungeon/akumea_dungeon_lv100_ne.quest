@@ -154,7 +154,7 @@ quest akumea_dungeon_lv100_ne begin
 
             if data["warp"][level] ~= nil then
                 d.notice_mission(824)
-                server_timer("akumea_dungeon_lv100_ne_warp", 5, d.get_map_index())
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_lv100_ne_warp", 1, d.get_map_index())
             end
@@ -394,13 +394,6 @@ quest akumea_dungeon_lv100_ne begin
 
         when akumea_dungeon_lv100_ne_warp.server_timer begin
             if d.select(get_server_timer_arg()) then
-                local settings = akumea_dungeon_lv100_ne.settings()
-                local data = settings["data"]
-
-                if data["warp"][level] ~= nil then
-                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
-                end
-
                 akumea_dungeon_lv100_ne.create_level()
             end
         end
