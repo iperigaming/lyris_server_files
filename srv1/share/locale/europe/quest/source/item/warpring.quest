@@ -313,12 +313,8 @@ quest warpring begin
 								},
 								subs = {
 									{
-										name = locale_quest(91708),
-										koords = ({{402100, 673900}, {270400, 739900}, {321300, 808000}})[pc.get_empire()],
-									},
-									{
 										name = locale_quest(91709),
-										koords = {333600, 753100},
+										koords = {359200, 752300},
 									},
 								},
 							},
