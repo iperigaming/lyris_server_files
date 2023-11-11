@@ -795,8 +795,6 @@ end
 
 #ALCHEMIST START
 
-
-
 section
 npc	20001	
 item	50255	5
@@ -2370,6 +2368,16 @@ gold	10000000
 percent	100
 allow_copy	23010
 end
+
+section
+npc	20802
+item	31252	10 -- Lederhärter+
+item	31245	30 -- Hartes Leder
+reward	31251	10 -- Lederhärter
+gold	5000000
+percent	100
+end
+
 
 #HANDSCHUHE EQ ENDE
 
