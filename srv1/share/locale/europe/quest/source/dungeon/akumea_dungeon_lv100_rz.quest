@@ -237,10 +237,6 @@ quest akumea_dungeon_lv100_rz begin
 			else
 				say(locale_quest(1357))
 			end
-
-            if data["warp"][level] ~= nil then
-                d.jump_all(DUNGEON_MAP_BASE_X + data["warp"][level][1], DUNGEON_MAP_BASE_Y + data["warp"][level][2])
-            end
         end
 
         function set_level(level)
@@ -255,11 +251,15 @@ quest akumea_dungeon_lv100_rz begin
             local level = d.getf("dungeon_level")
 
             if data["warp"][level] ~= nil then
-                d.notice_mission(824)
-                server_timer("akumea_dungeon_lv100_rz_warp", 5, d.get_map_index())
+                -- d.notice_mission(824)
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_lv100_rz_warp", 1, d.get_map_index())
             end
+        end
+
+        when jump with akumea_dungeon_lv100_rz.is_dungeon() begin
+            akumea_dungeon_lv100_rz.create_level()
         end
 
         function set_random_level()

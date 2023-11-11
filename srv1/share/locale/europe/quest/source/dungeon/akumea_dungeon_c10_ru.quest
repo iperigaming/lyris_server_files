@@ -166,11 +166,15 @@ quest akumea_dungeon_c10_ru begin
 
             local level = d.getf("dungeon_level")
             if data["warp"][level] ~= nil then
-                d.notice_mission(824)
-                server_timer("akumea_dungeon_c10_ru_warp", 5, d.get_map_index())
+                -- d.notice_mission(824)
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_c10_ru_warp", 1, d.get_map_index())
             end
+        end
+
+        when jump with akumea_dungeon_c10_ru.is_dungeon() begin
+            akumea_dungeon_c10_ru.create_level()
         end
 
         function create_level()
@@ -425,13 +429,6 @@ quest akumea_dungeon_c10_ru begin
         -- server timer
         when akumea_dungeon_c10_ru_warp.server_timer begin
             if d.select(get_server_timer_arg()) then
-                local settings = akumea_dungeon_c10_ru.settings()
-                local data = settings["data"]
-
-                if data["warp"][level] ~= nil then
-                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
-                end
-
                 akumea_dungeon_c10_ru.create_level()
             end
         end

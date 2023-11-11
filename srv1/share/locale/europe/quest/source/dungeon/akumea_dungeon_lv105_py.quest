@@ -53,11 +53,11 @@ quest akumea_dungeon_lv105_py begin
                 ["cooldown"] = 9000,
                 ["data"] = {
                     ["warp"] = {
-                        [2] = {9266, 22621}, -- 306 93 -- 8960 22528
-                        [4] = {9536, 22608},
-                        [6] = {9993, 22751},
-                        [7] = {9137, 23558},
-                        [9] = {9759, 23655},
+                        [2] = { 306, 93 }, -- 306 93 -- 8960 22528
+                        [4] = { 576, 80 },
+                        [6] = { 1033, 223 },
+                        [7] = { 117, 1030 },
+                        [9] = { 799, 1127 },
                     },
                     ["level"] = {
                         [1] = {
@@ -238,11 +238,15 @@ quest akumea_dungeon_lv105_py begin
 
             local level = d.getf("dungeon_level")
             if data["warp"][level] ~= nil then
-                d.notice_mission(824)
-                server_timer("akumea_dungeon_lv105_py_warp", 5, d.get_map_index())
+                -- d.notice_mission(824)
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_lv105_py_warp", 1, d.get_map_index())
             end
+        end
+
+        when jump with akumea_dungeon_lv105_py.is_dungeon() begin
+            akumea_dungeon_lv105_py.create_level()
         end
 
         function create_level()
@@ -330,10 +334,6 @@ quest akumea_dungeon_lv105_py begin
                 d.set_unique("level11_boss", d.spawn_mob_dir(data["level"][level]["boss"]["vnum"], data["level"][level]["boss"]["pos"]["x"], data["level"][level]["boss"]["pos"]["y"], data["level"][level]["boss"]["pos"]["dir"]))
 
                 server_loop_timer("akumea_dungeon_lv105_py_boss_health_checker", 5, d.get_map_index())
-            end
-
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 

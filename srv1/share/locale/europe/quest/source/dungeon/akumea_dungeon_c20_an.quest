@@ -65,11 +65,11 @@ quest akumea_dungeon_c20_an begin
                 ["cooldown"] = 10800, -- 3600,
                 ["data"] = {
                     ["warp"] = {
-                        [3] = {37473, 22880},
-                        [5] = {37023, 23041},
-                        [6] = {37049, 23403},
-                        [7] = {37349, 23465},
-                        [8] = {37706, 23427},
+                        [3] = { 609, 352 },
+                        [5] = { 159, 513 },
+                        [6] = { 185, 875 },
+                        [7] = { 485, 937 },
+                        [8] = { 842, 899 },
                     },
                     ["level"] = {
                         [2] = {
@@ -284,11 +284,15 @@ quest akumea_dungeon_c20_an begin
 
             local level = d.getf("dungeon_level")
             if data["warp"][level] ~= nil then
-                d.notice_mission(824)
-                server_timer("akumea_dungeon_c20_an_warp", 5, d.get_map_index())
+                -- d.notice_mission(824)
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
             else
                 server_timer("akumea_dungeon_c20_an_warp", 1, d.get_map_index())
             end
+        end
+
+        when jump with akumea_dungeon_c20_an.is_dungeon() begin
+            akumea_dungeon_c20_an.create_level()
         end
         
         function create_level()
@@ -793,13 +797,6 @@ quest akumea_dungeon_c20_an begin
         -- server timer
         when akumea_dungeon_c20_an_warp.server_timer begin
             if d.select(get_server_timer_arg()) then
-                local settings = akumea_dungeon_c20_an.settings()
-                local data = settings["data"]
-
-                if data["warp"][level] ~= nil then
-                    d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
-                end
-                
                 akumea_dungeon_c20_an.create_level()
             end
         end

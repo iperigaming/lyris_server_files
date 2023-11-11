@@ -60,7 +60,7 @@ quest nuyah_dungeon_lv30 begin
 				["cooldown"] = 0, -- 3600,
 				["data"] = {
 					["warp"] = {
-						[8] = { 20313, 1820 },
+						[8] = { 601, 796 },
 					},
 					["level"] = {
 						[1] = {
@@ -183,7 +183,6 @@ quest nuyah_dungeon_lv30 begin
 				d.new_jump(pos["map_index"], pos["x"] * 100, pos["y"] * 100)
 			end
 
-
 			server_timer("nuyah_dungeon_lv30_60min_left", 15*60, d.get_map_index())
 		end
 
@@ -193,12 +192,16 @@ quest nuyah_dungeon_lv30 begin
 
 			local level = d.getf("dungeon_level")
 			if data["warp"][level] ~= nil then
-				d.notice_mission(824)
-				server_timer("nuyah_dungeon_lv30_warp", 5, d.get_map_index())
+				-- d.notice_mission(824)
+                d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
 			else
 				nuyah_dungeon_lv30.create_level()
 			end
 		end
+
+		when jump with nuyah_dungeon_lv30.is_dungeon() begin
+			nuyah_dungeon_lv30.create_level()
+        end
 
 		function set_level(level)
 			d.setf("dungeon_level", level)
@@ -288,10 +291,6 @@ quest nuyah_dungeon_lv30 begin
 				d.set_unique("level11_boss", d.spawn_mob(boss["vnum"], boss["pos"][X], boss["pos"][Y]))
 
 				d.notice_mission(91717, mob_link(DUNGEON_MOB_LEVEL11_BOSS))
-			end
-
-			if data["warp"][level] ~= nil then
-				d.jump_all(data["warp"][level][1], data["warp"][level][2])
 			end
 		end
 

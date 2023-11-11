@@ -48,13 +48,12 @@ quest nuyah_dungeon_lv75_dt begin
                 ["cooldown"] = 1800,
                 ["data"] = {
                     ["warp"] = {
-                        [2] = { special.devil_tower[3][1], special.devil_tower[3][2] },
-                        [4] = { special.devil_tower[4][1], special.devil_tower[4][2] },
-                        [5] = { special.devil_tower[5][1], special.devil_tower[5][2] },
-                        [6] = { (2048 + 590), (6656 + 638) },
-                        [8] = { (2048 + 590), (6656 + 403) },
-                        [9] = { (2048 + 590), (6656 + 155) },
-
+                        [2] = { 369, 629 },
+                        [4] = { 369, 401 },
+                        [5] = { 374, 167 },
+                        [6] = { 590, 638 },
+                        [8] = { 590, 403 },
+                        [9] = { 590, 155 },
                     },
                     ["level"] = {
                         [1] = {
@@ -257,10 +256,6 @@ quest nuyah_dungeon_lv75_dt begin
                 local boss = data["level"][level]["boss"]
                 d.notice_mission(91717, mob_link(boss["vnum"]))
                 d.set_unique("level11_boss", d.spawn_mob(boss["vnum"], boss["pos"]["x"], boss["pos"]["y"]))
-            end
-
-            if data["warp"][level] ~= nil then
-                d.jump_all(data["warp"][level][1], data["warp"][level][2])
             end
         end
 
