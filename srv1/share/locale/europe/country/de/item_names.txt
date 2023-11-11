@@ -11924,8 +11924,11 @@ VNUM	LOCALE_NAME
 76053	Dritte Hand
 71267	Bluthund
 71268	Grusel-Manni
+71269	Goldener Löwe
 53342	Grusel-Pack
 53343	Mini-Sensenmann
+53344	Mini-Wukong
+53345	Mini-Nixie
 50135	Bio-Paket-Low
 50136	Bio-Paket-Mid
 50137	Bio-Paket-High
