@@ -2827,8 +2827,8 @@ VNUM	LOCALE_NAME
 34181	Kleiner Bademeister
 34182	Grusel-Pack
 34183	Mini-Sensenmann
-34184	Mini-Nixie
-34185	Mini-Wukong
+34184	Mini-Wukong
+34185	Mini-Nixie
 4310	Buch Kreatur
 4311	Böse Buch Kreatur
 4312	Dunkler Wissenschaftler
