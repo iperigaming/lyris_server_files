@@ -26,7 +26,7 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		
 		for _, pid in ipairs(pids) do
 			q.begin_other_pc_block(pid)
-				if (pc.getf(questname, "cooltime") + cooldown) > get_global_time() and pc.get_gm_level() < 5 then
+				if (pc.getf(questname, "cooltime") + cooldown) > get_global_time() then
 					table.insert(timeCheckNameList, pc.get_name())
 					timeNeedCheck = true
 				end
@@ -110,7 +110,7 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		end
 		
 	elseif requirements["party"] == false then
-		if (pc.getf(questname, "cooltime") + cooldown) > get_global_time() and pc.get_gm_level() < 5 then
+		if (pc.getf(questname, "cooltime") + cooldown) > get_global_time() then
 			local remaining_wait_time = pc.getf(questname, "cooltime") + cooldown - get_global_time()
 			say(locale_quest(91745))
 			say_reward(locale_quest(91746)..get_time_remaining(remaining_wait_time)..'[ENTER]')
