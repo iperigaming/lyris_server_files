@@ -82,8 +82,7 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		end
 
 		if rejoinCheck == true then
-			say("Some players already have a pending dungeon.")
-			say("Wait until their session has ended or rejoin it.")
+			say("Some players already have a pending dungeon.[ENTER]Wait until their session has ended or rejoin it.")
 			for _, name in ipairs(rejoinCheckNameList) do
 				say_reward(string.format("- %s", name))
 			end
@@ -119,9 +118,7 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		end
 
 		if pc.can_rejoin_dungeon(pc.get_map_index()) then
-			say("You already have a pending dungeon.")
-			say("Wait until your session has ended or rejoin it.")
-			say_reward(locale_quest(91746)..get_time_remaining(remaining_wait_time)..'[ENTER]')
+			say("You already have a pending dungeon.[ENTER]Wait until your session has ended or rejoin it.")
 			return false
 		end
 
