@@ -193,7 +193,7 @@ quest nuyah_dungeon_lv75_dt begin
         end
 
         when jump with nuyah_dungeon_lv75_dt.is_dungeon() begin
-            nuyah_dungeon_lv75_dt.create_level()
+            server_timer("nuyah_dungeon_lv75_dt_warp", 1, d.get_map_index())
         end
         
         function create_level()

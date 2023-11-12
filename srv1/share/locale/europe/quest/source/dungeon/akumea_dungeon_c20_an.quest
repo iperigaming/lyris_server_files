@@ -292,7 +292,7 @@ quest akumea_dungeon_c20_an begin
         end
 
         when jump with akumea_dungeon_c20_an.is_dungeon() begin
-            akumea_dungeon_c20_an.create_level()
+            server_timer("akumea_dungeon_c20_an_warp", 1, d.get_map_index())
         end
         
         function create_level()
@@ -308,8 +308,11 @@ quest akumea_dungeon_c20_an begin
                 d.setf("monster_count", d.new_count_monster())
                 d.notice_sub_mission("(%d / %d)", 0, DUNGEON_COUNT_LEVEL1_MOB)
             elseif level == 2 then
+                if not d.is_unique_dead("level2_boss") then
+                    return
+                end
                 local boss = data["level"][level]["boss"]
-                d.spawn_mob(boss["vnum"], boss["pos"]["x"], boss["pos"]["y"])
+                d.set_unique("level2_boss", d.spawn_mob(boss["vnum"], boss["pos"]["x"], boss["pos"]["y"]))
                 d.notice_mission(91717, mob_link(boss["vnum"]))
             elseif level == 3 then
                 for index, pos in ipairs(data["level"][level]["door"]["pos"]) do

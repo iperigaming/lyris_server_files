@@ -85,7 +85,7 @@ quest akumea_dungeon_lv75_dc begin
         end
 
 		when jump with akumea_dungeon_lv75_dc.is_dungeon() begin
-			akumea_dungeon_lv75_dc.create_level()
+			server_timer("akumea_dungeon_lv75_dc_warp_timer", 1, d.get_map_index())
         end
 
 		function create_level()

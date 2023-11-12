@@ -12,7 +12,7 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 
 	if party.is_party() then
 		local pids = { party.get_member_pids() };
-		local levelCheckNameList, levelNeedCheck, itemCheckNameList, itemNeedCheck, timeCheckNameList, timeNeedCheck = {}, false, {}, false, {}, false
+		local levelCheckNameList, levelNeedCheck, itemCheckNameList, itemNeedCheck, timeCheckNameList, timeNeedCheck, rejoinCheckNameList, rejoinCheck = {}, false, {}, false, {}, false, {}, false
 		
 		if (not party.is_leader()) then
 			say(locale_quest(1331))
@@ -25,10 +25,15 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		end
 		
 		for _, pid in ipairs(pids) do
-			q.begin_other_pc_block(pid);
-				if (pc.getf(questname, "enter_time") + cooldown) > get_global_time() and pc.get_gm_level() < 5 then
+			q.begin_other_pc_block(pid)
+				if pc.getf(questname, "cooltime") > get_global_time() and pc.get_gm_level() < 5 then
 					table.insert(timeCheckNameList, pc.get_name())
 					timeNeedCheck = true
+				end
+
+				if pc.can_rejoin_dungeon(pc.get_map_index()) then
+					table.insert(rejoinCheckNameList, pc.get_name())
+					rejoinCheck = true
 				end
 
 				if requirements["min_level"] > requirements["max_level"] then
@@ -69,7 +74,16 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 
 		if timeNeedCheck == true then
 			say(locale_quest(91741))
-			for _, name in ipairs(levelCheckNameList) do
+			for _, name in ipairs(timeCheckNameList) do
+				say_reward(string.format("- %s", name))
+			end
+
+			return false
+		end
+
+		if rejoinCheck == true then
+			say("Some players already have a pending dungeon.[ENTER]Wait until their session has ended or rejoin it.")
+			for _, name in ipairs(rejoinCheckNameList) do
 				say_reward(string.format("- %s", name))
 			end
 
@@ -96,10 +110,15 @@ function dungeonLib.CheckEnter(questname, cooldown, requirements)
 		end
 		
 	elseif requirements["party"] == false then
-		if (pc.getf(questname, "enter_time") + cooldown) > get_global_time() and pc.get_gm_level() < 5 then
-			local remaining_wait_time = (pc.getf(questname, "enter_time") - get_global_time() + cooldown)
+		if pc.getf(questname, "cooltime") > get_global_time() and pc.get_gm_level() < 5 then
+			local remaining_wait_time = pc.getf(questname, "cooltime") - get_global_time()
 			say(locale_quest(91745))
 			say_reward(locale_quest(91746)..get_time_remaining(remaining_wait_time)..'[ENTER]')
+			return false
+		end
+
+		if pc.can_rejoin_dungeon(pc.get_map_index()) then
+			say("You already have a pending dungeon.[ENTER]Wait until your session has ended or rejoin it.")
 			return false
 		end
 

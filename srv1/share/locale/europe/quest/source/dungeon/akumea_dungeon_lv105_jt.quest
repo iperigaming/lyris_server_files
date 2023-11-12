@@ -72,7 +72,7 @@ quest akumea_dungeon_lv105_jt begin
 
         function set_level(level)
             d.setf("dungeon_level", level)
-            server_timer("akumea_dungeon_lv105_jt_warp", 1, pc.get_map_index())
+            server_timer("akumea_dungeon_lv105_jt_warp", 2, pc.get_map_index())
         end
 
         function clear_timers()

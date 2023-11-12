@@ -160,6 +160,10 @@ quest akumea_dungeon_lv100_ne begin
             end
         end
 
+        when jump with akumea_dungeon_lv100_ne.is_dungeon() begin
+            server_timer("akumea_dungeon_lv100_ne_warp", 1, d.get_map_index())
+        end
+
         function set_level(level)
 			d.setf("dungeon_level", level)
 			akumea_dungeon_lv100_ne.set_warp_timer()
@@ -187,8 +191,12 @@ quest akumea_dungeon_lv100_ne begin
                 d.regen_file(string.format(DUNGEON_REGEN_PATH, "sd_3"))
                 d.setf("monster_count", d.new_count_monster())
             elseif level == 4 then
+                if not d.is_unique_dead("level4_boss") then
+                    return
+                end
+                
                 d.notice_mission(91717, mob_link(data["level"][4]["szel"]["vnum"]))
-                d.spawn_mob(data["level"][4]["szel"]["vnum"], data["level"][4]["szel"]["pos"]["x"], data["level"][4]["szel"]["pos"]["y"])
+                d.set_unique("level4_boss", d.spawn_mob(data["level"][4]["szel"]["vnum"], data["level"][4]["szel"]["pos"]["x"], data["level"][4]["szel"]["pos"]["y"]))
             elseif level == 5 then
                 d.notice_mission(91779, item_name(data["level"][5]["drop"]))
 
@@ -219,10 +227,6 @@ quest akumea_dungeon_lv100_ne begin
                 d.notice_mission(91717, mob_link(data["level"][8]["nemere"]["vnum"]))
                 d.set_unique("level8_boss", d.spawn_mob(data["level"][8]["nemere"]["vnum"], data["level"][8]["nemere"]["pos"]["x"], data["level"][8]["nemere"]["pos"]["y"]))
             end
-        end
-
-        when jump with akumea_dungeon_lv100_ne.is_dungeon() begin
-            akumea_dungeon_lv100_ne.create_level()
         end
 
         when login with akumea_dungeon_lv100_ne.is_dungeon() and d.getf("dungeon_level") == 0 begin

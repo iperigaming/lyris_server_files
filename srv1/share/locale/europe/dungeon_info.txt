@@ -38,7 +38,7 @@
 #	^ Quest of the dungeon < quest_name, flag_name, flag_type >
 #	* 0 : PC
 #	* 1 : GLOBAL
-#	Example : flame_dungeon	enter_time	0
+#	Example : flame_dungeon	cooltime	0
 #
 #	BONUS_ATT
 #	^ Attack bonus ID
@@ -72,7 +72,7 @@ dungeon
 	DURATION	1200
 	COOLDOWN	1200
 	
-	QUEST	nuyah_dungeon_lv30	enter_time	0
+	QUEST	nuyah_dungeon_lv30	cooltime	0
 	
 
 	ELEMENT	6
@@ -111,7 +111,7 @@ dungeon
 	DURATION	1800
 	COOLDOWN	1800
 	
-	QUEST	akumea_dungeon_lv50	enter_time	0
+	QUEST	akumea_dungeon_lv50	cooltime	0
 	
 	ELEMENT	6
 	BONUS_ATT	22
@@ -149,7 +149,7 @@ dungeon
 	DURATION	1800
 	COOLDOWN	1800
 	
-	QUEST	nuyah_dungeon_lv75_dt	enter_time	0
+	QUEST	nuyah_dungeon_lv75_dt	cooltime	0
 
 	ELEMENT	6
 	BONUS_ATT	21
@@ -185,7 +185,7 @@ dungeon
 	DURATION	3600
 	COOLDOWN	3600
 	
-	QUEST	akumea_dungeon_lv75_s3	enter_time	0
+	QUEST	akumea_dungeon_lv75_s3	cooltime	0
 
 	ELEMENT	4
 	BONUS_ATT	22
@@ -224,7 +224,7 @@ dungeon
 	DURATION	7200
 	COOLDOWN	7200
 	
-	QUEST	akumea_dungeon_lv75_dc	enter_time	0
+	QUEST	akumea_dungeon_lv75_dc	cooltime	0
 
 	ELEMENT	6
 	BONUS_ATT	21
@@ -262,7 +262,7 @@ dungeon
 	DURATION	7200
 	COOLDOWN	7200
 
-	QUEST	dragon_lair_access	enter_time	1
+	QUEST	dragon_lair_access	cooltime	1
 
 	ELEMENT	1
 	BONUS_ATT	22
@@ -304,7 +304,7 @@ dungeon
 	DURATION	7200
 	COOLDOWN	7200
 
-	QUEST	akumea_dungeon_lv100_rz	enter_time	0
+	QUEST	akumea_dungeon_lv100_rz	cooltime	0
 
 	ELEMENT	2
 	BONUS_ATT	22
@@ -342,7 +342,7 @@ dungeon
 	DURATION	7200
 	COOLDOWN	7200
 
-	QUEST	akumea_dungeon_lv100_ne	enter_time	0
+	QUEST	akumea_dungeon_lv100_ne	cooltime	0
 
 	ELEMENT	3
 	BONUS_ATT	22
@@ -380,7 +380,7 @@ dungeon
 	DURATION	9000
 	COOLDOWN	9000
 
-	QUEST	akumea_dungeon_lv105_jt	enter_time	0
+	QUEST	akumea_dungeon_lv105_jt	cooltime	0
 
 	ELEMENT	4
 
@@ -418,7 +418,7 @@ dungeon
 	DURATION	9000
 	COOLDOWN	9000
 
-	QUEST	akumea_dungeon_lv105_py	enter_time	0
+	QUEST	akumea_dungeon_lv105_py	cooltime	0
 
 	ELEMENT	5
 
@@ -455,7 +455,7 @@ dungeon
 	DURATION	10800
 	COOLDOWN	10800
 
-	QUEST	akumea_dungeon_c10_ru	enter_time	0
+	QUEST	akumea_dungeon_c10_ru	cooltime	0
 
 	ELEMENT	3
 
@@ -491,7 +491,7 @@ dungeon
 	DURATION	10800
 	COOLDOWN	10800
 
-	QUEST	akumea_dungeon_c20_an	enter_time	0
+	QUEST	akumea_dungeon_c20_an	cooltime	0
 
 	ELEMENT	6
 	BONUS_ATT	21

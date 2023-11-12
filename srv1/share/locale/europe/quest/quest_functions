@@ -821,3 +821,4 @@ d.new_count_monster
 dungeonLib.GetUnique
 d.get_monsters
 d.jump_all_local
+pc.can_rejoin_dungeon
