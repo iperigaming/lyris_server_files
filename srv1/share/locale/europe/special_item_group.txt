@@ -731,49 +731,44 @@ Group	truhe_90erbosse
 {
 	Vnum	50254
 	1	51001	20	80 -- Energiesplitter
-	2	27992	1	40 -- Weiße Perle
-	3	27993	1	40 -- Blaue Perle
-	4	27994	1	40 -- Rote Perle
-	5	50255	5	50 -- Cor Draconis(Roh)
-	6	50256	3	20 -- Cor Draconis(Schliff)
-	7	80019	1	60 -- Feines Tuch
-	8	72002	1	8 -- Erfahrungsring(30m)
-	9	72005	1	8 -- Diebeshandschuh
-	10	50323	1	25 -- Büchertruhe Konter
-	11	50515	1	5 -- Lehrbuch Konter
-	12	50525	1	10 -- Seelenstein+
-	13	30500	3	60 -- Rubin-Gravurmesser
-	14	30501	3	60 -- Goldschelle
-	15	30502	3	60 -- Rubinverzierung
-	16	30503	3	60 -- Amethyst-Gravurmesser
-	17	30504	3	60 -- Silberschelle
-	18	30505	3	60 -- Smaragdverzierung
-	19	30506	3	60 -- Saphir-Gravurmesser
-	20	30507	3	60 -- Bronzeschelle
-	21	30508	3	60 -- Saphirverzierung
-	22	30509	3	60 -- Blaudrachenstahl
-	23	30510	3	60 -- Prächtiges Schulterstück
-	24	30511	3	60 -- Roter Stoff
-	25	30512	3	60 -- Rotdrachenstahl
-	26	30513	3	60 -- Edles Schulterstück
-	27	30514	3	60 -- Violetter Stoff
-	28	30515	3	60 -- Purpurdrachenstahl
-	29	30516	3	60 -- Antikes Schulterstück
-	30	30517	3	60 -- Goldener Stoff
-	31	30518	3	60 -- Goldgarn
-	32	30519	3	60 -- Goldhaken
-	33	30520	3	60 -- Goldschnalle
-	34	30521	3	60 -- Ringelement
-	35	9600	1	10 -- Feuertalisman
-	36	9830	1	10 -- Eistalisman
-	37	10060	1	10 -- Erdtalisman
-	38	10750	1	10 -- Blitztalisman
-	39	10520	1	10 -- Windtalisman
-	40	10290	1	10 -- Dunkler Talisman
-	41	83009	1	10 -- Petkiste
-	42	50926	6	70 -- Schmuckstein
-	43	25041	1	10 -- Magisches Metall
-	44	30611	3	60 -- Schwere Gurte
+	2	50255	5	50 -- Cor Draconis(Roh)
+	3	50256	3	20 -- Cor Draconis(Schliff)
+	4	80019	1	60 -- Feines Tuch
+	5	50323	1	25 -- Büchertruhe Konter
+	6	50515	1	5 -- Lehrbuch Konter
+	7	50525	1	10 -- Seelenstein+
+	8	30500	3	60 -- Rubin-Gravurmesser
+	9	30501	3	60 -- Goldschelle
+	10	30502	3	60 -- Rubinverzierung
+	11	30503	3	60 -- Amethyst-Gravurmesser
+	12	30504	3	60 -- Silberschelle
+	13	30505	3	60 -- Smaragdverzierung
+	14	30506	3	60 -- Saphir-Gravurmesser
+	15	30507	3	60 -- Bronzeschelle
+	16	30508	3	60 -- Saphirverzierung
+	17	30509	3	60 -- Blaudrachenstahl
+	18	30510	3	60 -- Prächtiges Schulterstück
+	19	30511	3	60 -- Roter Stoff
+	20	30512	3	60 -- Rotdrachenstahl
+	21	30513	3	60 -- Edles Schulterstück
+	22	30514	3	60 -- Violetter Stoff
+	23	30515	3	60 -- Purpurdrachenstahl
+	24	30516	3	60 -- Antikes Schulterstück
+	25	30517	3	60 -- Goldener Stoff
+	26	30518	3	60 -- Goldgarn
+	27	30519	3	60 -- Goldhaken
+	28	30520	3	60 -- Goldschnalle
+	29	30521	3	60 -- Ringelement
+	30	9600	1	10 -- Feuertalisman
+	31	9830	1	10 -- Eistalisman
+	32	10060	1	10 -- Erdtalisman
+	33	10750	1	10 -- Blitztalisman
+	34	10520	1	10 -- Windtalisman
+	35	10290	1	10 -- Dunkler Talisman
+	36	83009	1	10 -- Petkiste
+	37	50926	6	70 -- Schmuckstein
+	38	25041	1	10 -- Magisches Metall
+	39	30611	3	60 -- Schwere Gurte
 }
 
 Group	truhe_wald_boss
@@ -785,32 +780,30 @@ Group	truhe_wald_boss
 	4	50255	5	50 -- Cor Draconis(Roh)
 	5	50256	3	20 -- Cor Draconis(Schliff)
 	6	80019	1	60 -- Feines Tuch
-	7	72002	1	70 -- Erfahrungsring(30m)
-	8	72005	1	70 -- Diebeshandschuh
-	9	50323	3	25 -- Büchertruhe Konter
-	10	50515	1	5 -- Lehrbuch Konter
-	11	50525	1	20 -- Seelenstein+
-	12	30626	3	80 -- Kyanit
-	13	30629	3	20 -- Elixier der Götter
-	14	30627	3	10 -- Frucht der Götter
-	15	30624	3	10 -- Seele der Wahrheit
-	16	31019	3	100 -- Carapax-Pulver
-	17	30559	3	100 -- Glänzender Sand(purpur)
-	18	30623	3	100 -- Buch der Wahrheit
-	19	31226	3	100 -- Verdorbener Kern
-	20	31018	3	100 -- Carapax-Script
-	21	30625	3	100 -- Padparadscha
-	22	30628	3	100 -- Gottesblume
-	23	30616	3	40 -- Titandioxid
-	24	30617	3	40 -- Achat
-	25	30618	3	40 -- Mondstein
-	26	50257	1	15 -- Cor Draconis (Rar)
-	27	50324	3	25 -- Büchertruhe Boost
-	28	50514	1	5 -- Lehrbuch Boost	
-	29	83009	1	10 -- Petkiste
-	30	50926	50	60 -- Schmuckstein
-	31	25041	1	20 -- Magisches Metall
-	32	31077	3	100 -- Fundamentsteinpulver
+	7	50323	3	25 -- Büchertruhe Konter
+	8	50515	1	5 -- Lehrbuch Konter
+	9	50525	1	20 -- Seelenstein+
+	10	30626	3	80 -- Kyanit
+	11	30629	3	20 -- Elixier der Götter
+	12	30627	3	10 -- Frucht der Götter
+	13	30624	3	10 -- Seele der Wahrheit
+	14	31019	3	100 -- Carapax-Pulver
+	15	30559	3	100 -- Glänzender Sand(purpur)
+	16	30623	3	100 -- Buch der Wahrheit
+	17	31226	3	100 -- Verdorbener Kern
+	18	31018	3	100 -- Carapax-Script
+	19	30625	3	100 -- Padparadscha
+	20	30628	3	100 -- Gottesblume
+	21	30616	3	40 -- Titandioxid
+	22	30617	3	40 -- Achat
+	23	30618	3	40 -- Mondstein
+	24	50257	1	15 -- Cor Draconis (Rar)
+	25	50324	3	25 -- Büchertruhe Boost
+	26	50514	1	5 -- Lehrbuch Boost	
+	27	83009	1	10 -- Petkiste
+	28	50926	50	60 -- Schmuckstein
+	29	25041	1	20 -- Magisches Metall
+	30	31077	3	100 -- Fundamentsteinpulver
 }
 
 Group	truhe_ochao
@@ -822,132 +815,116 @@ Group	truhe_ochao
 	4	50255	5	50 -- Cor Draconis(Roh)
 	5	50256	3	20 -- Cor Draconis(Schliff)
 	6	80019	1	60 -- Feines Tuch
-	7	72002	1	70 -- Erfahrungsring(30m)
-	8	72005	1	70 -- Diebeshandschuh
-	9	50323	3	25 -- Büchertruhe Konter
-	10	50515	1	5 -- Lehrbuch Konter
-	11	50525	1	20 -- Seelenstein+
-	12	50257	1	15 -- Cor Draconis (Rar)
-	13	50324	3	25 -- Büchertruhe Boost
-	14	50514	1	5 -- Lehrbuch Boost
-	15	30616	3	20 -- Titandioxid
-	16	30619	3	20 -- Goldmetallic Farbstoff
-	17	33029	3	100 -- Rote Zodiakschatulle
-	18	30618	3	20 -- Mondstein
-	19	33030	3	100 -- Blaue Zodiakschatulle
-	20	30612	3	20 -- Stabile Schnüre
-	21	30611	3	20 -- Schwere Gurte
-	22	83009	1	10 -- Petkiste
-	23	50926	50	60 -- Schmuckstein
-	24	25041	1	20 -- Magisches Metall
+	7	50323	3	25 -- Büchertruhe Konter
+	8	50515	1	5 -- Lehrbuch Konter
+	9	50525	1	20 -- Seelenstein+
+	10	50257	1	15 -- Cor Draconis (Rar)
+	11	50324	3	25 -- Büchertruhe Boost
+	12	50514	1	5 -- Lehrbuch Boost
+	13	30616	3	20 -- Titandioxid
+	14	30619	3	20 -- Goldmetallic Farbstoff
+	15	33029	3	100 -- Rote Zodiakschatulle
+	16	30618	3	20 -- Mondstein
+	17	33030	3	100 -- Blaue Zodiakschatulle
+	18	30612	3	20 -- Stabile Schnüre
+	19	30611	3	20 -- Schwere Gurte
+	20	83009	1	10 -- Petkiste
+	21	50926	50	60 -- Schmuckstein
+	22	25041	1	20 -- Magisches Metall
 }
 
 Group	truhe_yohara1
 {
 	Vnum	50528
 	1	25041	1	25 -- Magisches Metall
-	2	50323	1	150 -- Büchertruhe Konter
-	3	50515	1	3 -- Lehrbuch Konter
-	4	50324	1	150 -- Büchertruhe Boost
-	5	50514	1	3 -- Lehrbuch Boost
-	6	27992	1	5 -- Weiße Perle
-	7	27993	1	5 -- Blaue Perle
-	8	27994	1	5 -- Rote Perle
-	9	72353	3	30 -- Willenstopas
-	10	31251	3	30 -- Lederhärter
-	11	31252	1	30 -- Lederhärter+
-	12	31247	3	30 -- Rote SungMa-Rune
-	13	31248	3	30 -- Lila SungMa-Rune
-	14	31249	3	30 -- Blaue SungMa-Rune
-	15	31250	3	30 -- Grüne SungMa-Rune
-	16	31245	3	30 -- Hartes Leder
-	17	30618	1	5 -- Mondstein
-	18	81000	1	3 -- STR-Willenstalisman+0
-	19	81250	1	3 -- RES-Willenstalisman+0
-	20	81300	1	3 -- VIT-Willenstalisman+0
-	21	81550	1	3 -- INT-Willenstalisman+0
-	22	31225	1	15 -- Runenstein
-	23	31246	1	10 -- Handschuhzeichnung
-	24	50926	10	40 -- Schmuckstein
+	2	50515	1	3 -- Lehrbuch Konter
+	3	50514	1	3 -- Lehrbuch Boost
+	4	72353	3	30 -- Willenstopas
+	5	31251	3	30 -- Lederhärter
+	6	31252	1	15 -- Lederhärter+
+	7	31247	3	30 -- Rote SungMa-Rune
+	8	31248	3	30 -- Lila SungMa-Rune
+	9	31249	3	30 -- Blaue SungMa-Rune
+	10	31250	3	30 -- Grüne SungMa-Rune
+	11	31245	3	30 -- Hartes Leder
+	12	30618	1	5 -- Mondstein
+	13	81000	1	3 -- STR-Willenstalisman+0
+	14	81250	1	3 -- RES-Willenstalisman+0
+	15	81300	1	3 -- VIT-Willenstalisman+0
+	16	81550	1	3 -- INT-Willenstalisman+0
+	17	31225	1	15 -- Runenstein
+	18	31246	1	10 -- Handschuhzeichnung
+	19	50926	10	40 -- Schmuckstein
 }
 
 Group	truhe_yohara2
 {
 	Vnum	50578
-	1	50324	1	150 -- Büchertruhe Boost
-	2	50514	1	3 -- Lehrbuch Boost
-	3	27992	1	5 -- Weiße Perle
-	4	27993	1	5 -- Blaue Perle
-	5	27994	1	5 -- Rote Perle
-	6	72353	3	100 -- Willenstopas
-	7	31251	3	100 -- Lederhärter
-	8	31252	1	100 -- Lederhärter+
-	9	31247	3	100 -- Rote SungMa-Rune
-	10	31248	3	100 -- Lila SungMa-Rune
-	11	31249	3	100 -- Blaue SungMa-Rune
-	12	31250	3	100 -- Grüne SungMa-Rune
-	13	31245	3	100 -- Hartes Leder
-	14	30618	1	5 -- Mondstein
-	15	81000	1	3 -- STR-Willenstalisman+0
-	16	81250	1	3 -- RES-Willenstalisman+0
-	17	81300	1	3 -- VIT-Willenstalisman+0
-	18	81550	1	3 -- INT-Willenstalisman+0
-	19	31225	1	40 -- Runenstein
-	20	31246	3	10 -- Handschuhzeichnung
-	21	72353	3	100 -- Willenstopas
-	22	31245	3	60 -- Hartes Leder
-	23	30618	3	5 -- Mondstein
-	24	31238	3	30 -- Schimmernde Muschel
-	25	31244	3	50 -- Nordwind-Handschuhstein
-	26	30617	3	5 -- Achat
-	27	30616	3	5 -- Titandioxid
-	28	25041	1	30 -- Magisches Metall
-	29	50926	10	40 -- Schmuckstein
+	1	50514	1	3 -- Lehrbuch Boost
+	2	72353	3	100 -- Willenstopas
+	3	31251	3	100 -- Lederhärter
+	4	31252	1	30 -- Lederhärter+
+	5	31247	3	100 -- Rote SungMa-Rune
+	6	31248	3	100 -- Lila SungMa-Rune
+	7	31249	3	100 -- Blaue SungMa-Rune
+	8	31250	3	100 -- Grüne SungMa-Rune
+	9	31245	3	100 -- Hartes Leder
+	10	30618	1	5 -- Mondstein
+	11	81000	1	3 -- STR-Willenstalisman+0
+	12	81250	1	3 -- RES-Willenstalisman+0
+	13	81300	1	3 -- VIT-Willenstalisman+0
+	14	81550	1	3 -- INT-Willenstalisman+0
+	15	31225	1	40 -- Runenstein
+	16	31246	3	10 -- Handschuhzeichnung
+	17	72353	3	100 -- Willenstopas
+	18	31245	3	60 -- Hartes Leder
+	19	30618	3	5 -- Mondstein
+	20	31238	3	30 -- Schimmernde Muschel
+	21	31244	3	50 -- Nordwind-Handschuhstein
+	22	30617	3	5 -- Achat
+	23	30616	3	5 -- Titandioxid
+	24	25041	1	30 -- Magisches Metall
+	25	50926	10	40 -- Schmuckstein
 }
 
 Group	truhe_yohara3
 {
 	Vnum	70446
 	1	25041	1	35 -- Magisches Metall
-	2	50323	1	150 -- Büchertruhe Konter
-	3	50515	1	3 -- Lehrbuch Konter
-	4	50324	1	150 -- Büchertruhe Boost
-	5	50514	1	3 -- Lehrbuch Boost
-	6	27992	1	5 -- Weiße Perle
-	7	27993	1	5 -- Blaue Perle
-	8	27994	1	5 -- Rote Perle
-	9	30618	1	5 -- Mondstein
-	10	31238	3	30 -- Schimmernde Muschel
-	11	31115	3	30 -- Amboss
-	12	31121	3	30 -- Stahl
-	13	31112	3	30 -- Starker Erweckungsstein
-	14	31118	3	30 -- Abzeichen des Ruhmes
-	15	31114	3	30 -- Einfaches Leder
-	16	31117	3	30 -- Dünnes Garn
-	17	31111	3	30 -- Edler Erweckungsstein
-	18	31149	3	30 -- Feste Schnur
-	19	31084	3	30 -- Nimbustinktur
-	20	31109	3	30 -- Feiner Erweckungsstein
-	21	31122	3	30 -- Stoff
-	22	31124	3	20 -- Dünner Faden
-	23	31133	3	40 -- Gewöhnlicher Farbstoff
-	24	31134	3	40 -- Verbesserter Farbstoff
-	25	31131	3	40 -- Seide
-	26	31136	3	40 -- Einfacher Chaosstein
-	27	31137	3	40 -- Schöner Chaosstein
-	28	31138	3	40 -- Prächtiger Chaosstein
-	29	31135	3	40 -- Besonderer Farbstoff
-	30	31239	1	10 -- Schimm. weiße Perle
-	31	31240	1	10 -- Schimm. blaue Perle
-	32	31241	1	10 -- Schimm. blutrote Perle
-	33	31123	1	30 -- Dünnes Leder
-	34	31125	1	30 -- Dicker Faden
-	35	81000	1	3 -- STR-Willenstalisman+0
-	36	81250	1	3 -- RES-Willenstalisman+0
-	37	81300	1	3 -- VIT-Willenstalisman+0
-	38	81550	1	3 -- INT-Willenstalisman+0
-	39	50926	10	40 -- Schmuckstein
-	40	25044	1	8 -- Verzauberter Stein(10%)
+	2	50515	1	3 -- Lehrbuch Konter
+	3	50514	1	3 -- Lehrbuch Boost
+	4	30618	1	5 -- Mondstein
+	5	31238	3	30 -- Schimmernde Muschel
+	6	31115	3	30 -- Amboss
+	7	31121	3	30 -- Stahl
+	8	31112	3	30 -- Starker Erweckungsstein
+	9	31118	3	30 -- Abzeichen des Ruhmes
+	10	31114	3	30 -- Einfaches Leder
+	11	31117	3	30 -- Dünnes Garn
+	12	31111	3	30 -- Edler Erweckungsstein
+	13	31149	3	30 -- Feste Schnur
+	14	31084	3	30 -- Nimbustinktur
+	15	31109	3	30 -- Feiner Erweckungsstein
+	16	31122	3	30 -- Stoff
+	17	31124	3	20 -- Dünner Faden
+	18	31133	3	40 -- Gewöhnlicher Farbstoff
+	19	31134	3	40 -- Verbesserter Farbstoff
+	20	31131	3	40 -- Seide
+	21	31136	3	40 -- Einfacher Chaosstein
+	22	31137	3	40 -- Schöner Chaosstein
+	23	31138	3	40 -- Prächtiger Chaosstein
+	24	31135	3	40 -- Besonderer Farbstoff
+	25	31239	1	10 -- Schimm. weiße Perle
+	26	31240	1	10 -- Schimm. blaue Perle
+	27	31241	1	10 -- Schimm. blutrote Perle
+	28	31123	1	30 -- Dünnes Leder
+	29	31125	1	30 -- Dicker Faden
+	30	81000	1	3 -- STR-Willenstalisman+0
+	31	81250	1	3 -- RES-Willenstalisman+0
+	32	81300	1	3 -- VIT-Willenstalisman+0
+	33	81550	1	3 -- INT-Willenstalisman+0
+	34	50926	10	40 -- Schmuckstein
+	35	25044	1	8 -- Verzauberter Stein(10%)
 }
 
 Group	truhe_yohara4
@@ -958,37 +935,34 @@ Group	truhe_yohara4
 	3	50515	1	3 -- Lehrbuch Konter
 	4	50324	1	150 -- Büchertruhe Boost
 	5	50514	1	3 -- Lehrbuch Boost
-	6	27992	1	5 -- Weiße Perle
-	7	27993	1	5 -- Blaue Perle
-	8	27994	1	5 -- Rote Perle
-	9	31238	3	30 -- Schimmernde Muschel
-	10	31239	1	10 -- Schimm. weiße Perle
-	11	31240	1	10 -- Schimm. blaue Perle
-	12	31241	1	10 -- Schimm. blutrote Perle
-	13	31257	3	100 -- Schlangemuster
-	14	31259	3	100 -- Nordwindamboss
-	15	31258	3	100 -- Schlangenseide
-	16	31263	3	100 -- Nordwindschleifstein
-	17	31262	3	100 -- Schlangenpolitur
-	18	31245	3	100 -- Hartes Leder
-	19	70428	3	100 -- Schlangenstaub
-	20	70429	3	100 -- Schlangenschatz
-	21	31242	3	100 -- Nordwind-Waffenstein
-	22	31243	3	40 -- Nordwind-Waffenstein+
-	23	31216	3	20 -- Rohmetallplatte
-	24	30617	3	40 -- Achat
-	25	30616	3	40 -- Titandioxid
-	26	30618	3	40 -- Mondstein
-	27	31238	3	30 -- Schimmernde Muschel
-	28	31233	3	60 -- Schlangenstein
-	29	31234	3	40 -- Schlangenstein+
-	30	81000	1	3 -- STR-Willenstalisman+0
-	31	81250	1	3 -- RES-Willenstalisman+0
-	32	81300	1	3 -- VIT-Willenstalisman+0
-	33	81550	1	3 -- INT-Willenstalisman+0
-	34	70411	3	20 -- W. Drachentruhe (Leicht)
-	35	50926	10	40 -- Schmuckstein
-	36	25045	1	8 -- Verhexter Stein(15%)
+	6	31238	3	30 -- Schimmernde Muschel
+	7	31239	1	10 -- Schimm. weiße Perle
+	8	31240	1	10 -- Schimm. blaue Perle
+	9	31241	1	10 -- Schimm. blutrote Perle
+	10	31257	3	100 -- Schlangemuster
+	11	31259	3	100 -- Nordwindamboss
+	12	31258	3	100 -- Schlangenseide
+	13	31263	3	100 -- Nordwindschleifstein
+	14	31262	3	100 -- Schlangenpolitur
+	15	31245	3	100 -- Hartes Leder
+	16	70428	3	100 -- Schlangenstaub
+	17	70429	3	100 -- Schlangenschatz
+	18	31242	3	100 -- Nordwind-Waffenstein
+	19	31243	3	40 -- Nordwind-Waffenstein+
+	20	31216	3	20 -- Rohmetallplatte
+	21	30617	3	40 -- Achat
+	22	30616	3	40 -- Titandioxid
+	23	30618	3	40 -- Mondstein
+	24	31238	3	30 -- Schimmernde Muschel
+	25	31233	3	60 -- Schlangenstein
+	26	31234	3	40 -- Schlangenstein+
+	27	81000	1	3 -- STR-Willenstalisman+0
+	28	81250	1	3 -- RES-Willenstalisman+0
+	29	81300	1	3 -- VIT-Willenstalisman+0
+	30	81550	1	3 -- INT-Willenstalisman+0
+	31	70411	3	20 -- W. Drachentruhe (Leicht)
+	32	50926	10	40 -- Schmuckstein
+	33	25045	1	8 -- Verhexter Stein(15%)
 }
 
 
@@ -1258,39 +1232,34 @@ Group	nemere_truhe
 	4	85017	1	10 -- Königsband (edel)
 	5	100701	1	25 -- Flamme des Drachen
 	6	18000	1	10 -- Leinengürtel+0
-	7	50323	5	20 -- Büchertruhe Konter
-	8	50324	5	20 -- Büchertruhe Boost
-	9	50525	1	60 -- Seelenstein+
-	10	55009	1	50 -- Pet Bücherkiste
-	11	85002	1	15 -- Herrscherband (fein)
-	12	85006	1	15 -- Meisterband (fein)
-	13	85012	1	15 -- Fürstenband (fein)
-	14	85016	1	15 -- Königsband (fein)
-	15	50259	1	60 -- Cor Draconis(Legendär)
-	16	18080	1	10 -- Seelengürtel+0
-	17	18030	1	10 -- Gürtel der Weißheit+0
-	18	18020	1	10 -- Prunkvoller Gürtel+0
-	19	9600	1	40 -- Feuertalisman
-	20	9830	1	40 -- Eistalisman
-	21	10060	1	40 -- Erdtalisman
-	22	10750	1	40 -- Blitztalisman
-	23	10520	1	40 -- Windtalisman
-	24	10290	1	40 -- Dunkler Talisman
-	25	25041	1	20 -- Magisches Metall
-	26	27992	1	60 -- Weiße Perle
-	27	27993	1	60 -- Blaue Perle
-	28	27994	1	60 -- Rote Perle
-	29	71035	5	50 -- Elixier des Forschers
-	30	72349	5	50 -- Bio Abgabezeit
-	31	83009	1	30 -- Petkiste
-	32	50926	10	25 -- Schmuckstein
-	33	70036	1	20 -- Notiz der Studenten
-	34	30601	1	30 -- Rüstungsplan
-	35	30600	1	30 -- Schnittmuster
-	36	31026	1	30 -- Krustenpanzer
-	37	30622	1	30 -- Rüstungsplan:Helm
-	38	30585	1	30 -- Glatter Schmuck(rot)
-	39	31129	1	20 -- Horn des Nemere
+	7	50525	1	60 -- Seelenstein+
+	8	55009	1	50 -- Pet Bücherkiste
+	9	85002	1	15 -- Herrscherband (fein)
+	10	85006	1	15 -- Meisterband (fein)
+	11	85012	1	15 -- Fürstenband (fein)
+	12	85016	1	15 -- Königsband (fein)
+	13	50259	1	60 -- Cor Draconis(Legendär)
+	14	18080	1	10 -- Seelengürtel+0
+	15	18030	1	10 -- Gürtel der Weißheit+0
+	16	18020	1	10 -- Prunkvoller Gürtel+0
+	17	9600	1	40 -- Feuertalisman
+	18	9830	1	40 -- Eistalisman
+	19	10060	1	40 -- Erdtalisman
+	20	10750	1	40 -- Blitztalisman
+	21	10520	1	40 -- Windtalisman
+	22	10290	1	40 -- Dunkler Talisman
+	23	25041	1	20 -- Magisches Metall
+	24	71035	5	50 -- Elixier des Forschers
+	25	72349	5	50 -- Bio Abgabezeit
+	26	83009	1	30 -- Petkiste
+	27	50926	10	25 -- Schmuckstein
+	28	70036	1	20 -- Notiz der Studenten
+	29	30601	1	30 -- Rüstungsplan
+	30	30600	1	30 -- Schnittmuster
+	31	31026	1	30 -- Krustenpanzer
+	32	30622	1	30 -- Rüstungsplan:Helm
+	33	30585	1	30 -- Glatter Schmuck(rot)
+	34	31129	1	20 -- Horn des Nemere
 }
 
 Group	razador_truhe
@@ -1302,39 +1271,34 @@ Group	razador_truhe
 	4	85017	1	10 -- Königsband (edel)
 	5	100701	1	25 -- Flamme des Drachen
 	6	18000	1	10 -- Leinengürtel+0
-	7	50323	5	20 -- Büchertruhe Konter
-	8	50324	5	20 -- Büchertruhe Boost
-	9	50525	1	60 -- Seelenstein+
-	10	55009	1	50 -- Pet Bücherkiste
-	11	85002	1	15 -- Herrscherband (fein)
-	12	85006	1	15 -- Meisterband (fein)
-	13	85012	1	15 -- Fürstenband (fein)
-	14	85016	1	15 -- Königsband (fein)
-	15	50259	1	60 -- Cor Draconis(Legendär)
-	16	18080	1	10 -- Seelengürtel+0
-	17	18030	1	10 -- Gürtel der Weißheit+0
-	18	18020	1	10 -- Prunkvoller Gürtel+0
-	19	9600	1	40 -- Feuertalisman
-	20	9830	1	40 -- Eistalisman
-	21	10060	1	40 -- Erdtalisman
-	22	10750	1	40 -- Blitztalisman
-	23	10520	1	40 -- Windtalisman
-	24	10290	1	40 -- Dunkler Talisman
-	25	25041	1	20 -- Magisches Metall
-	26	27992	1	60 -- Weiße Perle
-	27	27993	1	60 -- Blaue Perle
-	28	27994	1	60 -- Rote Perle
-	29	71035	5	50 -- Elixier des Forschers
-	30	72349	5	50 -- Bio Abgabezeit
-	31	83009	1	30 -- Petkiste
-	32	50926	10	25 -- Schmuckstein
-	33	31128	1	20 -- Horn des Razador
-	34	70036	1	30 -- Notiz der Studenten
-	35	30601	1	30 -- Rüstungsplan
-	36	30600	1	30 -- Schnittmuster
-	37	31026	1	30 -- Krustenpanzer
-	38	30622	1	30 -- Rüstungsplan:Helm
-	39	30585	1	30 -- Glatter Schmuck(rot)
+	7	50525	1	60 -- Seelenstein+
+	8	55009	1	50 -- Pet Bücherkiste
+	9	85002	1	15 -- Herrscherband (fein)
+	10	85006	1	15 -- Meisterband (fein)
+	11	85012	1	15 -- Fürstenband (fein)
+	12	85016	1	15 -- Königsband (fein)
+	13	50259	1	60 -- Cor Draconis(Legendär)
+	14	18080	1	10 -- Seelengürtel+0
+	15	18030	1	10 -- Gürtel der Weißheit+0
+	16	18020	1	10 -- Prunkvoller Gürtel+0
+	17	9600	1	40 -- Feuertalisman
+	18	9830	1	40 -- Eistalisman
+	19	10060	1	40 -- Erdtalisman
+	20	10750	1	40 -- Blitztalisman
+	21	10520	1	40 -- Windtalisman
+	22	10290	1	40 -- Dunkler Talisman
+	23	25041	1	20 -- Magisches Metall
+	24	71035	5	50 -- Elixier des Forschers
+	25	72349	5	50 -- Bio Abgabezeit
+	26	83009	1	30 -- Petkiste
+	27	50926	10	25 -- Schmuckstein
+	28	31128	1	20 -- Horn des Razador
+	29	70036	1	30 -- Notiz der Studenten
+	30	30601	1	30 -- Rüstungsplan
+	31	30600	1	30 -- Schnittmuster
+	32	31026	1	30 -- Krustenpanzer
+	33	30622	1	30 -- Rüstungsplan:Helm
+	34	30585	1	30 -- Glatter Schmuck(rot)
 }
 
 Group	jotun_truhe
@@ -1374,70 +1338,60 @@ Group	jotun_truhe
 	32	85017	1	10 -- Königsband (edel)
 	33	100701	1	25 -- Flamme des Drachen
 	34	18000	1	10 -- Leinengürtel+0
-	35	51001	50	80 -- Energiesplitter
-	36	50323	5	20 -- Büchertruhe Konter
-	37	50324	5	20 -- Büchertruhe Boost
-	38	50525	1	60 -- Seelenstein+
-	39	55009	1	50 -- Pet Bücherkiste
-	40	83009	1	30 -- Petkiste
-	41	50926	10	25 -- Schmuckstein
-	42	31130	1	20 -- Spitzige Dornen
-	43	39112	1	30 -- Waffen-Servorlage
-	44	39111	1	30 -- Rüstungs-Setvorlage
-	45	25044	1	10 -- Verzauberter Stein(10%)
+	35	50525	1	60 -- Seelenstein+
+	36	55009	1	50 -- Pet Bücherkiste
+	37	83009	1	30 -- Petkiste
+	38	50926	10	25 -- Schmuckstein
+	39	31130	1	20 -- Spitzige Dornen
+	40	39112	1	30 -- Waffen-Servorlage
+	41	39111	1	30 -- Rüstungs-Setvorlage
+	42	25044	1	10 -- Verzauberter Stein(10%)
 }
 
 Group	pyramid_truhe
 {
 	Vnum	38054
 	1	25041	1	25 -- Magisches Metall
-	2	27992	1	60 -- Weiße Perle
-	3	27993	1	60 -- Blaue Perle
-	4	27994	1	60 -- Rote Perle
-	5	71035	5	50 -- Elixier des Forschers
-	6	72349	5	50 -- Bio Abgabezeit
-	7	85002	1	15 -- Herrscherband (fein)
-	8	85006	1	15 -- Meisterband (fein)
-	9	85012	1	15 -- Fürstenband (fein)
-	10	85016	1	15 -- Königsband (fein)
-	11	50259	1	60 -- Cor Draconis(Legendär)
-	12	18080	1	10 -- Seelengürtel+0
-	13	18030	1	10 -- Gürtel der Weißheit+0
-	14	18020	1	10 -- Prunkvoller Gürtel+0
-	15	9600	1	40 -- Feuertalisman
-	16	9830	1	40 -- Eistalisman
-	17	10060	1	40 -- Erdtalisman
-	18	10750	1	40 -- Blitztalisman
-	19	10520	1	40 -- Windtalisman
-	20	10290	1	40 -- Dunkler Talisman
-	21	71250	1	1 -- Weiße Sphinx
-	22	41804	1	3 -- R. Pharaonengewand+ (w)
-	23	41802	1	3 -- R. Pharaonengewand+ (m)
-	24	45538	1	3 -- R. Pharao-Kopfputz+ (m)
-	25	45540	1	3 -- R. Pharao-Kopfputz+ (w)
-	26	40216	1	3 -- Pharao-Schwert+
-	27	40217	1	3 -- Pharao-Dolch+
-	28	40218	1	3 -- Pharao-Bogen+
-	29	40219	1	3 -- Pharao-Zweihänder+
-	30	40220	1	3 -- Pharao-Glocke+
-	31	40221	1	3 -- Pharao-Fächer+
-	32	85003	1	10 -- Herrscherband (edel)
-	33	85007	1	10 -- Meisterband (edel)
-	34	85013	1	10 -- Fürstenband (edel)
-	35	85017	1	10 -- Königsband (edel)
-	36	100701	1	25 -- Flamme des Drachen
-	37	18000	1	10 -- Leinengürtel+0
-	38	51001	50	80 -- Energiesplitter
-	39	50323	5	20 -- Büchertruhe Konter
-	40	50324	5	20 -- Büchertruhe Boost
-	41	50525	1	60 -- Seelenstein+
-	42	55009	1	50 -- Pet Bücherkiste
-	43	83009	1	30 -- Petkiste
-	44	50926	10	25 -- Schmuckstein
-	45	39110	1	30 -- Helm-Setvorlage
-	46	30586	1	30 -- Glatter Schmuck(Purpur)
-	47	30581	1	30 -- Glatter Bronzeschmuck
-	48	25044	1	10 -- Verzauberter Stein(10%)
+	2	71035	5	50 -- Elixier des Forschers
+	3	72349	5	50 -- Bio Abgabezeit
+	4	85002	1	15 -- Herrscherband (fein)
+	5	85006	1	15 -- Meisterband (fein)
+	6	85012	1	15 -- Fürstenband (fein)
+	7	85016	1	15 -- Königsband (fein)
+	8	50259	1	60 -- Cor Draconis(Legendär)
+	9	18080	1	10 -- Seelengürtel+0
+	10	18030	1	10 -- Gürtel der Weißheit+0
+	11	18020	1	10 -- Prunkvoller Gürtel+0
+	12	9600	1	40 -- Feuertalisman
+	13	9830	1	40 -- Eistalisman
+	14	10060	1	40 -- Erdtalisman
+	15	10750	1	40 -- Blitztalisman
+	16	10520	1	40 -- Windtalisman
+	17	10290	1	40 -- Dunkler Talisman
+	18	71250	1	1 -- Weiße Sphinx
+	19	41804	1	3 -- R. Pharaonengewand+ (w)
+	20	41802	1	3 -- R. Pharaonengewand+ (m)
+	21	45538	1	3 -- R. Pharao-Kopfputz+ (m)
+	22	45540	1	3 -- R. Pharao-Kopfputz+ (w)
+	23	40216	1	3 -- Pharao-Schwert+
+	24	40217	1	3 -- Pharao-Dolch+
+	25	40218	1	3 -- Pharao-Bogen+
+	26	40219	1	3 -- Pharao-Zweihänder+
+	27	40220	1	3 -- Pharao-Glocke+
+	28	40221	1	3 -- Pharao-Fächer+
+	29	85003	1	10 -- Herrscherband (edel)
+	30	85007	1	10 -- Meisterband (edel)
+	31	85013	1	10 -- Fürstenband (edel)
+	32	85017	1	10 -- Königsband (edel)
+	33	100701	1	25 -- Flamme des Drachen
+	34	18000	1	10 -- Leinengürtel+0
+	35	55009	1	50 -- Pet Bücherkiste
+	36	83009	1	30 -- Petkiste
+	37	50926	10	25 -- Schmuckstein
+	38	39110	1	30 -- Helm-Setvorlage
+	39	30586	1	30 -- Glatter Schmuck(Purpur)
+	40	30581	1	30 -- Glatter Bronzeschmuck
+	41	25044	1	10 -- Verzauberter Stein(10%)
 }
 
 Group	atlantis_truhe
@@ -1457,53 +1411,47 @@ Group	atlantis_truhe
 	12	85012	1	25 -- Fürstenband (fein)
 	13	85016	1	25 -- Königsband (fein)
 	14	50259	1	60 -- Cor Draconis(Legendär)
-	15	9600	1	40 -- Feuertalisman
-	16	9830	1	40 -- Eistalisman
-	17	10060	1	40 -- Erdtalisman
-	18	10750	1	40 -- Blitztalisman
-	19	10520	1	40 -- Windtalisman
-	20	10290	1	40 -- Dunkler Talisman
-	21	71265	1	1 -- Mondschein-Seepferd
-	22	41876	1	3 -- Atlantis-Kostüm(w)+
-	23	41877	1	3 -- Atlantis-Kostüm(m)+
-	24	45616	1	3 -- Atlantis-Helm(m)+
-	25	45617	1	3 -- Atlantis-Helm(w)+
-	26	40234	1	3 -- Atlantis-Schwert+
-	27	40235	1	3 -- Atlantis-Dolch+
-	28	40236	1	3 -- Atlantis-Bogen+
-	29	40237	1	3 -- Atlantis-Zweihänder+
-	30	40238	1	3 -- Atlantis-Glocke+
-	31	40239	1	3 -- Atlantis-Fächer+
-	32	85003	1	10 -- Herrscherband (edel)
-	33	85007	1	10 -- Meisterband (edel)
-	34	85013	1	10 -- Fürstenband (edel)
-	35	85017	1	10 -- Königsband (edel)
-	36	100701	1	25 -- Flamme des Drachen
-	37	50323	5	20 -- Büchertruhe Konter
-	38	50324	5	20 -- Büchertruhe Boost
-	39	55009	1	50 -- Pet Bücherkiste
-	40	18100	1	10 -- Titangürtel+0
-	41	18090	1	10 -- Turmalingürtel+0
-	42	83009	1	30 -- Petkiste
-	43	50926	10	40 -- Schmuckstein
-	44	376	1	20 -- Schlangenschwert(herst.)
-	45	396	1	20 -- Schlangenklinge(herst.)
-	46	2246	1	20 -- Schlangenbogen(herst.)
-	47	1226	1	20 -- Schlangendolch(herst.)
-	48	3266	1	20 -- Schlangengroßschw.(herst.)
-	49	5216	1	20 -- Schlangenglocke.(herst.)
-	50	7346	1	20 -- Schlangenfächer.(herst.)
-	51	21326	1	20 -- Schlangenmantel (herst.)
-	52	21346	1	20 -- Schlangenwams (herst.)
-	53	21366	1	20 -- B. Schlangenm. (herst.)
-	54	21386	1	20 -- R. Schlangenm. (herst.)
-	55	31209	1	20 -- EW:Kriegerhelmentwurf
-	56	31210	1	20 -- EW:Ninjahelmentwurf
-	57	31211	1	20 -- EW:Surahelmentwurf
-	58	31212	1	20 -- EW:Schamanenhelmentwurf
-	59	30584	1	20 -- Glatter Schmuck(Grün)
-	60	50124	1	1 -- Morsche Holzkiste
-	61	25045	1	10 -- Verhexter Stein(15%)
+	15	71265	1	1 -- Mondschein-Seepferd
+	16	41876	1	3 -- Atlantis-Kostüm(w)+
+	17	41877	1	3 -- Atlantis-Kostüm(m)+
+	18	45616	1	3 -- Atlantis-Helm(m)+
+	19	45617	1	3 -- Atlantis-Helm(w)+
+	20	40234	1	3 -- Atlantis-Schwert+
+	21	40235	1	3 -- Atlantis-Dolch+
+	22	40236	1	3 -- Atlantis-Bogen+
+	23	40237	1	3 -- Atlantis-Zweihänder+
+	24	40238	1	3 -- Atlantis-Glocke+
+	25	40239	1	3 -- Atlantis-Fächer+
+	26	85003	1	10 -- Herrscherband (edel)
+	27	85007	1	10 -- Meisterband (edel)
+	28	85013	1	10 -- Fürstenband (edel)
+	29	85017	1	10 -- Königsband (edel)
+	30	100701	1	25 -- Flamme des Drachen
+	31	50323	5	20 -- Büchertruhe Konter
+	32	50324	5	20 -- Büchertruhe Boost
+	33	55009	1	50 -- Pet Bücherkiste
+	34	18100	1	10 -- Titangürtel+0
+	35	18090	1	10 -- Turmalingürtel+0
+	36	83009	1	30 -- Petkiste
+	37	50926	10	40 -- Schmuckstein
+	38	376	1	20 -- Schlangenschwert(herst.)
+	39	396	1	20 -- Schlangenklinge(herst.)
+	40	2246	1	20 -- Schlangenbogen(herst.)
+	41	1226	1	20 -- Schlangendolch(herst.)
+	42	3266	1	20 -- Schlangengroßschw.(herst.)
+	43	5216	1	20 -- Schlangenglocke.(herst.)
+	44	7346	1	20 -- Schlangenfächer.(herst.)
+	45	21326	1	20 -- Schlangenmantel (herst.)
+	46	21346	1	20 -- Schlangenwams (herst.)
+	47	21366	1	20 -- B. Schlangenm. (herst.)
+	48	21386	1	20 -- R. Schlangenm. (herst.)
+	49	31209	1	20 -- EW:Kriegerhelmentwurf
+	50	31210	1	20 -- EW:Ninjahelmentwurf
+	51	31211	1	20 -- EW:Surahelmentwurf
+	52	31212	1	20 -- EW:Schamanenhelmentwurf
+	53	30584	1	20 -- Glatter Schmuck(Grün)
+	54	50124	1	1 -- Morsche Holzkiste
+	55	25045	1	10 -- Verhexter Stein(15%)
 }
 
 Group	andun_truhe
@@ -1523,50 +1471,44 @@ Group	andun_truhe
 	12	85012	1	25 -- Fürstenband (fein)
 	13	85016	1	25 -- Königsband (fein)
 	14	50259	1	60 -- Cor Draconis(Legendär)
-	15	9600	1	40 -- Feuertalisman
-	16	9830	1	40 -- Eistalisman
-	17	10060	1	40 -- Erdtalisman
-	18	10750	1	40 -- Blitztalisman
-	19	10520	1	40 -- Windtalisman
-	20	10290	1	40 -- Dunkler Talisman
-	21	71242	1	1 -- Spektralross
-	22	41878	1	3 -- Andun-Kostüm(w)+
-	23	41879	1	3 -- Andun-Kostüm(m)+
-	24	45618	1	3 -- Andun-Helm(m)+
-	25	45619	1	3 -- Andun-Helm(w)+
-	26	40240	1	3 -- Andun-Schwert+
-	27	40241	1	3 -- Andun-Dolch+
-	28	40242	1	3 -- Andun-Bogen+
-	29	40243	1	3 -- Andun-Zweihänder+
-	30	40244	1	3 -- Andun-Glocke+
-	31	40245	1	3 -- Andun-Fächer+
-	32	85003	1	10 -- Herrscherband (edel)
-	33	85007	1	10 -- Meisterband (edel)
-	34	85013	1	10 -- Fürstenband (edel)
-	35	85017	1	10 -- Königsband (edel)
-	36	100701	1	25 -- Flamme des Drachen
-	37	50323	5	20 -- Büchertruhe Konter
-	38	50324	5	20 -- Büchertruhe Boost
-	39	18100	1	10 -- Titangürtel+0
-	40	18090	1	10 -- Turmalingürtel+0
-	41	83009	1	30 -- Petkiste
-	42	50926	80	40 -- Schmuckstein
-	43	50124	1	1 -- Morsche Holzkiste
-	44	31196	1	20 -- EW: Schwertentwurf
-	45	31197	1	20 -- EW: Schneidenentwurf
-	46	31199	1	20 -- EW: Bogenentwurf
-	47	31198	1	20 -- EW: Dolchentwurf
-	48	31200	1	20 -- EW: Klingenentwurf
-	49	31201	1	20 -- EW: Glockenentwurf
-	50	31203	1	20 -- EW: Fächerentwurf
-	51	31204	1	20 -- EW: Kriegerrüst.-Entw.
-	52	31205	1	20 -- EW: Ninjarüst.-Entw.
-	53	31206	1	20 -- EW: Surarüst.-Entw.
-	54	31207	1	20 -- EW: Schamanenrüst.-Entw.
-	55	31209	1	20 -- EW: Kriegerhelmentwurf
-	56	31210	1	20 -- EW: Ninjahelmentwurf
-	57	31211	1	20 -- EW: Surahelmentwurf
-	58	31212	1	20 -- EW: Schamanenhelmentwurf
-	59	30583	1	20 -- Glatter Schmuck(Blau)
-	60	25045	1	10 -- Verhexter Stein(15%)
+	15	71242	1	1 -- Spektralross
+	16	41878	1	3 -- Andun-Kostüm(w)+
+	17	41879	1	3 -- Andun-Kostüm(m)+
+	18	45618	1	3 -- Andun-Helm(m)+
+	19	45619	1	3 -- Andun-Helm(w)+
+	20	40240	1	3 -- Andun-Schwert+
+	21	40241	1	3 -- Andun-Dolch+
+	22	40242	1	3 -- Andun-Bogen+
+	23	40243	1	3 -- Andun-Zweihänder+
+	24	40244	1	3 -- Andun-Glocke+
+	25	40245	1	3 -- Andun-Fächer+
+	26	85003	1	10 -- Herrscherband (edel)
+	27	85007	1	10 -- Meisterband (edel)
+	28	85013	1	10 -- Fürstenband (edel)
+	29	85017	1	10 -- Königsband (edel)
+	30	100701	1	25 -- Flamme des Drachen
+	31	50323	5	20 -- Büchertruhe Konter
+	32	50324	5	20 -- Büchertruhe Boost
+	33	18100	1	10 -- Titangürtel+0
+	34	18090	1	10 -- Turmalingürtel+0
+	35	83009	1	30 -- Petkiste
+	36	50926	80	40 -- Schmuckstein
+	37	50124	1	1 -- Morsche Holzkiste
+	38	31196	1	20 -- EW: Schwertentwurf
+	39	31197	1	20 -- EW: Schneidenentwurf
+	40	31199	1	20 -- EW: Bogenentwurf
+	41	31198	1	20 -- EW: Dolchentwurf
+	42	31200	1	20 -- EW: Klingenentwurf
+	43	31201	1	20 -- EW: Glockenentwurf
+	44	31203	1	20 -- EW: Fächerentwurf
+	45	31204	1	20 -- EW: Kriegerrüst.-Entw.
+	46	31205	1	20 -- EW: Ninjarüst.-Entw.
+	47	31206	1	20 -- EW: Surarüst.-Entw.
+	48	31207	1	20 -- EW: Schamanenrüst.-Entw.
+	49	31209	1	20 -- EW: Kriegerhelmentwurf
+	50	31210	1	20 -- EW: Ninjahelmentwurf
+	51	31211	1	20 -- EW: Surahelmentwurf
+	52	31212	1	20 -- EW: Schamanenhelmentwurf
+	53	30583	1	20 -- Glatter Schmuck(Blau)
+	54	25045	1	10 -- Verhexter Stein(15%)
 }

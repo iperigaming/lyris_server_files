@@ -311,73 +311,71 @@ Group	tier10_steinchen
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
 	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
-	6	50133	3	80 -- Mysteriöse Smaragdtruhe
-	7	50134	3	80 -- Mysteriöse Saphirtruhe
-	8	50513	1	10 -- Seelenstein
-	9	2147	1	5 -- Großgelbdrachenbogen+7
-	10	1107	1	5 -- Drachenmesser+7
-	11	7137	1	5 -- Himmelsvogelfächer+7
-	12	157	1	20 -- Geisterzahnklinge+7
-	13	5097	1	5 -- Donnervogelglocke+7
-	14	3137	1	5 -- Partisane+7
-	15	147	1	5 -- Schlachtschwert+7
-	16	72002	1	10 -- Erfahrungsring(30m)
-	17	72005	1	10 -- Diebeshandschuh
-	18	39074	1	250 -- Blaues Fragment
-	19	39073	1	400 -- Gelbes Fragment
-	20	11297	1	5 -- Schwarzstahl-Panzer+7
-	21	11697	1	5 -- Magie-Plattenpanzer+7
-	22	11497	1	5 -- Schwarzwindanzug+7
-	23	11897	1	5 -- Schwarze Kleidung+7
-	24	100300	1	15 -- Grüne Drachenbohne
-	25	100400	1	10 -- Blaue Drachenbohne
-	26	14207	1	5 -- Himmelstränenarmband+7
-	27	16207	1	5 -- Himmelstränenhalskette+7
-	28	17207	1	5 -- Himmelstränenohrringe+7
-	29	15207	1	5 -- Phönixschuhe+7
-	30	25040	1	80 -- Segensschriftrolle
-	31	30270	4	250 -- Drachensteinsplitter
-	32	80019	1	20 -- Feines Tuch
-	33	50323	1	25 -- Büchertruhe Konter
-	34	50515	1	1 -- Lehrbuch Konter
-	35	50525	1	5 -- Seelenstein+
-	36	30500	1	10 -- Rubin-Gravurmesser
-	37	30501	1	10 -- Goldschelle
-	38	30502	1	10 -- Rubinverzierung
-	39	30503	1	10 -- Amethyst-Gravurmesser
-	40	30504	1	10 -- Silberschelle
-	41	30505	1	10 -- Smaragdverzierung
-	42	30506	1	10 -- Saphir-Gravurmesser
-	43	30507	1	10 -- Bronzeschelle
-	44	30508	1	10 -- Saphirverzierung
-	45	30509	1	10 -- Blaudrachenstahl
-	46	30510	1	10 -- Prächtiges Schulterstück
-	47	30511	1	10 -- Roter Stoff
-	48	30512	1	10 -- Rotdrachenstahl
-	49	30513	1	10 -- Edles Schulterstück
-	50	30514	1	10 -- Violetter Stoff
-	51	30515	1	10 -- Purpurdrachenstahl
-	52	30516	1	10 -- Antikes Schulterstück
-	53	30517	1	10 -- Goldener Stoff
-	54	30518	1	10 -- Goldgarn
-	55	30519	1	10 -- Goldhaken
-	56	30520	1	10 -- Goldschnalle
-	57	30521	1	10 -- Ringelement
-	58	12530	1	5 -- Gehörnter Helm+0
-	59	12390	1	5 -- Orkkapuze+0
-	60	12670	1	5 -- Kardinalshut+0
-	61	12260	1	5 -- Furchtmaske+0
-	62	51001	1	250 -- Energiesplitter
-	63	13060	1	5 -- Falkenschild+0
-	64	13080	1	5 -- Tigerschild+0
-	65	13100	1	5 -- Löwenkantenschild+0
-	66	13120	1	5 -- Drachenschuppenschild+0
-	67	50926	4	60 -- Schmuckstein
-	68	61031	1	10 -- Buffi Seelenstein
-	69	30611	1	10 -- Schwere Gurte
-	70	30605	1	10 -- Goldplatten
-	71	30606	1	10 -- Silberplatten
+	5	50132	1	400 -- Mysteriöse Rubintruhe
+	6	50133	2	80 -- Mysteriöse Smaragdtruhe
+	7	50134	2	80 -- Mysteriöse Saphirtruhe
+	8	2147	1	5 -- Großgelbdrachenbogen+7
+	9	1107	1	5 -- Drachenmesser+7
+	10	7137	1	5 -- Himmelsvogelfächer+7
+	11	157	1	20 -- Geisterzahnklinge+7
+	12	5097	1	5 -- Donnervogelglocke+7
+	13	3137	1	5 -- Partisane+7
+	14	147	1	5 -- Schlachtschwert+7
+	15	72002	1	10 -- Erfahrungsring(30m)
+	16	72005	1	10 -- Diebeshandschuh
+	17	39074	1	250 -- Blaues Fragment
+	18	39073	1	400 -- Gelbes Fragment
+	19	11297	1	5 -- Schwarzstahl-Panzer+7
+	20	11697	1	5 -- Magie-Plattenpanzer+7
+	21	11497	1	5 -- Schwarzwindanzug+7
+	22	11897	1	5 -- Schwarze Kleidung+7
+	23	100300	1	15 -- Grüne Drachenbohne
+	24	100400	1	10 -- Blaue Drachenbohne
+	25	14207	1	5 -- Himmelstränenarmband+7
+	26	16207	1	5 -- Himmelstränenhalskette+7
+	27	17207	1	5 -- Himmelstränenohrringe+7
+	28	15207	1	5 -- Phönixschuhe+7
+	29	25040	1	80 -- Segensschriftrolle
+	30	30270	4	250 -- Drachensteinsplitter
+	31	80019	1	20 -- Feines Tuch
+	32	50323	1	25 -- Büchertruhe Konter
+	33	50515	1	1 -- Lehrbuch Konter
+	34	50525	1	5 -- Seelenstein+
+	35	30500	1	10 -- Rubin-Gravurmesser
+	36	30501	1	10 -- Goldschelle
+	37	30502	1	10 -- Rubinverzierung
+	38	30503	1	10 -- Amethyst-Gravurmesser
+	39	30504	1	10 -- Silberschelle
+	40	30505	1	10 -- Smaragdverzierung
+	41	30506	1	10 -- Saphir-Gravurmesser
+	42	30507	1	10 -- Bronzeschelle
+	43	30508	1	10 -- Saphirverzierung
+	44	30509	1	10 -- Blaudrachenstahl
+	45	30510	1	10 -- Prächtiges Schulterstück
+	46	30511	1	10 -- Roter Stoff
+	47	30512	1	10 -- Rotdrachenstahl
+	48	30513	1	10 -- Edles Schulterstück
+	49	30514	1	10 -- Violetter Stoff
+	50	30515	1	10 -- Purpurdrachenstahl
+	51	30516	1	10 -- Antikes Schulterstück
+	52	30517	1	10 -- Goldener Stoff
+	53	30518	1	10 -- Goldgarn
+	54	30519	1	10 -- Goldhaken
+	55	30520	1	10 -- Goldschnalle
+	56	30521	1	10 -- Ringelement
+	57	12530	1	5 -- Gehörnter Helm+0
+	58	12390	1	5 -- Orkkapuze+0
+	59	12670	1	5 -- Kardinalshut+0
+	60	12260	1	5 -- Furchtmaske+0
+	61	51001	1	250 -- Energiesplitter
+	62	13060	1	5 -- Falkenschild+0
+	63	13080	1	5 -- Tigerschild+0
+	64	13100	1	5 -- Löwenkantenschild+0
+	65	13120	1	5 -- Drachenschuppenschild+0
+	66	50926	4	60 -- Schmuckstein
+	67	30611	1	10 -- Schwere Gurte
+	68	30605	1	10 -- Goldplatten
+	69	30606	1	10 -- Silberplatten
 }
 
 Group	wald_pvp_stein
@@ -388,52 +386,47 @@ Group	wald_pvp_stein
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskuge
 	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
+	5	50132	1	400 -- Mysteriöse Rubintruhe
 	6	50133	2	80 -- Mysteriöse Smaragdtruhe
 	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	50513	1	12 -- Seelenstein
-	9	72002	1	10 -- Erfahrungsring(30m)
-	10	72005	1	10 -- Diebeshandschuh
-	11	39074	1	400 -- Blaues Fragment
-	12	39073	1	350 -- Gelbes Fragment
-	13	100500	1	10 -- Rosa Drachenbohne
-	14	100400	1	20 -- Blaue Drachenbohne
-	15	25041	1	2 -- Magisches Metall
-	16	30270	5	250 -- Drachensteinsplitter
-	17	80019	1	80 -- Feines Tuch
-	18	50323	1	50 -- Büchertruhe Konter
-	19	50515	1	1 -- Lehrbuch Konter
-	20	50525	1	10 -- Seelenstein+
-	21	50324	1	30 -- Büchertruhe Boost
-	22	50514	1	1 -- Lehrbuch Boost
-	23	27992	1	3 -- Weiße Perle
-	24	27993	1	3 -- Blaue Perle
-	25	27994	1	3 -- Rote Perle
-	26	30626	1	60 -- Kyanit
-	27	30629	1	20 -- Elixier der Götter
-	28	30627	1	10 -- Frucht der Götter
-	29	30624	1	5 -- Seele der Wahrheit
-	30	31019	1	30 -- Carapax-Pulver
-	31	30559	1	30 -- Glänzender Sand(purpur)
-	32	30623	1	30 -- Buch der Wahrheit
-	33	31226	1	30 -- Verdorbener Kern
-	34	31018	1	30 -- Carapax-Script
-	35	30625	1	30 -- Padparadscha
-	36	30628	1	30 -- Gottesblume
-	37	30616	1	5 -- Titandioxid
-	38	30617	1	5 -- Achat
-	39	30618	1	5 -- Mondstein
-	40	50926	5	70 -- Schmuckstein
-	41	31150	1	8 -- Aura-Veredelungsbox
-	42	61031	1	12 -- Buffi Seelenstein
-	43	25040	1	80 -- Segenschriftrolle
-	44	31077	1	30 -- Fundamentsteinpulver
-	45	170	1	5 -- Stichschwert
-	46	3150	1	5 -- Halbmenschenklinge+0
-	47	250	1	5 -- Dämonenklinge+0
-	48	2180	1	5 -- Blaudrachenbogen+0
-	49	1120	1	5 -- Siamesenmesser+0
-	50	7150	1	5 -- Ekstasefächer+0
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39073	1	350 -- Gelbes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	5	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	50 -- Büchertruhe Konter
+	18	50515	1	1 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	30 -- Büchertruhe Boost
+	21	50514	1	1 -- Lehrbuch Boost
+	22	30626	1	60 -- Kyanit
+	23	30629	1	20 -- Elixier der Götter
+	24	30627	1	10 -- Frucht der Götter
+	25	30624	1	5 -- Seele der Wahrheit
+	26	31019	1	15 -- Carapax-Pulver
+	27	30559	1	15 -- Glänzender Sand(purpur)
+	28	30623	1	15 -- Buch der Wahrheit
+	29	31226	1	15 -- Verdorbener Kern
+	30	31018	1	15 -- Carapax-Script
+	31	30625	1	15 -- Padparadscha
+	32	30628	1	15 -- Gottesblume
+	33	30616	1	5 -- Titandioxid
+	34	30617	1	5 -- Achat
+	35	30618	1	5 -- Mondstein
+	36	50926	5	70 -- Schmuckstein
+	37	31150	1	8 -- Aura-Veredelungsbox
+	38	25040	1	80 -- Segenschriftrolle
+	39	31077	1	30 -- Fundamentsteinpulver
+	40	170	1	5 -- Stichschwert
+	41	3150	1	5 -- Halbmenschenklinge+0
+	42	250	1	5 -- Dämonenklinge+0
+	43	2180	1	5 -- Blaudrachenbogen+0
+	44	1120	1	5 -- Siamesenmesser+0
+	45	7150	1	5 -- Ekstasefächer+0
 }
 
 Group	ochao_pvm_stein
@@ -444,45 +437,40 @@ Group	ochao_pvm_stein
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
 	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
+	5	50132	1	400 -- Mysteriöse Rubintruhe
 	6	50133	2	80 -- Mysteriöse Smaragdtruhe
 	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	50513	1	12 -- Seelenstein
-	9	72002	1	10 -- Erfahrungsring(30m)
-	10	72005	1	10 -- Diebeshandschuh
-	11	39074	1	400 -- Blaues Fragment
-	12	39073	1	350 -- Gelbes Fragment
-	13	100500	1	10 -- Rosa Drachenbohne
-	14	100400	1	20 -- Blaue Drachenbohne
-	15	25041	1	2 -- Magisches Metall
-	16	30270	5	250 -- Drachensteinsplitter
-	17	80019	1	80 -- Feines Tuch
-	18	50323	1	50 -- Büchertruhe Konter
-	19	50515	1	1 -- Lehrbuch Konter
-	20	50525	1	10 -- Seelenstein+
-	21	50324	1	30 -- Büchertruhe Boost
-	22	50514	1	1 -- Lehrbuch Boost
-	23	27992	1	3 -- Weiße Perle
-	24	27993	1	3 -- Blaue Perle
-	25	27994	1	3 -- Rote Perle
-	26	30616	1	20 -- Titandioxid
-	27	30619	1	20 -- Goldmetallic Farbstoff
-	28	33029	1	20 -- Rote Zodiakschatulle
-	29	30618	1	20 -- Mondstein
-	30	33030	1	60 -- Blaue Zodiakschatulle
-	31	30612	1	20 -- Stabile Schnüre
-	32	30611	1	20 -- Schwere Gurte
-	33	50926	5	70 -- Schmuckstein
-	34	31150	1	8 -- Aura-Veredelungsbox
-	35	61031	1	12 -- Buffi Seelenstein
-	36	25040	1	80 -- Segenschriftrolle
-	37	30617	1	5 -- Achat
-	38	170	1	5 -- Stichschwert
-	39	3150	1	5 -- Halbmenschenklinge+0
-	40	250	1	5 -- Dämonenklinge+0
-	41	2180	1	5 -- Blaudrachenbogen+0
-	42	1120	1	5 -- Siamesenmesser+0
-	43	7150	1	5 -- Ekstasefächer+0
+	8	72002	1	10 -- Erfahrungsring(30m)
+	9	72005	1	10 -- Diebeshandschuh
+	10	39074	1	400 -- Blaues Fragment
+	11	39073	1	350 -- Gelbes Fragment
+	12	100500	1	10 -- Rosa Drachenbohne
+	13	100400	1	20 -- Blaue Drachenbohne
+	14	25041	1	2 -- Magisches Metall
+	15	30270	5	250 -- Drachensteinsplitter
+	16	80019	1	80 -- Feines Tuch
+	17	50323	1	50 -- Büchertruhe Konter
+	18	50515	1	1 -- Lehrbuch Konter
+	19	50525	1	10 -- Seelenstein+
+	20	50324	1	30 -- Büchertruhe Boost
+	21	50514	1	1 -- Lehrbuch Boost
+	22	30616	1	20 -- Titandioxid
+	23	30619	1	20 -- Goldmetallic Farbstoff
+	24	33029	1	20 -- Rote Zodiakschatulle
+	25	30618	1	20 -- Mondstein
+	26	33030	1	60 -- Blaue Zodiakschatulle
+	27	30612	1	20 -- Stabile Schnüre
+	28	30611	1	20 -- Schwere Gurte
+	29	50926	5	70 -- Schmuckstein
+	30	31150	1	8 -- Aura-Veredelungsbox
+	31	25040	1	80 -- Segenschriftrolle
+	32	30617	1	5 -- Achat
+	33	170	1	5 -- Stichschwert
+	34	3150	1	5 -- Halbmenschenklinge+0
+	35	250	1	5 -- Dämonenklinge+0
+	36	2180	1	5 -- Blaudrachenbogen+0
+	37	1120	1	5 -- Siamesenmesser+0
+	38	7150	1	5 -- Ekstasefächer+0
 }
 
 Group	yohara_tier1glove_stein
@@ -492,47 +480,43 @@ Group	yohara_tier1glove_stein
 	1	71084	45	400 -- Gegenstand Verzaubern
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
-	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
-	6	50133	2	80 -- Mysteriöse Smaragdtruhe
-	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	72002	1	10 -- Erfahrungsring(30m)
-	9	72005	1	10 -- Diebeshandschuh
-	10	39074	1	400 -- Blaues Fragment
-	11	39075	1	350 -- Violettes Fragment
-	12	100500	1	10 -- Rosa Drachenbohne
-	13	100400	1	20 -- Blaue Drachenbohne
-	14	25041	1	2 -- Magisches Metall
-	15	30270	6	250 -- Drachensteinsplitter
-	16	80019	1	80 -- Feines Tuch
-	17	50323	1	150 -- Büchertruhe Konter
-	18	50515	1	3 -- Lehrbuch Konter
-	19	50525	1	10 -- Seelenstein+
-	20	50324	1	150 -- Büchertruhe Boost
-	21	50514	1	3 -- Lehrbuch Boost
-	22	27992	1	3 -- Weiße Perle
-	23	27993	1	3 -- Blaue Perle
-	24	27994	1	3 -- Rote Perle
-	25	72353	1	20 -- Willenstopas
-	26	31251	1	20 -- Lederhärter
-	27	31252	1	5 -- Lederhärter+
-	28	31247	1	20 -- Rote SungMa-Rune
-	29	31248	1	20 -- Lila SungMa-Rune
-	30	31249	1	20 -- Blaue SungMa-Rune
-	31	31250	1	20 -- Grüne SungMa-Rune
-	32	31245	1	20 -- Hartes Leder
-	33	30618	1	5 -- Mondstein
-	34	50926	6	70 -- Schmuckstein
-	35	31150	1	8 -- Aura-Veredelungsbox
-	36	61031	1	12 -- Buffi Seelenstein
-	37	25040	1	80 -- Segenschriftrolle
-	38	170	1	5 -- Stichschwert
-	39	3150	1	5 -- Halbmenschenklinge+0
-	40	250	1	5 -- Dämonenklinge+0
-	41	2180	1	5 -- Blaudrachenbogen+0
-	42	1120	1	5 -- Siamesenmesser+0
-	43	7150	1	5 -- Ekstasefächer+0
-	44	69155	1	400 -- 500k Yang
+	4	50132	1	400 -- Mysteriöse Rubintruhe
+	5	50133	2	80 -- Mysteriöse Smaragdtruhe
+	6	50134	2	80 -- Mysteriöse Saphirtruhe
+	7	72002	1	10 -- Erfahrungsring(30m)
+	8	72005	1	10 -- Diebeshandschuh
+	9	39074	1	400 -- Blaues Fragment
+	10	39075	1	350 -- Violettes Fragment
+	11	100500	1	10 -- Rosa Drachenbohne
+	12	100400	1	20 -- Blaue Drachenbohne
+	13	25041	1	2 -- Magisches Metall
+	14	30270	6	250 -- Drachensteinsplitter
+	15	80019	1	80 -- Feines Tuch
+	16	50323	1	150 -- Büchertruhe Konter
+	17	50515	1	3 -- Lehrbuch Konter
+	18	50525	1	10 -- Seelenstein+
+	19	50324	1	150 -- Büchertruhe Boost
+	20	50514	1	3 -- Lehrbuch Boost
+	21	72353	1	20 -- Willenstopas
+	22	31251	1	20 -- Lederhärter
+	23	31252	1	5 -- Lederhärter+
+	24	31247	1	20 -- Rote SungMa-Rune
+	25	31248	1	20 -- Lila SungMa-Rune
+	26	31249	1	20 -- Blaue SungMa-Rune
+	27	31250	1	20 -- Grüne SungMa-Rune
+	28	31245	1	20 -- Hartes Leder
+	29	30618	1	5 -- Mondstein
+	30	50926	6	70 -- Schmuckstein
+	31	31150	1	8 -- Aura-Veredelungsbox
+	32	61031	1	12 -- Buffi Seelenstein
+	33	25040	1	80 -- Segenschriftrolle
+	34	170	1	5 -- Stichschwert
+	35	3150	1	5 -- Halbmenschenklinge+0
+	36	250	1	5 -- Dämonenklinge+0
+	37	2180	1	5 -- Blaudrachenbogen+0
+	38	1120	1	5 -- Siamesenmesser+0
+	39	7150	1	5 -- Ekstasefächer+0
+	40	69155	1	400 -- 500k Yang
 }
 
 Group	yohara_tier2glove_stein
@@ -542,44 +526,40 @@ Group	yohara_tier2glove_stein
 	1	71084	45	400 -- Gegenstand Verzaubern
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
-	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
-	6	50133	2	80 -- Mysteriöse Smaragdtruhe
-	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	72002	1	10 -- Erfahrungsring(30m)
-	9	72005	1	10 -- Diebeshandschuh
-	10	39074	1	400 -- Blaues Fragment
-	11	39075	1	350 -- Violettes Fragment
-	12	100500	1	10 -- Rosa Drachenbohne
-	13	100400	1	20 -- Blaue Drachenbohne
-	14	25041	1	2 -- Magisches Metall
-	15	30270	7	250 -- Drachensteinsplitter
-	16	80019	1	80 -- Feines Tuch
-	17	50323	1	150 -- Büchertruhe Konter
-	18	50515	1	3 -- Lehrbuch Konter
-	19	50525	1	10 -- Seelenstein+
-	20	50324	1	150 -- Büchertruhe Boost
-	21	50514	1	3 -- Lehrbuch Boost
-	22	27992	1	3 -- Weiße Perle
-	23	27993	1	3 -- Blaue Perle
-	24	27994	1	3 -- Rote Perle
-	25	72353	1	20 -- Willenstopas
-	26	31245	1	20 -- Hartes Leder
-	27	30618	1	5 -- Mondstein
-	28	31238	1	30 -- Schimmernde Muschel
-	29	31244	1	50 -- Nordwind-Handschuhstein
-	30	30617	1	5 -- Achat
-	31	30616	1	5 -- Titandioxid
-	32	50926	6	70 -- Schmuckstein
-	33	31150	1	10 -- Aura-Veredelungsbox
-	34	25040	1	80 -- Segenschriftrolle
-	35	170	1	5 -- Stichschwert
-	36	3150	1	5 -- Halbmenschenklinge+0
-	37	250	1	5 -- Dämonenklinge+0
-	38	2180	1	5 -- Blaudrachenbogen+0
-	39	1120	1	5 -- Siamesenmesser+0
-	40	7150	1	5 -- Ekstasefächer+0
-	41	69156	1	400 -- 750K Yang
+	4	50132	1	400 -- Mysteriöse Rubintruhe
+	5	50133	2	80 -- Mysteriöse Smaragdtruhe
+	6	50134	2	80 -- Mysteriöse Saphirtruhe
+	7	72002	1	10 -- Erfahrungsring(30m)
+	8	72005	1	10 -- Diebeshandschuh
+	9	39074	1	400 -- Blaues Fragment
+	10	39075	1	350 -- Violettes Fragment
+	11	100500	1	10 -- Rosa Drachenbohne
+	12	100400	1	20 -- Blaue Drachenbohne
+	13	25041	1	2 -- Magisches Metall
+	14	30270	7	250 -- Drachensteinsplitter
+	15	80019	1	80 -- Feines Tuch
+	16	50323	1	150 -- Büchertruhe Konter
+	17	50515	1	3 -- Lehrbuch Konter
+	18	50525	1	10 -- Seelenstein+
+	19	50324	1	150 -- Büchertruhe Boost
+	20	50514	1	3 -- Lehrbuch Boost
+	21	72353	1	20 -- Willenstopas
+	22	31245	1	20 -- Hartes Leder
+	23	30618	1	5 -- Mondstein
+	24	31238	1	30 -- Schimmernde Muschel
+	25	31244	1	50 -- Nordwind-Handschuhstein
+	26	30617	1	5 -- Achat
+	27	30616	1	5 -- Titandioxid
+	28	50926	6	70 -- Schmuckstein
+	29	31150	1	10 -- Aura-Veredelungsbox
+	30	25040	1	80 -- Segenschriftrolle
+	31	170	1	5 -- Stichschwert
+	32	3150	1	5 -- Halbmenschenklinge+0
+	33	250	1	5 -- Dämonenklinge+0
+	34	2180	1	5 -- Blaudrachenbogen+0
+	35	1120	1	5 -- Siamesenmesser+0
+	36	7150	1	5 -- Ekstasefächer+0
+	37	69156	1	400 -- 750K Yang
 }
 
 Group	yohara_eq_pvm_stein
@@ -590,57 +570,53 @@ Group	yohara_eq_pvm_stein
 	1	71084	45	400 -- Gegenstand Verzaubern
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
-	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
-	6	50133	2	80 -- Mysteriöse Smaragdtruhe
-	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	72002	1	10 -- Erfahrungsring(30m)
-	9	72005	1	10 -- Diebeshandschuh
-	10	39074	1	400 -- Blaues Fragment
-	11	39075	1	350 -- Violettes Fragment
-	12	100500	1	10 -- Rosa Drachenbohne
-	13	100400	1	20 -- Blaue Drachenbohne
-	14	25041	1	2 -- Magisches Metall
-	15	30270	10	250 -- Drachensteinsplitter
-	16	80019	1	80 -- Feines Tuch
-	17	50323	1	150 -- Büchertruhe Konter
-	18	50515	1	3 -- Lehrbuch Konter
-	19	50525	1	10 -- Seelenstein+
-	20	50324	1	150 -- Büchertruhe Boost
-	21	50514	1	3 -- Lehrbuch Boost
-	22	27992	1	3 -- Weiße Perle
-	23	27993	1	3 -- Blaue Perle
-	24	27994	1	3 -- Rote Perle
-	25	31257	1	20 -- Schlangemuster
-	26	31259	1	20 -- Nordwindamboss
-	27	31258	1	20 -- Schlangenseide
-	28	31263	1	20 -- Nordwindschleifstein
-	29	31262	1	20 -- Schlangenpolitur
-	30	31245	1	20 -- Hartes Leder
-	31	70428	1	20 -- Schlangenstaub
-	32	70429	1	20 -- Schlangenschatz
-	33	31242	1	20 -- Nordwind-Waffenstein
-	34	31243	1	10 -- Nordwind-Waffenstein+
-	35	31216	1	10 -- Rohmetallplatte
-	36	30617	1	5 -- Achat
-	37	30616	1	5 -- Titandioxid
-	38	30618	1	5 -- Mondstein
-	39	31238	1	30 -- Schimmernde Muschel
-	40	31233	1	30 -- Schlangenstein
-	41	31234	1	10 -- Schlangenstein+
-	42	50577	1	3 -- Legendärer Seelenstein
-	43	50926	8	70 -- Schmuckstein
-	44	31150	1	10 -- Aura-Veredelungsbox
-	45	61032	1	3 -- Legendärer Buffi Seelenstein
-	46	25040	1	80 -- Segenschriftrolle
-	47	70411	1	30 -- W. Drachentruhe (Leicht)
-	48	170	1	5 -- Stichschwert
-	49	3150	1	5 -- Halbmenschenklinge+0
-	50	250	1	5 -- Dämonenklinge+0
-	51	2180	1	5 -- Blaudrachenbogen+0
-	52	1120	1	5 -- Siamesenmesser+0
-	53	7150	1	5 -- Ekstasefächer+0
-	54	69157	1	400 -- 1KK Yang
+	4	50132	1	400 -- Mysteriöse Rubintruhe
+	5	50133	2	80 -- Mysteriöse Smaragdtruhe
+	6	50134	2	80 -- Mysteriöse Saphirtruhe
+	7	72002	1	10 -- Erfahrungsring(30m)
+	8	72005	1	10 -- Diebeshandschuh
+	9	39074	1	400 -- Blaues Fragment
+	10	39075	1	350 -- Violettes Fragment
+	11	100500	1	10 -- Rosa Drachenbohne
+	12	100400	1	20 -- Blaue Drachenbohne
+	13	25041	1	2 -- Magisches Metall
+	14	30270	10	250 -- Drachensteinsplitter
+	15	80019	1	80 -- Feines Tuch
+	16	50323	1	150 -- Büchertruhe Konter
+	17	50515	1	3 -- Lehrbuch Konter
+	18	50525	1	10 -- Seelenstein+
+	19	50324	1	150 -- Büchertruhe Boost
+	20	50514	1	3 -- Lehrbuch Boost
+	21	31257	1	20 -- Schlangemuster
+	22	31259	1	20 -- Nordwindamboss
+	23	31258	1	20 -- Schlangenseide
+	24	31263	1	20 -- Nordwindschleifstein
+	25	31262	1	20 -- Schlangenpolitur
+	26	31245	1	20 -- Hartes Leder
+	27	70428	1	20 -- Schlangenstaub
+	28	70429	1	20 -- Schlangenschatz
+	29	31242	1	20 -- Nordwind-Waffenstein
+	30	31243	1	10 -- Nordwind-Waffenstein+
+	31	31216	1	10 -- Rohmetallplatte
+	32	30617	1	5 -- Achat
+	33	30616	1	5 -- Titandioxid
+	34	30618	1	5 -- Mondstein
+	35	31238	1	30 -- Schimmernde Muschel
+	36	31233	1	30 -- Schlangenstein
+	37	31234	1	10 -- Schlangenstein+
+	38	50577	1	2 -- Legendärer Seelenstein
+	39	50926	8	70 -- Schmuckstein
+	40	31150	1	10 -- Aura-Veredelungsbox
+	41	61032	1	3 -- Legendärer Buffi Seelenstein
+	42	25040	1	80 -- Segenschriftrolle
+	43	70411	1	30 -- W. Drachentruhe (Leicht)
+	44	170	1	5 -- Stichschwert
+	45	3150	1	5 -- Halbmenschenklinge+0
+	46	250	1	5 -- Dämonenklinge+0
+	47	2180	1	5 -- Blaudrachenbogen+0
+	48	1120	1	5 -- Siamesenmesser+0
+	49	7150	1	5 -- Ekstasefächer+0
+	50	69157	1	400 -- 1KK Yang
 }
 
 Group	yohara_eq_pvp_stein
@@ -650,60 +626,56 @@ Group	yohara_eq_pvp_stein
 	1	71084	45	400 -- Gegenstand Verzaubern
 	2	71085	1	250 -- Gegenstand Verstärken
 	3	70024	1	50 -- Segenskugel
-	4	27987	3	25 -- Muschel
-	5	50132	2	400 -- Mysteriöse Rubintruhe
-	6	50133	2	80 -- Mysteriöse Smaragdtruhe
-	7	50134	2	80 -- Mysteriöse Saphirtruhe
-	8	72002	1	10 -- Erfahrungsring(30m)
-	9	72005	1	10 -- Diebeshandschuh
-	10	39074	1	400 -- Blaues Fragment
-	11	39075	1	350 -- Violettes Fragment
-	12	100500	1	10 -- Rosa Drachenbohne
-	13	100400	1	20 -- Blaue Drachenbohne
-	14	25041	1	2 -- Magisches Metall
-	15	30270	10	250 -- Drachensteinsplitter
-	16	80019	1	80 -- Feines Tuch
-	17	50323	1	150 -- Büchertruhe Konter
-	18	50515	1	3 -- Lehrbuch Konter
-	19	50525	1	10 -- Seelenstein+
-	20	50324	1	150 -- Büchertruhe Boost
-	21	50514	1	3 -- Lehrbuch Boost
-	22	27992	1	3 -- Weiße Perle
-	23	27993	1	3 -- Blaue Perle
-	24	27994	1	3 -- Rote Perle
-	25	31115	1	20 -- Amboss
-	26	31121	1	20 -- Stahl
-	27	31112	1	20 -- Starker Erweckungsstein
-	28	31118	1	20 -- Abzeichen des Ruhmes
-	29	31114	1	20 -- Einfaches Leder
-	30	31117	1	20 -- Dünnes Garn
-	31	31111	1	20 -- Edler Erweckungsstein
-	32	31149	1	20 -- Feste Schnur
-	33	31084	1	20 -- Nimbustinktur
-	34	31109	1	20 -- Feiner Erweckungsstein
-	35	31122	1	20 -- Stoff
-	36	31124	1	20 -- Dünner Faden
-	37	31133	1	5 -- Gewöhnlicher Farbstoff
-	38	31134	1	5 -- Verbesserter Farbstoff
-	39	31131	1	5 -- Seide
-	40	31136	1	5 -- Einfacher Chaosstein
-	41	31137	1	5 -- Schöner Chaosstein
-	42	31138	1	5 -- Prächtiger Chaosstein
-	43	31135	1	5 -- Besonderer Farbstoff
-	44	50577	1	3 -- Legendärer Seelenstein
-	45	31123	1	20 -- Dünnes Leder
-	46	31125	1	20 -- Dicker Faden
-	47	50926	8	70 -- Schmuckstein
-	48	31150	1	10 -- Aura-Veredelungsbox
-	49	61032	1	3 -- Legendärer Buffi Seelenstein
-	50	25040	1	80 -- Segenschriftrolle
-	51	170	1	5 -- Stichschwert
-	52	3150	1	5 -- Halbmenschenklinge+0
-	53	250	1	5 -- Dämonenklinge+0
-	54	2180	1	5 -- Blaudrachenbogen+0
-	55	1120	1	5 -- Siamesenmesser+0
-	56	7150	1	5 -- Ekstasefächer+0
-	57	69158	1	400 -- 1,5KK Yang
+	4	50132	1	400 -- Mysteriöse Rubintruhe
+	5	50133	2	80 -- Mysteriöse Smaragdtruhe
+	6	50134	2	80 -- Mysteriöse Saphirtruhe
+	7	72002	1	10 -- Erfahrungsring(30m)
+	8	72005	1	10 -- Diebeshandschuh
+	9	39074	1	400 -- Blaues Fragment
+	10	39075	1	350 -- Violettes Fragment
+	11	100500	1	10 -- Rosa Drachenbohne
+	12	100400	1	20 -- Blaue Drachenbohne
+	13	25041	1	2 -- Magisches Metall
+	14	30270	10	250 -- Drachensteinsplitter
+	15	80019	1	80 -- Feines Tuch
+	16	50323	1	150 -- Büchertruhe Konter
+	17	50515	1	3 -- Lehrbuch Konter
+	18	50525	1	10 -- Seelenstein+
+	19	50324	1	150 -- Büchertruhe Boost
+	20	50514	1	3 -- Lehrbuch Boost
+	21	31115	1	20 -- Amboss
+	22	31121	1	20 -- Stahl
+	23	31112	1	20 -- Starker Erweckungsstein
+	24	31118	1	20 -- Abzeichen des Ruhmes
+	25	31114	1	20 -- Einfaches Leder
+	26	31117	1	20 -- Dünnes Garn
+	27	31111	1	20 -- Edler Erweckungsstein
+	28	31149	1	20 -- Feste Schnur
+	29	31084	1	20 -- Nimbustinktur
+	30	31109	1	20 -- Feiner Erweckungsstein
+	31	31122	1	20 -- Stoff
+	32	31124	1	20 -- Dünner Faden
+	33	31133	1	5 -- Gewöhnlicher Farbstoff
+	34	31134	1	5 -- Verbesserter Farbstoff
+	35	31131	1	5 -- Seide
+	36	31136	1	5 -- Einfacher Chaosstein
+	37	31137	1	5 -- Schöner Chaosstein
+	38	31138	1	5 -- Prächtiger Chaosstein
+	39	31135	1	5 -- Besonderer Farbstoff
+	40	50577	1	2 -- Legendärer Seelenstein
+	41	31123	1	20 -- Dünnes Leder
+	42	31125	1	20 -- Dicker Faden
+	43	50926	8	70 -- Schmuckstein
+	44	31150	1	10 -- Aura-Veredelungsbox
+	45	61032	1	3 -- Legendärer Buffi Seelenstein
+	46	25040	1	80 -- Segenschriftrolle
+	47	170	1	5 -- Stichschwert
+	48	3150	1	5 -- Halbmenschenklinge+0
+	49	250	1	5 -- Dämonenklinge+0
+	50	2180	1	5 -- Blaudrachenbogen+0
+	51	1120	1	5 -- Siamesenmesser+0
+	52	7150	1	5 -- Ekstasefächer+0
+	53	69158	1	400 -- 1,5KK Yang
 }
 ---------------------------------------------------------- METIN DROPS ENDE
 

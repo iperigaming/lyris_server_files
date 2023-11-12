@@ -931,6 +931,7 @@ item	50513	100 -- Seelenstein
 item	71001	100 -- Exorzismus-Schriftrolle
 item	71094	100 -- Konzentriertes Lesen
 item	70102	10 -- Zen-Bohne
+item	50323	50 -- Büchertruhe Konter
 reward	50577 	1 -- Legendärer Seelenstein
 gold	50000000
 percent	100
@@ -941,9 +942,19 @@ npc	20001
 item	61031	100 -- Seelenstein(Buffi)
 item	71001	100 -- Exorzismus-Schriftrolle
 item	71094	100 -- Konzentriertes Lesen
-item	70102	10 -- Zen-Bohne
+item	50323	25 -- Büchertruhe Konter
+item	50324	25 -- Büchertruhe Boost
 reward	61032 	1 -- Legendärer Seelenstein(Buffi)
 gold	50000000
+percent	100
+end
+
+section
+npc	20001
+item	71001	100 -- Exorzismus-Schriftrolle
+item	71094	100 -- Konzentriertes Lesen
+reward	70102 	100 -- Zen Bohne
+gold	500000
 percent	100
 end
 
