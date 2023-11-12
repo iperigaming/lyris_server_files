@@ -188,7 +188,7 @@ Group	tier8_steinchen
 	12	50300	1	400 -- Fertigkeitsbuch
 	13	2140	1	5 -- Großgelbdrachenbogen+0
 	14	1100	1	5 -- Drachenmesser+0
-	15	7130	1	5 -- Himmelsvogelfächer+0
+	15	7140	1	5 -- Erlösungsfächer+0
 	16	150	1	5 -- Geisterzahnklinge+0
 	17	5090	1	5 -- Donnervogelglocke+0
 	18	3130	1	5 -- Partisane+0
@@ -240,7 +240,7 @@ Group	tier9_steinchen
 	8	50513	1	10 -- Seelenstein
 	9	2147	1	5 -- Großgelbdrachenbogen+7
 	10	1107	1	5 -- Drachenmesser+7
-	11	7137	1	5 -- Himmelsvogelfächer+7
+	11	7147	1	5 -- Erlösungsfächer+7
 	12	157	1	5 -- Geisterzahnklinge+7
 	13	5097	1	5 -- Donnervogelglocke+7
 	14	3137	1	5 -- Partisane+7
@@ -316,7 +316,7 @@ Group	tier10_steinchen
 	7	50134	2	80 -- Mysteriöse Saphirtruhe
 	8	2147	1	5 -- Großgelbdrachenbogen+7
 	9	1107	1	5 -- Drachenmesser+7
-	10	7137	1	5 -- Himmelsvogelfächer+7
+	10	7147	1	5 -- Erlösungsfächer+7
 	11	157	1	20 -- Geisterzahnklinge+7
 	12	5097	1	5 -- Donnervogelglocke+7
 	13	3137	1	5 -- Partisane+7
@@ -676,6 +676,7 @@ Group	yohara_eq_pvp_stein
 	51	1120	1	5 -- Siamesenmesser+0
 	52	7150	1	5 -- Ekstasefächer+0
 	53	69158	1	400 -- 1,5KK Yang
+	54	31132	1	3 -- Bruchstücke
 }
 ---------------------------------------------------------- METIN DROPS ENDE
 

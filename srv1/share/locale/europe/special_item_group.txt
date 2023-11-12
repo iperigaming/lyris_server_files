@@ -946,6 +946,7 @@ Group	truhe_yohara3
 	33	81550	1	3 -- INT-Willenstalisman+0
 	34	50926	10	40 -- Schmuckstein
 	35	25044	1	8 -- Verzauberter Stein(10%)
+	36	31132	1	3 -- Bruchstücke
 }
 
 Group	truhe_yohara4
