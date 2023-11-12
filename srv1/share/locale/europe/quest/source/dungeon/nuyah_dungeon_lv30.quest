@@ -195,12 +195,12 @@ quest nuyah_dungeon_lv30 begin
 				-- d.notice_mission(824)
                 d.jump_all_local(data["warp"][level][1], data["warp"][level][2])
 			else
-				nuyah_dungeon_lv30.create_level()
+				server_timer("nuyah_dungeon_lv30_warp", 1, d.get_map_index())
 			end
 		end
 
 		when jump with nuyah_dungeon_lv30.is_dungeon() begin
-			nuyah_dungeon_lv30.create_level()
+			server_timer("nuyah_dungeon_lv30_warp", 1, d.get_map_index())
         end
 
 		function set_level(level)

@@ -259,7 +259,7 @@ quest akumea_dungeon_lv100_rz begin
         end
 
         when jump with akumea_dungeon_lv100_rz.is_dungeon() begin
-            akumea_dungeon_lv100_rz.create_level()
+            server_timer("akumea_dungeon_lv100_rz_warp", 1, d.get_map_index())
         end
 
         function set_random_level()

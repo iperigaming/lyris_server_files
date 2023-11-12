@@ -174,7 +174,7 @@ quest akumea_dungeon_c10_ru begin
         end
 
         when jump with akumea_dungeon_c10_ru.is_dungeon() begin
-            akumea_dungeon_c10_ru.create_level()
+            server_timer("akumea_dungeon_c10_ru_warp", 1, d.get_map_index())
         end
 
         function create_level()
