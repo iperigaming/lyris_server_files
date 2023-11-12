@@ -2947,4 +2947,6 @@ VNUM	LOCALE_NAME
 9022	BossBox
 20284	Bloodhound
 20285	Ürpertici Manni
-
+20286	Altýn Aslan
+34184	Küçük Wukong
+34185	Küçük Nixie

@@ -2943,3 +2943,10 @@ VNUM	LOCALE_NAME
 9462	Shell pillar
 9463	Atlantis Chest
 65000	Buffi
+20284	Bloodhound
+20285	Spooky Manni
+20286	Golden Lion
+34182	Spooky-Pack
+34183	Mini-Grim Reaper
+34184	Mini-Wukong
+34185	Mini-Nixie

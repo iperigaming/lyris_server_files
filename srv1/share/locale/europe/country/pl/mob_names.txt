@@ -2947,3 +2947,7 @@ VNUM	LOCALE_NAME
 9022	BossBox
 20284	Bloodhound
 20285	Creepy Manni
+34182	Grusel-Pack
+20286	Z³oty Lew
+34184	Mini-Wukong
+34185	Mini-Nixie

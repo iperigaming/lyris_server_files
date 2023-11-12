@@ -6640,7 +6640,7 @@ VNUM	LOCALE_NAME
 30556	NoNAme
 30557	NoNAme
 30558	NoNAme
-30559	NoNAme
+30559	B³yszcz¹ca przêdza (fioletowa)
 30560	NoNAme
 30561	NoNAme
 30562	NoNAme
@@ -12111,3 +12111,6 @@ VNUM	LOCALE_NAME
 69156	Kupon Yang(750K)
 69157	Kupon Yang(1kK)
 69158	Kupon Yang(1,5kK)
+71269	Z³oty Lew
+53344	Mini-Wukong
+53345	Mini-Nixie

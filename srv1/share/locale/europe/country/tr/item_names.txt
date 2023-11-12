@@ -6685,7 +6685,7 @@ VNUM	LOCALE_NAME
 30556	NoNAme
 30557	NoNAme
 30558	NoNAme
-30559	NoNAme
+30559	Parlak iplik (mor)
 30560	NoNAme
 30561	NoNAme
 30562	NoNAme
@@ -6710,7 +6710,7 @@ VNUM	LOCALE_NAME
 30581	Pürüzsüz bronz takylar
 30582	NoNAme
 30583	Pürüzsüz mücevher (mavi)
-30584	Pürüzsüz mücevher (yeþil)
+30584	Pürüzsüz mücevher (ye?il)
 30585	Pürüzsüz mücevher (kyrmyzy)
 30586	Pürüzsüz mücevher (mor)
 30600	Kesim Örnegi
@@ -6858,7 +6858,7 @@ VNUM	LOCALE_NAME
 31082	Magma Çemberi
 31083	Samael'in Yüzügü
 31084	NoNAme
-31085	NoNAme
+31085	Aðýr su
 31086	Mantar Hücresi
 31087	NoNAme
 31088	NoNAme
@@ -12002,3 +12002,6 @@ VNUM	LOCALE_NAME
 69156	Yang kuponu(750K)
 69157	Yang kuponu(1kK)
 69158	Yang kuponu(1,5kK)
+71269	Altýn Aslan
+53344	Küçük Wukong
+53345	Küçük Nixie

@@ -6640,7 +6640,7 @@ VNUM	LOCALE_NAME
 30556	NoNAme
 30557	NoNAme
 30558	NoNAme
-30559	NoNAme
+30559	Fire stralucitoare (violet)
 30560	NoNAme
 30561	NoNAme
 30562	NoNAme
@@ -6813,7 +6813,7 @@ VNUM	LOCALE_NAME
 31082	Inel Magma
 31083	Inelul lui Samael
 31084	Nimbus Tincture
-31085	NoNAme
+31085	Apa grea
 31086	Spori de Ciuperci
 31087	NoNAme
 31088	NoNAme
@@ -10975,8 +10975,8 @@ VNUM	LOCALE_NAME
 85023	Eoarfa Aniversara(nobil)
 85024	Eoarfa Aniversara(pers.)
 85025	Eoarfa Lord+ (avansata)
-85026	¸íAaAÇ 3×111­¸®(1I»ç?ë)
-85027	¸íAaAÇ 3×111­¸®(1I»ç?ë)
+85026	¸íAaAÇ 3×111­¸R(1I>ç?ë)
+85027	¸íAaAÇ 3×111­¸R(1I>ç?ë)
 85028	Eoarfa Lord+ (avansata)
 86001	Eoarfa Zi (normala)
 86002	Eoarfa Zi (fina)
@@ -12111,3 +12111,6 @@ VNUM	LOCALE_NAME
 69156	Bonul Yang(750K)
 69157	Bonul Yang(1kK)
 69158	Bonul Yang(1,5kK)
+53344	Mini-Wukong
+53345	Mini-Nixie
+71269	Leul de Aur
