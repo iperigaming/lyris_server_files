@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/npc/armor_lion_mount1/wait2.GR2"
+MotionDuration           0.500000
+Accumulation             0.00	-420.00	0.00
+
