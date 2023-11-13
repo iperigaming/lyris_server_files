@@ -3136,12 +3136,6 @@ VNUM	LOCALE_NAME
 10948	Blitztalisman+198
 10949	Blitztalisman+199
 10950	Blitztalisman+200
-10955	Feuertalisman+10
-10956	Eistalisman+10
-10957	Windtalisman+10
-10958	Blitztalisman+10
-10959	Erdtalisman+10
-10960	Dunkler Talisman+10
 11000	Wolfrüstung
 11010	Wildschweinrüstung
 11020	Bärenrüstung
@@ -11946,3 +11940,9 @@ VNUM	LOCALE_NAME
 69156	Yang-Gutschein(750K)
 69157	Yang-Gutschein(1kK)
 69158	Yang-Gutschein(1,5kK)
+10955	Feuertalisman(Fragment)
+10956	Eistalisman(Fragment)
+10957	Windtalisman(Fragment)
+10958	Blitztalisman(Fragment)
+10959	Erdtalisman(Fragment)
+10960	Dunkler Talisman(Fragment)
