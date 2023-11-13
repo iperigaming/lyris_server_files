@@ -3126,6 +3126,12 @@ VNUM	LOCALE_NAME
 10948	Talizman B造skawicy+198
 10949	Talizman B造skawicy+199
 10950	Talizman B造skawicy+200
+10955	Talizman Ognia+10
+10956	Talizman Lodu+10
+10957	Talizman Wiatru+10
+10958	Talizman B造skawicy+10
+10959	Talizman Ziemi+10
+10960	Talizman Mroku+10
 11200	Mnisia Zbr. P造t.+0
 11201	Mnisia Zbr. P造t.+1
 11202	Mnisia Zbr. P造t.+2
@@ -12108,9 +12114,3 @@ VNUM	LOCALE_NAME
 71269	Z這ty Lew
 53344	Mini-Wukong
 53345	Mini-Nixie
-10955	Talizman Ognia(Od豉mek)
-10956	Talizman Lodu(Od豉mek)
-10957	Talizman Wiatru(Od豉mek)
-10958	Talizman B造skawicy(Od豉mek)
-10959	Talizman Ziemi(Od豉mek)
-10960	Talizman Mroku(Od豉mek)

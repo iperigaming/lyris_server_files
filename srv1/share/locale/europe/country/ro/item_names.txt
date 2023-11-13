@@ -3126,6 +3126,12 @@ VNUM	LOCALE_NAME
 10948	Talisman Fulger+198
 10949	Talisman Fulger+199
 10950	Talisman Fulger+200
+10955	Talisman Foc+10
+10956	Talisman Ghea?a+10
+10957	Talisman Vânt+10
+10958	Talisman Fulger+10
+10959	Talisman Pamânt+10
+10960	Talisman Întunecat+10
 11200	Platosa de Calugar+0
 11201	Platosa de Calugar+1
 11202	Platosa de Calugar+2
@@ -12108,9 +12114,3 @@ VNUM	LOCALE_NAME
 53344	Mini-Wukong
 53345	Mini-Nixie
 71269	Leul de Aur
-10955	Talisman Foc(Fragmentul)
-10956	Talisman Gheaa(Fragmentul)
-10957	Talisman Vânt(Fragmentul)
-10958	Talisman Fulger(Fragmentul)
-10959	Talisman Pamânt(Fragmentul)
-10960	Talisman Întunecat(Fragmentul)

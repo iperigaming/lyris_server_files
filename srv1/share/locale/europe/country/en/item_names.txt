@@ -3136,6 +3136,12 @@ VNUM	LOCALE_NAME
 10948	Lightning Talisman+198
 10949	Lightning Talisman+199
 10950	Lightning Talisman+200
+10955	Fire Talisman+10
+10956	Ice Talisman+10
+10957	Wind Talisman+10
+10958	Lightning Talisman+10
+10959	Earth Talisman+10
+10960	Dark Talisman+10
 11000	Wolf Armour
 11010	Wild Boar Armour
 11020	Bear Armour
@@ -11872,9 +11878,3 @@ VNUM	LOCALE_NAME
 71269	Golden Lion
 53344	Mini-Wukong
 53345	Mini-Nixie
-10955	Fire Talisman(Fragment)
-10956	Ice Talisman(Fragment)
-10957	Wind Talisman(Fragment)
-10958	Lightning Talisman(Fragment)
-10959	Earth Talisman(Fragment)
-10960	Dark Talisman(Fragment)
