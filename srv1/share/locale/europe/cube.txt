@@ -953,7 +953,103 @@ section
 npc	20001
 item	71001	100 -- Exorzismus-Schriftrolle
 item	71094	100 -- Konzentriertes Lesen
-reward	70102 	100 -- Zen Bohne
+reward	70102	100 -- Zen Bohne
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	9600	1 -- Feuertalisman
+reward	10955	1 -- Feuertalisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	9830	1 -- Eistalisman
+reward	10956	1 -- Eistalisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10520	1 -- Windtalisman
+reward	10957	1 -- Windtalisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10750	1 -- Blitztalisman
+reward	10958	1 -- Blitztalisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10060	1 -- Erdtalisman
+reward	10959	1 -- Erdtalisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10290	1 -- Dunkler Talisman
+reward	10960	1 -- Dunkler Talisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10955	1 -- Feuertalisman(Fragment)
+reward	9600	1 -- Feuertalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10956	1 -- Eistalisman(Fragment)
+reward	9830	1 -- Eistalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10957	1 -- Windtalisman(Fragment)
+reward	10520	1 -- Windtalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10958	1 -- Blitztalisman(Fragment)
+reward	10750	1 -- Blitztalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10959	1 -- Erdtalisman(Fragment)
+reward	10060	1 -- Erdtalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10960	1 -- Dunkler Talisman(Fragment)
+reward	10290	1 -- Dunkler Talisman
 gold	500000
 percent	100
 end
@@ -966,7 +1062,7 @@ gold	100000
 percent	100
 end
 
-section		
+section
 npc	20001	
 item	70024	50
 reward	71084 	20 -- Switcher
@@ -974,7 +1070,7 @@ gold	100000
 percent	100
 end
 
-section		
+section
 npc	20001	
 item	72005	4
 reward	72006 	1 -- Diebeshandschuh
@@ -982,7 +1078,7 @@ gold	5000000
 percent	100
 end
 
-section		
+section
 npc	20001	
 item	72002	6
 reward	72003 	1 -- EXP RING
