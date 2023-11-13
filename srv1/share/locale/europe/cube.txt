@@ -969,7 +969,7 @@ end
 section
 npc	20001
 item	9830	1 -- Eistalisman
-reward	10955	1 -- Eistalisman(Fragment)
+reward	10956	1 -- Eistalisman(Fragment)
 gold	500000
 percent	100
 end
@@ -1002,6 +1002,54 @@ section
 npc	20001
 item	10290	1 -- Dunkler Talisman
 reward	10960	1 -- Dunkler Talisman(Fragment)
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10955	1 -- Feuertalisman(Fragment)
+reward	9600	1 -- Feuertalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10956	1 -- Eistalisman(Fragment)
+reward	9830	1 -- Eistalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10957	1 -- Windtalisman(Fragment)
+reward	10520	1 -- Windtalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10958	1 -- Blitztalisman(Fragment)
+reward	10750	1 -- Blitztalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10959	1 -- Erdtalisman(Fragment)
+reward	10060	1 -- Erdtalisman
+gold	500000
+percent	100
+end
+
+section
+npc	20001
+item	10960	1 -- Dunkler Talisman(Fragment)
+reward	10290	1 -- Dunkler Talisman
 gold	500000
 percent	100
 end
