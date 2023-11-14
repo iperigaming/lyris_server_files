@@ -356,7 +356,7 @@ Group	mondi
 	83	50255	1	150 -- Cor Roh
 	84	50255	1	150 -- Cor Roh
 	85	50255	1	150 -- Cor Roh
-	86	50255	1	150 -- Cor Roh	
+	86	50255	1	150 -- Cor Roh
 }
 
 Group	pet_skillchest
