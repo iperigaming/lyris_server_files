@@ -306,7 +306,7 @@ Group	mondi
 	33	39046	1	3 -- Urkunde der Umkehr+
 	34	30228	1	4 -- Beran-Setaou Seelenstein
 	35	53003	1	1 -- Eisphönix
-	36	71229	1	1 -- Eishöllenechse
+	36	71222	1	1 -- Nirwana Drache
 	37	55010	1	10 -- Widerstand(Halbmenschen)
 	38	55011	1	10 -- Widerstand(Monster)
 	39	55012	1	10 -- Menschenjäger-Buch
