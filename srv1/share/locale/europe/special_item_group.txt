@@ -330,19 +330,19 @@ Group	mondi
 	57	55036	1	10 -- Scharfblick-Buch
 	58	55037	1	10 -- Lebensentzugs-Buch
 	59	55038	1	10 -- Federleicht-Buch
-	60	27987	1	100 -- Muschel
-	61	27987	1	100 -- Muschel
-	62	27987	1	100 -- Muschel
-	63	27987	1	100 -- Muschel
-	64	27987	1	100 -- Muschel
-	65	27987	1	100 -- Muschel
-	66	27987	1	100 -- Muschel
-	67	25040	1	80 -- Segensschriftrolle
-	68	25040	1	80 -- Segensschriftrolle
-	69	25040	1	80 -- Segensschriftrolle
-	70	25040	1	80 -- Segensschriftrolle
-	71	25040	1	80 -- Segensschriftrolle
-	72	25040	1	80 -- Segensschriftrolle
+	60	27987	1	130 -- Muschel
+	61	27987	1	130 -- Muschel
+	62	27987	1	130 -- Muschel
+	63	27987	1	130 -- Muschel
+	64	27987	1	130 -- Muschel
+	65	27987	1	130 -- Muschel
+	66	27987	1	130 -- Muschel
+	67	25040	1	140 -- Segensschriftrolle
+	68	25040	1	140 -- Segensschriftrolle
+	69	25040	1	140 -- Segensschriftrolle
+	70	25040	1	140 -- Segensschriftrolle
+	71	25040	1	140 -- Segensschriftrolle
+	72	25040	1	140 -- Segensschriftrolle
 }
 
 Group	pet_skillchest
