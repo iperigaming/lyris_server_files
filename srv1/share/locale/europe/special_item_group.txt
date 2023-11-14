@@ -273,9 +273,9 @@ Group	mondi
 	2	71035	1	5 -- Elixier des Forschers
 	3	72349	1	5 -- Bio Abgabezeit
 	2	70102	1	70 -- Zen Bohne
-	3	25041	1	5 -- Magischer Stein
-	4	25044	1	3 -- Verzauberter Stein
-	5	25045	1	1 -- Verhexter Stein
+	3	25041	1	10 -- Magischer Stein
+	4	25044	1	5 -- Verzauberter Stein
+	5	25045	1	3 -- Verhexter Stein
 	6	71069	1	1 -- Ohrringe der Harmonie 3T
 	7	71072	1	1 -- Armband der Haromnie 3T
 	8	71074	1	1 -- Halskette der Haromnie 3T
@@ -286,11 +286,11 @@ Group	mondi
 	13	71129	1	2 -- Drachenkralle
 	14	71123	1	2 -- Drachenschuppe
 	15	69151	1	10 -- Ungewöhnliche Verzauberung
-	16	69152	1	5 -- Seltene Verzauberun
-	17	69153	1	2 -- Epische Verzauberung
-	18	69154	1	1 -- Legendäre Verzauberung
-	19	31085	1	3 -- Schweres Wasser
-	20	31086	1	3 -- Pilzsporen
+	16	69152	1	8 -- Seltene Verzauberun
+	17	69153	1	6 -- Epische Verzauberung
+	18	69154	1	3 -- Legendäre Verzauberung
+	19	31085	1	4 -- Schweres Wasser
+	20	31086	1	4 -- Pilzsporen
 	21	31238	1	30 -- Schimmernde Muschel
 	22	50926	10	60 -- Schmuckstein
 	23	50926	20	50 -- Schmuckstein
@@ -302,9 +302,9 @@ Group	mondi
 	29	27990	20	20 -- Steinstück
 	30	27990	50	10 -- Steinstück
 	31	80019	1	40 -- Feines Tuch
-	32	91561	1	1 -- Urkunde der Aura+
-	33	39046	1	1 -- Urkunde der Umkehr+
-	34	30228	1	1 -- Beran-Setaou Seelenstein
+	32	91561	1	3 -- Urkunde der Aura+
+	33	39046	1	3 -- Urkunde der Umkehr+
+	34	30228	1	4 -- Beran-Setaou Seelenstein
 	35	53003	1	1 -- Eisphönix
 	36	71229	1	1 -- Eishöllenechse
 }
