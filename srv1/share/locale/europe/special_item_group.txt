@@ -343,6 +343,20 @@ Group	mondi
 	70	25040	1	140 -- Segensschriftrolle
 	71	25040	1	140 -- Segensschriftrolle
 	72	25040	1	140 -- Segensschriftrolle
+	73	50255	1	150 -- Cor Roh
+	74	50255	1	150 -- Cor Roh
+	75	50255	1	150 -- Cor Roh
+	76	50255	1	150 -- Cor Roh
+	77	50255	1	150 -- Cor Roh
+	78	50255	1	150 -- Cor Roh
+	79	50255	1	150 -- Cor Roh
+	80	50255	1	150 -- Cor Roh
+	81	50255	1	150 -- Cor Roh
+	82	50255	1	150 -- Cor Roh
+	83	50255	1	150 -- Cor Roh
+	84	50255	1	150 -- Cor Roh
+	85	50255	1	150 -- Cor Roh
+	86	50255	1	150 -- Cor Roh	
 }
 
 Group	pet_skillchest
