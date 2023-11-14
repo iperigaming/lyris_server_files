@@ -269,32 +269,32 @@ Group	halloweengroup
 Group	mondi
 {
 	Vnum	50011 -- Mondi
-	1	50255	1	20 -- Cor Roh
+	1	50255	1	60 -- Cor Roh
 	2	71035	1	5 -- Elixier des Forschers
 	3	72349	1	5 -- Bio Abgabezeit
-	2	70102	1	30 -- Zen Bohne
+	2	70102	1	70 -- Zen Bohne
 	3	25041	1	5 -- Magischer Stein
 	4	25044	1	3 -- Verzauberter Stein
 	5	25045	1	1 -- Verhexter Stein
 	6	71069	1	1 -- Ohrringe der Harmonie 3T
 	7	71072	1	1 -- Armband der Haromnie 3T
 	8	71074	1	1 -- Halskette der Haromnie 3T
-	9	69155	1	50 -- Yang-Gutschein(500k)
-	10	69156	1	40 -- Yang-Gutschein(750k)
-	11	69157	1	30 -- Yang-Gutschein(1kk)
-	12	69158	1	25 -- Yang-Gutschein(1,5kk)
+	9	69155	1	80 -- Yang-Gutschein(500k)
+	10	69156	1	70 -- Yang-Gutschein(750k)
+	11	69157	1	60 -- Yang-Gutschein(1kk)
+	12	69158	1	50 -- Yang-Gutschein(1,5kk)
 	13	71129	1	2 -- Drachenkralle
 	14	71123	1	2 -- Drachenschuppe
-	15	69151	1	20 -- Ungewöhnliche Verzauberung
-	16	69152	1	15 -- Seltene Verzauberun
-	17	69153	1	10 -- Epische Verzauberung
+	15	69151	1	10 -- Ungewöhnliche Verzauberung
+	16	69152	1	5 -- Seltene Verzauberun
+	17	69153	1	2 -- Epische Verzauberung
 	18	69154	1	1 -- Legendäre Verzauberung
 	19	31085	1	3 -- Schweres Wasser
 	20	31086	1	3 -- Pilzsporen
 	21	31238	1	30 -- Schimmernde Muschel
-	22	50926	10	30 -- Schmuckstein
-	23	50926	20	20 -- Schmuckstein
-	24	50926	50	10 -- Schmuckstein
+	22	50926	10	60 -- Schmuckstein
+	23	50926	20	50 -- Schmuckstein
+	24	50926	50	40 -- Schmuckstein
 	25	72347	1	10 -- Dungeon-Akzelerator(Low)
 	26	72348	1	5 -- Dungeon-Akzelerator(Mid)
 	27	72361	1	2 -- Dungeon-Akzelerator(High)
