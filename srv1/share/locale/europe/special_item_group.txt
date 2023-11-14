@@ -307,6 +307,42 @@ Group	mondi
 	34	30228	1	4 -- Beran-Setaou Seelenstein
 	35	53003	1	1 -- Eisphönix
 	36	71229	1	1 -- Eishöllenechse
+	37	55010	1	10 -- Widerstand(Halbmenschen)
+	38	55011	1	10 -- Widerstand(Monster)
+	39	55012	1	10 -- Menschenjäger-Buch
+	40	55013	1	10 -- Bossjäger-Buch
+	41	55014	1	10 -- Steinjäger-Buch
+	42	55015	1	10 -- Berserker-Buch
+	43	55016	1	10 -- Magiebruch-Buch
+	44	55017	1 	10 -- Beschleunigungs-Buch
+	45	55018	1	10 -- Drill-Buch
+	46	55019	1	10 -- Erneuerungs-Buch
+	47	55020	1	10 -- Vampir-Buch
+	48	55021	1	10 -- Geister-Buch
+	49	55022	1	10 -- Hindernis-Buch
+	50	55023	1	10 -- Spiegelbuch
+	51	55024	1	10 -- Yang Drop-Buch
+	52	55025	1	10 -- Reichweiten-Buch
+	53	55026	1	10 -- Unbesiegbarkeits-Buch
+	54	55027	1	10 -- Heilungs-Buch
+	55	55034	1	10 -- Braumeister-Buch
+	56	55035	1	10 -- Monsterjäger-Buch
+	57	55036	1	10 -- Scharfblick-Buch
+	58	55037	1	10 -- Lebensentzugs-Buch
+	59	55038	1	10 -- Federleicht-Buch
+	60	27987	1	100 -- Muschel
+	61	27987	1	100 -- Muschel
+	62	27987	1	100 -- Muschel
+	63	27987	1	100 -- Muschel
+	64	27987	1	100 -- Muschel
+	65	27987	1	100 -- Muschel
+	66	27987	1	100 -- Muschel
+	67	25040	1	80 -- Segensschriftrolle
+	68	25040	1	80 -- Segensschriftrolle
+	69	25040	1	80 -- Segensschriftrolle
+	70	25040	1	80 -- Segensschriftrolle
+	71	25040	1	80 -- Segensschriftrolle
+	72	25040	1	80 -- Segensschriftrolle
 }
 
 Group	pet_skillchest
