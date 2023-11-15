@@ -226,7 +226,7 @@ Group WheelNormalItem
 
 Group UniqueExpRing
 {
-	vnum	10959
+	vnum	10060
 	type	special
 	1	72002	1	1
 	2	72003	1	1
@@ -357,6 +357,8 @@ Group	mondi
 	84	50255	1	150 -- Cor Roh
 	85	50255	1	150 -- Cor Roh
 	86	50255	1	150 -- Cor Roh
+	87	30581	1	2 -- Glatter Bronzeschmuck
+	88	100701	1	5 -- Flamme des Drachen
 }
 
 Group	pet_skillchest
@@ -779,12 +781,12 @@ Group	truhe_eishexe
 	22	3160	1	10 -- Grollschwert+0
 	23	5120	1	10 -- Orchideenglocke+0
 	24	71224	1	1 -- Manni
-	25	10955	1	20 -- Feuertalisman
-	26	10956	1	20 -- Eistalisman
-	27	10959	1	20 -- Erdtalisman
-	28	10958	1	20 -- Blitztalisman
-	29	10957	1	20 -- Windtalisman
-	30	10960	1	20 -- Dunkler Talisman
+	25	9600	1	20 -- Feuertalisman
+	26	9830	1	20 -- Eistalisman
+	27	10060	1	20 -- Erdtalisman
+	28	10750	1	20 -- Blitztalisman
+	29	10520	1	20 -- Windtalisman
+	30	10290	1	20 -- Dunkler Talisman
 	31	71035	3	30 -- Elixier des Forschers
 	32	72349	3	30 -- Bio Abgabezeit
 	33	25041	1	15 -- Magisches Metall
@@ -814,12 +816,12 @@ Group	truhe_geni
 	14	11690	1	10 -- Magie-Plattenpanzer+0
 	15	11490	1	10 -- Schwarzwindanzug+0
 	16	11890	1	10 -- Schwarze Kleidung+0
-	17	10955	1	40 -- Feuertalisman
-	18	10956	1	40 -- Eistalisman
-	19	10959	1	40 -- Erdtalisman
-	20	10958	1	40 -- Blitztalisman
-	21	10957	1	40 -- Windtalisman
-	22	10960	1	40 -- Dunkler Talisman
+	17	9600	1	40 -- Feuertalisman
+	18	9830	1	40 -- Eistalisman
+	19	10060	1	40 -- Erdtalisman
+	20	10750	1	40 -- Blitztalisman
+	21	10520	1	40 -- Windtalisman
+	22	10290	1	40 -- Dunkler Talisman
 	23	71035	3	30 -- Elixier des Forschers
 	24	72349	3	30 -- Bio Abgabezeit
 	25	25041	1	15 -- Magisches Metall
@@ -863,12 +865,12 @@ Group	truhe_90erbosse
 	27	30519	3	60 -- Goldhaken
 	28	30520	3	60 -- Goldschnalle
 	29	30521	3	60 -- Ringelement
-	30	10955	1	10 -- Feuertalisman
-	31	10956	1	10 -- Eistalisman
-	32	10959	1	10 -- Erdtalisman
-	33	10958	1	10 -- Blitztalisman
-	34	10957	1	10 -- Windtalisman
-	35	10960	1	10 -- Dunkler Talisman
+	30	9600	1	10 -- Feuertalisman
+	31	9830	1	10 -- Eistalisman
+	32	10060	1	10 -- Erdtalisman
+	33	10750	1	10 -- Blitztalisman
+	34	10520	1	10 -- Windtalisman
+	35	10290	1	10 -- Dunkler Talisman
 	36	83009	1	10 -- Petkiste
 	37	50926	6	70 -- Schmuckstein
 	38	25041	1	10 -- Magisches Metall
@@ -1164,12 +1166,12 @@ Group	sensenmann_truhe
 	23	3160	1	10 -- Grollschwert+0
 	24	5120	1	10 -- Orchideenglocke+0
 	25	71246	1	1 -- Mondschatten
-	26	10955	1	15 -- Feuertalisman
-	27	10956	1	15 -- Eistalisman
-	28	10959	1	15 -- Erdtalisman
-	29	10958	1	15 -- Blitztalisman
-	30	10957	1	15 -- Windtalisman
-	31	10960	1	15 -- Dunkler Talisman
+	26	9600	1	15 -- Feuertalisman
+	27	9830	1	15 -- Eistalisman
+	28	10060	1	15 -- Erdtalisman
+	29	10750	1	15 -- Blitztalisman
+	30	10520	1	15 -- Windtalisman
+	31	10290	1	15 -- Dunkler Talisman
 	32	27987	5	35 -- Muschel
 	33	27992	1	60 -- Weiße Perle
 	34	27993	1	60 -- Blaue Perle
@@ -1186,12 +1188,12 @@ Group	sensenmann_truhe
 Group	spinnenbaroness_truhe
 {
 	Vnum	50074
-	1	10955	1	15 -- Feuertalisman
-	2	10956	1	15 -- Eistalisman
-	3	10959	1	15 -- Erdtalisman
-	4	10958	1	15 -- Blitztalisman
-	5	10957	1	15 -- Windtalisman
-	6	10960	1	15 -- Dunkler Talisman
+	1	9600	1	15 -- Feuertalisman
+	2	9830	1	15 -- Eistalisman
+	3	10060	1	15 -- Erdtalisman
+	4	10750	1	15 -- Blitztalisman
+	5	10520	1	15 -- Windtalisman
+	6	10290	1	15 -- Dunkler Talisman
 	7	50255	3	50 -- Cor Draconis(Roh)
 	8	12530	1	30 -- Gehörnter Helm+0
 	9	12390	1	30 -- Orkkapuze+0
@@ -1235,12 +1237,12 @@ Group	spinnenbaroness_truhe
 Group	drachenraum_truhe
 {
 	Vnum	31139
-	1	10955	1	25 -- Feuertalisman
-	2	10956	1	25 -- Eistalisman
-	3	10959	1	25 -- Erdtalisman
-	4	10958	1	25 -- Blitztalisman
-	5	10957	1	25 -- Windtalisman
-	6	10960	1	25 -- Dunkler Talisman
+	1	9600	1	25 -- Feuertalisman
+	2	9830	1	25 -- Eistalisman
+	3	10060	1	25 -- Erdtalisman
+	4	10750	1	25 -- Blitztalisman
+	5	10520	1	25 -- Windtalisman
+	6	10290	1	25 -- Dunkler Talisman
 	7	85001	1	15 -- Herrscherband (einfach)
 	8	85005	1	15 -- Meisterband (einfach)
 	9	85011	1	15 -- Fürstenband (einfach)
@@ -1287,7 +1289,7 @@ Group	drachenraum_truhe
 Group	azrael_truhe
 {
 	Vnum	50186
-	1	10955	1	30 -- Feuertalisman
+	1	9600	1	30 -- Feuertalisman
 	2	13140	1	20 -- Titanenschild+0
 	3	85002	1	5 -- Herrscherband (fein)
 	4	85006	1	5 -- Meisterband (fein)
@@ -1310,12 +1312,12 @@ Group	azrael_truhe
 	21	18030	1	10 -- Gürtel der Weißheit+0
 	22	18020	1	10 -- Prunkvoller Gürtel+0
 	23	18000	1	10 -- Leinengürtel+0
-	24	10955	1	30 -- Feuertalisman
-	25	10956	1	30 -- Eistalisman
-	26	10959	1	30 -- Erdtalisman
-	27	10958	1	30 -- Blitztalisman
-	28	10957	1	30 -- Windtalisman
-	29	10960	1	30 -- Dunkler Talisman
+	24	9600	1	30 -- Feuertalisman
+	25	9830	1	30 -- Eistalisman
+	26	10060	1	30 -- Erdtalisman
+	27	10750	1	30 -- Blitztalisman
+	28	10520	1	30 -- Windtalisman
+	29	10290	1	30 -- Dunkler Talisman
 	30	25041	1	15 -- Magisches Metall
 	31	27992	1	60 -- Weiße Perle
 	32	27993	1	60 -- Blaue Perle
@@ -1347,12 +1349,12 @@ Group	nemere_truhe
 	14	18080	1	10 -- Seelengürtel+0
 	15	18030	1	10 -- Gürtel der Weißheit+0
 	16	18020	1	10 -- Prunkvoller Gürtel+0
-	17	10955	1	40 -- Feuertalisman
-	18	10956	1	40 -- Eistalisman
-	19	10959	1	40 -- Erdtalisman
-	20	10958	1	40 -- Blitztalisman
-	21	10957	1	40 -- Windtalisman
-	22	10960	1	40 -- Dunkler Talisman
+	17	9600	1	40 -- Feuertalisman
+	18	9830	1	40 -- Eistalisman
+	19	10060	1	40 -- Erdtalisman
+	20	10750	1	40 -- Blitztalisman
+	21	10520	1	40 -- Windtalisman
+	22	10290	1	40 -- Dunkler Talisman
 	23	25041	1	20 -- Magisches Metall
 	24	71035	5	50 -- Elixier des Forschers
 	25	72349	5	50 -- Bio Abgabezeit
@@ -1386,12 +1388,12 @@ Group	razador_truhe
 	14	18080	1	10 -- Seelengürtel+0
 	15	18030	1	10 -- Gürtel der Weißheit+0
 	16	18020	1	10 -- Prunkvoller Gürtel+0
-	17	10955	1	40 -- Feuertalisman
-	18	10956	1	40 -- Eistalisman
-	19	10959	1	40 -- Erdtalisman
-	20	10958	1	40 -- Blitztalisman
-	21	10957	1	40 -- Windtalisman
-	22	10960	1	40 -- Dunkler Talisman
+	17	9600	1	40 -- Feuertalisman
+	18	9830	1	40 -- Eistalisman
+	19	10060	1	40 -- Erdtalisman
+	20	10750	1	40 -- Blitztalisman
+	21	10520	1	40 -- Windtalisman
+	22	10290	1	40 -- Dunkler Talisman
 	23	25041	1	20 -- Magisches Metall
 	24	71035	5	50 -- Elixier des Forschers
 	25	72349	5	50 -- Bio Abgabezeit
@@ -1420,12 +1422,12 @@ Group	jotun_truhe
 	9	18080	1	10 -- Seelengürtel+0
 	10	18030	1	10 -- Gürtel der Weißheit+0
 	11	18020	1	10 -- Prunkvoller Gürtel+0
-	12	10955	1	40 -- Feuertalisman
-	13	10956	1	40 -- Eistalisman
-	14	10959	1	40 -- Erdtalisman
-	15	10958	1	40 -- Blitztalisman
-	16	10957	1	40 -- Windtalisman
-	17	10960	1	40 -- Dunkler Talisman
+	12	9600	1	40 -- Feuertalisman
+	13	9830	1	40 -- Eistalisman
+	14	10060	1	40 -- Erdtalisman
+	15	10750	1	40 -- Blitztalisman
+	16	10520	1	40 -- Windtalisman
+	17	10290	1	40 -- Dunkler Talisman
 	18	71248	1	1 -- Goldener Kriegsstier
 	19	41872	1	3 -- Jotun-Kostüm(w)
 	20	41873	1	3 -- Jotun-Kostüm(m)
@@ -1467,12 +1469,12 @@ Group	pyramid_truhe
 	9	18080	1	10 -- Seelengürtel+0
 	10	18030	1	10 -- Gürtel der Weißheit+0
 	11	18020	1	10 -- Prunkvoller Gürtel+0
-	12	10955	1	40 -- Feuertalisman
-	13	10956	1	40 -- Eistalisman
-	14	10959	1	40 -- Erdtalisman
-	15	10958	1	40 -- Blitztalisman
-	16	10957	1	40 -- Windtalisman
-	17	10960	1	40 -- Dunkler Talisman
+	12	9600	1	40 -- Feuertalisman
+	13	9830	1	40 -- Eistalisman
+	14	10060	1	40 -- Erdtalisman
+	15	10750	1	40 -- Blitztalisman
+	16	10520	1	40 -- Windtalisman
+	17	10290	1	40 -- Dunkler Talisman
 	18	71250	1	1 -- Weiße Sphinx
 	19	41804	1	3 -- R. Pharaonengewand+ (w)
 	20	41802	1	3 -- R. Pharaonengewand+ (m)
