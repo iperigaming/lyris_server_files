@@ -158,8 +158,6 @@
 
         "vnum": 31230,
         "count": 30,
-        
-        "soulstone": 0,
 
         "perc": 60,
         "cooltime": 3600,
@@ -174,13 +172,11 @@
     {
         "conqueror_level": 10,
 
-        "vnum": 0,
-        "count": 1,
+        "vnum": 31231,
+        "count": 20,
         
-        "soulstone": 0,
-
-        "perc": 100,
-        "cooltime": 1,
+        "perc": 60,
+        "cooltime": 3600,
 
         "apply": [
             { "type": "SUNGMA_STR", "value": 5 },
@@ -192,13 +188,11 @@
     {
         "conqueror_level": 20,
 
-        "vnum": 0,
-        "count": 1,
+        "vnum": 31232,
+        "count": 20,
         
-        "soulstone": 0,
-
-        "perc": 100,
-        "cooltime": 1,
+        "perc": 60,
+        "cooltime": 3600,
 
         "apply": [
             { "type": "SUNGMA_STR", "value": 5 },
