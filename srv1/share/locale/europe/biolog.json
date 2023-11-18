@@ -121,7 +121,7 @@
         "cooltime": 1800,
 
         "apply": [
-            { "type": "", "value": 0 }
+            { "type": "ATTBONUS_HUMAN", "value": 10 }
         ]
     },
     {
