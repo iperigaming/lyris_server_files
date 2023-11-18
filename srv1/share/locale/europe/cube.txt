@@ -929,11 +929,11 @@ section
 npc	20001
 item	50513	100 -- Seelenstein
 item	71001	100 -- Exorzismus-Schriftrolle
-item	71094	100 -- Konzentriertes Lesen
-item	70102	10 -- Zen-Bohne
+item	71094	150 -- Konzentriertes Lesen
+item	70102	20 -- Zen-Bohne
 item	50323	50 -- Büchertruhe Konter
 reward	50577 	1 -- Legendärer Seelenstein
-gold	50000000
+gold	20000000
 percent	100
 end
 
@@ -942,10 +942,10 @@ npc	20001
 item	61031	100 -- Seelenstein(Buffi)
 item	71001	100 -- Exorzismus-Schriftrolle
 item	71094	100 -- Konzentriertes Lesen
-item	50323	25 -- Büchertruhe Konter
-item	50324	25 -- Büchertruhe Boost
+item	50323	50 -- Büchertruhe Konter
+item	50324	50 -- Büchertruhe Boost
 reward	61032 	1 -- Legendärer Seelenstein(Buffi)
-gold	50000000
+gold	20000000
 percent	100
 end
 
@@ -962,7 +962,7 @@ section
 npc	20001	
 item	71085	50
 reward	71084 	20 -- Switcher
-gold	100000
+gold	1000
 percent	100
 end
 
@@ -970,7 +970,7 @@ section
 npc	20001	
 item	70024	50
 reward	71084 	20 -- Switcher
-gold	100000
+gold	1000
 percent	100
 end
 
@@ -1196,10 +1196,30 @@ section
 npc	20016
 item	25041	1 -- Magischer Stein
 item	69152	3 -- Seltene Verzauberung
+reward	25044	1 -- Verzauberter Stein(10%)
+gold	10000000
+percent	100
+end
+
+section
+npc	20016
+item	25041	1 -- Magischer Stein
+item	69153	2 -- Epische Verzauberung
 reward	25045	1 -- Verhexter Stein(15%)
 gold	10000000
 percent	100
 end
+
+section
+npc	20016
+item	25041	1 -- Magischer Stein
+item	69154	1 -- Legendäre Verzauberung
+reward	25045	1 -- Verhexter Stein(15%)
+gold	10000000
+percent	100
+end
+
+
 
 
 

@@ -1394,93 +1394,69 @@ Group	jotun_truhe
 {
 	Vnum	54704
 	1	25041	1	25 -- Magisches Metall
-	2	71035	5	50 -- Elixier des Forschers
-	3	72349	5	50 -- Bio Abgabezeit
-	4	85002	1	15 -- Herrscherband (fein)
-	5	85006	1	15 -- Meisterband (fein)
-	6	85012	1	15 -- Fürstenband (fein)
-	7	85016	1	15 -- Königsband (fein)
-	8	50259	1	60 -- Cor Draconis(Legendär)
-	9	18080	1	10 -- Seelengürtel+0
-	10	18030	1	10 -- Gürtel der Weißheit+0
-	11	18020	1	10 -- Prunkvoller Gürtel+0
-	12	9600	1	40 -- Feuertalisman
-	13	9830	1	40 -- Eistalisman
-	14	10060	1	40 -- Erdtalisman
-	15	10750	1	40 -- Blitztalisman
-	16	10520	1	40 -- Windtalisman
-	17	10290	1	40 -- Dunkler Talisman
-	18	71248	1	1 -- Goldener Kriegsstier
-	19	41872	1	3 -- Jotun-Kostüm(w)
-	20	41873	1	3 -- Jotun-Kostüm(m)
-	21	45612	1	3 -- Jotun-Helm(m)
-	22	45613	1	3 -- Jotun-Helm(w)
-	23	40210	1	3 -- Jotuns-Schwert+
-	24	40211	1	3 -- Jotuns-Dolch+
-	25	40212	1	3 -- Jotuns-Bogen+
-	26	40213	1	3 -- Jotuns-Zweihänder+
-	27	40214	1	3 -- Jotuns-Glocke+
-	28	40215	1	3 -- Jotuns-Fächer+
-	29	85003	1	10 -- Herrscherband (edel)
-	30	85007	1	10 -- Meisterband (edel)
-	31	85013	1	10 -- Fürstenband (edel)
-	32	85017	1	10 -- Königsband (edel)
-	33	100701	1	25 -- Flamme des Drachen
-	34	18000	1	10 -- Leinengürtel+0
-	35	50525	1	60 -- Seelenstein+
-	36	55009	1	50 -- Pet Bücherkiste
-	37	83009	1	30 -- Petkiste
-	38	50926	10	25 -- Schmuckstein
-	39	31130	1	20 -- Spitzige Dornen
-	40	39112	1	30 -- Waffen-Servorlage
-	41	39111	1	30 -- Rüstungs-Setvorlage
-	42	25044	1	10 -- Verzauberter Stein(10%)
+	2	71035	5	10 -- Elixier des Forschers
+	3	72349	5	10 -- Bio Abgabezeit
+	4	50259	1	20 -- Cor Draconis(Legendär)
+	5	9600	1	40 -- Feuertalisman
+	6	9830	1	40 -- Eistalisman
+	7	10060	1	40 -- Erdtalisman
+	8	10750	1	40 -- Blitztalisman
+	9	10520	1	40 -- Windtalisman
+	10	10290	1	40 -- Dunkler Talisman
+	11	71248	1	1 -- Goldener Kriegsstier
+	12	41872	1	3 -- Jotun-Kostüm(w)
+	13	41873	1	3 -- Jotun-Kostüm(m)
+	14	45612	1	3 -- Jotun-Helm(m)
+	15	45613	1	3 -- Jotun-Helm(w)
+	16	40210	1	3 -- Jotuns-Schwert+
+	17	40211	1	3 -- Jotuns-Dolch+
+	18	40212	1	3 -- Jotuns-Bogen+
+	19	40213	1	3 -- Jotuns-Zweihänder+
+	20	40214	1	3 -- Jotuns-Glocke+
+	21	40215	1	3 -- Jotuns-Fächer+
+	22	100701	1	25 -- Flamme des Drachen
+	23	50525	1	60 -- Seelenstein+
+	24	55009	1	50 -- Pet Bücherkiste
+	25	83009	1	30 -- Petkiste
+	26	50926	10	25 -- Schmuckstein
+	27	31130	1	20 -- Spitzige Dornen
+	28	39112	1	30 -- Waffen-Servorlage
+	29	39111	1	30 -- Rüstungs-Setvorlage
+	30	25044	1	10 -- Verzauberter Stein(10%)
 }
 
 Group	pyramid_truhe
 {
 	Vnum	38054
 	1	25041	1	25 -- Magisches Metall
-	2	71035	5	50 -- Elixier des Forschers
-	3	72349	5	50 -- Bio Abgabezeit
-	4	85002	1	15 -- Herrscherband (fein)
-	5	85006	1	15 -- Meisterband (fein)
-	6	85012	1	15 -- Fürstenband (fein)
-	7	85016	1	15 -- Königsband (fein)
-	8	50259	1	60 -- Cor Draconis(Legendär)
-	9	18080	1	10 -- Seelengürtel+0
-	10	18030	1	10 -- Gürtel der Weißheit+0
-	11	18020	1	10 -- Prunkvoller Gürtel+0
-	12	9600	1	40 -- Feuertalisman
-	13	9830	1	40 -- Eistalisman
-	14	10060	1	40 -- Erdtalisman
-	15	10750	1	40 -- Blitztalisman
-	16	10520	1	40 -- Windtalisman
-	17	10290	1	40 -- Dunkler Talisman
-	18	71250	1	1 -- Weiße Sphinx
-	19	41804	1	3 -- R. Pharaonengewand+ (w)
-	20	41802	1	3 -- R. Pharaonengewand+ (m)
-	21	45538	1	3 -- R. Pharao-Kopfputz+ (m)
-	22	45540	1	3 -- R. Pharao-Kopfputz+ (w)
-	23	40216	1	3 -- Pharao-Schwert+
-	24	40217	1	3 -- Pharao-Dolch+
-	25	40218	1	3 -- Pharao-Bogen+
-	26	40219	1	3 -- Pharao-Zweihänder+
-	27	40220	1	3 -- Pharao-Glocke+
-	28	40221	1	3 -- Pharao-Fächer+
-	29	85003	1	10 -- Herrscherband (edel)
-	30	85007	1	10 -- Meisterband (edel)
-	31	85013	1	10 -- Fürstenband (edel)
-	32	85017	1	10 -- Königsband (edel)
-	33	100701	1	25 -- Flamme des Drachen
-	34	18000	1	10 -- Leinengürtel+0
-	35	55009	1	50 -- Pet Bücherkiste
-	36	83009	1	30 -- Petkiste
-	37	50926	10	25 -- Schmuckstein
-	38	39110	1	30 -- Helm-Setvorlage
-	39	30586	1	30 -- Glatter Schmuck(Purpur)
-	40	30581	1	30 -- Glatter Bronzeschmuck
-	41	25044	1	10 -- Verzauberter Stein(10%)
+	2	71035	5	30 -- Elixier des Forschers
+	3	72349	5	30 -- Bio Abgabezeit
+	4	50259	1	20 -- Cor Draconis(Legendär)
+	5	9600	1	40 -- Feuertalisman
+	6	9830	1	40 -- Eistalisman
+	7	10060	1	40 -- Erdtalisman
+	8	10750	1	40 -- Blitztalisman
+	9	10520	1	40 -- Windtalisman
+	10	10290	1	40 -- Dunkler Talisman
+	11	71250	1	1 -- Weiße Sphinx
+	12	41804	1	3 -- R. Pharaonengewand+ (w)
+	13	41802	1	3 -- R. Pharaonengewand+ (m)
+	14	45538	1	3 -- R. Pharao-Kopfputz+ (m)
+	15	45540	1	3 -- R. Pharao-Kopfputz+ (w)
+	16	40216	1	3 -- Pharao-Schwert+
+	17	40217	1	3 -- Pharao-Dolch+
+	18	40218	1	3 -- Pharao-Bogen+
+	19	40219	1	3 -- Pharao-Zweihänder+
+	20	40220	1	3 -- Pharao-Glocke+
+	21	40221	1	3 -- Pharao-Fächer+
+	22	100701	1	25 -- Flamme des Drachen
+	23	55009	1	50 -- Pet Bücherkiste
+	24	83009	1	30 -- Petkiste
+	25	50926	10	25 -- Schmuckstein
+	26	39110	1	30 -- Helm-Setvorlage
+	27	30586	1	30 -- Glatter Schmuck(Purpur)
+	28	30581	1	30 -- Glatter Bronzeschmuck
+	29	25044	1	10 -- Verzauberter Stein(10%)
 }
 
 Group	atlantis_truhe
@@ -1493,7 +1469,7 @@ Group	atlantis_truhe
 	5	23010	1	15 -- Flinke Handschuhe+0
 	6	23000	1	15 -- Krafthandschuhe+0
 	7	25041	1	30 -- Magisches Metall
-	8	50259	1	60 -- Cor Draconis(Legendär)
+	8	50259	1	20 -- Cor Draconis(Legendär)
 	9	71265	1	1 -- Mondschein-Seepferd
 	10	41876	1	3 -- Atlantis-Kostüm(w)+
 	11	41877	1	3 -- Atlantis-Kostüm(m)+
@@ -1505,33 +1481,29 @@ Group	atlantis_truhe
 	17	40237	1	3 -- Atlantis-Zweihänder+
 	18	40238	1	3 -- Atlantis-Glocke+
 	19	40239	1	3 -- Atlantis-Fächer+
-	20	85003	1	10 -- Herrscherband (edel)
-	21	85007	1	10 -- Meisterband (edel)
-	22	85013	1	10 -- Fürstenband (edel)
-	23	85017	1	10 -- Königsband (edel)
-	24	100701	1	25 -- Flamme des Drachen
-	25	55009	1	50 -- Pet Bücherkiste
-	26	18100	1	10 -- Titangürtel+0
-	27	18090	1	10 -- Turmalingürtel+0
-	28	83009	1	30 -- Petkiste
-	29	376	1	20 -- Schlangenschwert(herst.)
-	30	396	1	20 -- Schlangenklinge(herst.)
-	31	2246	1	20 -- Schlangenbogen(herst.)
-	32	1226	1	20 -- Schlangendolch(herst.)
-	33	3266	1	20 -- Schlangengroßschw.(herst.)
-	34	5216	1	20 -- Schlangenglocke.(herst.)
-	35	7346	1	20 -- Schlangenfächer.(herst.)
-	36	21326	1	20 -- Schlangenmantel (herst.)
-	37	21346	1	20 -- Schlangenwams (herst.)
-	38	21366	1	20 -- B. Schlangenm. (herst.)
-	39	21386	1	20 -- R. Schlangenm. (herst.)
-	40	31209	1	20 -- EW:Kriegerhelmentwurf
-	41	31210	1	20 -- EW:Ninjahelmentwurf
-	42	31211	1	20 -- EW:Surahelmentwurf
-	43	31212	1	20 -- EW:Schamanenhelmentwurf
-	44	30584	1	20 -- Glatter Schmuck(Grün)
-	45	50124	1	1 -- Morsche Holzkiste
-	46	25045	1	10 -- Verhexter Stein(15%)
+	20	100701	1	25 -- Flamme des Drachen
+	21	55009	1	50 -- Pet Bücherkiste
+	22	18100	1	10 -- Titangürtel+0
+	23	18090	1	10 -- Turmalingürtel+0
+	24	83009	1	30 -- Petkiste
+	25	376	1	20 -- Schlangenschwert(herst.)
+	26	396	1	20 -- Schlangenklinge(herst.)
+	27	2246	1	20 -- Schlangenbogen(herst.)
+	28	1226	1	20 -- Schlangendolch(herst.)
+	29	3266	1	20 -- Schlangengroßschw.(herst.)
+	30	5216	1	20 -- Schlangenglocke.(herst.)
+	31	7346	1	20 -- Schlangenfächer.(herst.)
+	32	21326	1	20 -- Schlangenmantel (herst.)
+	33	21346	1	20 -- Schlangenwams (herst.)
+	34	21366	1	20 -- B. Schlangenm. (herst.)
+	35	21386	1	20 -- R. Schlangenm. (herst.)
+	36	31209	1	20 -- EW:Kriegerhelmentwurf
+	37	31210	1	20 -- EW:Ninjahelmentwurf
+	38	31211	1	20 -- EW:Surahelmentwurf
+	39	31212	1	20 -- EW:Schamanenhelmentwurf
+	40	30584	1	20 -- Glatter Schmuck(Grün)
+	41	50124	1	1 -- Morsche Holzkiste
+	42	25045	1	10 -- Verhexter Stein(15%)
 }
 
 Group	andun_truhe
@@ -1544,7 +1516,7 @@ Group	andun_truhe
 	5	23010	1	15 -- Flinke Handschuhe+0
 	6	23000	1	15 -- Krafthandschue+0
 	7	25041	1	30 -- Magisches Metall
-	8	50259	1	60 -- Cor Draconis(Legendär)
+	8	50259	1	20 -- Cor Draconis(Legendär)
 	9	71242	1	1 -- Spektralross
 	10	41878	1	3 -- Andun-Kostüm(w)+
 	11	41879	1	3 -- Andun-Kostüm(m)+
