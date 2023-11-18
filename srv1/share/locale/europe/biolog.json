@@ -1,0 +1,210 @@
+[
+    {
+        "level": 30,
+
+        "vnum": 30006,
+        "count": 10,
+        
+        "soulstone": 30220,
+
+        "perc": 60,
+        "cooltime": 1,
+
+        "apply": [
+            { "type": "ATTBONUS_MONSTER", "value": 5 }
+        ]
+    },
+    {
+        "level": 40,
+
+        "vnum": 30047,
+        "count": 15,
+        
+        "soulstone": 30221,
+
+        "perc": 60,
+        "cooltime": 300,
+
+        "apply": [
+            { "type": "ATTBONUS_STONE", "value": 5 }
+        ]
+    },
+    {
+        "level": 50,
+
+        "vnum": 30061,
+        "count": 15,
+        
+        "soulstone": 30222,
+
+        "perc": 60,
+        "cooltime": 300,
+
+        "apply": [
+            { "type": "RESIST_MONSTER", "value": 5 }
+        ]
+    },
+    {
+        "level": 60,
+
+        "vnum": 30050,
+        "count": 20,
+        
+        "soulstone": 30223,
+
+        "perc": 60,
+        "cooltime": 300,
+
+        "apply": [
+            { "type": "ATT_GRADE_BONUS", "value": 50 },
+            { "type": "DEF_GRADE", "value": 50 }
+        ]
+    },
+    {
+        "level": 70,
+
+        "vnum": 30165,
+        "count": 25,
+        
+        "soulstone": 30224,
+
+        "perc": 60,
+        "cooltime": 600,
+
+        "apply": [
+            { "type": "ATTBONUS_BOSS", "value": 10 }
+        ]
+    },
+    {
+        "level": 75,
+
+        "vnum": 30167,
+        "count": 40,
+        
+        "soulstone": 30226,
+
+        "perc": 60,
+        "cooltime": 1200,
+
+        "apply": [
+            { "type": "ENCHANT_EARTH", "value": 10 },
+            { "type": "ENCHANT_DARK", "value": 10 },
+            { "type": "ENCHANT_ELECT", "value": 10 }
+        ]
+    },
+    {
+        "level": 80,
+
+        "vnum": 30166,
+        "count": 30,
+        
+        "soulstone": 30225,
+
+        "perc": 60,
+        "cooltime": 1200,
+
+        "apply": [
+            { "type": "ENCHANT_FIRE", "value": 10 },
+            { "type": "ENCHANT_ICE", "value": 10 },
+            { "type": "ENCHANT_WIND", "value": 10 }
+        ]
+    },
+    {
+        "level": 90,
+
+        "vnum": 30168,
+        "count": 50,
+        
+        "soulstone": 30227,
+
+        "perc": 60,
+        "cooltime": 1800,
+
+        "apply": [
+            { "type": "", "value": 0 }
+        ]
+    },
+    {
+        "level": 92,
+
+        "vnum": 30251,
+        "count": 10,
+
+        "perc": 60,
+        "cooltime": 1800,
+
+        "apply": [
+            { "type": "RESIST_HUMAN", "value": 10 }
+        ]
+    },
+    {
+        "level": 94,
+
+        "vnum": 30252,
+        "count": 20,
+        
+        "soulstone": 30228,
+
+        "perc": 60,
+        "cooltime": 1800,
+
+        "apply": [
+            { "type": "SKILL_DAMAGE_BONUS", "value": 10 },
+            { "type": "NORMAL_HIT_DAMAGE_BONUS", "value": 10 }
+        ]
+    },
+    {
+        "conqueror_level": 1,
+
+        "vnum": 31230,
+        "count": 30,
+        
+        "soulstone": 0,
+
+        "perc": 60,
+        "cooltime": 3600,
+
+        "apply": [
+            { "type": "SUNGMA_STR", "value": 5 },
+            { "type": "SUNGMA_HP", "value": 5 },
+            { "type": "SUNGMA_MOVE", "value": 5 },
+            { "type": "SUNGMA_IMMUNE", "value": 5 }
+        ]
+    },
+    {
+        "conqueror_level": 10,
+
+        "vnum": 0,
+        "count": 1,
+        
+        "soulstone": 0,
+
+        "perc": 100,
+        "cooltime": 1,
+
+        "apply": [
+            { "type": "SUNGMA_STR", "value": 5 },
+            { "type": "SUNGMA_HP", "value": 5 },
+            { "type": "SUNGMA_MOVE", "value": 5 },
+            { "type": "SUNGMA_IMMUNE", "value": 5 }
+        ]
+    },
+    {
+        "conqueror_level": 20,
+
+        "vnum": 0,
+        "count": 1,
+        
+        "soulstone": 0,
+
+        "perc": 100,
+        "cooltime": 1,
+
+        "apply": [
+            { "type": "SUNGMA_STR", "value": 5 },
+            { "type": "SUNGMA_HP", "value": 5 },
+            { "type": "SUNGMA_MOVE", "value": 5 },
+            { "type": "SUNGMA_IMMUNE", "value": 5 }
+        ]
+    }
+]
