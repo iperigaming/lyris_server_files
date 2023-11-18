@@ -113,16 +113,7 @@ quest dragon_lair_access begin
 
 		-- kill dragon
 		when kill with npc.get_race() == DUNGEON_DRAGON_MOB_VNUM and dragon_lair_access.is_dungeon() begin
-			local settings = dragon_lair_access.settings()
-
             dragon_lair_access.clear_timers()
-			d.clear_regen()
-			d.kill_all()
-
-            d.complete()
-
-            server_timer("dragon_lair_access_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(settings["data"]["dragon"]))
 		end
 
 		-- server time left timers

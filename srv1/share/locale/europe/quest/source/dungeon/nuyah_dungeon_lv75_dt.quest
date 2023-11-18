@@ -437,14 +437,6 @@ quest nuyah_dungeon_lv75_dt begin
         -- level 9
         when kill with npc.get_race() == DUNGEON_MOB_LEVEL9_BOSS and nuyah_dungeon_lv75_dt.is_dungeon() and d.getf("dungeon_level") == 9 begin
             nuyah_dungeon_lv75_dt.clear_timers()
-
-            d.clear_regen()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("nuyah_dungeon_lv75_dt_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(DUNGEON_MOB_LEVEL9_BOSS))
 		end
 
         -- server timer

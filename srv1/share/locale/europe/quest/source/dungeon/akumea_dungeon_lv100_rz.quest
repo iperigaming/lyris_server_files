@@ -427,15 +427,7 @@ quest akumea_dungeon_lv100_rz begin
 
         -- level 7
         when kill with npc.get_race() == DUNGEON_MOB_RAZADOR and akumea_dungeon_lv100_rz.is_dungeon() and d.getf("dungeon_level") == 7 begin
-            local settings = akumea_dungeon_lv100_rz.settings()
-
             akumea_dungeon_lv100_rz.clear_timers()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_lv100_rz_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(settings["data"]["level"][7]["razador"]["vnum"]))
         end
 
         -- talk to the dungeon man (in dungeon)

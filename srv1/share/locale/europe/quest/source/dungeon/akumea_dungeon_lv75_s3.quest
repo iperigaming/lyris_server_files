@@ -165,15 +165,7 @@ quest akumea_dungeon_lv75_s3 begin
 		end
 
         when kill with npc.get_race() == DUNGEON_MOB_BOSS and akumea_dungeon_lv75_s3.is_dungeon() and d.getf("dungeon_level") == 2 begin
-            local settings = akumea_dungeon_lv75_s3.settings()
-
             akumea_dungeon_lv75_s3.clear_timers()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_lv75_s3_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(settings["data"]["boss"]["vnum"]))
         end
 
         -- server time left timers

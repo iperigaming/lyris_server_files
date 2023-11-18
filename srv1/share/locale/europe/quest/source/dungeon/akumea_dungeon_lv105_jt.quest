@@ -212,15 +212,7 @@ quest akumea_dungeon_lv105_jt begin
 
         -- level 4
         when kill with npc.get_race() == DUNGEON_MOB_JOTUN and akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 4 begin
-            local settings = akumea_dungeon_lv105_jt.settings()
-
             akumea_dungeon_lv105_jt.clear_timers()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_lv105_jt_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(settings["data"]["jotun"]["vnum"]))
         end
 
         when kill with akumea_dungeon_lv105_jt.is_dungeon() and d.getf("dungeon_level") == 2 begin

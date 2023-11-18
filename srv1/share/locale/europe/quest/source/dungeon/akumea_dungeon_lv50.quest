@@ -288,14 +288,6 @@ quest akumea_dungeon_lv50 begin
         -- level 5 kill boss
         when 4313.kill with akumea_dungeon_lv50.is_dungeon() and d.getf("dungeon_level") == 5 begin
             akumea_dungeon_lv50.clear_timers()
-
-            d.clear_regen()
-			d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_lv50_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(4313))
         end
 
         -- monster count server timers

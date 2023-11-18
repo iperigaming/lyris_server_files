@@ -251,13 +251,7 @@ quest akumea_dungeon_lv75_dc begin
 
 		-- kill azrael
 		when kill with npc.get_race() == DUNGEON_DEVIL_EMPEROR and akumea_dungeon_lv75_dc.is_dungeon() and d.getf("dungeon_level") == 5 begin
-			d.kill_all()
 			akumea_dungeon_lv75_dc.clear_timers()
-			
-			d.complete()
-
-			server_timer("akumea_dungeon_lv75_dc_exit_timer", 2*60, d.get_map_index())
-			d.notice_mission(91728, mob_link(DUNGEON_DEVIL_EMPEROR))
 		end
 
 		-- server timers

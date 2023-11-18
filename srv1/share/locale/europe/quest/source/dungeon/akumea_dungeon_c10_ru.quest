@@ -416,14 +416,6 @@ quest akumea_dungeon_c10_ru begin
         -- level 10
         when kill with npc.get_race() == DUNGEON_MOB_LEVEL10_BOSS and akumea_dungeon_c10_ru.is_dungeon() and d.getf("dungeon_level") == 10 begin
             akumea_dungeon_c10_ru.clear_timers()
-
-            d.clear_regen()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_c10_ru_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(DUNGEON_MOB_LEVEL10_BOSS))
         end
 
         -- server timer

@@ -772,14 +772,6 @@ quest akumea_dungeon_c20_an begin
         -- level 9
         when kill with npc.get_race() == DUNGEON_MOB_LEVEL9_BOSS and akumea_dungeon_c20_an.is_dungeon() and d.getf("dungeon_level") == 9 begin
             akumea_dungeon_c20_an.clear_timers()
-
-            d.clear_regen()
-            d.kill_all()
-
-            d.complete()
-
-            server_timer("akumea_dungeon_c20_an_final_exit", 2*60, d.get_map_index())
-            d.notice_mission(91728, mob_link(DUNGEON_MOB_LEVEL9_BOSS))
         end
 
         when kill with npc.get_race() == DUNGEON_MOB_LEVEL9_STONE and akumea_dungeon_c20_an.is_dungeon() and d.getf("dungeon_level") == 9 begin
