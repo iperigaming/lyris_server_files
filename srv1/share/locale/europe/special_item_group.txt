@@ -272,93 +272,75 @@ Group	mondi
 	1	50255	1	60 -- Cor Roh
 	2	71035	1	5 -- Elixier des Forschers
 	3	72349	1	5 -- Bio Abgabezeit
-	2	70102	1	70 -- Zen Bohne
-	3	25041	1	10 -- Magischer Stein
-	4	25044	1	5 -- Verzauberter Stein
-	5	25045	1	3 -- Verhexter Stein
-	6	71069	1	1 -- Ohrringe der Harmonie 3T
-	7	71072	1	1 -- Armband der Haromnie 3T
-	8	71074	1	1 -- Halskette der Haromnie 3T
-	9	69155	1	80 -- Yang-Gutschein(500k)
-	10	69156	1	70 -- Yang-Gutschein(750k)
-	11	69157	1	60 -- Yang-Gutschein(1kk)
-	12	69158	1	50 -- Yang-Gutschein(1,5kk)
-	13	71129	1	2 -- Drachenkralle
-	14	71123	1	2 -- Drachenschuppe
-	15	69151	1	10 -- Ungewöhnliche Verzauberung
-	16	69152	1	8 -- Seltene Verzauberun
-	17	69153	1	6 -- Epische Verzauberung
-	18	69154	1	3 -- Legendäre Verzauberung
-	19	31085	1	4 -- Schweres Wasser
-	20	31086	1	4 -- Pilzsporen
-	21	31238	1	30 -- Schimmernde Muschel
-	22	50926	10	60 -- Schmuckstein
-	23	50926	20	50 -- Schmuckstein
-	24	50926	50	40 -- Schmuckstein
-	25	72347	1	10 -- Dungeon-Akzelerator(Low)
-	26	72348	1	5 -- Dungeon-Akzelerator(Mid)
-	27	72361	1	2 -- Dungeon-Akzelerator(High)
-	28	27990	10	30 -- Steinstück
-	29	27990	20	20 -- Steinstück
-	30	27990	50	10 -- Steinstück
-	31	80019	1	40 -- Feines Tuch
-	32	91561	1	3 -- Urkunde der Aura+
-	33	39046	1	3 -- Urkunde der Umkehr+
-	34	30228	1	4 -- Beran-Setaou Seelenstein
-	35	53003	1	1 -- Eisphönix
-	36	71222	1	1 -- Nirwana Drache
-	37	55010	1	10 -- Widerstand(Halbmenschen)
-	38	55011	1	10 -- Widerstand(Monster)
-	39	55012	1	10 -- Menschenjäger-Buch
-	40	55013	1	10 -- Bossjäger-Buch
-	41	55014	1	10 -- Steinjäger-Buch
-	42	55015	1	10 -- Berserker-Buch
-	43	55016	1	10 -- Magiebruch-Buch
-	44	55017	1 	10 -- Beschleunigungs-Buch
-	45	55018	1	10 -- Drill-Buch
-	46	55019	1	10 -- Erneuerungs-Buch
-	47	55020	1	10 -- Vampir-Buch
-	48	55021	1	10 -- Geister-Buch
-	49	55022	1	10 -- Hindernis-Buch
-	50	55023	1	10 -- Spiegelbuch
-	51	55024	1	10 -- Yang Drop-Buch
-	52	55025	1	10 -- Reichweiten-Buch
-	53	55026	1	10 -- Unbesiegbarkeits-Buch
-	54	55027	1	10 -- Heilungs-Buch
-	55	55034	1	10 -- Braumeister-Buch
-	56	55035	1	10 -- Monsterjäger-Buch
-	57	55036	1	10 -- Scharfblick-Buch
-	58	55037	1	10 -- Lebensentzugs-Buch
-	59	55038	1	10 -- Federleicht-Buch
-	60	27987	1	130 -- Muschel
-	61	27987	1	130 -- Muschel
+	4	70102	1	70 -- Zen Bohne
+	5	25041	1	10 -- Magischer Stein
+	6	25044	1	5 -- Verzauberter Stein
+	7	25045	1	3 -- Verhexter Stein
+	8	71069	1	1 -- Ohrringe der Harmonie 3T
+	9	71072	1	1 -- Armband der Haromnie 3T
+	10	71074	1	1 -- Halskette der Haromnie 3T
+	11	69155	1	80 -- Yang-Gutschein(500k)
+	12	69156	1	70 -- Yang-Gutschein(750k)
+	13	69157	1	60 -- Yang-Gutschein(1kk)
+	14	69158	1	50 -- Yang-Gutschein(1,5kk)
+	15	71129	1	2 -- Drachenkralle
+	16	71123	1	2 -- Drachenschuppe
+	17	69151	1	10 -- Ungewöhnliche Verzauberung
+	18	69152	1	8 -- Seltene Verzauberun
+	19	69153	1	6 -- Epische Verzauberung
+	20	69154	1	3 -- Legendäre Verzauberung
+	21	31085	1	4 -- Schweres Wasser
+	22	31086	1	4 -- Pilzsporen
+	23	31238	1	30 -- Schimmernde Muschel
+	24	50926	10	60 -- Schmuckstein
+	25	50926	20	50 -- Schmuckstein
+	26	50926	50	40 -- Schmuckstein
+	27	72347	1	10 -- Dungeon-Akzelerator(Low)
+	28	72348	1	5 -- Dungeon-Akzelerator(Mid)
+	29	72361	1	2 -- Dungeon-Akzelerator(High)
+	30	27990	10	30 -- Steinstück
+	31	27990	20	20 -- Steinstück
+	32	27990	50	10 -- Steinstück
+	33	80019	1	40 -- Feines Tuch
+	34	91561	1	3 -- Urkunde der Aura+
+	35	39046	1	3 -- Urkunde der Umkehr+
+	36	30228	1	4 -- Beran-Setaou Seelenstein
+	37	53003	1	1 -- Eisphönix
+	38	71222	1	1 -- Nirwana Drache
+	39	55010	1	10 -- Widerstand(Halbmenschen)
+	40	55011	1	10 -- Widerstand(Monster)
+	41	55012	1	10 -- Menschenjäger-Buch
+	42	55013	1	10 -- Bossjäger-Buch
+	43	55014	1	10 -- Steinjäger-Buch
+	44	55015	1	10 -- Berserker-Buch
+	45	55016	1	10 -- Magiebruch-Buch
+	46	55017	1 	10 -- Beschleunigungs-Buch
+	47	55018	1	10 -- Drill-Buch
+	48	55019	1	10 -- Erneuerungs-Buch
+	49	55020	1	10 -- Vampir-Buch
+	50	55021	1	10 -- Geister-Buch
+	51	55022	1	10 -- Hindernis-Buch
+	52	55023	1	10 -- Spiegelbuch
+	53	55024	1	10 -- Yang Drop-Buch
+	54	55025	1	10 -- Reichweiten-Buch
+	55	55026	1	10 -- Unbesiegbarkeits-Buch
+	56	55027	1	10 -- Heilungs-Buch
+	57	55034	1	10 -- Braumeister-Buch
+	58	55035	1	10 -- Monsterjäger-Buch
+	59	55036	1	10 -- Scharfblick-Buch
+	60	55037	1	10 -- Lebensentzugs-Buch
+	61	55038	1	10 -- Federleicht-Buch
 	62	27987	1	130 -- Muschel
 	63	27987	1	130 -- Muschel
-	64	27987	1	130 -- Muschel
-	65	27987	1	130 -- Muschel
-	66	27987	1	130 -- Muschel
-	67	25040	1	140 -- Segensschriftrolle
-	68	25040	1	140 -- Segensschriftrolle
-	69	25040	1	140 -- Segensschriftrolle
-	70	25040	1	140 -- Segensschriftrolle
-	71	25040	1	140 -- Segensschriftrolle
-	72	25040	1	140 -- Segensschriftrolle
-	73	50255	1	150 -- Cor Roh
-	74	50255	1	150 -- Cor Roh
-	75	50255	1	150 -- Cor Roh
-	76	50255	1	150 -- Cor Roh
-	77	50255	1	150 -- Cor Roh
-	78	50255	1	150 -- Cor Roh
-	79	50255	1	150 -- Cor Roh
-	80	50255	1	150 -- Cor Roh
-	81	50255	1	150 -- Cor Roh
-	82	50255	1	150 -- Cor Roh
-	83	50255	1	150 -- Cor Roh
-	84	50255	1	150 -- Cor Roh
-	85	50255	1	150 -- Cor Roh
-	86	50255	1	150 -- Cor Roh
-	87	30581	1	2 -- Glatter Bronzeschmuck
-	88	100701	1	5 -- Flamme des Drachen
+	64	25040	1	140 -- Segensschriftrolle
+	65	25040	1	140 -- Segensschriftrolle
+	66	25040	1	140 -- Segensschriftrolle
+	67	50255	1	150 -- Cor Roh
+	68	50255	1	150 -- Cor Roh
+	69	50255	1	150 -- Cor Roh
+	70	50255	1	150 -- Cor Roh
+	71	30581	1	2 -- Glatter Bronzeschmuck
+	72	100701	1	5 -- Flamme des Drachen
 }
 
 Group	pet_skillchest
@@ -1511,54 +1493,45 @@ Group	atlantis_truhe
 	5	23010	1	15 -- Flinke Handschuhe+0
 	6	23000	1	15 -- Krafthandschuhe+0
 	7	25041	1	30 -- Magisches Metall
-	8	71035	5	50 -- Elixier des Forschers
-	9	72349	5	50 -- Bio Abgabezeit
-	10	85002	1	25 -- Herrscherband (fein)
-	11	85006	1	25 -- Meisterband (fein)
-	12	85012	1	25 -- Fürstenband (fein)
-	13	85016	1	25 -- Königsband (fein)
-	14	50259	1	60 -- Cor Draconis(Legendär)
-	15	71265	1	1 -- Mondschein-Seepferd
-	16	41876	1	3 -- Atlantis-Kostüm(w)+
-	17	41877	1	3 -- Atlantis-Kostüm(m)+
-	18	45616	1	3 -- Atlantis-Helm(m)+
-	19	45617	1	3 -- Atlantis-Helm(w)+
-	20	40234	1	3 -- Atlantis-Schwert+
-	21	40235	1	3 -- Atlantis-Dolch+
-	22	40236	1	3 -- Atlantis-Bogen+
-	23	40237	1	3 -- Atlantis-Zweihänder+
-	24	40238	1	3 -- Atlantis-Glocke+
-	25	40239	1	3 -- Atlantis-Fächer+
-	26	85003	1	10 -- Herrscherband (edel)
-	27	85007	1	10 -- Meisterband (edel)
-	28	85013	1	10 -- Fürstenband (edel)
-	29	85017	1	10 -- Königsband (edel)
-	30	100701	1	25 -- Flamme des Drachen
-	31	50323	5	20 -- Büchertruhe Konter
-	32	50324	5	20 -- Büchertruhe Boost
-	33	55009	1	50 -- Pet Bücherkiste
-	34	18100	1	10 -- Titangürtel+0
-	35	18090	1	10 -- Turmalingürtel+0
-	36	83009	1	30 -- Petkiste
-	37	50926	10	40 -- Schmuckstein
-	38	376	1	20 -- Schlangenschwert(herst.)
-	39	396	1	20 -- Schlangenklinge(herst.)
-	40	2246	1	20 -- Schlangenbogen(herst.)
-	41	1226	1	20 -- Schlangendolch(herst.)
-	42	3266	1	20 -- Schlangengroßschw.(herst.)
-	43	5216	1	20 -- Schlangenglocke.(herst.)
-	44	7346	1	20 -- Schlangenfächer.(herst.)
-	45	21326	1	20 -- Schlangenmantel (herst.)
-	46	21346	1	20 -- Schlangenwams (herst.)
-	47	21366	1	20 -- B. Schlangenm. (herst.)
-	48	21386	1	20 -- R. Schlangenm. (herst.)
-	49	31209	1	20 -- EW:Kriegerhelmentwurf
-	50	31210	1	20 -- EW:Ninjahelmentwurf
-	51	31211	1	20 -- EW:Surahelmentwurf
-	52	31212	1	20 -- EW:Schamanenhelmentwurf
-	53	30584	1	20 -- Glatter Schmuck(Grün)
-	54	50124	1	1 -- Morsche Holzkiste
-	55	25045	1	10 -- Verhexter Stein(15%)
+	8	50259	1	60 -- Cor Draconis(Legendär)
+	9	71265	1	1 -- Mondschein-Seepferd
+	10	41876	1	3 -- Atlantis-Kostüm(w)+
+	11	41877	1	3 -- Atlantis-Kostüm(m)+
+	12	45616	1	3 -- Atlantis-Helm(m)+
+	13	45617	1	3 -- Atlantis-Helm(w)+
+	14	40234	1	3 -- Atlantis-Schwert+
+	15	40235	1	3 -- Atlantis-Dolch+
+	16	40236	1	3 -- Atlantis-Bogen+
+	17	40237	1	3 -- Atlantis-Zweihänder+
+	18	40238	1	3 -- Atlantis-Glocke+
+	19	40239	1	3 -- Atlantis-Fächer+
+	20	85003	1	10 -- Herrscherband (edel)
+	21	85007	1	10 -- Meisterband (edel)
+	22	85013	1	10 -- Fürstenband (edel)
+	23	85017	1	10 -- Königsband (edel)
+	24	100701	1	25 -- Flamme des Drachen
+	25	55009	1	50 -- Pet Bücherkiste
+	26	18100	1	10 -- Titangürtel+0
+	27	18090	1	10 -- Turmalingürtel+0
+	28	83009	1	30 -- Petkiste
+	29	376	1	20 -- Schlangenschwert(herst.)
+	30	396	1	20 -- Schlangenklinge(herst.)
+	31	2246	1	20 -- Schlangenbogen(herst.)
+	32	1226	1	20 -- Schlangendolch(herst.)
+	33	3266	1	20 -- Schlangengroßschw.(herst.)
+	34	5216	1	20 -- Schlangenglocke.(herst.)
+	35	7346	1	20 -- Schlangenfächer.(herst.)
+	36	21326	1	20 -- Schlangenmantel (herst.)
+	37	21346	1	20 -- Schlangenwams (herst.)
+	38	21366	1	20 -- B. Schlangenm. (herst.)
+	39	21386	1	20 -- R. Schlangenm. (herst.)
+	40	31209	1	20 -- EW:Kriegerhelmentwurf
+	41	31210	1	20 -- EW:Ninjahelmentwurf
+	42	31211	1	20 -- EW:Surahelmentwurf
+	43	31212	1	20 -- EW:Schamanenhelmentwurf
+	44	30584	1	20 -- Glatter Schmuck(Grün)
+	45	50124	1	1 -- Morsche Holzkiste
+	46	25045	1	10 -- Verhexter Stein(15%)
 }
 
 Group	andun_truhe
@@ -1571,51 +1544,37 @@ Group	andun_truhe
 	5	23010	1	15 -- Flinke Handschuhe+0
 	6	23000	1	15 -- Krafthandschue+0
 	7	25041	1	30 -- Magisches Metall
-	8	71035	5	50 -- Elixier des Forschers
-	9	72349	5	50 -- Bio Abgabezeit
-	10	85002	1	25 -- Herrscherband (fein)
-	11	85006	1	25 -- Meisterband (fein)
-	12	85012	1	25 -- Fürstenband (fein)
-	13	85016	1	25 -- Königsband (fein)
-	14	50259	1	60 -- Cor Draconis(Legendär)
-	15	71242	1	1 -- Spektralross
-	16	41878	1	3 -- Andun-Kostüm(w)+
-	17	41879	1	3 -- Andun-Kostüm(m)+
-	18	45618	1	3 -- Andun-Helm(m)+
-	19	45619	1	3 -- Andun-Helm(w)+
-	20	40240	1	3 -- Andun-Schwert+
-	21	40241	1	3 -- Andun-Dolch+
-	22	40242	1	3 -- Andun-Bogen+
-	23	40243	1	3 -- Andun-Zweihänder+
-	24	40244	1	3 -- Andun-Glocke+
-	25	40245	1	3 -- Andun-Fächer+
-	26	85003	1	10 -- Herrscherband (edel)
-	27	85007	1	10 -- Meisterband (edel)
-	28	85013	1	10 -- Fürstenband (edel)
-	29	85017	1	10 -- Königsband (edel)
-	30	100701	1	25 -- Flamme des Drachen
-	31	50323	5	20 -- Büchertruhe Konter
-	32	50324	5	20 -- Büchertruhe Boost
-	33	18100	1	10 -- Titangürtel+0
-	34	18090	1	10 -- Turmalingürtel+0
-	35	83009	1	30 -- Petkiste
-	36	50926	80	40 -- Schmuckstein
-	37	50124	1	1 -- Morsche Holzkiste
-	38	31196	1	20 -- EW: Schwertentwurf
-	39	31197	1	20 -- EW: Schneidenentwurf
-	40	31199	1	20 -- EW: Bogenentwurf
-	41	31198	1	20 -- EW: Dolchentwurf
-	42	31200	1	20 -- EW: Klingenentwurf
-	43	31201	1	20 -- EW: Glockenentwurf
-	44	31203	1	20 -- EW: Fächerentwurf
-	45	31204	1	20 -- EW: Kriegerrüst.-Entw.
-	46	31205	1	20 -- EW: Ninjarüst.-Entw.
-	47	31206	1	20 -- EW: Surarüst.-Entw.
-	48	31207	1	20 -- EW: Schamanenrüst.-Entw.
-	49	31209	1	20 -- EW: Kriegerhelmentwurf
-	50	31210	1	20 -- EW: Ninjahelmentwurf
-	51	31211	1	20 -- EW: Surahelmentwurf
-	52	31212	1	20 -- EW: Schamanenhelmentwurf
-	53	30583	1	20 -- Glatter Schmuck(Blau)
-	54	25045	1	10 -- Verhexter Stein(15%)
+	8	50259	1	60 -- Cor Draconis(Legendär)
+	9	71242	1	1 -- Spektralross
+	10	41878	1	3 -- Andun-Kostüm(w)+
+	11	41879	1	3 -- Andun-Kostüm(m)+
+	12	45618	1	3 -- Andun-Helm(m)+
+	13	45619	1	3 -- Andun-Helm(w)+
+	14	40240	1	3 -- Andun-Schwert+
+	15	40241	1	3 -- Andun-Dolch+
+	16	40242	1	3 -- Andun-Bogen+
+	17	40243	1	3 -- Andun-Zweihänder+
+	18	40244	1	3 -- Andun-Glocke+
+	19	40245	1	3 -- Andun-Fächer+
+	20	100701	1	25 -- Flamme des Drachen
+	21	18100	1	10 -- Titangürtel+0
+	22	18090	1	10 -- Turmalingürtel+0
+	23	50124	1	1 -- Morsche Holzkiste
+	24	31196	1	20 -- EW: Schwertentwurf
+	25	31197	1	20 -- EW: Schneidenentwurf
+	26	31199	1	20 -- EW: Bogenentwurf
+	27	31198	1	20 -- EW: Dolchentwurf
+	28	31200	1	20 -- EW: Klingenentwurf
+	29	31201	1	20 -- EW: Glockenentwurf
+	30	31203	1	20 -- EW: Fächerentwurf
+	31	31204	1	20 -- EW: Kriegerrüst.-Entw.
+	32	31205	1	20 -- EW: Ninjarüst.-Entw.
+	33	31206	1	20 -- EW: Surarüst.-Entw.
+	34	31207	1	20 -- EW: Schamanenrüst.-Entw.
+	35	31209	1	20 -- EW: Kriegerhelmentwurf
+	36	31210	1	20 -- EW: Ninjahelmentwurf
+	37	31211	1	20 -- EW: Surahelmentwurf
+	38	31212	1	20 -- EW: Schamanenhelmentwurf
+	39	30583	1	20 -- Glatter Schmuck(Blau)
+	40	25045	1	10 -- Verhexter Stein(15%)
 }
