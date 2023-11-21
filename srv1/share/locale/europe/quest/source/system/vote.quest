@@ -121,7 +121,7 @@ quest vote4buff begin
 				end
 
 				pc.set_vote_coin(voteCoin-1)
-				affect.add(714, affectList[selectedBonus][1], affectList[selectedBonus][2], affectDuration)
+				affect.add(714, affectList[selectedBonus][1], affectList[selectedBonus][2], affectDuration, true)
 			else
 				return
 			end
