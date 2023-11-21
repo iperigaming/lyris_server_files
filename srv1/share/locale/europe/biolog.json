@@ -57,7 +57,7 @@
 
         "apply": [
             { "type": "ATT_GRADE_BONUS", "value": 50 },
-            { "type": "DEF_GRADE", "value": 50 }
+            { "type": "DEF_GRADE_BONUS", "value": 50 }
         ]
     },
     {
