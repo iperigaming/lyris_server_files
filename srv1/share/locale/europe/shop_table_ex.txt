@@ -45,8 +45,6 @@ Group ShopNPC
 	10	9009	Fischer1
 	12	9009	Fischer3
 	13	101	Ticket1
-	14	33008	halloween1
-	15	33008	halloween2
 }
 
 Group Armor1
@@ -352,42 +350,3 @@ Group Ticket1
 		24	30909	1	30	3 39075 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 	}
 }
-
-Group halloween1
-{
-	Vnum	114
-	Name	I
-	sort	Asc
-	Group	Items
-	{
-		#--#	vnum	count	price	price_type	price_vnum	socket0 socket1 socket2 socket3 socket4 socket5 attr_type0 attr_value0 attr_type1 attr_value1 attr_type2 attr_value2 attr_type3 attr_value3 attr_type4 attr_value4 attr_type5 attr_value5 attr_type6 attr_value6
-		1	41125	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		2	41126	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		3	45061	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		4	45062	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		5	40108	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		6	40109	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		7	40110	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		8	40111	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		9	40112	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-		10	40113	1	120	3 30337 0 0 0 0 0 0 63 5 117 5  123 5 0 0 0 0 0 0 0 0
-	}
-}
-
-Group halloween2
-{
-	Vnum	115
-	Name	II
-	sort	Asc
-	Group	Items
-	{
-		#--#	vnum	count	price	price_type	price_vnum	socket0 socket1 socket2 socket3 socket4 socket5 attr_type0 attr_value0 attr_type1 attr_value1 attr_type2 attr_value2 attr_type3 attr_value3 attr_type4 attr_value4 attr_type5 attr_value5 attr_type6 attr_value6
-		1	53222	1	150	3 30337 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-		2	71244	1	150	3 30337 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-		3	950840	1	50	3 30336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-		4	950841	1	50	3 30336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-		5	950842	1	50	3 30336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-	}
-}
-
-
