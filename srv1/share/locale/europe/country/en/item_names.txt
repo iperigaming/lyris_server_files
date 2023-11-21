@@ -6546,7 +6546,6 @@ VNUM	LOCALE_NAME
 30556	NoNAme
 30557	NoNAme
 30558	NoNAme
-30559	Shiny yarn(purple)
 30560	NoNAme
 30561	NoNAme
 30562	NoNAme
@@ -6568,12 +6567,6 @@ VNUM	LOCALE_NAME
 30578	NoNAme
 30579	NoNAme
 30580	NoNAme
-30581	Smooth bronze jewelry
-30582	NoNAme
-30583	Smooth jewelry (blue)
-30584	Smooth jewelry (green)
-30585	Smooth jewelry (red)
-30586	Smooth jewelry(purple)
 30600	Sewing Pattern
 30601	Armour Design
 30602	Blue Dye
@@ -6719,7 +6712,6 @@ VNUM	LOCALE_NAME
 31082	Magma Ring
 31083	Ring of Samael
 31084	Nimbus Tincture
-31085	Heavy Water
 31086	Mushroom Spores
 31087	NoNAme
 31088	NoNAme
@@ -11878,3 +11870,10 @@ VNUM	LOCALE_NAME
 10958	Lightning Talisman(Fragment)
 10959	Earth Talisman(Fragment)
 10960	Dark Talisman(Fragment)
+30581	Smooth bronze jewelry
+30583	Smooth jewelry (blue)
+30584	Smooth jewelry (green)
+30585	Smooth jewelry (red)
+30586	Smooth jewelry(purple)
+30559	Shiny yarn(purple)
+31085	Heavy Water

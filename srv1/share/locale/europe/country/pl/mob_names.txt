@@ -2945,9 +2945,9 @@ VNUM	LOCALE_NAME
 9462	Skarb Atlantydy
 65000	Buffi
 9022	BossBox
-20284	Bloodhound
-20285	Creepy Manni
-34182	Grusel-Pack
+20284	Krwawy ogar
+20285	Przera¿aj¹cy Manni
+34182	Gruszel-Pak
 20286	Z³oty Lew
 34184	Mini-Wukong
 34185	Mini-Nixie

@@ -2825,8 +2825,6 @@ VNUM	LOCALE_NAME
 34179	Pequeno Faraó
 34180	Pequeno vilão
 34181	Pequeno nadador-salvador
-34182	Pacote assustador
-34183	Homem da Mini Foice
 4310	Criatura do livro
 4311	Criatura maligna do livro
 4312	Cientista das trevas
@@ -2944,7 +2942,11 @@ VNUM	LOCALE_NAME
 9461	Coruja de concha
 9462	Tesouro da Atlântida
 65000	Buffi
-9022	BossBox
 20284	Cão de caça
 20285	Manni assustador
+20286	Leão de Ouro
+34182	Pacote assustador
+34183	Ceifador de mini-grades
+34184	Mini-Wukong
+34185	Mini-Nixie
 

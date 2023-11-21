@@ -2825,8 +2825,6 @@ VNUM	LOCALE_NAME
 34179	Kis fáraó
 34180	Kis gazember
 34181	Kis életmento
-34182	Scary Pack
-34183	Mini kasza ember
 4310	Könyv teremtmény
 4311	Gonosz könyv lény
 4312	Sötét tudós
@@ -2944,6 +2942,10 @@ VNUM	LOCALE_NAME
 9461	Kagyló bagoly
 9462	Atlantisz kincse
 65000	Buffi
-9022	BossBox
-20284	Bloodhound
-20285	Hátborzongató Manni
+20284	Véres kutya
+20285	Kísérteties Manni
+20286	Arany Oroszlán
+34182	Kísérteties csomag
+34183	Mini kaszás
+34184	Mini-Wukong
+34185	Mini-Nixie

@@ -11535,22 +11535,22 @@ VNUM	LOCALE_NAME
 12133	Capucha de serpiente+13
 12134	Capucha de serpiente+14
 12135	Capucha de serpiente+15
-12140	Casco con armadura de serpiente+0
-12141	Casco con armadura de serpiente+1
-12142	Casco con armadura de serpiente+2
-12143	Casco con armadura de serpiente+3
-12144	Casco con armadura de serpiente+4
-12145	Casco con armadura de serpiente+5
-12146	Casco con armadura de serpiente+6
-12147	Casco con armadura de serpiente+7
-12148	Casco con armadura de serpiente+8
-12149	Casco con armadura de serpiente+9
-12150	Casco con armadura de serpiente+10
-12151	Casco con armadura de serpiente+11
-12152	Casco con armadura de serpiente+12
-12153	Casco con armadura de serpiente+13
-12154	Casco con armadura de serpiente+14
-12155	Casco con armadura de serpiente+15
+12140	Casco armadura serpiente+0
+12141	Casco armadura serpiente+1
+12142	Casco armadura serpiente+2
+12143	Casco armadura serpiente+3
+12144	Casco armadura serpiente+4
+12145	Casco armadura serpiente+5
+12146	Casco armadura serpiente+6
+12147	Casco armadura serpiente+7
+12148	Casco armadura serpiente+8
+12149	Casco armadura serpiente+9
+12150	Casco armadura serpiente+10
+12151	Casco armadura serpiente+11
+12152	Casco armadura serpiente+12
+12153	Casco armadura serpiente+13
+12154	Casco armadura serpiente+14
+12155	Casco armadura serpiente+15
 12160	Sombrero de serpiente+0
 12161	Sombrero de serpiente+1
 12162	Sombrero de serpiente+2
@@ -11701,12 +11701,12 @@ VNUM	LOCALE_NAME
 40243	Andun-Dos manos+
 40244	Andun-Campana+
 40245	Andun-Fan+
-40246	Profundidades marinas-Espada+
-40247	Profundidades marinas-Daga+
-40248	Profundidades marinas-Arco+
-40249	Profundidades marinas-Dos manos+
-40250	Profundidades marinas-Campana+
-40251	Profundidades marinas-Fan+
+40246	En alta mar-Espada+
+40247	En alta mar-Daga+
+40248	En alta mar-Arco+
+40249	En alta mar-Dos manos+
+40250	En alta mar-Campana+
+40251	En alta mar-Fan+
 40252	Espíritu Samurai-Espada+
 40253	Espíritu Samurai-Daga+
 40254	Espíritu Samurai-Arco+
@@ -11753,10 +11753,10 @@ VNUM	LOCALE_NAME
 41879	Andun-Vestuario(m)+
 45618	Andun-Casco(m)+
 45619	Andun-Casco(w)+
-41880	Profundidades marinas-Vestuario(w)+
-41881	Profundidades marinas-Vestuario(m)+
-45620	Profundidades marinas-Casco(m)+
-45621	Profundidades marinas-Casco(w)+
+41880	En alta mar-Vestuario(w)+
+41881	En alta mar-Vestuario(m)+
+45620	En alta mar-Casco(m)+
+45621	En alta mar-Casco(w)+
 41882	Espíritu Samurai-Vestuario(w)+
 41883	Espíritu Samurai-Vestuario(m)+
 45622	Espíritu Samurai-Casco(m)+
@@ -11765,18 +11765,18 @@ VNUM	LOCALE_NAME
 41885	Wukong-Vestuario(m)+
 45624	Wukong-Casco(m)+
 45625	Wukong-Casco(w)+
-41886	Cazador de vampiros-Vestuario(w)+
-41887	Cazador de vampiros-Vestuario(m)+
-45626	Cazador de vampiros-Casco(m)+
-45627	Cazador de vampiros-Casco(w)+
-41888	Caballero de sangre-Vestuario(w)+
-41889	Caballero de sangre-Vestuario(m)+
-45628	Caballero de sangre-Casco(m)+
-45629	Caballero de sangre-Casco(w)+
-41890	Médico de la peste-Vestuario(w)+
-41891	Médico de la peste-Vestuario(m)+
-45630	Médico de la peste-Casco(m)+
-45631	Médico de la peste-Casco(w)+
+41886	Cazador vampiros-Vestuario(w)+
+41887	Cazador vampiros-Vestuario(m)+
+45626	Cazador vampiros-Casco(m)+
+45627	Cazador vampiros-Casco(w)+
+41888	Caballero sangre-Vestuario(w)+
+41889	Caballero sangre-Vestuario(m)+
+45628	Caballero sangre-Casco(m)+
+45629	Caballero sangre-Casco(w)+
+41890	Médico de peste-Vestuario(w)+
+41891	Médico de peste-Vestuario(m)+
+45630	Médico de peste-Casco(m)+
+45631	Médico de peste-Casco(w)+
 55414	Huevo inteligente
 55415	Huevo de piedra
 55416	Huevo antiguo
@@ -11888,7 +11888,7 @@ VNUM	LOCALE_NAME
 91561	Certificado del Aura
 85100	Andun-Cinta
 85101	Atlantis-Cinta
-85102	Profundidades marinas-Cinta
+85102	En alta mar-Cinta
 85103	Espíritu Samurai-Cinta
 85104	Wukong-Cinta
 85105	Cazador de vampiros-Cinta
@@ -11902,16 +11902,16 @@ VNUM	LOCALE_NAME
 30348	Andun Shining(Arma)
 30349	Atlantis-Shining (Armadura)
 30350	Atlantis-Shining(Arma)
-30351	Profundidades marinas-Shining(Armadura)
-30352	Profundidades marinas-Shining(Arma)
-30353	Espíritu Samurai-Shining(Armadura)
+30351	En alta mar-Shining(Armadura)
+30352	En alta mar-Shining(Arma)
+30353	Espíritu Samurai-Shining(Arm.)
 30354	Espíritu Samurai-Shining(Arma)
 30355	Wukong-Shining(Armadura)
 30356	Wukong-Shining(Arma)
-30357	Chicos Vampiro-Shining(Armadura)
+30357	Chicos Vampiro-Shining(Arm.)
 30358	Chicos Vampiro-Shining(Arma)
-30359	Caballero de sangre-Shining(armadura)
-30360	Caballero de sangre-Shining(Arma)
+30359	Caballero sangre-Shining(arm.)
+30360	Caballero sangre-Shining(Arma)
 30361	Plagendocture-Shining(Armadura)
 30362	Plagendocture-Shining(Arma)
 69151	Encanto inusual
@@ -12050,3 +12050,17 @@ VNUM	LOCALE_NAME
 950840	Poción de bruja
 950841	Poción mágica
 950842	Zumo de calabaza
+69155	Vale Yang(500K)
+69156	Vale Yang(750K)
+69157	Vale Yang(1kK)
+69158	Vale Yang(1,5kK)
+71269	León de Oro
+53344	Mini-Wukong
+53345	Mini-Nixie
+30581	Joyas de bronce liso
+30583	Joyería lisa (azul)
+30584	Joyería lisa (verde)
+30585	Joyas lisas (rojo)
+30586	Joyas lisas(morado)
+30559	Hilo brillante (morado)
+31085	Agua pesada

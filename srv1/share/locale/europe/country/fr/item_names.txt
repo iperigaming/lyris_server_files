@@ -12353,22 +12353,22 @@ VNUM	LOCALE_NAME
 12133	Capucha de serpiente+13
 12134	Capucha de serpiente+14
 12135	Capucha de serpiente+15
-12140	Casco con armadura de serpiente+0
-12141	Casco con armadura de serpiente+1
-12142	Casco con armadura de serpiente+2
-12143	Casco con armadura de serpiente+3
-12144	Casco con armadura de serpiente+4
-12145	Casco con armadura de serpiente+5
-12146	Casco con armadura de serpiente+6
-12147	Casco con armadura de serpiente+7
-12148	Casco con armadura de serpiente+8
-12149	Casco con armadura de serpiente+9
-12150	Casco con armadura de serpiente+10
-12151	Casco con armadura de serpiente+11
-12152	Casco con armadura de serpiente+12
-12153	Casco con armadura de serpiente+13
-12154	Casco con armadura de serpiente+14
-12155	Casco con armadura de serpiente+15
+12140	Casco de serpiente+0
+12141	Casco de serpiente+1
+12142	Casco de serpiente+2
+12143	Casco de serpiente+3
+12144	Casco de serpiente+4
+12145	Casco de serpiente+5
+12146	Casco de serpiente+6
+12147	Casco de serpiente+7
+12148	Casco de serpiente+8
+12149	Casco de serpiente+9
+12150	Casco de serpiente+10
+12151	Casco de serpiente+11
+12152	Casco de serpiente+12
+12153	Casco de serpiente+13
+12154	Casco de serpiente+14
+12155	Casco de serpiente+15
 12160	Sombrero de serpiente+0
 12161	Sombrero de serpiente+1
 12162	Sombrero de serpiente+2
@@ -12519,12 +12519,12 @@ VNUM	LOCALE_NAME
 40243	Andun-Dos manos+
 40244	Andun-Campana+
 40245	Andun-Fan+
-40246	Profundidades marinas-Espada+
-40247	Profundidades marinas-Daga+
-40248	Profundidades marinas-Arco+
-40249	Profundidades marinas-Dos manos+
-40250	Profundidades marinas-Campana+
-40251	Profundidades marinas-Fan+
+40246	Profond-Espada+
+40247	Profond-Daga+
+40248	Profond-Arco+
+40249	Profond-Dos manos+
+40250	Profond-Campana+
+40251	Profond-Fan+
 40252	Espíritu Samurai-Espada+
 40253	Espíritu Samurai-Daga+
 40254	Espíritu Samurai-Arco+
@@ -12537,18 +12537,18 @@ VNUM	LOCALE_NAME
 40261	Wukong-Dos manos+
 40262	Wukong-Campana+
 40263	Wukong-Fan+
-40264	Cazador de vampiros-Espada+
-40265	Cazador de vampiros-Daga+
-40266	Cazador de vampiros-Arco+
-40267	Cazador de vampiros-Dos manos+
-40268	Cazador de vampiros-Campana+
-40269	Cazador de vampiros-Fan+
-40270	Caballero de sangre-Espada+
-40271	Caballero de sangre-Daga+
-40272	Caballero de sangre-Arco+
-40273	Caballero de sangre-Dos manos+
-40274	Caballero de sangre-Campana+
-40275	Caballero de sangre-Fan+
+40264	Cazador vampiros-Espada+
+40265	Cazador vampiros-Daga+
+40266	Cazador vampiros-Arco+
+40267	Cazador vampiros-Dos manos+
+40268	Cazador vampiros-Campana+
+40269	Cazador vampiros-Fan+
+40270	Chevalier du sang-Espada+
+40271	Chevalier du sang-Daga+
+40272	Chevalier du sang-Arco+
+40273	Chevalier du sang-Dos manos+
+40274	Chevalier du sang-Campana+
+40275	Chevalier du sang-Fan+
 40276	Médico de la peste-Espada+
 40277	Médico de la peste-Daga+
 40278	Médico de la peste-Arco+
@@ -12571,10 +12571,10 @@ VNUM	LOCALE_NAME
 41879	Andun-Vestuario(m)+
 45618	Andun-Casco(m)+
 45619	Andun-Casco(w)+
-41880	Profundidades marinas-Vestuario(w)+
-41881	Profundidades marinas-Vestuario(m)+
-45620	Profundidades marinas-Casco(m)+
-45621	Profundidades marinas-Casco(w)+
+41880	Profond-Vestuario(w)+
+41881	Profond-Vestuario(m)+
+45620	Profond-Casco(m)+
+45621	Profond-Casco(w)+
 41882	Espíritu Samurai-Vestuario(w)+
 41883	Espíritu Samurai-Vestuario(m)+
 45622	Espíritu Samurai-Casco(m)+
@@ -12583,14 +12583,14 @@ VNUM	LOCALE_NAME
 41885	Wukong-Vestuario(m)+
 45624	Wukong-Casco(m)+
 45625	Wukong-Casco(w)+
-41886	Cazador de vampiros-Vestuario(w)+
-41887	Cazador de vampiros-Vestuario(m)+
-45626	Cazador de vampiros-Casco(m)+
-45627	Cazador de vampiros-Casco(w)+
-41888	Caballero de sangre-Vestuario(w)+
-41889	Caballero de sangre-Vestuario(m)+
-45628	Caballero de sangre-Casco(m)+
-45629	Caballero de sangre-Casco(w)+
+41886	Cazador vampiros-Vestuario(w)+
+41887	Cazador vampiros-Vestuario(m)+
+45626	Cazador vampiros-Casco(m)+
+45627	Cazador vampiros-Casco(w)+
+41888	Chevalier du sang-Vestuario(w)+
+41889	Chevalier du sang-Vestuario(m)+
+45628	Chevalier du sang-Casco(m)+
+45629	Chevalier du sang-Casco(w)+
 41890	Médico de la peste-Vestuario(w)+
 41891	Médico de la peste-Vestuario(m)+
 45630	Médico de la peste-Casco(m)+
@@ -12706,11 +12706,11 @@ VNUM	LOCALE_NAME
 91561	Certificado del Aura
 85100	Andun-Cinta
 85101	Atlantis-Cinta
-85102	Profundidades marinas-Cinta
+85102	Profond-Cinta
 85103	Espíritu Samurai-Cinta
 85104	Wukong-Cinta
-85105	Cazador de vampiros-Cinta
-85106	Caballero de sangre-Cinta
+85105	Cazador vampiros-Cinta
+85106	Chevalier du sang-Cinta
 85107	Médico de la peste-Cinta
 85108	Logros-Cinta
 30338	Bon para casco
@@ -12720,16 +12720,16 @@ VNUM	LOCALE_NAME
 30348	Andun Shining(Arma)
 30349	Atlantis-Shining (Armadura)
 30350	Atlantis-Shining(Arma)
-30351	Profundidades marinas-Shining(Armadura)
-30352	Profundidades marinas-Shining(Arma)
-30353	Espíritu Samurai-Shining(Armadura)
+30351	Profond-Shining(Armadura)
+30352	Profond-Shining(Arma)
+30353	Espíritu Samurai-Shining(Arm.)
 30354	Espíritu Samurai-Shining(Arma)
 30355	Wukong-Shining(Armadura)
 30356	Wukong-Shining(Arma)
-30357	Chicos Vampiro-Shining(Armadura)
+30357	Chicos Vampiro-Shining(Arm.)
 30358	Chicos Vampiro-Shining(Arma)
-30359	Caballero de sangre-Shining(armadura)
-30360	Caballero de sangre-Shining(Arma)
+30359	Chevalier sang-Shining(arm.)
+30360	Chevalier sang-Shining(Arma)
 30361	Plagendocture-Shining(Armadura)
 30362	Plagendocture-Shining(Arma)
 69151	Encanto inusual
@@ -12837,7 +12837,7 @@ VNUM	LOCALE_NAME
 927212	Poción púrpura(P)
 939017	Dragón Dios Vida(P)
 939018	Ataque del Dios Dragón(P)
-939019	Inteligencia del Dios Dragón(P)
+939019	Inteligencia Dios Dragón(P)
 939020	Defensa del Dios Dragón(P)
 939024	Lucha punzante(P)
 939025	Lucha crítica(P)
@@ -12868,3 +12868,17 @@ VNUM	LOCALE_NAME
 950840	Poción de bruja
 950841	Poción mágica
 950842	Zumo de calabaza
+69155	Bon yang(500K)
+69156	Bon yang(750K)
+69157	Bon yang(1kK)
+69158	Bon yang(1,5kK)
+71269	Lion d'or
+53344	Mini-Wukong
+53345	Mini-Nixie
+30581	Bijoux en bronze lisse
+30583	Bijoux lisses (bleu)
+30584	Bijoux lisses (verts)
+30585	Bijoux lisses (rouge)
+30586	Bijoux lisses (violet)
+30559	Fil brillant (violet)
+31085	Eau lourde

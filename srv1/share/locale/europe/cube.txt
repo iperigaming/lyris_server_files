@@ -791,6 +791,28 @@ gold	10000000
 percent	100
 end
 
+section		
+npc	20018
+item	50721	500
+item	50722	500	
+item	50723	500
+item	50726	500
+reward	927209 	1 -- Grüner Trank(P)
+gold	10000000
+percent	100
+end
+
+section		
+npc	20018
+item	50724	500
+item	50727	500	
+item	50725	500
+reward	927212 	1 -- Violetter Trank(P)
+gold	10000000
+percent	100
+end
+
+
 #TAU NPC ENDE
 
 #ALCHEMIST START

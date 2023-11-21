@@ -2825,8 +2825,6 @@ VNUM	LOCALE_NAME
 34179	Pequeño Faraón
 34180	Pequeño villano
 34181	Pequeño socorrista
-34182	Paquete de miedo
-34183	Mini hombre guadaña
 4310	Criatura de libro
 4311	Criatura maligna del libro
 4312	Científico oscuro
@@ -2944,6 +2942,10 @@ VNUM	LOCALE_NAME
 9461	Búho de concha
 9462	Tesoro de la Atlántida
 65000	Buffi
-9022	BossBox
-20284	Bloodhound
-20285	Manni espeluznante
+20284	Sabueso de sangre
+20285	Manni Espeluznante
+20286	León de Oro
+34182	Pack Espeluznante
+34183	Minigrim Segador
+34184	Mini-Wukong
+34185	Mini-Nixie

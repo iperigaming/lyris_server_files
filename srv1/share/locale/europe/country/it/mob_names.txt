@@ -2825,8 +2825,6 @@ VNUM	LOCALE_NAME
 34179	Piccolo Faraone
 34180	Piccolo cattivo
 34181	Piccolo bagnino
-34182	Pacchetto spaventoso
-34183	Mini uomo falce
 4310	Creatura del libro
 4311	Creatura libro malvagia
 4312	Scienziato oscuro
@@ -2944,6 +2942,10 @@ VNUM	LOCALE_NAME
 9461	Gufo conchiglia
 9462	Il tesoro di Atlantide
 65000	Buffi
-9022	BossBox
 20284	Segugio
-20285	Manni inquietante
+20285	Manni spettrale
+20286	Leone d'oro
+34182	Pacchetto spettrale
+34183	Mini Mietitore
+34184	Mini-Wukong
+34185	Mini-Nixie

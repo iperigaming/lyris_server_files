@@ -2945,7 +2945,7 @@ VNUM	LOCALE_NAME
 9462	Atlantis Hazinesi
 65000	Buffi
 9022	BossBox
-20284	Bloodhound
+20284	Kan Tazýsý
 20285	Ürpertici Manni
 20286	Altýn Aslan
 34184	Küçük Wukong

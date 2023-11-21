@@ -1504,6 +1504,9 @@ Group	atlantis_truhe
 	40	30584	1	20 -- Glatter Schmuck(Grün)
 	41	50124	1	1 -- Morsche Holzkiste
 	42	25045	1	10 -- Verhexter Stein(15%)
+	43	31150	20	30 -- Aura-Veredelungsbox
+	44	69157	50	15 -- 50kk
+	45	25044	40 -- Verhexter Stein(10%)
 }
 
 Group	andun_truhe
@@ -1549,4 +1552,7 @@ Group	andun_truhe
 	38	31212	1	20 -- EW: Schamanenhelmentwurf
 	39	30583	1	20 -- Glatter Schmuck(Blau)
 	40	25045	1	10 -- Verhexter Stein(15%)
+	41	31150	10	30 -- Aura-Veredelungsbox
+	42	25044	40 -- Verhexter Stein(10%)
+	43	69157	80	15 -- 80kk
 }

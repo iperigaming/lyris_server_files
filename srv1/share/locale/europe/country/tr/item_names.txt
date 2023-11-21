@@ -6704,7 +6704,7 @@ VNUM	LOCALE_NAME
 30581	Pürüzsüz bronz takylar
 30582	NoNAme
 30583	Pürüzsüz mücevher (mavi)
-30584	Pürüzsüz mücevher (ye?il)
+30584	Pürüzsüz mücevher (yeþil)
 30585	Pürüzsüz mücevher (kyrmyzy)
 30586	Pürüzsüz mücevher (mor)
 30600	Kesim Örnegi
@@ -6852,7 +6852,7 @@ VNUM	LOCALE_NAME
 31082	Magma Çemberi
 31083	Samael'in Yüzügü
 31084	NoNAme
-31085	A?yr su
+31085	Aþyr su
 31086	Mantar Hücresi
 31087	NoNAme
 31088	NoNAme

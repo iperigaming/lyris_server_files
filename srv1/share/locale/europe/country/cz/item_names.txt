@@ -11845,10 +11845,10 @@ VNUM	LOCALE_NAME
 55038	Kniha Featherweight
 28544	Magickı kámen z lomu+5
 28545	Magickı kámen z lomu+5
-50661	Koiš?ál kyanitu
+50661	Køišál kyanitu
 50662	Zodiac Crystal
 50663	Draeí krystal
-50664	Hadí koiš?ál
+50664	Hadí køišál
 72327	Pergamen termínu(Perm.)
 55028	Léeba termínu(Perm.)
 100002	Elixír easu(Perm.)
@@ -11883,7 +11883,7 @@ VNUM	LOCALE_NAME
 23087	Hadí rukavice+7
 23088	Hadí rukavice+8
 23089	Hadí rukavice+9
-31150	Zušlech?ovací box Aura
+31150	Zušlechovací rámeèek Aura
 91560	Skutek aury
 91561	Certifikát Aura+
 85100	Andun-Band
@@ -11990,7 +11990,7 @@ VNUM	LOCALE_NAME
 7519	Modoí oceloví chytaei+9
 50578	Truhla s pokladem Yohara+
 72063	Metin Fronta(Premium)
-20570	Prémiovı pláš? Valour
+20570	Pláš Premium valour
 39064	Bon osudu
 41313	Pouštní bojovník(eernı)
 80014	Poukaz DR (50)
@@ -12030,7 +12030,7 @@ VNUM	LOCALE_NAME
 950825	Modrá rosa(P)
 950826	Bílá rosa(P)
 20569	Metin Queue(Premium)
-20571	Prémiovı pláš? Valour
+20571	Pláš Premium valour
 20572	Kašmírová parta
 76053	Toetí ruka
 71267	Bloodhound
@@ -12041,7 +12041,7 @@ VNUM	LOCALE_NAME
 50136	Balíeek Organic-Mid
 50137	Organické balení-High
 72347	Urychlovae dungeonu(Low)
-72348	Dungeon Accelerator(Mid)
+72348	Urychlovae dungeonu(Mid)
 72361	Urychlovae dungeonu(High)
 25044	Okouzlenı kámen
 25045	Okouzlenı kámen
@@ -12049,4 +12049,18 @@ VNUM	LOCALE_NAME
 50129	Balíeek Tau(14d)
 950840	Earodijnickı lektvar
 950841	Kouzelnı lektvar
-950842	Dıoová š?áva
+950842	Dıòová šáva
+69155	Poukaz Yang(500K)
+69156	Poukaz Yang(750K)
+69157	Poukaz Yang(1kK)
+69158	Poukaz Yang(1,5kK)
+30581	Hladké bronzové šperky
+30583	Hladké šperky (modré)
+30584	Hladké šperky (zelené)
+30585	Hladké šperky (èervené)
+30586	Hladké šperky(fialové)
+30559	Lesklá pøíze (fialová)
+31085	Tìká voda
+71269	Zlatı lev
+53344	Mini-Wukong
+53345	Mini-Nixie

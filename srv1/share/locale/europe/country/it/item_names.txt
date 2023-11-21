@@ -4142,16 +4142,16 @@ VNUM	LOCALE_NAME
 13207	Scudo Rotondo Nero+7
 13208	Scudo Rotondo Nero+8
 13209	Scudo Rotondo Nero+9
-13210	Scudo Damnatio+0
-13211	Scudo Damnatio+1
-13212	Scudo Damnatio+2
-13213	Scudo Damnatio+3
-13214	Scudo Damnatio+4
-13215	Scudo Damnatio+5
-13216	Scudo Damnatio+6
-13217	Scudo Damnatio+7
-13218	Scudo Damnatio+8
-13219	Scudo Damnatio+9
+13210	Scudo dello zodiaco+0
+13211	Scudo dello zodiaco+1
+13212	Scudo dello zodiaco+2
+13213	Scudo dello zodiaco+3
+13214	Scudo dello zodiaco+4
+13215	Scudo dello zodiaco+5
+13216	Scudo dello zodiaco+6
+13217	Scudo dello zodiaco+7
+13218	Scudo dello zodiaco+8
+13219	Scudo dello zodiaco+9
 14000	Bracciale di Legno+0
 14001	Bracciale di Legno+1
 14002	Bracciale di Legno+2
@@ -4322,16 +4322,16 @@ VNUM	LOCALE_NAME
 14577	Bracciale di tormalina+7
 14578	Bracciale di tormalina+8
 14579	Bracciale di tormalina+9
-14580	Bracciale giada Nebbia+0
-14581	Bracciale giada Nebbia+1
-14582	Bracciale giada Nebbia+2
-14583	Bracciale giada Nebbia+3
-14584	Bracciale giada Nebbia+4
-14585	Bracciale giada Nebbia+5
-14586	Bracciale giada Nebbia+6
-14587	Bracciale giada Nebbia+7
-14588	Bracciale giada Nebbia+8
-14589	Bracciale giada Nebbia+9
+14580	Fascia Zodiakarm+0
+14581	Fascia Zodiakarm+1
+14582	Fascia Zodiakarm+2
+14583	Fascia Zodiakarm+3
+14584	Fascia Zodiakarm+4
+14585	Fascia Zodiakarm+5
+14586	Fascia Zodiakarm+6
+14587	Fascia Zodiakarm+7
+14588	Fascia Zodiakarm+8
+14589	Fascia Zodiakarm+9
 14590	Bracciale giada Sole+0
 14591	Bracciale giada Sole+1
 14592	Bracciale giada Sole+2
@@ -4342,26 +4342,26 @@ VNUM	LOCALE_NAME
 14597	Bracciale giada Sole+7
 14598	Bracciale giada Sole+8
 14599	Bracciale giada Sole+9
-14600	Bracciale giada Notte+0
-14601	Bracciale giada Notte+1
-14602	Bracciale giada Notte+2
-14603	Bracciale giada Notte+3
-14604	Bracciale giada Notte+4
-14605	Bracciale giada Notte+5
-14606	Bracciale giada Notte+6
-14607	Bracciale giada Notte+7
-14608	Bracciale giada Notte+8
-14609	Bracciale giada Notte+9
-14610	Bracciale giada Fumo+0
-14611	Bracciale giada Fumo+1
-14612	Bracciale giada Fumo+2
-14613	Bracciale giada Fumo+3
-14614	Bracciale giada Fumo+4
-14615	Bracciale giada Fumo+5
-14616	Bracciale giada Fumo+6
-14617	Bracciale giada Fumo+7
-14618	Bracciale giada Fumo+8
-14619	Bracciale giada Fumo+9
+14600	Bracciale di kyanite+0
+14601	Bracciale di kyanite+1
+14602	Bracciale di kyanite+2
+14603	Bracciale di kyanite+3
+14604	Bracciale di kyanite+4
+14605	Bracciale di kyanite+5
+14606	Bracciale di kyanite+6
+14607	Bracciale di kyanite+7
+14608	Bracciale di kyanite+8
+14609	Bracciale di kyanite+9
+14610	Bracciale del Drago Oscuro+0
+14611	Bracciale del Drago Oscuro+1
+14612	Bracciale del Drago Oscuro+2
+14613	Bracciale del Drago Oscuro+3
+14614	Bracciale del Drago Oscuro+4
+14615	Bracciale del Drago Oscuro+5
+14616	Bracciale del Drago Oscuro+6
+14617	Bracciale del Drago Oscuro+7
+14618	Bracciale del Drago Oscuro+8
+14619	Bracciale del Drago Oscuro+9
 15000	Scarpe in Pelle+0
 15001	Scarpe in Pelle+1
 15002	Scarpe in Pelle+2
@@ -4482,16 +4482,16 @@ VNUM	LOCALE_NAME
 15227	Scarpe Uccello Ardente+7
 15228	Scarpe Uccello Ardente+8
 15229	Scarpe Uccello Ardente+9
-15240	Scarpe Pelle di Drago+0
-15241	Scarpe Pelle di Drago+1
-15242	Scarpe Pelle di Drago+2
-15243	Scarpe Pelle di Drago+3
-15244	Scarpe Pelle di Drago+4
-15245	Scarpe Pelle di Drago+5
-15246	Scarpe Pelle di Drago+6
-15247	Scarpe Pelle di Drago+7
-15248	Scarpe Pelle di Drago+8
-15249	Scarpe Pelle di Drago+9
+15240	Scarpe del drago Oscuro+0
+15241	Scarpe del drago Oscuro+1
+15242	Scarpe del drago Oscuro+2
+15243	Scarpe del drago Oscuro+3
+15244	Scarpe del drago Oscuro+4
+15245	Scarpe del drago Oscuro+5
+15246	Scarpe del drago Oscuro+6
+15247	Scarpe del drago Oscuro+7
+15248	Scarpe del drago Oscuro+8
+15249	Scarpe del drago Oscuro+9
 15370	Scarpe dell'Euforia +0
 15371	Scarpe dell'Euforia +1
 15372	Scarpe dell'Euforia +2
@@ -4722,16 +4722,16 @@ VNUM	LOCALE_NAME
 16577	Collana di tormalina+7
 16578	Collana di tormalina+8
 16579	Collana di tormalina+9
-16580	Collana giada Nebbia+0
-16581	Collana giada Nebbia+1
-16582	Collana giada Nebbia+2
-16583	Collana giada Nebbia+3
-16584	Collana giada Nebbia+4
-16585	Collana giada Nebbia+5
-16586	Collana giada Nebbia+6
-16587	Collana giada Nebbia+7
-16588	Collana giada Nebbia+8
-16589	Collana giada Nebbia+9
+16580	Collana dello zodiaco+0
+16581	Collana dello zodiaco+1
+16582	Collana dello zodiaco+2
+16583	Collana dello zodiaco+3
+16584	Collana dello zodiaco+4
+16585	Collana dello zodiaco+5
+16586	Collana dello zodiaco+6
+16587	Collana dello zodiaco+7
+16588	Collana dello zodiaco+8
+16589	Collana dello zodiaco+9
 16590	Collana giada Sole+0
 16591	Collana giada Sole+1
 16592	Collana giada Sole+2
@@ -4742,26 +4742,26 @@ VNUM	LOCALE_NAME
 16597	Collana giada Sole+7
 16598	Collana giada Sole+8
 16599	Collana giada Sole+9
-16600	Collana giada Notte+0
-16601	Collana giada Notte+1
-16602	Collana giada Notte+2
-16603	Collana giada Notte+3
-16604	Collana giada Notte+4
-16605	Collana giada Notte+5
-16606	Collana giada Notte+6
-16607	Collana giada Notte+7
-16608	Collana giada Notte+8
-16609	Collana giada Notte+9
-16610	Collana giada Fumo+0
-16611	Collana giada Fumo+1
-16612	Collana giada Fumo+2
-16613	Collana giada Fumo+3
-16614	Collana giada Fumo+4
-16615	Collana giada Fumo+5
-16616	Collana giada Fumo+6
-16617	Collana giada Fumo+7
-16618	Collana giada Fumo+8
-16619	Collana giada Fumo+9
+16600	Collana di kianite+0
+16601	Collana di kianite+1
+16602	Collana di kianite+2
+16603	Collana di kianite+3
+16604	Collana di kianite+4
+16605	Collana di kianite+5
+16606	Collana di kianite+6
+16607	Collana di kianite+7
+16608	Collana di kianite+8
+16609	Collana di kianite+9
+16610	Collana del drago Oscuro+0
+16611	Collana del drago Oscuro+1
+16612	Collana del drago Oscuro+2
+16613	Collana del drago Oscuro+3
+16614	Collana del drago Oscuro+4
+16615	Collana del drago Oscuro+5
+16616	Collana del drago Oscuro+6
+16617	Collana del drago Oscuro+7
+16618	Collana del drago Oscuro+8
+16619	Collana del drago Oscuro+9
 17000	Orecchini di Legno+0
 17001	Orecchini di Legno+1
 17002	Orecchini di Legno+2
@@ -4922,16 +4922,16 @@ VNUM	LOCALE_NAME
 17567	Orecchini con Zaffiri +7
 17568	Orecchini con Zaffiri +8
 17569	Orecchini con Zaffiri +9
-17570	Orecchini giada Nebbia+0
-17571	Orecchini giada Nebbia+1
-17572	Orecchini giada Nebbia+2
-17573	Orecchini giada Nebbia+3
-17574	Orecchini giada Nebbia+4
-17575	Orecchini giada Nebbia+5
-17576	Orecchini giada Nebbia+6
-17577	Orecchini giada Nebbia+7
-17578	Orecchini giada Nebbia+8
-17579	Orecchini giada Nebbia+9
+17570	Orecchini dello zodiaco+0
+17571	Orecchini dello zodiaco+1
+17572	Orecchini dello zodiaco+2
+17573	Orecchini dello zodiaco+3
+17574	Orecchini dello zodiaco+4
+17575	Orecchini dello zodiaco+5
+17576	Orecchini dello zodiaco+6
+17577	Orecchini dello zodiaco+7
+17578	Orecchini dello zodiaco+8
+17579	Orecchini dello zodiaco+9
 17580	Orecchini giada Sole+0
 17581	Orecchini giada Sole+1
 17582	Orecchini giada Sole+2
@@ -4942,26 +4942,26 @@ VNUM	LOCALE_NAME
 17587	Orecchini giada Sole+7
 17588	Orecchini giada Sole+8
 17589	Orecchini giada Sole+9
-17590	Orecchini giada Notte+0
-17591	Orecchini giada Notte+1
-17592	Orecchini giada Notte+2
-17593	Orecchini giada Notte+3
-17594	Orecchini giada Notte+4
-17595	Orecchini giada Notte+5
-17596	Orecchini giada Notte+6
-17597	Orecchini giada Notte+7
-17598	Orecchini giada Notte+8
-17599	Orecchini giada Notte+9
-17600	Orecchini giada Fumo+0
-17601	Orecchini giada Fumo+1
-17602	Orecchini giada Fumo+2
-17603	Orecchini giada Fumo+3
-17604	Orecchini giada Fumo+4
-17605	Orecchini giada Fumo+5
-17606	Orecchini giada Fumo+6
-17607	Orecchini giada Fumo+7
-17608	Orecchini giada Fumo+8
-17609	Orecchini giada Fumo+9
+17590	Orecchini di kyanite+0
+17591	Orecchini di kyanite+1
+17592	Orecchini di kyanite+2
+17593	Orecchini di kyanite+3
+17594	Orecchini di kyanite+4
+17595	Orecchini di kyanite+5
+17596	Orecchini di kyanite+6
+17597	Orecchini di kyanite+7
+17598	Orecchini di kyanite+8
+17599	Orecchini di kyanite+9
+17600	Orecchini di drago Oscuro+0
+17601	Orecchini di drago Oscuro+1
+17602	Orecchini di drago Oscuro+2
+17603	Orecchini di drago Oscuro+3
+17604	Orecchini di drago Oscuro+4
+17605	Orecchini di drago Oscuro+5
+17606	Orecchini di drago Oscuro+6
+17607	Orecchini di drago Oscuro+7
+17608	Orecchini di drago Oscuro+8
+17609	Orecchini di drago Oscuro+9
 18000	Cintura in tessuto+0
 18001	Cintura in tessuto+1
 18002	Cintura in tessuto+2
@@ -5844,26 +5844,26 @@ VNUM	LOCALE_NAME
 23067	Guanti Serpens(RES)+7
 23068	Guanti Serpens(RES)+8
 23069	Guanti Serpens(RES)+9
-23070	Guanti Serpens(VIT)+0
-23071	Guanti Serpens(VIT)+1
-23072	Guanti Serpens(VIT)+2
-23073	Guanti Serpens(VIT)+3
-23074	Guanti Serpens(VIT)+4
-23075	Guanti Serpens(VIT)+5
-23076	Guanti Serpens(VIT)+6
-23077	Guanti Serpens(VIT)+7
-23078	Guanti Serpens(VIT)+8
-23079	Guanti Serpens(VIT)+9
-23080	Guanti Serpens(INT)+0
-23081	Guanti Serpens(INT)+1
-23082	Guanti Serpens(INT)+2
-23083	Guanti Serpens(INT)+3
-23084	Guanti Serpens(INT)+4
-23085	Guanti Serpens(INT)+5
-23086	Guanti Serpens(INT)+6
-23087	Guanti Serpens(INT)+7
-23088	Guanti Serpens(INT)+8
-23089	Guanti Serpens(INT)+9
+23070	Guanti del Drago Oscuro+0
+23071	Guanti del Drago Oscuro+1
+23072	Guanti del Drago Oscuro+2
+23073	Guanti del Drago Oscuro+3
+23074	Guanti del Drago Oscuro+4
+23075	Guanti del Drago Oscuro+5
+23076	Guanti del Drago Oscuro+6
+23077	Guanti del Drago Oscuro+7
+23078	Guanti del Drago Oscuro+8
+23079	Guanti del Drago Oscuro+9
+23080	Guanti da serpente+0
+23081	Guanti di serpente+1
+23082	Guanti da serpente+2
+23083	Guanti da serpente+3
+23084	Guanti da serpente+4
+23085	Guanti da serpente+5
+23086	Guanti da serpente+6
+23087	Guanti da serpente+7
+23088	Guanti da serpente+8
+23089	Guanti da serpente+9
 25040	Papiro consacrato
 25041	Pietra magica
 25042	Pietra rituale
@@ -6619,8 +6619,8 @@ VNUM	LOCALE_NAME
 30335	Buono per skin per arma
 30336	Lanterna di zucca
 30337	Semi di zucca
-30338	Buono per copricapo +
-30339	Buono per skin per arma+
+30338	Bon per copricapo
+30339	Ricevuta per la pelle dell'arma
 30341	Anello Fuoco dei draghi
 30342	Bonus Elmo da vampiro
 30343	Bonus Elmo da vampiro+
@@ -6685,7 +6685,7 @@ VNUM	LOCALE_NAME
 30556	NoNAme
 30557	NoNAme
 30558	NoNAme
-30559	NoNAme
+30559	Fili lucidi (viola)
 30560	NoNAme
 30561	NoNAme
 30562	NoNAme
@@ -6707,12 +6707,12 @@ VNUM	LOCALE_NAME
 30578	NoNAme
 30579	NoNAme
 30580	NoNAme
-30581	NoNAme
+30581	Gioielli in bronzo liscio
 30582	NoNAme
-30583	NoNAme
-30584	NoNAme
-30585	NoNAme
-30586	NoNAme
+30583	Gioielli semplici (blu)
+30584	Gioielli semplici (verdi)
+30585	Gioielli semplici (rossi)
+30586	Gioielli semplici (viola)
 30600	Cartamodello
 30601	Design d'armatura
 30602	Tintura blu
@@ -6858,7 +6858,7 @@ VNUM	LOCALE_NAME
 31082	Anello di magma
 31083	Anello di Samael
 31084	Tintura Nimbus
-31085	NoNAme
+31085	Acqua pesante
 31086	Spore micetiche
 31087	NoNAme
 31088	NoNAme
@@ -7147,7 +7147,7 @@ VNUM	LOCALE_NAME
 39061	B. shamano guarig. (P)
 39062	B. shamano guarig. (G)
 39063	Resetta Negozio di Gaya
-39064	Ampliam. Negozio di Gaya
+39064	Bon del destino
 39067	Cassa Frammento
 39068	Cassa Frammento decorata
 39069	Cassa Frammenti splend.
@@ -7579,7 +7579,7 @@ VNUM	LOCALE_NAME
 41310	Veste cobra+ (f)
 41311	Guerriero Deserto (nero)
 41312	Guerriera Deserto (nera)
-41313	Guerr. Deserto + (nero)
+41313	Combattente del deserto (nero)
 41314	Guerr. Deserto+ (f,nera)
 41315	Armatura di Azrael (m)
 41316	Armatura di Azrael (f)
@@ -8765,16 +8765,16 @@ VNUM	LOCALE_NAME
 50125	Baule Misterioso
 50126	Baule Misterioso
 50127	Mist. Baule smeraldo
-50128	Misterioso Baule zaffiro
-50129	Mist. Baule ametista
+50128	Pacchetto Dio Drago(14d)
+50129	Pacchetto Tau(14d)
 50130	Baule Competizione
 50131	Misterioso Baule citrino
 50132	Misterioso Baule Rubino
 50133	Mist. Baule smeraldo
 50134	Misterioso Baule zaffiro
-50135	Mist. Baule ametista
-50136	Misterioso Baule topazio
-50137	Misterioso Baule citrino
+50135	Pacchetto biologico-basso
+50136	Pacchetto organico medio
+50137	Pacchetto biologico-alto
 50150	Chiave Rubino
 50151	Chiave smeraldo
 50152	Chiave zaffiro
@@ -9044,10 +9044,10 @@ VNUM	LOCALE_NAME
 50642	Giadite Notte
 50643	Giadite Fumo
 50644	Giadite Nebbia
-50661	Giada Sole
-50662	Giada Notte
-50663	Giada Fumo
-50664	Giada Nebbia
+50661	Cristallo di kyanite
+50662	Cristallo dello zodiaco
+50663	Cristallo di drago
+50664	Cristallo di serpente
 50701	Fiori di Pesco
 50702	Campanula
 50703	Fiori di Caco
@@ -9713,35 +9713,35 @@ VNUM	LOCALE_NAME
 55007	NoNAme
 55008	Pergamena del nome
 55009	Cassa con Libri del pet
-55010	Resistenza (guerriero)
-55011	Resistenza (sura)
-55012	Resistenza (ninja)
-55013	Resistenza (shamani)
-55014	Resistenza (lican)
-55015	Libro del berserker
-55016	Libro anti-magia
-55017	Libro dell'accelerazione
-55018	Libro della perforazione
+55010	Resistenza (Mezzuomini)
+55011	Resistenza(Mostro)
+55012	Libro Cacciatore di uomini
+55013	Libro Cacciatore di capi
+55014	Libro del cacciatore di pietre
+55015	Libro Berserker
+55016	Libro Pausa Magica
+55017	Libro sull'accelerazione
+55018	Libro delle esercitazioni
 55019	Libro del rinnovo
-55020	Libro del vampiro
-55021	Libro dei fantasmi
-55022	Libro dell'intoppo
-55023	Libro dello specchio
-55024	Libro dei drop di Yang
-55025	Libro della portata
-55026	Libro dell'invincibilit‡
-55027	Libro della guarigione
-55028	Leccornia
+55020	Libro sui vampiri
+55021	Libro fantasma
+55022	Libro degli ostacoli
+55023	Libro degli specchi
+55024	Il libro delle gocce
+55025	Libro della gamma
+55026	Libro sull'invincibilit√†
+55027	Libro di guarigione
+55028	Trattamento del termine (Perm.)
 55029	Pet Reverti
 55030	Pet Revertus
 55031	Leccornia+
 55032	Orb Classifica pet
 55033	Incanta pet
-55034	Libro del mastro birraio
-55035	Libro dei cacciamostri
-55036	Libro della perspicacia
-55037	Libro Succhiavita
-55038	Libro della leggerezza
+55034	Libro Braumeister
+55035	Libro di Monster Hunter
+55036	Libro dallo sguardo acuto
+55037	Libro sul ritiro della vita
+55038	Libro sui pesi piuma
 55050	Cav: Zoccoli lesti
 55051	Cavalca: EXP
 55052	Cav: Tempesta furiosa
@@ -10275,14 +10275,14 @@ VNUM	LOCALE_NAME
 72050	Anello dell'Esperienza
 72051	Perg. Strega ghiac. gr.
 72052	Pergam. Generale Yonghan
-72053	Contratto delle gilde
+72053	Pass Battaglia
 72054	Amuleto dei guardiani
 72058	Fagotto Pietre spirit.
 72059	Libro del capo+
 72060	Libro del capo+
 72061	Medaglia del drago+
 72062	Anello esperienza +200
-72063	Roccia Metin (facile)
+72063	Metin Coda(Premium)
 72064	Integrazione piccola
 72065	Integrazione media
 72066	Integrazione grande
@@ -10312,7 +10312,7 @@ VNUM	LOCALE_NAME
 72323	Carta del nuovo ordine
 72325	Annullamento proiezione
 72326	Biglietto Proiezione
-72327	Pergamena sfere (h)
+72327	Pergamena del termine (Perm.)
 72328	Signum del guardiano
 72329	Pergamena delle sfere
 72339	Roccia Metin Yohara
@@ -10322,9 +10322,9 @@ VNUM	LOCALE_NAME
 72343	Buono trasformazione I
 72344	Buono trasformazione II
 72346	Benedizione
-72347	Acceleratore (10%)
-72348	Acceleratore (20%)
-72349	Acceleratore (30%)
+72347	Acceleratore di dungeon (basso)
+72348	Acceleratore di dungeon(medio)
+72349	Acceleratore (Biologo)
 72350	Papiro del ricercatore
 72351	Benedizione piccola
 72352	Licenza Guanti
@@ -10700,7 +10700,7 @@ VNUM	LOCALE_NAME
 76047	Leccalecca forza (3 gg)
 76051	Anello dei segreti (7gg)
 76052	Scarpe del vento (7gg)
-76053	Terza mano (3gg)
+76053	Terza mano
 76054	Maschera emozioni (7gg)
 76055	Pagina equip. extra (c)
 76068	Accesso Invasione
@@ -10734,16 +10734,16 @@ VNUM	LOCALE_NAME
 80006	Lingotto d'Oro(1MioYang)
 80007	Lingotto d'Oro(2MioYang)
 80008	Pezzo d'Oro
-80014	Buono DR (100)
-80015	Buono DR (500)
-80016	Buono DR (1000)
-80017	Buono DR (50)
+80014	Buono DR(50)
+80015	Buono DR(100)
+80016	Buono DR(200)
+80017	Buono DR(500)
 80019	Stoffa sottile
 80021	Ymir CashPack
-80022	Buono DR (50)
-80023	Buono DR (100)
-80024	Buono DR (500)
-80025	Buono DR (1.000)
+80022	Buono DR(800)
+80023	Buono DR(1000)
+80024	Buono DR(1200)
+80025	Buono DR(1500)
 81000	Talismano Volont‡ STR+0
 81001	Talismano Volont‡ STR+1
 81002	Talismano Volont‡ STR+2
@@ -11043,7 +11043,7 @@ VNUM	LOCALE_NAME
 91059	Resistenza infinita
 100000	Elisir del tempo (P)
 100001	Elisir del tempo (M)
-100002	Elisir del tempo (G)
+100002	Elisir del Tempo (Perm.)
 100100	Tenaglie del Drago
 100101	Tenaglie del Drago+
 100200	Tenaglie del tempo
@@ -11233,16 +11233,16 @@ VNUM	LOCALE_NAME
 165300	Onice mitica del drago
 165400	Onice mitica del drago
 50577	Pietra dell'anima leggendaria
-510	Lama di kianite+0
-511	Lama di kyanite+1
-512	Lama di kyanite+2
-513	Lama di kyanite+3
-514	Lama di kianite+4
-515	Lama di kyanite+5
-516	Lama di kyanite+6
-517	Lama di kyanite+7
-518	Lama di kyanite+8
-519	Lama di kyanite+9
+510	Spada di kyanite+0
+511	Spada di kyanite+1
+512	Spada di kyanite+2
+513	Spada di kyanite+3
+514	Spada di kyanite+4
+515	Spada di kyanite+5
+516	Spada di kyanite+6
+517	Spada di kyanite+7
+518	Spada di kyanite+8
+519	Spada di kyanite+9
 12920	Elmo di kyanite+0
 12921	Elmo di kyanite+1
 12922	Elmo di kyanite+2
@@ -11263,16 +11263,16 @@ VNUM	LOCALE_NAME
 12937	Cappuccio di kyanite+7
 12938	Cappuccio di kyanite+8
 12939	Cappuccio di kyanite+9
-12940	Elmo con armatura di kyanite+0
-12941	Elmo con armatura di kyanite+1
-12942	Elmo con armatura di kyanite+2
-12943	Elmo con armatura di kyanite+3
-12944	Elmo con armatura di kyanite+4
-12945	Elmo con armatura di kyanite+5
-12946	Elmo con armatura di kyanite+6
-12947	Elmo con armatura di kyanite+7
-12948	Elmo con armatura di kyanite+8
-12949	Elmo con armatura di kyanite+9
+12940	Elmo armatura di kyanite+0
+12941	Elmo armatura di kyanite+1
+12942	Elmo armatura di kyanite+2
+12943	Elmo armatura di kyanite+3
+12944	Elmo armatura di kyanite+4
+12945	Elmo armatura di kyanite+5
+12946	Elmo armatura di kyanite+6
+12947	Elmo armatura di kyanite+7
+12948	Elmo armatura di kyanite+8
+12949	Elmo armatura di kyanite+9
 12950	Cappello di kyanite+0
 12951	Cappello di kyanite+1
 12952	Cappello di kyanite+2
@@ -11293,16 +11293,6 @@ VNUM	LOCALE_NAME
 13227	Scudo di kyanite+7
 13228	Scudo di kyanite+8
 13229	Scudo di kyanite+9
-14600	Bracciale di kyanite+0
-14601	Bracciale di kyanite+1
-14602	Bracciale di kyanite+2
-14603	Bracciale di kyanite+3
-14604	Bracciale di kyanite+4
-14605	Bracciale di kyanite+5
-14606	Bracciale di kyanite+6
-14607	Bracciale di kyanite+7
-14608	Bracciale di kyanite+8
-14609	Bracciale di kyanite+9
 15470	Scarpe di kyanite+0
 15471	Scarpe di kyanite+1
 15472	Scarpe di kyanite+2
@@ -11313,46 +11303,26 @@ VNUM	LOCALE_NAME
 15477	Scarpe di kyanite+7
 15478	Scarpe di kyanite+8
 15479	Scarpe di kyanite+9
-16600	Collana di kianite+0
-16601	Collana di kianite+1
-16602	Collana di kianite+2
-16603	Collana di kianite+3
-16604	Collana di kianite+4
-16605	Collana di kianite+5
-16606	Collana di kianite+6
-16607	Collana di kianite+7
-16608	Collana di kianite+8
-16609	Collana di kianite+9
-17590	Orecchini di kyanite+0
-17591	Orecchini di kyanite+1
-17592	Orecchini di kyanite+2
-17593	Orecchini di kyanite+3
-17594	Orecchini di kyanite+4
-17595	Orecchini di kyanite+5
-17596	Orecchini di kyanite+6
-17597	Orecchini di kyanite+7
-17598	Orecchini di kyanite+8
-17599	Orecchini di kyanite+9
-12880	Casco zodiacale+0
-12881	Casco zodiacale+1
-12882	Casco zodiacale+2
-12883	Casco zodiacale+3
-12884	Casco zodiacale+4
-12885	Casco zodiacale+5
-12886	Casco zodiacale+6
-12887	Casco zodiacale+7
-12888	Casco zodiacale+8
-12889	Casco zodiacale+9
-12890	Cappello zodiacale+0
-12891	Cappello zodiacale+1
-12892	Cappello zodiacale+2
-12893	Cappello zodiacale+3
-12894	Cappello zodiacale+4
-12895	Cappello zodiacale+5
-12896	Cappello zodiacale+6
-12897	Cappello zodiacale+7
-12898	Cappello zodiacale+8
-12899	Cappello zodiacale+9
+12880	Casco Zodiac+0
+12881	Casco Zodiac+1
+12882	Casco Zodiac+2
+12883	Casco Zodiac+3
+12884	Casco Zodiac+4
+12885	Casco Zodiac+5
+12886	Casco Zodiac+6
+12887	Casco Zodiac+7
+12888	Casco Zodiac+8
+12889	Casco Zodiac+9
+12890	Cappello Zodiac+0
+12891	Cappello Zodiac+1
+12892	Cappello Zodiac+2
+12893	Cappello Zodiac+3
+12894	Cappello Zodiac+4
+12895	Cappello Zodiac+5
+12896	Cappello Zodiac+6
+12897	Cappello Zodiac+7
+12898	Cappello Zodiac+8
+12899	Cappello Zodiac+9
 12900	Elmo con armatura Zodiac+0
 12901	Elmo con armatura Zodiac+1
 12902	Elmo con armatura Zodiac+2
@@ -11363,36 +11333,16 @@ VNUM	LOCALE_NAME
 12907	Elmo con armatura Zodiac+7
 12908	Elmo con armatura Zodiac+8
 12909	Elmo con armatura Zodiac+9
-12910	Cappello zodiacale+0
-12911	Cappello zodiacale+1
-12912	Cappello zodiacale+2
-12913	Cappello zodiacale+3
-12914	Cappello zodiacale+4
-12915	Cappello zodiacale+5
-12916	Cappello zodiacale+6
-12917	Cappello zodiacale+7
-12918	Cappello zodiacale+8
-12919	Cappello zodiacale+9
-13210	Scudo dello zodiaco+0
-13211	Scudo dello zodiaco+1
-13212	Scudo dello zodiaco+2
-13213	Scudo dello zodiaco+3
-13214	Scudo dello zodiaco+4
-13215	Scudo dello zodiaco+5
-13216	Scudo dello zodiaco+6
-13217	Scudo dello zodiaco+7
-13218	Scudo dello zodiaco+8
-13219	Scudo dello zodiaco+9
-14580	Fascia Zodiakarm+0
-14581	Fascia Zodiakarm+1
-14582	Fascia Zodiakarm+2
-14583	Fascia Zodiakarm+3
-14584	Fascia Zodiakarm+4
-14585	Fascia Zodiakarm+5
-14586	Fascia Zodiakarm+6
-14587	Fascia Zodiakarm+7
-14588	Fascia Zodiakarm+8
-14589	Fascia Zodiakarm+9
+12910	Cappello Zodiac+0
+12911	Cappello Zodiac+1
+12912	Cappello Zodiac+2
+12913	Cappello Zodiac+3
+12914	Cappello Zodiac+4
+12915	Cappello Zodiac+5
+12916	Cappello Zodiac+6
+12917	Cappello Zodiac+7
+12918	Cappello Zodiac+8
+12919	Cappello Zodiac+9
 15460	Scarpe dello zodiaco+0
 15461	Scarpe dello zodiaco+1
 15462	Scarpe dello zodiaco+2
@@ -11403,26 +11353,6 @@ VNUM	LOCALE_NAME
 15467	Scarpe dello zodiaco+7
 15468	Scarpe dello zodiaco+8
 15469	Scarpe dello zodiaco+9
-16580	Collana dello zodiaco+0
-16581	Collana dello zodiaco+1
-16582	Collana dello zodiaco+2
-16583	Collana dello zodiaco+3
-16584	Collana dello zodiaco+4
-16585	Collana dello zodiaco+5
-16586	Collana dello zodiaco+6
-16587	Collana dello zodiaco+7
-16588	Collana dello zodiaco+8
-16589	Collana dello zodiaco+9
-17570	Orecchini dello zodiaco+0
-17571	Orecchini dello zodiaco+1
-17572	Orecchini dello zodiaco+2
-17573	Orecchini dello zodiaco+3
-17574	Orecchini dello zodiaco+4
-17575	Orecchini dello zodiaco+5
-17576	Orecchini dello zodiaco+6
-17577	Orecchini dello zodiaco+7
-17578	Orecchini dello zodiaco+8
-17579	Orecchini dello zodiaco+9
 13230	Scudo del Drago Oscuro+0
 13231	Scudo del Drago Oscuro+1
 13232	Scudo del Drago Oscuro+2
@@ -11439,64 +11369,24 @@ VNUM	LOCALE_NAME
 13243	Scudo del Drago Oscuro+13
 13244	Scudo del Drago Oscuro+14
 13245	Scudo del Drago Oscuro+15
-14610	Bracciale del Drago Oscuro+0
-14611	Bracciale del Drago Oscuro+1
-14612	Bracciale del Drago Oscuro+2
-14613	Bracciale del Drago Oscuro+3
-14614	Bracciale del Drago Oscuro+4
-14615	Bracciale del Drago Oscuro+5
-14616	Bracciale del Drago Oscuro+6
-14617	Bracciale del Drago Oscuro+7
-14618	Bracciale del Drago Oscuro+8
-14619	Bracciale del Drago Oscuro+9
 14620	Bracciale del Drago Oscuro+10
 14621	Bracciale del drago Oscuro+11
 14622	Bracciale del drago Oscuro+12
 14623	Bracciale del drago Oscuro+13
 14624	Bracciale del drago Oscuro+14
 14625	Bracciale del drago Oscuro+15
-17600	Orecchini di drago Oscuro+0
-17601	Orecchini di drago Oscuro+1
-17602	Orecchini di drago Oscuro+2
-17603	Orecchini di drago Oscuro+3
-17604	Orecchini di drago Oscuro+4
-17605	Orecchini di drago Oscuro+5
-17606	Orecchini di drago Oscuro+6
-17607	Orecchini di drago Oscuro+7
-17608	Orecchini di drago Oscuro+8
-17609	Orecchini di drago Oscuro+9
 17610	Orecchini di drago Oscuro+10
 17611	Orecchini di drago Oscuro+11
 17612	Orecchini di drago Oscuro+12
 17613	Orecchini di drago Oscuro+13
 17614	Orecchini di drago Oscuro+14
 17615	Orecchini di drago Oscuro+15
-15240	Scarpe del drago Oscuro+0
-15241	Scarpe del drago Oscuro+1
-15242	Scarpe del drago Oscuro+2
-15243	Scarpe del drago Oscuro+3
-15244	Scarpe del drago Oscuro+4
-15245	Scarpe del drago Oscuro+5
-15246	Scarpe del drago Oscuro+6
-15247	Scarpe del drago Oscuro+7
-15248	Scarpe del drago Oscuro+8
-15249	Scarpe del drago Oscuro+9
 15250	Scarpe del drago Oscuro+10
 15251	Scarpe del drago Oscuro+11
 15252	Scarpe del drago Oscuro+12
 15253	Scarpe del drago Oscuro+13
 15254	Scarpe del drago Oscuro+14
 15255	Scarpe del drago Oscuro+15
-16610	Collana del drago Oscuro+0
-16611	Collana del drago Oscuro+1
-16612	Collana del drago Oscuro+2
-16613	Collana del drago Oscuro+3
-16614	Collana del drago Oscuro+4
-16615	Collana del drago Oscuro+5
-16616	Collana del drago Oscuro+6
-16617	Collana del drago Oscuro+7
-16618	Collana del drago Oscuro+8
-16619	Collana del drago Oscuro+9
 16620	Collana del drago Oscuro+10
 16621	Collana del drago Oscuro+11
 16622	Collana del drago Oscuro+12
@@ -11707,10 +11597,10 @@ VNUM	LOCALE_NAME
 40249	Mare profondo a due mani+
 40250	Campana Mare profondo+
 40251	Ventaglio Campana Mare+
-40252	Spada del Samurai dello Spirito+
-40253	Pugnale del Samurai dello Spirito+
-40254	Arco del Samurai dello Spirito+
-40255	Samurai fantasma a due mani+
+40252	Spada Samurai Spirito+
+40253	Pugnale Samurai Spirito+
+40254	Arco Samurai Spirito+
+40255	Samurai fantasma due mani+
 40256	Spirito samurai campana+
 40257	Spirito samurai Ventaglio+
 40258	Spada Wukong+
@@ -11719,32 +11609,32 @@ VNUM	LOCALE_NAME
 40261	Wukong a due mani+
 40262	Campana di Wukong+
 40263	Vantaglio Wukong+
-40264	Spada del cacciatore di vampiri+
-40265	Pugnale del cacciatore di vampiri+
-40266	Arco del cacciatore di vampiri+
-40267	Cacciatore di vampiri due mani+
-40268	Cacciatore di vampiri Campana+
-40269	Cacciatore di vampiri Ventaglio+
-40270	Spada del cavaliere del sangue+
-40271	Pugnale del Cavaliere di Sangue+
+40264	Spada cacciatore vampiri+
+40265	Pugnale cacciatore vampiri+
+40266	Arco cacciatore vampiri+
+40267	Cacciatore vampiri due mani+
+40268	Cacciatore vampiri Campana+
+40269	Cacciatore vampiri Ventaglio+
+40270	Spada del cavaliere sangue+
+40271	Pugnale del Cavaliere Sangue+
 40272	Arco del Cavaliere di Sangue+
-40273	Cavaliere di sangue a due mani+
-40274	Campana del Cavaliere di Sangue+
-40275	Ventaglio del Cavaliere di sangue+
+40273	Cavaliere sangue due mani+
+40274	Campana Cavaliere Sangue+
+40275	Ventaglio Cavaliere sangue+
 40276	Spada del medico della peste+
 40277	Pugnale del medico della peste+
 40278	Arco del medico della peste+
 40279	Medico della peste a due mani+
 40280	Medico della peste Campana+
-40281	Ventaglio del medico della peste+
+40281	Ventaglio del medico peste+
 41872	Costumi-Jotun(w)+
 41873	Costumi-Jotun(m)+
 45612	Jotun-Casco(m)+
 45613	Jotun-Casco(w)+
 41874	Costumi-Scuola(w)+
 41875	Costumi-Scuola(m)+
-45614	scuola-Casco(m)+
-45615	scuola-Casco(w)+
+45614	Scuola-Casco(m)+
+45615	Scuola-Casco(w)+
 41876	Costumi-Atlantis(w)+
 41877	Costumi-Atlantis(m)+
 45616	Atlantis-Casco(m)+
@@ -11765,10 +11655,10 @@ VNUM	LOCALE_NAME
 41885	Costumi-Wukong(m)+
 45624	Wukong-Casco(m)+
 45625	Wukong-Casco(w)+
-41886	Costumi-Cacciatore di vampiri(w)+
-41887	Costumi-Cacciatore di vampiri(m)+
-45626	Cacciatore di vampiri-Casco(m)+
-45627	Cacciatore di vampiri-Casco(w)+
+41886	Costumi-Cacciatore vampiri(w)+
+41887	Costumi-Cacciatore vampiri(m)+
+45626	Cacciatore vampiri-Casco(m)+
+45627	Cacciatore vampiri-Casco(w)+
 41888	Costumi-Cavaliere di sangue(w)+
 41889	Costumi-Cavaliere di sangue(m)+
 45628	Cavaliere di sangue-Casco(m)+
@@ -11781,8 +11671,8 @@ VNUM	LOCALE_NAME
 55415	Uovo di pietra
 55416	Uovo antico
 55417	Uovo malvagio
-55418	Nasses-Ei
-55714	Saggio
+55418	Uovo Nasso
+55714	Pantaloni intelligenti
 55715	Piccola pietra
 55716	Piccolo Faraone
 55717	Piccolo cattivo
@@ -11791,7 +11681,7 @@ VNUM	LOCALE_NAME
 30812	Chiave di saggezza
 30813	Libro mancante 1
 30814	Libro mancante 2
-30815	Libro 3: "Scomparso
+30815	Libro mancante 3
 30816	Libro mancante 4
 30817	Chiave speciale per scaffali
 30734	Plagenstein
@@ -11820,40 +11710,8 @@ VNUM	LOCALE_NAME
 30919	Pass Atlantis
 30920	Chiave di Atlantide
 30921	Forzieri Atlantis
-55010	Resistenza (Mezzuomini)
-55011	Resistenza(Mostro)
-55012	Libro Cacciatore di uomini
-55013	Libro Cacciatore di capi
-55014	Libro del cacciatore di pietre
-55015	Libro Berserker
-55016	Libro Pausa Magica
-55017	Libro sull'accelerazione
-55018	Libro delle esercitazioni
-55019	Libro del rinnovo
-55020	Libro sui vampiri
-55021	Libro fantasma
-55022	Libro degli ostacoli
-55023	Libro degli specchi
-55024	Il libro delle gocce
-55025	Libro della gamma
-55026	Libro sull'invincibilit√†
-55027	Libro di guarigione
-55034	Libro Braumeister
-55035	Libro di Monster Hunter
-55036	Libro dallo sguardo acuto
-55037	Libro sul ritiro della vita
-55038	Libro sui pesi piuma
 28544	Pietra di cava magica+5
 28545	Pietra di cava magica+5
-50661	Cristallo di kyanite
-50662	Cristallo dello zodiaco
-50663	Cristallo di drago
-50664	Cristallo di serpente
-72327	Pergamena del termine (Perm.)
-55028	Trattamento del termine (Perm.)
-100002	Elisir del Tempo (Perm.)
-72349	Acceleratore (Biologo)
-72053	Pass Battaglia
 61025	Buffi(7d)
 61026	Buffi
 61030	Pergamena dei nomi (Buffi)
@@ -11863,26 +11721,6 @@ VNUM	LOCALE_NAME
 61036	Buffi: Libro dell'aiuto al drago
 61037	Buffi: Libro della velocit√†
 61038	Buffi: Libro d'attacco
-23070	Guanti del Drago Oscuro+0
-23071	Guanti del Drago Oscuro+1
-23072	Guanti del Drago Oscuro+2
-23073	Guanti del Drago Oscuro+3
-23074	Guanti del Drago Oscuro+4
-23075	Guanti del Drago Oscuro+5
-23076	Guanti del Drago Oscuro+6
-23077	Guanti del Drago Oscuro+7
-23078	Guanti del Drago Oscuro+8
-23079	Guanti del Drago Oscuro+9
-23080	Guanti da serpente+0
-23081	Guanti di serpente+1
-23082	Guanti da serpente+2
-23083	Guanti da serpente+3
-23084	Guanti da serpente+4
-23085	Guanti da serpente+5
-23086	Guanti da serpente+6
-23087	Guanti da serpente+7
-23088	Guanti da serpente+8
-23089	Guanti da serpente+9
 31150	Scatola di perfezionamento Aura
 91560	Atto dell'Aura
 91561	Certificato di Aura+
@@ -11895,8 +11733,6 @@ VNUM	LOCALE_NAME
 85106	Cavaliere di sangue-Stole
 85107	Medico della peste-Stole
 85108	Realizzazione-Stole
-30338	Bon per copricapo
-30339	Ricevuta per la pelle dell'arma
 30340	Ricevuta per i costi
 30347	Andun-Shining(Armatura)
 30348	Andun-Shining(Arma)
@@ -11908,12 +11744,12 @@ VNUM	LOCALE_NAME
 30354	Spirito Samurai-Shining(Arma)
 30355	Wukong-Shining(armatura)
 30356	Wukong-Shining(Arma)
-30357	Cacciatore di vampiri-Shining(Armatura)
-30358	Cacciatore di vampiri-Shining(Arma)
-30359	Cavaliere di sangue-Shining(Armatura)
-30360	Cavaliere di sangue-Shining(Arma)
-30361	Medico della Peste-Shining(Armatura)
-30362	Medico della Peste-Shining(Arma)
+30357	Cacciatore vampiri-Shining(Armat.)
+30358	Cacciatore vampiri-Shining(Arma)
+30359	Cavaliere sangue-Shining(Armat.)
+30360	Cavaliere sangue-Shining(Arma)
+30361	Medico Peste-Shining(Armat.)
+30362	Medico Peste-Shining(Arma)
 69151	Incanto insolito
 69152	Incanto raro
 69153	Incanto epico
@@ -11929,25 +11765,25 @@ VNUM	LOCALE_NAME
 528	Spada d'acciaio blu+8
 529	Spada d'acciaio blu+9
 530	Lama d'acciaio blu+0
-531	Lama d' acciaio blu+1
-532	Lama d' acciaio blu+2
-533	Lama d' acciaio blu+3
-534	Lama d' acciaio blu+4
+531	Lama d'acciaio blu+1
+532	Lama d'acciaio blu+2
+533	Lama d'acciaio blu+3
+534	Lama d'acciaio blu+4
 535	Lama d'acciaio blu+5
 536	Lama d'acciaio blu+6
 537	Lama d'acciaio blu+7
 538	Lama d'acciaio blu+8
 539	Lama d'acciaio blu+9
-3510	Elfo blu d'acciaio+0
+3510	Elfo d'acciaio blu+0
 3511	Elfo d'acciaio blu+1
-3512	Elfo blu d'acciaio+2
-3513	Elfo blu d'acciaio+3
-3514	Elfo blu d'acciaio+4
-3515	Elfo blu d'acciaio+5
-3516	Elfo blu d'acciaio+6
-3517	Elfo blu d'acciaio+7
-3518	Elfo blu d'acciaio+8
-3519	Elfo blu d'acciaio+9
+3512	Elfo d'acciaio blu+2
+3513	Elfo d'acciaio blu+3
+3514	Elfo d'acciaio blu+4
+3515	Elfo d'acciaio blu+5
+3516	Elfo d'acciaio blu+6
+3517	Elfo d'acciaio blu+7
+3518	Elfo d'acciaio blu+8
+3519	Elfo d'acciaio blu+9
 2510	Arco d'acciaio blu+0
 2511	Arco d'acciaio blu+1
 2512	Arco d'acciaio blu+2
@@ -11957,7 +11793,7 @@ VNUM	LOCALE_NAME
 2516	Arco d'acciaio blu+6
 2517	Arco d'acciaio blu+7
 2518	Arco d'acciaio blu+8
-2519	Arco d' acciaio blu+9
+2519	Arco d'acciaio blu+9
 5510	Campana d'acciaio blu+0
 5511	Campana d'acciaio blu+1
 5512	Campana d'acciaio blu+2
@@ -11989,18 +11825,7 @@ VNUM	LOCALE_NAME
 7518	Campana d'acciaio blu+8
 7519	Campana d'acciaio blu+9
 50578	Forziere di Yohara+
-72063	Metin Coda(Premium)
 20570	Mantello Premium Valour
-39064	Bon del destino
-41313	Combattente del deserto (nero)
-80014	Buono DR(50)
-80015	Buono DR(100)
-80016	Buono DR(200)
-80017	Buono DR(500)
-80022	Buono DR(800)
-80023	Buono DR(1000)
-80024	Buono DR(1200)
-80025	Buono DR(1500)
 927226	Pozione verde
 927227	Pozione viola
 939028	Drago Dio Vita
@@ -12032,21 +11857,20 @@ VNUM	LOCALE_NAME
 20569	Metin Coda(Premium)
 20571	Mantello Premium Valour
 20572	Mazzo di cachemire
-76053	Terza mano
 71267	Segugio
 71268	Manny il viscido
 53342	Pacchetto spaventoso
 53343	Mini uomo falce
-50135	Pacchetto biologico - basso
-50136	Pacchetto organico medio
-50137	Pacchetto biologico-alto
-72347	Acceleratore di dungeon (basso)
-72348	Acceleratore di dungeon(Mid)
 72361	Acceleratore di dungeon (alto)
 25044	Pietra incantata
 25045	Pietra stregata
-50128	Pacchetto Dio Drago(14d)
-50129	Pacchetto Tau(14d)
 950840	Pozione della strega
 950841	Pozione magica
 950842	Succo di zucca
+69155	Buono Yang(500K)
+69156	Buono Yang(750K)
+69157	Buono Yang(1kK)
+69158	Buono Yang(1,5kK)
+71269	Leone d'oro
+53344	Mini-Wukong
+53345	Mini-Nixie

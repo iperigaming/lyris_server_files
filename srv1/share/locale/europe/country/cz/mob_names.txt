@@ -2825,8 +2825,6 @@ VNUM	LOCALE_NAME
 34179	Malı faraon
 34180	Malı padouch
 34181	Malı plavèík
-34182	Dìsivı balíèek
-34183	Mini Scythe Man
 4310	Kniní stvoøení
 4311	Zlá kniní bytost
 4312	Temnı vìdec
@@ -2944,7 +2942,10 @@ VNUM	LOCALE_NAME
 9461	Mušle sova
 9462	Poklad Atlantidy
 65000	Buffi
-9022	BossBox
-20284	Bloodhound
+20284	Krvavı pes
 20285	Strašidelnı Manni
-
+20286	Zlatı lev
+34182	Strašidelnı balíèek
+34183	Smrák Mini-Grim
+34184	Mini-Wukong
+34185	Mini-Nixie

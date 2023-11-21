@@ -11890,8 +11890,8 @@ VNUM	LOCALE_NAME
 939029	Drachengott-Angriff
 939030	Drachengott-Intelligenz
 939031	Drachengott-Verteidigung
-939032	Kritischer Kampf
-939033	Durchbohrender Kampf
+939032	Durchbohrender Kampf
+939033	Kritischer Kampf
 950834	Roter Tau
 950835	Pinker Tau
 950836	Gelber Tau
@@ -11904,8 +11904,8 @@ VNUM	LOCALE_NAME
 939018	Drachengott-Angriff(P)
 939019	Drachengott-Intelligenz(P)
 939020	Drachengott-Verteidigung(P)
-939024	Kritischer Kampf(P)
-939025	Durchbohrender Kampf(P)
+939024	Durchbohrender Kampf(P)
+939025	Kritischer Kampf(P)
 950821	Roter Tau(P)
 950822	Pinker Tau(P)
 950823	Gelber Tau(P)
