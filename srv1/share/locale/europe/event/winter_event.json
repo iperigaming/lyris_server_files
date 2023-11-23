@@ -1,0 +1,22 @@
+{
+    "chest" : {
+        "npc": [
+            { "vnum": 9001, "reward": 30001 },
+            { "vnum": 9002, "reward": 30002 },
+            { "vnum": 9003, "reward": 30003 }
+        ],
+        "spawn_pos" : [
+            {
+                "map_index": 1,
+                "respawn_time": 30,
+                "spawn_count": 3,
+                "pos": [
+                    { "x": 0, "y": 0 },
+                    { "x": 100, "y": 100 },
+                    { "x": 200, "y": 200 },
+                    { "x": 300, "y": 300 }
+                ]
+            }
+        ]
+    }
+}
