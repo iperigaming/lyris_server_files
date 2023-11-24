@@ -1,10 +1,8 @@
-1. Change this
+
 m	647	582	0	0	0	0	1m	100	1	11000
 
-1. To this
 m	647	579	0	0	0	5	1m	100	1	11000
 
-2. Add
 
 //Christmas Tree
 m	647	585	0	0	0	0	1m	100	1	9433
