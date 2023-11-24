@@ -2950,3 +2950,4 @@ VNUM	LOCALE_NAME
 34183	Mini-Grim Reaper
 34184	Mini-Wukong
 34185	Mini-Nixie
+9433	Christmas Tree
