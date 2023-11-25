@@ -1,19 +1,19 @@
 {
 	"captcha": {
 		"mob": {
+			"min": 500,
+			"max": 1000
+		},
+		"stone": {
 			"min": 100,
 			"max": 200
 		},
-		"stone": {
-			"min": 1,
-			"max": 2
-		},
-		"playtime": 3600,
+		"playtime": 30,
 		"login": true
 	},
 	"settings": {
 		"time": 10,
-		"attempts": 10,
+		"attempts": 20,
 		"images": 11,
 		"block_hours": 1,
 		"logs": 1
