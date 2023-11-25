@@ -1,6 +1,8 @@
-
 //Christmas Tree
 m	639	639	0	0	0	0	1m	100	1	9433
+
+//Santa Claus
+m	641	633	0	0	0	0	1m	100	1	20126
 
 //Gifts
 
