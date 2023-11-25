@@ -8,7 +8,7 @@
 			"min": 100,
 			"max": 200
 		},
-		"playtime": 30,
+		"playtime": 3600,
 		"login": true
 	},
 	"settings": {
