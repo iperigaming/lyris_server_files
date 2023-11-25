@@ -13,7 +13,7 @@
     },
     "settings": {
         "time": 10,
-        "attemps": 10,
+        "attempts": 10,
         "block_hours": 1,
         "logs": 1
     },
