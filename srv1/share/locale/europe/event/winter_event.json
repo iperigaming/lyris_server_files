@@ -4,9 +4,9 @@
         "respawn_time": 30,
         "spawn_count": 3,
         "npc": [
-            { "vnum": 9255, "reward": 50082 },
-            { "vnum": 9255, "reward": 54702 },
-            { "vnum": 9255, "reward": 54703 }
+            { "vnum": 9001, "reward": 50082 },
+            { "vnum": 9001, "reward": 54702 },
+            { "vnum": 9001, "reward": 54703 }
         ],
         "pos": [
             { "x": 100, "y": 100 },
