@@ -1,0 +1,48 @@
+{
+	"captcha": {
+		"mob": {
+			"min": 500,
+			"max": 1000
+		},
+		"stone": {
+			"min": 100,
+			"max": 200
+		},
+		"playtime": 3600,
+		"login": true
+	},
+	"settings": {
+		"time": 10,
+		"attempts": 20,
+		"images": 11,
+		"block_hours": 1,
+		"logs": 1
+	},
+	"files": [
+		"icon/action/alcohol.tga",
+		"icon/action/siren.tga",
+		"icon/action/weather1.tga",
+		"icon/action/weather2.tga",
+		"icon/action/sungmahee_tower.tga",
+		"icon/action/celebration.tga",
+		"icon/action/call.tga",
+		"icon/action/charging.tga",
+		"icon/action/hungry.tga",
+		"icon/action/letter.tga",
+		"icon/action/nosay.tga",
+		"icon/action/angry.tga",
+		"icon/action/attractive.tga",
+		"icon/action/banter.tga",
+		"icon/action/busy.tga",
+		"icon/action/cheerup.tga",
+		"icon/action/congratulation.tga",
+		"icon/action/doze.tga",
+		"icon/action/exercise.tga",
+		"icon/action/forgive.tga",
+		"icon/action/joy.tga",
+		"icon/action/pushup.tga",
+		"icon/action/sad.tga",
+		"icon/action/selfie.tga",
+		"icon/action/shy.tga"
+	]
+}
