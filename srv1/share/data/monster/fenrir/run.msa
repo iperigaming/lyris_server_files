@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/npc/realis_winter/mounts/fenrir/run.gr2"
+MotionDuration           0.4666667
+Accumulation           0.00	-750.00	0.00
+

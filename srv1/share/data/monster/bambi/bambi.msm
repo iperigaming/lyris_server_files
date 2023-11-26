@@ -1,0 +1,82 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/npc/realis_winter/pets/bambi/bambi.gr2"
+
+Group ShapeData
+{
+    PathName 		 "d:\ymir work\npc\realis_winter\pets\bambi\"
+    ShapeDataCount 		 1
+    Group ShapeData00
+    {
+        ShapeIndex 		 0
+        Model 		 "bambi.gr2"
+        SourceSkin 		 "Bambi_003_DIFF.dds"
+        TargetSkin 		 "Bambi_003_DIFF.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       4
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    
+    Group AttachingData02
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "nose_fx"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\pets\bambi\nose.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData03
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001-Spine1"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\pets\bambi\body.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+}

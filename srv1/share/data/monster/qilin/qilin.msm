@@ -1,0 +1,134 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/npc/realis_winter/mounts/qilin/qilin.gr2"
+
+Group ShapeData
+{
+    PathName 		 "d:\ymir work\npc\realis_winter\mounts\qilin\"
+    ShapeDataCount 		 1
+    Group ShapeData00
+    {
+        ShapeIndex 		 0
+        Model 		 "qilin.gr2"
+        SourceSkin 		 "Qilin_DIFF.dds"
+        TargetSkin 		 "Qilin_DIFF.dds"
+    }
+}
+Group AttachingData
+{
+    AttachingDataCount       8
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip001"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           80.000000
+            Position         0.000000 0.000000 0.000000
+        }
+    }
+    
+    Group AttachingData02
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "eye_fx002"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\eye.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData03
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "eye_fx001"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\eye.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData04
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "leg_fx003"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\leg.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData05
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "leg_fx002"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\leg.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData06
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "leg_fx001"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\leg.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+    
+    Group AttachingData07
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "leg_fx004"
+        
+        EffectScriptName     "D:\ymir work\npc\realis_winter\mounts\qilin\leg.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+}

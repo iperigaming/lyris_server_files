@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/npc/realis_winter/mounts/polarbear/run.gr2"
+MotionDuration           0.6
+Accumulation           0.00	-600.00	0.00
+

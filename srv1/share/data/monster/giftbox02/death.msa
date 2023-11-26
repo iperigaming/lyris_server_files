@@ -1,0 +1,21 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/npc/realis_winter/npc/giftbox01/death.gr2"
+MotionDuration           4.166667
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.017745
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Object61"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/npc/realis_winter/npc/giftbox02/destroy.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}
