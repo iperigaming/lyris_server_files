@@ -1,7 +1,7 @@
 [
     {
         "map_index": 1,
-        "respawn_time": 30,
+        "respawn_time": 5,
         "spawn_count": 3,
         "npc": [
             { "vnum": 9001, "reward": 50082 }
