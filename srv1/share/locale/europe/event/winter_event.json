@@ -1,9 +1,9 @@
 {
     "chest" : {
         "npc": [
-            { "vnum": 9001, "reward": 30001 },
-            { "vnum": 9002, "reward": 30002 },
-            { "vnum": 9003, "reward": 30003 }
+            { "vnum": 9254, "reward": 50082 },
+            { "vnum": 9255, "reward": 54702 },
+            { "vnum": 9256, "reward": 54703 }
         ],
         "spawn_pos" : [
             {
