@@ -12,8 +12,8 @@
 		"login": true
 	},
 	"settings": {
-		"time": 10,
-		"attempts": 20,
+		"time": 20,
+		"attempts": 10,
 		"images": 11,
 		"block_hours": 1,
 		"logs": 1
