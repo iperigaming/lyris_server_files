@@ -346,6 +346,122 @@ Group	mondi
 	64	100701	1	5 -- Flamme des Drachen
 }
 
+Group	winter_bronze
+{
+	Vnum	51647
+	1	71084	100	60 -- Switcher
+	2	50132	15	20 -- Rubinbox
+	3	50133	15	15 -- Smaragdbox
+	4	50513	1	10 -- Seelenstein
+	5	61031	1	10 -- Seelenstein(Buffi)
+	6	50926	25	50 -- Schmuckstein
+	7	69157	10	2 -- 10kk Yang
+	8	71035	1	10 -- Elixier des Forschers
+	9	72349	1	10 -- Akzelerator(Bio)
+	10	72347	1	5 -- Dungeon-Akzelerator(Low)
+	11	950846	3	6 -- Zuckerstange
+	12	950847	3	3 -- Schneemann
+	13	50010	3	10 -- Socke
+	14	50821	1	40 -- Roter Tau
+	15	50822	1	40 -- Pinker Tau
+	16	50823	1	40 -- Gelber Tau
+	17	50824	1	40 -- Grüner Tau
+	18	50825	1	40 -- Blauer Tau
+	19	50826	1	40 -- Weißer Tau
+	20	71028	1	40 -- Drachengott-Angriff
+	21	71030	1	40 -- Drachengott-Verteidigung
+	22	71027	1	40 -- Drachengott-Leben
+	23	71029	1	40 -- Drachengott-Intelligenz
+	24	71045	1	40 -- Durchbohrender Kampf
+	25	50134	15	10 -- Saphirbox
+}
+
+Group	winter_silber
+{
+	Vnum	51648
+	1	71084	400	60 -- Switcher
+	2	50132	20	20 -- Rubinbox
+	3	50133	20	20 -- Smaragdbox
+	4	50513	1	10 -- Seelenstein
+	5	61031	1	10 -- Seelenstein(Buffi)
+	6	50926	50	50 -- Schmuckstein
+	7	69157	20	4 -- 20kk Yang
+	8	71035	1	10 -- Elixier des Forschers
+	9	72349	1	10 -- Akzelerator(Bio)
+	10	72348	1	5 -- Dungeon-Akzelerator(Mid)
+	11	950846	5	6 -- Zuckerstange
+	12	950847	5	4 -- Schneemann
+	13	50010	5	10 -- Socke
+	14	69151	1	5 -- Ungewöhnliche Verzauberung
+	15	69152	1	3 -- Seltene Verzauberung
+	16	31150	10	6 -- Aura-refinechest
+	17	71123	1	3 -- Drachenschuppe
+	18	71129	1	3 -- Drachenkralle
+	19	55009	1	6 -- Pet-Bücherkiste
+	20	51511	10	30 -- Cor Diamas
+	21	51512	10	30 -- Cor Rubinum
+	22	51513	10	30 -- Cor Jadeit  
+	23	51514	10	30 -- Cor Saphirum  
+	24	51515	10	30 -- Cor Granatum  
+	25	51516	10	30 -- Cor Atrum
+	26	25041	1	15 -- Magischer Stein
+	27	100701	1	3 -- Flamme des Drachen
+	28	33029	10	40 -- Rote Zodiakschatulle
+	29	33030	10	40 -- Blaue Zodiakschatulle
+	30	55002	1	1 -- Transportbox
+	31	55003	1	3 -- Junges Pet-Buch
+	32	55004	1	2 -- Wildes Pet-Buch
+	33	55005	1	1 -- Tapferes Pet-Buch
+	34	55033	1	15 -- Pet verzaubern
+	35	71069	1	1 -- Ohrringe der Harmonie
+	36	71072	1	1 -- Armband der Harmonie
+	37	71074	1	1 -- Halskette der Harmonie
+	38	53346	1	1 -- Mini-Santa
+	39	71275	1	1 -- Winterzauberrentier
+}
+
+Group	winter_gold
+{
+	Vnum	51649
+	1	71084	1000	50 -- Switcher
+	2	50577	1	5 -- Legendärer Seelenstein
+	3	61032	1	5 -- Legendärer Seelenstein(Buffi)
+	4	69157	50	4 -- 50kk Yang
+	5	25041	2	10 -- Magischer Stein
+	6	69153	1	3 -- Epische Verzauberung
+	7	69154	1	2 -- Legendäre Verzauberung
+	8	31150	20	20 -- Aura-Veredelungsbox
+	9	50259	1	8 -- Legendärer Cor
+	10	55009	2	30 -- Petbücherkiste
+	11	31251	10	40 -- Lederhärter
+	12	31121	5	40 -- Stahl
+	13	31149	10	40 -- Feste Schnur
+	14	31234	5	40 -- Schlangenstein+
+	15	31243	5	40 -- Nordwind-Waffenstein+
+	16	25044	1	25 -- Verzauberter Stein
+	17	25045	1	20 -- Verhexter Stein
+	18	72361	1	5 -- Dungeon-Akzelerator(High)
+	19	53349	1	1 -- Mini-Schneemann
+	20	71272	1	1 -- Rudolf
+	21	100002	1	1 -- Elixier der Zeit(Perm.)
+	22	950846	8	6 -- Zuckerstange
+	23	950847	8	4 -- Schneemann
+	24	50010	8	10 -- Socke
+	25	31128	1	10 -- Horn des Razador
+	26	31129	1	10 -- Horn des Nemere
+	27	31132	5	8 -- Bruchstücke
+	28	30584	1	1 -- Glatter Schmuck(Grün)
+	29	30583	1	1 -- Glatter Schmuck(Blau)
+	30	31130	1	10 -- Spitzige Dornen
+	31	31239	1	10 -- Schimm. weiße Perle
+	32	31240	1	10 -- Schimm. blaue Perle
+	33	31241	1	10 -- Schimm. blutrote Perle
+	34	31124	5	40 -- Dünner Faden
+	35	31125	5	40 -- Dicker Faden
+	36	31126	1	10 -- Drachenschädel
+	37	31127	1	10 -- Drachenzahn
+	38	31244	2	40 -- Nordwind-Handschuhstein
+}
 Group	pet_skillchest
 {
 	Vnum	55009 -- Petbücherkiste

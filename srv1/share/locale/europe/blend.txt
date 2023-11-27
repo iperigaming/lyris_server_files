@@ -2,14 +2,14 @@
 section
 	item_vnum	50821
 	apply_type	CRITICAL_PCT
-	apply_value	12	12	12	15	20
+	apply_value	20	20	20	20	20
 	apply_duration	600	1200	1800	2400	3600
 end
 
 section
 	item_vnum	50822
 	apply_type	PENETRATE_PCT
-	apply_value	12	12	12	15	20
+	apply_value	20	20	20	20	20
 	apply_duration	600	1200	1800	2400	3600
 end
 
@@ -17,7 +17,7 @@ end
 section
 	item_vnum	50823
 	apply_type	ATTBONUS_STONE
-	apply_value	10	10	10	15	20
+	apply_value	20	20	20	20	20
 	apply_duration	600	1200	1800	2400	3600
 end
 
@@ -25,7 +25,7 @@ end
 section
 	item_vnum	50824
 	apply_type	ATTBONUS_BOSS
-	apply_value	10	10	10	15	20
+	apply_value	20	20	20	20	20
 	apply_duration	600	1200	1800	2400	3600
 end
 
@@ -33,7 +33,7 @@ end
 section
 	item_vnum	50825
 	apply_type	ATT_BONUS
-	apply_value	50	50	50	90	120
+	apply_value	120	120	120	120	120
 	apply_duration	600	1200	1800	2400	3600
 end
 
@@ -41,7 +41,7 @@ end
 section
 	item_vnum	50826
 	apply_type	DEF_BONUS
-	apply_value	100	100	100	150	200
+	apply_value	200	200	200	200	200
 	apply_duration	600	1200	1800	2400	3600
 end
 
