@@ -981,6 +981,7 @@ Group	plague_dungeon
 	26	61031	1	30 -- Buffi Seelenstein
 	27	72002	1	25 -- Erfahrungsring(30m)
 	28	72005	1	25 -- Diebeshandschuh
+	29	51647	1	15 -- Weihnachtsgeschenk(Bronze)
 }
 
 Group	wisdom_boss
@@ -1016,6 +1017,7 @@ Group	wisdom_boss
 	27	61031	1	30 -- Buffi Seelenstein
 	28	72002	1	25 -- Erfahrungsring(30m)
 	29	72005	1	25 -- Diebeshandschuh
+	30	51647	1	15 -- Weihnachtsgeschenk(Bronze)	
 }
 
 Group	sensenmann
@@ -1044,6 +1046,7 @@ Group	sensenmann
 	20	69151	1	5 -- Ungewöhnliche Verzauberung
 	21	69152	1	3 -- Seltene Verzauberung
 	22	61031	1	30 -- Buffi Seelenstein
+	23	51647	1	20 -- Weihnachtsgeschenk(Bronze)
 }
 
 Group	spinnenbaroness
@@ -1073,6 +1076,7 @@ Group	spinnenbaroness
 	21	69151	1	5 -- Ungewöhnliche Verzauberung
 	22	69152	1	3 -- Seltene Verzauberung
 	23	61031	1	30 -- Buffi Seelenstein
+	24	51647	1	20 -- Weihnachtsgeschenk(Bronze)
 }
 
 Group	drachenraum
@@ -1104,6 +1108,7 @@ Group	drachenraum
 	23	69153	1	6 -- Epische Verzauberung
 	24	69154	1	4 -- Legendäre Verzauberung
 	25	61031	1	12 -- Buffi Seelenstein
+	26	51648	1	25 -- Weihnachtsgeschenk(Silber)
 }
 
 
@@ -1137,6 +1142,7 @@ Group	devils_catacomb
 	24	69153	1	8 -- Epische Verzauberung
 	25	69154	1	6 -- Legendäre Verzauberung
 	26	61031	1	30 -- Buffi Seelenstein
+	27	51648	1	25 -- Weihnachtsgeschenk(Silber)
 }
 
 Group	nemere
@@ -1168,6 +1174,7 @@ Group	nemere
 	23	69153	1	12 -- Epische Verzauberung
 	24	69154	1	10 -- Legendäre Verzauberung
 	25	61031	1	30 -- Buffi Seelenstein
+	26	51648	1	30 -- Weihnachtsgeschenk(Silber)
 }
 
 Group	razador
@@ -1199,6 +1206,7 @@ Group	razador
 	23	69153	1	12 -- Epische Verzauberung
 	24	69154	1	10 -- Legendäre Verzauberung
 	25	61031	1	30 -- Buffi Seelenstein
+	26	51648	1	30 -- Weihnachtsgeschenk(Silber)
 }
 
 Group	jotun
@@ -1218,6 +1226,7 @@ Group	jotun
 	11	69153	1	18 -- Epische Verzauberung
 	12	69154	1	12 -- Legendäre Verzauberung
 	13	61031	1	30 -- Buffi Seelenstein
+	14	51649	1	20 -- Weihnachtsgeschenk(Gold)
 }
 
 Group	pyramid_dungeon
@@ -1237,6 +1246,7 @@ Group	pyramid_dungeon
 	11	69153	1	18 -- Epische Verzauberung
 	12	69154	1	12 -- Legendäre Verzauberung
 	13	61031	1	30 -- Buffi Seelenstein
+	14	51649	1	20 -- Weihnachtsgeschenk(Gold)
 }
 
 Group	atlantis_dungeon
@@ -1258,6 +1268,7 @@ Group	atlantis_dungeon
 	13	61031	1	30 -- Buffi Seelenstein
 	14	61031	1	30 -- Legendärer Buffi Seelenstein
 	15	50525	1	60 -- Seelenstein+
+	16	51649	1	30 -- Weihnachtsgeschenk(Gold)
 }
 
 Group	andun_dungeon
@@ -1278,6 +1289,7 @@ Group	andun_dungeon
 	12	69154	1	20 -- Legendäre Verzauberung
 	13	61031	1	30 -- Legendärer Buffi Seelenstein
 	14	50525	1	60 -- Seelenstein+
+	15	51649	1	35 -- Weihnachtsgeschenk(Gold)
 }
 ----------------------------------------------- DUNGEON BOSSE ENDE
 
