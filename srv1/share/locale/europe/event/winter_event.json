@@ -8342,7 +8342,6 @@
         "respawn_time": 1800,
         "spawn_count": 25,
         "npc": [
-            { "vnum": 9435, "reward": 51647 },
 			{ "vnum": 9436, "reward": 51648 }
         ],
         "pos": [
