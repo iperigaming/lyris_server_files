@@ -420,6 +420,11 @@ Group	winter_silber
 	37	71074	1	1 -- Halskette der Harmonie
 	38	53346	1	1 -- Mini-Santa
 	39	71275	1	1 -- Winterzauberrentier
+	40	30581	1	2 -- Glatter Bronzeschmuck
+	41	30585	1	2 -- Glatter Schnuck(Rot)
+	42	31085	1	2 -- Schweres Wasser
+	43	31086	1	2 -- Pilzsporen
+	44	50134	15	10 -- Saphirbox
 }
 
 Group	winter_gold
