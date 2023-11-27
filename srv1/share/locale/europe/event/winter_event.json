@@ -4,7 +4,7 @@
         "respawn_time": 1800,
         "spawn_count": 20,
         "npc": [
-            { "vnum": 9435, "reward": 51647 },
+            { "vnum": 9435, "reward": 51647 }
         ],
         "pos": [
 			{ "x": 204, "y": 465 },
