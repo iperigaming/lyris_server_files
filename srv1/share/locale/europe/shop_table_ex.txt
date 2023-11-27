@@ -362,7 +362,18 @@ Group winter1
 	{
 		#--#	vnum	count	price	price_type	price_vnum	socket0 socket1 socket2 socket3 socket4 socket5 attr_type0 attr_value0 attr_type1 attr_value1 attr_type2 attr_value2 attr_type3 attr_value3 attr_type4 attr_value4 attr_type5 attr_value5 attr_type6 attr_value6
 		1	41898	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
-		2	41898	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		2	41899	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		3	45638	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		4	45639	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		5	85112	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		6	40300	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		7	40301	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		8	40302	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		9	40303	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		10	40304	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		11	40305	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		12	71274	1	130	3 950846 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		13	53346	1	130	3 950846 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 	}
 }
 
@@ -375,5 +386,8 @@ Group winter2
 	{
 		#--#	vnum	count	price	price_type	price_vnum	socket0 socket1 socket2 socket3 socket4 socket5 attr_type0 attr_value0 attr_type1 attr_value1 attr_type2 attr_value2 attr_type3 attr_value3 attr_type4 attr_value4 attr_type5 attr_value5 attr_type6 attr_value6
 		1	50216	1	30	3 950847 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		2	950843	1	25	3 50010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		3	950844	1	25	3 50010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		4	950845	1	25	3 50010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 	}
 }
