@@ -400,12 +400,12 @@ Group	winter_silber
 	17	71123	1	3 -- Drachenschuppe
 	18	71129	1	3 -- Drachenkralle
 	19	55009	1	6 -- Pet-Bücherkiste
-	20	51511	10	30 -- Cor Diamas
-	21	51512	10	30 -- Cor Rubinum
-	22	51513	10	30 -- Cor Jadeit  
-	23	51514	10	30 -- Cor Saphirum  
-	24	51515	10	30 -- Cor Granatum  
-	25	51516	10	30 -- Cor Atrum
+	20	51511	2	30 -- Cor Diamas
+	21	51512	2	30 -- Cor Rubinum
+	22	51513	2	30 -- Cor Jadeit  
+	23	51514	2	30 -- Cor Saphirum  
+	24	51515	2	30 -- Cor Granatum
+	25	51516	2	30 -- Cor Atrum
 	26	25041	1	15 -- Magischer Stein
 	27	100701	1	3 -- Flamme des Drachen
 	28	33029	10	40 -- Rote Zodiakschatulle
