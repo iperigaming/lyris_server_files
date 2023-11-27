@@ -46,7 +46,7 @@ Group ShopNPC
 	12	9009	Fischer3
 	13	101	Ticket1
 	14	20126	winter1
-	14	20126	winter2
+	15	20126	winter2
 }
 
 Group Armor1
@@ -362,6 +362,7 @@ Group winter1
 	{
 		#--#	vnum	count	price	price_type	price_vnum	socket0 socket1 socket2 socket3 socket4 socket5 attr_type0 attr_value0 attr_type1 attr_value1 attr_type2 attr_value2 attr_type3 attr_value3 attr_type4 attr_value4 attr_type5 attr_value5 attr_type6 attr_value6
 		1	41898	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
+		2	41898	1	115	3 950846 0 0 0 0 0 0 0 0 63 5 117 5 123 5 0 0 0 0 0 0 0
 	}
 }
 
