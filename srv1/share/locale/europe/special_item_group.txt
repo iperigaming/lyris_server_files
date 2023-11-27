@@ -374,6 +374,8 @@ Group	winter_bronze
 	23	71029	1	40 -- Drachengott-Intelligenz
 	24	71045	1	40 -- Durchbohrender Kampf
 	25	50134	15	10 -- Saphirbox
+	26	20569	1	1 -- Metin-Queue 3d
+	27	76053	1	1 -- Dritte-Hand 3d
 }
 
 Group	winter_silber
@@ -461,6 +463,7 @@ Group	winter_gold
 	36	31126	1	10 -- Drachenschädel
 	37	31127	1	10 -- Drachenzahn
 	38	31244	2	40 -- Nordwind-Handschuhstein
+	39	71149	1	1 -- Ring der Tödlichen Macht
 }
 Group	pet_skillchest
 {
