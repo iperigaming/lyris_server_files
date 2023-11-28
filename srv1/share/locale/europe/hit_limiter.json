@@ -9,7 +9,7 @@
                 {
                     "_comment": "WEAPON_SWORD",
                     "type": 0,
-                    "limit": 1
+                    "limit": 5000
                 },
                 {
                     "_comment": "WEAPON_TWO_HANDED",
