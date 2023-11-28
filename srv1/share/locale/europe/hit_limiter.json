@@ -104,12 +104,12 @@
             "limits": [
                 {
                     "_comment": "WEAPON_BELL",
-                    "type": 0,
+                    "type": 4,
                     "limit": 195
                 },
                 {
                     "_comment": "WEAPON_FAN",
-                    "type": 0,
+                    "type": 5,
                     "limit": 195
                 }
             ]
@@ -120,12 +120,12 @@
             "limits": [
                 {
                     "_comment": "WEAPON_BELL",
-                    "type": 0,
+                    "type": 4,
                     "limit": 215
                 },
                 {
                     "_comment": "WEAPON_FAN",
-                    "type": 0,
+                    "type": 5,
                     "limit": 215
                 }
             ]
