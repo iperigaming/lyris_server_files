@@ -2997,3 +2997,17 @@ VNUM	LOCALE_NAME
 20284	Câinele de vânãtoare
 20285	Manni înfiorãtor
 20286	Leul de Aur
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Alergãtor de zãpadã
+20291	Ursul magic de iarnã
+20292	Renul de iarnã
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Omul de zãpadã
+34190	Mini-Alergãtor de zãpadã
+9435	Cutie de cadou(bronz)
+9436	Cutie de cadou(argint)
+9437	Cutie de cadou(aur)

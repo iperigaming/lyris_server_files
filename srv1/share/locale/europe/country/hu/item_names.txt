@@ -231,16 +231,16 @@ VNUM	LOCALE_NAME
 237	mennyei kard+7
 238	mennyei kard+8
 239	mennyei kard+9
-240	Ördögûzõ kard+0
-241	Ördögûzõ kard+1
-242	Ördögûzõ kard+2
-243	Ördögûzõ kard+3
-244	Ördögûzõ kard+4
-245	Ördögûzõ kard+5
-246	Ördögûzõ kard+6
-247	Ördögûzõ kard+7
-248	Ördögûzõ kard+8
-249	Ördögûzõ kard+9
+240	Ördöguzo kard+0
+241	Ördöguzo kard+1
+242	Ördöguzo kard+2
+243	Ördöguzo kard+3
+244	Ördöguzo kard+4
+245	Ördöguzo kard+5
+246	Ördöguzo kard+6
+247	Ördöguzo kard+7
+248	Ördöguzo kard+8
+249	Ördöguzo kard+9
 250	Démon penge+0
 251	Démon penge+1
 252	Démon penge+2
@@ -407,36 +407,36 @@ VNUM	LOCALE_NAME
 507	Kianit kard+7
 508	Kianit kard+8
 509	Kianit kard+9
-1000	Tõr+0
-1001	Tõr+1
-1002	Tõr+2
-1003	Tõr+3
-1004	Tõr+4
-1005	Tõr+5
-1006	Tõr+6
-1007	Tõr+7
-1008	Tõr+8
-1009	Tõr+9
-1010	Kobra tõr+0
-1011	Kobra tõr+1
-1012	Kobra tõr+2
-1013	Kobra tõr+3
-1014	Kobra tõr+4
-1015	Kobra tõr+5
-1016	Kobra tõr+6
-1017	Kobra tõr+7
-1018	Kobra tõr+8
-1019	Kobra tõr+9
-1020	Olló tõr+0
-1021	Olló tõr+1
-1022	Olló tõr+2
-1023	Olló tõr+3
-1024	Olló tõr+4
-1025	Olló tõr+5
-1026	Olló tõr+6
-1027	Olló tõr+7
-1028	Olló tõr+8
-1029	Olló tõr+9
+1000	Tor+0
+1001	Tor+1
+1002	Tor+2
+1003	Tor+3
+1004	Tor+4
+1005	Tor+5
+1006	Tor+6
+1007	Tor+7
+1008	Tor+8
+1009	Tor+9
+1010	Kobra tor+0
+1011	Kobra tor+1
+1012	Kobra tor+2
+1013	Kobra tor+3
+1014	Kobra tor+4
+1015	Kobra tor+5
+1016	Kobra tor+6
+1017	Kobra tor+7
+1018	Kobra tor+8
+1019	Kobra tor+9
+1020	Olló tor+0
+1021	Olló tor+1
+1022	Olló tor+2
+1023	Olló tor+3
+1024	Olló tor+4
+1025	Olló tor+5
+1026	Olló tor+6
+1027	Olló tor+7
+1028	Olló tor+8
+1029	Olló tor+9
 1030	Szerencse kés+0
 1031	Szerencse kés+1
 1032	Szerencse kés+2
@@ -457,36 +457,36 @@ VNUM	LOCALE_NAME
 1047	Macskaharapás kés+7
 1048	Macskaharapás kés+8
 1049	Macskaharapás kés+9
-1050	Ördögálarc tõr+0
-1051	Ördögálarc tõr+1
-1052	Ördögálarc tõr+2
-1053	Ördögálarc tõr+3
-1054	Ördögálarc tõr+4
-1055	Ördögálarc tõr+5
-1056	Ördögálarc tõr+6
-1057	Ördögálarc tõr+7
-1058	Ördögálarc tõr+8
-1059	Ördögálarc tõr+9
-1060	Ördögmarok tõr+0
-1061	Ördögmarok tõr+1
-1062	Ördögmarok tõr+2
-1063	Ördögmarok tõr+3
-1064	Ördögmarok tõr+4
-1065	Ördögmarok tõr+5
-1066	Ördögmarok tõr+6
-1067	Ördögmarok tõr+7
-1068	Ördögmarok tõr+8
-1069	Ördögmarok tõr+9
-1070	Véres Tõr+0
-1071	Véres Tõr+1
-1072	Véres Tõr+2
-1073	Véres Tõr+3
-1074	Véres Tõr+4
-1075	Véres Tõr+5
-1076	Véres Tõr+6
-1077	Véres Tõr+7
-1078	Véres Tõr+8
-1079	Véres Tõr+9
+1050	Ördögálarc tor+0
+1051	Ördögálarc tor+1
+1052	Ördögálarc tor+2
+1053	Ördögálarc tor+3
+1054	Ördögálarc tor+4
+1055	Ördögálarc tor+5
+1056	Ördögálarc tor+6
+1057	Ördögálarc tor+7
+1058	Ördögálarc tor+8
+1059	Ördögálarc tor+9
+1060	Ördögmarok tor+0
+1061	Ördögmarok tor+1
+1062	Ördögmarok tor+2
+1063	Ördögmarok tor+3
+1064	Ördögmarok tor+4
+1065	Ördögmarok tor+5
+1066	Ördögmarok tor+6
+1067	Ördögmarok tor+7
+1068	Ördögmarok tor+8
+1069	Ördögmarok tor+9
+1070	Véres Tor+0
+1071	Véres Tor+1
+1072	Véres Tor+2
+1073	Véres Tor+3
+1074	Véres Tor+4
+1075	Véres Tor+5
+1076	Véres Tor+6
+1077	Véres Tor+7
+1078	Véres Tor+8
+1079	Véres Tor+9
 1080	Borda Kés+0
 1081	Borda Kés+1
 1082	Borda Kés+2
@@ -547,16 +547,16 @@ VNUM	LOCALE_NAME
 1137	Ördögszárny Chakram+7
 1138	Ördögszárny Chakram+8
 1139	Ördögszárny Chakram+9
-1140	Fûrészfog Kés+0
-1141	Fûrészfog Kés+1
-1142	Fûrészfog Kés+2
-1143	Fûrészfog Kés+3
-1144	Fûrészfog Kés+4
-1145	Fûrészfog Kés+5
-1146	Fûrészfog Kés+6
-1147	Fûrészfog Kés+7
-1148	Fûrészfog Kés+8
-1149	Fûrészfog Kés+9
+1140	Furészfog Kés+0
+1141	Furészfog Kés+1
+1142	Furészfog Kés+2
+1143	Furészfog Kés+3
+1144	Furészfog Kés+4
+1145	Furészfog Kés+5
+1146	Furészfog Kés+6
+1147	Furészfog Kés+7
+1148	Furészfog Kés+8
+1149	Furészfog Kés+9
 1150	Napfény Kés+0
 1151	Napfény Kés+1
 1152	Napfény Kés+2
@@ -577,59 +577,59 @@ VNUM	LOCALE_NAME
 1167	Patak Kés+7
 1168	Patak Kés+8
 1169	Patak Kés+9
-1170	Feketelevél tõr+0
-1171	Feketelevél tõr+1
-1172	Feketelevél tõr+2
-1173	Feketelevél tõr+3
-1174	Feketelevél tõr+4
-1175	Feketelevél tõr+5
-1176	Feketelevél tõr+6
-1177	Feketelevél tõr+7
-1178	Feketelevél tõr+8
-1179	Feketelevél tõr+9
-1180	Zodiákus tõr+0
-1181	Zodiákus tõr+1
-1182	Zodiákus tõr+2
-1183	Zodiákus tõr+3
-1184	Zodiákus tõr+4
-1185	Zodiákus tõr+5
-1186	Zodiákus tõr+6
-1187	Zodiákus tõr+7
-1188	Zodiákus tõr+8
-1189	Zodiákus tõr+9
-1190	Komor sárkány tõr+0
-1191	Komor sárkány tõr+1
-1192	Komor sárkány tõr+2
-1193	Komor sárkány tõr+3
-1194	Komor sárkány tõr+4
-1195	Komor sárkány tõr+5
-1196	Komor sárkány tõr+6
-1197	Komor sárkány tõr+7
-1198	Komor sárkány tõr+8
-1199	Komor sárkány tõr+9
-1200	Komor sárkány tõr+10
-1201	Komor sárkány tõr+11
-1202	Komor sárkány tõr+12
-1203	Komor sárkány tõr+13
-1204	Komor sárkány tõr+14
-1205	Komor sárkány tõr+15
-1210	Szerpent tõr+0
-1211	Szerpent tõr+1
-1212	Szerpent tõr+2
-1213	Szerpent tõr+3
-1214	Szerpent tõr+4
-1215	Szerpent tõr+5
-1216	Szerpent tõr+6
-1217	Szerpent tõr+7
-1218	Szerpent tõr+8
-1219	Szerpent tõr+9
-1220	Szerpent tõr+10
-1221	Szerpent tõr+11
-1222	Szerpent tõr+12
-1223	Szerpent tõr+13
-1224	Szerpent tõr+14
-1225	Szerpent tõr+15
-1226	Szerpent tõr (anyag)
+1170	Feketelevél tor+0
+1171	Feketelevél tor+1
+1172	Feketelevél tor+2
+1173	Feketelevél tor+3
+1174	Feketelevél tor+4
+1175	Feketelevél tor+5
+1176	Feketelevél tor+6
+1177	Feketelevél tor+7
+1178	Feketelevél tor+8
+1179	Feketelevél tor+9
+1180	Zodiákus tor+0
+1181	Zodiákus tor+1
+1182	Zodiákus tor+2
+1183	Zodiákus tor+3
+1184	Zodiákus tor+4
+1185	Zodiákus tor+5
+1186	Zodiákus tor+6
+1187	Zodiákus tor+7
+1188	Zodiákus tor+8
+1189	Zodiákus tor+9
+1190	Komor sárkány tor+0
+1191	Komor sárkány tor+1
+1192	Komor sárkány tor+2
+1193	Komor sárkány tor+3
+1194	Komor sárkány tor+4
+1195	Komor sárkány tor+5
+1196	Komor sárkány tor+6
+1197	Komor sárkány tor+7
+1198	Komor sárkány tor+8
+1199	Komor sárkány tor+9
+1200	Komor sárkány tor+10
+1201	Komor sárkány tor+11
+1202	Komor sárkány tor+12
+1203	Komor sárkány tor+13
+1204	Komor sárkány tor+14
+1205	Komor sárkány tor+15
+1210	Szerpent tor+0
+1211	Szerpent tor+1
+1212	Szerpent tor+2
+1213	Szerpent tor+3
+1214	Szerpent tor+4
+1215	Szerpent tor+5
+1216	Szerpent tor+6
+1217	Szerpent tor+7
+1218	Szerpent tor+8
+1219	Szerpent tor+9
+1220	Szerpent tor+10
+1221	Szerpent tor+11
+1222	Szerpent tor+12
+1223	Szerpent tor+13
+1224	Szerpent tor+14
+1225	Szerpent tor+15
+1226	Szerpent tor (anyag)
 1340	Öt elem penge +0
 1341	Öt elem penge +1
 1342	Öt elem penge +2
@@ -640,16 +640,16 @@ VNUM	LOCALE_NAME
 1347	Öt elem penge +7
 1348	Öt elem penge +8
 1349	Öt elem penge +9
-1500	Kianit tõr+0
-1501	Kianit tõr+1
-1502	Kianit tõr+2
-1503	Kianit tõr+3
-1504	Kianit tõr+4
-1505	Kianit tõr+5
-1506	Kianit tõr+6
-1507	Kianit tõr+7
-1508	Kianit tõr+8
-1509	Kianit tõr+9
+1500	Kianit tor+0
+1501	Kianit tor+1
+1502	Kianit tor+2
+1503	Kianit tor+3
+1504	Kianit tor+4
+1505	Kianit tor+5
+1506	Kianit tor+6
+1507	Kianit tor+7
+1508	Kianit tor+8
+1509	Kianit tor+9
 2000	Íj+0
 2001	Íj+1
 2002	Íj+2
@@ -893,16 +893,16 @@ VNUM	LOCALE_NAME
 2244	Szerpent íj+14
 2245	Szerpent íj+15
 2246	Szerpent íj (anyag)
-2370	Fõnix-íj +0
-2371	Fõnix-íj +1
-2372	Fõnix-íj +2
-2373	Fõnix-íj +3
-2374	Fõnix-íj +4
-2375	Fõnix-íj +5
-2376	Fõnix-íj +6
-2377	Fõnix-íj +7
-2378	Fõnix-íj +8
-2379	Fõnix-íj +9
+2370	Fonix-íj +0
+2371	Fonix-íj +1
+2372	Fonix-íj +2
+2373	Fonix-íj +3
+2374	Fonix-íj +4
+2375	Fonix-íj +5
+2376	Fonix-íj +6
+2377	Fonix-íj +7
+2378	Fonix-íj +8
+2379	Fonix-íj +9
 2500	Kianit íj+0
 2501	Kianit íj+1
 2502	Kianit íj+2
@@ -933,16 +933,16 @@ VNUM	LOCALE_NAME
 3017	lándzsa+7
 3018	lándzsa+8
 3019	lándzsa+9
-3020	lefejezõ penge+0
-3021	lefejezõ penge+1
-3022	lefejezõ penge+2
-3023	lefejezõ penge+3
-3024	lefejezõ penge+4
-3025	lefejezõ penge+5
-3026	lefejezõ penge+6
-3027	lefejezõ penge+7
-3028	lefejezõ penge+8
-3029	lefejezõ penge+9
+3020	lefejezo penge+0
+3021	lefejezo penge+1
+3022	lefejezo penge+2
+3023	lefejezo penge+3
+3024	lefejezo penge+4
+3025	lefejezo penge+5
+3026	lefejezo penge+6
+3027	lefejezo penge+7
+3028	lefejezo penge+8
+3029	lefejezo penge+9
 3030	Pók Lándzsa+0
 3031	Pók Lándzsa+1
 3032	Pók Lándzsa+2
@@ -1216,16 +1216,16 @@ VNUM	LOCALE_NAME
 4027	rövid kés+7
 4028	rövid kés+8
 4029	rövid kés+9
-4030	Holdiker tõr+0
-4031	Holdiker tõr+1
-4032	Holdiker tõr+2
-4033	Holdiker tõr+3
-4034	Holdiker tõr+4
-4035	Holdiker tõr+5
-4036	Holdiker tõr+6
-4037	Holdiker tõr+7
-4038	Holdiker tõr+8
-4039	Holdiker tõr+9
+4030	Holdiker tor+0
+4031	Holdiker tor+1
+4032	Holdiker tor+2
+4033	Holdiker tor+3
+4034	Holdiker tor+4
+4035	Holdiker tor+5
+4036	Holdiker tor+6
+4037	Holdiker tor+7
+4038	Holdiker tor+8
+4039	Holdiker tor+9
 4040	Lélektelen Kés+0
 4041	Lélektelen Kés+1
 4042	Lélektelen Kés+2
@@ -1479,16 +1479,16 @@ VNUM	LOCALE_NAME
 6007	Acél fáklya+7
 6008	Acél fáklya+8
 6009	Acél fáklya+9
-6010	Fõnix lándzsa+0
-6011	Fõnix lándzsa+1
-6012	Fõnix lándzsa+2
-6013	Fõnix lándzsa+3
-6014	Fõnix lándzsa+4
-6015	Fõnix lándzsa+5
-6016	Fõnix lándzsa+6
-6017	Fõnix lándzsa+7
-6018	Fõnix lándzsa+8
-6019	Fõnix lándzsa+9
+6010	Fonix lándzsa+0
+6011	Fonix lándzsa+1
+6012	Fonix lándzsa+2
+6013	Fonix lándzsa+3
+6014	Fonix lándzsa+4
+6015	Fonix lándzsa+5
+6016	Fonix lándzsa+6
+6017	Fonix lándzsa+7
+6018	Fonix lándzsa+8
+6019	Fonix lándzsa+9
 6020	Vas karom+0
 6021	Vas karom+1
 6022	Vas karom+2
@@ -1622,206 +1622,206 @@ VNUM	LOCALE_NAME
 6507	Kianit karom+7
 6508	Kianit karom+8
 6509	Kianit karom+9
-7000	legyezõ+0
-7001	legyezõ+1
-7002	legyezõ+2
-7003	legyezõ+3
-7004	legyezõ+4
-7005	legyezõ+5
-7006	legyezõ+6
-7007	legyezõ+7
-7008	legyezõ+8
-7009	legyezõ+9
-7010	vas legyezõ+0
-7011	vas legyezõ+1
-7012	vas legyezõ+2
-7013	vas legyezõ+3
-7014	vas legyezõ+4
-7015	vas legyezõ+5
-7016	vas legyezõ+6
-7017	vas legyezõ+7
-7018	vas legyezõ+8
-7019	vas legyezõ+9
-7020	Feketetigris Legyezõ+0
-7021	Feketetigris Legyezõ+1
-7022	Feketetigris Legyezõ+2
-7023	Feketetigris Legyezõ+3
-7024	Feketetigris Legyezõ+4
-7025	Feketetigris Legyezõ+5
-7026	Feketetigris Legyezõ+6
-7027	Feketetigris Legyezõ+7
-7028	Feketetigris Legyezõ+8
-7029	Feketetigris Legyezõ+9
-7030	Daruszárny Legyezõ+0
-7031	Daruszárny Legyezõ+1
-7032	Daruszárny Legyezõ+2
-7033	Daruszárny Legyezõ+3
-7034	Daruszárny Legyezõ+4
-7035	Daruszárny Legyezõ+5
-7036	Daruszárny Legyezõ+6
-7037	Daruszárny Legyezõ+7
-7038	Daruszárny Legyezõ+8
-7039	Daruszárny Legyezõ+9
-7040	Páva Legyezõ+0
-7041	Páva Legyezõ+1
-7042	Páva Legyezõ+2
-7043	Páva Legyezõ+3
-7044	Páva Legyezõ+4
-7045	Páva Legyezõ+5
-7046	Páva Legyezõ+6
-7047	Páva Legyezõ+7
-7048	Páva Legyezõ+8
-7049	Páva Legyezõ+9
-7050	vizi legyezõ+0
-7051	vizi legyezõ+1
-7052	vizi legyezõ+2
-7053	vizi legyezõ+3
-7054	vizi legyezõ+4
-7055	vizi legyezõ+5
-7056	vizi legyezõ+6
-7057	vizi legyezõ+7
-7058	vizi legyezõ+8
-7059	vizi legyezõ+9
-7060	kõ legyezõ+0
-7061	kõ legyezõ+1
-7062	kõ legyezõ+2
-7063	kõ legyezõ+3
-7064	kõ legyezõ+4
-7065	kõ legyezõ+5
-7066	kõ legyezõ+6
-7067	kõ legyezõ+7
-7068	kõ legyezõ+8
-7069	kõ legyezõ+9
-7070	Oceán Legyezõ+0
-7071	Oceán Legyezõ+1
-7072	Oceán Legyezõ+2
-7073	Oceán Legyezõ+3
-7074	Oceán Legyezõ+4
-7075	Oceán Legyezõ+5
-7076	Oceán Legyezõ+6
-7077	Oceán Legyezõ+7
-7078	Oceán Legyezõ+8
-7079	Oceán Legyezõ+9
-7080	Fullánk Legyezõ+0
-7081	Fullánk Legyezõ+1
-7082	Fullánk Legyezõ+2
-7083	Fullánk Legyezõ+3
-7084	Fullánk Legyezõ+4
-7085	Fullánk Legyezõ+5
-7086	Fullánk Legyezõ+6
-7087	Fullánk Legyezõ+7
-7088	Fullánk Legyezõ+8
-7089	Fullánk Legyezõ+9
-7090	Fõnix Legyezõ+0
-7091	Fõnix Legyezõ+1
-7092	Fõnix Legyezõ+2
-7093	Fõnix Legyezõ+3
-7094	Fõnix Legyezõ+4
-7095	Fõnix Legyezõ+5
-7096	Fõnix Legyezõ+6
-7097	Fõnix Legyezõ+7
-7098	Fõnix Legyezõ+8
-7099	Fõnix Legyezõ+9
-7100	tripla legyezõ+0
-7101	tripla legyezõ+1
-7102	tripla legyezõ+2
-7103	tripla legyezõ+3
-7104	tripla legyezõ+4
-7105	tripla legyezõ+5
-7106	tripla legyezõ+6
-7107	tripla legyezõ+7
-7108	tripla legyezõ+8
-7109	tripla legyezõ+9
-7110	szemöldök legyezõ+0
-7111	szemöldök legyezõ+1
-7112	szemöldök legyezõ+2
-7113	szemöldök legyezõ+3
-7114	szemöldök legyezõ+4
-7115	szemöldök legyezõ+5
-7116	szemöldök legyezõ+6
-7117	szemöldök legyezõ+7
-7118	szemöldök legyezõ+8
-7119	szemöldök legyezõ+9
-7120	Nap Legyezõ+0
-7121	Nap Legyezõ+1
-7122	Nap Legyezõ+2
-7123	Nap Legyezõ+3
-7124	Nap Legyezõ+4
-7125	Nap Legyezõ+5
-7126	Nap Legyezõ+6
-7127	Nap Legyezõ+7
-7128	Nap Legyezõ+8
-7129	Nap Legyezõ+9
-7130	Égimadár Legyezõ+0
-7131	Égimadár Legyezõ+1
-7132	Égimadár Legyezõ+2
-7133	Égimadár Legyezõ+3
-7134	Égimadár Legyezõ+4
-7135	Égimadár Legyezõ+5
-7136	Égimadár Legyezõ+6
-7137	Égimadár Legyezõ+7
-7138	Égimadár Legyezõ+8
-7139	Égimadár Legyezõ+9
-7140	Megváltó Legyezõ+0
-7141	Megváltó Legyezõ+1
-7142	Megváltó Legyezõ+2
-7143	Megváltó Legyezõ+3
-7144	Megváltó Legyezõ+4
-7145	Megváltó Legyezõ+5
-7146	Megváltó Legyezõ+6
-7147	Megváltó Legyezõ+7
-7148	Megváltó Legyezõ+8
-7149	Megváltó Legyezõ+9
-7150	Eksztázis Legyezõ+0
-7151	Eksztázis Legyezõ+1
-7152	Eksztázis Legyezõ+2
-7153	Eksztázis Legyezõ+3
-7154	Eksztázis Legyezõ+4
-7155	Eksztázis Legyezõ+5
-7156	Eksztázis Legyezõ+6
-7157	Eksztázis Legyezõ+7
-7158	Eksztázis Legyezõ+8
-7159	Eksztázis Legyezõ+9
-7160	Õsziszél Legyezõ+0
-7161	Õsziszél Legyezõ+1
-7162	Õsziszél Legyezõ+2
-7163	Õsziszél Legyezõ+3
-7164	Õsziszél Legyezõ+4
-7165	Õsziszél Legyezõ+5
-7166	Õsziszél Legyezõ+6
-7167	Õsziszél Legyezõ+7
-7168	Õsziszél Legyezõ+8
-7169	Õsziszél Legyezõ+9
-7170	Nyolc-trigram Legyezõ+0
-7171	Nyolc-trigram Legyezõ+1
-7172	Nyolc-trigram Legyezõ+2
-7173	Nyolc-trigram Legyezõ+3
-7174	Nyolc-trigram Legyezõ+4
-7175	Nyolc-trigram Legyezõ+5
-7176	Nyolc-trigram Legyezõ+6
-7177	Nyolc-trigram Legyezõ+7
-7178	Nyolc-trigram Legyezõ+8
-7179	Nyolc-trigram Legyezõ+9
-7180	Sárkány Legyezõ+0
-7181	Sárkány Legyezõ+1
-7182	Sárkány Legyezõ+2
-7183	Sárkány Legyezõ+3
-7184	Sárkány Legyezõ+4
-7185	Sárkány Legyezõ+5
-7186	Sárkány Legyezõ+6
-7187	Sárkány Legyezõ+7
-7188	Sárkány Legyezõ+8
-7189	Sárkány Legyezõ+9
-7190	Démon Legyezõ+0
-7191	Démon Legyezõ+1
-7192	Démon Legyezõ+2
-7193	Démon Legyezõ+3
-7194	Démon Legyezõ+4
-7195	Démon Legyezõ+5
-7196	Démon Legyezõ+6
-7197	Démon Legyezõ+7
-7198	Démon Legyezõ+8
-7199	Démon Legyezõ+9
+7000	legyezo+0
+7001	legyezo+1
+7002	legyezo+2
+7003	legyezo+3
+7004	legyezo+4
+7005	legyezo+5
+7006	legyezo+6
+7007	legyezo+7
+7008	legyezo+8
+7009	legyezo+9
+7010	vas legyezo+0
+7011	vas legyezo+1
+7012	vas legyezo+2
+7013	vas legyezo+3
+7014	vas legyezo+4
+7015	vas legyezo+5
+7016	vas legyezo+6
+7017	vas legyezo+7
+7018	vas legyezo+8
+7019	vas legyezo+9
+7020	Feketetigris Legyezo+0
+7021	Feketetigris Legyezo+1
+7022	Feketetigris Legyezo+2
+7023	Feketetigris Legyezo+3
+7024	Feketetigris Legyezo+4
+7025	Feketetigris Legyezo+5
+7026	Feketetigris Legyezo+6
+7027	Feketetigris Legyezo+7
+7028	Feketetigris Legyezo+8
+7029	Feketetigris Legyezo+9
+7030	Daruszárny Legyezo+0
+7031	Daruszárny Legyezo+1
+7032	Daruszárny Legyezo+2
+7033	Daruszárny Legyezo+3
+7034	Daruszárny Legyezo+4
+7035	Daruszárny Legyezo+5
+7036	Daruszárny Legyezo+6
+7037	Daruszárny Legyezo+7
+7038	Daruszárny Legyezo+8
+7039	Daruszárny Legyezo+9
+7040	Páva Legyezo+0
+7041	Páva Legyezo+1
+7042	Páva Legyezo+2
+7043	Páva Legyezo+3
+7044	Páva Legyezo+4
+7045	Páva Legyezo+5
+7046	Páva Legyezo+6
+7047	Páva Legyezo+7
+7048	Páva Legyezo+8
+7049	Páva Legyezo+9
+7050	vizi legyezo+0
+7051	vizi legyezo+1
+7052	vizi legyezo+2
+7053	vizi legyezo+3
+7054	vizi legyezo+4
+7055	vizi legyezo+5
+7056	vizi legyezo+6
+7057	vizi legyezo+7
+7058	vizi legyezo+8
+7059	vizi legyezo+9
+7060	ko legyezo+0
+7061	ko legyezo+1
+7062	ko legyezo+2
+7063	ko legyezo+3
+7064	ko legyezo+4
+7065	ko legyezo+5
+7066	ko legyezo+6
+7067	ko legyezo+7
+7068	ko legyezo+8
+7069	ko legyezo+9
+7070	Oceán Legyezo+0
+7071	Oceán Legyezo+1
+7072	Oceán Legyezo+2
+7073	Oceán Legyezo+3
+7074	Oceán Legyezo+4
+7075	Oceán Legyezo+5
+7076	Oceán Legyezo+6
+7077	Oceán Legyezo+7
+7078	Oceán Legyezo+8
+7079	Oceán Legyezo+9
+7080	Fullánk Legyezo+0
+7081	Fullánk Legyezo+1
+7082	Fullánk Legyezo+2
+7083	Fullánk Legyezo+3
+7084	Fullánk Legyezo+4
+7085	Fullánk Legyezo+5
+7086	Fullánk Legyezo+6
+7087	Fullánk Legyezo+7
+7088	Fullánk Legyezo+8
+7089	Fullánk Legyezo+9
+7090	Fonix Legyezo+0
+7091	Fonix Legyezo+1
+7092	Fonix Legyezo+2
+7093	Fonix Legyezo+3
+7094	Fonix Legyezo+4
+7095	Fonix Legyezo+5
+7096	Fonix Legyezo+6
+7097	Fonix Legyezo+7
+7098	Fonix Legyezo+8
+7099	Fonix Legyezo+9
+7100	tripla legyezo+0
+7101	tripla legyezo+1
+7102	tripla legyezo+2
+7103	tripla legyezo+3
+7104	tripla legyezo+4
+7105	tripla legyezo+5
+7106	tripla legyezo+6
+7107	tripla legyezo+7
+7108	tripla legyezo+8
+7109	tripla legyezo+9
+7110	szemöldök legyezo+0
+7111	szemöldök legyezo+1
+7112	szemöldök legyezo+2
+7113	szemöldök legyezo+3
+7114	szemöldök legyezo+4
+7115	szemöldök legyezo+5
+7116	szemöldök legyezo+6
+7117	szemöldök legyezo+7
+7118	szemöldök legyezo+8
+7119	szemöldök legyezo+9
+7120	Nap Legyezo+0
+7121	Nap Legyezo+1
+7122	Nap Legyezo+2
+7123	Nap Legyezo+3
+7124	Nap Legyezo+4
+7125	Nap Legyezo+5
+7126	Nap Legyezo+6
+7127	Nap Legyezo+7
+7128	Nap Legyezo+8
+7129	Nap Legyezo+9
+7130	Égimadár Legyezo+0
+7131	Égimadár Legyezo+1
+7132	Égimadár Legyezo+2
+7133	Égimadár Legyezo+3
+7134	Égimadár Legyezo+4
+7135	Égimadár Legyezo+5
+7136	Égimadár Legyezo+6
+7137	Égimadár Legyezo+7
+7138	Égimadár Legyezo+8
+7139	Égimadár Legyezo+9
+7140	Megváltó Legyezo+0
+7141	Megváltó Legyezo+1
+7142	Megváltó Legyezo+2
+7143	Megváltó Legyezo+3
+7144	Megváltó Legyezo+4
+7145	Megváltó Legyezo+5
+7146	Megváltó Legyezo+6
+7147	Megváltó Legyezo+7
+7148	Megváltó Legyezo+8
+7149	Megváltó Legyezo+9
+7150	Eksztázis Legyezo+0
+7151	Eksztázis Legyezo+1
+7152	Eksztázis Legyezo+2
+7153	Eksztázis Legyezo+3
+7154	Eksztázis Legyezo+4
+7155	Eksztázis Legyezo+5
+7156	Eksztázis Legyezo+6
+7157	Eksztázis Legyezo+7
+7158	Eksztázis Legyezo+8
+7159	Eksztázis Legyezo+9
+7160	Osziszél Legyezo+0
+7161	Osziszél Legyezo+1
+7162	Osziszél Legyezo+2
+7163	Osziszél Legyezo+3
+7164	Osziszél Legyezo+4
+7165	Osziszél Legyezo+5
+7166	Osziszél Legyezo+6
+7167	Osziszél Legyezo+7
+7168	Osziszél Legyezo+8
+7169	Osziszél Legyezo+9
+7170	Nyolc-trigram Legyezo+0
+7171	Nyolc-trigram Legyezo+1
+7172	Nyolc-trigram Legyezo+2
+7173	Nyolc-trigram Legyezo+3
+7174	Nyolc-trigram Legyezo+4
+7175	Nyolc-trigram Legyezo+5
+7176	Nyolc-trigram Legyezo+6
+7177	Nyolc-trigram Legyezo+7
+7178	Nyolc-trigram Legyezo+8
+7179	Nyolc-trigram Legyezo+9
+7180	Sárkány Legyezo+0
+7181	Sárkány Legyezo+1
+7182	Sárkány Legyezo+2
+7183	Sárkány Legyezo+3
+7184	Sárkány Legyezo+4
+7185	Sárkány Legyezo+5
+7186	Sárkány Legyezo+6
+7187	Sárkány Legyezo+7
+7188	Sárkány Legyezo+8
+7189	Sárkány Legyezo+9
+7190	Démon Legyezo+0
+7191	Démon Legyezo+1
+7192	Démon Legyezo+2
+7193	Démon Legyezo+3
+7194	Démon Legyezo+4
+7195	Démon Legyezo+5
+7196	Démon Legyezo+6
+7197	Démon Legyezo+7
+7198	Démon Legyezo+8
+7199	Démon Legyezo+9
 7200	lándzsa+0
 7201	lándzsa+1
 7202	lándzsa+2
@@ -1832,76 +1832,76 @@ VNUM	LOCALE_NAME
 7207	lándzsa+7
 7208	lándzsa+8
 7209	lándzsa+9
-7300	Zodiákus legyezõ+0
-7301	Zodiákus legyezõ+1
-7302	Zodiákus legyezõ+2
-7303	Zodiákus legyezõ+3
-7304	Zodiákus legyezõ+4
-7305	Zodiákus legyezõ+5
-7306	Zodiákus legyezõ+6
-7307	Zodiákus legyezõ+7
-7308	Zodiákus legyezõ+8
-7309	Zodiákus legyezõ+9
-7310	Komor sárkány legyezõ+0
-7311	Komor sárkány legyezõ+1
-7312	Komor sárkány legyezõ+2
-7313	Komor sárkány legyezõ+3
-7314	Komor sárkány legyezõ+4
-7315	Komor sárkány legyezõ+5
-7316	Komor sárkány legyezõ+6
-7317	Komor sárkány legyezõ+7
-7318	Komor sárkány legyezõ+8
-7319	Komor sárkány legyezõ+9
-7320	Komor sárkány legyezõ+10
-7321	Komor sárkány legyezõ+11
-7322	Komor sárkány legyezõ+12
-7323	Komor sárkány legyezõ+13
-7324	Komor sárkány legyezõ+14
-7325	Komor sárkány legyezõ+15
-7330	Szerpent legyezõ+0
-7331	Szerpent legyezõ+1
-7332	Szerpent legyezõ+2
-7333	Szerpent legyezõ+3
-7334	Szerpent legyezõ+4
-7335	Szerpent legyezõ+5
-7336	Szerpent legyezõ+6
-7337	Szerpent legyezõ+7
-7338	Szerpent legyezõ+8
-7339	Szerpent legyezõ+9
-7340	Szerpent legyezõ+10
-7341	Szerpent legyezõ+11
-7342	Szerpent legyezõ+12
-7343	Szerpent legyezõ+13
-7344	Szerpent legyezõ+14
-7345	Szerpent legyezõ+15
-7346	Szerpent legyezõ (anyag)
-7370	Sárkány Legyezõ+0
-7371	Sárkány Legyezõ+1
-7372	Sárkány Legyezõ+2
-7373	Sárkány Legyezõ+3
-7374	Sárkány Legyezõ+4
-7375	Sárkány Legyezõ+5
-7376	Sárkány Legyezõ+6
-7377	Sárkány Legyezõ+7
-7378	Sárkány Legyezõ+8
-7379	Sárkány Legyezõ+9
-7500	Kianit legyezõ+0
-7501	Kianit legyezõ+1
-7502	Kianit legyezõ+2
-7503	Kianit legyezõ+3
-7504	Kianit legyezõ+4
-7505	Kianit legyezõ+5
-7506	Kianit legyezõ+6
-7507	Kianit legyezõ+7
-7508	Kianit legyezõ+8
-7509	Kianit legyezõ+9
+7300	Zodiákus legyezo+0
+7301	Zodiákus legyezo+1
+7302	Zodiákus legyezo+2
+7303	Zodiákus legyezo+3
+7304	Zodiákus legyezo+4
+7305	Zodiákus legyezo+5
+7306	Zodiákus legyezo+6
+7307	Zodiákus legyezo+7
+7308	Zodiákus legyezo+8
+7309	Zodiákus legyezo+9
+7310	Komor sárkány legyezo+0
+7311	Komor sárkány legyezo+1
+7312	Komor sárkány legyezo+2
+7313	Komor sárkány legyezo+3
+7314	Komor sárkány legyezo+4
+7315	Komor sárkány legyezo+5
+7316	Komor sárkány legyezo+6
+7317	Komor sárkány legyezo+7
+7318	Komor sárkány legyezo+8
+7319	Komor sárkány legyezo+9
+7320	Komor sárkány legyezo+10
+7321	Komor sárkány legyezo+11
+7322	Komor sárkány legyezo+12
+7323	Komor sárkány legyezo+13
+7324	Komor sárkány legyezo+14
+7325	Komor sárkány legyezo+15
+7330	Szerpent legyezo+0
+7331	Szerpent legyezo+1
+7332	Szerpent legyezo+2
+7333	Szerpent legyezo+3
+7334	Szerpent legyezo+4
+7335	Szerpent legyezo+5
+7336	Szerpent legyezo+6
+7337	Szerpent legyezo+7
+7338	Szerpent legyezo+8
+7339	Szerpent legyezo+9
+7340	Szerpent legyezo+10
+7341	Szerpent legyezo+11
+7342	Szerpent legyezo+12
+7343	Szerpent legyezo+13
+7344	Szerpent legyezo+14
+7345	Szerpent legyezo+15
+7346	Szerpent legyezo (anyag)
+7370	Sárkány Legyezo+0
+7371	Sárkány Legyezo+1
+7372	Sárkány Legyezo+2
+7373	Sárkány Legyezo+3
+7374	Sárkány Legyezo+4
+7375	Sárkány Legyezo+5
+7376	Sárkány Legyezo+6
+7377	Sárkány Legyezo+7
+7378	Sárkány Legyezo+8
+7379	Sárkány Legyezo+9
+7500	Kianit legyezo+0
+7501	Kianit legyezo+1
+7502	Kianit legyezo+2
+7503	Kianit legyezo+3
+7504	Kianit legyezo+4
+7505	Kianit legyezo+5
+7506	Kianit legyezo+6
+7507	Kianit legyezo+7
+7508	Kianit legyezo+8
+7509	Kianit legyezo+9
 8000	Fa nyíl
 8001	Bambusznyíl
-8002	Kõnyíl
+8002	Konyíl
 8003	Vas nyíl
 8004	Acél nyíl
 8005	Ezüst nyíl
-8006	Tûznyíl
+8006	Tuznyíl
 8007	Méregnyíl
 8008	Jégnyíl
 8009	Átkozott nyíl
@@ -1913,224 +1913,224 @@ VNUM	LOCALE_NAME
 9502	rövid kard+5
 9503	rövid íj+5
 9504	hosszú kard+5
-9505	nagy legyezõ+5
+9505	nagy legyezo+5
 9506	Kard+3
-9507	Tõr+3
-9508	Legyezõ+3
+9507	Tor+3
+9508	Legyezo+3
 9509	Acél fáklya+3
 9510	Ragnaroek
-9511	Ostøí Nekoneèna
+9511	Ostoí Nekoneena
 9512	Gott Der Server
 9513	CanonjawS
 9514	Lethal Damage
 9515	L'âme de Pitchou
 9516	Kusanagi
 9517	TritaRifiuti
-9518	£owca Smoczych Monet
+9518	Lowca Smoczych Monet
 9519	Jokiy's 2020
 9520	Sabie Dragon
 9521	MUHAFIZ
-9600	Tûz talizmán+0
-9601	Tûz talizmán+1
-9602	Tûz talizmán+2
-9603	Tûz talizmán+3
-9604	Tûz talizmán+4
-9605	Tûz talizmán+5
-9606	Tûz talizmán+6
-9607	Tûz talizmán+7
-9608	Tûz talizmán+8
-9609	Tûz talizmán+9
-9610	Tûz talizmán+10
-9611	Tûz talizmán+11
-9612	Tûz talizmán+12
-9613	Tûz talizmán+13
-9614	Tûz talizmán+14
-9615	Tûz talizmán+15
-9616	Tûz talizmán+16
-9617	Tûz talizmán+17
-9618	Tûz talizmán+18
-9619	Tûz talizmán+19
-9620	Tûz talizmán+20
-9621	Tûz talizmán+21
-9622	Tûz talizmán+22
-9623	Tûz talizmán+23
-9624	Tûz talizmán+24
-9625	Tûz talizmán+25
-9626	Tûz talizmán+26
-9627	Tûz talizmán+27
-9628	Tûz talizmán+28
-9629	Tûz talizmán+29
-9630	Tûz talizmán+30
-9631	Tûz talizmán+31
-9632	Tûz talizmán+32
-9633	Tûz talizmán+33
-9634	Tûz talizmán+34
-9635	Tûz talizmán+35
-9636	Tûz talizmán+36
-9637	Tûz talizmán+37
-9638	Tûz talizmán+38
-9639	Tûz talizmán+39
-9640	Tûz talizmán+40
-9641	Tûz talizmán+41
-9642	Tûz talizmán+42
-9643	Tûz talizmán+43
-9644	Tûz talizmán+44
-9645	Tûz talizmán+45
-9646	Tûz talizmán+46
-9647	Tûz talizmán+47
-9648	Tûz talizmán+48
-9649	Tûz talizmán+49
-9650	Tûz talizmán+50
-9651	Tûz talizmán+51
-9652	Tûz talizmán+52
-9653	Tûz talizmán+53
-9654	Tûz talizmán+54
-9655	Tûz talizmán+55
-9656	Tûz talizmán+56
-9657	Tûz talizmán+57
-9658	Tûz talizmán+58
-9659	Tûz talizmán+59
-9660	Tûz talizmán+60
-9661	Tûz talizmán+61
-9662	Tûz talizmán+62
-9663	Tûz talizmán+63
-9664	Tûz talizmán+64
-9665	Tûz talizmán+65
-9666	Tûz talizmán+66
-9667	Tûz talizmán+67
-9668	Tûz talizmán+68
-9669	Tûz talizmán+69
-9670	Tûz talizmán+70
-9671	Tûz talizmán+71
-9672	Tûz talizmán+72
-9673	Tûz talizmán+73
-9674	Tûz talizmán+74
-9675	Tûz talizmán+75
-9676	Tûz talizmán+76
-9677	Tûz talizmán+77
-9678	Tûz talizmán+78
-9679	Tûz talizmán+79
-9680	Tûz talizmán+80
-9681	Tûz talizmán+81
-9682	Tûz talizmán+82
-9683	Tûz talizmán+83
-9684	Tûz talizmán+84
-9685	Tûz talizmán+85
-9686	Tûz talizmán+86
-9687	Tûz talizmán+87
-9688	Tûz talizmán+88
-9689	Tûz talizmán+89
-9690	Tûz talizmán+90
-9691	Tûz talizmán+91
-9692	Tûz talizmán+92
-9693	Tûz talizmán+93
-9694	Tûz talizmán+94
-9695	Tûz talizmán+95
-9696	Tûz talizmán+96
-9697	Tûz talizmán+97
-9698	Tûz talizmán+98
-9699	Tûz talizmán+99
-9700	Tûz talizmán+100
-9701	Tûz talizmán+101
-9702	Tûz talizmán+102
-9703	Tûz talizmán+103
-9704	Tûz talizmán+104
-9705	Tûz talizmán+105
-9706	Tûz talizmán+106
-9707	Tûz talizmán+107
-9708	Tûz talizmán+108
-9709	Tûz talizmán+109
-9710	Tûz talizmán+110
-9711	Tûz talizmán+111
-9712	Tûz talizmán+112
-9713	Tûz talizmán+113
-9714	Tûz talizmán+114
-9715	Tûz talizmán+115
-9716	Tûz talizmán+116
-9717	Tûz talizmán+117
-9718	Tûz talizmán+118
-9719	Tûz talizmán+119
-9720	Tûz talizmán+120
-9721	Tûz talizmán+121
-9722	Tûz talizmán+122
-9723	Tûz talizmán+123
-9724	Tûz talizmán+124
-9725	Tûz talizmán+125
-9726	Tûz talizmán+126
-9727	Tûz talizmán+127
-9728	Tûz talizmán+128
-9729	Tûz talizmán+129
-9730	Tûz talizmán+130
-9731	Tûz talizmán+131
-9732	Tûz talizmán+132
-9733	Tûz talizmán+133
-9734	Tûz talizmán+134
-9735	Tûz talizmán+135
-9736	Tûz talizmán+136
-9737	Tûz talizmán+137
-9738	Tûz talizmán+138
-9739	Tûz talizmán+139
-9740	Tûz talizmán+140
-9741	Tûz talizmán+141
-9742	Tûz talizmán+142
-9743	Tûz talizmán+143
-9744	Tûz talizmán+144
-9745	Tûz talizmán+145
-9746	Tûz talizmán+146
-9747	Tûz talizmán+147
-9748	Tûz talizmán+148
-9749	Tûz talizmán+149
-9750	Tûz talizmán+150
-9751	Tûz talizmán+151
-9752	Tûz talizmán+152
-9753	Tûz talizmán+153
-9754	Tûz talizmán+154
-9755	Tûz talizmán+155
-9756	Tûz talizmán+156
-9757	Tûz talizmán+157
-9758	Tûz talizmán+158
-9759	Tûz talizmán+159
-9760	Tûz talizmán+160
-9761	Tûz talizmán+161
-9762	Tûz talizmán+162
-9763	Tûz talizmán+163
-9764	Tûz talizmán+164
-9765	Tûz talizmán+165
-9766	Tûz talizmán+166
-9767	Tûz talizmán+167
-9768	Tûz talizmán+168
-9769	Tûz talizmán+169
-9770	Tûz talizmán+170
-9771	Tûz talizmán+171
-9772	Tûz talizmán+172
-9773	Tûz talizmán+173
-9774	Tûz talizmán+174
-9775	Tûz talizmán+175
-9776	Tûz talizmán+176
-9777	Tûz talizmán+177
-9778	Tûz talizmán+178
-9779	Tûz talizmán+179
-9780	Tûz talizmán+180
-9781	Tûz talizmán+181
-9782	Tûz talizmán+182
-9783	Tûz talizmán+183
-9784	Tûz talizmán+184
-9785	Tûz talizmán+185
-9786	Tûz talizmán+186
-9787	Tûz talizmán+187
-9788	Tûz talizmán+188
-9789	Tûz talizmán+189
-9790	Tûz talizmán+190
-9791	Tûz talizmán+191
-9792	Tûz talizmán+192
-9793	Tûz talizmán+193
-9794	Tûz talizmán+194
-9795	Tûz talizmán+195
-9796	Tûz talizmán+196
-9797	Tûz talizmán+197
-9798	Tûz talizmán+198
-9799	Tûz talizmán+199
-9800	Tûz talizmán+200
+9600	Tuz talizmán+0
+9601	Tuz talizmán+1
+9602	Tuz talizmán+2
+9603	Tuz talizmán+3
+9604	Tuz talizmán+4
+9605	Tuz talizmán+5
+9606	Tuz talizmán+6
+9607	Tuz talizmán+7
+9608	Tuz talizmán+8
+9609	Tuz talizmán+9
+9610	Tuz talizmán+10
+9611	Tuz talizmán+11
+9612	Tuz talizmán+12
+9613	Tuz talizmán+13
+9614	Tuz talizmán+14
+9615	Tuz talizmán+15
+9616	Tuz talizmán+16
+9617	Tuz talizmán+17
+9618	Tuz talizmán+18
+9619	Tuz talizmán+19
+9620	Tuz talizmán+20
+9621	Tuz talizmán+21
+9622	Tuz talizmán+22
+9623	Tuz talizmán+23
+9624	Tuz talizmán+24
+9625	Tuz talizmán+25
+9626	Tuz talizmán+26
+9627	Tuz talizmán+27
+9628	Tuz talizmán+28
+9629	Tuz talizmán+29
+9630	Tuz talizmán+30
+9631	Tuz talizmán+31
+9632	Tuz talizmán+32
+9633	Tuz talizmán+33
+9634	Tuz talizmán+34
+9635	Tuz talizmán+35
+9636	Tuz talizmán+36
+9637	Tuz talizmán+37
+9638	Tuz talizmán+38
+9639	Tuz talizmán+39
+9640	Tuz talizmán+40
+9641	Tuz talizmán+41
+9642	Tuz talizmán+42
+9643	Tuz talizmán+43
+9644	Tuz talizmán+44
+9645	Tuz talizmán+45
+9646	Tuz talizmán+46
+9647	Tuz talizmán+47
+9648	Tuz talizmán+48
+9649	Tuz talizmán+49
+9650	Tuz talizmán+50
+9651	Tuz talizmán+51
+9652	Tuz talizmán+52
+9653	Tuz talizmán+53
+9654	Tuz talizmán+54
+9655	Tuz talizmán+55
+9656	Tuz talizmán+56
+9657	Tuz talizmán+57
+9658	Tuz talizmán+58
+9659	Tuz talizmán+59
+9660	Tuz talizmán+60
+9661	Tuz talizmán+61
+9662	Tuz talizmán+62
+9663	Tuz talizmán+63
+9664	Tuz talizmán+64
+9665	Tuz talizmán+65
+9666	Tuz talizmán+66
+9667	Tuz talizmán+67
+9668	Tuz talizmán+68
+9669	Tuz talizmán+69
+9670	Tuz talizmán+70
+9671	Tuz talizmán+71
+9672	Tuz talizmán+72
+9673	Tuz talizmán+73
+9674	Tuz talizmán+74
+9675	Tuz talizmán+75
+9676	Tuz talizmán+76
+9677	Tuz talizmán+77
+9678	Tuz talizmán+78
+9679	Tuz talizmán+79
+9680	Tuz talizmán+80
+9681	Tuz talizmán+81
+9682	Tuz talizmán+82
+9683	Tuz talizmán+83
+9684	Tuz talizmán+84
+9685	Tuz talizmán+85
+9686	Tuz talizmán+86
+9687	Tuz talizmán+87
+9688	Tuz talizmán+88
+9689	Tuz talizmán+89
+9690	Tuz talizmán+90
+9691	Tuz talizmán+91
+9692	Tuz talizmán+92
+9693	Tuz talizmán+93
+9694	Tuz talizmán+94
+9695	Tuz talizmán+95
+9696	Tuz talizmán+96
+9697	Tuz talizmán+97
+9698	Tuz talizmán+98
+9699	Tuz talizmán+99
+9700	Tuz talizmán+100
+9701	Tuz talizmán+101
+9702	Tuz talizmán+102
+9703	Tuz talizmán+103
+9704	Tuz talizmán+104
+9705	Tuz talizmán+105
+9706	Tuz talizmán+106
+9707	Tuz talizmán+107
+9708	Tuz talizmán+108
+9709	Tuz talizmán+109
+9710	Tuz talizmán+110
+9711	Tuz talizmán+111
+9712	Tuz talizmán+112
+9713	Tuz talizmán+113
+9714	Tuz talizmán+114
+9715	Tuz talizmán+115
+9716	Tuz talizmán+116
+9717	Tuz talizmán+117
+9718	Tuz talizmán+118
+9719	Tuz talizmán+119
+9720	Tuz talizmán+120
+9721	Tuz talizmán+121
+9722	Tuz talizmán+122
+9723	Tuz talizmán+123
+9724	Tuz talizmán+124
+9725	Tuz talizmán+125
+9726	Tuz talizmán+126
+9727	Tuz talizmán+127
+9728	Tuz talizmán+128
+9729	Tuz talizmán+129
+9730	Tuz talizmán+130
+9731	Tuz talizmán+131
+9732	Tuz talizmán+132
+9733	Tuz talizmán+133
+9734	Tuz talizmán+134
+9735	Tuz talizmán+135
+9736	Tuz talizmán+136
+9737	Tuz talizmán+137
+9738	Tuz talizmán+138
+9739	Tuz talizmán+139
+9740	Tuz talizmán+140
+9741	Tuz talizmán+141
+9742	Tuz talizmán+142
+9743	Tuz talizmán+143
+9744	Tuz talizmán+144
+9745	Tuz talizmán+145
+9746	Tuz talizmán+146
+9747	Tuz talizmán+147
+9748	Tuz talizmán+148
+9749	Tuz talizmán+149
+9750	Tuz talizmán+150
+9751	Tuz talizmán+151
+9752	Tuz talizmán+152
+9753	Tuz talizmán+153
+9754	Tuz talizmán+154
+9755	Tuz talizmán+155
+9756	Tuz talizmán+156
+9757	Tuz talizmán+157
+9758	Tuz talizmán+158
+9759	Tuz talizmán+159
+9760	Tuz talizmán+160
+9761	Tuz talizmán+161
+9762	Tuz talizmán+162
+9763	Tuz talizmán+163
+9764	Tuz talizmán+164
+9765	Tuz talizmán+165
+9766	Tuz talizmán+166
+9767	Tuz talizmán+167
+9768	Tuz talizmán+168
+9769	Tuz talizmán+169
+9770	Tuz talizmán+170
+9771	Tuz talizmán+171
+9772	Tuz talizmán+172
+9773	Tuz talizmán+173
+9774	Tuz talizmán+174
+9775	Tuz talizmán+175
+9776	Tuz talizmán+176
+9777	Tuz talizmán+177
+9778	Tuz talizmán+178
+9779	Tuz talizmán+179
+9780	Tuz talizmán+180
+9781	Tuz talizmán+181
+9782	Tuz talizmán+182
+9783	Tuz talizmán+183
+9784	Tuz talizmán+184
+9785	Tuz talizmán+185
+9786	Tuz talizmán+186
+9787	Tuz talizmán+187
+9788	Tuz talizmán+188
+9789	Tuz talizmán+189
+9790	Tuz talizmán+190
+9791	Tuz talizmán+191
+9792	Tuz talizmán+192
+9793	Tuz talizmán+193
+9794	Tuz talizmán+194
+9795	Tuz talizmán+195
+9796	Tuz talizmán+196
+9797	Tuz talizmán+197
+9798	Tuz talizmán+198
+9799	Tuz talizmán+199
+9800	Tuz talizmán+200
 9830	Jég talizmán+0
 9831	Jég talizmán+1
 9832	Jég talizmán+2
@@ -3136,7 +3136,7 @@ VNUM	LOCALE_NAME
 10948	Villám talizmán+198
 10949	Villám talizmán+199
 10950	Villám talizmán+200
-10955	Tûz talizmán+10
+10955	Tuz talizmán+10
 10956	Jég talizmán+10
 10957	Szél talizmán+10
 10958	Villám talizmán+10
@@ -3296,16 +3296,16 @@ VNUM	LOCALE_NAME
 11447	Hangyaoroszlán Öltöny+7
 11448	Hangyaoroszlán Öltöny+8
 11449	Hangyaoroszlán Öltöny+9
-11450	Merénylõ Öltöny+0
-11451	Merénylõ Öltöny+1
-11452	Merénylõ Öltöny+2
-11453	Merénylõ Öltöny+3
-11454	Merénylõ Öltöny+4
-11455	Merénylõ Öltöny+5
-11456	Merénylõ Öltöny+6
-11457	Merénylõ Öltöny+7
-11458	Merénylõ Öltöny+8
-11459	Merénylõ Öltöny+9
+11450	Merénylo Öltöny+0
+11451	Merénylo Öltöny+1
+11452	Merénylo Öltöny+2
+11453	Merénylo Öltöny+3
+11454	Merénylo Öltöny+4
+11455	Merénylo Öltöny+5
+11456	Merénylo Öltöny+6
+11457	Merénylo Öltöny+7
+11458	Merénylo Öltöny+8
+11459	Merénylo Öltöny+9
 11460	Fiatalsárkány Öltöny+0
 11461	Fiatalsárkány Öltöny+1
 11462	Fiatalsárkány Öltöny+2
@@ -3526,16 +3526,16 @@ VNUM	LOCALE_NAME
 11877	Narancs Macskaruha+7
 11878	Narancs Macskaruha+8
 11879	Narancs Macskaruha+9
-11880	Bárónõi Ruha+0
-11881	Bárónõi Ruha+1
-11882	Bárónõi Ruha+2
-11883	Bárónõi Ruha+3
-11884	Bárónõi Ruha+4
-11885	Bárónõi Ruha+5
-11886	Bárónõi Ruha+6
-11887	Bárónõi Ruha+7
-11888	Bárónõi Ruha+8
-11889	Bárónõi Ruha+9
+11880	Bárónoi Ruha+0
+11881	Bárónoi Ruha+1
+11882	Bárónoi Ruha+2
+11883	Bárónoi Ruha+3
+11884	Bárónoi Ruha+4
+11885	Bárónoi Ruha+5
+11886	Bárónoi Ruha+6
+11887	Bárónoi Ruha+7
+11888	Bárónoi Ruha+8
+11889	Bárónoi Ruha+9
 11890	fekete ruha+0
 11891	fekete ruha+1
 11892	fekete ruha+2
@@ -3702,16 +3702,16 @@ VNUM	LOCALE_NAME
 12287	Háború Mester sisak +7
 12288	Háború Mester sisak +8
 12289	Háború Mester sisak +9
-12340	bõr csuklya+0
-12341	bõr csuklya+1
-12342	bõr csuklya+2
-12343	bõr csuklya+3
-12344	bõr csuklya+4
-12345	bõr csuklya+5
-12346	bõr csuklya+6
-12347	bõr csuklya+7
-12348	bõr csuklya+8
-12349	bõr csuklya+9
+12340	bor csuklya+0
+12341	bor csuklya+1
+12342	bor csuklya+2
+12343	bor csuklya+3
+12344	bor csuklya+4
+12345	bor csuklya+5
+12346	bor csuklya+6
+12347	bor csuklya+7
+12348	bor csuklya+8
+12349	bor csuklya+9
 12360	lánc csuklya+0
 12361	lánc csuklya+1
 12362	lánc csuklya+2
@@ -3812,16 +3812,16 @@ VNUM	LOCALE_NAME
 12627	szerzetes kalap+7
 12628	szerzetes kalap+8
 12629	szerzetes kalap+9
-12640	Fõnix kalap+0
-12641	Fõnix kalap+1
-12642	Fõnix kalap+2
-12643	Fõnix kalap+3
-12644	Fõnix kalap+4
-12645	Fõnix kalap+5
-12646	Fõnix kalap+6
-12647	Fõnix kalap+7
-12648	Fõnix kalap+8
-12649	Fõnix kalap+9
+12640	Fonix kalap+0
+12641	Fonix kalap+1
+12642	Fonix kalap+2
+12643	Fonix kalap+3
+12644	Fonix kalap+4
+12645	Fonix kalap+5
+12646	Fonix kalap+6
+12647	Fonix kalap+7
+12648	Fonix kalap+8
+12649	Fonix kalap+9
 12660	napfény kalap+0
 12661	napfény kalap+1
 12662	napfény kalap+2
@@ -3974,22 +3974,22 @@ VNUM	LOCALE_NAME
 12813	Ádáz sárkány sisak+13
 12814	Ádáz sárkány sisak+14
 12815	Ádáz sárkány sisak+15
-12820	Bûvös sárkány sisak+0
-12821	Bûvös sárkány sisak+1
-12822	Bûvös sárkány sisak+2
-12823	Bûvös sárkány sisak+3
-12824	Bûvös sárkány sisak+4
-12825	Bûvös sárkány sisak+5
-12826	Bûvös sárkány sisak+6
-12827	Bûvös sárkány sisak+7
-12828	Bûvös sárkány sisak+8
-12829	Bûvös sárkány sisak+9
-12830	Bûvös sárkány sisak+10
-12831	Bûvös sárkány sisak+11
-12832	Bûvös sárkány sisak+12
-12833	Bûvös sárkány sisak+13
-12834	Bûvös sárkány sisak+14
-12835	Bûvös sárkány sisak+15
+12820	Buvös sárkány sisak+0
+12821	Buvös sárkány sisak+1
+12822	Buvös sárkány sisak+2
+12823	Buvös sárkány sisak+3
+12824	Buvös sárkány sisak+4
+12825	Buvös sárkány sisak+5
+12826	Buvös sárkány sisak+6
+12827	Buvös sárkány sisak+7
+12828	Buvös sárkány sisak+8
+12829	Buvös sárkány sisak+9
+12830	Buvös sárkány sisak+10
+12831	Buvös sárkány sisak+11
+12832	Buvös sárkány sisak+12
+12833	Buvös sárkány sisak+13
+12834	Buvös sárkány sisak+14
+12835	Buvös sárkány sisak+15
 12840	Boldog sárkány sisak+0
 12841	Boldog sárkány sisak+1
 12842	Boldog sárkány sisak+2
@@ -4152,306 +4152,306 @@ VNUM	LOCALE_NAME
 13217	Kárhozat pajzs+7
 13218	Kárhozat pajzs+8
 13219	Kárhozat pajzs+9
-14000	Fa Karkötõ+0
-14001	Fa Karkötõ+1
-14002	Fa Karkötõ+2
-14003	Fa Karkötõ+3
-14004	Fa Karkötõ+4
-14005	Fa Karkötõ+5
-14006	Fa Karkötõ+6
-14007	Fa Karkötõ+7
-14008	Fa Karkötõ+8
-14009	Fa Karkötõ+9
-14020	Réz Karkötõ+0
-14021	Réz Karkötõ+1
-14022	Réz Karkötõ+2
-14023	Réz Karkötõ+3
-14024	Réz Karkötõ+4
-14025	Réz Karkötõ+5
-14026	Réz Karkötõ+6
-14027	Réz Karkötõ+7
-14028	Réz Karkötõ+8
-14029	Réz Karkötõ+9
-14040	Ezüst Karkötõ+0
-14041	Ezüst Karkötõ+1
-14042	Ezüst Karkötõ+2
-14043	Ezüst Karkötõ+3
-14044	Ezüst Karkötõ+4
-14045	Ezüst Karkötõ+5
-14046	Ezüst Karkötõ+6
-14047	Ezüst Karkötõ+7
-14048	Ezüst Karkötõ+8
-14049	Ezüst Karkötõ+9
-14060	Arany Karkötõ+0
-14061	Arany Karkötõ+1
-14062	Arany Karkötõ+2
-14063	Arany Karkötõ+3
-14064	Arany Karkötõ+4
-14065	Arany Karkötõ+5
-14066	Arany Karkötõ+6
-14067	Arany Karkötõ+7
-14068	Arany Karkötõ+8
-14069	Arany Karkötõ+9
-14080	Jáde Karkötõ+0
-14081	Jáde Karkötõ+1
-14082	Jáde Karkötõ+2
-14083	Jáde Karkötõ+3
-14084	Jáde Karkötõ+4
-14085	Jáde Karkötõ+5
-14086	Jáde Karkötõ+6
-14087	Jáde Karkötõ+7
-14088	Jáde Karkötõ+8
-14089	Jáde Karkötõ+9
-14100	Ébenfa Karkötõ+0
-14101	Ébenfa Karkötõ+1
-14102	Ébenfa Karkötõ+2
-14103	Ébenfa Karkötõ+3
-14104	Ébenfa Karkötõ+4
-14105	Ébenfa Karkötõ+5
-14106	Ébenfa Karkötõ+6
-14107	Ébenfa Karkötõ+7
-14108	Ébenfa Karkötõ+8
-14109	Ébenfa Karkötõ+9
-14120	Gyöngy Karkötõ+0
-14121	Gyöngy Karkötõ+1
-14122	Gyöngy Karkötõ+2
-14123	Gyöngy Karkötõ+3
-14124	Gyöngy Karkötõ+4
-14125	Gyöngy Karkötõ+5
-14126	Gyöngy Karkötõ+6
-14127	Gyöngy Karkötõ+7
-14128	Gyöngy Karkötõ+8
-14129	Gyöngy Karkötõ+9
-14140	Fehérarany Karkötõ+0
-14141	Fehérarany Karkötõ+1
-14142	Fehérarany Karkötõ+2
-14143	Fehérarany Karkötõ+3
-14144	Fehérarany Karkötõ+4
-14145	Fehérarany Karkötõ+5
-14146	Fehérarany Karkötõ+6
-14147	Fehérarany Karkötõ+7
-14148	Fehérarany Karkötõ+8
-14149	Fehérarany Karkötõ+9
-14160	Kristály Karkötõ+0
-14161	Kristály Karkötõ+1
-14162	Kristály Karkötõ+2
-14163	Kristály Karkötõ+3
-14164	Kristály Karkötõ+4
-14165	Kristály Karkötõ+5
-14166	Kristály Karkötõ+6
-14167	Kristály Karkötõ+7
-14168	Kristály Karkötõ+8
-14169	Kristály Karkötõ+9
-14180	Ametiszt Karkötõ+0
-14181	Ametiszt Karkötõ+1
-14182	Ametiszt Karkötõ+2
-14183	Ametiszt Karkötõ+3
-14184	Ametiszt Karkötõ+4
-14185	Ametiszt Karkötõ+5
-14186	Ametiszt Karkötõ+6
-14187	Ametiszt Karkötõ+7
-14188	Ametiszt Karkötõ+8
-14189	Ametiszt Karkötõ+9
-14200	Mennyei könny Karkötõ+0
-14201	Mennyei könny Karkötõ+1
-14202	Mennyei könny Karkötõ+2
-14203	Mennyei könny Karkötõ+3
-14204	Mennyei könny Karkötõ+4
-14205	Mennyei könny Karkötõ+5
-14206	Mennyei könny Karkötõ+6
-14207	Mennyei könny Karkötõ+7
-14208	Mennyei könny Karkötõ+8
-14209	Mennyei könny Karkötõ+9
-14220	Lélekkristály karkötõ+0
-14221	Lélekkristály karkötõ+1
-14222	Lélekkristály karkötõ+2
-14223	Lélekkristály karkötõ+3
-14224	Lélekkristály karkötõ+4
-14225	Lélekkristály karkötõ+5
-14226	Lélekkristály karkötõ+6
-14227	Lélekkristály karkötõ+7
-14228	Lélekkristály karkötõ+8
-14229	Lélekkristály karkötõ+9
-14500	Rubin karkötõ +0
-14501	Rubin karkötõ +1
-14502	Rubin karkötõ +2
-14503	Rubin karkötõ +3
-14504	Rubin karkötõ +4
-14505	Rubin karkötõ +5
-14506	Rubin karkötõ +6
-14507	Rubin karkötõ +7
-14508	Rubin karkötõ +8
-14509	Rubin karkötõ +9
-14520	Gránát karkötõ +0
-14521	Gránát karkötõ +1
-14522	Gránát karkötõ +2
-14523	Gránát karkötõ +3
-14524	Gránát karkötõ +4
-14525	Gránát karkötõ +5
-14526	Gránát karkötõ +6
-14527	Gránát karkötõ +7
-14528	Gránát karkötõ +8
-14529	Gránát karkötõ +9
-14540	Smaragd karkötõ +0
-14541	Smaragd karkötõ +1
-14542	Smaragd karkötõ +2
-14543	Smaragd karkötõ +3
-14544	Smaragd karkötõ +4
-14545	Smaragd karkötõ +5
-14546	Smaragd karkötõ +6
-14547	Smaragd karkötõ +7
-14548	Smaragd karkötõ +8
-14549	Smaragd karkötõ +9
-14560	Zafír karkötõ +0
-14561	Zafír karkötõ +1
-14562	Zafír karkötõ +2
-14563	Zafír karkötõ +3
-14564	Zafír karkötõ +4
-14565	Zafír karkötõ +5
-14566	Zafír karkötõ +6
-14567	Zafír karkötõ +7
-14568	Zafír karkötõ +8
-14569	Zafír karkötõ +9
-14570	Turmalin karkötõ+0
-14571	Turmalin karkötõ+1
-14572	Turmalin karkötõ+2
-14573	Turmalin karkötõ+3
-14574	Turmalin karkötõ+4
-14575	Turmalin karkötõ+5
-14576	Turmalin karkötõ+6
-14577	Turmalin karkötõ+7
-14578	Turmalin karkötõ+8
-14579	Turmalin karkötõ+9
-14580	Ködjadit karkötõ+0
-14581	Ködjadit karkötõ+1
-14582	Ködjadit karkötõ+2
-14583	Ködjadit karkötõ+3
-14584	Ködjadit karkötõ+4
-14585	Ködjadit karkötõ+5
-14586	Ködjadit karkötõ+6
-14587	Ködjadit karkötõ+7
-14588	Ködjadit karkötõ+8
-14589	Ködjadit karkötõ+9
-14590	Napjadit karkötõ+0
-14591	Napjadit karkötõ+1
-14592	Napjadit karkötõ+2
-14593	Napjadit karkötõ+3
-14594	Napjadit karkötõ+4
-14595	Napjadit karkötõ+5
-14596	Napjadit karkötõ+6
-14597	Napjadit karkötõ+7
-14598	Napjadit karkötõ+8
-14599	Napjadit karkötõ+9
-14600	Sötét jadit karkötõ+0
-14601	Sötét jadit karkötõ+1
-14602	Sötét jadit karkötõ+2
-14603	Sötét jadit karkötõ+3
-14604	Sötét jadit karkötõ+4
-14605	Sötét jadit karkötõ+5
-14606	Sötét jadit karkötõ+6
-14607	Sötét jadit karkötõ+7
-14608	Sötét jadit karkötõ+8
-14609	Sötét jadit karkötõ+9
-14610	Füstjadit karkötõ+0
-14611	Füstjadit karkötõ+1
-14612	Füstjadit karkötõ+2
-14613	Füstjadit karkötõ+3
-14614	Füstjadit karkötõ+4
-14615	Füstjadit karkötõ+5
-14616	Füstjadit karkötõ+6
-14617	Füstjadit karkötõ+7
-14618	Füstjadit karkötõ+8
-14619	Füstjadit karkötõ+9
-15000	Bõrcipõ+0
-15001	Bõrcipõ+1
-15002	Bõrcipõ+2
-15003	Bõrcipõ+3
-15004	Bõrcipõ+4
-15005	Bõrcipõ+5
-15006	Bõrcipõ+6
-15007	Bõrcipõ+7
-15008	Bõrcipõ+8
-15009	Bõrcipõ+9
-15020	Bambuszbõr Cipõ+0
-15021	Bambuszbõr Cipõ+1
-15022	Bambuszbõr Cipõ+2
-15023	Bambuszbõr Cipõ+3
-15024	Bambuszbõr Cipõ+4
-15025	Bambuszbõr Cipõ+5
-15026	Bambuszbõr Cipõ+6
-15027	Bambuszbõr Cipõ+7
-15028	Bambuszbõr Cipõ+8
-15029	Bambuszbõr Cipõ+9
-15040	Facipõ+0
-15041	Facipõ+1
-15042	Facipõ+2
-15043	Facipõ+3
-15044	Facipõ+4
-15045	Facipõ+5
-15046	Facipõ+6
-15047	Facipõ+7
-15048	Facipõ+8
-15049	Facipõ+9
-15060	Aranyozott Cipõ+0
-15061	Aranyozott Cipõ+1
-15062	Aranyozott Cipõ+2
-15063	Aranyozott Cipõ+3
-15064	Aranyozott Cipõ+4
-15065	Aranyozott Cipõ+5
-15066	Aranyozott Cipõ+6
-15067	Aranyozott Cipõ+7
-15068	Aranyozott Cipõ+8
-15069	Aranyozott Cipõ+9
-15080	Bõr Csizma+0
-15081	Bõr Csizma+1
-15082	Bõr Csizma+2
-15083	Bõr Csizma+3
-15084	Bõr Csizma+4
-15085	Bõr Csizma+5
-15086	Bõr Csizma+6
-15087	Bõr Csizma+7
-15088	Bõr Csizma+8
-15089	Bõr Csizma+9
-15100	Arany Cipõ+0
-15101	Arany Cipõ+1
-15102	Arany Cipõ+2
-15103	Arany Cipõ+3
-15104	Arany Cipõ+4
-15105	Arany Cipõ+5
-15106	Arany Cipõ+6
-15107	Arany Cipõ+7
-15108	Arany Cipõ+8
-15109	Arany Cipõ+9
-15120	Bronz Cipõ+0
-15121	Bronz Cipõ+1
-15122	Bronz Cipõ+2
-15123	Bronz Cipõ+3
-15124	Bronz Cipõ+4
-15125	Bronz Cipõ+5
-15126	Bronz Cipõ+6
-15127	Bronz Cipõ+7
-15128	Bronz Cipõ+8
-15129	Bronz Cipõ+9
-15140	Jáde Cipõ+0
-15141	Jáde Cipõ+1
-15142	Jáde Cipõ+2
-15143	Jáde Cipõ+3
-15144	Jáde Cipõ+4
-15145	Jáde Cipõ+5
-15146	Jáde Cipõ+6
-15147	Jáde Cipõ+7
-15148	Jáde Cipõ+8
-15149	Jáde Cipõ+9
-15160	Eksztázis Cipõ+0
-15161	Eksztázis Cipõ+1
-15162	Eksztázis Cipõ+2
-15163	Eksztázis Cipõ+3
-15164	Eksztázis Cipõ+4
-15165	Eksztázis Cipõ+5
-15166	Eksztázis Cipõ+6
-15167	Eksztázis Cipõ+7
-15168	Eksztázis Cipõ+8
-15169	Eksztázis Cipõ+9
+14000	Fa Karköto+0
+14001	Fa Karköto+1
+14002	Fa Karköto+2
+14003	Fa Karköto+3
+14004	Fa Karköto+4
+14005	Fa Karköto+5
+14006	Fa Karköto+6
+14007	Fa Karköto+7
+14008	Fa Karköto+8
+14009	Fa Karköto+9
+14020	Réz Karköto+0
+14021	Réz Karköto+1
+14022	Réz Karköto+2
+14023	Réz Karköto+3
+14024	Réz Karköto+4
+14025	Réz Karköto+5
+14026	Réz Karköto+6
+14027	Réz Karköto+7
+14028	Réz Karköto+8
+14029	Réz Karköto+9
+14040	Ezüst Karköto+0
+14041	Ezüst Karköto+1
+14042	Ezüst Karköto+2
+14043	Ezüst Karköto+3
+14044	Ezüst Karköto+4
+14045	Ezüst Karköto+5
+14046	Ezüst Karköto+6
+14047	Ezüst Karköto+7
+14048	Ezüst Karköto+8
+14049	Ezüst Karköto+9
+14060	Arany Karköto+0
+14061	Arany Karköto+1
+14062	Arany Karköto+2
+14063	Arany Karköto+3
+14064	Arany Karköto+4
+14065	Arany Karköto+5
+14066	Arany Karköto+6
+14067	Arany Karköto+7
+14068	Arany Karköto+8
+14069	Arany Karköto+9
+14080	Jáde Karköto+0
+14081	Jáde Karköto+1
+14082	Jáde Karköto+2
+14083	Jáde Karköto+3
+14084	Jáde Karköto+4
+14085	Jáde Karköto+5
+14086	Jáde Karköto+6
+14087	Jáde Karköto+7
+14088	Jáde Karköto+8
+14089	Jáde Karköto+9
+14100	Ébenfa Karköto+0
+14101	Ébenfa Karköto+1
+14102	Ébenfa Karköto+2
+14103	Ébenfa Karköto+3
+14104	Ébenfa Karköto+4
+14105	Ébenfa Karköto+5
+14106	Ébenfa Karköto+6
+14107	Ébenfa Karköto+7
+14108	Ébenfa Karköto+8
+14109	Ébenfa Karköto+9
+14120	Gyöngy Karköto+0
+14121	Gyöngy Karköto+1
+14122	Gyöngy Karköto+2
+14123	Gyöngy Karköto+3
+14124	Gyöngy Karköto+4
+14125	Gyöngy Karköto+5
+14126	Gyöngy Karköto+6
+14127	Gyöngy Karköto+7
+14128	Gyöngy Karköto+8
+14129	Gyöngy Karköto+9
+14140	Fehérarany Karköto+0
+14141	Fehérarany Karköto+1
+14142	Fehérarany Karköto+2
+14143	Fehérarany Karköto+3
+14144	Fehérarany Karköto+4
+14145	Fehérarany Karköto+5
+14146	Fehérarany Karköto+6
+14147	Fehérarany Karköto+7
+14148	Fehérarany Karköto+8
+14149	Fehérarany Karköto+9
+14160	Kristály Karköto+0
+14161	Kristály Karköto+1
+14162	Kristály Karköto+2
+14163	Kristály Karköto+3
+14164	Kristály Karköto+4
+14165	Kristály Karköto+5
+14166	Kristály Karköto+6
+14167	Kristály Karköto+7
+14168	Kristály Karköto+8
+14169	Kristály Karköto+9
+14180	Ametiszt Karköto+0
+14181	Ametiszt Karköto+1
+14182	Ametiszt Karköto+2
+14183	Ametiszt Karköto+3
+14184	Ametiszt Karköto+4
+14185	Ametiszt Karköto+5
+14186	Ametiszt Karköto+6
+14187	Ametiszt Karköto+7
+14188	Ametiszt Karköto+8
+14189	Ametiszt Karköto+9
+14200	Mennyei könny Karköto+0
+14201	Mennyei könny Karköto+1
+14202	Mennyei könny Karköto+2
+14203	Mennyei könny Karköto+3
+14204	Mennyei könny Karköto+4
+14205	Mennyei könny Karköto+5
+14206	Mennyei könny Karköto+6
+14207	Mennyei könny Karköto+7
+14208	Mennyei könny Karköto+8
+14209	Mennyei könny Karköto+9
+14220	Lélekkristály karköto+0
+14221	Lélekkristály karköto+1
+14222	Lélekkristály karköto+2
+14223	Lélekkristály karköto+3
+14224	Lélekkristály karköto+4
+14225	Lélekkristály karköto+5
+14226	Lélekkristály karköto+6
+14227	Lélekkristály karköto+7
+14228	Lélekkristály karköto+8
+14229	Lélekkristály karköto+9
+14500	Rubin karköto +0
+14501	Rubin karköto +1
+14502	Rubin karköto +2
+14503	Rubin karköto +3
+14504	Rubin karköto +4
+14505	Rubin karköto +5
+14506	Rubin karköto +6
+14507	Rubin karköto +7
+14508	Rubin karköto +8
+14509	Rubin karköto +9
+14520	Gránát karköto +0
+14521	Gránát karköto +1
+14522	Gránát karköto +2
+14523	Gránát karköto +3
+14524	Gránát karköto +4
+14525	Gránát karköto +5
+14526	Gránát karköto +6
+14527	Gránát karköto +7
+14528	Gránát karköto +8
+14529	Gránát karköto +9
+14540	Smaragd karköto +0
+14541	Smaragd karköto +1
+14542	Smaragd karköto +2
+14543	Smaragd karköto +3
+14544	Smaragd karköto +4
+14545	Smaragd karköto +5
+14546	Smaragd karköto +6
+14547	Smaragd karköto +7
+14548	Smaragd karköto +8
+14549	Smaragd karköto +9
+14560	Zafír karköto +0
+14561	Zafír karköto +1
+14562	Zafír karköto +2
+14563	Zafír karköto +3
+14564	Zafír karköto +4
+14565	Zafír karköto +5
+14566	Zafír karköto +6
+14567	Zafír karköto +7
+14568	Zafír karköto +8
+14569	Zafír karköto +9
+14570	Turmalin karköto+0
+14571	Turmalin karköto+1
+14572	Turmalin karköto+2
+14573	Turmalin karköto+3
+14574	Turmalin karköto+4
+14575	Turmalin karköto+5
+14576	Turmalin karköto+6
+14577	Turmalin karköto+7
+14578	Turmalin karköto+8
+14579	Turmalin karköto+9
+14580	Ködjadit karköto+0
+14581	Ködjadit karköto+1
+14582	Ködjadit karköto+2
+14583	Ködjadit karköto+3
+14584	Ködjadit karköto+4
+14585	Ködjadit karköto+5
+14586	Ködjadit karköto+6
+14587	Ködjadit karköto+7
+14588	Ködjadit karköto+8
+14589	Ködjadit karköto+9
+14590	Napjadit karköto+0
+14591	Napjadit karköto+1
+14592	Napjadit karköto+2
+14593	Napjadit karköto+3
+14594	Napjadit karköto+4
+14595	Napjadit karköto+5
+14596	Napjadit karköto+6
+14597	Napjadit karköto+7
+14598	Napjadit karköto+8
+14599	Napjadit karköto+9
+14600	Sötét jadit karköto+0
+14601	Sötét jadit karköto+1
+14602	Sötét jadit karköto+2
+14603	Sötét jadit karköto+3
+14604	Sötét jadit karköto+4
+14605	Sötét jadit karköto+5
+14606	Sötét jadit karköto+6
+14607	Sötét jadit karköto+7
+14608	Sötét jadit karköto+8
+14609	Sötét jadit karköto+9
+14610	Füstjadit karköto+0
+14611	Füstjadit karköto+1
+14612	Füstjadit karköto+2
+14613	Füstjadit karköto+3
+14614	Füstjadit karköto+4
+14615	Füstjadit karköto+5
+14616	Füstjadit karköto+6
+14617	Füstjadit karköto+7
+14618	Füstjadit karköto+8
+14619	Füstjadit karköto+9
+15000	Borcipo+0
+15001	Borcipo+1
+15002	Borcipo+2
+15003	Borcipo+3
+15004	Borcipo+4
+15005	Borcipo+5
+15006	Borcipo+6
+15007	Borcipo+7
+15008	Borcipo+8
+15009	Borcipo+9
+15020	Bambuszbor Cipo+0
+15021	Bambuszbor Cipo+1
+15022	Bambuszbor Cipo+2
+15023	Bambuszbor Cipo+3
+15024	Bambuszbor Cipo+4
+15025	Bambuszbor Cipo+5
+15026	Bambuszbor Cipo+6
+15027	Bambuszbor Cipo+7
+15028	Bambuszbor Cipo+8
+15029	Bambuszbor Cipo+9
+15040	Facipo+0
+15041	Facipo+1
+15042	Facipo+2
+15043	Facipo+3
+15044	Facipo+4
+15045	Facipo+5
+15046	Facipo+6
+15047	Facipo+7
+15048	Facipo+8
+15049	Facipo+9
+15060	Aranyozott Cipo+0
+15061	Aranyozott Cipo+1
+15062	Aranyozott Cipo+2
+15063	Aranyozott Cipo+3
+15064	Aranyozott Cipo+4
+15065	Aranyozott Cipo+5
+15066	Aranyozott Cipo+6
+15067	Aranyozott Cipo+7
+15068	Aranyozott Cipo+8
+15069	Aranyozott Cipo+9
+15080	Bor Csizma+0
+15081	Bor Csizma+1
+15082	Bor Csizma+2
+15083	Bor Csizma+3
+15084	Bor Csizma+4
+15085	Bor Csizma+5
+15086	Bor Csizma+6
+15087	Bor Csizma+7
+15088	Bor Csizma+8
+15089	Bor Csizma+9
+15100	Arany Cipo+0
+15101	Arany Cipo+1
+15102	Arany Cipo+2
+15103	Arany Cipo+3
+15104	Arany Cipo+4
+15105	Arany Cipo+5
+15106	Arany Cipo+6
+15107	Arany Cipo+7
+15108	Arany Cipo+8
+15109	Arany Cipo+9
+15120	Bronz Cipo+0
+15121	Bronz Cipo+1
+15122	Bronz Cipo+2
+15123	Bronz Cipo+3
+15124	Bronz Cipo+4
+15125	Bronz Cipo+5
+15126	Bronz Cipo+6
+15127	Bronz Cipo+7
+15128	Bronz Cipo+8
+15129	Bronz Cipo+9
+15140	Jáde Cipo+0
+15141	Jáde Cipo+1
+15142	Jáde Cipo+2
+15143	Jáde Cipo+3
+15144	Jáde Cipo+4
+15145	Jáde Cipo+5
+15146	Jáde Cipo+6
+15147	Jáde Cipo+7
+15148	Jáde Cipo+8
+15149	Jáde Cipo+9
+15160	Eksztázis Cipo+0
+15161	Eksztázis Cipo+1
+15162	Eksztázis Cipo+2
+15163	Eksztázis Cipo+3
+15164	Eksztázis Cipo+4
+15165	Eksztázis Cipo+5
+15166	Eksztázis Cipo+6
+15167	Eksztázis Cipo+7
+15168	Eksztázis Cipo+8
+15169	Eksztázis Cipo+9
 15180	Dicsfény Csizma+0
 15181	Dicsfény Csizma+1
 15182	Dicsfény Csizma+2
@@ -4462,96 +4462,96 @@ VNUM	LOCALE_NAME
 15187	Dicsfény Csizma+7
 15188	Dicsfény Csizma+8
 15189	Dicsfény Csizma+9
-15200	Fõnix Cipõ+0
-15201	Fõnix Cipõ+1
-15202	Fõnix Cipõ+2
-15203	Fõnix Cipõ+3
-15204	Fõnix Cipõ+4
-15205	Fõnix Cipõ+5
-15206	Fõnix Cipõ+6
-15207	Fõnix Cipõ+7
-15208	Fõnix Cipõ+8
-15209	Fõnix Cipõ+9
-15220	Tûzmadár Cipõ+0
-15221	Tûzmadár Cipõ+1
-15222	Tûzmadár Cipõ+2
-15223	Tûzmadár Cipõ+3
-15224	Tûzmadár Cipõ+4
-15225	Tûzmadár Cipõ+5
-15226	Tûzmadár Cipõ+6
-15227	Tûzmadár Cipõ+7
-15228	Tûzmadár Cipõ+8
-15229	Tûzmadár Cipõ+9
-15240	Sárkánybõr Cipõ+0
-15241	Sárkánybõr Cipõ+1
-15242	Sárkánybõr Cipõ+2
-15243	Sárkánybõr Cipõ+3
-15244	Sárkánybõr Cipõ+4
-15245	Sárkánybõr Cipõ+5
-15246	Sárkánybõr Cipõ+6
-15247	Sárkánybõr Cipõ+7
-15248	Sárkánybõr Cipõ+8
-15249	Sárkánybõr Cipõ+9
-15370	Eufória cipõ +0
-15371	Eufória cipõ +1
-15372	Eufória cipõ +2
-15373	Eufória cipõ +3
-15374	Eufória cipõ +4
-15375	Eufória cipõ +5
-15376	Eufória cipõ +6
-15377	Eufória cipõ +7
-15378	Eufória cipõ +8
-15379	Eufória cipõ +9
-15390	Dicsõség csizma +0
-15391	Dicsõség csizma +1
-15392	Dicsõség csizma +2
-15393	Dicsõség csizma +3
-15394	Dicsõség csizma +4
-15395	Dicsõség csizma +5
-15396	Dicsõség csizma +6
-15397	Dicsõség csizma +7
-15398	Dicsõség csizma +8
-15399	Dicsõség csizma +9
-15410	Qilin cipõ +0
-15411	Qilin cipõ +1
-15412	Qilin cipõ +2
-15413	Qilin cipõ +3
-15414	Qilin cipõ +4
-15415	Qilin cipõ +5
-15416	Qilin cipõ +6
-15417	Qilin cipõ +7
-15418	Qilin cipõ +8
-15419	Qilin cipõ +9
-15430	Jégmadár cipõ +0
-15431	Jégmadár cipõ +1
-15432	Jégmadár cipõ +2
-15433	Jégmadár cipõ +3
-15434	Jégmadár cipõ +4
-15435	Jégmadár cipõ +5
-15436	Jégmadár cipõ +6
-15437	Jégmadár cipõ +7
-15438	Jégmadár cipõ +8
-15439	Jégmadár cipõ +9
-15440	Tûzcipõ+0
-15441	Tûzcipõ+1
-15442	Tûzcipõ+2
-15443	Tûzcipõ+3
-15444	Tûzcipõ+4
-15445	Tûzcipõ+5
-15446	Tûzcipõ+6
-15447	Tûzcipõ+7
-15448	Tûzcipõ+8
-15449	Tûzcipõ+9
-15450	Óceán cipõ+0
-15451	Óceán cipõ+1
-15452	Óceán cipõ+2
-15453	Óceán cipõ+3
-15454	Óceán cipõ+4
-15455	Óceán cipõ+5
-15456	Óceán cipõ+6
-15457	Óceán cipõ+7
-15458	Óceán cipõ+8
-15459	Óceán cipõ+9
+15200	Fonix Cipo+0
+15201	Fonix Cipo+1
+15202	Fonix Cipo+2
+15203	Fonix Cipo+3
+15204	Fonix Cipo+4
+15205	Fonix Cipo+5
+15206	Fonix Cipo+6
+15207	Fonix Cipo+7
+15208	Fonix Cipo+8
+15209	Fonix Cipo+9
+15220	Tuzmadár Cipo+0
+15221	Tuzmadár Cipo+1
+15222	Tuzmadár Cipo+2
+15223	Tuzmadár Cipo+3
+15224	Tuzmadár Cipo+4
+15225	Tuzmadár Cipo+5
+15226	Tuzmadár Cipo+6
+15227	Tuzmadár Cipo+7
+15228	Tuzmadár Cipo+8
+15229	Tuzmadár Cipo+9
+15240	Sárkánybor Cipo+0
+15241	Sárkánybor Cipo+1
+15242	Sárkánybor Cipo+2
+15243	Sárkánybor Cipo+3
+15244	Sárkánybor Cipo+4
+15245	Sárkánybor Cipo+5
+15246	Sárkánybor Cipo+6
+15247	Sárkánybor Cipo+7
+15248	Sárkánybor Cipo+8
+15249	Sárkánybor Cipo+9
+15370	Eufória cipo +0
+15371	Eufória cipo +1
+15372	Eufória cipo +2
+15373	Eufória cipo +3
+15374	Eufória cipo +4
+15375	Eufória cipo +5
+15376	Eufória cipo +6
+15377	Eufória cipo +7
+15378	Eufória cipo +8
+15379	Eufória cipo +9
+15390	Dicsoség csizma +0
+15391	Dicsoség csizma +1
+15392	Dicsoség csizma +2
+15393	Dicsoség csizma +3
+15394	Dicsoség csizma +4
+15395	Dicsoség csizma +5
+15396	Dicsoség csizma +6
+15397	Dicsoség csizma +7
+15398	Dicsoség csizma +8
+15399	Dicsoség csizma +9
+15410	Qilin cipo +0
+15411	Qilin cipo +1
+15412	Qilin cipo +2
+15413	Qilin cipo +3
+15414	Qilin cipo +4
+15415	Qilin cipo +5
+15416	Qilin cipo +6
+15417	Qilin cipo +7
+15418	Qilin cipo +8
+15419	Qilin cipo +9
+15430	Jégmadár cipo +0
+15431	Jégmadár cipo +1
+15432	Jégmadár cipo +2
+15433	Jégmadár cipo +3
+15434	Jégmadár cipo +4
+15435	Jégmadár cipo +5
+15436	Jégmadár cipo +6
+15437	Jégmadár cipo +7
+15438	Jégmadár cipo +8
+15439	Jégmadár cipo +9
+15440	Tuzcipo+0
+15441	Tuzcipo+1
+15442	Tuzcipo+2
+15443	Tuzcipo+3
+15444	Tuzcipo+4
+15445	Tuzcipo+5
+15446	Tuzcipo+6
+15447	Tuzcipo+7
+15448	Tuzcipo+8
+15449	Tuzcipo+9
+15450	Óceán cipo+0
+15451	Óceán cipo+1
+15452	Óceán cipo+2
+15453	Óceán cipo+3
+15454	Óceán cipo+4
+15455	Óceán cipo+5
+15456	Óceán cipo+6
+15457	Óceán cipo+7
+15458	Óceán cipo+8
+15459	Óceán cipo+9
 16000	Fa Nyaklánc+0
 16001	Fa Nyaklánc+1
 16002	Fa Nyaklánc+2
@@ -4972,16 +4972,16 @@ VNUM	LOCALE_NAME
 18007	Textil öv+7
 18008	Textil öv+8
 18009	Textil öv+9
-18010	Bõröv+0
-18011	Bõröv+1
-18012	Bõröv+2
-18013	Bõröv+3
-18014	Bõröv+4
-18015	Bõröv+5
-18016	Bõröv+6
-18017	Bõröv+7
-18018	Bõröv+8
-18019	Bõröv+9
+18010	Boröv+0
+18011	Boröv+1
+18012	Boröv+2
+18013	Boröv+3
+18014	Boröv+4
+18015	Boröv+5
+18016	Boröv+6
+18017	Boröv+7
+18018	Boröv+8
+18019	Boröv+9
 18020	Pompázatos öv+0
 18021	Pompázatos öv+1
 18022	Pompázatos öv+2
@@ -5072,7 +5072,7 @@ VNUM	LOCALE_NAME
 18107	Titán öv+7
 18108	Titán öv+8
 18109	Titán öv+9
-18900	Tûzvörös kõ
+18900	Tuzvörös ko
 19290	Zodiákus páncél+0
 19291	Zodiákus páncél+1
 19292	Zodiákus páncél+2
@@ -5233,16 +5233,16 @@ VNUM	LOCALE_NAME
 20837	Pokollovas vért+7
 20838	Pokollovas vért+8
 20839	Pokollovas vért+9
-20840	Tûzruha+0
-20841	Tûzruha+1
-20842	Tûzruha+2
-20843	Tûzruha+3
-20844	Tûzruha+4
-20845	Tûzruha+5
-20846	Tûzruha+6
-20847	Tûzruha+7
-20848	Tûzruha+8
-20849	Tûzruha+9
+20840	Tuzruha+0
+20841	Tuzruha+1
+20842	Tuzruha+2
+20843	Tuzruha+3
+20844	Tuzruha+4
+20845	Tuzruha+5
+20846	Tuzruha+6
+20847	Tuzruha+7
+20848	Tuzruha+8
+20849	Tuzruha+9
 20850	Achát lemezvért+0
 20851	Achát lemezvért+1
 20852	Achát lemezvért+2
@@ -5293,26 +5293,26 @@ VNUM	LOCALE_NAME
 20897	Harmónia ruhája+7
 20898	Harmónia ruhája+8
 20899	Harmónia ruhája+9
-20900	Holdkõ lemezvért+0
-20901	Holdkõ lemezvért+1
-20902	Holdkõ lemezvért+2
-20903	Holdkõ lemezvért+3
-20904	Holdkõ lemezvért+4
-20905	Holdkõ lemezvért+5
-20906	Holdkõ lemezvért+6
-20907	Holdkõ lemezvért+7
-20908	Holdkõ lemezvért+8
-20909	Holdkõ lemezvért+9
-20910	Hamuesõ vért+0
-20911	Hamuesõ vért+1
-20912	Hamuesõ vért+2
-20913	Hamuesõ vért+3
-20914	Hamuesõ vért+4
-20915	Hamuesõ vért+5
-20916	Hamuesõ vért+6
-20917	Hamuesõ vért+7
-20918	Hamuesõ vért+8
-20919	Hamuesõ vért+9
+20900	Holdko lemezvért+0
+20901	Holdko lemezvért+1
+20902	Holdko lemezvért+2
+20903	Holdko lemezvért+3
+20904	Holdko lemezvért+4
+20905	Holdko lemezvért+5
+20906	Holdko lemezvért+6
+20907	Holdko lemezvért+7
+20908	Holdko lemezvért+8
+20909	Holdko lemezvért+9
+20910	Hamueso vért+0
+20911	Hamueso vért+1
+20912	Hamueso vért+2
+20913	Hamueso vért+3
+20914	Hamueso vért+4
+20915	Hamueso vért+5
+20916	Hamueso vért+6
+20917	Hamueso vért+7
+20918	Hamueso vért+8
+20919	Hamueso vért+9
 20920	Halál éjszakája öltöny+0
 20921	Halál éjszakája öltöny+1
 20922	Halál éjszakája öltöny+2
@@ -5323,16 +5323,16 @@ VNUM	LOCALE_NAME
 20927	Halál éjszakája öltöny+7
 20928	Halál éjszakája öltöny+8
 20929	Halál éjszakája öltöny+9
-20930	Fekete tûz vért+0
-20931	Fekete tûz vért+1
-20932	Fekete tûz vért+2
-20933	Fekete tûz vért+3
-20934	Fekete tûz vért+4
-20935	Fekete tûz vért+5
-20936	Fekete tûz vért+6
-20937	Fekete tûz vért+7
-20938	Fekete tûz vért+8
-20939	Fekete tûz vért+9
+20930	Fekete tuz vért+0
+20931	Fekete tuz vért+1
+20932	Fekete tuz vért+2
+20933	Fekete tuz vért+3
+20934	Fekete tuz vért+4
+20935	Fekete tuz vért+5
+20936	Fekete tuz vért+6
+20937	Fekete tuz vért+7
+20938	Fekete tuz vért+8
+20939	Fekete tuz vért+9
 20940	Holdruha+0
 20941	Holdruha+1
 20942	Holdruha+2
@@ -5433,16 +5433,16 @@ VNUM	LOCALE_NAME
 21077	Éjszakai árnyék vért+7
 21078	Éjszakai árnyék vért+8
 21079	Éjszakai árnyék vért+9
-21080	Erdõkerülõ-vért+0
-21081	Erdõkerülõ-vért+1
-21082	Erdõkerülõ-vért+2
-21083	Erdõkerülõ-vért+3
-21084	Erdõkerülõ-vért+4
-21085	Erdõkerülõ-vért+5
-21086	Erdõkerülõ-vért+6
-21087	Erdõkerülõ-vért+7
-21088	Erdõkerülõ-vért+8
-21089	Erdõkerülõ-vért+9
+21080	Erdokerülo-vért+0
+21081	Erdokerülo-vért+1
+21082	Erdokerülo-vért+2
+21083	Erdokerülo-vért+3
+21084	Erdokerülo-vért+4
+21085	Erdokerülo-vért+5
+21086	Erdokerülo-vért+6
+21087	Erdokerülo-vért+7
+21088	Erdokerülo-vért+8
+21089	Erdokerülo-vért+9
 21090	Hadúr vért+0
 21091	Hadúr vért+1
 21092	Hadúr vért+2
@@ -5524,22 +5524,22 @@ VNUM	LOCALE_NAME
 21243	Ádáz sárkány páncél+13
 21244	Ádáz sárkány páncél+14
 21245	Ádáz sárkány páncél+15
-21250	Bûvös sárkány páncél+0
-21251	Bûvös sárkány páncél+1
-21252	Bûvös sárkány páncél+2
-21253	Bûvös sárkány páncél+3
-21254	Bûvös sárkány páncél+4
-21255	Bûvös sárkány páncél+5
-21256	Bûvös sárkány páncél+6
-21257	Bûvös sárkány páncél+7
-21258	Bûvös sárkány páncél+8
-21259	Bûvös sárkány páncél+9
-21260	Bûvös sárkány páncél+10
-21261	Bûvös sárkány páncél+11
-21262	Bûvös sárkány páncél+12
-21263	Bûvös sárkány páncél+13
-21264	Bûvös sárkány páncél+14
-21265	Bûvös sárkány páncél+15
+21250	Buvös sárkány páncél+0
+21251	Buvös sárkány páncél+1
+21252	Buvös sárkány páncél+2
+21253	Buvös sárkány páncél+3
+21254	Buvös sárkány páncél+4
+21255	Buvös sárkány páncél+5
+21256	Buvös sárkány páncél+6
+21257	Buvös sárkány páncél+7
+21258	Buvös sárkány páncél+8
+21259	Buvös sárkány páncél+9
+21260	Buvös sárkány páncél+10
+21261	Buvös sárkány páncél+11
+21262	Buvös sárkány páncél+12
+21263	Buvös sárkány páncél+13
+21264	Buvös sárkány páncél+14
+21265	Buvös sárkány páncél+15
 21270	Boldog sárkány páncél+0
 21271	Boldog sárkány páncél+1
 21272	Boldog sárkány páncél+2
@@ -5697,16 +5697,16 @@ VNUM	LOCALE_NAME
 21537	Égi áldás sisak+7
 21538	Égi áldás sisak+8
 21539	Égi áldás sisak+9
-21540	Zöld erdõ sisak+0
-21541	Zöld erdõ sisak+1
-21542	Zöld erdõ sisak+2
-21543	Zöld erdõ sisak+3
-21544	Zöld erdõ sisak+4
-21545	Zöld erdõ sisak+5
-21546	Zöld erdõ sisak+6
-21547	Zöld erdõ sisak+7
-21548	Zöld erdõ sisak+8
-21549	Zöld erdõ sisak+9
+21540	Zöld erdo sisak+0
+21541	Zöld erdo sisak+1
+21542	Zöld erdo sisak+2
+21543	Zöld erdo sisak+3
+21544	Zöld erdo sisak+4
+21545	Zöld erdo sisak+5
+21546	Zöld erdo sisak+6
+21547	Zöld erdo sisak+7
+21548	Zöld erdo sisak+8
+21549	Zöld erdo sisak+9
 21550	Sárkányszarv-sisak +0
 21551	Sárkányszarv-sisak +1
 21552	Sárkányszarv-sisak +2
@@ -5722,13 +5722,13 @@ VNUM	LOCALE_NAME
 21902	Álomfogó
 21903	Ork gyilkos
 21904	Elf csók
-21905	Özvegy legyezõje
+21905	Özvegy legyezoje
 21906	Mennydörgés & Villámlás
-21910	Perzselõ gonoszság
-21911	Elf tépõfog
+21910	Perzselo gonoszság
+21911	Elf tépofog
 21912	Bánat fullánkja
 21913	Obszidián hasító
-21914	Valkûr hívása
+21914	Valkur hívása
 21915	Néma átok
 21916	Raptor
 21920	Végzet pengéje
@@ -5737,12 +5737,12 @@ VNUM	LOCALE_NAME
 21923	Vérszövetség
 21924	Viharhívó
 21925	Árnyéktáncos
-21926	Felmetszõ
+21926	Felmetszo
 21930	Léleklopó
 21931	Lélekvágó
 21932	Viharhozó
 21933	Az Ítélet
-21934	Mennydörgõ visszhang
+21934	Mennydörgo visszhang
 21935	Suttogó halál
 21936	Lélekaprító
 21940	Acél éneke
@@ -5767,7 +5767,7 @@ VNUM	LOCALE_NAME
 21965	Nexus
 21966	Tigris mancs
 21970	Rekviem
-21971	Királyölõ
+21971	Királyölo
 21972	Ependrion
 21973	Brachindul
 21974	Halálos csók
@@ -5783,92 +5783,92 @@ VNUM	LOCALE_NAME
 22020	Papír
 22030	Teleport Tekercs
 22040	Élet Tekercs
-22050	Életre keltõ tekercs
-23000	Erõ kesztyûje+0
-23001	Erõ kesztyûje+1
-23002	Erõ kesztyûje+2
-23003	Erõ kesztyûje+3
-23004	Erõ kesztyûje+4
-23005	Erõ kesztyûje+5
-23006	Erõ kesztyûje+6
-23007	Erõ kesztyûje+7
-23008	Erõ kesztyûje+8
-23009	Erõ kesztyûje+9
-23010	Gyorsaság kesztyûje+0
-23011	Gyorsaság kesztyûje+1
-23012	Gyorsaság kesztyûje+2
-23013	Gyorsaság kesztyûje+3
-23014	Gyorsaság kesztyûje+4
-23015	Gyorsaság kesztyûje+5
-23016	Gyorsaság kesztyûje+6
-23017	Gyorsaság kesztyûje+7
-23018	Gyorsaság kesztyûje+8
-23019	Gyorsaság kesztyûje+9
-23020	Páncélkesztyû+0
-23021	Páncélkesztyû+1
-23022	Páncélkesztyû+2
-23023	Páncélkesztyû+3
-23024	Páncélkesztyû+4
-23025	Páncélkesztyû+5
-23026	Páncélkesztyû+6
-23027	Páncélkesztyû+7
-23028	Páncélkesztyû+8
-23029	Páncélkesztyû+9
-23030	Védõkesztyû+0
-23031	Védõkesztyû+1
-23032	Védõkesztyû+2
-23033	Védõkesztyû+3
-23034	Védõkesztyû+4
-23035	Védõkesztyû+5
-23036	Védõkesztyû+6
-23037	Védõkesztyû+7
-23038	Védõkesztyû+8
-23039	Védõkesztyû+9
-23050	Szerpent kesztyû (ERÕ)+0
-23051	Szerpent kesztyû (ERÕ)+1
-23052	Szerpent kesztyû (ERÕ)+2
-23053	Szerpent kesztyû (ERÕ)+3
-23054	Szerpent kesztyû (ERÕ)+4
-23055	Szerpent kesztyû (ERÕ)+5
-23056	Szerpent kesztyû (ERÕ)+6
-23057	Szerpent kesztyû (ERÕ)+7
-23058	Szerpent kesztyû (ERÕ)+8
-23059	Szerpent kesztyû (ERÕ)+9
-23060	Szerpent kesztyû (ELL)+0
-23061	Szerpent kesztyû (ELL)+1
-23062	Szerpent kesztyû (ELL)+2
-23063	Szerpent kesztyû (ELL)+3
-23064	Szerpent kesztyû (ELL)+4
-23065	Szerpent kesztyû (ELL)+5
-23066	Szerpent kesztyû (ELL)+6
-23067	Szerpent kesztyû (ELL)+7
-23068	Szerpent kesztyû (ELL)+8
-23069	Szerpent kesztyû (ELL)+9
-23070	Szerpent kesztyû (VIT)+0
-23071	Szerpent kesztyû (VIT)+1
-23072	Szerpent kesztyû (VIT)+2
-23073	Szerpent kesztyû (VIT)+3
-23074	Szerpent kesztyû (VIT)+4
-23075	Szerpent kesztyû (VIT)+5
-23076	Szerpent kesztyû (VIT)+6
-23077	Szerpent kesztyû (VIT)+7
-23078	Szerpent kesztyû (VIT)+8
-23079	Szerpent kesztyû (VIT)+9
-23080	Szerpent kesztyû (INT)+0
-23081	Szerpent kesztyû (INT)+1
-23082	Szerpent kesztyû (INT)+2
-23083	Szerpent kesztyû (INT)+3
-23084	Szerpent kesztyû (INT)+4
-23085	Szerpent kesztyû (INT)+5
-23086	Szerpent kesztyû (INT)+6
-23087	Szerpent kesztyû (INT)+7
-23088	Szerpent kesztyû (INT)+8
-23089	Szerpent kesztyû (INT)+9
+22050	Életre kelto tekercs
+23000	Ero kesztyuje+0
+23001	Ero kesztyuje+1
+23002	Ero kesztyuje+2
+23003	Ero kesztyuje+3
+23004	Ero kesztyuje+4
+23005	Ero kesztyuje+5
+23006	Ero kesztyuje+6
+23007	Ero kesztyuje+7
+23008	Ero kesztyuje+8
+23009	Ero kesztyuje+9
+23010	Gyorsaság kesztyuje+0
+23011	Gyorsaság kesztyuje+1
+23012	Gyorsaság kesztyuje+2
+23013	Gyorsaság kesztyuje+3
+23014	Gyorsaság kesztyuje+4
+23015	Gyorsaság kesztyuje+5
+23016	Gyorsaság kesztyuje+6
+23017	Gyorsaság kesztyuje+7
+23018	Gyorsaság kesztyuje+8
+23019	Gyorsaság kesztyuje+9
+23020	Páncélkesztyu+0
+23021	Páncélkesztyu+1
+23022	Páncélkesztyu+2
+23023	Páncélkesztyu+3
+23024	Páncélkesztyu+4
+23025	Páncélkesztyu+5
+23026	Páncélkesztyu+6
+23027	Páncélkesztyu+7
+23028	Páncélkesztyu+8
+23029	Páncélkesztyu+9
+23030	Védokesztyu+0
+23031	Védokesztyu+1
+23032	Védokesztyu+2
+23033	Védokesztyu+3
+23034	Védokesztyu+4
+23035	Védokesztyu+5
+23036	Védokesztyu+6
+23037	Védokesztyu+7
+23038	Védokesztyu+8
+23039	Védokesztyu+9
+23050	Szerpent kesztyu (ERO)+0
+23051	Szerpent kesztyu (ERO)+1
+23052	Szerpent kesztyu (ERO)+2
+23053	Szerpent kesztyu (ERO)+3
+23054	Szerpent kesztyu (ERO)+4
+23055	Szerpent kesztyu (ERO)+5
+23056	Szerpent kesztyu (ERO)+6
+23057	Szerpent kesztyu (ERO)+7
+23058	Szerpent kesztyu (ERO)+8
+23059	Szerpent kesztyu (ERO)+9
+23060	Szerpent kesztyu (ELL)+0
+23061	Szerpent kesztyu (ELL)+1
+23062	Szerpent kesztyu (ELL)+2
+23063	Szerpent kesztyu (ELL)+3
+23064	Szerpent kesztyu (ELL)+4
+23065	Szerpent kesztyu (ELL)+5
+23066	Szerpent kesztyu (ELL)+6
+23067	Szerpent kesztyu (ELL)+7
+23068	Szerpent kesztyu (ELL)+8
+23069	Szerpent kesztyu (ELL)+9
+23070	Szerpent kesztyu (VIT)+0
+23071	Szerpent kesztyu (VIT)+1
+23072	Szerpent kesztyu (VIT)+2
+23073	Szerpent kesztyu (VIT)+3
+23074	Szerpent kesztyu (VIT)+4
+23075	Szerpent kesztyu (VIT)+5
+23076	Szerpent kesztyu (VIT)+6
+23077	Szerpent kesztyu (VIT)+7
+23078	Szerpent kesztyu (VIT)+8
+23079	Szerpent kesztyu (VIT)+9
+23080	Szerpent kesztyu (INT)+0
+23081	Szerpent kesztyu (INT)+1
+23082	Szerpent kesztyu (INT)+2
+23083	Szerpent kesztyu (INT)+3
+23084	Szerpent kesztyu (INT)+4
+23085	Szerpent kesztyu (INT)+5
+23086	Szerpent kesztyu (INT)+6
+23087	Szerpent kesztyu (INT)+7
+23088	Szerpent kesztyu (INT)+8
+23089	Szerpent kesztyu (INT)+9
 25040	Áldástekercs
-25041	Mágikus kõ
-25042	Rituális kõ
+25041	Mágikus ko
+25042	Rituális ko
 25043	Istenek pecsétje
-25100	Szellemkõ Tekercs
+25100	Szellemko Tekercs
 25101	Tortaszelet
 25103	Ünnepi Zászló
 25104	Évfordulós Zászló
@@ -5919,7 +5919,7 @@ VNUM	LOCALE_NAME
 27123	Zöld ital (kicsi)
 27124	Kötés
 27125	Harci ital
-27126	Sárkányerõ bájital
+27126	Sárkányero bájital
 27128	Yut Nori titka
 27201	Vörös ital (kicsi)
 27202	Vörös ital (közepes)
@@ -5933,7 +5933,7 @@ VNUM	LOCALE_NAME
 27210	Lila ital (kicsi)
 27211	Lila ital (közepes)
 27212	Lila ital (nagy)
-27213	Elixír: Sung Ma a. (ERÕ)
+27213	Elixír: Sung Ma a. (ERO)
 27214	Elixír: Sung Ma a. (VIT)
 27215	Elixír: Sung Ma a. (ELL)
 27216	Elixír: Sung Ma a. (INT)
@@ -5958,20 +5958,20 @@ VNUM	LOCALE_NAME
 27580	Horgászbot+19
 27590	Horgászbot+20
 27591	Szénszálas horgászbot
-27600	Tábortûz
+27600	Tábortuz
 27610	Horgászgömb
 27620	Horgászkönyv
 27621	Rúd a bothoz
-27622	Gyûrû a bothoz
+27622	Gyuru a bothoz
 27623	Nyél a bothoz
 27624	Szénszál
 27797	Arany tonhal
 27798	Édesvízi garnéla
 27799	Halszálka
-27800	Kenõcs
+27800	Kenocs
 27801	Giliszta
 27802	Kis hal
-27803	Süllõ
+27803	Süllo
 27804	Mandarinhal
 27805	Fogas
 27806	Ponty
@@ -5992,7 +5992,7 @@ VNUM	LOCALE_NAME
 27821	Shiri
 27822	Tükörponty
 27823	Aranyhal
-27824	Kígyófejû hal
+27824	Kígyófeju hal
 27825	Ragadozó ponty
 27826	Vörös királyrák
 27827	Ausztrál kék rák
@@ -6001,7 +6001,7 @@ VNUM	LOCALE_NAME
 27830	Barramundi
 27831	Géb
 27832	Mocsári csiga
-27833	Döglött süllõ
+27833	Döglött süllo
 27834	Döglött mandarinhal
 27835	Döglött fogas
 27836	Döglött ponty
@@ -6022,7 +6022,7 @@ VNUM	LOCALE_NAME
 27851	Döglött shiri
 27852	Döglött tükörponty
 27853	Döglött aranyhal
-27854	Döglött kígyófejû hal
+27854	Döglött kígyófeju hal
 27855	Döglött ragadozó ponty
 27856	Döglött vörös királyrák
 27857	Döglött ausztrál kék rák
@@ -6031,7 +6031,7 @@ VNUM	LOCALE_NAME
 27860	Döglött barramundi
 27861	Döglött géb
 27862	Döglött mocsári csiga
-27863	Grillezett süllõ
+27863	Grillezett süllo
 27864	Grillezett mandarinhal
 27865	Grillezett fogas
 27866	Grillezett ponty
@@ -6052,7 +6052,7 @@ VNUM	LOCALE_NAME
 27881	Grillezett shiri
 27882	Grillezett tükörponty
 27883	Grillezett aranyhal
-27884	Grillezett kígyófejû hal
+27884	Grillezett kígyófeju hal
 27885	Grill. ragadozó ponty
 27886	Grill. vörös királyrák
 27887	Grill. ausztrál kék rák
@@ -6063,127 +6063,127 @@ VNUM	LOCALE_NAME
 27892	Grillezett mocsári csiga
 27987	Kagyló
 27988	Kincs térkép
-27989	Metinkõ iránytû
-27990	Kõdarab
-27991	Aquakõ
+27989	Metinko iránytu
+27990	Kodarab
+27991	Aquako
 27992	Fehér Gyöngy
 27993	Kék Gyöngy
 27994	Vérvörös Gyöngy
 27995	Üres üveg
 27996	Méregpalack
-27997	Életerõ Márvány
+27997	Életero Márvány
 27998	Alkímia Erszény
-27999	Szellemkõ Táska
+27999	Szellemko Táska
 28000	Öldöklés köve+0
 28004	Paranoia köve+0
 28008	Trauma köve+0
-28012	Vérfarkas elleni kõ+0
+28012	Vérfarkas elleni ko+0
 28030	Áttörés Köve+0
 28031	Halálos Csapás Köve+0
 28032	Visszatérés Köve+0
-28033	Harcosok Elleni Kõ+0
-28034	Nindzsa Elleni Kõ+0
-28035	Sura Elleni Kõ+0
-28036	Sámánok Elleni Kõ+0
+28033	Harcosok Elleni Ko+0
+28034	Nindzsa Elleni Ko+0
+28035	Sura Elleni Ko+0
+28036	Sámánok Elleni Ko+0
 28037	Szörnyek Köve+0
 28038	Kitérés Köve+0
 28039	Fortély Köve+0
 28040	Mágia Köve+0
-28041	Életerõ Kõ+0
-28042	Védelem Kõ+0
+28041	Életero Ko+0
+28042	Védelem Ko+0
 28043	Sietség Köve+0
-28044	Mágia elleni kõ+0
-28045	Mágia elleni kõ+0
-28046	Démon kõ+0
-28047	Mágikus démon kõ+0
+28044	Mágia elleni ko+0
+28045	Mágia elleni ko+0
+28046	Démon ko+0
+28047	Mágikus démon ko+0
 28100	Öldöklés köve+1
 28104	Paranoia köve+1
 28108	Trauma köve+1
-28112	Vérfarkas elleni kõ+1
+28112	Vérfarkas elleni ko+1
 28130	Áttörés Köve+1
 28131	Halálos Csapás Köve+1
 28132	Visszatérés Köve+1
-28133	Harcosok Elleni Kõ+1
-28134	Nindzsa Elleni Kõ+1
-28135	Sura Elleni Kõ+1
-28136	Sámánok Elleni Kõ+1
+28133	Harcosok Elleni Ko+1
+28134	Nindzsa Elleni Ko+1
+28135	Sura Elleni Ko+1
+28136	Sámánok Elleni Ko+1
 28137	Szörnyek Köve+1
 28138	Kitérés Köve+1
 28139	Fortély Köve+1
 28140	Mágia Köve+1
-28141	Életerõ Kõ+1
+28141	Életero Ko+1
 28142	Védelem Köve+1
 28143	Sietség Köve+1
-28144	Mágia elleni kõ+1
-28145	Mágia elleni kõ+1
-28146	Démon kõ+1
-28147	Mágikus démon kõ+1
+28144	Mágia elleni ko+1
+28145	Mágia elleni ko+1
+28146	Démon ko+1
+28147	Mágikus démon ko+1
 28200	Öldöklés köve+2
 28204	Paranoia Köve+2
 28208	Trauma Köve+2
-28212	Vérfarkas elleni kõ+2
+28212	Vérfarkas elleni ko+2
 28230	Áttörés Köve+2
 28231	Halálos Csapás Köve+2
 28232	Visszatérés Köve+2
-28233	Harcosok Elleni Kõ+2
-28234	Nindzsa Elleni Kõ+2
-28235	Sura Elleni Kõ+2
-28236	Sámánok Elleni Kõ+2
+28233	Harcosok Elleni Ko+2
+28234	Nindzsa Elleni Ko+2
+28235	Sura Elleni Ko+2
+28236	Sámánok Elleni Ko+2
 28237	Szörnyek Köve+2
 28238	Kitérés Köve+2
 28239	Fortély Köve+2
 28240	Mágia Köve+2
-28241	Életerõ Kõ+2
+28241	Életero Ko+2
 28242	Védelem Köve+2
 28243	Sietség Köve+2
-28244	Mágia elleni kõ+2
-28245	Mágia elleni kõ+2
-28246	Démon kõ+2
-28247	Mágikus démon kõ+2
+28244	Mágia elleni ko+2
+28245	Mágia elleni ko+2
+28246	Démon ko+2
+28247	Mágikus démon ko+2
 28300	Öldöklés köve+3
 28304	Paranoia köve+3
 28308	Trauma köve+3
-28312	Vérfarkas elleni kõ+3
+28312	Vérfarkas elleni ko+3
 28330	Áttörés Köve+3
 28331	Halálos Csapás Köve+3
 28332	Visszatérés Köve+3
-28333	Harcosok Elleni Kõ+3
-28334	Nindzsa Elleni Kõ+3
-28335	Sura Elleni Kõ+3
-28336	Sámánok Elleni Kõ+3
+28333	Harcosok Elleni Ko+3
+28334	Nindzsa Elleni Ko+3
+28335	Sura Elleni Ko+3
+28336	Sámánok Elleni Ko+3
 28337	Szörnyek Köve+3
 28338	Kitérés Köve+3
 28339	Fortély Köve+3
 28340	Mágia Köve+3
-28341	Életerõ Kõ+3
+28341	Életero Ko+3
 28342	Védelem Köve+3
 28343	Sietség Köve+3
-28344	Mágia elleni kõ+3
-28345	Mágia elleni kõ+3
-28346	Démon kõ+3
-28347	Mágikus démon kõ+3
+28344	Mágia elleni ko+3
+28345	Mágia elleni ko+3
+28346	Démon ko+3
+28347	Mágikus démon ko+3
 28400	Öldöklés köve+4
 28404	Paranoia köve+4
 28408	Trauma köve+4
-28412	Vérfarkas elleni kõ+4
+28412	Vérfarkas elleni ko+4
 28430	Áttörés Köve+4
 28431	Halálos Csapás Köve+4
 28432	Visszatérés Köve+4
-28433	Harcosok Elleni Kõ+4
-28434	Nindzsa Elleni Kõ+4
-28435	Sura Elleni Kõ+4
-28436	Sámánok Elleni Kõ+4
+28433	Harcosok Elleni Ko+4
+28434	Nindzsa Elleni Ko+4
+28435	Sura Elleni Ko+4
+28436	Sámánok Elleni Ko+4
 28437	Szörnyek Köve+4
 28438	Kitérés Köve+4
 28439	Fortély Köve+4
 28440	Mágia Köve+4
-28441	Életerõ Kõ+4
+28441	Életero Ko+4
 28442	Védelem Köve+4
 28443	Sietség Köve+4
-28444	Mágia elleni kõ+4
-28445	Mágia elleni kõ+4
-28446	Démon kõ+4
-28447	Mágikus démon kõ+4
+28444	Mágia elleni ko+4
+28445	Mágia elleni ko+4
+28446	Démon ko+4
+28447	Mágikus démon ko+4
 28500	Öldöklés köve+5
 28504	Paranoia köve+5
 28508	Trauma Köve+5
@@ -6191,137 +6191,137 @@ VNUM	LOCALE_NAME
 28530	Áttörés Köve+5
 28531	Halálos Csapás Köve+5
 28532	Visszatérés Köve+5
-28533	Harcosok Elleni Kõ+5
-28534	Nindzsa Elleni Kõ+5
-28535	Sura Elleni Kõ+5
-28536	Sámánok Elleni Kõ+5
+28533	Harcosok Elleni Ko+5
+28534	Nindzsa Elleni Ko+5
+28535	Sura Elleni Ko+5
+28536	Sámánok Elleni Ko+5
 28537	Szörnyek Köve+5
 28538	Kitérés Köve+5
 28539	Fortély Köve+5
 28540	Mágia Köve+5
-28541	Életerõ Kõ+5
+28541	Életero Ko+5
 28542	Védelem Köve+5
 28543	Sietség Köve+5
 28600	Áttörés Köve+6
 28601	Halálos Csapás Köve+6
 28602	Visszatérés Köve+6
-28603	Harcosok Elleni Kõ+6
-28604	Nindzsa Elleni Kõ+6
-28605	Sura Elleni Kõ+6
-28606	Sámánok Elleni Kõ+6
+28603	Harcosok Elleni Ko+6
+28604	Nindzsa Elleni Ko+6
+28605	Sura Elleni Ko+6
+28606	Sámánok Elleni Ko+6
 28607	Szörnyek Köve+6
 28608	Kitérés Köve+6
 28609	Fortély Köve+6
 28610	Mágia Köve+6
-28611	Életerõ Kõ+6
+28611	Életero Ko+6
 28612	Védelem Köve+6
 28613	Sietség Köve+6
-28630	Aquakõ Áttörés+5
-28631	Aquakõ Halálos Csapás+5
-28632	Aquakõ Visszatérés+5
-28633	Aquakõ Harcos+5
-28634	Aquakõ Nindzsa+5
-28635	Aquakõ Sura+5
-28636	Aquakõ Sámán+5
-28637	Aquakõ Szörny+5
-28638	Aquakõ Kitérés+5
-28639	Aquakõ Fortély+5
-28640	Aquakõ Mágia+5
-28641	Aquakõ Életerõ+5
-28642	Aquakõ Védelem+5
-28643	Aquakõ Sietség+5
+28630	Aquako Áttörés+5
+28631	Aquako Halálos Csapás+5
+28632	Aquako Visszatérés+5
+28633	Aquako Harcos+5
+28634	Aquako Nindzsa+5
+28635	Aquako Sura+5
+28636	Aquako Sámán+5
+28637	Aquako Szörny+5
+28638	Aquako Kitérés+5
+28639	Aquako Fortély+5
+28640	Aquako Mágia+5
+28641	Aquako Életero+5
+28642	Aquako Védelem+5
+28643	Aquako Sietség+5
 28700	Áttörés Köve+7
 28701	Halálos Csapás Köve+7
 28702	Visszatérés Köve+7
-28703	Harcosok Elleni Kõ+7
-28704	Nindzsa Elleni Kõ+7
-28705	Sura Elleni Kõ+7
-28706	Sámánok Elleni Kõ+7
+28703	Harcosok Elleni Ko+7
+28704	Nindzsa Elleni Ko+7
+28705	Sura Elleni Ko+7
+28706	Sámánok Elleni Ko+7
 28707	Szörnyek köve+7
 28708	Kitérés Köve+7
 28709	Fortély Köve+7
 28710	Mágia Köve+7
-28711	Életerõ Kõ+7
+28711	Életero Ko+7
 28712	Védelem Köve+7
 28713	Sietség Köve+7
-28730	Aquakõ Áttörés+7
-28731	Aquakõ Halálos Csapás+7
-28732	Aquakõ Visszatérés+7
-28733	Aquakõ Harcos+7
-28734	Aquakõ Nindzsa+7
-28735	Aquakõ Sura+7
-28736	Aquakõ Sámánok+7
-28737	Aquakõ Szörny+7
-28738	Aquakõ Kitartás+7
-28739	Aquakõ Fortély+7
-28740	Aquakõ Mágia+7
-28741	Aquakõ Életerõ+7
-28742	Aquakõ Védelem+7
-28743	Aquakõ Sietség+7
+28730	Aquako Áttörés+7
+28731	Aquako Halálos Csapás+7
+28732	Aquako Visszatérés+7
+28733	Aquako Harcos+7
+28734	Aquako Nindzsa+7
+28735	Aquako Sura+7
+28736	Aquako Sámánok+7
+28737	Aquako Szörny+7
+28738	Aquako Kitartás+7
+28739	Aquako Fortély+7
+28740	Aquako Mágia+7
+28741	Aquako Életero+7
+28742	Aquako Védelem+7
+28743	Aquako Sietség+7
 28800	Áttörés Köve+8
 28801	Halálos Csapás Köve+8
 28802	Visszatérés Köve+8
-28803	Harcosok Elleni Kõ+8
-28804	Nindzsa Elleni Kõ+8
-28805	Sura Elleni Kõ+8
-28806	Sámánok Elleni Kõ+8
+28803	Harcosok Elleni Ko+8
+28804	Nindzsa Elleni Ko+8
+28805	Sura Elleni Ko+8
+28806	Sámánok Elleni Ko+8
 28807	Szörnyek Köve+8
 28808	Kitérés Köve+8
 28809	Fortély Köve+8
 28810	Mágia Köve+8
-28811	Életerõ Kõ+8
+28811	Életero Ko+8
 28812	Védelem Köve+8
 28813	Sietség Köve+8
-28830	Aquakõ Áttörés+8
-28831	Aquakõ Halálos Csapás+8
-28832	Aquakõ Visszatérés+8
-28833	Aquakõ Harcos+8
-28834	Aquakõ Nindzsa+8
-28835	Aquakõ Sura+8
-28836	Aquakõ Sámánok+8
-28837	Aquakõ Szörny+8
-28838	Aquakõ Kitérés+8
-28839	Aquakõ Fortély+8
-28840	Aquakõ Mágia+8
-28841	Aquakõ Életerõ+8
-28842	Aquakõ Védelem+8
-28843	Aquakõ Sietség+8
+28830	Aquako Áttörés+8
+28831	Aquako Halálos Csapás+8
+28832	Aquako Visszatérés+8
+28833	Aquako Harcos+8
+28834	Aquako Nindzsa+8
+28835	Aquako Sura+8
+28836	Aquako Sámánok+8
+28837	Aquako Szörny+8
+28838	Aquako Kitérés+8
+28839	Aquako Fortély+8
+28840	Aquako Mágia+8
+28841	Aquako Életero+8
+28842	Aquako Védelem+8
+28843	Aquako Sietség+8
 28900	Áttörés Köve+9
 28901	Halálos Csapás Köve+9
 28902	Visszatérés Köve+9
-28903	Harcosok Elleni Kõ+9
-28904	Nindzsa Elleni Kõ+9
-28905	Sura Elleni Kõ+9
-28906	Sámánok Elleni Kõ+9
+28903	Harcosok Elleni Ko+9
+28904	Nindzsa Elleni Ko+9
+28905	Sura Elleni Ko+9
+28906	Sámánok Elleni Ko+9
 28907	Szörnyek Köve+9
 28908	Kitérés Köve+9
 28909	Fortély Köve+9
 28910	Mágia Köve+9
-28911	Életerõ Kõ+9
+28911	Életero Ko+9
 28912	Védelem Köve+9
 28913	Sietség Köve+9
-28930	Aquakõ Áttörés+9
-28931	Aquakõ Halálos Csapás+9
-28932	Aquakõ Visszatérés+9
-28933	Aquakõ Harcos+9
-28934	Aquakõ Nindzsa+9
-28935	Aquakõ Sura+9
-28936	Aquakõ Sámánok+9
-28937	Aquakõ Szörny+9
-28938	Aquakõ Kitérés+9
-28939	Aquakõ Fortély+9
-28940	Aquakõ Mágia+9
-28941	Aquakõ Életerõ+9
-28942	Aquakõ Védelem+9
-28943	Aquakõ Sietség+9
-28960	Kõszilánk
-29001	Fésûkagyló
-29002	Kék fésûkagyló
-29003	Sárga fésûkagyló
-29004	Piros fésûkagyló
-29005	Zöld fésûkagyló
-29006	Sárga borkõ
-29007	Sötétkék borkõ
+28930	Aquako Áttörés+9
+28931	Aquako Halálos Csapás+9
+28932	Aquako Visszatérés+9
+28933	Aquako Harcos+9
+28934	Aquako Nindzsa+9
+28935	Aquako Sura+9
+28936	Aquako Sámánok+9
+28937	Aquako Szörny+9
+28938	Aquako Kitérés+9
+28939	Aquako Fortély+9
+28940	Aquako Mágia+9
+28941	Aquako Életero+9
+28942	Aquako Védelem+9
+28943	Aquako Sietség+9
+28960	Koszilánk
+29001	Fésukagyló
+29002	Kék fésukagyló
+29003	Sárga fésukagyló
+29004	Piros fésukagyló
+29005	Zöld fésukagyló
+29006	Sárga borko
+29007	Sötétkék borko
 29008	Kék szenteltvíz
 29009	Sárga szenteltvíz
 29010	Vörös szenteltvíz
@@ -6348,7 +6348,7 @@ VNUM	LOCALE_NAME
 30005	Törött fegyverzetdarab
 30006	Orkfog
 30007	Ork amulett
-30008	Ezotéria bevezetõ
+30008	Ezotéria bevezeto
 30009	Ismeretlen gyógyszer
 30010	Medveepe
 30011	Gombolyag
@@ -6356,18 +6356,18 @@ VNUM	LOCALE_NAME
 30013	Szeszes korsó
 30014	Jetibunda
 30015	Démoni Emléktárgy
-30016	Démoni Ékkõ
-30017	Dísz hajtû
+30016	Démoni Ékko
+30017	Dísz hajtu
 30018	Vörös hajszalag
 30019	Lobogó sörény
 30020	Barackmag
-30021	Ékkõ darab
+30021	Ékko darab
 30022	Kígyófarok
-30023	Fehér tigrisbõr
+30023	Fehér tigrisbor
 30024	Lófarok
 30025	Pók méregzsák
 30026	Farkasbél
-30027	Farkasszõr
+30027	Farkasszor
 30028	Farkaskarom
 30029	Farkasmáj
 30030	Rozsdás penge
@@ -6378,14 +6378,14 @@ VNUM	LOCALE_NAME
 30035	Arckrém
 30036	Titokzatos gyógynövény
 30037	Tigriskarom
-30038	Tigrisbõr
+30038	Tigrisbor
 30039	Szövetdarab
 30040	Falevél
 30041	Shiriken
-30042	Tigris Tépõfog
+30042	Tigris Tépofog
 30043	Bab
 30044	Agyag
-30045	Skorpió tû
+30045	Skorpió tu
 30046	Skorpió farok
 30047	Átokkönyv
 30048	Jégdarab
@@ -6393,8 +6393,8 @@ VNUM	LOCALE_NAME
 30050	Jéggömb
 30051	Ismeretlen talizmán
 30052	Zászló
-30053	Medvetalp bõr
-30054	Jegygyûrû
+30053	Medvetalp bor
+30054	Jegygyuru
 30055	Skorpió olló
 30056	Pókháló
 30057	Pókszem
@@ -6403,22 +6403,22 @@ VNUM	LOCALE_NAME
 30060	Békanyelv
 30061	Békacombok
 30062	Gyógyszer tál
-30063	Bõr orvosság
-30064	Éles kõ
+30063	Bor orvosság
+30064	Éles ko
 30065	Harang
-30066	Erõs paprika
-30067	Kígyóbõr
+30066	Eros paprika
+30067	Kígyóbor
 30068	Tofu steak
 30069	Farkaskarom+
-30070	Farkasszõr+
+30070	Farkasszor+
 30071	Medveepe+
-30072	Medvetalp bõr+
+30072	Medvetalp bor+
 30073	Fehér hajszalag+
 30074	Fekete egyenruha+
 30075	Shiriken+
 30076	Ork amulett+
 30077	Orkfog+
-30078	Ezotéria bevezetõ+
+30078	Ezotéria bevezeto+
 30079	Ismeretlen talizmán+
 30080	Átokkönyv+
 30081	Skorpió farok+
@@ -6427,7 +6427,7 @@ VNUM	LOCALE_NAME
 30084	Ismeretlen talizmán+
 30085	Szövetdarab+
 30086	Démoni Emléktárgy+
-30087	Démoni Ékkõ+
+30087	Démoni Ékko+
 30088	Jégdarab+
 30089	Jetibunda+
 30090	Jéggömb+
@@ -6441,7 +6441,7 @@ VNUM	LOCALE_NAME
 30098	Szerencse erszény
 30099	Szerencse erszény
 30100	Szerencse erszény
-30101	Ariyoung jegygyûrûje
+30101	Ariyoung jegygyuruje
 30102	Arany Fejsze
 30103	Arany Orkfog
 30104	Sivatagi pók háló
@@ -6451,7 +6451,7 @@ VNUM	LOCALE_NAME
 30108	Kerámia zománc
 30109	Sivatagi pók háló
 30110	Levél Huahn-So-tól
-30111	Csípõs skorpió farok
+30111	Csípos skorpió farok
 30112	Angolna
 30113	Ezotéria könyv
 30114	Pestis
@@ -6473,13 +6473,13 @@ VNUM	LOCALE_NAME
 30130	Üres üveg
 30131	Kovács levele
 30132	Uriel Könyve
-30133	Virág cipõ
+30133	Virág cipo
 30134	Uriel csomagja
 30135	Ariyoung levele
 30136	Díszes íj
 30137	Majomvér
 30138	Sivatagi homok
-30139	Õrlõfog
+30139	Orlofog
 30140	Cérna
 30141	Ékszer
 30142	Levél
@@ -6518,20 +6518,20 @@ VNUM	LOCALE_NAME
 30175	Gyémánt bálna szigony
 30176	Fényes tigris bunda
 30177	Pézsmaolaj
-30178	Glyph Kõ
+30178	Glyph Ko
 30179	Csavart kulcs
 30180	Sárkányisten Amulett
 30181	Oldal
 30182	Legendás Napló
 30183	Komor Fa Maszk
-30184	Megbûvölt Hamu
+30184	Megbuvölt Hamu
 30185	Sötét Jég
 30186	Fosszilizálódott Könny
 30187	Csepp Vér
 30188	Obszidián
 30189	Baljit-Elvedin könnyei
-30190	Vérkõ
-30191	Vérkõ
+30190	Vérko
+30191	Vérko
 30192	Növényi nedv
 30193	Ujjcsontok
 30194	Ork buzogány
@@ -6540,35 +6540,35 @@ VNUM	LOCALE_NAME
 30197	Mágikus magvak
 30198	Víztiszta kristály
 30199	Kék kristály
-30201	Bosszú Gyûrûje
+30201	Bosszú Gyuruje
 30202	Tanaka Füle
 30203	Kristály
 30204	Kristály darab
-30205	Elõállítási anyagok
-30210	Drágakõ darab
-30211	Drágakõ darab
-30212	Drágakõ darab
-30213	Drágakõ darab
-30214	Drágakõ darab
-30215	Drágakõ darab
-30216	Drágakõ darab
-30217	Drágakõ darab
-30218	Drágakõ darab
-30219	Drágakõ darab
+30205	Eloállítási anyagok
+30210	Drágako darab
+30211	Drágako darab
+30212	Drágako darab
+30213	Drágako darab
+30214	Drágako darab
+30215	Drágako darab
+30216	Drágako darab
+30217	Drágako darab
+30218	Drágako darab
+30219	Drágako darab
 30220	Jinunggyi Lélekköve
-30221	Templomi Lélekkõ
+30221	Templomi Lélekko
 30222	Sagyi Lélekköve
 30223	Aurtumryu Lélekköve
 30224	Gyimok Lélekköve
 30225	Tugyi Lélekköve
 30226	Erdei szellem Lélekköve
 30227	Vezér Lélekköve
-30228	Beran-Setaou lélekkõ
-30251	Rosszakarat Ékkõ
-30252	Bölcsesség Ékkõ
+30228	Beran-Setaou lélekko
+30251	Rosszakarat Ékko
+30252	Bölcsesség Ékko
 30254	NoNAme
 30255	Kardlélek
-30256	Védelmezõlélek
+30256	Védelmezolélek
 30257	Ékszerlélek
 30258	Fénylélek
 30264	Gyógyszer
@@ -6577,8 +6577,8 @@ VNUM	LOCALE_NAME
 30267	Medál darab (3)
 30268	Medál darab (4)
 30269	Medál darab (5)
-30270	Sárkánykõ-szilánk
-30271	Sárkánykõ-szilánk+
+30270	Sárkányko-szilánk
+30271	Sárkányko-szilánk+
 30272	Harcos lélekereklye
 30273	Nindzsa lélekereklye
 30274	Sura lélekereklye
@@ -6607,11 +6607,11 @@ VNUM	LOCALE_NAME
 30323	Tökfej maszk kártya
 30324	Pók-kulcs
 30325	Pók-kulcs
-30326	Pók-királynõ mérge
+30326	Pók-királyno mérge
 30327	Pók-síp
 30328	Ismeretlen öreg láda
 30329	Arany fogaskerék
-30330	Maat kõ
+30330	Maat ko
 30331	Fagy-kulcs
 30332	Északi sarkcsillag
 30333	Jégvirág-kulcs
@@ -6621,18 +6621,18 @@ VNUM	LOCALE_NAME
 30337	Tökmag
 30338	Fejdísz utalvány+
 30339	Fegyver-kinéz. utalvány+
-30341	Sárkánytûz-gyûrû
+30341	Sárkánytuz-gyuru
 30342	Vámpír sisak utalvány
 30343	Vámpír sisak utalvány+
 30344	Szentélyek hívása
 30346	Battle Royale jegy
-30500	Rubin metszetû kés
+30500	Rubin metszetu kés
 30501	Arany kapocs
 30502	Rubin díszítés
-30503	Ametiszt metszetû kés
+30503	Ametiszt metszetu kés
 30504	Ezüst kapocs
 30505	Smaragd díszítés
-30506	Zafír metszetû kés
+30506	Zafír metszetu kés
 30507	Bronz kapocs
 30508	Zafír díszítés
 30509	Kék sárkány-acél
@@ -6640,18 +6640,18 @@ VNUM	LOCALE_NAME
 30511	Piros anyag
 30512	Vörös sárkány-acél
 30513	Nemes váll-lap
-30514	Ibolyaszínû anyag
+30514	Ibolyaszínu anyag
 30515	Lila Sárkány-acél
 30516	Antik váll-lap
 30517	Arany anyag
 30518	Arany fonál
 30519	Arany kampó
 30520	Arany csat
-30521	Gyûrû-elem
+30521	Gyuru-elem
 30522	Láncszemek
-30523	Ékszer díszítõelem
-30524	Tûzkõ
-30525	Jég-tûzkõ
+30523	Ékszer díszítoelem
+30524	Tuzko
+30525	Jég-tuzko
 30526	NoNAme
 30527	NoNAme
 30528	NoNAme
@@ -6731,7 +6731,7 @@ VNUM	LOCALE_NAME
 30615	Fehér festék
 30616	Titán-dioxid
 30617	Achát
-30618	Holdkõ
+30618	Holdko
 30619	Fémes aranyfesték
 30620	Vörös sárkány-szarv
 30621	Vörös sárkány-pikkely
@@ -6754,7 +6754,7 @@ VNUM	LOCALE_NAME
 30646	Pánt terv
 30647	Díszítés terv
 30648	Házikedvenc-könyv terv
-30649	Tépõfog terv+
+30649	Tépofog terv+
 30650	Cor Draconis terv
 30651	Gaya terv
 30652	Rejtélyes terv
@@ -6766,14 +6766,14 @@ VNUM	LOCALE_NAME
 30658	Asmodeus szarv
 30659	Kárhozott lélek
 30660	Élettelenség könyve
-30661	Asmodeus kõszíve
+30661	Asmodeus koszíve
 30662	Megváltó karmai
-30663	Gyönyörû farktoll
+30663	Gyönyöru farktoll
 30664	Asmodeus sörény
 30665	Túlvilág talizmán
 30666	Titán lemezke
-30667	Erõs kötél+
-30668	Erõs csomó+
+30667	Eros kötél+
+30668	Eros csomó+
 31001	A felirat másolata
 31002	Régi dokumentum
 31003	Ellenméreg
@@ -6797,20 +6797,20 @@ VNUM	LOCALE_NAME
 31021	NoNAme
 31022	Oin-pikkely
 31023	NoNAme
-31024	Mantikórbõr
+31024	Mantikórbor
 31025	NoNAme
 31026	Rákpáncél
 31027	Finom homok
 31028	Agyagtégla
-31029	Belsõ fény
-31030	Belsõ fény
+31029	Belso fény
+31030	Belso fény
 31031	Millennium-esszencia
 31032	Leviatán gyöngyök
-31033	A Fõnök köpenye
+31033	A Fonök köpenye
 31034	Az Óriások toteme
-31035	Fekete kõ
+31035	Fekete ko
 31036	Fekete arany
-31037	Bõrtáska
+31037	Bortáska
 31038	Szentelt föld
 31039	Érmecsomag
 31040	Arany medál
@@ -6850,13 +6850,13 @@ VNUM	LOCALE_NAME
 31074	Szegecselt nyakék
 31075	Drót nyakék
 31076	Nap-növények
-31077	Alapkõ-por
+31077	Alapko-por
 31078	Tiszta fény
 31079	Levél Yak-Hwan-nak
 31080	Lángkirály-vér
 31081	Sötét anyag
-31082	Magmagyûrû
-31083	Samael gyûrûje
+31082	Magmagyuru
+31083	Samael gyuruje
 31084	Dicsfény tinktúra
 31085	NoNAme
 31086	Gombaspórák
@@ -6866,7 +6866,7 @@ VNUM	LOCALE_NAME
 31090	NoNAme
 31091	NoNAme
 31092	NoNAme
-31093	Ismeretlen kõ
+31093	Ismeretlen ko
 31094	Töredék
 31095	NoNAme
 31096	Nemes fa
@@ -6881,20 +6881,20 @@ VNUM	LOCALE_NAME
 31105	Hajó faanyag
 31106	Hajókormány
 31107	Faanyag javításhoz
-31108	Kicsi megvilágosodás-kõ
-31109	Nemes megvilágosodás-kõ
-31110	Fényes megvilágosodás-kõ
-31111	Epikus megvilágosodás-kõ
-31112	Átható megvilágosodás-kõ
+31108	Kicsi megvilágosodás-ko
+31109	Nemes megvilágosodás-ko
+31110	Fényes megvilágosodás-ko
+31111	Epikus megvilágosodás-ko
+31112	Átható megvilágosodás-ko
 31113	Megvilágosodás elixír
-31114	Közönséges bõr
-31115	Üllõ
+31114	Közönséges bor
+31115	Üllo
 31117	Finom fonál
 31118	Becsület medálja
 31120	Oldószer
 31121	Acél
 31122	Ruhaanyag
-31123	Vékony bõr
+31123	Vékony bor
 31124	Vékony cérna
 31125	Vastag cérna
 31126	Sárkánykoponya
@@ -6905,11 +6905,11 @@ VNUM	LOCALE_NAME
 31131	Selyem
 31132	Töredékek
 31133	Közönséges festék
-31134	Erõs festék
+31134	Eros festék
 31135	Különleges festék
-31136	Közönséges káosz-kõ
-31137	Középszerû káosz-kõ
-31138	Epikus káosz-kõ
+31136	Közönséges káosz-ko
+31137	Középszeru káosz-ko
+31138	Epikus káosz-ko
 31139	Beran-Setaou ládája
 31140	Jotun Thrym ládája
 31141	Razador ládája
@@ -6919,7 +6919,7 @@ VNUM	LOCALE_NAME
 31145	Élet levele
 31146	Megvilágosodás kódex
 31147	Zsebóra
-31149	Erõs zsineg
+31149	Eros zsineg
 31160	Csavart kulcs (IH)
 31161	Tündérek köve (IH)
 31162	Nemes fa (IH)
@@ -6928,7 +6928,7 @@ VNUM	LOCALE_NAME
 31165	Fa-smaragd (IH)
 31166	Segélycsomag (IH)
 31167	Arany fogaskerék (IH)
-31168	Maat kõ (IH)
+31168	Maat ko (IH)
 31169	Fagy-kulcs (IH)
 31170	Északi sarkcsillag (IH)
 31171	Jégvirág-kulcs (IH)
@@ -6940,18 +6940,18 @@ VNUM	LOCALE_NAME
 31185	Fa-smaragd (MV)
 31186	Segélycsomag (MV)
 31187	Arany fogaskerék (MV)
-31188	Maat kõ (MV)
+31188	Maat ko (MV)
 31189	Fagy-kulcs (MV)
 31190	Északi sarkcsillag (MV)
 31191	Jégvirág-kulcs (MV)
 31196	MV: Kard tervrajz
 31197	MV: Szablya tervrajz
-31198	MV: Tõr tervrajz
+31198	MV: Tor tervrajz
 31199	MV: Íj tervrajz
 31200	MV: Penge tervrajz
 31201	MV: Harang tervrajz
 31202	MV: Karom tervrajz
-31203	MV: Legyezõ tervrajz
+31203	MV: Legyezo tervrajz
 31204	MV: Harcos páncél terv
 31205	MV: Nindzsa páncél terv
 31206	MV: Sura páncél terv
@@ -6969,46 +6969,46 @@ VNUM	LOCALE_NAME
 31220	Üzenet
 31221	Megtisztított lélekmag
 31222	Saspáfrány
-31223	Fertõzés-iránytû
+31223	Fertozés-iránytu
 31224	Ékszer acéllemez
-31225	Rúnakõ
+31225	Rúnako
 31226	Sérült mag
 31227	Argosz agyar
 31228	Argosz pikkely
-31229	Sérült lélekkõ
+31229	Sérült lélekko
 31230	Megtisztított mag
 31231	Metinkristály
 31232	Árnypáfrány
-31233	Szerpent kõ
-31234	Szerpent kõ+
+31233	Szerpent ko
+31234	Szerpent ko+
 31235	Fehér sárkányfej
 31236	Fehér sárkánypikkely
-31237	Északszél lélekkõ
+31237	Északszél lélekko
 31238	Fényes kagyló
 31239	Fényes fehér gyöngy
 31240	Fényes kék gyöngy
 31241	Fényes vérvörös gyöngy
-31242	Északszél fegyverkõ
-31243	Északszél fegyverkõ+
-31244	Északszél kesztyûkõ
-31245	Kemény bõr
-31246	Kesztyû terv
+31242	Északszél fegyverko
+31243	Északszél fegyverko+
+31244	Északszél kesztyuko
+31245	Kemény bor
+31246	Kesztyu terv
 31247	Vörös Sung Ma rúna
 31248	Lila Sung Ma rúna
 31249	Kék Sung Ma rúna
 31250	Zöld Sung Ma rúna
-31251	Bõrkeményítõ
-31252	Bõrkeményítõ+
+31251	Borkeményíto
+31252	Borkeményíto+
 31253	Gnoll mester láda
 31254	Ahtrin mester láda
 31255	Aranyozott láda
 31256	Labirintus láda
 31257	Szerpent terv
 31258	Szerpent selyem
-31259	Északszél üllõ
-31261	Titokzatos kõ
+31259	Északszél üllo
+31261	Titokzatos ko
 31262	Szerpent tisztító
-31263	Északszél köszörûkõ
+31263	Északszél köszöruko
 31270	Talizmán esszencia
 33001	Zi jelvény
 33002	Chou jelvény
@@ -7032,16 +7032,16 @@ VNUM	LOCALE_NAME
 33020	Xin jelvény
 33021	Ren jelvény
 33022	Gui jelvény
-33023	Õrzõ jelvény
+33023	Orzo jelvény
 33024	Zodiákus jelvény
-33025	Felélesztõ prizma
+33025	Feléleszto prizma
 33026	Aureolin kincs
 33027	Aventurin kincs
 33028	Asztrális kincs
 33029	Vörös zodiákus szelence
 33030	Kék zodiákus szelence
 33031	Elementáris virág
-33032	Felélesztõ prizma (Q)
+33032	Feléleszto prizma (Q)
 33033	Arany zodiákus láda
 35000	Gyógynövények+
 35001	Tigris máj+
@@ -7065,7 +7065,7 @@ VNUM	LOCALE_NAME
 38017	TÉ utalvány (50)
 38018	TÉ utalvány (100)
 38020	Sung Ma prémium bónusz
-38050	Erõ ládája
+38050	Ero ládája
 38051	Királytigris kristály
 38052	A Királyok ládája
 38053	Örök tél ládája
@@ -7076,22 +7076,22 @@ VNUM	LOCALE_NAME
 38058	Bölcsesség itala (3h)
 38059	Érzelem maszk
 38060	Érzelemcsomag
-38100	Erõ Snack (7 napos)
-38101	Erõ Snack (15 napos)
-38102	Erõ Snack (30 napos)
+38100	Ero Snack (7 napos)
+38101	Ero Snack (15 napos)
+38102	Ero Snack (30 napos)
 38103	Appaloosa Snack (7 nap)
 38200	Rufusz
 38201	Rufusz
 38305	Föld tanúsítvány
 38306	Extra felszerelés oldal
-39001	Mágikus kõ
-39002	Tapasztalat gyûrû (1h)
+39001	Mágikus ko
+39002	Tapasztalat gyuru (1h)
 39003	Barackvirág bor
 39004	Megáldó márvány
 39005	Mágikus rézérc
 39006	Bátorság köpeny
 39007	Kovács kézikönyv
-39008	Ördögûzõ tekercs
+39008	Ördöguzo tekercs
 39009	Készség visszaállító
 39010	Támadó ital +10
 39011	Élet áldása
@@ -7108,18 +7108,18 @@ VNUM	LOCALE_NAME
 39022	Sárkánytekercs
 39023	Kutatói elixír
 39024	Kritikus Csapás
-39025	Átütõ Csapás
+39025	Átüto Csapás
 39026	Sebesség ital
-39027	Kõ kézikönyv
-39028	Megbûvölõ tárgy
-39029	Tárgy-megerõsítõ
+39027	Ko kézikönyv
+39028	Megbuvölo tárgy
+39029	Tárgy-megerosíto
 39030	Koncentrált olvasás
 39031	Sietség itala
 39032	Élet Gyümölcse
 39033	Javítás tekercse
 39034	Ló Cukra
 39035	Betekintés üvege
-39036	Szél cipõ
+39036	Szél cipo
 39037	Nap Elixír (Kicsi)
 39038	Nap Elixír (Közepes)
 39039	Nap Elixír (Nagy)
@@ -7134,8 +7134,8 @@ VNUM	LOCALE_NAME
 39048	Testi harcos láda (nagy)
 39049	Ment. harcos láda(kicsi)
 39050	Ment. harcos láda (nagy)
-39051	Tõr-nindzsa láda(kicsi)
-39052	Tõr-nindzsa láda (nagy)
+39051	Tor-nindzsa láda(kicsi)
+39052	Tor-nindzsa láda (nagy)
 39053	Íjásznindzsa láda(kicsi)
 39054	Íjásznindzsa láda (nagy)
 39055	Fegyver-sura láda(kicsi)
@@ -7146,40 +7146,39 @@ VNUM	LOCALE_NAME
 39060	Sárkánysámán láda (nagy)
 39061	Gyógy-sámán láda (kicsi)
 39062	Gyógy-sámán láda (nagy)
-39063	Gaya piac frissítõ
-39064	Gaya piac bõvítõ
-39067	Erõszilánk láda
-39068	Elegáns erõszilánk láda
-39069	Fényes erõszilánk láda
-39070	Szürke erõszilánk
-39071	Fehér erõszilánk
-39072	Zöld erõszilánk
-39073	Sárga erõszilánk
-39074	Kék erõszilánk
-39075	Lila erõszilánk
-39076	Vörös erõszilánk
-39077	Szivárvány erõszilánk
-39078	Fényes szürke erõszilánk
-39079	Fényes zöld erõszilánk
-39080	Fényes sárga erõszilánk
-39081	Szent erõszilánk (120)
+39063	Gaya piac frissíto
+39067	Eroszilánk láda
+39068	Elegáns eroszilánk láda
+39069	Fényes eroszilánk láda
+39070	Szürke eroszilánk
+39071	Fehér eroszilánk
+39072	Zöld eroszilánk
+39073	Sárga eroszilánk
+39074	Kék eroszilánk
+39075	Lila eroszilánk
+39076	Vörös eroszilánk
+39077	Szivárvány eroszilánk
+39078	Fényes szürke eroszilánk
+39079	Fényes zöld eroszilánk
+39080	Fényes sárga eroszilánk
+39081	Szent eroszilánk (120)
 39085	Szent sisak darab I
-39086	Dicsõséges sisak darab I
+39086	Dicsoséges sisak darab I
 39087	Lovagias sisak darab I
 39088	Szent sisak darab II
-39089	Dicsõs. sisak darab II
+39089	Dicsos. sisak darab II
 39090	Lovagias sisak darab II
 39091	Szent páncél darab I
-39092	Dicsõs. páncél darab I
+39092	Dicsos. páncél darab I
 39093	Lovagias páncél darab I
 39094	Szent páncél darab II
-39095	Dicsõs. páncél darab II
+39095	Dicsos. páncél darab II
 39096	Lovagias páncél darab II
 39097	Szent fegyver darab I
-39098	Dicsõs. fegyver darab I
+39098	Dicsos. fegyver darab I
 39099	Lovagias fegyver darab I
 39100	Szent fegyver darab II
-39101	Dicsõs. fegyver darab II
+39101	Dicsos. fegyver darab II
 39102	Lovag. fegyver darab II
 39103	Királyi sisak darab II
 39104	Királyi páncél darab II
@@ -7190,99 +7189,99 @@ VNUM	LOCALE_NAME
 39110	Sisak szett-terv
 39111	Páncél szett-terv
 39112	Fegyver szett-terv
-39113	Elemi erõk medálja
-39114	Elemi erõk gyûrûje
+39113	Elemi erok medálja
+39114	Elemi erok gyuruje
 39115	Szett-hatás eltávolító
-39116	Elemi erõk gyûrûje(100%)
+39116	Elemi erok gyuruje(100%)
 39117	Elem. kedvenc kupon
 39118	Elementáris védelem ital
-39119	Elementáris erõ kõ
-39120	Elementáris védelem kõ
-40001	Ismeretlen aranygyûrû
-40002	Levi gyûrûje
-40003	Thor gyûrûje
-40004	Eek gyûrûje
+39119	Elementáris ero ko
+39120	Elementáris védelem ko
+40001	Ismeretlen aranygyuru
+40002	Levi gyuruje
+40003	Thor gyuruje
+40004	Eek gyuruje
 40005	Harangzúgás
 40006	Vadak szállítólevele
 40007	Vadak levele
-40101	Tépõfog-penge
-40102	Tépõfog-tõr
-40103	Tépõfog-íj
-40104	Tépõfog-glefe
-40105	Tépõfog-harang
-40106	Tépõfog-legyezõ
-40107	Tépõfog-karmok
-40108	Tépõfog-penge+
-40109	Tépõfog-tõr+
-40110	Tépõfog-íj+
-40111	Tépõfog-glefe+
-40112	Tépõfog-harang+
-40113	Tépõfog-legyezõ+
-40114	Tépõfog-karmok+
+40101	Tépofog-penge
+40102	Tépofog-tor
+40103	Tépofog-íj
+40104	Tépofog-glefe
+40105	Tépofog-harang
+40106	Tépofog-legyezo
+40107	Tépofog-karmok
+40108	Tépofog-penge+
+40109	Tépofog-tor+
+40110	Tépofog-íj+
+40111	Tépofog-glefe+
+40112	Tépofog-harang+
+40113	Tépofog-legyezo+
+40114	Tépofog-karmok+
 40115	Cukorpálca-penge
-40116	Cukorpálca-tõr
+40116	Cukorpálca-tor
 40117	Elf íj
 40118	Mézeskalács-glefe
 40119	Cukorpálca-harang
-40120	Fagyos legyezõ
+40120	Fagyos legyezo
 40121	Rudolf-karom
 40122	Cukorpálca-penge+
-40123	Cukorpálca-tõr+
+40123	Cukorpálca-tor+
 40124	Elf íj+
 40125	Mézeskalács-glefe+
 40126	Cukorpálca-harang+
-40127	Fagyos legyezõ+
+40127	Fagyos legyezo+
 40128	Rudolf-karom+
 40129	Aqua-penge
-40130	Aqua-tõr
+40130	Aqua-tor
 40131	Aqua-íj
 40132	Aqua-glefe
 40133	Aqua-harang
-40134	Aqua-legyezõ
+40134	Aqua-legyezo
 40135	Aqua-karom
 40136	Aqua-penge+
-40137	Aqua-tõr+
+40137	Aqua-tor+
 40138	Aqua-íj+
 40139	Aqua-glefe+
 40140	Aqua-harang+
-40141	Aqua-legyezõ+
+40141	Aqua-legyezo+
 40142	Aqua-karom+
 40143	Tokkebi kard
-40144	Tokkebi tõr
+40144	Tokkebi tor
 40145	Tokkebi íj
 40146	Tokkebi glefe
 40147	Tokkebi harang
-40148	Tokkebi legyezõ
+40148	Tokkebi legyezo
 40149	Tokkebi karom
 40150	Tokkebi kard+
-40151	Tokkebi tõr+
+40151	Tokkebi tor+
 40152	Tokkebi íj+
 40153	Tokkebi glefe+
 40154	Tokkebi harang+
-40155	Tokkebi legyezõ+
+40155	Tokkebi legyezo+
 40156	Tokkebi karom+
 40157	Kárhozat penge
-40158	Kárhozat tõr
+40158	Kárhozat tor
 40159	Kárhozat íj
 40160	Kárhozat glefe
 40161	Kárhozat harang
-40162	Kárhozat legyezõ
+40162	Kárhozat legyezo
 40163	Kárhozat karom
-40178	Õsi kard
-40179	Õsi tõr
-40180	Õsi íj
-40181	Õsi harci fejsze
-40182	Õsi harang
-40183	Õsi legyezõ
-40184	Õsi karom
-40185	Õsi kard+
-40186	Õsi tõr+
-40187	Õsi íj+
-40188	Õsi harci fejsze+
-40189	Õsi harang+
-40190	Õsi legyezõ+
-40191	Õsi karom+
-41000	Fegyver-kinézet helyõrzõ
+40178	Osi kard
+40179	Osi tor
+40180	Osi íj
+40181	Osi harci fejsze
+40182	Osi harang
+40183	Osi legyezo
+40184	Osi karom
+40185	Osi kard+
+40186	Osi tor+
+40187	Osi íj+
+40188	Osi harci fejsze+
+40189	Osi harang+
+40190	Osi legyezo+
+40191	Osi karom+
+41000	Fegyver-kinézet helyorzo
 41001	Nyúl jelmez (barna)
 41002	Nyuszi jelmez (barna)
 41003	Sivatagi harcos (f)
@@ -7403,16 +7402,16 @@ VNUM	LOCALE_NAME
 41120	Salsa-ruha
 41121	Úriember öltözék
 41122	Koktélruha
-41125	Sütõtök-szmoking
-41126	Sütõtök-ruha
+41125	Sütotök-szmoking
+41126	Sütotök-ruha
 41129	Muskétás jelmez +
 41130	Szobalány-egyenruha +
 41131	Salsa öltözék +
 41132	Salsa-ruha +
 41133	Úriember öltözék +
 41134	Koktélruha +
-41135	Sütõtök-szmoking(bónusz)
-41136	Sütõtök-ruha (bónusz)
+41135	Sütotök-szmoking(bónusz)
+41136	Sütotök-ruha (bónusz)
 41137	Karácsonyi jelmez(piros)
 41138	Karácsonyi ruha (piros)
 41139	Karácsonyi jelmez (zöld)
@@ -7449,8 +7448,8 @@ VNUM	LOCALE_NAME
 41170	SC Doyyum (N)
 41171	Hasun Dong FC (F)
 41172	Hasun Dong FC (N)
-41173	CFR Sárkánytûz 07 (F)
-41174	CFR Sárkánytûz 07 (N)
+41173	CFR Sárkánytuz 07 (F)
+41174	CFR Sárkánytuz 07 (N)
 41175	FC Daeyami (F)
 41176	FC Daeyami (N)
 41177	GNK Kuahlo Dong (F)
@@ -7489,8 +7488,8 @@ VNUM	LOCALE_NAME
 41210	CZE VB-mez (n)
 41211	Sparta Jungrang (F)
 41212	Sparta Jungrang (N)
-41213	Tûzföld CF (F)
-41214	Tûzföld CF (N)
+41213	Tuzföld CF (F)
+41214	Tuzföld CF (N)
 41215	FC Szt. Seungryong (F)
 41216	FC Szt. Seungryong (N)
 41217	AC Miryang+ (F)
@@ -7513,8 +7512,8 @@ VNUM	LOCALE_NAME
 41234	AUT futball mez+ (n)
 41235	Hasun Dong FC+ (F)
 41236	Hasun Dong FC+ (N)
-41237	CFR Sárkánytûz 07+ (F)
-41238	CFR Sárkánytûz 07+ (N)
+41237	CFR Sárkánytuz 07+ (F)
+41238	CFR Sárkánytuz 07+ (N)
 41239	FC Daeyami+ (F)
 41240	FC Daeyami+ (N)
 41241	GNK Kuahlo Dong+ (F)
@@ -7586,14 +7585,14 @@ VNUM	LOCALE_NAME
 41317	Azrael páncélja+ (f)
 41318	Azrael páncélja+ (n)
 41319	Kobra jelmez
-41320	Sütõtök Jack öltözék (f)
-41321	Sütõtök Jack ruha (n)
-41322	Sütõtök Jack öltözék+(f)
-41323	Sütõtök Jack ruha+ (n)
+41320	Sütotök Jack öltözék (f)
+41321	Sütotök Jack ruha (n)
+41322	Sütotök Jack öltözék+(f)
+41323	Sütotök Jack ruha+ (n)
 41324	Félhold harcos
-41325	Félhold harcosnõ
+41325	Félhold harcosno
 41326	Félhold harcos+
-41327	Félhold harcosnõ+
+41327	Félhold harcosno+
 41328	ALG VB-mez (f)
 41329	ALG VB-mez (n)
 41330	ARG VB-mez (f)
@@ -7722,11 +7721,11 @@ VNUM	LOCALE_NAME
 41453	URU VB-mez (n/bónuszos)
 41454	USA VB-mez (f/bónuszos)
 41455	USA VB-mez (n/bónuszos)
-41458	Fõnix talár
+41458	Fonix talár
 41459	Kobra talár
 41462	Sárkány cheongsam (v.)
 41463	Sárkány cheongsam (f.)
-41466	Fõnix talár+
+41466	Fonix talár+
 41467	Kobra talár+
 41470	Sárkány cheongsam+ (v.)
 41471	Sárkány cheongsam+ (f.)
@@ -7756,12 +7755,12 @@ VNUM	LOCALE_NAME
 41495	Uriél angyal+ (vörös)
 41496	Sivatagi herceg (barna)
 41497	Sivatagi herceg (fehér)
-41498	Sivatagi hercegnõ(barna)
-41499	Sivatagi hercegnõ(fehér)
+41498	Sivatagi hercegno(barna)
+41499	Sivatagi hercegno(fehér)
 41500	Sivatagi herceg+ (barna)
 41501	Sivatagi herceg+ (fehér)
-41502	Siv. hercegnõ+ (barna)
-41503	Siv. hercegnõ+ (fehér)
+41502	Siv. hercegno+ (barna)
+41503	Siv. hercegno+ (fehér)
 41504	Nyuszi jelmez (szürke)
 41505	Nyuszi jelmez (barna)
 41506	Húsvéti ruha (színes)
@@ -7788,12 +7787,12 @@ VNUM	LOCALE_NAME
 41527	Kék Tél ruha+
 41528	Sivatagi herceg (vörös)
 41529	Sivatagi herceg (kék)
-41530	Siv. hercegnõ (vörös)
-41531	Sivatagi hercegnõ (kék)
+41530	Siv. hercegno (vörös)
+41531	Sivatagi hercegno (kék)
 41532	Sivatagi herceg+ (vörös)
 41533	Sivatagi herceg+ (kék)
-41534	Siv. hercegnõ+ (vörös)
-41535	Siv. hercegnõ+ (kék)
+41534	Siv. hercegno+ (vörös)
+41535	Siv. hercegno+ (kék)
 41540	Nyuszi jelmez (fehér)
 41541	Nyuszi jelmez (rózsasz.)
 41542	Nyuszi jelmez (sötétkék)
@@ -7914,30 +7913,30 @@ VNUM	LOCALE_NAME
 41683	Astraeus páncél+ (f)
 41684	Aiolosz páncél+ (n)
 41685	Astraeus páncél+ (n)
-41686	Tûzsárkány-õr
-41687	Jégsárkány-õr
-41688	Tûzsárkány-õr
-41689	Jégsárkány-õr
-41690	Tûzsárkány-õr+
-41691	Jégsárkány-õr+
-41692	Tûzsárkány-õr+
-41693	Jégsárkány-õr+
-41694	Tûzoltó egyenruha (f)
-41695	Tûzoltó egyenruha (f)
-41696	Tûzoltó egyenruha (n)
-41697	Tûzoltó egyenruha (n)
-41698	Tûzoltó egyenruha+ (f)
-41699	Tûzoltó egyenruha+ (f)
-41700	Tûzoltó egyenruha+ (n)
-41701	Tûzoltó egyenruha+ (n)
+41686	Tuzsárkány-or
+41687	Jégsárkány-or
+41688	Tuzsárkány-or
+41689	Jégsárkány-or
+41690	Tuzsárkány-or+
+41691	Jégsárkány-or+
+41692	Tuzsárkány-or+
+41693	Jégsárkány-or+
+41694	Tuzoltó egyenruha (f)
+41695	Tuzoltó egyenruha (f)
+41696	Tuzoltó egyenruha (n)
+41697	Tuzoltó egyenruha (n)
+41698	Tuzoltó egyenruha+ (f)
+41699	Tuzoltó egyenruha+ (f)
+41700	Tuzoltó egyenruha+ (n)
+41701	Tuzoltó egyenruha+ (n)
 41702	Keleti herceg (barna)
 41703	Keleti herceg (fekete)
-41704	Keleti hercegnõ (barna)
-41705	Keleti hercegnõ (fek.)
+41704	Keleti hercegno (barna)
+41705	Keleti hercegno (fek.)
 41706	Keleti herceg+ (barna)
 41707	Keleti herceg+ (fekete)
-41708	Keleti hercegnõ+ (barna)
-41709	Keleti hercegnõ+ (fek.)
+41708	Keleti hercegno+ (barna)
+41709	Keleti hercegno+ (fek.)
 41710	Sötét látó köpenye (f)
 41711	Fehér látó köpenye (f)
 41712	Sötét látó köpenye (n)
@@ -8076,26 +8075,26 @@ VNUM	LOCALE_NAME
 41861	K siv. holdharcos+ (f)
 41862	V siv. holdharcos+ (n)
 41863	K siv. holdharcos+ (n)
-41864	Könnyû strandruha (f)
-41865	Szellõs strandruha (f)
-41866	Könnyû strandruha (n)
-41867	Szellõs strandruha (n)
-41868	Könnyû strandruha+ (f)
-41869	Szellõs strandruha+ (f)
-41870	Könnyû strandruha+ (n)
-41871	Szellõs strandruha+ (n)
+41864	Könnyu strandruha (f)
+41865	Szellos strandruha (f)
+41866	Könnyu strandruha (n)
+41867	Szellos strandruha (n)
+41868	Könnyu strandruha+ (f)
+41869	Szellos strandruha+ (f)
+41870	Könnyu strandruha+ (n)
+41871	Szellos strandruha+ (n)
 45001	Nyuszifül (barna)
 45002	Nyúlfül (barna)
-45003	Fejkendõ (F)
-45004	Fejkendõ (N)
+45003	Fejkendo (F)
+45004	Fejkendo (N)
 45005	FehoKorö (F)
 45006	Vívó frizura (N)
 45007	Irokéz (F)
 45008	Labdarúgó frizura GER(N)
 45009	Raszta fürtök (F)
 45010	Boxoló frizura GER (N)
-45011	Fejkendõ+ (F)
-45012	Fejkendõ+ (n)
+45011	Fejkendo+ (F)
+45012	Fejkendo+ (n)
 45013	FehoKorö (F)
 45014	Vívó frizura (N)
 45015	Irokéz (F)
@@ -8134,21 +8133,21 @@ VNUM	LOCALE_NAME
 45049	Labdarúgó frizura ROU(N)
 45050	Labdarúgó frizura ESP(N)
 45053	Muskétás frizura
-45054	Szobalány fõkötõ
+45054	Szobalány foköto
 45055	Rövid indiános
 45056	Salsa-konty
 45057	Bogart kalap
 45058	Virágos frizura
-45061	Sütõtök maszk
-45062	Sütõtök maszk
+45061	Sütotök maszk
+45062	Sütotök maszk
 45065	Muskétás frizura +
-45066	Szobalány fõkötõ +
+45066	Szobalány foköto +
 45067	Rövid indiános +
 45068	Salsa-konty +
 45069	Bogart kalap +
 45070	Virágos frizura +
-45073	Sütõtök maszk (bónusz)
-45074	Sütõtök maszk (bónusz)
+45073	Sütotök maszk (bónusz)
+45074	Sütotök maszk (bónusz)
 45075	Karácsonyi sapka (piros)
 45076	Karácsonyi sapka (zöld)
 45077	Karácsonyi sapka (fek.)
@@ -8161,26 +8160,26 @@ VNUM	LOCALE_NAME
 45084	Elf sapka+
 45085	Rénszarvas fej+ (F)
 45086	Rénszarvas fej+ (N)
-45087	Kendõ (fehér)
-45088	Kendõ (fehér)
-45089	Kendõ (fekete)
-45090	Kendõ (fekete)
-45091	Kendõ (sárga)
-45092	Kendõ (sárga)
-45093	Kendõ (narancs)
-45094	Kendõ (narancs)
-45095	Kendõ (kék)
-45096	Kendõ (kék)
-45097	Kendõ+ (fehér)
-45098	Kendõ+ (fehér)
-45099	Kendõ+ (fekete)
-45100	Kendõ+ (fekete)
-45101	Kendõ+ (sárga)
-45102	Kendõ+ (sárga)
-45103	Kendõ+ (narancs)
-45104	Kendõ+ (narancs)
-45105	Kendõ+ (kék)
-45106	Kendõ+ (kék)
+45087	Kendo (fehér)
+45088	Kendo (fehér)
+45089	Kendo (fekete)
+45090	Kendo (fekete)
+45091	Kendo (sárga)
+45092	Kendo (sárga)
+45093	Kendo (narancs)
+45094	Kendo (narancs)
+45095	Kendo (kék)
+45096	Kendo (kék)
+45097	Kendo+ (fehér)
+45098	Kendo+ (fehér)
+45099	Kendo+ (fekete)
+45100	Kendo+ (fekete)
+45101	Kendo+ (sárga)
+45102	Kendo+ (sárga)
+45103	Kendo+ (narancs)
+45104	Kendo+ (narancs)
+45105	Kendo+ (kék)
+45106	Kendo+ (kék)
 45108	Rizs kalap
 45110	Odango
 45114	Rizs kalap+
@@ -8222,10 +8221,10 @@ VNUM	LOCALE_NAME
 45153	Azrael sisakja+ (f)
 45154	Azrael sisakja+ (n)
 45155	Kobra fejdísz
-45156	Sütõtök Jack fej (f)
-45157	Sütõtök Jack fej (n)
-45158	Sütõtök Jack fej+ (f)
-45159	Sütõtök Jack fej+ (n)
+45156	Sütotök Jack fej (f)
+45157	Sütotök Jack fej (n)
+45158	Sütotök Jack fej+ (f)
+45159	Sütotök Jack fej+ (n)
 45160	Félhold frizura (f)
 45161	Félhold frizura (n)
 45162	Félhold frizura+ (f)
@@ -8250,12 +8249,12 @@ VNUM	LOCALE_NAME
 45181	Bojtos sapka+ (piros)
 45182	Tollas fejdísz (vörös)
 45183	Tollas fejdísz (kék)
-45184	Fõnix tiara (fehér)
-45185	Fõnix tiara (vörös)
+45184	Fonix tiara (fehér)
+45185	Fonix tiara (vörös)
 45186	Tollas fejdísz+ (vörös)
 45187	Tollas fejdísz+ (kék)
-45188	Fõnix tiara+ (fehér)
-45189	Fõnix tiara+ (vörös)
+45188	Fonix tiara+ (fehér)
+45189	Fonix tiara+ (vörös)
 45190	Nyuszifül (szürke)
 45191	Nyuszifül (barna)
 45192	Húsvéti fejdísz (színes)
@@ -8266,12 +8265,12 @@ VNUM	LOCALE_NAME
 45197	Húsvéti fejdísz+(v. kék)
 45198	Barna turbán
 45199	Fehér turbán
-45200	Barna fejkendõ
-45201	Fehér fejkendõ
+45200	Barna fejkendo
+45201	Fehér fejkendo
 45202	Barna turbán+
 45203	Fehér turbán+
-45204	Barna fejkendõ+
-45205	Fehér fejkendõ+
+45204	Barna fejkendo+
+45205	Fehér fejkendo+
 45206	Réz fogas sisak (f)
 45207	Ezüst fogas sisak (f)
 45208	Réz fogas sisak (n)
@@ -8298,12 +8297,12 @@ VNUM	LOCALE_NAME
 45229	Nyuszifül+ (magenta)
 45234	Kék turbán
 45235	Vörös turbán
-45236	Barna fejkendõ
-45237	Zöld fejkendõ
+45236	Barna fejkendo
+45237	Zöld fejkendo
 45238	Kék turbán+
 45239	Vörös turbán+
-45240	Barna fejkendõ+
-45241	Zöld fejkendõ+
+45240	Barna fejkendo+
+45241	Zöld fejkendo+
 45250	Vér-vámpír sisak (Szü.)
 45251	Vér-vámpír sisak (Vör.)
 45252	Vér-Lamia sisak (Szü.)
@@ -8408,22 +8407,22 @@ VNUM	LOCALE_NAME
 45361	Astraeus sisak+ (f)
 45362	Aiolosz sisak+ (n)
 45363	Astraeus sisak+ (n)
-45364	Tûzsárkány-õr sisak
-45365	Jégsárkány-õr sisak
-45366	Tûzsárkány-õr sisak
-45367	Jégsárkány-õr sisak
-45368	Tûzsárkány-õr sisak+
-45369	Jégsárkány-õr sisak+
-45370	Tûzsárkány-õr sisak+
-45371	Jégsárkány-õr sisak+
-45372	Tûzoltó sisak (f)
-45373	Tûzoltó sisak (f)
-45374	Tûzoltó sisak (n)
-45375	Tûzoltó sisak (n)
-45376	Tûzoltó sisak+ (f)
-45377	Tûzoltó sisak+ (f)
-45378	Tûzoltó sisak+ (n)
-45379	Tûzoltó sisak+ (n)
+45364	Tuzsárkány-or sisak
+45365	Jégsárkány-or sisak
+45366	Tuzsárkány-or sisak
+45367	Jégsárkány-or sisak
+45368	Tuzsárkány-or sisak+
+45369	Jégsárkány-or sisak+
+45370	Tuzsárkány-or sisak+
+45371	Jégsárkány-or sisak+
+45372	Tuzoltó sisak (f)
+45373	Tuzoltó sisak (f)
+45374	Tuzoltó sisak (n)
+45375	Tuzoltó sisak (n)
+45376	Tuzoltó sisak+ (f)
+45377	Tuzoltó sisak+ (f)
+45378	Tuzoltó sisak+ (n)
+45379	Tuzoltó sisak+ (n)
 45384	Sötét látó csuklyája (f)
 45385	Fehér látó csuklyája (f)
 45386	Ametiszt látó szeme (n)
@@ -8620,38 +8619,38 @@ VNUM	LOCALE_NAME
 45577	V tengeri bicorne+ (f)
 45578	F tengeri bicorne+ (n)
 45579	V tengeri bicorne+ (n)
-45596	V aranyszélû turbán (f)
-45597	K aranyszélû turbán (f)
-45598	V aranyszélû turbán (n)
-45599	K aranyszélû turbán (n)
-45600	V aranyszélû turbán+ (f)
-45601	K aranyszélû turbán+ (f)
-45602	V aranyszélû turbán+ (n)
-45603	K aranyszélû turbán+ (n)
-45604	Könnyû strandkalap (f)
-45605	Szellõs strandkalap (f)
-45606	Könnyû strandkalap (n)
-45607	Szellõs strandkalap (n)
-45608	Könnyû strandkalap+ (f)
-45609	Szellõs strandkalap+ (f)
-45610	Könnyû strandkalap+ (n)
-45611	Szellõs strandkalap+ (n)
+45596	V aranyszélu turbán (f)
+45597	K aranyszélu turbán (f)
+45598	V aranyszélu turbán (n)
+45599	K aranyszélu turbán (n)
+45600	V aranyszélu turbán+ (f)
+45601	K aranyszélu turbán+ (f)
+45602	V aranyszélu turbán+ (n)
+45603	K aranyszélu turbán+ (n)
+45604	Könnyu strandkalap (f)
+45605	Szellos strandkalap (f)
+45606	Könnyu strandkalap (n)
+45607	Szellos strandkalap (n)
+45608	Könnyu strandkalap+ (f)
+45609	Szellos strandkalap+ (f)
+45610	Könnyu strandkalap+ (n)
+45611	Szellos strandkalap+ (n)
 49001	Közönséges aura öltözék
-49002	Egyszerû aura öltözék
+49002	Egyszeru aura öltözék
 49003	Nemes aura öltözék
 49004	Csillogó aura öltözék
-49005	Lenyûgözõ aura öltözék
+49005	Lenyugözo aura öltözék
 49006	Ragyogó aura öltözék
 49990	Aura-jégrúna
-49991	Aura-tûzrúna (10)
-49992	Aura-tûzrúna (50)
-49993	Aura-tûzrúna (100)
-49994	Aura-tûzrúna (250)
-49995	Aura-tûzrúna (500)
+49991	Aura-tuzrúna (10)
+49992	Aura-tuzrúna (50)
+49993	Aura-tuzrúna (100)
+49994	Aura-tuzrúna (250)
+49995	Aura-tuzrúna (500)
 50001	Szerencsekönyv
-50002	Aranygyûrû
+50002	Aranygyuru
 50003	Készség visszaállító
-50004	Esemény érzékelõ
+50004	Esemény érzékelo
 50005	Lovaglójegy
 50006	Arany kincsesláda
 50007	Ezüst kincsesláda
@@ -8675,23 +8674,23 @@ VNUM	LOCALE_NAME
 50025	Csokoládé
 50026	Érmék
 50027	Lottó szelvény
-50028	24k-os aranygyûrû
-50029	18k-os aranygyûrû
-50030	14k-os aranygyûrû
+50028	24k-os aranygyuru
+50029	18k-os aranygyuru
+50030	14k-os aranygyuru
 50031	Rózsa
 50032	Bonbon
 50033	Titokzatos láda
 50034	Rejtélyes láda
 50035	Ajándék (sárga)
 50036	Ajándék (ibolya)
-50037	Hatszögû kincsesláda
+50037	Hatszögu kincsesláda
 50038	Bronz szobrocska
 50039	Ezüst szobrocska
 50040	Arany szobrocska
 50041	Ajándékcsomag
-50042	Hõsök medálja
+50042	Hosök medálja
 50043	Nixie kulcs
-50046	Életfû
+50046	Életfu
 50047	Vörös ginzeng (prémium)
 50048	Abrak
 50049	Arany ló könyv
@@ -8702,21 +8701,21 @@ VNUM	LOCALE_NAME
 50054	Széna
 50055	Répa
 50056	Vörös ginzeng
-50057	Könnyû majom növény
+50057	Könnyu majom növény
 50058	Normál majom növény
 50059	Nehéz majom növény
 50060	Lovaglás könyve
 50061	Lószelidítés könyve
 50062	Lovas kézikönyv
-50067	Fejlõdés tekercse
+50067	Fejlodés tekercse
 50068	Változás tekercse
-50070	Fõork ládája
-50071	Ezotéria vezetõ ládája
-50072	Fõ szellem ládája
-50073	Pókkirálynõ ládája
+50070	Foork ládája
+50071	Ezotéria vezeto ládája
+50072	Fo szellem ládája
+50073	Pókkirályno ládája
 50074	Óriáspók-láda
 50075	Pestishordozó ládája
-50076	Sivatagi teknõs ládája
+50076	Sivatagi teknos ládája
 50077	Kilencfarkú ládája
 50078	Sárga tigris ládája
 50079	Lángkirály ládája
@@ -8724,12 +8723,12 @@ VNUM	LOCALE_NAME
 50081	Démonkirály ládája
 50082	Kaszás ládája
 50083	Lovagló engedély
-50084	Kulcskõ
+50084	Kulcsko
 50085	Mag
 50086	Hold sütemény
 50087	Üröm Rizs Süti
 50088	Mongbab Rizs Süti
-50089	Kulcskõ
+50089	Kulcsko
 50090	Kilencfarkú Róka ládája
 50091	Aranyhal szusi
 50092	Ponty szusi
@@ -8737,15 +8736,15 @@ VNUM	LOCALE_NAME
 50094	Harcsa szusi
 50095	Tök
 50096	Foci
-50100	Tûzijáték
-50101	Tûzijáték
-50102	Tûzijáték
-50103	Tûzijáték
-50104	Tûzijáték
-50105	Tûzijáték
-50106	Karácsonyi tûzijáték
-50107	Kínai tûzijáték
-50108	Tûzijáték pörgettyû
+50100	Tuzijáték
+50101	Tuzijáték
+50102	Tuzijáték
+50103	Tuzijáték
+50104	Tuzijáték
+50105	Tuzijáték
+50106	Karácsonyi tuzijáték
+50107	Kínai tuzijáték
+50108	Tuzijáték pörgettyu
 50109	Vörös ében láda
 50110	Pompás ében láda
 50111	Sárga ében láda
@@ -8767,7 +8766,7 @@ VNUM	LOCALE_NAME
 50127	Titokzatos Smaragd doboz
 50128	Titokzatos Zafír doboz
 50129	Titokzatos Ametisztdoboz
-50130	Versenyzõi láda
+50130	Versenyzoi láda
 50131	Titokzatos Citrin doboz
 50132	Titokzatos Rubin doboz
 50133	Titokzatos Smaragd doboz
@@ -8812,9 +8811,9 @@ VNUM	LOCALE_NAME
 50187	Gyakornok ládája I
 50188	Gyakornok ládája II
 50189	Gyakornok ládája III
-50190	Szakértõ ládája I
-50191	Szakértõ ládája II
-50192	Szakértõ ládája III
+50190	Szakérto ládája I
+50191	Szakérto ládája II
+50192	Szakérto ládája III
 50193	Mester ládája I
 50194	Mester ládája II
 50195	Mester ládája III
@@ -8846,11 +8845,11 @@ VNUM	LOCALE_NAME
 50267	Arany Okey láda
 50268	Ezüst Okey láda
 50269	Bronz Okey láda
-50270	Meley királynõ ládája
-50271	Sárkányfigyelõ-láda
-50272	Arany Fõszörny-kasz.láda
-50273	Ez. Fõszörny-kasz. láda
-50274	Bronz Fõszörny-kasz.láda
+50270	Meley királyno ládája
+50271	Sárkányfigyelo-láda
+50272	Arany Foszörny-kasz.láda
+50273	Ez. Foszörny-kasz. láda
+50274	Bronz Foszörny-kasz.láda
 50275	Arany Okey láda
 50276	Ezüst Okey láda
 50277	Bronz Okey láda
@@ -8858,28 +8857,28 @@ VNUM	LOCALE_NAME
 50279	Fagylaltgombóc
 50280	Kristálytál
 50281	Fagylalttorta
-50282	Hûtõdoboz
+50282	Hutodoboz
 50283	Szörnykártya
 50284	Szörnykártya (átadható)
 50285	Vas Harci övezet-láda
 50286	Arany Harci övezet-láda
-50287	Harcmezõ doboz 1
-50288	Harcmezõ doboz 2
-50289	Újraélesztõ
+50287	Harcmezo doboz 1
+50288	Harcmezo doboz 2
+50289	Újraéleszto
 50290	Fa Harci övezet-láda
-50294	Meley királynõ ládája
+50294	Meley királyno ládája
 50296	Elhárítók doboza
 50297	Fokozók doboza
 50298	Elhárítók ládája
 50299	Fokozók ládája
 50300	Készségkönyv
-50301	Sun-zi harcmûvészet
-50302	Wu-zi harcmûvészet
+50301	Sun-zi harcmuvészet
+50302	Wu-zi harcmuvészet
 50303	WeiLiao Zi
 50304	Kombó tanulás
 50305	Kombó mester könyv
-50306	A kombó mûvészete
-50307	Missziókönyv(könnyû)
+50306	A kombó muvészete
+50307	Missziókönyv(könnyu)
 50308	Missziókönyv(normál)
 50309	Missziókönyv(nehéz)
 50310	Missziókönyv (profi)
@@ -8890,7 +8889,7 @@ VNUM	LOCALE_NAME
 50315	Haladó átváltozás könyve
 50316	Profi átváltozás könyve
 50317	Missziókönyv(teszt)
-50318	Missziókönyv(könnyû)
+50318	Missziókönyv(könnyu)
 50319	Missziókönyv(normál)
 50320	Missziókönyv(nehéz)
 50321	Missziókönyv(profi)
@@ -8906,10 +8905,10 @@ VNUM	LOCALE_NAME
 50335	Missziókönyv (Yilad h.)
 50336	Missziókönyv (É. sz. k.)
 50337	Missziókönyv (Lélek sz.)
-50338	Karizma kezdõknek
+50338	Karizma kezdoknek
 50339	Karizma haladóknak
 50340	Karizma profiknak
-50341	Inspiráció kezdõknek
+50341	Inspiráció kezdoknek
 50342	Inspiráció haladóknak
 50343	Inspiráció profiknak
 50401	Háromirányú vágás könyv
@@ -8921,19 +8920,19 @@ VNUM	LOCALE_NAME
 50416	Áthatolás könyv
 50417	Heves csapás könyv
 50418	Dübörgés könyve
-50419	Erõs test könyv
+50419	Eros test könyv
 50420	Kard ütés könyv
 50421	Kardkör könyve
 50431	Leshely könyv
 50432	Villám támadás könyv
 50433	Kard forgatag könyv
 50434	Álcázás könyv
-50435	Méregfelhõ könyv
+50435	Méregfelho könyv
 50436	Alattomos méreg könyve
 50446	Ismételt lövés könyv
-50447	Nyílesõ könyv
-50448	Tûznyíl könyv
-50449	Pehelykönnyû lépés könyv
+50447	Nyíleso könyv
+50448	Tuznyíl könyv
+50449	Pehelykönnyu lépés könyv
 50450	Méregnyíl könyv
 50451	Szikra könyve
 50461	Ujjcsapás könyv
@@ -8947,8 +8946,8 @@ VNUM	LOCALE_NAME
 50478	Lánglélek könyve
 50479	Sötét védelem könyv
 50480	Szellemcsapás könyve
-50481	Sötét kõ könyv
-50491	Repülõ talizmán könyv
+50481	Sötét ko könyv
+50491	Repülo talizmán könyv
 50492	Sárkány lövés könyv
 50493	Sárkány ordítás könyve
 50494	Áldás könyv
@@ -8960,8 +8959,8 @@ VNUM	LOCALE_NAME
 50509	Gyógyítás könyv
 50510	Gyorsaság könyve
 50511	Támadás+ könyve
-50512	Szivárvány kõ
-50513	Lélekkõ
+50512	Szivárvány ko
+50513	Lélekko
 50514	Fokozó kézikönyv
 50515	Elhárító kézikönyv
 50516	Forgó kard elhárítás
@@ -8969,11 +8968,11 @@ VNUM	LOCALE_NAME
 50518	Ujjcsapás elhárítás
 50519	Sárkány lövés elhárítás
 50520	Áthatolás elhárítás
-50521	Tûznyíl elhárítás
+50521	Tuznyíl elhárítás
 50522	Sötét csapás elhárítás
 50523	Villám köny. elhárítás
 50524	Farkaslehelet elhárítás
-50525	Lélekkõ+
+50525	Lélekko+
 50527	Tehetség bájitala
 50528	Yohara kincsesláda
 50529	9. ösvény könyves láda
@@ -8988,7 +8987,7 @@ VNUM	LOCALE_NAME
 50562	Ujjcsapás fokozás
 50563	Sárkány lövés fokozás
 50564	Áthatolás fokozás
-50565	Tûznyíl fokozás
+50565	Tuznyíl fokozás
 50566	Sötét csapás fokozás
 50567	Villám könyörgés fokozás
 50568	Farkaslehelet fokozás
@@ -9001,8 +9000,8 @@ VNUM	LOCALE_NAME
 50575	Éterpajzs (9. készség)
 50576	Karomvihar (9. készség)
 50600	Bányászati könyv
-50601	Gyémánt kõ
-50602	Borostyánkõ
+50601	Gyémánt ko
+50602	Borostyánko
 50603	Megkövesedett törzs
 50604	Réz érc
 50605	Ezüst érc
@@ -9021,7 +9020,7 @@ VNUM	LOCALE_NAME
 50618	Zafír érc
 50619	Turmalin érc
 50621	Gyémánt
-50622	Borostyánkõ
+50622	Borostyánko
 50623	Megkövesedett fa
 50624	Réz
 50625	Ezüst
@@ -9078,7 +9077,7 @@ VNUM	LOCALE_NAME
 50736	Északszél virág
 50737	Földes inda
 50738	Éjtövis
-50739	Üres erõ elixír
+50739	Üres ero elixír
 50740	Üres ellenállás elixír
 50741	Arany gyógynövény
 50801	Barackvirág lé
@@ -9132,7 +9131,7 @@ VNUM	LOCALE_NAME
 50852	N. föld ellen. elixír
 50853	N. sötétség ell. elixír
 50901	Üres üveg
-50902	Recept kezdõknek
+50902	Recept kezdoknek
 50903	Recept
 50904	Recept profiknak
 50905	Sim-víz recept
@@ -9141,7 +9140,7 @@ VNUM	LOCALE_NAME
 50908	Young-víz recept
 50909	Zin-víz recept
 50910	Hwal-víz recept
-50911	Süllõ szusi
+50911	Süllo szusi
 50912	Ponty szusi
 50913	Lazac szusi
 50914	Harcsa szusi
@@ -9151,15 +9150,15 @@ VNUM	LOCALE_NAME
 50923	Arany Yut Nori doboz
 50924	Ezüst Yut Nori doboz
 50925	Bronz Yut Nori doboz
-50926	Fénylõ kõdarab
-50927	Sárkányerõ láda
+50926	Fénylo kodarab
+50927	Sárkányero láda
 50928	Arany Királyi kincs
 50929	Ezüst Királyi kincs
 50930	Bronz Királyi kincs
 50931	Kártyacsomag (vörös)
 50932	Kártyacsomag (kék)
 50933	Kártyacsomag (rózsaszín)
-50934	Fénylõ kõdarab zsák
+50934	Fénylo kodarab zsák
 50938	Vörös látók ládája
 50939	Kék látók ládája
 50940	Rózsaszín látók ládája
@@ -9205,13 +9204,13 @@ VNUM	LOCALE_NAME
 51538	Cor Saphirum (hibátlan)
 51539	Cor Granatum (hibátlan)
 51540	Cor Atrum (hibátlan)
-51541	Cor Draconis (fénylõ)
-51542	Cor Diamas (fénylõ)
-51543	Cor Rubinum (fénylõ)
-51544	Cor Jadeit (fénylõ)
-51545	Cor Saphirum (fénylõ)
-51546	Cor Granatum (fénylõ)
-51547	Cor Atrum (fénylõ)
+51541	Cor Draconis (fénylo)
+51542	Cor Diamas (fénylo)
+51543	Cor Rubinum (fénylo)
+51544	Cor Jadeit (fénylo)
+51545	Cor Saphirum (fénylo)
+51546	Cor Granatum (fénylo)
+51547	Cor Atrum (fénylo)
 51548	Cor Draconis (hibátlan)
 51549	Cor Draconis (örök)
 51550	Cor Diamas (örök)
@@ -9268,13 +9267,13 @@ VNUM	LOCALE_NAME
 51601	Cor Saphirum+ (hibátlan)
 51602	Cor Granatum+ (hibátlan)
 51603	Cor Atrum+ (hibátlan)
-51604	Cor Draconis+ (fénylõ)
-51605	Cor Diamas+ (fénylõ)
-51606	Cor Rubinum+ (fénylõ)
-51607	Cor Jadeit+ (fénylõ)
-51608	Cor Saphirum+ (fénylõ)
-51609	Cor Granatum+ (fénylõ)
-51610	Cor Atrum+ (fénylõ)
+51604	Cor Draconis+ (fénylo)
+51605	Cor Diamas+ (fénylo)
+51606	Cor Rubinum+ (fénylo)
+51607	Cor Jadeit+ (fénylo)
+51608	Cor Saphirum+ (fénylo)
+51609	Cor Granatum+ (fénylo)
+51610	Cor Atrum+ (fénylo)
 51611	Cor Draconis+ (örök)
 51612	Cor Diamas+ (örök)
 51613	Cor Rubinum+ (örök)
@@ -9439,9 +9438,9 @@ VNUM	LOCALE_NAME
 52706	Rénszarvas tanúsítv. (n)
 52707	Dragor tanúsítvány
 52708	Moa tanúsítvány
-53001	Tûzfõnix
+53001	Tuzfonix
 53002	Rénszarvasgida
-53003	Jégfõnix
+53003	Jégfonix
 53005	Baby Azrael
 53006	Baby Azrael (arany)
 53007	Bambi
@@ -9454,7 +9453,7 @@ VNUM	LOCALE_NAME
 53014	Pufók Minihóhér
 53015	Pufók Minihóhér (arany)
 53016	Csonti
-53017	Jáde fõnix
+53017	Jáde fonix
 53018	Hó-Leonidász
 53019	Sarkvidéki Kán
 53020	Sarki Porky
@@ -9469,9 +9468,9 @@ VNUM	LOCALE_NAME
 53220	Leopárdkölyök
 53221	Leopárdkölyök (120 nap)
 53222	Tökfej
-53223	Kis seprû
+53223	Kis sepru
 53224	Hópehely
-53225	Száncsengõ
+53225	Száncsengo
 53226	Cupido
 53227	Tomboló szív
 53228	Holdsarló
@@ -9495,7 +9494,7 @@ VNUM	LOCALE_NAME
 53246	Jiangshi Jnr
 53247	Piros manó
 53248	Zöld manó
-53249	Segítõ manó
+53249	Segíto manó
 53250	Donnie
 53251	Frank
 53253	Huu
@@ -9521,21 +9520,21 @@ VNUM	LOCALE_NAME
 53273	Indigó páva
 53274	Mogyoró Harry
 53275	Dió Willy
-53276	Törõ tizedes
+53276	Töro tizedes
 53277	Terack
 53278	Te-durr
 53279	Teveg
 53280	Jégbogár+
 53281	Jégbogár
-53282	Mindent látó tûzmacska
+53282	Mindent látó tuzmacska
 53283	Mindent látó jégmacska
-53284	Háromszemû tûzmacska
+53284	Háromszemu tuzmacska
 53285	Pisze nisse+ (piros)
 53286	Pisze nisse+ (zöld)
 53287	Pisze nisse
 53288	Vörös baby huashin
 53289	Fehér baby huashin
-53290	Kicsi tûz elementál
+53290	Kicsi tuz elementál
 53291	Kicsi jég elementál
 53292	Kicsi villám elementál
 53293	Kicsi szél elementál
@@ -9546,9 +9545,9 @@ VNUM	LOCALE_NAME
 53298	Kölyök Loverador
 53299	Kis rák harcos
 53300	Kis rák
-53301	Reszketõ múmia
+53301	Reszketo múmia
 53302	Borzongó múmia
-53303	Remegõ múmia
+53303	Remego múmia
 53304	Zöld karácsonyi ent
 53305	Viharvert karácsonyi ent
 53306	Kicsi karácsonyi ent
@@ -9559,30 +9558,30 @@ VNUM	LOCALE_NAME
 53312	Szelíd jég gyilkos bálna
 53313	Hó-Leonidász (zsákmány)
 53314	Astrabell (zsákmány)
-53315	Tûzfõnix (zsákmány)
+53315	Tuzfonix (zsákmány)
 53316	Jéghideg iszonyat
-53317	Mérgezõ iszonyat
+53317	Mérgezo iszonyat
 53318	Kis iszonyat
-53319	Megváltás fõnixe
+53319	Megváltás fonixe
 53320	Hóvirág
 53321	Hógolyó
 53322	Hógombóc
 53329	Aranyos sárkánybarát
 53330	Játékos sárkánybarát
 53331	Kicsi sárkánybarát
-53332	Kis tûz fõnök (zsákmány)
-53333	Kis jég fõnök (zsákmány)
-53334	Kis villám fõnök(zsákm.)
-53335	Kis szél fõnök (zsákm.)
-53336	Kis föld fõnök (zsákm.)
-53337	Kis sötéts. fõnök(zsák.)
-53338	Kis fõnök
+53332	Kis tuz fonök (zsákmány)
+53333	Kis jég fonök (zsákmány)
+53334	Kis villám fonök(zsákm.)
+53335	Kis szél fonök (zsákm.)
+53336	Kis föld fonök (zsákm.)
+53337	Kis sötéts. fonök(zsák.)
+53338	Kis fonök
 53339	Fehér angóramacska
 53340	Barna angóramacska
 53341	Angóracica
-53501	Tûzfõnix-kalitka
+53501	Tuzfonix-kalitka
 53502	Rénszarvasgida láda
-53503	Jégfõnix kalitka
+53503	Jégfonix kalitka
 53504	NoNAme
 53505	Baby Azrael-láda
 53506	Baby Azrael-láda (arany)
@@ -9605,9 +9604,9 @@ VNUM	LOCALE_NAME
 53523	Nyúlketrec
 53526	NoNAme
 53527	Tökfej-ketrec
-53528	Seprûs szekrény
-53529	Hópehely-hûtõláda
-53530	Száncsengõ-hûtõláda
+53528	Seprus szekrény
+53529	Hópehely-hutoláda
+53530	Száncsengo-hutoláda
 53531	Cupido láda
 53532	Tomboló szív láda
 53533	Holdsarló láda
@@ -9648,7 +9647,7 @@ VNUM	LOCALE_NAME
 53569	Catenaccio ketrece
 53570	Harry dióhéja
 53571	Willy dióhéja
-53572	Törõ tizedes dióhéja
+53572	Töro tizedes dióhéja
 53573	Pisze nisse ládája+ (p.)
 53574	Pisze nisse ládája+ (z.)
 53575	Pisze nisse ládája
@@ -9657,7 +9656,7 @@ VNUM	LOCALE_NAME
 53578	Páva kalitka (indigó)
 53579	Vörös baby huashin-láda
 53580	Fehér baby huashin-láda
-53581	Tûz elementál láda
+53581	Tuz elementál láda
 53582	Jég elementál láda
 53583	Villám elementál láda
 53584	Szél elementál láda
@@ -9671,9 +9670,9 @@ VNUM	LOCALE_NAME
 53592	Teveg láda
 53593	Kis rák harcos doboz
 53594	Kis rák doboz
-53595	Reszketõ múmia szarkofág
+53595	Reszketo múmia szarkofág
 53596	Borzongó múmia szarkofág
-53597	Remegõ múmia szarkofágja
+53597	Remego múmia szarkofágja
 53598	Zöld ent láda
 53599	Viharvert ent láda
 53600	Kicsi ent láda
@@ -9683,7 +9682,7 @@ VNUM	LOCALE_NAME
 53605	Masszív bálna láda
 53606	Hatalmas bálna láda
 53607	Jeges iszonyat ketrec
-53608	Mérgezõ iszonyat ketrec
+53608	Mérgezo iszonyat ketrec
 53609	Kis iszonyat ketrec
 53610	Hóvirág láda
 53611	Hógolyó láda
@@ -9694,7 +9693,7 @@ VNUM	LOCALE_NAME
 53622	Fehér cica doboz
 53623	Barna cica doboz
 53624	Kis cica doboz
-53625	Kis fõnök doboz
+53625	Kis fonök doboz
 54041	NoNAme
 54042	NoNAme
 54043	Gyakornok láda I
@@ -9729,33 +9728,33 @@ VNUM	LOCALE_NAME
 55023	Tükrözés könyve
 55024	Yang-dobás könyve
 55025	Hatótáv könyve
-55026	Legyõzhetetlenség könyve
+55026	Legyozhetetlenség könyve
 55027	Csodaszer könyve
 55028	Jutalomfalat
 55029	Házikedvenc megújító
 55030	Házikedvenc visszaállító
 55031	Jutalomfalat+
 55032	Kedvenc életút-gömb
-55033	Kedvenc megbûvölõ
+55033	Kedvenc megbuvölo
 55034	Mester csapos könyv
 55035	Szörny vadász könyv
 55036	Sasszem könyv
 55037	Élet elszívás könyv
-55038	Pehelykönnyûség könyv
+55038	Pehelykönnyuség könyv
 55050	Lovaglás (gyors paták)
 55051	Lovaglás (EXP)
 55052	Lovaglás (tomboló vihar)
 55053	Lovaglás (pehelyk. lép.)
-55054	Lovaglás (legyõzhetetl.)
+55054	Lovaglás (legyozhetetl.)
 55055	Lovaglás(nincs hátralö.)
-55056	Lovaglás (véletlenszerû)
+55056	Lovaglás (véletlenszeru)
 55057	Lovaglás (harcos ellen)
 55058	Lovaglás (nindzsa ellen)
 55059	Lovaglás (sura ellen)
 55060	Lovaglás (sámán ellen)
 55061	Lovaglás (vérfarkas el.)
 55062	Lovaglás (ló készség)
-55063	Lovaglás (SungMa a. ERÕ)
+55063	Lovaglás (SungMa a. ERO)
 55064	Lovaglás (SungMa a. VIT)
 55065	Lovaglás (SungMa a. ELL)
 55066	Lovaglás (SungMa a. INT)
@@ -9775,7 +9774,7 @@ VNUM	LOCALE_NAME
 55410	Nessie tojás
 55411	Exedyar tojása
 55412	Fehér sárkánytojás
-55413	Õr tojás
+55413	Or tojás
 55701	Kismajom
 55702	Mini pók
 55703	Mini Razador
@@ -9788,25 +9787,25 @@ VNUM	LOCALE_NAME
 55710	Nessie
 55711	Exedyar kicsinye
 55712	Dühös mini Alasztór
-55713	Bébi fõnök
+55713	Bébi fonök
 56000	Appaloosa
 56001	Városi utazójegy
-56002	Tûz tekercse
+56002	Tuz tekercse
 56003	Jég tekercse
 56004	Villám tekercse
 56005	Szél tekercse
 56006	Föld tekercse
 56007	Sötétség tekercse
-56008	Bûvös tekercs
+56008	Buvös tekercs
 56009	Átalakulás tekercse
 56011	Közepes adományjegy
 56012	Nagy adományjegy
 56013	Királyi kulcs
 60001	Epe
-60002	Raktár õrök levele
-60003	Hõsi szimbólum
-60004	Távcsõ
-60005	Kereskedõ üveg
+60002	Raktár orök levele
+60003	Hosi szimbólum
+60004	Távcso
+60005	Kereskedo üveg
 63017	Indián baba
 63018	Kék ital
 63019	Kék üvegcse
@@ -9816,50 +9815,50 @@ VNUM	LOCALE_NAME
 69030	Támadó csapás titok
 69040	Leshely titok
 69050	Nyíl titok
-69060	Pehelykönnyû járás titka
+69060	Pehelykönnyu járás titka
 69070	Lerohanás titka
 69080	Sötét csapás titka
 69090	Sárkány forgatag titka
 69100	Ég és Föld titka
 69110	Varázspenge titka
-69120	Repülõ talizmán titka
+69120	Repülo talizmán titka
 69130	Gyógyítás titka
 69140	Sárkány segítség titka
 69150	Áldás titka
-70001	Istennõ babája
+70001	Istenno babája
 70002	Harmadik kéz
 70003	Vezér könyve
 70004	Szorgalom medálja
-70005	Tapasztalat gyûrû (1h)
-70006	Nyelv gyûrû
-70007	Warp-gyûrû
+70005	Tapasztalat gyuru (1h)
+70006	Nyelv gyuru
+70007	Warp-gyuru
 70008	Fehér zászló
 70009	Kincsesláda
 70010	Raktár jegy
 70011	Palack javítás
-70012	Istennõi könny
-70013	Óriás királynõi könny
+70012	Istennoi könny
+70013	Óriás királynoi könny
 70014	Vér tabletta
 70015	Olcsó kefe
-70016	Indián karkötõ
-70017	Értékes karkötõ
-70018	Fõnix fülbevaló
+70016	Indián karköto
+70017	Értékes karköto
+70018	Fonix fülbevaló
 70019	Milliomosok nyaklánca
 70020	Barackvirág bor
 70021	Angyali áldás
 70022	Bera szíve
 70023	Bölcsek botja
 70024	Megáldó márvány
-70025	Méltóság gyûrûje
+70025	Méltóság gyuruje
 70026	Láthatatlanság tükör
 70027	Kovács jegyzete
 70028	Bölcs jegyzete
 70029	Vörös írótoll
 70030	Vörös monokli
-70031	Megerõsítõ irat
+70031	Megerosíto irat
 70032	Kétkezes kard könyv
 70033	Egykezes kard könyv
-70034	Tõr kézikönyv
+70034	Tor kézikönyv
 70035	Mágikus rézérc
 70036	Diák jegyzete
 70037	Feledés könyve
@@ -9868,53 +9867,53 @@ VNUM	LOCALE_NAME
 70040	Ork makacsság
 70041	Tanítvány ökle
 70042	Ördögi szilánk
-70043	Tolvaj kesztyû
+70043	Tolvaj kesztyu
 70044	Sötét fejedelem szarva
 70045	Sötét fejedelem foga
 70046	Sárkányisten kelyhe
-70047	Nyelv gyûrû (Minta)
+70047	Nyelv gyuru (Minta)
 70048	Titkolózás köpenye
-70049	Lucy gyûrûje
+70049	Lucy gyuruje
 70050	Bölcs császár szimbóluma
-70051	Bölcs császár kesztyûje
+70051	Bölcs császár kesztyuje
 70052	Karma varázslat 1
 70053	Karma varázslat 2
 70054	Karma varázslat 3
 70056	Gránátalma ital+
 70057	Bátorság köpeny
-70058	Teleport-gyûrû
+70058	Teleport-gyuru
 70063	Öltözék átalakító
-70064	Öltözékbûvölõ
-70065	Öltözékbónusz-átvivõ
+70064	Öltözékbuvölo
+70065	Öltözékbónusz-átvivo
 70068	Ér titokdoboz
 70069	Barackvirág bor XL
-70070	Vállpánt átvivõ
-70101	Elõrelátás könyve
+70070	Vállpánt átvivo
+70101	Elorelátás könyve
 70102	Zen-bab
 70103	Sutra
 70104	Átváltoztató gömb
 70105	Átváltoztató gömb
 70106	Átváltoztató gömb
 70107	Átváltoztató gömb
-70201	Fehérítõszer
+70201	Fehérítoszer
 70202	Fehér hajfesték
-70203	Szõkítõ anyag
+70203	Szokíto anyag
 70204	Vörös hajfesték
 70205	Barna hajfesték
 70206	Fekete hajfesték
-70207	Fehérítõszer
+70207	Fehérítoszer
 70208	Barna festék
 70251	Vörös gyógynövény
 70252	Kék gyógynövény
 70253	Zöld gyógynövény
 70254	Lila gyógynövény
-70301	Eljegyzési gyûrû
-70302	Jegygyûrû
-70303	Hidra gyûrûje
+70301	Eljegyzési gyuru
+70302	Jegygyuru
+70303	Hidra gyuruje
 70311	Véráldozat
 70312	Ritka véráldozat
 70313	Vér rituálé
-70321	Elsõsegély doboz
+70321	Elsosegély doboz
 70390	Vörös ital (T.)
 70391	Kék ital (T.)
 70392	Barackvirág bor (T.)
@@ -9928,13 +9927,13 @@ VNUM	LOCALE_NAME
 70404	Sung Mahi pecsétköve
 70405	Sung Ma ellenméreg
 70406	Torony-helyezésláda
-70407	Titokz. belépõ (prémium)
-70408	Titokzatos belépõ
+70407	Titokz. belépo (prémium)
+70408	Titokzatos belépo
 70410	Fagyos kulcs
 70411	Fehér sárkány láda (kö.)
 70412	Fehér sárkány láda (ne.)
 70422	Szerpent kulcs
-70423	Tûz szerpent töredék
+70423	Tuz szerpent töredék
 70424	Jég szerpent töredék
 70425	Szél szerpent töredék
 70426	Föld szerpent töredék
@@ -9972,30 +9971,30 @@ VNUM	LOCALE_NAME
 70602	Lélek pergamen (100%)
 70603	Lélek pergamen
 71000	Tanváltás tekercse
-71001	Ördögûzõ tekercs
+71001	Ördöguzo tekercs
 71002	Állapot visszaállító
 71003	Készség visszaállító
 71004	Sárkány medálja
-71005	Nyelv gyûrû
-71006	Nyelv gyûrû
-71007	Nyelv gyûrû
+71005	Nyelv gyuru
+71006	Nyelv gyuru
+71007	Nyelv gyuru
 71008	Horgászkönyv
 71009	Raktár láda
 71010	Harmadik kéz
 71011	Érzelem maszk
 71012	Vezér könyve
-71013	Tûzijáték
+71013	Tuzijáték
 71014	Támadó ital +10
-71015	Tapasztalat gyûrû
-71016	Tolvaj kesztyû
+71015	Tapasztalat gyuru
+71016	Tolvaj kesztyu
 71017	Szerencse medál
 71018	Élet áldása
 71019	Mágia áldása
 71020	Sárkány áldása
 71021	Harci tekercs
 71022	Intelligencia visszaáll.
-71023	Életerõ visszatérése
-71024	Erõ visszatérése
+71023	Életero visszatérése
+71024	Ero visszatérése
 71025	Kovács köve
 71026	Mágikus vasérc
 71027	Sárkányisten élet
@@ -10007,17 +10006,17 @@ VNUM	LOCALE_NAME
 71033	Érzelem maszk
 71034	Támadó ital +15
 71035	Kutatói elixír
-71036	Fõork tekercse
-71037	Vezetõ tekercse
-71038	Pókkirálynõ tekercse
-71039	Teknõs tekercs
+71036	Foork tekercse
+71037	Vezeto tekercse
+71038	Pókkirályno tekercse
+71039	Teknos tekercs
 71040	Lángkirály tekercse
 71041	Kilencfarkú tekercse
 71042	Démonkirály tekercse
 71043	Tekercs - Tigris Szellem
 71044	Kritikus csapás
-71045	Átütõ csapás
-71047	Szellemkõ oldat
+71045	Átüto csapás
+71047	Szellemko oldat
 71048	Megváltoztató varázslat
 71049	Selyem köteg
 71050	Sebesség ital
@@ -10032,30 +10031,30 @@ VNUM	LOCALE_NAME
 71062	Ébenfa ér köve
 71063	Kagyló lerakódás köve
 71064	Fehérarany ér köve
-71065	Kristály ér kõ
+71065	Kristály ér ko
 71066	Ametiszt telér
-71067	Mennyei könny ér kõ
+71067	Mennyei könny ér ko
 71068	Szerelmesek tolla
 71069	Harmónia Fülbevalója
-71070	Szerelem karkötõ
+71070	Szerelem karköto
 71071	Szerelem Fülbevalója
-71072	Harmónia karkötõ
+71072	Harmónia karköto
 71073	Szerelem nyaklánc
 71074	Harmónia nyaklánc
 71075	Hajfesték (fehér)
-71076	Hajfesték (szõke)
+71076	Hajfesték (szoke)
 71077	Hajfesték (vörös)
 71078	Hajfesték (barna)
 71079	Hajfesték (fekete)
-71080	Metinkõ (könnyû)
-71081	Metinkõ (normál)
-71082	Metinkõ (nehéz)
-71083	Kõ kézikönyv
-71084	Megbûvölõ tárgy
-71085	Tárgy-megerõsítõ
+71080	Metinko (könnyu)
+71081	Metinko (normál)
+71082	Metinko (nehéz)
+71083	Ko kézikönyv
+71084	Megbuvölo tárgy
+71085	Tárgy-megerosíto
 71086	Szint emelés (20-29)
 71087	Szint emelés (30-39)
-71088	Missziókönyv(könnyû)
+71088	Missziókönyv(könnyu)
 71089	Missziókönyv (normál)
 71090	Missziókönyv (nehéz)
 71091	Kereskedés oldata
@@ -10063,14 +10062,14 @@ VNUM	LOCALE_NAME
 71093	Átváltoztató gömb
 71094	Koncentrált olvasás
 71095	Belépési engedély
-71096	Belépõ tábla
-71099	Utód gyûrûje
+71096	Belépo tábla
+71099	Utód gyuruje
 71100	Tancsere bizonyítvány
 71101	Sietség itala
 71102	Sietség itala+
 71103	Újraelosztás (VIT)
 71104	Újraelosztás (INT)
-71105	Újraelosztás (ERÕ)
+71105	Újraelosztás (ERO)
 71106	Újraelosztás (ÜGY)
 71107	Élet Gyümölcse
 71108	Gránátalma ital
@@ -10085,7 +10084,7 @@ VNUM	LOCALE_NAME
 71119	Tigris (kék)
 71120	Oroszlán (sárga)
 71121	Oroszlán (kék)
-71122	Sárkány temploma belépõ
+71122	Sárkány temploma belépo
 71123	Sárkány pikkely
 71124	Fehér oroszlán
 71125	Harci Vadkan
@@ -10098,30 +10097,30 @@ VNUM	LOCALE_NAME
 71132	Fekete ló
 71133	Fekete ló
 71134	Fekete ló
-71135	Holdsarló gyûrû
-71136	Erõteljes nyalóka
+71135	Holdsarló gyuru
+71136	Eroteljes nyalóka
 71137	Királytigris (kék)
 71138	Királytigris (vörös)
 71139	Királytigris (arany)
 71140	Királytigris (zöld)
 71141	Királytigris (szürke)
 71142	Királytigris (fehér)
-71143	Öröm gyûrûje
+71143	Öröm gyuruje
 71144	Karácsonyi láda
 71145	Örök szerelem amulettje
 71146	Ámor kincse (rózsa)
 71147	Ámor kincse (kék)
-71148	Akaraterõ gyûrûje
-71149	A halálos erõ gyûrûje
+71148	Akaratero gyuruje
+71149	A halálos ero gyuruje
 71150	Mágikus tojás
 71151	Zöld Mágia
-71152	Zöld Erõ
+71152	Zöld Ero
 71153	Bölcsesség itala
 71154	Felemelkedés itala (3h)
 71155	Bölcsesség itala (3h)
 71156	Lélek itala
 71157	NoNAme
-71158	Hõsi medál
+71158	Hosi medál
 71159	Milon ládája
 71160	Athene ládája
 71161	Equus Porphyreus
@@ -10146,8 +10145,8 @@ VNUM	LOCALE_NAME
 71186	Muffin (zöld)
 71187	Nugget (zöld)
 71188	Mágikus nyalóka
-71189	Megbûvölõ tárgy+
-71190	Sütõtök láda
+71189	Megbuvölo tárgy+
+71190	Sütotök láda
 71191	Cukros zacskó
 71192	Ágas
 71193	Blitzen
@@ -10207,7 +10206,7 @@ VNUM	LOCALE_NAME
 71248	Arany harci bika
 71249	Ezüst harci bika
 71250	Fehér szfinx
-71251	Kõ szfinx
+71251	Ko szfinx
 71252	Jégholló
 71253	Éjholló
 71254	Fehér téli láma
@@ -10223,12 +10222,12 @@ VNUM	LOCALE_NAME
 71264	Kék sarki farkas
 71265	Holdfény csikóhal
 71266	Napfény csikóhal
-72001	Tapasztalat gyûrû (10h)
-72002	Tapasztalat gyûrû (30m)
-72003	Tapasztalat gyûrû (3h)
-72004	Tolvaj kesztyû
-72005	Tolvaj kesztyû
-72006	Tolvaj kesztyû
+72001	Tapasztalat gyuru (10h)
+72002	Tapasztalat gyuru (30m)
+72003	Tapasztalat gyuru (3h)
+72004	Tolvaj kesztyu
+72005	Tolvaj kesztyu
+72006	Tolvaj kesztyu
 72007	Selyem nyaláb
 72008	Selyem köteg
 72009	Selyem köteg
@@ -10247,9 +10246,9 @@ VNUM	LOCALE_NAME
 72022	Szerencse medál
 72023	Szerencse medál
 72024	Szerencse medál
-72025	Átütõ csapás
-72026	Átütõ csapás
-72027	Átütõ csapás
+72025	Átüto csapás
+72026	Átüto csapás
+72027	Átüto csapás
 72028	Érzelem maszk
 72029	Érzelem maszk
 72030	Érzelem maszk
@@ -10271,78 +10270,78 @@ VNUM	LOCALE_NAME
 72046	Kritikus csapás
 72047	Kritikus csapás
 72048	Kritikus csapás
-72049	Tapasztalat gyûrû
-72050	Tapasztalat gyûrû
+72049	Tapasztalat gyuru
+72050	Tapasztalat gyuru
 72051	Nagy jég bosz. tekercse
 72052	Yong. Tábornok tekercse
 72053	Céh paktum
-72054	A védelmezõk amulettje
-72058	Szellemkõ csomag
+72054	A védelmezok amulettje
+72058	Szellemko csomag
 72059	Vezér könyve+
 72060	Vezér könyve+
 72061	Sárkány medálja+
-72062	Tapasztalat gyûrû +200
-72063	Metinkõ (könnyû)
-72064	Kicsi erõsítõ
-72065	Közepes erõsítõ
-72066	Nagy erõsítõ
-72067	Szuper erõsítõ
-72068	Új akarat (ERÕ)
+72062	Tapasztalat gyuru +200
+72063	Metinko (könnyu)
+72064	Kicsi erosíto
+72065	Közepes erosíto
+72066	Nagy erosíto
+72067	Szuper erosíto
+72068	Új akarat (ERO)
 72069	Új akarat (VIT)
 72070	Új akarat (ELL)
 72071	Új akarat (INT)
 72301	Áldástekercs
 72302	Vezér könyve
-72303	Tapasztalat gyûrû
+72303	Tapasztalat gyuru
 72304	Megáldó márvány
 72305	Láthatatlanság tükör
 72306	Kovács jegyzete
 72307	Bölcs jegyzete
 72308	Mágikus rézérc
 72309	Kovács kézikönyv
-72310	Ördögûzõ tekercs
+72310	Ördöguzo tekercs
 72311	Sárkány áldása
 72312	Sárkányisten támadás
 72313	Sárkányisten védekezés
 72314	Sárkánytekercs
-72319	Leltárbõvítõ (átadható)
-72320	Leltárbõvítõ
-72321	Titkok gyûrûje
+72319	Leltárbovíto (átadható)
+72320	Leltárbovíto
+72321	Titkok gyuruje
 72322	Visszaállító jegy
-72323	Újrakeverõ jegy
+72323	Újrakevero jegy
 72325	Átalakítás visszafordító
 72326	Átalakító jegy
 72327	Gömb pergamen (átadható)
-72328	Az õrzõ jele
+72328	Az orzo jele
 72329	Gömb pergamen
-72339	Yohara Metinkõ
+72339	Yohara Metinko
 72340	Mobilposta
 72341	Átalakító jegy
 72342	Meley belépési engedély
 72343	Átváltoztató token I
 72344	Átváltoztató token II
 72346	Áhítat
-72347	Idõspirál (10%)
-72348	Idõspirál (20%)
-72349	Idõspirál (30%)
+72347	Idospirál (10%)
+72348	Idospirál (20%)
+72349	Idospirál (30%)
 72350	Kutató tekercse
 72351	Kicsi áhítat
-72352	Kesztyû engedély
+72352	Kesztyu engedély
 72353	Akarattopáz
 72354	Szállítható Jadit ér
 72355	Prémium magánbolt
 72356	Prémium magánbolt
 72360	Kihívás tekercs
-72701	Szélcipõ
-72702	Szél cipõ+ (átadható)
+72701	Szélcipo
+72702	Szél cipo+ (átadható)
 72703	Tigriscsont fülbevaló
 72704	Sárkánycsont fülbevaló
-72705	Tigriscsont karkötõ
-72706	Sárkánycsont karkötõ
+72705	Tigriscsont karköto
+72706	Sárkánycsont karköto
 72709	Tigriscsont fülbevaló
 72710	Sárkánycsont fülbevaló
-72711	Tigriscsont karkötõ
-72712	Sárkánycsont karkötõ
+72711	Tigriscsont karköto
+72712	Sárkánycsont karköto
 72723	Nap Elixír (Kicsi)
 72724	Nap Elixír (Közepes)
 72725	Nap Elixír (Nagy)
@@ -10362,7 +10361,7 @@ VNUM	LOCALE_NAME
 72752	Légióparancsnok eszencia
 72753	Állókép. feltöltés (100)
 72754	Állókép. csökkentés(30%)
-72755	Bõvítési engedély
+72755	Bovítési engedély
 72756	Zsákmány jegy
 72760	Vad harcos könyve
 72761	Ellenmágia könyve
@@ -10375,22 +10374,22 @@ VNUM	LOCALE_NAME
 72768	Tükrözés könyve
 72769	Yang-dobás könyve
 72770	Hatótáv könyve
-72771	Legyõzhetetlenség könyve
+72771	Legyozhetetlenség könyve
 72772	Csodaszer könyve
 72773	Mester csapos könyv
 72774	Szörny vadász könyv
 72775	Sasszem könyv
 72776	Élet elszívás könyv
-72777	Pehelykönnyûség könyv
+72777	Pehelykönnyuség könyv
 72778	Lovaglás (gyors paták)
 72779	Lovaglás (EXP)
 72780	Lovaglás (tomboló vihar)
 72781	Lovaglás (pehelyk. lép.)
-72782	Lovaglás (legyõzhetetl.)
+72782	Lovaglás (legyozhetetl.)
 72783	Lovaglás(nincs hátralö.)
-72784	Lovaglás (véletlenszerû)
+72784	Lovaglás (véletlenszeru)
 72785	Lovaglás (ló készség)
-72786	Lovaglás (SungMa a. ERÕ)
+72786	Lovaglás (SungMa a. ERO)
 72787	Lovaglás (SungMa a. VIT)
 72788	Lovaglás (SungMa a. ELL)
 72789	Lovaglás (SungMa a. INT)
@@ -10399,10 +10398,10 @@ VNUM	LOCALE_NAME
 73002	Divatos frizura (vil.)
 73003	Divatos frizura (kék)
 73004	Divatos frizura (barna)
-73005	Fejkendõ (vörös)
-73006	Fejkendõ (barna)
-73007	Fejkendõ (kék)
-73008	Fejkendõ (zöld)
+73005	Fejkendo (vörös)
+73006	Fejkendo (barna)
+73007	Fejkendo (kék)
+73008	Fejkendo (zöld)
 73009	Hosszú haj (fekete)
 73010	Hosszú haj (vörös)
 73011	Hosszú haj (barna)
@@ -10411,17 +10410,17 @@ VNUM	LOCALE_NAME
 73252	Lófarok (zöld)
 73253	Lófarok (kék)
 73254	Lófarok (világos)
-73255	Vállig érõ haj (vörös)
-73256	Vállig érõ haj (barna)
-73257	Vállig érõ haj (világos)
-73258	Vállig érõ haj (lila)
+73255	Vállig éro haj (vörös)
+73256	Vállig éro haj (barna)
+73257	Vállig éro haj (világos)
+73258	Vállig éro haj (lila)
 73259	Rövid haj (vörös)
 73260	Rövid haj (kék)
 73261	Rövid haj (fekete)
-73262	Rövid haj (szõke)
+73262	Rövid haj (szoke)
 73501	Sportos frizura (vil.)
 73502	Sportos frizura (barna)
-73503	Sportos frizura (szõke)
+73503	Sportos frizura (szoke)
 73504	Sportos frizura (zöld)
 73505	Karizma-frizura (fehér)
 73506	Karizma-frizura (vörös)
@@ -10437,7 +10436,7 @@ VNUM	LOCALE_NAME
 73754	Elegáns frizura(világos)
 73755	Félhosszú haj (barna)
 73756	Félrövid haj (fekete)
-73757	Félhosszú haj (szõke)
+73757	Félhosszú haj (szoke)
 73758	Félrövid haj (lila)
 73759	Régimódi frizura (barna)
 73760	Régimódi frizura (vil.)
@@ -10467,25 +10466,25 @@ VNUM	LOCALE_NAME
 74252	Lófarok (zöld)
 74253	Lófarok (kék)
 74254	Lófarok (világos)
-74255	Vállig érõ haj (vörös)
-74256	Vállig érõ haj (barna)
-74257	Vállig érõ haj (világos)
-74258	Vállig érõ haj (lila)
+74255	Vállig éro haj (vörös)
+74256	Vállig éro haj (barna)
+74257	Vállig éro haj (világos)
+74258	Vállig éro haj (lila)
 74259	Rövid haj (vörös)
 74260	Rövid haj (kék)
 74261	Rövid haj (fekete)
-74262	Rövid haj (szõke)
-74263	Nindzsa afro (nõi)
-74264	Nindzsa afro (nõi)
-74265	Nindzsa virág kalap(nõi)
-74266	Nindzsa virág kalap(nõi)
-74267	Nindzsa arcfátyol (nõi)
+74262	Rövid haj (szoke)
+74263	Nindzsa afro (noi)
+74264	Nindzsa afro (noi)
+74265	Nindzsa virág kalap(noi)
+74266	Nindzsa virág kalap(noi)
+74267	Nindzsa arcfátyol (noi)
 74268	Nindzsa sivatagi sál (n)
-74269	Nindzsa turbán (nõi)
-74270	Nindzsa tök maszk (nõi)
+74269	Nindzsa turbán (noi)
+74270	Nindzsa tök maszk (noi)
 74501	Sportos frizura (vil.)
 74502	Sportos frizura (barna)
-74503	Sportos frizura (szõke)
+74503	Sportos frizura (szoke)
 74504	Sportos frizura (zöld)
 74505	Karizma-frizura (fehér)
 74506	Karizma-frizura (vörös)
@@ -10504,22 +10503,22 @@ VNUM	LOCALE_NAME
 74519	Sura turbán (férfi)
 74520	Sura tök maszk (férfi)
 74521	Divatos frizura (szürke)
-74522	Fejkendõ
-74523	Hosszú haj (szõke)
+74522	Fejkendo
+74523	Hosszú haj (szoke)
 74524	Divatos frizura (arany)
-74525	Fejkendõ (fekete)
+74525	Fejkendo (fekete)
 74526	Hosszú haj (rubinvörös)
 74527	Lófarok (vörös)
-74528	Vállig érõ haj (vízkék)
+74528	Vállig éro haj (vízkék)
 74529	Rövid haj (barna)
 74530	Lófarok (vörös)
-74531	Vállig érõ haj (fekete)
+74531	Vállig éro haj (fekete)
 74532	Rövid haj (szürke)
 74533	Sportos frizura (fekete)
-74534	Karizma-frizura (szõke)
+74534	Karizma-frizura (szoke)
 74535	Hosszú copf (pink)
 74536	Sportos frizura (lila)
-74537	Karizma-frizura (szõke)
+74537	Karizma-frizura (szoke)
 74538	Hosszú copf (fenséges)
 74539	Elegáns frizura (lila)
 74540	Félhosszú haj (sötét)
@@ -10548,52 +10547,52 @@ VNUM	LOCALE_NAME
 74754	Elegáns frizura(világos)
 74755	Félrövid haj (barna)
 74756	Félrövid haj (fekete)
-74757	Félrövid haj (szõke)
+74757	Félrövid haj (szoke)
 74758	Félrövid haj (lila)
 74759	Régimódi frizura (barna)
 74760	Régimódi frizura (vil.)
 74761	Régimódi frizura (lila)
 74762	Régimódi frizura (vörös)
-74763	Sámán afro (nõi)
-74764	Sámán afro (nõi)
-74765	Sámán virág kalap (nõi)
-74766	Sámán virág kalap (nõi)
-74767	Sámán arcfátyol (nõi)
-74768	Sámán sivatagi sál (nõi)
-74769	Sámán turbán (nõi)
-74770	Sámán tök maszk (nõi)
+74763	Sámán afro (noi)
+74764	Sámán afro (noi)
+74765	Sámán virág kalap (noi)
+74766	Sámán virág kalap (noi)
+74767	Sámán arcfátyol (noi)
+74768	Sámán sivatagi sál (noi)
+74769	Sámán turbán (noi)
+74770	Sámán tök maszk (noi)
 75001	Divatos frizura (vörös)
 75002	Divatos frizura (vil.)
 75003	Divatos frizura (kék)
 75004	Divatos frizura (barna)
-75005	Fejkendõ (barna)
-75006	Fejkendõ (szõke)
-75007	Fejkendõ (kék)
-75008	Fejkendõ (zöld)
+75005	Fejkendo (barna)
+75006	Fejkendo (szoke)
+75007	Fejkendo (kék)
+75008	Fejkendo (zöld)
 75009	Hosszú haj (fekete)
 75010	Hosszú haj (vörös)
 75011	Hosszú haj (barna)
 75012	Hosszú haj (zöld)
-75013	Harcos afro (nõi)
-75014	Harcos afro (nõi)
-75015	Harcos virág kalap (nõi)
-75016	Harcos virág kalap (nõi)
-75017	Harcos arcfátyol (nõi)
-75018	Harcos sivatagi sál(nõi)
-75019	Harcos turbán (nõi)
-75020	Harcos tök maszk (nõi)
+75013	Harcos afro (noi)
+75014	Harcos afro (noi)
+75015	Harcos virág kalap (noi)
+75016	Harcos virág kalap (noi)
+75017	Harcos arcfátyol (noi)
+75018	Harcos sivatagi sál(noi)
+75019	Harcos turbán (noi)
+75020	Harcos tök maszk (noi)
 75201	Lófarok (barna)
 75202	Lófarok (zöld)
 75203	Lófarok (kék)
 75204	Lófarok (világos)
-75205	Vállig érõ haj (vörös)
-75206	Vállig érõ haj (barna)
-75207	Vállig érõ haj (világos)
-75208	Vállig érõ haj (lila)
+75205	Vállig éro haj (vörös)
+75206	Vállig éro haj (barna)
+75207	Vállig éro haj (világos)
+75208	Vállig éro haj (lila)
 75209	Rövid haj (vörös)
 75210	Rövid haj (kék)
 75211	Rövid haj (fekete)
-75212	Rövid haj (szõke)
+75212	Rövid haj (szoke)
 75213	Nindzsa afro (férfi)
 75214	Nindzsa afro (férfi)
 75215	Nindzsa szamuráj kalap f
@@ -10604,7 +10603,7 @@ VNUM	LOCALE_NAME
 75220	Nindzsa tök maszk(férfi)
 75401	Sportos frizura (vil.)
 75402	Sportos frizura (barna)
-75403	Sportos frizura (szõke)
+75403	Sportos frizura (szoke)
 75404	Sportos frizura (zöld)
 75405	Karizma-frizura (fehér)
 75406	Karizma-frizura (vörös)
@@ -10614,21 +10613,21 @@ VNUM	LOCALE_NAME
 75410	Hosszú copf (Kék)
 75411	Hosszú copf (fekete)
 75412	Hosszú copf (barna)
-75413	Sura afro (nõi)
-75414	Sura afro (nõi)
-75415	Sura virág kalap (nõi)
-75416	Sura virág kalap (nõi)
-75417	Sura arcfátyol (nõi)
-75418	Sura sivatagi sál (nõi)
-75419	Sura turbán (nõi)
-75420	Sura tök maszk (nõi)
+75413	Sura afro (noi)
+75414	Sura afro (noi)
+75415	Sura virág kalap (noi)
+75416	Sura virág kalap (noi)
+75417	Sura arcfátyol (noi)
+75418	Sura sivatagi sál (noi)
+75419	Sura turbán (noi)
+75420	Sura tök maszk (noi)
 75601	Elegáns frizura (barna)
 75602	Elegáns frizura (fekete)
 75603	Elegáns frizura (kék)
 75604	Elegáns frizura(világos)
 75605	Félrövid haj (barna)
 75606	Félrövid haj (fekete)
-75607	Félrövid haj (szõke)
+75607	Félrövid haj (szoke)
 75608	Félrövid haj (lila)
 75609	Régimódi frizura (barna)
 75610	Régimódi frizura (vil.)
@@ -10660,15 +10659,15 @@ VNUM	LOCALE_NAME
 76003	Sietség itala
 76004	Hold Elixír (Kicsi)
 76005	Hold Elixír (Közepes)
-76006	Metinkõ iránytû
+76006	Metinko iránytu
 76007	Bátorság köpeny
 76008	Sárkány medálja
 76009	Sárkánytekercs
-76010	Vérkõ
+76010	Vérko
 76011	Vezér könyve
 76012	Sebesség ital
-76013	Tárgy-megerõsítõ (b)
-76014	Megbûvölõ tárgy (b)
+76013	Tárgy-megerosíto (b)
+76014	Megbuvölo tárgy (b)
 76015	Megáldó márvány
 76016	Áldástekercs
 76017	Támadó ital +15
@@ -10678,32 +10677,32 @@ VNUM	LOCALE_NAME
 76021	Nap Elixír (Kicsi)
 76022	Nap Elixír (Közepes)
 76023	Zöld Mágia
-76024	Zöld Erõ
-76025	Szél cipõ
-76026	Ördögûzõ tekercs
-76028	Kõ kézikönyv
+76024	Zöld Ero
+76025	Szél cipo
+76026	Ördöguzo tekercs
+76028	Ko kézikönyv
 76029	Zöld sárkány-bab
-76030	Erõ nyalókája
+76030	Ero nyalókája
 76031	Protein Snack
 76033	Barackvirág bor+
 76034	Koncentrált olvasás
 76035	Sárkányisten élet
 76036	Sárkányisten támadás
-76037	Tolvaj kesztyû
+76037	Tolvaj kesztyu
 76038	Szerencse medál
 76039	Sárkányláda
 76040	Cor Draconis (Normál)
 76041	Égszínkék ital
-76042	Teleport-gyûrû
+76042	Teleport-gyuru
 76044	Házikedvenc-könyv láda
 76045	Kedvencnév-tekercs
-76047	Erõ nyalókája (3 nap)
-76051	Titkok gyûrûje (7 nap)
-76052	Szél cipõ (7 nap)
+76047	Ero nyalókája (3 nap)
+76051	Titkok gyuruje (7 nap)
+76052	Szél cipo (7 nap)
 76053	Harmadik kéz (3 nap)
 76054	Érzelem maszk (7 nap)
 76055	Extra felsz. oldal (át.)
-76068	Inváziós belépõ
+76068	Inváziós belépo
 79100	Birodalmi okirat (J->S)
 79101	Birodalmi okirat (J->C)
 79102	Birodalmi okirat (C->J)
@@ -10714,7 +10713,7 @@ VNUM	LOCALE_NAME
 79502	Íjász tegez
 79503	Íjász tegez
 79504	Íjász tegez
-79505	Okey gyûjthetõ kártya
+79505	Okey gyujtheto kártya
 79506	Okey kártyaszett
 79507	Nyírfa törzs
 79508	Yut Nori tábla
@@ -10722,7 +10721,7 @@ VNUM	LOCALE_NAME
 79512	Tarot kártya
 79513	Tarot pakli
 79514	Látók érméje
-79602	Õr-iránytû
+79602	Or-iránytu
 79603	Királykártya
 79604	Királypakli
 79605	Vaspecsét
@@ -10744,16 +10743,16 @@ VNUM	LOCALE_NAME
 80023	SÉ utalvány (100)
 80024	SÉ utalvány (500)
 80025	SÉ utalvány (1000)
-81000	ERÕ Akarat-talizmán+0
-81001	ERÕ Akarat-talizmán+1
-81002	ERÕ Akarat-talizmán+2
-81003	ERÕ Akarat-talizmán+3
-81004	ERÕ Akarat-talizmán+4
-81005	ERÕ Akarat-talizmán+5
-81006	ERÕ Akarat-talizmán+6
-81007	ERÕ Akarat-talizmán+7
-81008	ERÕ Akarat-talizmán+8
-81009	ERÕ Akarat-talizmán+9
+81000	ERO Akarat-talizmán+0
+81001	ERO Akarat-talizmán+1
+81002	ERO Akarat-talizmán+2
+81003	ERO Akarat-talizmán+3
+81004	ERO Akarat-talizmán+4
+81005	ERO Akarat-talizmán+5
+81006	ERO Akarat-talizmán+6
+81007	ERO Akarat-talizmán+7
+81008	ERO Akarat-talizmán+8
+81009	ERO Akarat-talizmán+9
 81250	ELL Akarat-talizmán+0
 81251	ELL Akarat-talizmán+1
 81252	ELL Akarat-talizmán+2
@@ -10806,7 +10805,7 @@ VNUM	LOCALE_NAME
 83010	Pánt doboz
 83011	Díszláda
 83012	Csúcs kedvenc-könyv láda
-83013	Tépõfog láda+
+83013	Tépofog láda+
 83014	Cor Draconis láda
 83015	Gaya láda
 83016	Rejtélyek ládája
@@ -10837,10 +10836,10 @@ VNUM	LOCALE_NAME
 83041	Arany látók ládája
 83042	Ezüst látók ládája
 83043	Bronz látók ládája
-83044	Elementáris erõ láda
+83044	Elementáris ero láda
 83045	Elementáris védelem láda
-83046	Elementáris erõ kõ doboz
-83047	Elem. védelem kõ doboz
+83046	Elementáris ero ko doboz
+83047	Elem. védelem ko doboz
 83048	Bónuszmánia doboz
 83049	Nagy szerencseláda
 83050	Ló gondozókészlet
@@ -10860,7 +10859,7 @@ VNUM	LOCALE_NAME
 83064	Seo Gwang k. láda kulcs
 83065	Véletlen kincsesláda
 83066	Véletlen k. láda kulcs
-83067	Tökéletes karkötõláda
+83067	Tökéletes karkötoláda
 83072	Sung Ma inváziós láda
 83073	Yohara szörnyk. doboz
 83074	Platina szörnyk. doboz
@@ -10869,19 +10868,19 @@ VNUM	LOCALE_NAME
 83102	Kuahlo Dong jutalom láda
 83103	Hwang templom jut. láda
 83104	Démon-torony jut. láda
-83105	Számûzött jutalom láda
+83105	Számuzött jutalom láda
 83106	Katakomba jutalom láda
-83107	Õrtorony jutalom láda
+83107	Ortorony jutalom láda
 83108	Vörös sárkány jut. láda
-83109	Erdõ jutalom láda
+83109	Erdo jutalom láda
 83110	Dong Gwang jutalom láda
 83111	Gnoll bar. SZ1 jut. láda
 83112	Yilad hágó jutalom láda
 83113	Szerpent jutalom láda
 83114	Északszél jutalom láda
-83115	Hódítás láda (könnyû)
-83116	Hódítás láda (könnyû)
-83117	Hódítás láda (könnyû)
+83115	Hódítás láda (könnyu)
+83116	Hódítás láda (könnyu)
+83117	Hódítás láda (könnyu)
 83118	Hódítás láda (nehéz)
 83119	Hódítás láda (nehéz)
 83120	Hódítás láda (nehéz)
@@ -10912,8 +10911,8 @@ VNUM	LOCALE_NAME
 85023	Évfordulós pánt (nemes)
 85024	Évfordulós pánt (egyedi)
 85025	Lord pánt+ (egyedi)
-85026	¸íÀåÀÇ ¾×¼¼¼­¸®(¹Ì»ç¿ë)
-85027	¸íÀåÀÇ ¾×¼¼¼­¸®(¹Ì»ç¿ë)
+85026	¸íAaAÇ 3×111­¸®(1I»ç?ë)
+85027	¸íAaAÇ 3×111­¸®(1I»ç?ë)
 85028	Lord pánt+ (egyedi)
 86001	Zi pánt (alap)
 86002	Zi pánt (finom)
@@ -10971,16 +10970,16 @@ VNUM	LOCALE_NAME
 90001	Üres vizespalack
 90002	Vizespalack
 90003	Kristály
-90004	Drágakõ
-90005	Aquakõ
-90006	Szellemkõ
+90004	Drágako
+90005	Aquako
+90006	Szellemko
 90007	Ásvány
-90010	Alapkõ
+90010	Alapko
 90011	Törzs
 90012	Furnérlemez
 90013	NoNAme
 90014	Értékes zsákmány
-90015	Alapkõ+
+90015	Alapko+
 90016	Törzs+
 90017	Furnérlemez+
 91000	Zodiákus kard+0
@@ -11003,16 +11002,16 @@ VNUM	LOCALE_NAME
 91017	Zodiákus páncél+0
 91018	Zodiákus páncél+0
 91019	Zodiákus páncél+0
-91020	Jégmadár cipõ+0
-91021	Jégmadár cipõ+0
-91022	Jégmadár cipõ+0
-91023	Jégmadár cipõ+0
-91024	Jégmadár cipõ+0
-91025	Jégmadár cipõ+0
-91026	Jégmadár cipõ+0
-91027	Jégmadár cipõ+0
-91028	Jégmadár cipõ+0
-91029	Jégmadár cipõ+0
+91020	Jégmadár cipo+0
+91021	Jégmadár cipo+0
+91022	Jégmadár cipo+0
+91023	Jégmadár cipo+0
+91024	Jégmadár cipo+0
+91025	Jégmadár cipo+0
+91026	Jégmadár cipo+0
+91027	Jégmadár cipo+0
+91028	Jégmadár cipo+0
+91029	Jégmadár cipo+0
 91030	Háromcsászár pajzs+0
 91031	Háromcsászár pajzs+0
 91032	Háromcsászár pajzs+0
@@ -11028,7 +11027,7 @@ VNUM	LOCALE_NAME
 91042	Nyíl
 91043	Zodiákus kard(láda)
 91044	Zodiákus páncél(láda)
-91045	Jégmadár cipõ(láda)
+91045	Jégmadár cipo(láda)
 91046	Háromcsászár pajzs(láda)
 91047	Ezüst nyíl
 91050	Lila ital (kicsi)
@@ -11041,17 +11040,17 @@ VNUM	LOCALE_NAME
 91057	Manny (1x használható)
 91058	Rubinsárkány (1x haszn.)
 91059	Végtelen kitartás
-100000	Idõ Elixír (Kicsi)
-100001	Idõ Elixír (Közepes)
-100002	Idõ Elixír (Nagy)
+100000	Ido Elixír (Kicsi)
+100001	Ido Elixír (Közepes)
+100002	Ido Elixír (Nagy)
 100100	Sárkány-fogó
 100101	Sárkány-fogó+
-100200	Idõfogó
+100200	Idofogó
 100300	Zöld sárkány-bab
 100400	Kék sárkány-bab
 100500	Rózsaszín sárkány-bab
-100700	Sárkánytûz (B)
-100701	Sárkánytûz
+100700	Sárkánytuz (B)
+100701	Sárkánytuz
 110000	Nyers sárkánygyémánt
 110100	Nyers sárkánygyémánt
 110200	Nyers sárkánygyémánt
@@ -11232,7 +11231,7 @@ VNUM	LOCALE_NAME
 165200	Mitikus sárkányónix
 165300	Mitikus sárkányónix
 165400	Mitikus sárkányónix
-50577	Legendás lélek kõ
+50577	Legendás lélek ko
 510	Kyanite penge+0
 511	Kyanite penge+1
 512	Kyanite penge+2
@@ -11293,26 +11292,26 @@ VNUM	LOCALE_NAME
 13227	Kyanite pajzs+7
 13228	Kyanite pajzs+8
 13229	Kyanite pajzs+9
-14600	Kyanite karkötõ+0
-14601	Kyanite karkötõ+1
-14602	Kyanite karkötõ+2
-14603	Kyanite karkötõ+3
-14604	Kyanite karkötõ+4
-14605	Kyanite karkötõ+5
-14606	Kyanite karkötõ+6
-14607	Kyanite karkötõ+7
-14608	Kyanite karkötõ+8
-14609	Kyanite karkötõ+9
-15470	Kyanite cipõ+0
-15471	Kyanite cipõ+1
-15472	Kyanite cipõ+2
-15473	Kyanite cipõ+3
-15474	Kyanite cipõ+4
-15475	Kyanite cipõ+5
-15476	Kyanite cipõ+6
-15477	Kyanite cipõ+7
-15478	Kyanite cipõ+8
-15479	Kyanite cipõ+9
+14600	Kyanite karköto+0
+14601	Kyanite karköto+1
+14602	Kyanite karköto+2
+14603	Kyanite karköto+3
+14604	Kyanite karköto+4
+14605	Kyanite karköto+5
+14606	Kyanite karköto+6
+14607	Kyanite karköto+7
+14608	Kyanite karköto+8
+14609	Kyanite karköto+9
+15470	Kyanite cipo+0
+15471	Kyanite cipo+1
+15472	Kyanite cipo+2
+15473	Kyanite cipo+3
+15474	Kyanite cipo+4
+15475	Kyanite cipo+5
+15476	Kyanite cipo+6
+15477	Kyanite cipo+7
+15478	Kyanite cipo+8
+15479	Kyanite cipo+9
 16600	Kyanite nyaklánc+0
 16601	Kyanite nyaklánc+1
 16602	Kyanite nyaklánc+2
@@ -11393,16 +11392,16 @@ VNUM	LOCALE_NAME
 14587	Zodiákus karszalag+7
 14588	Zodiákus karszalag+8
 14589	Zodiákus karszalag+9
-15460	Zodiákus cipõ+0
-15461	Zodiákus cipõ+1
-15462	Zodiákus cipõ+2
-15463	Zodiákus cipõ+3
-15464	Zodiákus cipõ+4
-15465	Zodiákus cipõ+5
-15466	Zodiákus cipõ+6
-15467	Zodiákus cipõ+7
-15468	Zodiákus cipõ+8
-15469	Zodiákus cipõ+9
+15460	Zodiákus cipo+0
+15461	Zodiákus cipo+1
+15462	Zodiákus cipo+2
+15463	Zodiákus cipo+3
+15464	Zodiákus cipo+4
+15465	Zodiákus cipo+5
+15466	Zodiákus cipo+6
+15467	Zodiákus cipo+7
+15468	Zodiákus cipo+8
+15469	Zodiákus cipo+9
 16580	Zodiákus nyaklánc+0
 16581	Zodiákus nyaklánc+1
 16582	Zodiákus nyaklánc+2
@@ -11439,22 +11438,22 @@ VNUM	LOCALE_NAME
 13243	Sötét sárkány pajzs+13
 13244	Sötét sárkány pajzs+14
 13245	Sötét sárkány pajzs+15
-14610	Sötét sárkány karkötõ+0
-14611	Sötét sárkány karkötõ+1
-14612	Sötét sárkány karkötõ+2
-14613	Sötét sárkány karkötõ+3
-14614	Sötét sárkány karkötõ+4
-14615	Sötét sárkány karkötõ+5
-14616	Sötét sárkány karkötõ+6
-14617	Sötét sárkány karkötõ+7
-14618	Sötét sárkány karkötõ+8
-14619	Sötét sárkány karkötõ+9
-14620	Sötét sárkány karkötõ+10
-14621	Sötét sárkány karkötõ+11
-14622	Sötét sárkány karkötõ+12
-14623	Sötét sárkány karkötõ+13
-14624	Sötét sárkány karkötõ+14
-14625	Sötét sárkány karkötõ+15
+14610	Sötét sárkány karköto+0
+14611	Sötét sárkány karköto+1
+14612	Sötét sárkány karköto+2
+14613	Sötét sárkány karköto+3
+14614	Sötét sárkány karköto+4
+14615	Sötét sárkány karköto+5
+14616	Sötét sárkány karköto+6
+14617	Sötét sárkány karköto+7
+14618	Sötét sárkány karköto+8
+14619	Sötét sárkány karköto+9
+14620	Sötét sárkány karköto+10
+14621	Sötét sárkány karköto+11
+14622	Sötét sárkány karköto+12
+14623	Sötét sárkány karköto+13
+14624	Sötét sárkány karköto+14
+14625	Sötét sárkány karköto+15
 17600	Sötét sárkány fülbevaló+0
 17601	Sötét sárkány fülbevaló+1
 17602	Sötét sárkány fülbevaló+2
@@ -11471,22 +11470,22 @@ VNUM	LOCALE_NAME
 17613	Sötét sárkány fülbevaló+13
 17614	Sötét sárkány fülbevaló+14
 17615	Sötét sárkány fülbevaló+15
-15240	Sötét sárkány cipõ+0
-15241	Sötét sárkány cipõ+1
-15242	Sötét sárkány cipõ+2
-15243	Sötét sárkány cipõ+3
-15244	Sötét sárkány cipõ+4
-15245	Sötét sárkány cipõ+5
-15246	Sötét sárkány cipõ+6
-15247	Sötét sárkány cipõ+7
-15248	Sötét sárkány cipõ+8
-15249	Sötét sárkány cipõ+9
-15250	Sötét sárkány cipõ+10
-15251	Sötét sárkány cipõ+11
-15252	Sötét sárkány cipõ+12
-15253	Sötét sárkány cipõ+13
-15254	Sötét sárkány cipõ+14
-15255	Sötét sárkány cipõ+15
+15240	Sötét sárkány cipo+0
+15241	Sötét sárkány cipo+1
+15242	Sötét sárkány cipo+2
+15243	Sötét sárkány cipo+3
+15244	Sötét sárkány cipo+4
+15245	Sötét sárkány cipo+5
+15246	Sötét sárkány cipo+6
+15247	Sötét sárkány cipo+7
+15248	Sötét sárkány cipo+8
+15249	Sötét sárkány cipo+9
+15250	Sötét sárkány cipo+10
+15251	Sötét sárkány cipo+11
+15252	Sötét sárkány cipo+12
+15253	Sötét sárkány cipo+13
+15254	Sötét sárkány cipo+14
+15255	Sötét sárkány cipo+15
 16610	Sötét sárkány nyaklánc+0
 16611	Sötét sárkány nyaklánc+1
 16612	Sötét sárkány nyaklánc+2
@@ -11583,38 +11582,38 @@ VNUM	LOCALE_NAME
 13263	Kígyópajzs+13
 13264	Kígyópajzs+14
 13265	Kígyópajzs+15
-14630	Kígyó karkötõ+0
-14631	Kígyó karkötõ+1
-14632	Kígyó karkötõ+2
-14633	Kígyó karkötõ+3
-14634	Kígyó karkötõ+4
-14635	Kígyó karkötõ+5
-14636	Kígyó karkötõ+6
-14637	Kígyó karkötõ+7
-14638	Kígyó karkötõ+8
-14639	Kígyó karkötõ+9
-14640	Kígyó karkötõ+10
-14641	Kígyó karkötõ+11
-14642	Kígyó karkötõ+12
-14643	Kígyó karkötõ+13
-14644	Kígyó karkötõ+14
-14645	Kígyó karkötõ+15
-15260	Kígyócipõ+0
-15261	Kígyócipõ+1
-15262	Kígyócipõ+2
-15263	Kígyócipõ+3
-15264	Kígyócipõ+4
-15265	Kígyócipõ+5
-15266	Kígyócipõ+6
-15267	Kígyócipõ+7
-15268	Kígyócipõ+8
-15269	Kígyócipõ+9
-15270	Kígyócipõ+10
-15271	Kígyócipõ+11
-15272	Kígyócipõ+12
-15273	Kígyócipõ+13
-15274	Kígyócipõ+14
-15275	Kígyócipõ+15
+14630	Kígyó karköto+0
+14631	Kígyó karköto+1
+14632	Kígyó karköto+2
+14633	Kígyó karköto+3
+14634	Kígyó karköto+4
+14635	Kígyó karköto+5
+14636	Kígyó karköto+6
+14637	Kígyó karköto+7
+14638	Kígyó karköto+8
+14639	Kígyó karköto+9
+14640	Kígyó karköto+10
+14641	Kígyó karköto+11
+14642	Kígyó karköto+12
+14643	Kígyó karköto+13
+14644	Kígyó karköto+14
+14645	Kígyó karköto+15
+15260	Kígyócipo+0
+15261	Kígyócipo+1
+15262	Kígyócipo+2
+15263	Kígyócipo+3
+15264	Kígyócipo+4
+15265	Kígyócipo+5
+15266	Kígyócipo+6
+15267	Kígyócipo+7
+15268	Kígyócipo+8
+15269	Kígyócipo+9
+15270	Kígyócipo+10
+15271	Kígyócipo+11
+15272	Kígyócipo+12
+15273	Kígyócipo+13
+15274	Kígyócipo+14
+15275	Kígyócipo+15
 16630	Kígyó nyaklánc+0
 16631	Kígyó nyaklánc+1
 16632	Kígyó nyaklánc+2
@@ -11648,31 +11647,31 @@ VNUM	LOCALE_NAME
 17634	Kígyó fülbevaló+14
 17635	Kígyó fülbevaló+15
 40192	Oyoroi kard+
-40193	Oyoroi tõr+
+40193	Oyoroi tor+
 40194	Oyoroi íve+
 40195	Oyoroi kétkezes+
 40196	Oyoroi bell+
 40197	Oyoroi csészék+
 40198	Azrael kard+
-40199	Azrael tõr+
+40199	Azrael tor+
 40200	Azrael íve+
 40201	Azraels Két kéz+
 40202	Azrael harangja+
 40203	Azrael csészéi+
 40204	Razador kardja+
-40205	Razadors-Dolch+
-40206	Razadors-Bogen+
+40205	Razadors-Tõr+
+40206	Razadors-Íj+
 40207	Razadors kétkezes+
-40208	Razadors-Glocke+
+40208	Razadors-harang+
 40209	Razadors-FA¤cher+
 40210	Jotunok kardja+
-40211	Jotun tõr+
+40211	Jotun tor+
 40212	Jotuns íve+
 40213	Jotuns kétkezes+
 40214	Jotuns harang+
 40215	Jotuns-Faughters+
 40216	Fáraó kard+
-40217	Fáraó tõr+
+40217	Fáraó tor+
 40218	Fáraó íj+
 40219	Fáraó kétkezes+
 40220	Fáraó Bell+
@@ -11684,55 +11683,55 @@ VNUM	LOCALE_NAME
 40226	Orient harang+
 40227	Keleti szövetek+
 40228	Iskolai kard+
-40229	Iskolai tõr+
+40229	Iskolai tor+
 40230	Iskola íveh+
 40231	Iskolai biszexuálisok+
-40232	Iskolai csengõ+
+40232	Iskolai csengo+
 40233	Iskolai tantárgyak+
 40234	Atlantisz kard+
-40235	Atlantisz tõr+
+40235	Atlantisz tor+
 40236	Atlantis íveh+
 40237	Atlantis kétkezes+
 40238	Atlantis Bell+
 40239	Atlantis Books+
 40240	Andun kard+
-40241	Andun tõr+
+40241	Andun tor+
 40242	Andun íve+
 40243	Andun kétkezes+
 40244	Andun Bell+
 40245	Andun csészék+
 40246	Mélytengeri kard+
-40247	Mélytengeri tõr+
+40247	Mélytengeri tor+
 40248	Mélytengeri íve+
 40249	Mélytengeri kétkezes+
 40250	Mélytengeri harang+
 40251	Mélytengeri ventilátorok+
 40252	Szellem szamuráj kard+
-40253	Szellem szamuráj tõr+
+40253	Szellem szamuráj tor+
 40254	Szellem szamuráj íj+
 40255	Szellem szamuráj két kézzel+
 40256	Szellem szamuráj harang+
 40257	Szellem szamuráj alanyok+
 40258	Wukong kard+
-40259	Wukong tõr+
+40259	Wukong tor+
 40260	Wukong íve+
 40261	Wukong kétkezes+
 40262	Wukong harang+
 40263	Wukong csészék+
 40264	Vámpírvadász kard+
-40265	Vámpírvadász tõr+
+40265	Vámpírvadász tor+
 40266	Vámpírvadász íj+
 40267	Vámpírvadász kétszarvúak+
 40268	Vámpírvadász Bell+
 40269	Vámpírvadász könyvek+
 40270	Vérlovag kard+
-40271	Vérlovag tõr+
+40271	Vérlovag tor+
 40272	Vérlovag íj+
 40273	Vérlovag Két kéz+
 40274	Vérlovag harang+
 40275	Vérlovag könyvek+
 40276	Plague Doctor Sword+
-40277	Pestis doktor tõr+
+40277	Pestis doktor tor+
 40278	Pestis doktor íj+
 40279	Pestis doki ribanc+
 40280	Pestis doktor Bell+
@@ -11779,14 +11778,14 @@ VNUM	LOCALE_NAME
 45631	Pestis doktor-sisak(w)+
 55414	okos tojás
 55415	Köves tojás
-55416	Õsi tojás
+55416	Osi tojás
 55417	Gonosz tojás
 55418	Nedves tojás
 55714	Bölcs fickó
-55715	Kis kõ
+55715	Kis ko
 55716	Kis fáraó
 55717	Kis gazember
-55718	Kis életmentõ
+55718	Kis életmento
 30811	A bölcsesség tekercse
 30812	A bölcsesség kulcsa
 30813	Hiányzik 1. könyv
@@ -11794,11 +11793,11 @@ VNUM	LOCALE_NAME
 30815	Hiányzik 3. könyv
 30816	Hiányzik 4. könyv
 30817	Speciális polckulcs
-30734	Pestis kõ
+30734	Pestis ko
 30735	Fekete kulcs
 30736	Pestis kulcs
 30737	Foltos bájital
-30738	Õsi kõ
+30738	Osi ko
 30739	pestiskristály
 30800	Darab pergamen
 30801	Darab pergamen
@@ -11808,13 +11807,13 @@ VNUM	LOCALE_NAME
 30805	A szfinx szignuma
 30806	Piramisok Pass
 30909	Andun hágó
-30910	Lélekvédõ fõzet (kicsi)
-30911	Lélekvédõ fõzet(nagy)
+30910	Lélekvédo fozet (kicsi)
+30911	Lélekvédo fozet(nagy)
 30912	Elvarázsolt Andun kulcs
 30913	Fellebbezési tekercs
 30914	A Succubus amulettje
-30915	Andun rituális kõ
-30916	Andun drágakõ
+30915	Andun rituális ko
+30916	Andun drágako
 30917	Andun szimbólum
 30918	Andun láda
 30919	Atlantis Pass
@@ -11823,8 +11822,8 @@ VNUM	LOCALE_NAME
 55010	Ellenállás(Halfmen)
 55011	Ellenállás(Szörny)
 55012	Embervadász könyv
-55013	Fõnök vadász könyv
-55014	Kõvadász könyv
+55013	Fonök vadász könyv
+55014	Kovadász könyv
 55015	Berserker könyv
 55016	Mágikus szakadás könyv
 55017	Gyorsulási könyv
@@ -11836,53 +11835,53 @@ VNUM	LOCALE_NAME
 55023	Tükör könyv
 55024	Dobd el a könyvet
 55025	Tartománykönyv
-55026	Legyõzhetetlenség könyv
+55026	Legyozhetetlenség könyv
 55027	Gyógyító könyv
 55034	Braumeister könyv
 55035	Szörnyvadász könyv
-55036	Éles szemû könyv
+55036	Éles szemu könyv
 55037	Élet visszavonás könyv
 55038	Pehelysúlyú könyv
-28544	Mágikus kõfejtõ kõ+5
-28545	Mágikus kõfejtõ kõ+5
+28544	Mágikus kofejto ko+5
+28545	Mágikus kofejto ko+5
 50661	Kyanit kristály
 50662	Zodiákus kristály
 50663	Sárkány kristály
 50664	Kígyó kristály
 72327	A kifejezés pergamenje(Perm.)
 55028	A kifejezés kezelése(Perm.)
-100002	Idõelixír(Perm.)
+100002	Idoelixír(Perm.)
 72349	Gyorsító(biológus)
 72053	Battle Pass
 61025	Buffi(7d)
 61026	Buffi
 61030	Nevek pergamenje(Buffi)
-61031	Lélekkõ(Buffi)
-61032	Legendás lélekkõ(Buffi)
+61031	Lélekko(Buffi)
+61032	Legendás lélekko(Buffi)
 61035	Buffi: Áldások könyve
-61036	Buffi: Sárkánysegítõ könyv
+61036	Buffi: Sárkánysegíto könyv
 61037	Buffi: A sebesség könyve
 61038	Buffi: A támadás könyve
-23070	Sötét sárkány kesztyû+0
-23071	Sötét sárkány kesztyû+1
-23072	Sötét sárkány kesztyû+2
-23073	Sötét sárkány kesztyû+3
-23074	Sötét sárkány kesztyû+4
-23075	Sötét sárkány kesztyû+5
-23076	Sötét sárkány kesztyû+6
-23077	Sötét sárkány kesztyû+7
-23078	Sötét sárkány kesztyû+8
-23079	Sötét sárkány kesztyû+9
-23080	Kígyókesztyû+0
-23081	Kígyókesztyû+1
-23082	Kígyókesztyû+2
-23083	Kígyókesztyû+3
-23084	Kígyókesztyû+4
-23085	Kígyókesztyû+5
-23086	Kígyókesztyû+6
-23087	Kígyókesztyû+7
-23088	Kígyókesztyû+8
-23089	Kígyókesztyû+9
+23070	Sötét sárkány kesztyu+0
+23071	Sötét sárkány kesztyu+1
+23072	Sötét sárkány kesztyu+2
+23073	Sötét sárkány kesztyu+3
+23074	Sötét sárkány kesztyu+4
+23075	Sötét sárkány kesztyu+5
+23076	Sötét sárkány kesztyu+6
+23077	Sötét sárkány kesztyu+7
+23078	Sötét sárkány kesztyu+8
+23079	Sötét sárkány kesztyu+9
+23080	Kígyókesztyu+0
+23081	Kígyókesztyu+1
+23082	Kígyókesztyu+2
+23083	Kígyókesztyu+3
+23084	Kígyókesztyu+4
+23085	Kígyókesztyu+5
+23086	Kígyókesztyu+6
+23087	Kígyókesztyu+7
+23088	Kígyókesztyu+8
+23089	Kígyókesztyu+9
 31150	Aura finomító doboz
 91560	Az Aura cselekedete
 91561	Az Aura+ tanúsítványa
@@ -11895,8 +11894,8 @@ VNUM	LOCALE_NAME
 85106	Véres lovag-Szalag
 85107	Pestis orvos-Szalag
 85108	Achievment-Szalag
-30338	Bon a fejfedõhöz
-30339	Fegyverbõr nyugta
+30338	Bon a fejfedohöz
+30339	Fegyverbor nyugta
 30340	A költségek átvétele
 30347	Andun-csillogás(Páncél)
 30348	Andun-Shining(Fegyver)
@@ -11968,16 +11967,16 @@ VNUM	LOCALE_NAME
 5517	Kék acélharang+7
 5518	Kék acélharang+8
 5519	Kék acélharang+9
-1510	Kék acél tõr+0
-1511	Kék acél tõr+1
-1512	Kék acél tõr+2
-1513	Kék acél tõr+3
-1514	Kék acél tõr+4
-1515	Kék acél tõr+5
-1516	Kék acél tõr+6
-1517	Kék acél tõr+7
-1518	Kék acél tõr+8
-1519	Kék acél tõr+9
+1510	Kék acél tor+0
+1511	Kék acél tor+1
+1512	Kék acél tor+2
+1513	Kék acél tor+3
+1514	Kék acél tor+4
+1515	Kék acél tor+5
+1516	Kék acél tor+6
+1517	Kék acél tor+7
+1518	Kék acél tor+8
+1519	Kék acél tor+9
 7510	Kék acélfogók+0
 7511	Kék acélfogók+1
 7512	Kék acélfogók+2
@@ -12016,12 +12015,12 @@ VNUM	LOCALE_NAME
 950838	Kék harmat
 950839	Fehér harmat
 927209	Zöld bájital(P)
-927212	Lila fõzet(P)
+927212	Lila fozet(P)
 939017	Sárkány Isten élet(P)
 939018	Sárkány isten támadás(P)
 939019	Sárkányisten intelligencia(P)
 939020	Sárkány isten védelme(P)
-939024	Átütõ híve(P)
+939024	Átüto híve(P)
 939025	Kritikus híve(P)
 950821	Vörös harmat(P)
 950822	Rózsaszín harmat(P)
@@ -12043,11 +12042,11 @@ VNUM	LOCALE_NAME
 72347	Dungeon gyorsító(alacsony)
 72348	Dungeon gyorsító(Közepes)
 72361	Dungeon gyorsító(Magas)
-25044	Elvarázsolt kõ
-25045	Elbûvölt kõ
+25044	Elvarázsolt ko
+25045	Elbuvölt ko
 50128	Sárkányisten csomag(14d)
 50129	Tau csomag(14d)
-950840	Boszorkányfõzet
+950840	Boszorkányfozet
 950841	Varázsital
 950842	Töklé
 69155	Yang-Voucher(500K)
@@ -12064,3 +12063,75 @@ VNUM	LOCALE_NAME
 30586	Sima ékszerek (lila)
 30559	Fényes fonal (lila)
 31085	Nehéz víz
+40282	Heilignacht-Kard+
+40283	Heilignacht-Tõr+
+40284	Heilignacht-Íj+
+40285	Heilignacht-Kétkezes+
+40286	Heilignacht-Harang+
+40287	Heilignacht-Legyezõ+
+40288	Jégkirályság-Kard+
+40289	Jégkirályság-Tõr+
+40290	Jégkirályság-Íj+
+40291	Jégkirályság-Kétkezes+
+40292	Jégkirályság-Harang+
+40293	Jégkirályság-Legyezõ+
+40294	Frost madár-Kard+
+40295	Frost madár-Tõr+
+40296	Frost madár-Íj+
+40297	Frost madár-Kétkezes+
+40298	Frost madár-Harang+
+40299	Frost madár-Legyezõ+
+40300	Téli földek-Kard+
+40301	Téli földek-Tõr+
+40302	Téli földek-Íj+
+40303	Téli földek-Kétkezes+
+40304	Téli földek-Harang+
+40305	Téli földek-Legyezõ+
+30363	Heilignacht-Shining(Páncél)
+30364	Heilignacht-Shining(Fegyver)
+30365	Jégkirályság-Shining(Páncél)
+30366	Jégkirályság-Shining(Fegyver)
+30367	Frost madár-Shining(Páncél)
+30368	Frost madár-Shining(Fegyver)
+30369	Téli földek-Shining(Páncél)
+30370	Téli földek-Shining(Fegyver)
+85109	Heilignacht-Szalag
+85110	Jégkirályság-Szalag
+85111	Frost madár-Szalag
+85112	Téli földek-Szalag
+41892	Heilignacht-Jelmez(w)+
+41893	Heilignacht-Jelmez(m)+
+45632	Heilignacht-Sisak(m)+
+45633	Heilignacht-Sisak(w)+
+41894	Jégkirályság-Jelmez(w)+
+41895	Jégkirályság-Jelmez(m)+
+45634	Jégkirályság-Sisak(m)+
+45635	Jégkirályság-Sisak(w)+
+41896	Frost madár-Jelmez(w)+
+41897	Frost madár-Jelmez(m)+
+45636	Frost madár-Sisak(m)+
+45637	Frost madár-Sisak(w)+
+41898	Téli földek-Jelmez(w)+
+41899	Téli földek-Jelmez(m)+
+45638	Téli földek-Sisak(m)+
+45639	Téli földek-Sisak(w)+
+950843	Kakaó mályvacukorral
+950844	Karácsonyi kekszek
+950845	Mézeskalács ember
+950846	Cukornád
+950847	Hóember
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Hóember
+53350	Mini-Hófutó
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Hófutó
+71274	Téli varázslatos medve
+71275	Téli rénszarvas
+51647	Karácsonyi ajándék(Bronz)
+51648	Weihnachtsgeschenk(Ezüst)
+51649	Weihnachtsgeschenk(Arany)
+39064	A végzet bónja

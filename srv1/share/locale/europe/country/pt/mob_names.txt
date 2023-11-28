@@ -2949,4 +2949,17 @@ VNUM	LOCALE_NAME
 34183	Ceifador de mini-grades
 34184	Mini-Wukong
 34185	Mini-Nixie
-
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Corredor de neve
+20291	Urso mágico de inverno
+20292	Renas de inverno
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Boneco de neve
+34190	Mini-Corredor de neve
+9435	Caixa de oferta (Bronze)
+9436	Caixa de oferta (prateada)
+9437	Caixa de oferta (prateada)

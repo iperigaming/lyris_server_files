@@ -7146,8 +7146,7 @@ VNUM	LOCALE_NAME
 39060	Baúl Chamanes Drag. (G)
 39061	Baúl Chamanes Cura. (P)
 39062	Baúl Chamanes Cura. (G)
-39063	Restaurar Mercado Gaya
-39064	Ampliación Mercado Gaya
+39063	Restaurar Mercado Gaya´
 39067	Caja de fragmentos
 39068	Caja fragmen. adornada
 39069	Caja fragmen. brillantes
@@ -12064,3 +12063,75 @@ VNUM	LOCALE_NAME
 30586	Joyas lisas(morado)
 30559	Hilo brillante (morado)
 31085	Agua pesada
+40282	Nochebuena-Espada+
+40283	Nochebuena-Daga+
+40284	Nochebuena-Arco+
+40285	Nochebuena-Glaive+
+40286	Nochebuena-Campana+
+40287	Nochebuena-Fan+
+40288	Reino del hielo-Espada+
+40289	Reino del hielo-Daga+
+40290	Reino del hielo-Arco+
+40291	Reino del hielo-Glaive+
+40292	Reino del hielo-Campana+
+40293	Reino del hielo-Fan+
+40294	Pájaro helado-Espada+
+40295	Pájaro helado-Daga+
+40296	Pájaro helado-Arco+
+40297	Pájaro helado-Glaive+
+40298	Pájaro helado-Campana+
+40299	Pájaro helado-Fan+
+40300	País de invierno-Espada+
+40301	País de invierno-Daga+
+40302	País de invierno-Arco+
+40303	País de invierno-Glaive+
+40304	País de invierno-Campana+
+40305	País de invierno-Fan+
+30363	Nochebuena-Shining(A)
+30364	Nochebuena-Shining(W)
+30365	Reino del hielo-Shining(A)
+30366	Reino del hielo-Shining(W)
+30367	Pájaro helado-Shining(A)
+30368	Pájaro helado-Shining(W)
+30369	País de invierno-Shining(A)
+30370	País de invierno-Shining(W)
+85109	Nochebuena-Cinta
+85110	Reino del hielo-Cinta
+85111	Pájaro helado-Cinta
+85112	País de invierno-Cinta
+41892	Nochebuena-Vestuario(w)+
+41893	Nochebuena-Vestuario(m)+
+45632	Nochebuena-Casco(m)+
+45633	Nochebuena-Casco(w)+
+41894	Reino del hielo-Vestuario(w)+
+41895	Reino del hielo-Vestuario(m)+
+45634	Reino del hielo-Casco(m)+
+45635	Reino del hielo-Casco(w)+
+41896	Pájaro helado-Vestuario(w)+
+41897	Pájaro helado-Vestuario(m)+
+45636	Pájaro helado-Casco(m)+
+45637	Pájaro helado-Casco(w)+
+41898	País de invierno-Vestuario(w)+
+41899	País de invierno-Vestuario(m)+
+45638	País de invierno-Casco(m)+
+45639	País de invierno-Casco(w)+
+950843	Cacao con malvaviscos
+950844	Galletas de Navidad
+950845	Hombre de jengibre
+950846	Bastón de caramelo
+950847	Muñeco de nieve
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Muñeco de nieve
+53350	Mini-Corredor de nieve
+71270	Fenrir
+71271	Qilin
+71272	Rodolfo
+71273	Corredor de nieve
+71274	Oso mágico de invierno
+71275	Renos mágico de invierno
+51647	Regalo de Navidad(Bronce)
+51648	Regalo de Navidad(Plata)
+51649	Regalo de Navidad(Oro)
+39064	Bono del destino

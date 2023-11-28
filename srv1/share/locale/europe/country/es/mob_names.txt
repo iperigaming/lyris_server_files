@@ -2949,3 +2949,17 @@ VNUM	LOCALE_NAME
 34183	Minigrim Segador
 34184	Mini-Wukong
 34185	Mini-Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Corredor de nieve
+20291	Oso mágico de invierno
+20292	Renos de invierno
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Muñeco de nieve
+34190	Mini-Corredor de nieve
+9435	Caja de regalo (Bronce)
+9436	Caja de regalo (plateada)
+9437	Caja de regalo (dorada)

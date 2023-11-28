@@ -12005,3 +12005,74 @@ VNUM	LOCALE_NAME
 10958	Simsek Tilsimi(Parça)
 10959	Toprak Tilsimi(Parça)
 10960	Karanlik Tilsim(Parça)
+40282	Noel Arifesi-Kýlýç+
+40283	Noel Arifesi-Hançer+
+40284	Noel Arifesi-Yay+
+40285	Noel Arifesi-Ýki elli+
+40286	Noel Arifesi-Çan+
+40287	Noel Arifesi-Yelpaze+
+40288	Buz Krallýðý-Kýlýç+
+40289	Buz Krallýðý-Hançer+
+40290	Buz Krallýðý-Yay+
+40291	Buz Krallýðý-Ýki elli+
+40292	Buz Krallýðý-Çan+
+40293	Buz Krallýðý-Yelpaze+
+40294	Don kuþu-Kýlýç+
+40295	Don kuþu-Hançer+
+40296	Don kuþu-Yay+
+40297	Don kuþu-Ýki elli+
+40298	Don kuþu-Çan+
+40299	Don kuþu-Yelpaze+
+40300	Kýþ Diyarý-Kýlýç+
+40301	Kýþ Diyarý-Hançer+
+40302	Kýþ Diyarý-Yay+
+40303	Kýþ Diyarý-Ýki elli+
+40304	Kýþ Diyarý-Çan+
+40305	Kýþ Diyarý-Yelpaze+
+30363	Noel Arifesi-Shining(Zýrh)
+30364	Noel Arifesi-Shining(Silah)
+30365	Buz Krallýðý-Shining(Zýrh)
+30366	Buz Krallýðý-Shining(Silah)
+30367	Don kuþu-Shining(Zýrh)
+30368	Don kuþu-Shining(Silah)
+30369	Kýþ Diyarý-Shining(Zýrh)
+30370	Kýþ Diyarý-Shining(Silah)
+85109	Noel Arifesi-Teyp
+85110	Buz Krallýðý-Teyp
+85111	Don kuþu-Teyp
+85112	Kýþ Diyarý-Teyp
+41892	Noel Arifesi-Kostüm(w)+
+41893	Noel Arifesi-Kostüm(m)+
+45632	Noel Arifesi-Kask(m)+
+45633	Noel Arifesi-Kask(w)+
+41894	Buz Krallýðý-Kostüm(w)+
+41895	Buz Krallýðý-Kostüm(m)+
+45634	Buz Krallýðý-Kask(m)+
+45635	Buz Krallýðý-Kask(w)+
+41896	Don kuþu-Kostüm(w)+
+41897	Don kuþu-Kostüm(m)+
+45636	Don kuþu-Kask(m)+
+45637	Don kuþu-Kask(w)+
+41898	Kýþ Diyarý-Kostüm(w)+
+41899	Kýþ Diyarý-Kostüm(m)+
+45638	Kýþ Diyarý-Kask(m)+
+45639	Kýþ Diyarý-Kask(w)+
+950843	Marþmelovlu kakao
+950844	Noel bisküvileri
+950845	Zencefilli kurabiye adam
+950846	þeker kamýþý
+950847	Kardan Adam
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Kardan Adam
+53350	Mini-Kar koþucusu
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Kar koþucusu
+71274	Kýþ sihirli ayýsý
+71275	Kýþ ren geyiði
+51647	Noel Hediyesi(Bronz)
+51648	Noel Hediyesi(Gümüþ)
+51649	Noel Hediyesi(Altýn)

@@ -7147,7 +7147,6 @@ VNUM	LOCALE_NAME
 39061	Coffre Chamane Soin (p)
 39062	Coffre Chamane Soin (g)
 39063	Réinit. bourse aux Gayas
-39064	Ext. bourse aux Gayas
 39067	Caisse à fragment
 39068	Caisse à fragment ornée
 39069	Caisse à frag. brillant
@@ -11887,16 +11886,16 @@ VNUM	LOCALE_NAME
 91560	Acte de l'aura
 91561	Certificat de l'Aura+
 85100	Bande d'Andun
-85101	Atlantis-Band
+85101	Atlantis-bande
 85102	Ruban des profondeurs
 85103	Ruban adhésif Samouraï fantôme
-85104	Wukong-Band
+85104	Wukong-bande
 85105	Bande de chasseurs de vampires
 85106	Tome des chevaliers de sang
 85107	Bande du docteur de la plaie
 85108	Bande d'achèvement
 30338	Bon pour un couvre-chef
-30339	Bon pour Waffenskin
+30339	Bon pour A.nskin
 30340	Bon pour le Costume
 30347	Andun-Shining(armure)
 30348	Andun-Shining(arme)
@@ -12470,91 +12469,91 @@ VNUM	LOCALE_NAME
 40194	Oyoroi-Arco+
 40195	Oyoroi-Dos manos+
 40196	Oyoroi-Campana+
-40197	Oyoroi-Fan+
+40197	Oyoroi-Éventail+
 40198	Azraels-Espada+
 40199	Azraels-Daga+
 40200	Azraels-Arco+
 40201	Azraels-Dos manos+
 40202	Azraels-Campana+
-40203	Azraels-Fan+
+40203	Azraels-Éventail+
 40204	Razadors-Espada+
 40205	Razadors-Daga+
 40206	Razadors-Arco+
 40207	Razadors-Dos manos+
 40208	Razadors-Campana+
-40209	Razadors-Fan+
+40209	Razadors-Éventail+
 40210	Jotuns-Espada+
 40211	Jotuns-Daga+
 40212	Jotuns-Arco+
 40213	Jotuns-Dos manos+
 40214	Jotuns-Campana+
-40215	Jotuns-Fan+
+40215	Jotuns-Éventail+
 40216	Faraón-Espada+
 40217	Faraón-Daga+
 40218	Faraón-Arco+
 40219	Faraón-Dos manos+
 40220	Faraón-Campana+
-40221	Faraón-Fan+
+40221	Faraón-Éventail+
 40222	Oriente-Espada+
 40223	Oriente-Daga+
 40224	Oriente-Arco+
 40225	Oriente-Dos manos+
 40226	Oriente-Campana+
-40227	Oriente-Fan+
+40227	Oriente-Éventail+
 40228	Escuela-Espada+
 40229	Escuela-Daga+
 40230	Escuela-Arco+
 40231	Escuela-Dos manos+
 40232	Escuela-Campana+
-40233	Escuela-Fan+
+40233	Escuela-Éventail+
 40234	Atlantis-Espada+
 40235	Atlantis-Daga+
 40236	Atlantis-Arco+
 40237	Atlantis-Dos manos+
 40238	Atlantis-Campana+
-40239	Atlantis-Fan+
+40239	Atlantis-Éventail+
 40240	Andun-Espada+
 40241	Andun-Daga+
 40242	Andun-Arco+
 40243	Andun-Dos manos+
 40244	Andun-Campana+
-40245	Andun-Fan+
+40245	Andun-Éventail+
 40246	Profond-Espada+
 40247	Profond-Daga+
 40248	Profond-Arco+
 40249	Profond-Dos manos+
 40250	Profond-Campana+
-40251	Profond-Fan+
+40251	Profond-Éventail+
 40252	Espíritu Samurai-Espada+
 40253	Espíritu Samurai-Daga+
 40254	Espíritu Samurai-Arco+
 40255	Espíritu Samurai-Dos manos+
 40256	Espíritu Samurai-Campana+
-40257	Espíritu Samurai-Fan+
+40257	Espíritu Samurai-Éventail+
 40258	Wukong-Espada+
 40259	Wukong-Daga+
 40260	Wukong-Arco+
 40261	Wukong-Dos manos+
 40262	Wukong-Campana+
-40263	Wukong-Fan+
+40263	Wukong-Éventail+
 40264	Cazador vampiros-Espada+
 40265	Cazador vampiros-Daga+
 40266	Cazador vampiros-Arco+
 40267	Cazador vampiros-Dos manos+
 40268	Cazador vampiros-Campana+
-40269	Cazador vampiros-Fan+
+40269	Cazador vampiros-Éventail+
 40270	Chevalier du sang-Espada+
 40271	Chevalier du sang-Daga+
 40272	Chevalier du sang-Arco+
 40273	Chevalier du sang-Dos manos+
 40274	Chevalier du sang-Campana+
-40275	Chevalier du sang-Fan+
+40275	Chevalier du sang-Éventail+
 40276	Médico de la peste-Espada+
 40277	Médico de la peste-Daga+
 40278	Médico de la peste-Arco+
 40279	Médico de la peste-Dos manos+
 40280	Médico de la peste-Campana+
-40281	Médico de la peste-Fan+
+40281	Médico de la peste-Éventail+
 41872	Jotun-Vestuario(w)+
 41873	Jotun-Vestuario(m)+
 45612	Jotun-Casco(m)+
@@ -12882,3 +12881,75 @@ VNUM	LOCALE_NAME
 30586	Bijoux lisses (violet)
 30559	Fil brillant (violet)
 31085	Eau lourde
+40282	Veille de Noël-Espada+
+40283	Veille de Noël-Daga+
+40284	Veille de Noël-Arco+
+40285	Veille de Noël-Dos manos+
+40286	Veille de Noël-Campana+
+40287	Veille de Noël-Éventail+
+40288	Royaume de glace-Espada+
+40289	Royaume de glace-Daga+
+40290	Royaume de glace-Arco+
+40291	Royaume de glace-Dos manos+
+40292	Royaume de glace-Campana+
+40293	Royaume de glace-Éventail+
+40294	Oiseau de givre-Espada+
+40295	Oiseau de givre-Daga+
+40296	Oiseau de givre-Arco+
+40297	Oiseau de givre-Dos manos+
+40298	Oiseau de givre-Campana+
+40299	Oiseau de givre-Éventail+
+40300	Pays d'hiver-Espada+
+40301	Pays d'hiver-Daga+
+40302	Pays d'hiver-Arco+
+40303	Pays d'hiver-Dos manos+
+40304	Pays d'hiver-Campana+
+40305	Pays d'hiver-Éventail+
+30363	Veille de Noël-Shining(Ar.)
+30364	Veille de Noël-Shining(A.)
+30365	Royaume de glace-Shining(Ar)
+30366	Royaume de glace-Shining(A.)
+30367	Oiseau de givre-Shining(Ar)
+30368	Oiseau de givre-Shining(A.)
+30369	Pays d'hiver-Shining(Ar)
+30370	Pays d'hiver-Shining(A.)
+85109	Veille de Noël-bande
+85110	Royaume de glace-bande
+85111	Oiseau de givre-bande
+85112	Pays d'hiver-bande
+41892	Veille de Noël-Costume(w)+
+41893	Veille de Noël-Costume(m)+
+45632	Veille de Noël-Casque(m)+
+45633	Veille de Noël-Casque(w)+
+41894	Royaume de glace-Costume(w)+
+41895	Royaume de glace-Costume(m)+
+45634	Royaume de glace-Casque(m)+
+45635	Royaume de glace-Casque(w)+
+41896	Oiseau de givre-Costume(w)+
+41897	Oiseau de givre-Costume(m)+
+45636	Oiseau de givre-Casque(m)+
+45637	Oiseau de givre-Casque(w)+
+41898	Pays d'hiver-Costume(w)+
+41899	Pays d'hiver-Costume(m)+
+45638	Pays d'hiver-Casque(m)+
+45639	Pays d'hiver-Casque(w)+
+950843	Cacao avec guimauve
+950844	Biscuits de Noël
+950845	Bonhomme en pain d'épice
+950846	Sucre d'orge
+950847	Bonhomme de neige
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Bonhomme de neige
+53350	Mini-Raquette à neige
+71270	Fenrir
+71271	Qilin
+71272	Rodolphe
+71273	Raquette à neige
+71274	Ourson magique d'hiver
+71275	Renne magique d'hiver
+51647	Cadeau de Noël(bronze)
+51648	Cadeau de Noël(argent)
+51649	Cadeau de Noël(or)
+39064	Bon du destin

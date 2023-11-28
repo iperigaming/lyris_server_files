@@ -3212,16 +3212,16 @@ VNUM	LOCALE_NAME
 11277	Platosa de Aur+7
 11278	Platosa de Aur+8
 11279	Platosa de Aur+9
-11280	Armura Zeului Dragon+0
-11281	Armura Zeului Dragon+1
-11282	Armura Zeului Dragon+2
-11283	Armura Zeului Dragon+3
-11284	Armura Zeului Dragon+4
-11285	Armura Zeului Dragon+5
-11286	Armura Zeului Dragon+6
-11287	Armura Zeului Dragon+7
-11288	Armura Zeului Dragon+8
-11289	Armura Zeului Dragon+9
+11280	Arm. Zeului Dragon+0
+11281	Arm. Zeului Dragon+1
+11282	Arm. Zeului Dragon+2
+11283	Arm. Zeului Dragon+3
+11284	Arm. Zeului Dragon+4
+11285	Arm. Zeului Dragon+5
+11286	Arm. Zeului Dragon+6
+11287	Arm. Zeului Dragon+7
+11288	Arm. Zeului Dragon+8
+11289	Arm. Zeului Dragon+9
 11290	Armurã de oþel negru+0
 11291	Armurã de oþel negru+1
 11292	Armurã de oþel negru+2
@@ -3342,16 +3342,16 @@ VNUM	LOCALE_NAME
 11607	Platosa Recviem+7
 11608	Platosa Recviem+8
 11609	Platosa Recviem+9
-11610	Armura Furtuna+0
-11611	Armura Furtuna+1
-11612	Armura Furtuna+2
-11613	Armura Furtuna+3
-11614	Armura Furtuna+4
-11615	Armura Furtuna+5
-11616	Armura Furtuna+6
-11617	Armura Furtuna+7
-11618	Armura Furtuna+8
-11619	Armura Furtuna+9
+11610	Arm. Furtuna+0
+11611	Arm. Furtuna+1
+11612	Arm. Furtuna+2
+11613	Arm. Furtuna+3
+11614	Arm. Furtuna+4
+11615	Arm. Furtuna+5
+11616	Arm. Furtuna+6
+11617	Arm. Furtuna+7
+11618	Arm. Furtuna+8
+11619	Arm. Furtuna+9
 11620	Platoºã Ghinion+0
 11621	Platoºã Ghinion+1
 11622	Platoºã Ghinion+2
@@ -5099,16 +5099,16 @@ VNUM	LOCALE_NAME
 19897	Hainã Zodiac+7
 19898	Hainã Zodiac+8
 19899	Hainã Zodiac+9
-20000	Armura Corn de Diavol +0
-20001	Armura Corn de Diavol +1
-20002	Armura Corn de Diavol +2
-20003	Armura Corn de Diavol +3
-20004	Armura Corn de Diavol +4
-20005	Armura Corn de Diavol +5
-20006	Armura Corn de Diavol +6
-20007	Armura Corn de Diavol +7
-20008	Armura Corn de Diavol +8
-20009	Armura Corn de Diavol +9
+20000	Arm. Corn de Diavol +0
+20001	Arm. Corn de Diavol +1
+20002	Arm. Corn de Diavol +2
+20003	Arm. Corn de Diavol +3
+20004	Arm. Corn de Diavol +4
+20005	Arm. Corn de Diavol +5
+20006	Arm. Corn de Diavol +6
+20007	Arm. Corn de Diavol +7
+20008	Arm. Corn de Diavol +8
+20009	Arm. Corn de Diavol +9
 20250	Costum Vanator Dragoni+0
 20251	Costum Vanator Dragoni+1
 20252	Costum Vanator Dragoni+2
@@ -5119,16 +5119,16 @@ VNUM	LOCALE_NAME
 20257	Costum Vanator Dragoni+7
 20258	Costum Vanator Dragoni+8
 20259	Costum Vanator Dragoni+9
-20500	Armura Placata cu Os +0
-20501	Armura Placata cu Os +1
-20502	Armura Placata cu Os +2
-20503	Armura Placata cu Os +3
-20504	Armura Placata cu Os +4
-20505	Armura Placata cu Os +5
-20506	Armura Placata cu Os +6
-20507	Armura Placata cu Os +7
-20508	Armura Placata cu Os +8
-20509	Armura Placata cu Os +9
+20500	Arm. Placata cu Os +0
+20501	Arm. Placata cu Os +1
+20502	Arm. Placata cu Os +2
+20503	Arm. Placata cu Os +3
+20504	Arm. Placata cu Os +4
+20505	Arm. Placata cu Os +5
+20506	Arm. Placata cu Os +6
+20507	Arm. Placata cu Os +7
+20508	Arm. Placata cu Os +8
+20509	Arm. Placata cu Os +9
 20750	Costum de Aur +0
 20751	Costum de Aur +1
 20752	Costum de Aur +2
@@ -5339,66 +5339,66 @@ VNUM	LOCALE_NAME
 20957	Armurã Onix+7
 20958	Armurã Onix+8
 20959	Armurã Onix+9
-21000	Armura Vant Divin+0
-21001	Armura Vant Divin+1
-21002	Armura Vant Divin+2
-21003	Armura Vant Divin+3
-21004	Armura Vant Divin+4
-21005	Armura Vant Divin+5
-21006	Armura Vant Divin+6
-21007	Armura Vant Divin+7
-21008	Armura Vant Divin+8
-21009	Armura Vant Divin+9
-21010	Armura Uragan+0
-21011	Armura Uragan+1
-21012	Armura Uragan+2
-21013	Armura Uragan+3
-21014	Armura Uragan+4
-21015	Armura Uragan+5
-21016	Armura Uragan+6
-21017	Armura Uragan+7
-21018	Armura Uragan+8
-21019	Armura Uragan+9
-21020	Armura din Malachit+0
-21021	Armura din Malachit+1
-21022	Armura din Malachit+2
-21023	Armura din Malachit+3
-21024	Armura din Malachit+4
-21025	Armura din Malachit+5
-21026	Armura din Malachit+6
-21027	Armura din Malachit+7
-21028	Armura din Malachit+8
-21029	Armura din Malachit+9
-21030	Armura Tornada+0
-21031	Armura Tornada+1
-21032	Armura Tornada+2
-21033	Armura Tornada+3
-21034	Armura Tornada+4
-21035	Armura Tornada+5
-21036	Armura Tornada+6
-21037	Armura Tornada+7
-21038	Armura Tornada+8
-21039	Armura Tornada+9
-21040	Armura din Bronz+0
-21041	Armura din Bronz+1
-21042	Armura din Bronz+2
-21043	Armura din Bronz+3
-21044	Armura din Bronz+4
-21045	Armura din Bronz+5
-21046	Armura din Bronz+6
-21047	Armura din Bronz+7
-21048	Armura din Bronz+8
-21049	Armura din Bronz+9
-21050	Armura Spiridus+0
-21051	Armura Spiridus+1
-21052	Armura Spiridus+2
-21053	Armura Spiridus+3
-21054	Armura Spiridus+4
-21055	Armura Spiridus+5
-21056	Armura Spiridus+6
-21057	Armura Spiridus+7
-21058	Armura Spiridus+8
-21059	Armura Spiridus+9
+21000	Arm. Vant Divin+0
+21001	Arm. Vant Divin+1
+21002	Arm. Vant Divin+2
+21003	Arm. Vant Divin+3
+21004	Arm. Vant Divin+4
+21005	Arm. Vant Divin+5
+21006	Arm. Vant Divin+6
+21007	Arm. Vant Divin+7
+21008	Arm. Vant Divin+8
+21009	Arm. Vant Divin+9
+21010	Arm. Uragan+0
+21011	Arm. Uragan+1
+21012	Arm. Uragan+2
+21013	Arm. Uragan+3
+21014	Arm. Uragan+4
+21015	Arm. Uragan+5
+21016	Arm. Uragan+6
+21017	Arm. Uragan+7
+21018	Arm. Uragan+8
+21019	Arm. Uragan+9
+21020	Arm. din Malachit+0
+21021	Arm. din Malachit+1
+21022	Arm. din Malachit+2
+21023	Arm. din Malachit+3
+21024	Arm. din Malachit+4
+21025	Arm. din Malachit+5
+21026	Arm. din Malachit+6
+21027	Arm. din Malachit+7
+21028	Arm. din Malachit+8
+21029	Arm. din Malachit+9
+21030	Arm. Tornada+0
+21031	Arm. Tornada+1
+21032	Arm. Tornada+2
+21033	Arm. Tornada+3
+21034	Arm. Tornada+4
+21035	Arm. Tornada+5
+21036	Arm. Tornada+6
+21037	Arm. Tornada+7
+21038	Arm. Tornada+8
+21039	Arm. Tornada+9
+21040	Arm. din Bronz+0
+21041	Arm. din Bronz+1
+21042	Arm. din Bronz+2
+21043	Arm. din Bronz+3
+21044	Arm. din Bronz+4
+21045	Arm. din Bronz+5
+21046	Arm. din Bronz+6
+21047	Arm. din Bronz+7
+21048	Arm. din Bronz+8
+21049	Arm. din Bronz+9
+21050	Arm. Spiridus+0
+21051	Arm. Spiridus+1
+21052	Arm. Spiridus+2
+21053	Arm. Spiridus+3
+21054	Arm. Spiridus+4
+21055	Arm. Spiridus+5
+21056	Arm. Spiridus+6
+21057	Arm. Spiridus+7
+21058	Arm. Spiridus+8
+21059	Arm. Spiridus+9
 21060	Platoºã Firellium+0
 21061	Platoºã Firellium+1
 21062	Platoºã Firellium+2
@@ -5409,36 +5409,36 @@ VNUM	LOCALE_NAME
 21067	Platoºã Firellium+7
 21068	Platoºã Firellium+8
 21069	Platoºã Firellium+9
-21070	Armura Umbra Noptii+0
-21071	Armura Umbra Noptii+1
-21072	Armura Umbra Noptii+2
-21073	Armura Umbra Noptii+3
-21074	Armura Umbra Noptii+4
-21075	Armura Umbra Noptii+5
-21076	Armura Umbra Noptii+6
-21077	Armura Umbra Noptii+7
-21078	Armura Umbra Noptii+8
-21079	Armura Umbra Noptii+9
-21080	Armura Vanator+0
-21081	Armura Vanator+1
-21082	Armura Vanator+2
-21083	Armura Vanator+3
-21084	Armura Vanator+4
-21085	Armura Vanator+5
-21086	Armura Vanator+6
-21087	Armura Vanator+7
-21088	Armura Vanator+8
-21089	Armura Vanator+9
-21090	Armura Comandant+0
-21091	Armura Comandant+1
-21092	Armura Comandant+2
-21093	Armura Comandant+3
-21094	Armura Comandant+4
-21095	Armura Comandant+5
-21096	Armura Comandant+6
-21097	Armura Comandant+7
-21098	Armura Comandant+8
-21099	Armura Comandant+9
+21070	Arm. Umbra Noptii+0
+21071	Arm. Umbra Noptii+1
+21072	Arm. Umbra Noptii+2
+21073	Arm. Umbra Noptii+3
+21074	Arm. Umbra Noptii+4
+21075	Arm. Umbra Noptii+5
+21076	Arm. Umbra Noptii+6
+21077	Arm. Umbra Noptii+7
+21078	Arm. Umbra Noptii+8
+21079	Arm. Umbra Noptii+9
+21080	Arm. Vanator+0
+21081	Arm. Vanator+1
+21082	Arm. Vanator+2
+21083	Arm. Vanator+3
+21084	Arm. Vanator+4
+21085	Arm. Vanator+5
+21086	Arm. Vanator+6
+21087	Arm. Vanator+7
+21088	Arm. Vanator+8
+21089	Arm. Vanator+9
+21090	Arm. Comandant+0
+21091	Arm. Comandant+1
+21092	Arm. Comandant+2
+21093	Arm. Comandant+3
+21094	Arm. Comandant+4
+21095	Arm. Comandant+5
+21096	Arm. Comandant+6
+21097	Arm. Comandant+7
+21098	Arm. Comandant+8
+21099	Arm. Comandant+9
 21100	NoNAme
 21101	NoNAme
 21102	NoNAme
@@ -6750,11 +6750,11 @@ VNUM	LOCALE_NAME
 31019	Praf Carapax
 31020	Bulb Floare de Stanca
 31021	NoNAme
-31022	Armura din Zale Oin
+31022	Arm. din Zale Oin
 31023	NoNAme
 31024	Piele Manticore
 31025	NoNAme
-31026	Armura Crustaceu
+31026	Arm. Crustaceu
 31027	Nisip Fin
 31028	Caramida de Lut
 31029	Lumina Interioara
@@ -7550,10 +7550,10 @@ VNUM	LOCALE_NAME
 41312	Sihastru (F,negru)
 41313	Sihastru+ (M,negru)
 41314	Sihastru+ (F,negru)
-41315	Armura Azrael (m)
-41316	Armura Azrael (f)
-41317	Armura Azrael+ (m)
-41318	Armura Azrael+ (f)
+41315	Arm. Azrael (m)
+41316	Arm. Azrael (f)
+41317	Arm. Azrael+ (m)
+41318	Arm. Azrael+ (f)
 41319	Costum Cobra
 41320	Costum Jack Dovleacul(m)
 41321	Rochie Jack Dovleacul(f)
@@ -8019,8 +8019,8 @@ VNUM	LOCALE_NAME
 41819	Robã Dokkaebi Azur +(m)
 41820	Robã Dokkaebi Negr +(f)
 41821	Robã Dokkaebi Azur +(f)
-41822	Armura Condamnaþilor (m)
-41823	Armura Condamnaþilor (f)
+41822	Arm. Condamnaþilor (m)
+41823	Arm. Condamnaþilor (f)
 41824	Cojoc de Iarnã (m)
 41825	Cojoc de Lux (m)
 41826	Cojoc de Iarnã (f)
@@ -8401,13 +8401,13 @@ VNUM	LOCALE_NAME
 45353	Bandanã KSA+ (f)
 45354	Bandanã SVK+ (f)
 45355	Bandanã TUR+ (f)
-45356	Aeolus Helmet (m)
+45356	Aeolus Cascãet (m)
 45357	Coif Astraeus (m)
-45358	Aeolus Helmet (f)
+45358	Aeolus Cascãet (f)
 45359	Coif Astraeus (f)
-45360	Aeolus Helmet+ (m)
+45360	Aeolus Cascãet+ (m)
 45361	Coif Astraeus+ (m)
-45362	Aeolus Helmet+ (f)
+45362	Aeolus Cascãet+ (f)
 45363	Coif Astraeus+ (f)
 45364	Coif Gardã Dragon de Foc
 45365	Coif Gardã Dragon Gheaþã
@@ -11966,19 +11966,19 @@ VNUM	LOCALE_NAME
 30334	Voucher Eºarfe
 30347	Andun-Shining(Armurã)
 30348	Andun-Shining(Armã)
-30349	Atlantis-Shining(Armura)
+30349	Atlantis-Shining(Arm.)
 30350	Atlantis-Shining(Armã)
-30351	Marea adâncã-Shining(Armura)
+30351	Marea adâncã-Shining(Arm.)
 30352	Marea adâncã-Shining(armã)
-30353	Spiritul samurai-Shining(Armura)
+30353	Spiritul samurai-Shining(Arm.)
 30354	Spiritul samurai-Shining(armã)
-30355	Wukong-Shining(Armura)
+30355	Wukong-Shining(Arm.)
 30356	Wukong-Shining(Armã)
 30357	Vampir vânãtor-Shining(Armurã)
 30358	Vampir vânãtor-Shining(Armã)
 30359	Cavalerul sângelui-Shining(Armurã)
 30360	Cavalerul sângelui-Shining(Armã)
-30361	Medicul Ciumã-Shining(Armura)
+30361	Medicul Ciumã-Shining(Arm.)
 30362	Medicul Ciumã-Shining(Armã)
 69151	Încântare neobiºnuitã
 69152	Încântare rarã
@@ -12137,4 +12137,75 @@ VNUM	LOCALE_NAME
 30586	Bijuterii netede (violetã)
 30559	Fire strãlucitoare (violetã)
 31085	Apã grea
-
+40282	Ajun de Crãciun-Sabie+
+40283	Ajun de Crãciun-Pumnalul+
+40284	Ajun de Crãciun-Arc+
+40285	Ajun de Crãciun-Douã mâini+
+40286	Ajun de Crãciun-Clopot+
+40287	Ajun de Crãciun-Evantai+
+40288	Regat de gheaþã-Sabie+
+40289	Regat de gheaþã-Pumnalul+
+40290	Regat de gheaþã-Arc+
+40291	Regat de gheaþã-Douã mâini+
+40292	Regat de gheaþã-Clopot+
+40293	Regat de gheaþã-Evantai+
+40294	Pasãre de ger-Sabie+
+40295	Pasãre de ger-Pumnalul+
+40296	Pasãre de ger-Arc+
+40297	Pasãre de ger-Douã mâini+
+40298	Pasãre de ger-Clopot+
+40299	Pasãre de ger-Evantai+
+40300	Þara de iarnã-Sabie+
+40301	Þara de iarnã-Pumnalul+
+40302	Þara de iarnã-Arc+
+40303	Þara de iarnã-Douã mâini+
+40304	Þara de iarnã-Clopot+
+40305	Þara de iarnã-Evantai+
+30363	Ajun de Crãciun-Shining(Arm.)
+30364	Ajun de Crãciun-Shining(Armã)
+30365	Regat de gheaþã-Shining(Arm.)
+30366	Regat de gheaþã-Shining(Armã)
+30367	Pasãre de ger-Shining(Arm.)
+30368	Pasãre de ger-Shining(Armã)
+30369	þara de iarnã-Shining(Arm.)
+30370	þara de iarnã-Shining(Armã)
+85109	Ajun de Crãciun-Tape
+85110	Regat de gheaþã-Tape
+85111	Pasãre de ger-Tape
+85112	þara de iarnã-Tape
+41892	Ajun de Crãciun-Costum(w)+
+41893	Ajun de Crãciun-Costum(m)+
+45632	Ajun de Crãciun-Cascã(m)+
+45633	Ajun de Crãciun-Cascã(w)+
+41894	Regat de gheaþã-Costum(w)+
+41895	Regat de gheaþã-Costum(m)+
+45634	Regat de gheaþã-Cascã(m)+
+45635	Regat de gheaþã-Cascã(w)+
+41896	Pasãre de ger-Costum(w)+
+41897	Pasãre de ger-Costum(m)+
+45636	Pasãre de ger-Cascã(m)+
+45637	Pasãre de ger-Cascã(w)+
+41898	Þara de iarnã-Costum(w)+
+41899	Þara de iarnã-Costum(m)+
+45638	Þara de iarnã-Cascã(m)+
+45639	Þara de iarnã-Cascã(w)+
+950843	Cacao cu bezele
+950844	Biscuiþi de Crãciun
+950845	Omul de turtã dulce
+950846	Trestie de zahãr
+950847	Omul de zãpadã
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Omul de zãpadã
+53350	Mini-Alergãtor de zãpadã
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Alergãtor de zãpadã
+71274	Ursul magic de iarnã
+71275	Renul de iarnã
+51647	Cadou de Crãciun(bronz)
+51648	Cadou de Crãciun(argintiu)
+51649	Cadou de Crãciun(gold)
+39064	Bunã de destin

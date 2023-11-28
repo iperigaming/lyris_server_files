@@ -11874,3 +11874,74 @@ VNUM	LOCALE_NAME
 71269	Leone d'oro
 53344	Mini-Wukong
 53345	Mini-Nixie
+40282	Notte santa-Spada+
+40283	Notte santa-Pugnale+
+40284	Notte santa-Arco+
+40285	Notte santa-A due mani+
+40286	Notte santa-Campana+
+40287	Notte santa-Soggetti+
+40288	Regno di ghiaccio-Spada+
+40289	Regno di ghiaccio-Pugnale+
+40290	Regno di ghiaccio-Arco+
+40291	Regno di ghiaccio-A due mani+
+40292	Regno di ghiaccio-Campana+
+40293	Regno di ghiaccio-Soggetti+
+40294	Uccello del gelo-Spada+
+40295	Uccello del gelo-Pugnale+
+40296	Uccello del gelo-Arco+
+40297	Uccello del gelo-A due mani+
+40298	Uccello del gelo-Campana+
+40299	Uccello del gelo-Soggetti+
+40300	Paese d'inverno-Spada+
+40301	Paese d'inverno-Pugnale+
+40302	Paese d'inverno-Arco+
+40303	Paese d'inverno-A due mani+
+40304	Paese d'inverno-Campana+
+40305	Paese d'inverno-Soggetti+
+30363	Notte santa-Shining(Ar.)
+30364	Notte santa-Shining(A.)
+30365	Regno di ghiaccio-Shining(Ar.)
+30366	Regno di ghiaccio-Shining(A.)
+30367	Uccello del gelo-Shining(Ar.)
+30368	Uccello del gelo-Shining(A.)
+30369	Paese d'inverno-Shining(Ar.)
+30370	Paese d'inverno-Shining(A.)
+85109	Notte santa-Band
+85110	Regno di ghiaccio-Band
+85111	Uccello del gelo-Band
+85112	Paese d'inverno-Band
+41892	Notte santa-Costume(w)+
+41893	Notte santa-Costume(m)+
+45632	Notte santa-Casco(m)+
+45633	Notte santa-Casco(w)+
+41894	Regno di ghiaccio-Costume(w)+
+41895	Regno di ghiaccio-Costume(m)+
+45634	Regno di ghiaccio-Casco(m)+
+45635	Regno di ghiaccio-Casco(w)+
+41896	Uccello del gelo-Costume(w)+
+41897	Uccello del gelo-Costume(m)+
+45636	Uccello del gelo-Casco(m)+
+45637	Uccello del gelo-Casco(w)+
+41898	Paese d'inverno-Costume(w)+
+41899	Paese d'inverno-Costume(m)+
+45638	Paese d'inverno-Casco(m)+
+45639	Paese d'inverno-Casco(w)+
+950843	Cacao con marshmallow
+950844	Biscotti di Natale
+950845	Omino di pan di zenzero
+950846	Bastoncino di zucchero
+950847	Pupazzo di neve
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Pupazzo di neve
+53350	Mini-Corridore della neve
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Corridore della neve
+71274	Orso magico d'inverno
+71275	Renne magico invernali
+51647	Regalo di Natale(Bronzo)
+51648	Regalo di Natale(Argento)
+51649	Regalo di Natale(Oro)

@@ -180,36 +180,36 @@ VNUM	LOCALE_NAME
 991	Hastalýklý Yumurta
 992	Hastalýk Taþýyýcýsý
 993	Dev Hastalýk Taþýyýcýsý
-1001	Þeytan Askeri
-1002	Þeytan Okçusu
-1003	Þeytan Mýzrakçýsý
-1004	Þeytan Þamaný
-1031	Çirkin Þeytan Askeri
-1032	Çirkin Þeytan Okçusu
-1033	Çirkin Þeytan Mýzrakçýsý
-1034	Çirkin Þeytan Þamaný
+1001	þeytan Askeri
+1002	þeytan Okçusu
+1003	þeytan Mýzrakçýsý
+1004	þeytan þamaný
+1031	Çirkin þeytan Askeri
+1032	Çirkin þeytan Okçusu
+1033	Çirkin þeytan Mýzrakçýsý
+1034	Çirkin þeytan þamaný
 1035	Hýnç Hayaleti
 1036	Kaos Hayaleti
-1037	Çirkin Þeytan Lideri
+1037	Çirkin þeytan Lideri
 1038	Kafatasý Kýlýç Ustasý
 1039	Uçan Kafatasý
 1040	Ölümsüz Hayalet
-1041	Þeytani Canavar
-1061	Ölümcül Þeytan Askeri
-1062	Ölümcül Þeytan Okçusu
-1063	Ölümcül ÞeytanMýzrakçýsý
-1064	Ölümcül Þeytan Þamaný
+1041	þeytani Canavar
+1061	Ölümcül þeytan Askeri
+1062	Ölümcül þeytan Okçusu
+1063	Ölümcül þeytanMýzrakçýsý
+1064	Ölümcül þeytan þamaný
 1065	Ölümcül Hýnç Hayaleti
 1066	Ölümcül Kaos Hayaleti
-1067	Ölümcül Þeytan Lideri
+1067	Ölümcül þeytan Lideri
 1068	Hayalet Kýlýç Ustasý
 1069	Ölümcül Uçan Kafatasý
 1070	Ölümsüz Hayalet
-1071	Þeytani Canavar
-1091	Þeytan Kralý
-1092	Kibirli Þeytan Kralý
+1071	þeytani Canavar
+1091	þeytan Kralý
+1092	Kibirli þeytan Kralý
 1093	Lusifer
-1094	Elit Çirkin Þeytan Kralý
+1094	Elit Çirkin þeytan Kralý
 1095	Mavi Ölüm
 1096	Áø»ç±Í¿Õ
 1101	Büyülü Buz
@@ -228,7 +228,7 @@ VNUM	LOCALE_NAME
 1136	Yeraltý Yetisi
 1137	Yeraltý Buz Golemi
 1138	Yeraltý Buz Golemi
-1151	Buz Þeytaný
+1151	Buz þeytaný
 1152	Buz Boynuz. Katil Balina
 1153	Buz Haþeresi
 1154	Seol-Gu
@@ -490,7 +490,7 @@ VNUM	LOCALE_NAME
 2680	Zodyak Yengeç Dövüþçüsü
 2681	Akrep Zodyak Okçusu
 2682	Zodyak Karides Askeri
-2683	Þeyt. Zodyak Yerleþimci
+2683	þeyt. Zodyak Yerleþimci
 2684	Zodyak Zýrhlý Yengeç
 2685	Devasa Zodyak Diþlek
 2686	Devasa Zodyak Kasabý
@@ -635,7 +635,7 @@ VNUM	LOCALE_NAME
 3601	Yengeç Savaþçý
 3602	Akrep Savaþçý
 3603	Karides Asker
-3604	Þeytani Keþiþ
+3604	þeytani Keþiþ
 3605	Zýrhlý Yengeç
 3690	General Istakoz
 3691	Kral Yengeç
@@ -651,7 +651,7 @@ VNUM	LOCALE_NAME
 3803	Kavgacý Öcü
 3804	Öcü Büyücü
 3805	General Öcü
-3890	Kaptan Þrak
+3890	Kaptan þrak
 3891	Dev Öcü
 3901	Daladam
 3902	Eoten
@@ -690,7 +690,7 @@ VNUM	LOCALE_NAME
 3974	
 3980	Ateþ elementeri
 3981	Buz elementeri
-3982	Þimþek elementeri
+3982	þimþek elementeri
 3983	Rüzgar elementeri
 3984	Toprak elementeri
 3985	Karanlýk elementeri
@@ -710,7 +710,7 @@ VNUM	LOCALE_NAME
 3999	Çýkýþ
 4000	Ateþ Metini
 4001	Buz Metini
-4002	Þimþek Metini
+4002	þimþek Metini
 4003	Rüzgar Metini
 4004	Toprak Metini
 4005	Gece Metini
@@ -810,14 +810,14 @@ VNUM	LOCALE_NAME
 4260	ZÇ: En-Tai Dövüþçüsü
 4261	ZÇ: En-Tai Savaþçýsý
 4262	ZÇ: En-Tai Rahibi
-4263	ZÇ: En-Tai Þifacýsý
+4263	ZÇ: En-Tai þifacýsý
 4264	ZÇ: En-Tai Ýmhacýsý
 4265	ZÇ: En-Tai Hükümdarý
-4266	ZÇ: Ochao Þifacýsý
+4266	ZÇ: Ochao þifacýsý
 4267	ZÇ: En-Tai Dövüþçüsü
 4268	ZÇ: En-Tai Savaþçýsý
 4269	ZÇ: En-Tai Rahibi
-4270	ZÇ: En-Tai Þifacýsý
+4270	ZÇ: En-Tai þifacýsý
 4271	ZÇ: En-Tai Ýmhacýsý
 4272	ZÇ: Bagjanamu
 4273	ZÇ: Ochao Askeri
@@ -858,14 +858,14 @@ VNUM	LOCALE_NAME
 4340	TS: En-Tai Dövüþçüsü
 4341	TS: En-Tai Savaþçýsý
 4342	TS: En-Tai Rahibi
-4343	TS: En-Tai Þifacýsý
+4343	TS: En-Tai þifacýsý
 4344	TS: En-Tai Ýmhacýsý
 4345	TS: En-Tai Hükümdarý
-4346	TS: Ochao Þifacýsý
+4346	TS: Ochao þifacýsý
 4347	TS: En-Tai Dövüþçüsü
 4348	TS: En-Tai Savaþçýsý
 4349	TS: En-Tai Rahibi
-4350	TS: En-Tai Þifacýsý
+4350	TS: En-Tai þifacýsý
 4351	TS: En-Tai Ýmhacýsý
 4352	TS: Bagjanamu
 4353	TS: Ochao Askeri
@@ -883,7 +883,7 @@ VNUM	LOCALE_NAME
 4420	D: En-Tai Dövüþçüsü
 4421	D: En-Tai Savaþçýsý
 4422	D: En-Tai Rahibi
-4423	D: En-Tai Þifacýsý
+4423	D: En-Tai þifacýsý
 4424	D: En-Tai Ýmhacýsý
 4429	D: Bagjanamu
 4430	D: Gnoll Okçu
@@ -920,7 +920,7 @@ VNUM	LOCALE_NAME
 4501	Savaþçý
 4502	Sura
 4503	Ninja
-4504	Þaman
+4504	þaman
 4505	Lycan
 4506	Enigma Generali
 5001	Korsan Tanaka
@@ -1031,16 +1031,16 @@ VNUM	LOCALE_NAME
 6401	En Tai Savaþçýsý
 6402	En Tai Savaþçýsý
 6403	En Tai Rahibi
-6404	En Tai Þifacýsý
+6404	En Tai þifacýsý
 6405	En Tai Bekçisi
 6406	En Tai Ýmhacýsý
 6407	En Tai Hükümdarý
 6408	Bagjanamu
-6409	Ochao Þifacýsý
+6409	Ochao þifacýsý
 6410	Güçlü En Tai Savaþçýsý
 6411	Güçlü En Tai Savaþçýsý
 6412	Güçlü En Tai Rahibi
-6413	Güçlü En Tai Þifacýsý
+6413	Güçlü En Tai þifacýsý
 6414	Güçlü En Tai Ýmhacýsý
 6415	Beran Setaou Etkinliði
 6416	Nemere Etkinliði
@@ -1086,7 +1086,7 @@ VNUM	LOCALE_NAME
 6701	Troll Askeri
 6702	Troll Savaþçýsý
 6703	Troll Niþancýsý
-6704	Trol Þamaný
+6704	Trol þamaný
 6705	Natanan
 6706	Argos
 6707	Troll Askeri
@@ -1097,7 +1097,7 @@ VNUM	LOCALE_NAME
 6712	Troll Askeri
 6713	Troll Savaþçýsý
 6714	Troll Niþancýsý
-6715	Trol Þamaný
+6715	Trol þamaný
 6716	Natanan
 6717	Argos
 6718	Myr Kovix
@@ -1119,7 +1119,7 @@ VNUM	LOCALE_NAME
 6746	Kappa askeri
 6747	Kappa sihirbazý
 6748	Kappa avcýsý
-6749	Þiddetli Kappa
+6749	þiddetli Kappa
 6750	Yýlan akrebi
 6751	Yýlan iþçisi
 6752	Yýlan Kappasý
@@ -1252,21 +1252,21 @@ VNUM	LOCALE_NAME
 7026	Juk-Mok
 7027	Hwaryu Juk
 7028	Siyah Juk-Guimok
-7029	Buz Þeytaný
+7029	Buz þeytaný
 7030	Buz Boynuz. Katil Balina
 7031	Buz Böceði
 7032	Seol-Gu
 7033	Buz Adam
 7034	Buz Devi
 7035	Buz Golemi
-7036	Buz Þeytaný
+7036	Buz þeytaný
 7037	Buz Boynuz. Katil Balina
 7038	Buz Böceði
 7039	Seol-Gu
 7040	Buz Adam
 7041	Buz Devi
 7042	Buz Golemi
-7043	Buz Þeytaný
+7043	Buz þeytaný
 7044	Buz Boynuz. Katil Balina
 7045	Buz Böceði
 7046	Seol-Gu
@@ -1418,7 +1418,7 @@ VNUM	LOCALE_NAME
 7198	En Tai Savaþçýsý
 7199	En Tai Savaþçýsý
 7200	En Tai Rahibi
-7201	En Tai Þifacýsý
+7201	En Tai þifacýsý
 7202	En Tai Ýmhacýsý
 7203	En Tai Hükümdarý
 7204	Lemur Büyücü
@@ -1428,7 +1428,7 @@ VNUM	LOCALE_NAME
 7210	Ýstilacý Komutan
 7211	Ýstilacý Ateþ Komutaný
 7212	Ýstilacý Buz Komutaný
-7213	Ýstilacý Þimþek Komutaný
+7213	Ýstilacý þimþek Komutaný
 7214	Ýstilacý Rüzgar Komutaný
 7215	Ýstilacý Toprak Komutaný
 7216	Ýstilacý Karanlýk Komut.
@@ -1476,7 +1476,7 @@ VNUM	LOCALE_NAME
 7591	Cehennem K. Büyük Üstat
 7592	Cehennem Kulesi Yýkýcýsý
 7593	Cehennem Kulesi Yýkýcýsý
-7594	Cehenn. Kulesi Þeytan T.
+7594	Cehenn. Kulesi þeytan T.
 7595	Kule Okçusu
 7600	Cehennem Kulesi Ruh Taþý
 7609	Cehennem Kuls. Büyü Ust.
@@ -1501,12 +1501,12 @@ VNUM	LOCALE_NAME
 8008	Ruh Metini
 8009	Gölge Metini
 8010	Dayanýklýlýk Metini
-8011	Þeytan Metini
+8011	þeytan Metini
 8012	Lanet Metini
 8013	Ölüm Metini
 8014	Katil Metini
 8015	Dayanýklýlýk Metini
-8016	Þeytan Metini
+8016	þeytan Metini
 8017	Lanet Metini
 8018	Ölüm Metini
 8019	Katil Metini
@@ -1567,7 +1567,7 @@ VNUM	LOCALE_NAME
 8108	Ruh Metini
 8109	Gölge Metini
 8110	Dayanýklýlýk Metini
-8111	Þeytan Metini
+8111	þeytan Metini
 8112	Düþüþ Metini
 8113	Ölüm Metini
 8114	Katil Metini
@@ -1650,7 +1650,7 @@ VNUM	LOCALE_NAME
 8635	B. e. yumurtasý (kolay)
 8636	B. e. yumurtasý (zor)
 8637	SungMa Ýstila Portalý
-8638	Lanetlenme Metini (Þifa)
+8638	Lanetlenme Metini (þifa)
 8639	Lanetlenme Metini
 8640	Kurtuluþ Metini
 8641	SungMa Ýstila Portalý
@@ -1677,7 +1677,7 @@ VNUM	LOCALE_NAME
 9101	Güç çiçeði
 9102	Ateþ güç çiçeði
 9103	Buz güç çiçeði
-9104	Þimþek güç çiçeði
+9104	þimþek güç çiçeði
 9105	Rüzgar güç çiçeði
 9106	Toprak güç çiçeði
 9107	Karanlýk güç çiçeði
@@ -1804,11 +1804,11 @@ VNUM	LOCALE_NAME
 10105	Gautama 12263 16811
 10106	³ì¸²Áö 8168 15050
 10107	DonganOvasý 10629 4767
-10109	ÞimþekSýrtý 451 9492
-10110	ÞimþekZirvesi 830 9454
+10109	þimþekSýrtý 451 9492
+10110	þimþekZirvesi 830 9454
 10111	AteþSýrtý 1430 9616
 10112	BuzDaðý 690 10169
-10113	ÞimþekZirvesi 1023 9623
+10113	þimþekZirvesi 1023 9623
 10114	BuzDaðý 303 10113
 10115	AteþZirvesi 2117 9447
 10116	AteþSýrtý 1720 9499
@@ -2208,9 +2208,9 @@ VNUM	LOCALE_NAME
 20071	Ametist Simyacýsý
 20072	Cennet Gözyaþý Simyacýsý
 20073	Eski Mühür
-20074	ÞeytanKulesi SilahUstasý
-20075	ÞeytanKulesi Zýrh Ustasý
-20076	Þeytan Kulesi Kuyumcusu
+20074	þeytanKulesi SilahUstasý
+20075	þeytanKulesi Zýrh Ustasý
+20076	þeytan Kulesi Kuyumcusu
 20077	Sunak muhafýzý
 20078	Sunak muhafýzý
 20079	Sunak muhafýzý
@@ -2319,7 +2319,7 @@ VNUM	LOCALE_NAME
 20236	Nugget (mavi aksesuar)
 20237	Muffin (yeþil aksesuar)
 20238	Nugget (yeþil aksesuar)
-20239	Þimþek
+20239	þimþek
 20240	Gümbürtü
 20241	Nugget (lacivert)
 20242	Muffin (gül rengi)
@@ -2387,13 +2387,13 @@ VNUM	LOCALE_NAME
 20345	Kara Büyü Öðretmeni
 20346	Ejderha Gücü Öðretmeni
 20347	Ýyileþtirme Öðretmeni
-20348	Þeytan Kulesi Bekçisi
+20348	þeytan Kulesi Bekçisi
 20349	Seyis
 20350	Zindan Bekçisi
 20351	Salon Bekçisi
 20352	Hasun Taþ Anýtý
 20353	Seul Rong Taþ Anýtý
-20354	Þehir Bekçisi
+20354	þehir Bekçisi
 20355	Yüzbaþý
 20356	Ginseng Toplayýcýsý
 20357	Weol Anýtý
@@ -2543,7 +2543,7 @@ VNUM	LOCALE_NAME
 20662	Gece jediti simyageri
 20663	Duman jediti simyageri
 20702	Enerji Tapýnaðý
-20703	Þans Tapýnaðý
+20703	þans Tapýnaðý
 20704	Güç Tapýnaðý
 20705	Hazine Tapýnaðý
 20706	Aydýnlanma Tapýnaðý
@@ -2666,8 +2666,8 @@ VNUM	LOCALE_NAME
 34010	Bambi
 34011	Knuud
 34012	Bao Bao
-34013	Þiþko Cellatcýk
-34014	Þiþko Cellatcýk (altýn)
+34013	þiþko Cellatcýk
+34014	þiþko Cellatcýk (altýn)
 34015	Boney
 34016	Yeþim Ankasý
 34017	Kutup Porki
@@ -2808,7 +2808,7 @@ VNUM	LOCALE_NAME
 34166	Bebek Kumandan (kahramn)
 34167	Minik Ateþ Kumandan
 34168	Minik Buz Kumandan
-34169	Minik Þimþek Kumandan
+34169	Minik þimþek Kumandan
 34170	Minik Rüzgar Kumandan
 34171	Minik Toprak Kumandan
 34172	Minik Karanlýk Kumandan
@@ -2950,3 +2950,17 @@ VNUM	LOCALE_NAME
 20286	Altýn Aslan
 34184	Küçük Wukong
 34185	Küçük Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Kar koþucusu
+20291	Kýþ sihirli ayýsý
+20292	Kýþ ren geyiði
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Kardan Adam
+34190	Mini-Kar koþucusu
+9435	Hediye kutusu(bronz)
+9436	Hediye kutusu(gümüþ)
+9437	Hediye kutusu(altýn)
