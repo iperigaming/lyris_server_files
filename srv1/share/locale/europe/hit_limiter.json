@@ -1,4 +1,5 @@
 {
+    "captcha": 10,
     "max_distance": 60,
     "log_limit": 3500,
     "races": [
