@@ -1,0 +1,134 @@
+{
+    "max_distance": 60,
+    "log_limit": 3500,
+    "races": [
+        {
+            "_comment": "MAIN_RACE_WARRIOR_M",
+            "race": 0,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 225
+                },
+                {
+                    "_comment": "WEAPON_TWO_HANDED",
+                    "type": 3,
+                    "limit": 225
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_WARRIOR_W",
+            "race": 4,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 250
+                },
+                {
+                    "_comment": "WEAPON_TWO_HANDED",
+                    "type": 3,
+                    "limit": 250
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_ASSASSIN_M",
+            "race": 5,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 145
+                },
+                {
+                    "_comment": "WEAPON_DAGGER",
+                    "type": 1,
+                    "limit": 145
+                },
+                {
+                    "_comment": "WEAPON_BOW",
+                    "type": 2,
+                    "limit": 550
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_ASSASSIN_W",
+            "race": 1,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 250
+                },
+                {
+                    "_comment": "WEAPON_DAGGER",
+                    "type": 1,
+                    "limit": 250
+                },
+                {
+                    "_comment": "WEAPON_BOW",
+                    "type": 2,
+                    "limit": 550
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_SURA_M",
+            "race": 2,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 215
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_SURA_W",
+            "race": 6,
+            "limits": [
+                {
+                    "_comment": "WEAPON_SWORD",
+                    "type": 0,
+                    "limit": 215
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_SHAMAN_M",
+            "race": 7,
+            "limits": [
+                {
+                    "_comment": "WEAPON_BELL",
+                    "type": 0,
+                    "limit": 195
+                },
+                {
+                    "_comment": "WEAPON_FAN",
+                    "type": 0,
+                    "limit": 195
+                }
+            ]
+        },
+        {
+            "_comment": "MAIN_RACE_SHAMAN_W",
+            "race": 3,
+            "limits": [
+                {
+                    "_comment": "WEAPON_BELL",
+                    "type": 0,
+                    "limit": 215
+                },
+                {
+                    "_comment": "WEAPON_FAN",
+                    "type": 0,
+                    "limit": 215
+                }
+            ]
+        }
+    ]
+}
