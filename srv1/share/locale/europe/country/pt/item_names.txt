@@ -1905,10 +1905,10 @@ VNUM	LOCALE_NAME
 8007	Flecha Envenenada
 8008	Flecha de Gelo
 8009	Flecha Maldita
-9001	Armadura Nahan+5
-9002	Armadura Tanma+5
-9003	Armadura Jinhon+5
-9004	Armadura Chung+5
+9001	Arm. Nahan+5
+9002	Arm. Tanma+5
+9003	Arm. Jinhon+5
+9004	Arm. Chung+5
 9501	Espada+5
 9502	Espada Curta+5
 9503	Arco Curto+5
@@ -3142,110 +3142,110 @@ VNUM	LOCALE_NAME
 10958	Talismã do Trovão+10
 10959	Talismã da Terra+10
 10960	Talismã Negro+10
-11000	Armadura de Lobo
-11010	Armadura Javali Selvagem
-11020	Armadura de Urso
-11030	Armadura de Tigre
-11200	Armadura de Monge+0
-11201	Armadura de Monge+1
-11202	Armadura de Monge+2
-11203	Armadura de Monge+3
-11204	Armadura de Monge+4
-11205	Armadura de Monge+5
-11206	Armadura de Monge+6
-11207	Armadura de Monge+7
-11208	Armadura de Monge+8
-11209	Armadura de Monge+9
-11210	Armadura de Ferro+0
-11211	Armadura de Ferro+1
-11212	Armadura de Ferro+2
-11213	Armadura de Ferro+3
-11214	Armadura de Ferro+4
-11215	Armadura de Ferro+5
-11216	Armadura de Ferro+6
-11217	Armadura de Ferro+7
-11218	Armadura de Ferro+8
-11219	Armadura de Ferro+9
-11220	Armadura Tigre+0
-11221	Armadura Tigre+1
-11222	Armadura Tigre+2
-11223	Armadura Tigre+3
-11224	Armadura Tigre+4
-11225	Armadura Tigre+5
-11226	Armadura Tigre+6
-11227	Armadura Tigre+7
-11228	Armadura Tigre+8
-11229	Armadura Tigre+9
-11230	Armadura Leão+0
-11231	Armadura Leão+1
-11232	Armadura Leão+2
-11233	Armadura Leão+3
-11234	Armadura Leão+4
-11235	Armadura Leão+5
-11236	Armadura Leão+6
-11237	Armadura Leão+7
-11238	Armadura Leão+8
-11239	Armadura Leão+9
-11240	Armadura Mortal+0
-11241	Armadura Mortal+1
-11242	Armadura Mortal+2
-11243	Armadura Mortal+3
-11244	Armadura Mortal+4
-11245	Armadura Mortal+5
-11246	Armadura Mortal+6
-11247	Armadura Mortal+7
-11248	Armadura Mortal+8
-11249	Armadura Mortal+9
-11250	Armadura Dragão+0
-11251	Armadura Dragão+1
-11252	Armadura Dragão+2
-11253	Armadura Dragão+3
-11254	Armadura Dragão+4
-11255	Armadura Dragão+5
-11256	Armadura Dragão+6
-11257	Armadura Dragão+7
-11258	Armadura Dragão+8
-11259	Armadura Dragão+9
-11260	Armadura Escamas Azuis+0
-11261	Armadura Escamas Azuis+1
-11262	Armadura Escamas Azuis+2
-11263	Armadura Escamas Azuis+3
-11264	Armadura Escamas Azuis+4
-11265	Armadura Escamas Azuis+5
-11266	Armadura Escamas Azuis+6
-11267	Armadura Escamas Azuis+7
-11268	Armadura Escamas Azuis+8
-11269	Armadura Escamas Azuis+9
-11270	Armadura de Brigantina+0
-11271	Armadura de Brigantina+1
-11272	Armadura de Brigantina+2
-11273	Armadura de Brigantina+3
-11274	Armadura de Brigantina+4
-11275	Armadura de Brigantina+5
-11276	Armadura de Brigantina+6
-11277	Armadura de Brigantina+7
-11278	Armadura de Brigantina+8
-11279	Armadura de Brigantina+9
-11280	Armadura Deus Dragão+0
-11281	Armadura Deus Dragão+1
-11282	Armadura Deus Dragão+2
-11283	Armadura Deus Dragão+3
-11284	Armadura Deus Dragão+4
-11285	Armadura Deus Dragão+5
-11286	Armadura Deus Dragão+6
-11287	Armadura Deus Dragão+7
-11288	Armadura Deus Dragão+8
-11289	Armadura Deus Dragão+9
-11290	Armadura de Aço Preto+0
-11291	Armadura de Aço Preto+1
-11292	Armadura de Aço Preto+2
-11293	Armadura de Aço Preto+3
-11294	Armadura de Aço Preto+4
-11295	Armadura de Aço Preto+5
-11296	Armadura de Aço Preto+6
-11297	Armadura de Aço Preto+7
-11298	Armadura de Aço Preto+8
-11299	Armadura de Aço Preto+9
+11000	Arm. de Lobo
+11010	Arm. Javali Selvagem
+11020	Arm. de Urso
+11030	Arm. de Tigre
+11200	Arm. de Monge+0
+11201	Arm. de Monge+1
+11202	Arm. de Monge+2
+11203	Arm. de Monge+3
+11204	Arm. de Monge+4
+11205	Arm. de Monge+5
+11206	Arm. de Monge+6
+11207	Arm. de Monge+7
+11208	Arm. de Monge+8
+11209	Arm. de Monge+9
+11210	Arm. de Ferro+0
+11211	Arm. de Ferro+1
+11212	Arm. de Ferro+2
+11213	Arm. de Ferro+3
+11214	Arm. de Ferro+4
+11215	Arm. de Ferro+5
+11216	Arm. de Ferro+6
+11217	Arm. de Ferro+7
+11218	Arm. de Ferro+8
+11219	Arm. de Ferro+9
+11220	Arm. Tigre+0
+11221	Arm. Tigre+1
+11222	Arm. Tigre+2
+11223	Arm. Tigre+3
+11224	Arm. Tigre+4
+11225	Arm. Tigre+5
+11226	Arm. Tigre+6
+11227	Arm. Tigre+7
+11228	Arm. Tigre+8
+11229	Arm. Tigre+9
+11230	Arm. Leão+0
+11231	Arm. Leão+1
+11232	Arm. Leão+2
+11233	Arm. Leão+3
+11234	Arm. Leão+4
+11235	Arm. Leão+5
+11236	Arm. Leão+6
+11237	Arm. Leão+7
+11238	Arm. Leão+8
+11239	Arm. Leão+9
+11240	Arm. Mortal+0
+11241	Arm. Mortal+1
+11242	Arm. Mortal+2
+11243	Arm. Mortal+3
+11244	Arm. Mortal+4
+11245	Arm. Mortal+5
+11246	Arm. Mortal+6
+11247	Arm. Mortal+7
+11248	Arm. Mortal+8
+11249	Arm. Mortal+9
+11250	Arm. Dragão+0
+11251	Arm. Dragão+1
+11252	Arm. Dragão+2
+11253	Arm. Dragão+3
+11254	Arm. Dragão+4
+11255	Arm. Dragão+5
+11256	Arm. Dragão+6
+11257	Arm. Dragão+7
+11258	Arm. Dragão+8
+11259	Arm. Dragão+9
+11260	Arm. Escamas Azuis+0
+11261	Arm. Escamas Azuis+1
+11262	Arm. Escamas Azuis+2
+11263	Arm. Escamas Azuis+3
+11264	Arm. Escamas Azuis+4
+11265	Arm. Escamas Azuis+5
+11266	Arm. Escamas Azuis+6
+11267	Arm. Escamas Azuis+7
+11268	Arm. Escamas Azuis+8
+11269	Arm. Escamas Azuis+9
+11270	Arm. de Brigantina+0
+11271	Arm. de Brigantina+1
+11272	Arm. de Brigantina+2
+11273	Arm. de Brigantina+3
+11274	Arm. de Brigantina+4
+11275	Arm. de Brigantina+5
+11276	Arm. de Brigantina+6
+11277	Arm. de Brigantina+7
+11278	Arm. de Brigantina+8
+11279	Arm. de Brigantina+9
+11280	Arm. Deus Dragão+0
+11281	Arm. Deus Dragão+1
+11282	Arm. Deus Dragão+2
+11283	Arm. Deus Dragão+3
+11284	Arm. Deus Dragão+4
+11285	Arm. Deus Dragão+5
+11286	Arm. Deus Dragão+6
+11287	Arm. Deus Dragão+7
+11288	Arm. Deus Dragão+8
+11289	Arm. Deus Dragão+9
+11290	Arm. de Aço Preto+0
+11291	Arm. de Aço Preto+1
+11292	Arm. de Aço Preto+2
+11293	Arm. de Aço Preto+3
+11294	Arm. de Aço Preto+4
+11295	Arm. de Aço Preto+5
+11296	Arm. de Aço Preto+6
+11297	Arm. de Aço Preto+7
+11298	Arm. de Aço Preto+8
+11299	Arm. de Aço Preto+9
 11400	Quimono Azul+0
 11401	Quimono Azul+1
 11402	Quimono Azul+2
@@ -3346,106 +3346,106 @@ VNUM	LOCALE_NAME
 11497	Quimono Vento Preto+7
 11498	Quimono Vento Preto+8
 11499	Quimono Vento Preto+9
-11600	Armadura Requiem+0
-11601	Armadura Requiem+1
-11602	Armadura Requiem+2
-11603	Armadura Requiem+3
-11604	Armadura Requiem+4
-11605	Armadura Requiem+5
-11606	Armadura Requiem+6
-11607	Armadura Requiem+7
-11608	Armadura Requiem+8
-11609	Armadura Requiem+9
-11610	Armadura Tempestade+0
-11611	Armadura Tempestade+1
-11612	Armadura Tempestade+2
-11613	Armadura Tempestade+3
-11614	Armadura Tempestade+4
-11615	Armadura Tempestade+5
-11616	Armadura Tempestade+6
-11617	Armadura Tempestade+7
-11618	Armadura Tempestade+8
-11619	Armadura Tempestade+9
-11620	Armadura da Desgraça+0
-11621	Armadura da Desgraça+1
-11622	Armadura da Desgraça+2
-11623	Armadura da Desgraça+3
-11624	Armadura da Desgraça+4
-11625	Armadura da Desgraça+5
-11626	Armadura da Desgraça+6
-11627	Armadura da Desgraça+7
-11628	Armadura da Desgraça+8
-11629	Armadura da Desgraça+9
-11630	Armadura Fantasma+0
-11631	Armadura Fantasma+1
-11632	Armadura Fantasma+2
-11633	Armadura Fantasma+3
-11634	Armadura Fantasma+4
-11635	Armadura Fantasma+5
-11636	Armadura Fantasma+6
-11637	Armadura Fantasma+7
-11638	Armadura Fantasma+8
-11639	Armadura Fantasma+9
-11640	Armadura Yin Yang+0
-11641	Armadura Yin Yang+1
-11642	Armadura Yin Yang+2
-11643	Armadura Yin Yang+3
-11644	Armadura Yin Yang+4
-11645	Armadura Yin Yang+5
-11646	Armadura Yin Yang+6
-11647	Armadura Yin Yang+7
-11648	Armadura Yin Yang+8
-11649	Armadura Yin Yang+9
-11650	Armadura Mística+0
-11651	Armadura Mística+1
-11652	Armadura Mística+2
-11653	Armadura Mística+3
-11654	Armadura Mística+4
-11655	Armadura Mística+5
-11656	Armadura Mística+6
-11657	Armadura Mística+7
-11658	Armadura Mística+8
-11659	Armadura Mística+9
-11660	Armadura da Névoa+0
-11661	Armadura da Névoa+1
-11662	Armadura da Névoa+2
-11663	Armadura da Névoa+3
-11664	Armadura da Névoa+4
-11665	Armadura da Névoa+5
-11666	Armadura da Névoa+6
-11667	Armadura da Névoa+7
-11668	Armadura da Névoa+8
-11669	Armadura da Névoa+9
-11670	Armadura Cara Fantasma+0
-11671	Armadura Cara Fantasma+1
-11672	Armadura Cara Fantasma+2
-11673	Armadura Cara Fantasma+3
-11674	Armadura Cara Fantasma+4
-11675	Armadura Cara Fantasma+5
-11676	Armadura Cara Fantasma+6
-11677	Armadura Cara Fantasma+7
-11678	Armadura Cara Fantasma+8
-11679	Armadura Cara Fantasma+9
-11680	Armadura de Espírito+0
-11681	Armadura de Espírito+1
-11682	Armadura de Espírito+2
-11683	Armadura de Espírito+3
-11684	Armadura de Espírito+4
-11685	Armadura de Espírito+5
-11686	Armadura de Espírito+6
-11687	Armadura de Espírito+7
-11688	Armadura de Espírito+8
-11689	Armadura de Espírito+9
-11690	Armadura Magia Negra+0
-11691	Armadura Magia Negra+1
-11692	Armadura Magia Negra+2
-11693	Armadura Magia Negra+3
-11694	Armadura Magia Negra+4
-11695	Armadura Magia Negra+5
-11696	Armadura Magia Negra+6
-11697	Armadura Magia Negra+7
-11698	Armadura Magia Negra+8
-11699	Armadura Magia Negra+9
+11600	Arm. Requiem+0
+11601	Arm. Requiem+1
+11602	Arm. Requiem+2
+11603	Arm. Requiem+3
+11604	Arm. Requiem+4
+11605	Arm. Requiem+5
+11606	Arm. Requiem+6
+11607	Arm. Requiem+7
+11608	Arm. Requiem+8
+11609	Arm. Requiem+9
+11610	Arm. Tempestade+0
+11611	Arm. Tempestade+1
+11612	Arm. Tempestade+2
+11613	Arm. Tempestade+3
+11614	Arm. Tempestade+4
+11615	Arm. Tempestade+5
+11616	Arm. Tempestade+6
+11617	Arm. Tempestade+7
+11618	Arm. Tempestade+8
+11619	Arm. Tempestade+9
+11620	Arm. da Desgraça+0
+11621	Arm. da Desgraça+1
+11622	Arm. da Desgraça+2
+11623	Arm. da Desgraça+3
+11624	Arm. da Desgraça+4
+11625	Arm. da Desgraça+5
+11626	Arm. da Desgraça+6
+11627	Arm. da Desgraça+7
+11628	Arm. da Desgraça+8
+11629	Arm. da Desgraça+9
+11630	Arm. Fantasma+0
+11631	Arm. Fantasma+1
+11632	Arm. Fantasma+2
+11633	Arm. Fantasma+3
+11634	Arm. Fantasma+4
+11635	Arm. Fantasma+5
+11636	Arm. Fantasma+6
+11637	Arm. Fantasma+7
+11638	Arm. Fantasma+8
+11639	Arm. Fantasma+9
+11640	Arm. Yin Yang+0
+11641	Arm. Yin Yang+1
+11642	Arm. Yin Yang+2
+11643	Arm. Yin Yang+3
+11644	Arm. Yin Yang+4
+11645	Arm. Yin Yang+5
+11646	Arm. Yin Yang+6
+11647	Arm. Yin Yang+7
+11648	Arm. Yin Yang+8
+11649	Arm. Yin Yang+9
+11650	Arm. Mística+0
+11651	Arm. Mística+1
+11652	Arm. Mística+2
+11653	Arm. Mística+3
+11654	Arm. Mística+4
+11655	Arm. Mística+5
+11656	Arm. Mística+6
+11657	Arm. Mística+7
+11658	Arm. Mística+8
+11659	Arm. Mística+9
+11660	Arm. da Névoa+0
+11661	Arm. da Névoa+1
+11662	Arm. da Névoa+2
+11663	Arm. da Névoa+3
+11664	Arm. da Névoa+4
+11665	Arm. da Névoa+5
+11666	Arm. da Névoa+6
+11667	Arm. da Névoa+7
+11668	Arm. da Névoa+8
+11669	Arm. da Névoa+9
+11670	Arm. Cara Fantasma+0
+11671	Arm. Cara Fantasma+1
+11672	Arm. Cara Fantasma+2
+11673	Arm. Cara Fantasma+3
+11674	Arm. Cara Fantasma+4
+11675	Arm. Cara Fantasma+5
+11676	Arm. Cara Fantasma+6
+11677	Arm. Cara Fantasma+7
+11678	Arm. Cara Fantasma+8
+11679	Arm. Cara Fantasma+9
+11680	Arm. de Espírito+0
+11681	Arm. de Espírito+1
+11682	Arm. de Espírito+2
+11683	Arm. de Espírito+3
+11684	Arm. de Espírito+4
+11685	Arm. de Espírito+5
+11686	Arm. de Espírito+6
+11687	Arm. de Espírito+7
+11688	Arm. de Espírito+8
+11689	Arm. de Espírito+9
+11690	Arm. Magia Negra+0
+11691	Arm. Magia Negra+1
+11692	Arm. Magia Negra+2
+11693	Arm. Magia Negra+3
+11694	Arm. Magia Negra+4
+11695	Arm. Magia Negra+5
+11696	Arm. Magia Negra+6
+11697	Arm. Magia Negra+7
+11698	Arm. Magia Negra+8
+11699	Arm. Magia Negra+9
 11800	Robe Púrpura+0
 11801	Robe Púrpura+1
 11802	Robe Púrpura+2
@@ -3554,24 +3554,24 @@ VNUM	LOCALE_NAME
 11912	Fato de Casamento
 11913	Vestido de Casamento
 11914	Vestido de Casamento
-11951	Armadura de Monge
+11951	Arm. de Monge
 11952	Quimono Azul
-11953	Armadura Requiem
+11953	Arm. Requiem
 11954	Robe Púrpura
-11971	Armadura Hwang
-11972	Armadura Hwang Vermelha
-11973	Armadura Zin-Hwang
-11974	Armadura Sang-Hwang
-12010	Armadura Dragão Azul +0
-12011	Armadura Dragão Azul +1
-12012	Armadura Dragão Azul +2
-12013	Armadura Dragão Azul +3
-12014	Armadura Dragão Azul +4
-12015	Armadura Dragão Azul +5
-12016	Armadura Dragão Azul +6
-12017	Armadura Dragão Azul +7
-12018	Armadura Dragão Azul +8
-12019	Armadura Dragão Azul +9
+11971	Arm. Hwang
+11972	Arm. Hwang Vermelha
+11973	Arm. Zin-Hwang
+11974	Arm. Sang-Hwang
+12010	Arm. Dragão Azul +0
+12011	Arm. Dragão Azul +1
+12012	Arm. Dragão Azul +2
+12013	Arm. Dragão Azul +3
+12014	Arm. Dragão Azul +4
+12015	Arm. Dragão Azul +5
+12016	Arm. Dragão Azul +6
+12017	Arm. Dragão Azul +7
+12018	Arm. Dragão Azul +8
+12019	Arm. Dragão Azul +9
 12020	Quimono Dragão Azul +0
 12021	Quimono Dragão Azul +1
 12022	Quimono Dragão Azul +2
@@ -3582,16 +3582,16 @@ VNUM	LOCALE_NAME
 12027	Quimono Dragão Azul +7
 12028	Quimono Dragão Azul +8
 12029	Quimono Dragão Azul +9
-12030	Armadura Aura Negra +0
-12031	Armadura Aura Negra +1
-12032	Armadura Aura Negra +2
-12033	Armadura Aura Negra +3
-12034	Armadura Aura Negra +4
-12035	Armadura Aura Negra +5
-12036	Armadura Aura Negra +6
-12037	Armadura Aura Negra +7
-12038	Armadura Aura Negra +8
-12039	Armadura Aura Negra +9
+12030	Arm. Aura Negra +0
+12031	Arm. Aura Negra +1
+12032	Arm. Aura Negra +2
+12033	Arm. Aura Negra +3
+12034	Arm. Aura Negra +4
+12035	Arm. Aura Negra +5
+12036	Arm. Aura Negra +6
+12037	Arm. Aura Negra +7
+12038	Arm. Aura Negra +8
+12039	Arm. Aura Negra +9
 12040	Robe do Dragão +0
 12041	Robe do Dragão +1
 12042	Robe do Dragão +2
@@ -3602,16 +3602,16 @@ VNUM	LOCALE_NAME
 12047	Robe do Dragão +7
 12048	Robe do Dragão +8
 12049	Robe do Dragão +9
-12050	Armadura de Kyanite+0
-12051	Armadura de Kyanite+1
-12052	Armadura de Kyanite+2
-12053	Armadura de Kyanite+3
-12054	Armadura de Kyanite+4
-12055	Armadura de Kyanite+5
-12056	Armadura de Kyanite+6
-12057	Armadura de Kyanite+7
-12058	Armadura de Kyanite+8
-12059	Armadura de Kyanite+9
+12050	Arm. de Kyanite+0
+12051	Arm. de Kyanite+1
+12052	Arm. de Kyanite+2
+12053	Arm. de Kyanite+3
+12054	Arm. de Kyanite+4
+12055	Arm. de Kyanite+5
+12056	Arm. de Kyanite+6
+12057	Arm. de Kyanite+7
+12058	Arm. de Kyanite+8
+12059	Arm. de Kyanite+9
 12060	Quimono de Kyanite+0
 12061	Quimono de Kyanite+1
 12062	Quimono de Kyanite+2
@@ -3622,16 +3622,16 @@ VNUM	LOCALE_NAME
 12067	Quimono de Kyanite+7
 12068	Quimono de Kyanite+8
 12069	Quimono de Kyanite+9
-12070	Armadura Placa Kyanite+0
-12071	Armadura Placa Kyanite+1
-12072	Armadura Placa Kyanite+2
-12073	Armadura Placa Kyanite+3
-12074	Armadura Placa Kyanite+4
-12075	Armadura Placa Kyanite+5
-12076	Armadura Placa Kyanite+6
-12077	Armadura Placa Kyanite+7
-12078	Armadura Placa Kyanite+8
-12079	Armadura Placa Kyanite+9
+12070	Arm. Placa Kyanite+0
+12071	Arm. Placa Kyanite+1
+12072	Arm. Placa Kyanite+2
+12073	Arm. Placa Kyanite+3
+12074	Arm. Placa Kyanite+4
+12075	Arm. Placa Kyanite+5
+12076	Arm. Placa Kyanite+6
+12077	Arm. Placa Kyanite+7
+12078	Arm. Placa Kyanite+8
+12079	Arm. Placa Kyanite+9
 12080	Robe de Kyanite+0
 12081	Robe de Kyanite+1
 12082	Robe de Kyanite+2
@@ -5073,16 +5073,16 @@ VNUM	LOCALE_NAME
 18108	Cinto de Titânio+8
 18109	Cinto de Titânio+9
 18900	Pedra da Chama Vermelha
-19290	Armadura do Zodíaco+0
-19291	Armadura do Zodíaco+1
-19292	Armadura do Zodíaco+2
-19293	Armadura do Zodíaco+3
-19294	Armadura do Zodíaco+4
-19295	Armadura do Zodíaco+5
-19296	Armadura do Zodíaco+6
-19297	Armadura do Zodíaco+7
-19298	Armadura do Zodíaco+8
-19299	Armadura do Zodíaco+9
+19290	Arm. do Zodíaco+0
+19291	Arm. do Zodíaco+1
+19292	Arm. do Zodíaco+2
+19293	Arm. do Zodíaco+3
+19294	Arm. do Zodíaco+4
+19295	Arm. do Zodíaco+5
+19296	Arm. do Zodíaco+6
+19297	Arm. do Zodíaco+7
+19298	Arm. do Zodíaco+8
+19299	Arm. do Zodíaco+9
 19490	Quimono do Zodíaco+0
 19491	Quimono do Zodíaco+1
 19492	Quimono do Zodíaco+2
@@ -5093,16 +5093,16 @@ VNUM	LOCALE_NAME
 19497	Quimono do Zodíaco+7
 19498	Quimono do Zodíaco+8
 19499	Quimono do Zodíaco+9
-19690	Armadura Placa Zodíaco+0
-19691	Armadura Placa Zodíaco+1
-19692	Armadura Placa Zodíaco+2
-19693	Armadura Placa Zodíaco+3
-19694	Armadura Placa Zodíaco+4
-19695	Armadura Placa Zodíaco+5
-19696	Armadura Placa Zodíaco+6
-19697	Armadura Placa Zodíaco+7
-19698	Armadura Placa Zodíaco+8
-19699	Armadura Placa Zodíaco+9
+19690	Arm. Placa Zodíaco+0
+19691	Arm. Placa Zodíaco+1
+19692	Arm. Placa Zodíaco+2
+19693	Arm. Placa Zodíaco+3
+19694	Arm. Placa Zodíaco+4
+19695	Arm. Placa Zodíaco+5
+19696	Arm. Placa Zodíaco+6
+19697	Arm. Placa Zodíaco+7
+19698	Arm. Placa Zodíaco+8
+19699	Arm. Placa Zodíaco+9
 19890	Robe do Zodíaco+0
 19891	Robe do Zodíaco+1
 19892	Robe do Zodíaco+2
@@ -5113,16 +5113,16 @@ VNUM	LOCALE_NAME
 19897	Robe do Zodíaco+7
 19898	Robe do Zodíaco+8
 19899	Robe do Zodíaco+9
-20000	Armadura do Diabo+0
-20001	Armadura do Diabo+1
-20002	Armadura do Diabo+2
-20003	Armadura do Diabo+3
-20004	Armadura do Diabo+4
-20005	Armadura do Diabo+5
-20006	Armadura do Diabo+6
-20007	Armadura do Diabo+7
-20008	Armadura do Diabo+8
-20009	Armadura do Diabo+9
+20000	Arm. do Diabo+0
+20001	Arm. do Diabo+1
+20002	Arm. do Diabo+2
+20003	Arm. do Diabo+3
+20004	Arm. do Diabo+4
+20005	Arm. do Diabo+5
+20006	Arm. do Diabo+6
+20007	Arm. do Diabo+7
+20008	Arm. do Diabo+8
+20009	Arm. do Diabo+9
 20250	Quimono Lorde Dragão+0
 20251	Quimono Lorde Dragão+1
 20252	Quimono Lorde Dragão+2
@@ -5133,16 +5133,16 @@ VNUM	LOCALE_NAME
 20257	Quimono Lorde Dragão+7
 20258	Quimono Lorde Dragão+8
 20259	Quimono Lorde Dragão+9
-20500	Armadura de Ossos+0
-20501	Armadura de Ossos+1
-20502	Armadura de Ossos+2
-20503	Armadura de Ossos+3
-20504	Armadura de Ossos+4
-20505	Armadura de Ossos+5
-20506	Armadura de Ossos+6
-20507	Armadura de Ossos+7
-20508	Armadura de Ossos+8
-20509	Armadura de Ossos+9
+20500	Arm. de Ossos+0
+20501	Arm. de Ossos+1
+20502	Arm. de Ossos+2
+20503	Arm. de Ossos+3
+20504	Arm. de Ossos+4
+20505	Arm. de Ossos+5
+20506	Arm. de Ossos+6
+20507	Arm. de Ossos+7
+20508	Arm. de Ossos+8
+20509	Arm. de Ossos+9
 20750	Roupas Douradas+0
 20751	Roupas Douradas+1
 20752	Roupas Douradas+2
@@ -5153,16 +5153,16 @@ VNUM	LOCALE_NAME
 20757	Roupas Douradas+7
 20758	Roupas Douradas+8
 20759	Roupas Douradas+9
-20760	Armadura Aurora+0
-20761	Armadura Aurora+1
-20762	Armadura Aurora+2
-20763	Armadura Aurora+3
-20764	Armadura Aurora+4
-20765	Armadura Aurora+5
-20766	Armadura Aurora+6
-20767	Armadura Aurora+7
-20768	Armadura Aurora+8
-20769	Armadura Aurora+9
+20760	Arm. Aurora+0
+20761	Arm. Aurora+1
+20762	Arm. Aurora+2
+20763	Arm. Aurora+3
+20764	Arm. Aurora+4
+20765	Arm. Aurora+5
+20766	Arm. Aurora+6
+20767	Arm. Aurora+7
+20768	Arm. Aurora+8
+20769	Arm. Aurora+9
 20770	Quimono de Emboscada+0
 20771	Quimono de Emboscada+1
 20772	Quimono de Emboscada+2
@@ -5173,16 +5173,16 @@ VNUM	LOCALE_NAME
 20777	Quimono de Emboscada+7
 20778	Quimono de Emboscada+8
 20779	Quimono de Emboscada+9
-20780	Armadura Pata do Diabo+0
-20781	Armadura Pata do Diabo+1
-20782	Armadura Pata do Diabo+2
-20783	Armadura Pata do Diabo+3
-20784	Armadura Pata do Diabo+4
-20785	Armadura Pata do Diabo+5
-20786	Armadura Pata do Diabo+6
-20787	Armadura Pata do Diabo+7
-20788	Armadura Pata do Diabo+8
-20789	Armadura Pata do Diabo+9
+20780	Arm. Pata do Diabo+0
+20781	Arm. Pata do Diabo+1
+20782	Arm. Pata do Diabo+2
+20783	Arm. Pata do Diabo+3
+20784	Arm. Pata do Diabo+4
+20785	Arm. Pata do Diabo+5
+20786	Arm. Pata do Diabo+6
+20787	Arm. Pata do Diabo+7
+20788	Arm. Pata do Diabo+8
+20789	Arm. Pata do Diabo+9
 20790	Robe da Fé+0
 20791	Robe da Fé+1
 20792	Robe da Fé+2
@@ -5193,26 +5193,26 @@ VNUM	LOCALE_NAME
 20797	Robe da Fé+7
 20798	Robe da Fé+8
 20799	Robe da Fé+9
-20800	Armadura Luta Sombria+0
-20801	Armadura Luta Sombria+1
-20802	Armadura Luta Sombria+2
-20803	Armadura Luta Sombria+3
-20804	Armadura Luta Sombria+4
-20805	Armadura Luta Sombria+5
-20806	Armadura Luta Sombria+6
-20807	Armadura Luta Sombria+7
-20808	Armadura Luta Sombria+8
-20809	Armadura Luta Sombria+9
-20810	Armadura Magma Ardente+0
-20811	Armadura Magma Ardente+1
-20812	Armadura Magma Ardente+2
-20813	Armadura Magma Ardente+3
-20814	Armadura Magma Ardente+4
-20815	Armadura Magma Ardente+5
-20816	Armadura Magma Ardente+6
-20817	Armadura Magma Ardente+7
-20818	Armadura Magma Ardente+8
-20819	Armadura Magma Ardente+9
+20800	Arm. Luta Sombria+0
+20801	Arm. Luta Sombria+1
+20802	Arm. Luta Sombria+2
+20803	Arm. Luta Sombria+3
+20804	Arm. Luta Sombria+4
+20805	Arm. Luta Sombria+5
+20806	Arm. Luta Sombria+6
+20807	Arm. Luta Sombria+7
+20808	Arm. Luta Sombria+8
+20809	Arm. Luta Sombria+9
+20810	Arm. Magma Ardente+0
+20811	Arm. Magma Ardente+1
+20812	Arm. Magma Ardente+2
+20813	Arm. Magma Ardente+3
+20814	Arm. Magma Ardente+4
+20815	Arm. Magma Ardente+5
+20816	Arm. Magma Ardente+6
+20817	Arm. Magma Ardente+7
+20818	Arm. Magma Ardente+8
+20819	Arm. Magma Ardente+9
 20820	Quimono Lua Sangrenta+0
 20821	Quimono Lua Sangrenta+1
 20822	Quimono Lua Sangrenta+2
@@ -5223,16 +5223,16 @@ VNUM	LOCALE_NAME
 20827	Quimono Lua Sangrenta+7
 20828	Quimono Lua Sangrenta+8
 20829	Quimono Lua Sangrenta+9
-20830	Armadura Ser-Infernal+0
-20831	Armadura Ser-Infernal+1
-20832	Armadura Ser-Infernal+2
-20833	Armadura Ser-Infernal+3
-20834	Armadura Ser-Infernal+4
-20835	Armadura Ser-Infernal+5
-20836	Armadura Ser-Infernal+6
-20837	Armadura Ser-Infernal+7
-20838	Armadura Ser-Infernal+8
-20839	Armadura Ser-Infernal+9
+20830	Arm. Ser-Infernal+0
+20831	Arm. Ser-Infernal+1
+20832	Arm. Ser-Infernal+2
+20833	Arm. Ser-Infernal+3
+20834	Arm. Ser-Infernal+4
+20835	Arm. Ser-Infernal+5
+20836	Arm. Ser-Infernal+6
+20837	Arm. Ser-Infernal+7
+20838	Arm. Ser-Infernal+8
+20839	Arm. Ser-Infernal+9
 20840	Robe do Fogo+0
 20841	Robe do Fogo+1
 20842	Robe do Fogo+2
@@ -5243,26 +5243,26 @@ VNUM	LOCALE_NAME
 20847	Robe do Fogo+7
 20848	Robe do Fogo+8
 20849	Robe do Fogo+9
-20850	Armadura Placa Ágata+0
-20851	Armadura Placa Ágata+1
-20852	Armadura Placa Ágata+2
-20853	Armadura Placa Ágata+3
-20854	Armadura Placa Ágata+4
-20855	Armadura Placa Ágata+5
-20856	Armadura Placa Ágata+6
-20857	Armadura Placa Ágata+7
-20858	Armadura Placa Ágata+8
-20859	Armadura Placa Ágata+9
-20860	Armadura Osso Cetáceo+0
-20861	Armadura Osso Cetáceo+1
-20862	Armadura Osso Cetáceo+2
-20863	Armadura Osso Cetáceo+3
-20864	Armadura Osso Cetáceo+4
-20865	Armadura Osso Cetáceo+5
-20866	Armadura Osso Cetáceo+6
-20867	Armadura Osso Cetáceo+7
-20868	Armadura Osso Cetáceo+8
-20869	Armadura Osso Cetáceo+9
+20850	Arm. Placa Ágata+0
+20851	Arm. Placa Ágata+1
+20852	Arm. Placa Ágata+2
+20853	Arm. Placa Ágata+3
+20854	Arm. Placa Ágata+4
+20855	Arm. Placa Ágata+5
+20856	Arm. Placa Ágata+6
+20857	Arm. Placa Ágata+7
+20858	Arm. Placa Ágata+8
+20859	Arm. Placa Ágata+9
+20860	Arm. Osso Cetáceo+0
+20861	Arm. Osso Cetáceo+1
+20862	Arm. Osso Cetáceo+2
+20863	Arm. Osso Cetáceo+3
+20864	Arm. Osso Cetáceo+4
+20865	Arm. Osso Cetáceo+5
+20866	Arm. Osso Cetáceo+6
+20867	Arm. Osso Cetáceo+7
+20868	Arm. Osso Cetáceo+8
+20869	Arm. Osso Cetáceo+9
 20870	Quimono da Metamorfose+0
 20871	Quimono da Metamorfose+1
 20872	Quimono da Metamorfose+2
@@ -5273,16 +5273,16 @@ VNUM	LOCALE_NAME
 20877	Quimono da Metamorfose+7
 20878	Quimono da Metamorfose+8
 20879	Quimono da Metamorfose+9
-20880	Armadura Luz Fantasma+0
-20881	Armadura Luz Fantasma+1
-20882	Armadura Luz Fantasma+2
-20883	Armadura Luz Fantasma+3
-20884	Armadura Luz Fantasma+4
-20885	Armadura Luz Fantasma+5
-20886	Armadura Luz Fantasma+6
-20887	Armadura Luz Fantasma+7
-20888	Armadura Luz Fantasma+8
-20889	Armadura Luz Fantasma+9
+20880	Arm. Luz Fantasma+0
+20881	Arm. Luz Fantasma+1
+20882	Arm. Luz Fantasma+2
+20883	Arm. Luz Fantasma+3
+20884	Arm. Luz Fantasma+4
+20885	Arm. Luz Fantasma+5
+20886	Arm. Luz Fantasma+6
+20887	Arm. Luz Fantasma+7
+20888	Arm. Luz Fantasma+8
+20889	Arm. Luz Fantasma+9
 20890	Robe da Harmonia+0
 20891	Robe da Harmonia+1
 20892	Robe da Harmonia+2
@@ -5293,26 +5293,26 @@ VNUM	LOCALE_NAME
 20897	Robe da Harmonia+7
 20898	Robe da Harmonia+8
 20899	Robe da Harmonia+9
-20900	Armadura Placa Lunar+0
-20901	Armadura Placa Lunar+1
-20902	Armadura Placa Lunar+2
-20903	Armadura Placa Lunar+3
-20904	Armadura Placa Lunar+4
-20905	Armadura Placa Lunar+5
-20906	Armadura Placa Lunar+6
-20907	Armadura Placa Lunar+7
-20908	Armadura Placa Lunar+8
-20909	Armadura Placa Lunar+9
-20910	Armadura das Cinzas+0
-20911	Armadura das Cinzas+1
-20912	Armadura das Cinzas+2
-20913	Armadura das Cinzas+3
-20914	Armadura das Cinzas+4
-20915	Armadura das Cinzas+5
-20916	Armadura das Cinzas+6
-20917	Armadura das Cinzas+7
-20918	Armadura das Cinzas+8
-20919	Armadura das Cinzas+9
+20900	Arm. Placa Lunar+0
+20901	Arm. Placa Lunar+1
+20902	Arm. Placa Lunar+2
+20903	Arm. Placa Lunar+3
+20904	Arm. Placa Lunar+4
+20905	Arm. Placa Lunar+5
+20906	Arm. Placa Lunar+6
+20907	Arm. Placa Lunar+7
+20908	Arm. Placa Lunar+8
+20909	Arm. Placa Lunar+9
+20910	Arm. das Cinzas+0
+20911	Arm. das Cinzas+1
+20912	Arm. das Cinzas+2
+20913	Arm. das Cinzas+3
+20914	Arm. das Cinzas+4
+20915	Arm. das Cinzas+5
+20916	Arm. das Cinzas+6
+20917	Arm. das Cinzas+7
+20918	Arm. das Cinzas+8
+20919	Arm. das Cinzas+9
 20920	Quimono Noite da Morte+0
 20921	Quimono Noite da Morte+1
 20922	Quimono Noite da Morte+2
@@ -5323,16 +5323,16 @@ VNUM	LOCALE_NAME
 20927	Quimono Noite da Morte+7
 20928	Quimono Noite da Morte+8
 20929	Quimono Noite da Morte+9
-20930	Armadura Fogo Negro+0
-20931	Armadura Fogo Negro+1
-20932	Armadura Fogo Negro+2
-20933	Armadura Fogo Negro+3
-20934	Armadura Fogo Negro+4
-20935	Armadura Fogo Negro+5
-20936	Armadura Fogo Negro+6
-20937	Armadura Fogo Negro+7
-20938	Armadura Fogo Negro+8
-20939	Armadura Fogo Negro+9
+20930	Arm. Fogo Negro+0
+20931	Arm. Fogo Negro+1
+20932	Arm. Fogo Negro+2
+20933	Arm. Fogo Negro+3
+20934	Arm. Fogo Negro+4
+20935	Arm. Fogo Negro+5
+20936	Arm. Fogo Negro+6
+20937	Arm. Fogo Negro+7
+20938	Arm. Fogo Negro+8
+20939	Arm. Fogo Negro+9
 20940	Robe da Lua+0
 20941	Robe da Lua+1
 20942	Robe da Lua+2
@@ -5343,116 +5343,116 @@ VNUM	LOCALE_NAME
 20947	Robe da Lua+7
 20948	Robe da Lua+8
 20949	Robe da Lua+9
-20950	Armadura Placa Ónix+0
-20951	Armadura Placa Ónix+1
-20952	Armadura Placa Ónix+2
-20953	Armadura Placa Ónix+3
-20954	Armadura Placa Ónix+4
-20955	Armadura Placa Ónix+5
-20956	Armadura Placa Ónix+6
-20957	Armadura Placa Ónix+7
-20958	Armadura Placa Ónix+8
-20959	Armadura Placa Ónix+9
-21000	Armadura Vento Divino+0
-21001	Armadura Vento Divino+1
-21002	Armadura Vento Divino+2
-21003	Armadura Vento Divino+3
-21004	Armadura Vento Divino+4
-21005	Armadura Vento Divino+5
-21006	Armadura Vento Divino+6
-21007	Armadura Vento Divino+7
-21008	Armadura Vento Divino+8
-21009	Armadura Vento Divino+9
-21010	Armadura Furacão+0
-21011	Armadura Furacão+1
-21012	Armadura Furacão+2
-21013	Armadura Furacão+3
-21014	Armadura Furacão+4
-21015	Armadura Furacão+5
-21016	Armadura Furacão+6
-21017	Armadura Furacão+7
-21018	Armadura Furacão+8
-21019	Armadura Furacão+9
-21020	Armadura de Malaquite+0
-21021	Armadura de Malaquite+1
-21022	Armadura de Malaquite+2
-21023	Armadura de Malaquite+3
-21024	Armadura de Malaquite+4
-21025	Armadura de Malaquite+5
-21026	Armadura de Malaquite+6
-21027	Armadura de Malaquite+7
-21028	Armadura de Malaquite+8
-21029	Armadura de Malaquite+9
-21030	Armadura da Tormenta+0
-21031	Armadura da Tormenta+1
-21032	Armadura da Tormenta+2
-21033	Armadura da Tormenta+3
-21034	Armadura da Tormenta+4
-21035	Armadura da Tormenta+5
-21036	Armadura da Tormenta+6
-21037	Armadura da Tormenta+7
-21038	Armadura da Tormenta+8
-21039	Armadura da Tormenta+9
-21040	Armadura de Bronze+0
-21041	Armadura de Bronze+1
-21042	Armadura de Bronze+2
-21043	Armadura de Bronze+3
-21044	Armadura de Bronze+4
-21045	Armadura de Bronze+5
-21046	Armadura de Bronze+6
-21047	Armadura de Bronze+7
-21048	Armadura de Bronze+8
-21049	Armadura de Bronze+9
-21050	Armadura de Trasgo+0
-21051	Armadura de Trasgo+1
-21052	Armadura de Trasgo+2
-21053	Armadura de Trasgo+3
-21054	Armadura de Trasgo+4
-21055	Armadura de Trasgo+5
-21056	Armadura de Trasgo+6
-21057	Armadura de Trasgo+7
-21058	Armadura de Trasgo+8
-21059	Armadura de Trasgo+9
-21060	Armadura de Firellium+0
-21061	Armadura de Firellium+1
-21062	Armadura de Firellium+2
-21063	Armadura de Firellium+3
-21064	Armadura de Firellium+4
-21065	Armadura de Firellium+5
-21066	Armadura de Firellium+6
-21067	Armadura de Firellium+7
-21068	Armadura de Firellium+8
-21069	Armadura de Firellium+9
-21070	Armadura Erva-Moura+0
-21071	Armadura Erva-Moura+1
-21072	Armadura Erva-Moura+2
-21073	Armadura Erva-Moura+3
-21074	Armadura Erva-Moura+4
-21075	Armadura Erva-Moura+5
-21076	Armadura Erva-Moura+6
-21077	Armadura Erva-Moura+7
-21078	Armadura Erva-Moura+8
-21079	Armadura Erva-Moura+9
-21080	Armadura de Patrulha+0
-21081	Armadura de Patrulha+1
-21082	Armadura de Patrulha+2
-21083	Armadura de Patrulha+3
-21084	Armadura de Patrulha+4
-21085	Armadura de Patrulha+5
-21086	Armadura de Patrulha+6
-21087	Armadura de Patrulha+7
-21088	Armadura de Patrulha+8
-21089	Armadura de Patrulha+9
-21090	Armadura de General+0
-21091	Armadura de General+1
-21092	Armadura de General+2
-21093	Armadura de General+3
-21094	Armadura de General+4
-21095	Armadura de General+5
-21096	Armadura de General+6
-21097	Armadura de General+7
-21098	Armadura de General+8
-21099	Armadura de General+9
+20950	Arm. Placa Ónix+0
+20951	Arm. Placa Ónix+1
+20952	Arm. Placa Ónix+2
+20953	Arm. Placa Ónix+3
+20954	Arm. Placa Ónix+4
+20955	Arm. Placa Ónix+5
+20956	Arm. Placa Ónix+6
+20957	Arm. Placa Ónix+7
+20958	Arm. Placa Ónix+8
+20959	Arm. Placa Ónix+9
+21000	Arm. Vento Divino+0
+21001	Arm. Vento Divino+1
+21002	Arm. Vento Divino+2
+21003	Arm. Vento Divino+3
+21004	Arm. Vento Divino+4
+21005	Arm. Vento Divino+5
+21006	Arm. Vento Divino+6
+21007	Arm. Vento Divino+7
+21008	Arm. Vento Divino+8
+21009	Arm. Vento Divino+9
+21010	Arm. Furacão+0
+21011	Arm. Furacão+1
+21012	Arm. Furacão+2
+21013	Arm. Furacão+3
+21014	Arm. Furacão+4
+21015	Arm. Furacão+5
+21016	Arm. Furacão+6
+21017	Arm. Furacão+7
+21018	Arm. Furacão+8
+21019	Arm. Furacão+9
+21020	Arm. de Malaquite+0
+21021	Arm. de Malaquite+1
+21022	Arm. de Malaquite+2
+21023	Arm. de Malaquite+3
+21024	Arm. de Malaquite+4
+21025	Arm. de Malaquite+5
+21026	Arm. de Malaquite+6
+21027	Arm. de Malaquite+7
+21028	Arm. de Malaquite+8
+21029	Arm. de Malaquite+9
+21030	Arm. da Tormenta+0
+21031	Arm. da Tormenta+1
+21032	Arm. da Tormenta+2
+21033	Arm. da Tormenta+3
+21034	Arm. da Tormenta+4
+21035	Arm. da Tormenta+5
+21036	Arm. da Tormenta+6
+21037	Arm. da Tormenta+7
+21038	Arm. da Tormenta+8
+21039	Arm. da Tormenta+9
+21040	Arm. de Bronze+0
+21041	Arm. de Bronze+1
+21042	Arm. de Bronze+2
+21043	Arm. de Bronze+3
+21044	Arm. de Bronze+4
+21045	Arm. de Bronze+5
+21046	Arm. de Bronze+6
+21047	Arm. de Bronze+7
+21048	Arm. de Bronze+8
+21049	Arm. de Bronze+9
+21050	Arm. de Trasgo+0
+21051	Arm. de Trasgo+1
+21052	Arm. de Trasgo+2
+21053	Arm. de Trasgo+3
+21054	Arm. de Trasgo+4
+21055	Arm. de Trasgo+5
+21056	Arm. de Trasgo+6
+21057	Arm. de Trasgo+7
+21058	Arm. de Trasgo+8
+21059	Arm. de Trasgo+9
+21060	Arm. de Firellium+0
+21061	Arm. de Firellium+1
+21062	Arm. de Firellium+2
+21063	Arm. de Firellium+3
+21064	Arm. de Firellium+4
+21065	Arm. de Firellium+5
+21066	Arm. de Firellium+6
+21067	Arm. de Firellium+7
+21068	Arm. de Firellium+8
+21069	Arm. de Firellium+9
+21070	Arm. Erva-Moura+0
+21071	Arm. Erva-Moura+1
+21072	Arm. Erva-Moura+2
+21073	Arm. Erva-Moura+3
+21074	Arm. Erva-Moura+4
+21075	Arm. Erva-Moura+5
+21076	Arm. Erva-Moura+6
+21077	Arm. Erva-Moura+7
+21078	Arm. Erva-Moura+8
+21079	Arm. Erva-Moura+9
+21080	Arm. de Patrulha+0
+21081	Arm. de Patrulha+1
+21082	Arm. de Patrulha+2
+21083	Arm. de Patrulha+3
+21084	Arm. de Patrulha+4
+21085	Arm. de Patrulha+5
+21086	Arm. de Patrulha+6
+21087	Arm. de Patrulha+7
+21088	Arm. de Patrulha+8
+21089	Arm. de Patrulha+9
+21090	Arm. de General+0
+21091	Arm. de General+1
+21092	Arm. de General+2
+21093	Arm. de General+3
+21094	Arm. de General+4
+21095	Arm. de General+5
+21096	Arm. de General+6
+21097	Arm. de General+7
+21098	Arm. de General+8
+21099	Arm. de General+9
 21100	NoNAme
 21101	NoNAme
 21102	NoNAme
@@ -5492,86 +5492,86 @@ VNUM	LOCALE_NAME
 21207	Arnês do Zodíaco+7
 21208	Arnês do Zodíaco+8
 21209	Arnês do Zodíaco+9
-21210	Armadura Draco-Ruína+0
-21211	Armadura Draco-Ruína+1
-21212	Armadura Draco-Ruína+2
-21213	Armadura Draco-Ruína+3
-21214	Armadura Draco-Ruína+4
-21215	Armadura Draco-Ruína+5
-21216	Armadura Draco-Ruína+6
-21217	Armadura Draco-Ruína+7
-21218	Armadura Draco-Ruína+8
-21219	Armadura Draco-Ruína+9
-21220	Armadura Draco-Ruína+10
-21221	Armadura Draco-Ruína+11
-21222	Armadura Draco-Ruína+12
-21223	Armadura Draco-Ruína+13
-21224	Armadura Draco-Ruína+14
-21225	Armadura Draco-Ruína+15
-21230	Armadura Draco-Vento+0
-21231	Armadura Draco-Vento+1
-21232	Armadura Draco-Vento+2
-21233	Armadura Draco-Vento+3
-21234	Armadura Draco-Vento+4
-21235	Armadura Draco-Vento+5
-21236	Armadura Draco-Vento+6
-21237	Armadura Draco-Vento+7
-21238	Armadura Draco-Vento+8
-21239	Armadura Draco-Vento+9
-21240	Armadura Draco-Vento+10
-21241	Armadura Draco-Vento+11
-21242	Armadura Draco-Vento+12
-21243	Armadura Draco-Vento+13
-21244	Armadura Draco-Vento+14
-21245	Armadura Draco-Vento+15
-21250	Armadura Draco-Magia+0
-21251	Armadura Draco-Magia+1
-21252	Armadura Draco-Magia+2
-21253	Armadura Draco-Magia+3
-21254	Armadura Draco-Magia+4
-21255	Armadura Draco-Magia+5
-21256	Armadura Draco-Magia+6
-21257	Armadura Draco-Magia+7
-21258	Armadura Draco-Magia+8
-21259	Armadura Draco-Magia+9
-21260	Armadura Draco-Magia+10
-21261	Armadura Draco-Magia+11
-21262	Armadura Draco-Magia+12
-21263	Armadura Draco-Magia+13
-21264	Armadura Draco-Magia+14
-21265	Armadura Draco-Magia+15
-21270	Armadura Draco-Honra+0
-21271	Armadura Draco-Honra+1
-21272	Armadura Draco-Honra+2
-21273	Armadura Draco-Honra+3
-21274	Armadura Draco-Honra+4
-21275	Armadura Draco-Honra+5
-21276	Armadura Draco-Honra+6
-21277	Armadura Draco-Honra+7
-21278	Armadura Draco-Honra+8
-21279	Armadura Draco-Honra+9
-21280	Armadura Draco-Honra+10
-21281	Armadura Draco-Honra+11
-21282	Armadura Draco-Honra+12
-21283	Armadura Draco-Honra+13
-21284	Armadura Draco-Honra+14
-21285	Armadura Draco-Honra+15
-21290	Armadura Draco-Astral+0
-21291	Armadura Draco-Astral+1
-21292	Armadura Draco-Astral+2
-21293	Armadura Draco-Astral+3
-21294	Armadura Draco-Astral+4
-21295	Armadura Draco-Astral+5
-21296	Armadura Draco-Astral+6
-21297	Armadura Draco-Astral+7
-21298	Armadura Draco-Astral+8
-21299	Armadura Draco-Astral+9
-21300	Armadura Draco-Astral+10
-21301	Armadura Draco-Astral+11
-21302	Armadura Draco-Astral+12
-21303	Armadura Draco-Astral+13
-21304	Armadura Draco-Astral+14
-21305	Armadura Draco-Astral+15
+21210	Arm. Draco-Ruína+0
+21211	Arm. Draco-Ruína+1
+21212	Arm. Draco-Ruína+2
+21213	Arm. Draco-Ruína+3
+21214	Arm. Draco-Ruína+4
+21215	Arm. Draco-Ruína+5
+21216	Arm. Draco-Ruína+6
+21217	Arm. Draco-Ruína+7
+21218	Arm. Draco-Ruína+8
+21219	Arm. Draco-Ruína+9
+21220	Arm. Draco-Ruína+10
+21221	Arm. Draco-Ruína+11
+21222	Arm. Draco-Ruína+12
+21223	Arm. Draco-Ruína+13
+21224	Arm. Draco-Ruína+14
+21225	Arm. Draco-Ruína+15
+21230	Arm. Draco-Vento+0
+21231	Arm. Draco-Vento+1
+21232	Arm. Draco-Vento+2
+21233	Arm. Draco-Vento+3
+21234	Arm. Draco-Vento+4
+21235	Arm. Draco-Vento+5
+21236	Arm. Draco-Vento+6
+21237	Arm. Draco-Vento+7
+21238	Arm. Draco-Vento+8
+21239	Arm. Draco-Vento+9
+21240	Arm. Draco-Vento+10
+21241	Arm. Draco-Vento+11
+21242	Arm. Draco-Vento+12
+21243	Arm. Draco-Vento+13
+21244	Arm. Draco-Vento+14
+21245	Arm. Draco-Vento+15
+21250	Arm. Draco-Magia+0
+21251	Arm. Draco-Magia+1
+21252	Arm. Draco-Magia+2
+21253	Arm. Draco-Magia+3
+21254	Arm. Draco-Magia+4
+21255	Arm. Draco-Magia+5
+21256	Arm. Draco-Magia+6
+21257	Arm. Draco-Magia+7
+21258	Arm. Draco-Magia+8
+21259	Arm. Draco-Magia+9
+21260	Arm. Draco-Magia+10
+21261	Arm. Draco-Magia+11
+21262	Arm. Draco-Magia+12
+21263	Arm. Draco-Magia+13
+21264	Arm. Draco-Magia+14
+21265	Arm. Draco-Magia+15
+21270	Arm. Draco-Honra+0
+21271	Arm. Draco-Honra+1
+21272	Arm. Draco-Honra+2
+21273	Arm. Draco-Honra+3
+21274	Arm. Draco-Honra+4
+21275	Arm. Draco-Honra+5
+21276	Arm. Draco-Honra+6
+21277	Arm. Draco-Honra+7
+21278	Arm. Draco-Honra+8
+21279	Arm. Draco-Honra+9
+21280	Arm. Draco-Honra+10
+21281	Arm. Draco-Honra+11
+21282	Arm. Draco-Honra+12
+21283	Arm. Draco-Honra+13
+21284	Arm. Draco-Honra+14
+21285	Arm. Draco-Honra+15
+21290	Arm. Draco-Astral+0
+21291	Arm. Draco-Astral+1
+21292	Arm. Draco-Astral+2
+21293	Arm. Draco-Astral+3
+21294	Arm. Draco-Astral+4
+21295	Arm. Draco-Astral+5
+21296	Arm. Draco-Astral+6
+21297	Arm. Draco-Astral+7
+21298	Arm. Draco-Astral+8
+21299	Arm. Draco-Astral+9
+21300	Arm. Draco-Astral+10
+21301	Arm. Draco-Astral+11
+21302	Arm. Draco-Astral+12
+21303	Arm. Draco-Astral+13
+21304	Arm. Draco-Astral+14
+21305	Arm. Draco-Astral+15
 21310	Casaco da Serpente+0
 21311	Casaco da Serpente+1
 21312	Casaco da Serpente+2
@@ -5804,16 +5804,16 @@ VNUM	LOCALE_NAME
 23017	Luvas da Rapidez+7
 23018	Luvas da Rapidez+8
 23019	Luvas da Rapidez+9
-23020	Luvas da Armadura+0
-23021	Luvas da Armadura+1
-23022	Luvas da Armadura+2
-23023	Luvas da Armadura+3
-23024	Luvas da Armadura+4
-23025	Luvas da Armadura+5
-23026	Luvas da Armadura+6
-23027	Luvas da Armadura+7
-23028	Luvas da Armadura+8
-23029	Luvas da Armadura+9
+23020	Luvas da Arm.+0
+23021	Luvas da Arm.+1
+23022	Luvas da Arm.+2
+23023	Luvas da Arm.+3
+23024	Luvas da Arm.+4
+23025	Luvas da Arm.+5
+23026	Luvas da Arm.+6
+23027	Luvas da Arm.+7
+23028	Luvas da Arm.+8
+23029	Luvas da Arm.+9
 23030	Luvas da Proteção+0
 23031	Luvas da Proteção+1
 23032	Luvas da Proteção+2
@@ -6345,7 +6345,7 @@ VNUM	LOCALE_NAME
 30002	Salsicha Grelhada
 30003	Nariz de Porco
 30004	Dente de Javali
-30005	Peça de Armadura Partida
+30005	Peça de Arm. Partida
 30006	Dente de Orc
 30007	Amuleto de Orc
 30008	Cartilha Esotérica
@@ -6714,7 +6714,7 @@ VNUM	LOCALE_NAME
 30585	NoNAme
 30586	NoNAme
 30600	Padrão de Costura
-30601	Design de Armadura
+30601	Design de Arm.
 30602	Tinta Azul
 30603	Tinta Vermelha
 30604	Tinta Cinzenta
@@ -6735,7 +6735,7 @@ VNUM	LOCALE_NAME
 30619	Tinta Ouro Metálico
 30620	Corno Dragão Vermelho
 30621	Escama Dragão Vermelho
-30622	Design de Armadura: Elmo
+30622	Design de Arm.: Elmo
 30623	Livro da Verdade
 30624	Alma da Verdade
 30625	Padparadscha
@@ -6799,7 +6799,7 @@ VNUM	LOCALE_NAME
 31023	NoNAme
 31024	Couro de Mantícora
 31025	NoNAme
-31026	Armadura Crustácea
+31026	Arm. Crustácea
 31027	Areia Fina
 31028	Tijolo de Barro
 31029	Luz Interior
@@ -6952,11 +6952,11 @@ VNUM	LOCALE_NAME
 31201	DT: Design de Campainha
 31202	DT: Design de Garras
 31203	DT: Design de Leque
-31204	DT: Des. Armadura Guerr.
-31205	DT: Des. Armadura Ninja
-31206	DT: Des. Armadura Sura
-31207	DT: Des. Armadura Xamã
-31208	DT: Des. Armadura Lycan
+31204	DT: Des. Arm. Guerr.
+31205	DT: Des. Arm. Ninja
+31206	DT: Des. Arm. Sura
+31207	DT: Des. Arm. Xamã
+31208	DT: Des. Arm. Lycan
 31209	DT: Des. Elmo Guerreiro
 31210	DT: Des. Elmo Ninja
 31211	DT: Des. Elmo Sura
@@ -7147,7 +7147,6 @@ VNUM	LOCALE_NAME
 39061	Cofre Xamã Energia (P)
 39062	Cofre Xamã Energia (G)
 39063	Actualiza Mercado Gaya
-39064	Expande Mercado de Gaya
 39067	Cofre de Lascas do Poder
 39068	Cofre Lascas Poder Eleg.
 39069	Cofre Lascas Poder Luz.
@@ -7169,11 +7168,11 @@ VNUM	LOCALE_NAME
 39088	Lasca Elmo Sagrado II
 39089	Lasca Elmo Glorioso II
 39090	Lasca Elmo Cavalh. II
-39091	Lasca Armadura Sagr. I
-39092	Lasca Armadura Glor. I
-39093	Lasca Armadura Cavalh. I
-39094	Lasca Armadura Sagr. II
-39095	Lasca Armadura Glor. II
+39091	Lasca Arm. Sagr. I
+39092	Lasca Arm. Glor. I
+39093	Lasca Arm. Cavalh. I
+39094	Lasca Arm. Sagr. II
+39095	Lasca Arm. Glor. II
 39096	Lasca Armad. Cavalh. II
 39097	Lasca Arma Sagrada I
 39098	Lasca Arma Gloriosa I
@@ -7182,13 +7181,13 @@ VNUM	LOCALE_NAME
 39101	Lasca Arma Gloriosa II
 39102	Lasca Arma Cavalh. II
 39103	Lasca Elmo Real II
-39104	Lasca Armadura Real II
+39104	Lasca Arm. Real II
 39105	Lasca Arma Real II
 39106	Lasca Elmo Majestoso II
 39107	Lasca Armad. Majest. II
 39108	Lasca Arma Majestosa II
 39110	Design Conjunto Elmo
-39111	Design Conjunto Armadura
+39111	Design Conjunto Arm.
 39112	Design Conjunto Arma
 39113	Medalha da Força Antiga
 39114	Anel da Força Antiga
@@ -7581,10 +7580,10 @@ VNUM	LOCALE_NAME
 41312	Guerreira Deserto(Preto)
 41313	Guerreiro Deserto+(Prt)
 41314	Guerreira Deserto+(Prt)
-41315	Armadura Azrael (m)
-41316	Armadura Azrael (f)
-41317	Armadura Azrael+ (m)
-41318	Armadura Azrael+ (f)
+41315	Arm. Azrael (m)
+41316	Arm. Azrael (f)
+41317	Arm. Azrael+ (m)
+41318	Arm. Azrael+ (f)
 41319	Disfarce Cobra
 41320	Fato Jack Abóbora (m)
 41321	Vestido Jack Abóbora (f)
@@ -7826,14 +7825,14 @@ VNUM	LOCALE_NAME
 41581	O-Yoroi Prata+ (M)
 41582	O-Yoroi Ouro+ (F)
 41583	O-Yoroi Prata+ (F)
-41584	Armadura Samurai (Azul)
-41585	Armadura Samurai (Vrm.)
-41586	Armadura Samurai (Azul)
-41587	Armadura Samurai (Vrm.)
-41588	Armadura Samurai+(Azul)
-41589	Armadura Samurai+(Vrm.)
-41590	Armadura Samurai+(Azul)
-41591	Armadura Samurai+(Vrm.)
+41584	Arm. Samurai (Azul)
+41585	Arm. Samurai (Vrm.)
+41586	Arm. Samurai (Azul)
+41587	Arm. Samurai (Vrm.)
+41588	Arm. Samurai+(Azul)
+41589	Arm. Samurai+(Vrm.)
+41590	Arm. Samurai+(Azul)
+41591	Arm. Samurai+(Vrm.)
 41592	Arnês do Horror (Ouro)
 41593	Arnês do Horror (Azul)
 41594	Arnês do Horror (Ouro)
@@ -7858,14 +7857,14 @@ VNUM	LOCALE_NAME
 41613	Disfarce Sungura+ (V.Az)
 41614	Vestido Sungura+ (Azul)
 41615	Vestido Sungura+ (Cinza)
-41630	Armadura Avalon (Prata)
-41631	Armadura Avalon (Verm.)
-41632	Armadura Avalon (Prata)
-41633	Armadura Avalon (Verm.)
-41634	Armadura Avalon+ (Prata)
-41635	Armadura Avalon+ (Verm.)
-41636	Armadura Avalon+ (Prata)
-41637	Armadura Avalon+ (Verm.)
+41630	Arm. Avalon (Prata)
+41631	Arm. Avalon (Verm.)
+41632	Arm. Avalon (Prata)
+41633	Arm. Avalon (Verm.)
+41634	Arm. Avalon+ (Prata)
+41635	Arm. Avalon+ (Verm.)
+41636	Arm. Avalon+ (Prata)
+41637	Arm. Avalon+ (Verm.)
 41638	Kit Mundial KSA (M)
 41639	Kit Mundial KSA (F)
 41640	Kit Mundial KSA+ (M)
@@ -7906,14 +7905,14 @@ VNUM	LOCALE_NAME
 41675	Disfarce Lobo Cinz.+ (M)
 41676	Disfarce Lobo Cast.+ (F)
 41677	Disfarce Lobo Cinz.+ (F)
-41678	Armadura de Éolo (M)
-41679	Armadura de Astreu (M)
-41680	Armadura de Éolo (F)
-41681	Armadura de Astreu (F)
-41682	Armadura de Éolo+ (M)
-41683	Armadura de Astreu+ (M)
-41684	Armadura de Éolo+ (F)
-41685	Armadura de Astreu+ (F)
+41678	Arm. de Éolo (M)
+41679	Arm. de Astreu (M)
+41680	Arm. de Éolo (F)
+41681	Arm. de Astreu (F)
+41682	Arm. de Éolo+ (M)
+41683	Arm. de Astreu+ (M)
+41684	Arm. de Éolo+ (F)
+41685	Arm. de Astreu+ (F)
 41686	Guarda Dragão de Fogo
 41687	Guarda Dragão de Gelo
 41688	Guarda Dragão de Fogo
@@ -7946,18 +7945,18 @@ VNUM	LOCALE_NAME
 41715	Manto Vidente Branco+(M)
 41716	Manto Vidente Preto+ (F)
 41717	Manto Vidente Branco+(F)
-41718	Armadura da Penumbra (M)
-41719	Armadura Astro Prata (M)
-41720	Armadura da Penumbra (F)
-41721	Armadura Astro Prata (F)
-41722	Armadura da Penumbra+(M)
-41723	Armadura Astro Prata+(M)
-41724	Armadura da Penumbra+(F)
-41725	Armadura Astro Prata+(F)
-41726	Armadura Azrael Vrm.+(M)
-41727	Armadura Azrael Bra.+(M)
-41728	Armadura Azrael Vrm.+(F)
-41729	Armadura Azrael Bra.+(F)
+41718	Arm. da Penumbra (M)
+41719	Arm. Astro Prata (M)
+41720	Arm. da Penumbra (F)
+41721	Arm. Astro Prata (F)
+41722	Arm. da Penumbra+(M)
+41723	Arm. Astro Prata+(M)
+41724	Arm. da Penumbra+(F)
+41725	Arm. Astro Prata+(F)
+41726	Arm. Azrael Vrm.+(M)
+41727	Arm. Azrael Bra.+(M)
+41728	Arm. Azrael Vrm.+(F)
+41729	Arm. Azrael Bra.+(F)
 41730	Equip. Futebol SWE (M)
 41731	Equip. Futebol SWE (F)
 41732	Equip. Futebol SWE+ (M)
@@ -7978,14 +7977,14 @@ VNUM	LOCALE_NAME
 41747	Equip. Futebol ISL (F)
 41748	Equip. Futebol ISL+ (M)
 41749	Equip. Futebol ISL+ (F)
-41750	Armadura Garra Negra (M)
-41751	Armadura Garra Prata (M)
-41752	Armadura Garra Negra (F)
-41753	Armadura Garra Prata (F)
-41754	Armadura Garra Negra+(M)
-41755	Armadura Garra Prata+(M)
-41756	Armadura Garra Negra+(F)
-41757	Armadura Garra Prata+(F)
+41750	Arm. Garra Negra (M)
+41751	Arm. Garra Prata (M)
+41752	Arm. Garra Negra (F)
+41753	Arm. Garra Prata (F)
+41754	Arm. Garra Negra+(M)
+41755	Arm. Garra Prata+(M)
+41756	Arm. Garra Negra+(F)
+41757	Arm. Garra Prata+(F)
 41758	Disfarce de Génio (M)
 41759	Disfarce de Sultão (M)
 41760	Disfarce de Génio+ (M)
@@ -8002,14 +8001,14 @@ VNUM	LOCALE_NAME
 41771	Corsário+ (M)
 41772	Pirata+ (F)
 41773	Corsário+ (F)
-41774	Armadura do Submundo (M)
-41775	Armadura Outro Mundo (M)
-41776	Armadura do Submundo (F)
-41777	Armadura Outro Mundo (F)
-41778	Armadura Submundo+ (M)
-41779	Armadura Outro Mundo+(M)
-41780	Armadura Submundo+ (F)
-41781	Armadura Outro Mundo+(F)
+41774	Arm. do Submundo (M)
+41775	Arm. Outro Mundo (M)
+41776	Arm. do Submundo (F)
+41777	Arm. Outro Mundo (F)
+41778	Arm. Submundo+ (M)
+41779	Arm. Outro Mundo+(M)
+41780	Arm. Submundo+ (F)
+41781	Arm. Outro Mundo+(F)
 41782	Camisola Natal Verm. (M)
 41783	Camisola Natal Verde (M)
 41784	Camisola Natal Verm. (F)
@@ -8050,8 +8049,8 @@ VNUM	LOCALE_NAME
 41819	Manto Dokkaebi Azul+(M)
 41820	Manto Dokkaebi Preto+(F)
 41821	Manto Dokkaebi Azul+(F)
-41822	Armadura Condenação (M)
-41823	Armadura Condenação (F)
+41822	Arm. Condenação (M)
+41823	Arm. Condenação (F)
 41824	Casaco Neve Quente (M)
 41825	Casaco Neve Luxuoso (M)
 41826	Casaco Neve Quente (F)
@@ -8940,7 +8939,7 @@ VNUM	LOCALE_NAME
 50462	Manual Espiral do Dragão
 50463	Manual Lâmina Encantada
 50464	Manual Receio
-50465	Manual Armadura Negra
+50465	Manual Arm. Negra
 50466	Manual Remover Efeito
 50476	Manual Ataque Obscuro
 50477	Manual Ataque Chama
@@ -10993,16 +10992,16 @@ VNUM	LOCALE_NAME
 91007	Espada do Zodíaco+0
 91008	Espada do Zodíaco+0
 91009	Espada do Zodíaco+0
-91010	Armadura do Zodíaco+0
-91011	Armadura do Zodíaco+0
-91012	Armadura do Zodíaco+0
-91013	Armadura do Zodíaco+0
-91014	Armadura do Zodíaco+0
-91015	Armadura do Zodíaco+0
-91016	Armadura do Zodíaco+0
-91017	Armadura do Zodíaco+0
-91018	Armadura do Zodíaco+0
-91019	Armadura do Zodíaco+0
+91010	Arm. do Zodíaco+0
+91011	Arm. do Zodíaco+0
+91012	Arm. do Zodíaco+0
+91013	Arm. do Zodíaco+0
+91014	Arm. do Zodíaco+0
+91015	Arm. do Zodíaco+0
+91016	Arm. do Zodíaco+0
+91017	Arm. do Zodíaco+0
+91018	Arm. do Zodíaco+0
+91019	Arm. do Zodíaco+0
 91020	Sapatos Rei da Pesca+0
 91021	Sapatos Rei da Pesca+0
 91022	Sapatos Rei da Pesca+0
@@ -11027,7 +11026,7 @@ VNUM	LOCALE_NAME
 91041	Arco do Zodíaco+0
 91042	Flecha
 91043	Espada Zodíaco (Cofre)
-91044	Armadura Zodíaco (Cofre)
+91044	Arm. Zodíaco (Cofre)
 91045	Sapatos Rei Pesca(Cofre)
 91046	Escudo 3 Impérios(Cofre)
 91047	Flecha de Prata
@@ -11263,16 +11262,16 @@ VNUM	LOCALE_NAME
 12937	Capuz de cianite+7
 12938	Capuz de cianite+8
 12939	Capuz de cianite+9
-12940	Capacete de armadura de cianite+0
-12941	Capacete de armadura de cianite+1
-12942	Capacete de armadura de cianite+2
-12943	Capacete de armadura de cianite+3
-12944	Capacete de armadura de cianite+4
-12945	Capacete de armadura de cianite+5
-12946	Capacete de armadura de cianite+6
-12947	Capacete de armadura de cianite+7
-12948	Capacete de armadura de cianite+8
-12949	Capacete de armadura de cianite+9
+12940	Capacete de Arm. de cianite+0
+12941	Capacete de Arm. de cianite+1
+12942	Capacete de Arm. de cianite+2
+12943	Capacete de Arm. de cianite+3
+12944	Capacete de Arm. de cianite+4
+12945	Capacete de Arm. de cianite+5
+12946	Capacete de Arm. de cianite+6
+12947	Capacete de Arm. de cianite+7
+12948	Capacete de Arm. de cianite+8
+12949	Capacete de Arm. de cianite+9
 12950	Chapéu de cianite+0
 12951	Chapéu de cianite+1
 12952	Chapéu de cianite+2
@@ -11353,16 +11352,16 @@ VNUM	LOCALE_NAME
 12897	Chapéu do Zodíaco+7
 12898	Chapéu do zodíaco+8
 12899	Chapéu do Zodíaco+9
-12900	Capacete de armadura do Zodíaco+0
-12901	Capacete de armadura do Zodíaco+1
-12902	Capacete de armadura do Zodíaco+2
-12903	Capacete de armadura do Zodíaco+3
-12904	Capacete de armadura do Zodíaco+4
-12905	Capacete de armadura do Zodíaco+5
-12906	Capacete de armadura do Zodíaco+6
-12907	Capacete de armadura do Zodíaco+7
-12908	Capacete de armadura do Zodíaco+8
-12909	Capacete de armadura do Zodíaco+9
+12900	Capacete de Arm. do Zodíaco+0
+12901	Capacete de Arm. do Zodíaco+1
+12902	Capacete de Arm. do Zodíaco+2
+12903	Capacete de Arm. do Zodíaco+3
+12904	Capacete de Arm. do Zodíaco+4
+12905	Capacete de Arm. do Zodíaco+5
+12906	Capacete de Arm. do Zodíaco+6
+12907	Capacete de Arm. do Zodíaco+7
+12908	Capacete de Arm. do Zodíaco+8
+12909	Capacete de Arm. do Zodíaco+9
 12910	Chapéu de Zodíaco+0
 12911	Chapéu de Zodíaco+1
 12912	Chapéu de Zodíaco+2
@@ -11535,22 +11534,22 @@ VNUM	LOCALE_NAME
 12133	Capuz de Cobra+13
 12134	Capuz de Cobra+14
 12135	Capuz de Cobra+15
-12140	Capacete com armadura de Cobra+0
-12141	Capacete com armadura de Cobra+1
-12142	Capacete com armadura de Cobra+2
-12143	Capacete com armadura de Cobra+3
-12144	Capacete com armadura de Cobra+4
-12145	Capacete com armadura de Cobra+5
-12146	Capacete com armadura de Cobra+6
-12147	Capacete com armadura de Cobra+7
-12148	Capacete com armadura de Cobra+8
-12149	Capacete com armadura de Cobra+9
-12150	Capacete com armadura de Cobra+10
-12151	Capacete com armadura de Cobra+11
-12152	Capacete com armadura de Cobra+12
-12153	Capacete com armadura de Cobra+13
-12154	Capacete com armadura de Cobra+14
-12155	Capacete com armadura de Cobra+15
+12140	Capacete com Arm. de Cobra+0
+12141	Capacete com Arm. de Cobra+1
+12142	Capacete com Arm. de Cobra+2
+12143	Capacete com Arm. de Cobra+3
+12144	Capacete com Arm. de Cobra+4
+12145	Capacete com Arm. de Cobra+5
+12146	Capacete com Arm. de Cobra+6
+12147	Capacete com Arm. de Cobra+7
+12148	Capacete com Arm. de Cobra+8
+12149	Capacete com Arm. de Cobra+9
+12150	Capacete com Arm. de Cobra+10
+12151	Capacete com Arm. de Cobra+11
+12152	Capacete com Arm. de Cobra+12
+12153	Capacete com Arm. de Cobra+13
+12154	Capacete com Arm. de Cobra+14
+12155	Capacete com Arm. de Cobra+15
 12160	Chapéu de Cobra+0
 12161	Chapéu de Cobra+1
 12162	Chapéu de Cobra+2
@@ -11898,21 +11897,21 @@ VNUM	LOCALE_NAME
 30338	Bon para chapelaria
 30339	Recibo de pele de arma
 30340	Recibo de despesas
-30347	Andun-Shining(Armadura)
+30347	Andun-Shining(Arm.)
 30348	Brilho do Andun (Arma)
-30349	Brilho de Atlântida (Armadura)
+30349	Brilho de Atlântida (Arm.)
 30350	Atlântida Shining(Arma)
-30351	Brilho do mar profundo (armadura)
+30351	Brilho do mar profundo (Arm.)
 30352	Brilho do mar profundo(Arma)
-30353	Espírito Samurai Brilhante (Armadura)
+30353	Espírito Samurai Brilhante (Arm.)
 30354	Espírito Samurai Brilhante(Arma)
-30355	Wukong-Shining (armadura)
+30355	Wukong-Shining (Arm.)
 30356	Wukong-Shining(Arma)
-30357	Caçador de Vampiros Brilhante (Armadura)
+30357	Caçador de Vampiros Brilhante (Arm.)
 30358	Caçador de Vampiros Brilhante (Arma)
-30359	Cavaleiro de Sangue Brilhante (Armadura)
+30359	Cavaleiro de Sangue Brilhante (Arm.)
 30360	Cavaleiro de Sangue Brilhante (Arma)
-30361	Brilho do Médico da Peste (Armadura)
+30361	Brilho do Médico da Peste (Arm.)
 30362	Brilho do Médico da Peste (Arma)
 69151	Encantamento invulgar
 69152	Encantamento raro
@@ -12064,3 +12063,75 @@ VNUM	LOCALE_NAME
 30586	Jóias lisas (roxo)
 30559	Fio brilhante (roxo)
 31085	Água pesada
+39064	Bon do destino
+40282	Véspera de Natal-Espada+
+40283	Véspera de Natal-Adaga+
+40284	Véspera de Natal-Arco+
+40285	Véspera de Natal-Glava+
+40286	Véspera de Natal-Campainha+
+40287	Véspera de Natal-Leque+
+40288	Reino do gelo-Espada+
+40289	Reino do gelo-Adaga+
+40290	Reino do gelo-Arco+
+40291	Reino do gelo-Glava+
+40292	Reino do gelo-Campainha+
+40293	Reino do gelo-Leque+
+40294	Pássaro de geada-Espada+
+40295	Pássaro de geada-Adaga+
+40296	Pássaro de geada-Arco+
+40297	Pássaro de geada-Glava+
+40298	Pássaro de geada-Campainha+
+40299	Pássaro de geada-Leque+
+40300	Terra de inverno-Espada+
+40301	Terra de inverno-Adaga+
+40302	Terra de inverno-Arco+
+40303	Terra de inverno-Glava+
+40304	Terra de inverno-Campainha+
+40305	Terra de inverno-Leque+
+30363	Véspera de Natal-Shining(Arm.)
+30364	Véspera de Natal-Shining(Arma)
+30365	Reino do gelo-Shining(Arm.)
+30366	Reino do gelo-Shining(Arma)
+30367	Pássaro de geada-Shining(Arm.)
+30368	Pássaro de geada-Shining(Arma)
+30369	Terra de inverno-Shining(Arm.)
+30370	Terra de inverno-Shining(Arma)
+85109	Véspera de Natal-Band
+85110	Reino do gelo-Band
+85111	Pássaro de geada-Band
+85112	Terra de inverno-Band
+41892	Véspera de Natal-Traje(w)+
+41893	Véspera de Natal-Traje(m)+
+45632	Véspera de Natal-Capacete(m)+
+45633	Véspera de Natal-Capacete(w)+
+41894	Reino do gelo-Traje(w)+
+41895	Reino do gelo-Traje(m)+
+45634	Reino do gelo-Capacete(m)+
+45635	Reino do gelo-Capacete(w)+
+41896	Pássaro de geada-Traje(w)+
+41897	Pássaro de geada-Traje(m)+
+45636	Pássaro de geada-Capacete(m)+
+45637	Pássaro de geada-Capacete(w)+
+41898	Terra de inverno-Traje(w)+
+41899	Terra de inverno-Traje(m)+
+45638	Terra de inverno-Capacete(m)+
+45639	Terra de inverno-Capacete(w)+
+950843	Cacau com marshmallows
+950844	Biscoitos de Natal
+950845	Homem de gengibre
+950846	Bengala doce
+950847	Boneco de neve
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Boneco de neve
+53350	Mini-Corredor de neve
+71270	Fenrir
+71271	Qilin
+71272	Rudolph
+71273	Corredor de neve
+71274	Urso mágico de inverno
+71275	Renas de inverno
+51647	Presente de Natal (Bronze)
+51648	Presente de Natal (Prata)
+51649	Presente de Natal (Ouro)

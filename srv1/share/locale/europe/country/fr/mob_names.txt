@@ -2949,4 +2949,17 @@ VNUM	LOCALE_NAME
 34183	Mini Faucheuse
 34184	Mini-Wukong
 34185	Mini-Nixie
-
+20287	Fenrir
+20288	Qilin
+20289	Rodolphe
+20290	Raquette à neige
+20291	Ourson magique d'hiver
+20292	Renne magique d'hiver
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Bonhomme de neige
+34190	Mini-Raquette à neige
+9435	Boîte cadeau(bronze)
+9436	Boîte cadeau(argent)
+9437	Boîte cadeau(or)

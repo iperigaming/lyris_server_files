@@ -6851,7 +6851,7 @@ VNUM	LOCALE_NAME
 31145	Blätter des Lebens
 31146	Buch der Erweckung
 31147	Taschenuhr
-31149	Feste Schnur	
+31149	Feste Schnur
 31160	Gew. Schlüssel (ZR)
 31161	Stein der Dryaden (ZR)
 31162	Edles Holz (ZR)
@@ -11922,7 +11922,7 @@ VNUM	LOCALE_NAME
 53342	Grusel-Pack
 53343	Mini-Sensenmann
 53344	Mini-Wukong
-53345	Mini-Nixie
+53345	Mini-Nixie		
 50135	Bio-Paket-Low
 50136	Bio-Paket-Mid
 50137	Bio-Paket-High
@@ -11946,3 +11946,74 @@ VNUM	LOCALE_NAME
 10958	Blitztalisman(Fragment)
 10959	Erdtalisman(Fragment)
 10960	Dunkler Talisman(Fragment)
+40282	Heilignacht-Schwert+
+40283	Heilignacht-Dolch+
+40284	Heilignacht-Bogen+
+40285	Heilignacht-Zweihänder+
+40286	Heilignacht-Glocke+
+40287	Heilignacht-Fächer+
+40288	Eiskönigreich-Schwert+
+40289	Eiskönigreich-Dolch+
+40290	Eiskönigreich-Bogen+
+40291	Eiskönigreich-Zweihänder+
+40292	Eiskönigreich-Glocke+
+40293	Eiskönigreich-Fächer+
+40294	Frostvogel-Schwert+
+40295	Frostvogel-Dolch+
+40296	Frostvogel-Bogen+
+40297	Frostvogel-Zweihänder+
+40298	Frostvogel-Glocke+
+40299	Frostvogel-Fächer+
+40300	Winterland-Schwert+
+40301	Winterland-Dolch+
+40302	Winterland-Bogen+
+40303	Winterland-Zweihänder+
+40304	Winterland-Glocke+
+40305	Winterland-Fächer+
+30363	Heilignacht-Shining(Rüstung)
+30364	Heilignacht-Shining(Waffe)
+30365	Eiskönigreich-Shining(Rüstung)
+30366	Eiskönigreich-Shining(Waffe)
+30367	Frostvogel-Shining(Rüstung)
+30368	Frostvogel-Shining(Waffe)
+30369	Winterland-Shining(Rüstung)
+30370	Winterland-Shining(Waffe)
+85109	Heilignacht-Band
+85110	Eiskönigreich-Band
+85111	Frostvogel-Band
+85112	Winterland-Band
+41892	Heilignacht-Kostüm(w)+
+41893	Heilignacht-Kostüm(m)+
+45632	Heilignacht-Helm(m)+
+45633	Heilignacht-Helm(w)+
+41894	Eiskönigreich-Kostüm(w)+
+41895	Eiskönigreich-Kostüm(m)+
+45634	Eiskönigreich-Helm(m)+
+45635	Eiskönigreich-Helm(w)+
+41896	Frostvogel-Kostüm(w)+
+41897	Frostvogel-Kostüm(m)+
+45636	Frostvogel-Helm(m)+
+45637	Frostvogel-Helm(w)+
+41898	Winterland-Kostüm(w)+
+41899	Winterland-Kostüm(m)+
+45638	Winterland-Helm(m)+
+45639	Winterland-Helm(w)+
+950843	Kakao mit Marshmallows
+950844	Weihnachtsplätzchen
+950845	Lebkuchenmann
+950846	Zuckerstange
+950847	Schneemann
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Schneemann
+53350	Mini-Schneeläufer
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Schneeläufer
+71274	Winterzauberbär
+71275	Winterzauberrentier
+51647	Weihnachtsgeschenk(Bronze)
+51648	Weihnachtsgeschenk(Silber)
+51649	Weihnachtsgeschenk(Gold)

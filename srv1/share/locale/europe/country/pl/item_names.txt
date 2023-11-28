@@ -7096,7 +7096,6 @@ VNUM	LOCALE_NAME
 39061	Skrz. Szam. M. Lecz. (M)
 39062	Skrz. Szam. M. Lecz. (D)
 39063	Reset Sklepu Gaya
-39064	Rozszerzenie Sklepu Gaya
 39067	Skrzynia z Od³amkiem
 39068	Zdobna Skrz. z Od³amkiem
 39069	Lœni¹ca Sk. z Od³amkiem
@@ -12114,3 +12113,75 @@ VNUM	LOCALE_NAME
 10958	Talizman B³yskawicy(Od³amek)
 10959	Talizman Ziemi(Od³amek)
 10960	Talizman Mroku(Od³amek)
+40282	Bo¿e Narodzenie-Miecz+
+40283	Bo¿e Narodzenie-Sztylet+
+40284	Bo¿e Narodzenie-£uk+
+40285	Bo¿e Narodzenie-Dwurêczny+
+40286	Bo¿e Narodzenie-Dzwon+
+40287	Bo¿e Narodzenie-Wachlarz+
+40288	Królestwo lodu-Miecz+
+40289	Królestwo lodu-Sztylet+
+40290	Królestwo lodu-£uk+
+40291	Królestwo lodu-Dwurêczny+
+40292	Królestwo lodu-Dzwon+
+40293	Królestwo lodu-Wachlarz+
+40294	Ptak mrozu-Miecz+
+40295	Ptak mrozu-Sztylet+
+40296	Ptak mrozu-£uk+
+40297	Ptak mrozu-Dwurêczny+
+40298	Ptak mrozu-Dzwon+
+40299	Ptak mrozu-Wachlarz+
+40300	Zimowisko-Miecz+
+40301	Zimowisko-Sztylet+
+40302	Zimowisko-£uk+
+40303	Zimowisko-Dwurêczny+
+40304	Zimowisko-Dzwon+
+40305	Zimowisko-Wachlarz+
+30363	Bo¿e Narodzenie-Shining(Pan.)
+30364	Bo¿e Narodzenie-Shining(Broñ)
+30365	Królestwo lodu-Shining(Pan.)
+30366	Królestwo lodu-Shining(Broñ)
+30367	Ptak mrozu-Shining(Pancerz)
+30368	Ptak mrozu-Shining(Broñ)
+30369	Zimowisko-Shining(Pancerz)
+30370	Zimowisko-Shining(Broñ)
+85109	Bo¿e Narodzenie-Taœma
+85110	Królestwo lodu-Taœma
+85111	Ptak mrozu-Taœma
+85112	Zimowisko-Taœma
+41892	Bo¿e Narodzenie-Kostium(w)+
+41893	Bo¿e Narodzenie-Kostium(m)+
+45632	Bo¿e Narodzenie-Kask(m)+
+45633	Bo¿e Narodzenie-Kask(w)+
+41894	Królestwo lodu-Kostium(w)+
+41895	Królestwo lodu-Kostium(m)+
+45634	Królestwo lodu-Kask(m)+
+45635	Królestwo lodu-Kask(w)+
+41896	Ptak mrozu-Kostium(w)+
+41897	Ptak mrozu-Kostium(m)+
+45636	Ptak mrozu-Kask(m)+
+45637	Ptak mrozu-Kask(w)+
+41898	Zimowisko-Kostium(w)+
+41899	Zimowisko-Kostium(m)+
+45638	Zimowisko-Kask(m)+
+45639	Zimowisko-Kask(w)+
+950843	Kakao z piankami marshmallows
+950844	Œwi¹teczne ciasteczka
+950845	Piernikowy ludzik
+950846	Trzcina cukrowa
+950847	Ba³wan
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Ba³wan
+53350	Mini-Biegacz œnie¿ny
+71270	Fenrir
+71271	Qilin
+71272	Rudolf
+71273	Biegacz œnie¿ny
+71274	Zimowy magiczny niedŸwiedŸ
+71275	Zimowy renifer
+51647	Prezent œwi¹teczny(br¹z)
+51648	Prezent œwi¹teczny(srebrny)
+51649	Prezent œwi¹teczny(z³oty)
+39064	Bon przeznaczenia

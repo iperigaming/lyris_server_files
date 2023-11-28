@@ -2949,3 +2949,17 @@ VNUM	LOCALE_NAME
 34183	Mini kaszás
 34184	Mini-Wukong
 34185	Mini-Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Hófutó
+20291	Téli varázslatos medve
+20292	Téli rénszarvas
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Hóember
+34190	Mini-Hófutó
+9435	Ajándékdoboz (bronz)
+9436	Ajándékdoboz (ezüst)
+9437	Ajándékdoboz (arany)

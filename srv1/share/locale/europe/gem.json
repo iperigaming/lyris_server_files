@@ -29,17 +29,17 @@
         { "vnum": 950838, "price": 70, "count": 1 },
         { "vnum": 950839, "price": 70, "count": 1 },
         { "vnum": 72326, "price": 50, "count": 1 },
-        { "vnum": 72325, "price": 50, "count": 1 },
         { "vnum": 100701, "price": 50, "count": 1 },
-        { "vnum": 85021, "price": 60, "count": 1 },
-        { "vnum": 91560, "price": 200, "count": 1 },
-        { "vnum": 90000, "price": 200, "count": 1 },
+        { "vnum": 91561, "price": 300, "count": 1 },
+        { "vnum": 39046, "price": 300, "count": 1 },
         { "vnum": 72349, "price": 10, "count": 1 },
         { "vnum": 71035, "price": 10, "count": 1 },
-        { "vnum": 71153, "price": 100, "count": 1 },
         { "vnum": 20572, "price": 120, "count": 1 },
         { "vnum": 20569, "price": 120, "count": 1 },
         { "vnum": 20571, "price": 120, "count": 1 },
-        { "vnum": 76053, "price": 120, "count": 1 }
+        { "vnum": 76053, "price": 120, "count": 1 },
+		{ "vnum": 71069, "price": 120, "count": 1 },
+		{ "vnum": 71072, "price": 120, "count": 1 },
+		{ "vnum": 71074, "price": 120, "count": 1 }
     ]
 }

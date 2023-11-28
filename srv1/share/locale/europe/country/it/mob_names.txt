@@ -2949,3 +2949,17 @@ VNUM	LOCALE_NAME
 34183	Mini Mietitore
 34184	Mini-Wukong
 34185	Mini-Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Corridore della neve
+20291	Orso magico d'inverno
+20292	Renne invernali
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Pupazzo di neve
+34190	Mini-Corridore della neve
+9435	Scatola regalo(bronzo)
+9436	Scatola regalo(argento)
+9437	Confezione regalo(oro)

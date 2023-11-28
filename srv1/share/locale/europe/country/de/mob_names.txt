@@ -2950,3 +2950,17 @@ VNUM	LOCALE_NAME
 20284	Bluthund
 20285	Grusel Manni
 20286	Goldener Löwe
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Schneeläufer
+20291	Winterzauberbär
+20292	Winterzauberrentier
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Schneemann
+34190	Mini-Schneeläufer
+9435	Geschenkbox(Bronze)
+9436	Geschenkbox(Silber)
+9437	Geschenkbox(Gold)

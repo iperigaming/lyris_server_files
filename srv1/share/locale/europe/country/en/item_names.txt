@@ -7000,7 +7000,6 @@ VNUM	LOCALE_NAME
 39061	Healing Shaman Chest (S)
 39062	Healing Shaman Chest (L)
 39063	Refresh Gaya Market
-39064	Gaya Market Expansion
 39067	Powershard Chest
 39068	Elegant Powershard Chest
 39069	Lucent Powershard Chest
@@ -11450,7 +11449,7 @@ VNUM	LOCALE_NAME
 939020	Dragon God Defence(P)
 939024	Piercing Strike(P)
 939025	Critical Strike(P)
-950821	White Dew(P)
+950821	Red Dew(P)
 950822	Pink Dew(P)
 950823	Yellow Dew(P)
 950824	Green Dew(P)
@@ -11481,7 +11480,7 @@ VNUM	LOCALE_NAME
 40214	Jotun's-Bell+
 40215	Jotun's-Fan+
 40216	Pharaoh-Sword+
-40217	Pharaoh-Dolch+
+40217	Pharaoh-Dagger+
 40218	Pharaoh-Bow+
 40219	Pharaoh-Blade+
 40220	Pharaoh-Bell+
@@ -11877,3 +11876,77 @@ VNUM	LOCALE_NAME
 30586	Smooth jewelry(purple)
 30559	Shiny yarn(purple)
 31085	Heavy Water
+927209	Green Potion(P)
+927212	Violet Potion(P)
+39064	Bon of destiny
+40282	Holy Night-Sword+
+40283	Holy Night-Dagger+
+40284	Holy Night-Bow+
+40285	Holy Night-Blade+
+40286	Holy Night-Bell+
+40287	Holy Night-Fan+
+40288	Ice kingdom-Sword+
+40289	Ice kingdom-Dagger+
+40290	Ice kingdom-Bow+
+40291	Ice kingdom-Blade+
+40292	Ice kingdom-Bell+
+40293	Ice kingdom-Fan+
+40294	Frost Bird-Sword+
+40295	Frost Bird-Dagger+
+40296	Frost Bird-Bow+
+40297	Frost Bird-Blade+
+40298	Frost Bird-Bell+
+40299	Frost Bird-Fan+
+40300	Winterland-Sword+
+40301	Winterland-Dagger+
+40302	Winterland-Bow+
+40303	Winterland-Blade+
+40304	Winterland-Bell+
+40305	Winterland-Fan+
+30363	Holy Night-Shining(Armor)
+30364	Holy Night-Shining(Weapon)
+30365	Ice kingdom-Shining(Armor)
+30366	Ice kingdom-Shining(Weapon)
+30367	Frost Bird-Shining(Armor)
+30368	Frost Bird-Shining(Weapon)
+30369	Winterland-Shining(Armor)
+30370	Winterland-Shining(Weapon)
+85109	Holy Night-Band
+85110	Ice kingdom-Band
+85111	Frost Bird-Band
+85112	Winterland-Band
+41892	Holy Night-Kostüm(w)+
+41893	Holy Night-Kostüm(m)+
+45632	Holy Night-Helm(m)+
+45633	Holy Night-Helm(w)+
+41894	Ice kingdom-Kostüm(w)+
+41895	Ice kingdom-Kostüm(m)+
+45634	Ice kingdom-Helm(m)+
+45635	Ice kingdom-Helm(w)+
+41896	Frost Bird-Kostüm(w)+
+41897	Frost Bird-Kostüm(m)+
+45636	Frost Bird-Helm(m)+
+45637	Frost Bird-Helm(w)+
+41898	Winterland-Kostüm(w)+
+41899	Winterland-Kostüm(m)+
+45638	Winterland-Helm(m)+
+45639	Winterland-Helm(w)+
+950843	Cocoa with marshmallows
+950844	Christmas cookies
+950845	Gingerbread man
+950846	Candy cane
+950847	Snowman
+53346	Mini-Santa
+53347	Mini-Bambi
+53348	Mini-Pengu
+53349	Mini-Snowman
+53350	Mini-Snow runner
+71270	Fenrir
+71271	Qilin
+71272	Rudolph
+71273	Snow runner
+71274	Winter magic bear
+71275	Winter magic reindeer
+51647	Christmas present(Bronze)
+51648	Christmas present(Silver)
+51649	Christmas present(Gold)

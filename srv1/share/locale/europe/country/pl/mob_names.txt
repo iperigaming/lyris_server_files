@@ -2951,3 +2951,17 @@ VNUM	LOCALE_NAME
 20286	Z≥oty Lew
 34184	Mini-Wukong
 34185	Mini-Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolf
+20290	Biegacz únieøny
+20291	Zimowy magiczny niedüwiedü
+20292	Zimowy renifer
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Ba≥wan
+34190	Mini-Biegacz únieøny
+9435	Pude≥ko upominkowe(brπzowe)
+9436	Pude≥ko upominkowe(srebrne)
+9437	Pude≥ko upominkowe(z≥ote)

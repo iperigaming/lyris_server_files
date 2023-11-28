@@ -2950,3 +2950,17 @@ VNUM	LOCALE_NAME
 34183	Mini-Grim Reaper
 34184	Mini-Wukong
 34185	Mini-Nixie
+20287	Fenrir
+20288	Qilin
+20289	Rudolph
+20290	Snow runner
+20291	Winter magic bear
+20292	Winter magic reindeer
+34186	Mini-Santa
+34187	Mini-Bambi
+34188	Mini-Pengu
+34189	Mini-Snowman
+34190	Mini-Snow runner
+9435	Giftbox(Bronze)
+9436	Giftbox(Silver)
+9437	Geschenkbox(Gold)
