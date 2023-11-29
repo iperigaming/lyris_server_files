@@ -395,8 +395,8 @@ Group	winter_silber
 	14	69151	1	5 -- Ungewöhnliche Verzauberung
 	15	69152	1	3 -- Seltene Verzauberung
 	16	31150	10	6 -- Aura-refinechest
-	17	71123	1	3 -- Drachenschuppe
-	18	71129	1	3 -- Drachenkralle
+	17	71123	1	1 -- Drachenschuppe
+	18	71129	1	1 -- Drachenkralle
 	19	55009	1	6 -- Pet-Bücherkiste
 	20	51511	2	30 -- Cor Diamas
 	21	51512	2	30 -- Cor Rubinum
@@ -418,11 +418,23 @@ Group	winter_silber
 	37	71074	1	1 -- Halskette der Harmonie
 	38	53346	1	1 -- Mini-Santa
 	39	71275	1	1 -- Winterzauberrentier
-	40	30581	1	2 -- Glatter Bronzeschmuck
-	41	30585	1	2 -- Glatter Schnuck(Rot)
-	42	31085	1	2 -- Schweres Wasser
-	43	31086	1	2 -- Pilzsporen
+	40	30581	1	1 -- Glatter Bronzeschmuck
+	41	30585	1	1 -- Glatter Schnuck(Rot)
+	42	31085	1	3 -- Schweres Wasser
+	43	31086	1	3 -- Pilzsporen
 	44	50134	15	10 -- Saphirbox
+	45	71084	400	60 -- Switcher
+	46	71084	400	60 -- Switcher
+	47	71084	400	60 -- Switcher
+	48	50926	50	50 -- Schmuckstein
+	49	50926	50	50 -- Schmuckstein
+	50	50926	50	50 -- Schmuckstein
+	51	50132	20	20 -- Rubinbox
+	52	50133	20	20 -- Smaragdbox
+	53	50134	15	10 -- Saphirbox
+	54	50132	20	20 -- Rubinbox
+	55	50133	20	20 -- Smaragdbox
+	56	50134	15	10 -- Saphirbox
 }
 
 Group	winter_gold
@@ -452,21 +464,37 @@ Group	winter_gold
 	22	950846	3	6 -- Zuckerstange
 	23	950847	3	4 -- Schneemann
 	24	50010	3	10 -- Socke
-	25	31128	1	10 -- Horn des Razador
-	26	31129	1	10 -- Horn des Nemere
+	25	31128	1	1 -- Horn des Razador
+	26	31129	1	1 -- Horn des Nemere
 	27	31132	5	8 -- Bruchstücke
 	28	30584	1	1 -- Glatter Schmuck(Grün)
 	29	30583	1	1 -- Glatter Schmuck(Blau)
-	30	31130	1	10 -- Spitzige Dornen
-	31	31239	1	10 -- Schimm. weiße Perle
-	32	31240	1	10 -- Schimm. blaue Perle
-	33	31241	1	10 -- Schimm. blutrote Perle
+	30	31130	1	1 -- Spitzige Dornen
+	31	31239	1	1 -- Schimm. weiße Perle
+	32	31240	1	1 -- Schimm. blaue Perle
+	33	31241	1	1 -- Schimm. blutrote Perle
 	34	31124	5	40 -- Dünner Faden
 	35	31125	5	40 -- Dicker Faden
-	36	31126	1	10 -- Drachenschädel
-	37	31127	1	10 -- Drachenzahn
+	36	31126	1	1 -- Drachenschädel
+	37	31127	1	1 -- Drachenzahn
 	38	31244	2	40 -- Nordwind-Handschuhstein
 	39	71149	1	1 -- Ring der Tödlichen Macht
+	40	71084	1000	50 -- Switcher
+	41	71084	1000	50 -- Switcher
+	42	25044	1	25 -- Verzauberter Stein
+	43	25044	1	25 -- Verzauberter Stein
+	44	25045	1	20 -- Verhexter Stein
+	45	25045	1	20 -- Verhexter Stein
+	46	31251	10	40 -- Lederhärter
+	47	31121	5	40 -- Stahl
+	48	31149	10	40 -- Feste Schnur
+	49	31234	5	40 -- Schlangenstein+
+	50	31243	5	40 -- Nordwind-Waffenstein+
+	51	31251	10	40 -- Lederhärter
+	52	31121	5	40 -- Stahl
+	53	31149	10	40 -- Feste Schnur
+	54	31234	5	40 -- Schlangenstein+
+	55	31243	5	40 -- Nordwind-Waffenstein+
 }
 Group	pet_skillchest
 {
