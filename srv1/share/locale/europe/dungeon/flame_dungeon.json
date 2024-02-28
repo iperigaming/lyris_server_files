@@ -1,0 +1,35 @@
+{
+    "map_index" : 10,
+    "duration" : 3600,
+    "cooltime" : 3600,
+    "out_pos" : {
+        "map_index": 1,
+        "x" : 1,
+        "y" : 1
+    },
+    "floors" : [
+        {
+            "type" : "DUNGEON_TYPE_KILL",
+            "count": 100,
+            "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "path"
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_TYPE_BOSS",
+            "count": 1,
+            "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
+            "unique": [
+                {
+                    "vnum": 101,
+                    "x": 100,
+                    "y": 100
+                }
+            ]
+        }
+    ]
+}
