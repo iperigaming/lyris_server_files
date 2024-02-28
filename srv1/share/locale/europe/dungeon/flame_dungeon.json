@@ -9,7 +9,7 @@
     },
     "floors" : [
         {
-            "type" : "DUNGEON_TYPE_KILL",
+            "type" : "DUNGEON_FLOOR_KILL",
             "count": 100,
             "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
             "regen": [
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "type" : "DUNGEON_TYPE_BOSS",
+            "type" : "DUNGEON_FLOOR_BOSS",
             "count": 1,
             "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
             "unique": [
