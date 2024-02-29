@@ -3,14 +3,18 @@
     "duration" : 3600,
     "cooltime" : 3600,
     "out_pos" : {
-        "map_index": 1,
-        "x" : 1,
-        "y" : 1
+        "map_index": 352,
+        "x" : 5291,
+        "y" : 1814
     },
     "floors" : [
         {
             "type" : "DUNGEON_FLOOR_KILL",
             "count": 100,
+            "warp": {
+                "x" : 420,
+                "y" : 261
+            },
             "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
             "regen": [
                 {
