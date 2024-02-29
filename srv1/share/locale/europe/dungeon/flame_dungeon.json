@@ -51,6 +51,10 @@
             "type" : "DUNGEON_FLOOR_BOSS",
             "vnum" : 6051,
             "count": 1,
+            "warp" : {
+                "x" : 445,
+                "y" : 226
+            },
             "unique": [
                 {
                     "vnum": 6051,
