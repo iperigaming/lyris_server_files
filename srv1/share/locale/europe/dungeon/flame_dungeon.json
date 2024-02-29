@@ -23,16 +23,27 @@
             ]
         },
         {
-            "type" : "DUNGEON_FLOOR_KILL",
-            "count": 100,
-            "warp": {
-                "x" : 262,
-                "y" : 450
+            "type" : "DUNGEON_FLOOR_STONE",
+            "count": 1,
+            "warp" : {
+                "x" : 454,
+                "y" : 457
             },
-            "regen": [
+            "unique": [
                 {
-                    "type": 0,
-                    "path": "data/dungeon/flame_dungeon/fd_a.txt"
+                    "vnum": 8057,
+                    "x": 511,
+                    "y": 480
+                },
+                {
+                    "vnum": 8057,
+                    "x": 506,
+                    "y": 506
+                },
+                {
+                    "vnum": 8057,
+                    "x": 497,
+                    "y": 487
                 }
             ]
         },
@@ -46,6 +57,6 @@
                     "y": 100
                 }
             ]
-        }
+        },
     ]
 }
