@@ -10,30 +10,21 @@
     "floors" : [
         {
             "type" : "DUNGEON_FLOOR_KILL",
-            "count": 100,
+            "count": 0,
             "warp": {
-                "x" : 320,
-                "y" : 394
+                "x" : 262,
+                "y" : 450
             },
-            "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
             "regen": [
                 {
                     "type": 0,
-                    "path": "path"
-                }
-            ],
-            "unique": [
-                {
-                    "vnum" : 101,
-                    "x" : 320,
-                    "y" : 394
+                    "path": "data/dungeon/flame_dungeon/fd_a.txt"
                 }
             ]
         },
         {
             "type" : "DUNGEON_FLOOR_BOSS",
             "count": 1,
-            "notice": { "msg" : "DUNGEON_NOTICE_KILL_MONSTER", "sub": true },
             "unique": [
                 {
                     "vnum": 101,
