@@ -10,7 +10,7 @@
     "floors" : [
         {
             "type" : "DUNGEON_FLOOR_KILL",
-            "count": 0,
+            "count": 50,
             "warp": {
                 "x" : 262,
                 "y" : 450
@@ -24,7 +24,7 @@
         },
         {
             "type" : "DUNGEON_FLOOR_KILL",
-            "count": 0,
+            "count": 100,
             "warp": {
                 "x" : 262,
                 "y" : 450
