@@ -23,6 +23,20 @@
             ]
         },
         {
+            "type" : "DUNGEON_FLOOR_KILL",
+            "count": 0,
+            "warp": {
+                "x" : 262,
+                "y" : 450
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/flame_dungeon/fd_a.txt"
+                }
+            ]
+        },
+        {
             "type" : "DUNGEON_FLOOR_BOSS",
             "count": 1,
             "unique": [
