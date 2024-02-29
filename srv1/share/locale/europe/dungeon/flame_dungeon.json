@@ -66,11 +66,17 @@
         {
             "type" : "DUNGEON_FLOOR_BOSS",
             "vnum" : 20386,
-            "count": 1,
+            "count": 7,
             "warp" : {
                 "x" : 479,
                 "y" : 335
             },
+            "regen": [
+                {
+                    "type": 1,
+                    "path": "data/dungeon/flame_dungeon/fd_e.txt"
+                }
+            ],
             "unique": [
                 {
                     "vnum": 20386,
