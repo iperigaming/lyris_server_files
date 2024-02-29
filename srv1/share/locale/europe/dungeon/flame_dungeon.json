@@ -24,7 +24,7 @@
         },
         {
             "type" : "DUNGEON_FLOOR_STONE",
-            "count": 1,
+            "count": 3,
             "warp" : {
                 "x" : 454,
                 "y" : 457
@@ -49,12 +49,13 @@
         },
         {
             "type" : "DUNGEON_FLOOR_BOSS",
+            "vnum" : 6051,
             "count": 1,
             "unique": [
                 {
-                    "vnum": 101,
-                    "x": 100,
-                    "y": 100
+                    "vnum": 6051,
+                    "x": 470,
+                    "y": 175
                 }
             ]
         }
