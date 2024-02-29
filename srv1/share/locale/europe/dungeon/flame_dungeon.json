@@ -77,6 +77,10 @@
                     "path": "data/dungeon/flame_dungeon/fd_e.txt"
                 }
             ],
+            "drop": {
+                "vnum": 30330,
+                "pct": 100
+            },
             "unique": [
                 {
                     "vnum": 20386,
