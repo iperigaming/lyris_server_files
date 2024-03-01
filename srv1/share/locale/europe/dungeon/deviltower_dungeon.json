@@ -88,7 +88,7 @@
         {
             "type" : "DUNGEON_FLOOR_SEAL",
             "vnum" : 20386,
-            "count": 1,
+            "count": 5,
             "warp" : {
                 "x" : 369,
                 "y" : 401
