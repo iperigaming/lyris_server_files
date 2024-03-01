@@ -25,15 +25,15 @@
         {
             "type" : "DUNGEON_FLOOR_SEAL",
             "vnum" : 20386,
-            "count": 7,
+            "count": 1,
             "warp" : {
-                "x" : 479,
-                "y" : 335
+                "x" : 511,
+                "y" : 336
             },
             "regen": [
                 {
                     "type": 1,
-                    "path": "data/dungeon/flame_dungeon/fd_e.txt"
+                    "path": "data/dungeon/flame_dungeon/fd_b.txt"
                 }
             ],
             "drop": {
