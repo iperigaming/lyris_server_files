@@ -9,20 +9,6 @@
     },
     "floors" : [
         {
-            "type" : "DUNGEON_FLOOR_STONE",
-            "count": 1,
-            "warp": {
-                "x" : 369,
-                "y" : 629
-            },
-            "regen": [
-                {
-                    "type": 0,
-                    "path": "data/dungeon/nuyah_dungeon_lv75_dt/4_regen.txt"
-                }
-            ]
-        },
-        {
             "type" : "DUNGEON_FLOOR_BOSS",
             "vnum": 1091,
             "count": 1,
