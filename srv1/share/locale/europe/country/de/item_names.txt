@@ -3686,16 +3686,16 @@ VNUM	LOCALE_NAME
 12267	Furchtmaske +7
 12268	Furchtmaske +8
 12269	Furchtmaske +9
-12280	Kriegsmeisterhelm +0
-12281	Kriegsmeisterhelm +1
-12282	Kriegsmeisterhelm +2
-12283	Kriegsmeisterhelm +3
-12284	Kriegsmeisterhelm +4
-12285	Kriegsmeisterhelm +5
-12286	Kriegsmeisterhelm +6
-12287	Kriegsmeisterhelm +7
-12288	Kriegsmeisterhelm +8
-12289	Kriegsmeisterhelm +9
+12280	Seelenkristallhelm +0
+12281	Seelenkristallhelm +1
+12282	Seelenkristallhelm +2
+12283	Seelenkristallhelm +3
+12284	Seelenkristallhelm +4
+12285	Seelenkristallhelm +5
+12286	Seelenkristallhelm +6
+12287	Seelenkristallhelm +7
+12288	Seelenkristallhelm +8
+12289	Seelenkristallhelm +9
 12340	Lederkapuze+0
 12341	Lederkapuze+1
 12342	Lederkapuze+2
@@ -3846,16 +3846,16 @@ VNUM	LOCALE_NAME
 12687	Seelensplitterhut +7
 12688	Seelensplitterhut +8
 12689	Seelensplitterhut +9
-12690	Drachenstahlhelm +0
-12691	Drachenstahlhelm +1
-12692	Drachenstahlhelm +2
-12693	Drachenstahlhelm +3
-12694	Drachenstahlhelm +4
-12695	Drachenstahlhelm +5
-12696	Drachenstahlhelm +6
-12697	Drachenstahlhelm +7
-12698	Drachenstahlhelm +8
-12699	Drachenstahlhelm +9
+12690	Turmalinhelm +0
+12691	Turmalinhelm +1
+12692	Turmalinhelm +2
+12693	Turmalinhelm +3
+12694	Turmalinhelm +4
+12695	Turmalinhelm +5
+12696	Turmalinhelm +6
+12697	Turmalinhelm +7
+12698	Turmalinhelm +8
+12699	Turmalinhelm +9
 12700	Drachenkapuze +0
 12701	Drachenkapuze +1
 12702	Drachenkapuze +2
@@ -4086,16 +4086,16 @@ VNUM	LOCALE_NAME
 13127	Drachenschuppenschild+7
 13128	Drachenschuppenschild+8
 13129	Drachenschuppenschild+9
-13140	Titanenschild+0
-13141	Titanenschild+1
-13142	Titanenschild+2
-13143	Titanenschild+3
-13144	Titanenschild+4
-13145	Titanenschild+5
-13146	Titanenschild+6
-13147	Titanenschild+7
-13148	Titanenschild+8
-13149	Titanenschild+9
+13140	Seelenkristallschild+0
+13141	Seelenkristallschild+1
+13142	Seelenkristallschild+2
+13143	Seelenkristallschild+3
+13144	Seelenkristallschild+4
+13145	Seelenkristallschild+5
+13146	Seelenkristallschild+6
+13147	Seelenkristallschild+7
+13148	Seelenkristallschild+8
+13149	Seelenkristallschild+9
 13160	Dreikaiserschild+0
 13161	Dreikaiserschild+1
 13162	Dreikaiserschild+2
@@ -4266,16 +4266,16 @@ VNUM	LOCALE_NAME
 14227	Seelenkristallarmband+7
 14228	Seelenkristallarmband+8
 14229	Seelenkristallarmband+9
-14500	Rubinarmband+0
-14501	Rubinarmband+1
-14502	Rubinarmband+2
-14503	Rubinarmband+3
-14504	Rubinarmband+4
-14505	Rubinarmband+5
-14506	Rubinarmband+6
-14507	Rubinarmband+7
-14508	Rubinarmband+8
-14509	Rubinarmband+9
+14500	Turmalinarmband+0
+14501	Turmalinarmband+1
+14502	Turmalinarmband+2
+14503	Turmalinarmband+3
+14504	Turmalinarmband+4
+14505	Turmalinarmband+5
+14506	Turmalinarmband+6
+14507	Turmalinarmband+7
+14508	Turmalinarmband+8
+14509	Turmalinarmband+9
 14520	Granatarmband+0
 14521	Granatarmband+1
 14522	Granatarmband+2
@@ -4506,16 +4506,16 @@ VNUM	LOCALE_NAME
 15397	Glorienstiefel +7
 15398	Glorienstiefel +8
 15399	Glorienstiefel +9
-15410	Qilinschuhe +0
-15411	Qilinschuhe +1
-15412	Qilinschuhe +2
-15413	Qilinschuhe +3
-15414	Qilinschuhe +4
-15415	Qilinschuhe +5
-15416	Qilinschuhe +6
-15417	Qilinschuhe +7
-15418	Qilinschuhe +8
-15419	Qilinschuhe +9
+15410	Seelenkristallschuhe +0
+15411	Seelenkristallschuhe +1
+15412	Seelenkristallschuhe +2
+15413	Seelenkristallschuhe +3
+15414	Seelenkristallschuhe +4
+15415	Seelenkristallschuhe +5
+15416	Seelenkristallschuhe +6
+15417	Seelenkristallschuhe +7
+15418	Seelenkristallschuhe +8
+15419	Seelenkristallschuhe +9
 15430	Eisvogelschuhe +0
 15431	Eisvogelschuhe +1
 15432	Eisvogelschuhe +2
@@ -4526,16 +4526,16 @@ VNUM	LOCALE_NAME
 15437	Eisvogelschuhe +7
 15438	Eisvogelschuhe +8
 15439	Eisvogelschuhe +9
-15440	Feuerschuhe+0
-15441	Feuerschuhe+1
-15442	Feuerschuhe+2
-15443	Feuerschuhe+3
-15444	Feuerschuhe+4
-15445	Feuerschuhe+5
-15446	Feuerschuhe+6
-15447	Feuerschuhe+7
-15448	Feuerschuhe+8
-15449	Feuerschuhe+9
+15440	Turmalinschuhe+0
+15441	Turmalinschuhe+1
+15442	Turmalinschuhe+2
+15443	Turmalinschuhe+3
+15444	Turmalinschuhe+4
+15445	Turmalinschuhe+5
+15446	Turmalinschuhe+6
+15447	Turmalinschuhe+7
+15448	Turmalinschuhe+8
+15449	Turmalinschuhe+9
 15450	Ozeanschuhe+0
 15451	Ozeanschuhe+1
 15452	Ozeanschuhe+2
@@ -4666,16 +4666,16 @@ VNUM	LOCALE_NAME
 16227	Seelenkristallkette+7
 16228	Seelenkristallkette+8
 16229	Seelenkristallkette+9
-16500	Rubinhalskette+0
-16501	Rubinhalskette+1
-16502	Rubinhalskette+2
-16503	Rubinhalskette+3
-16504	Rubinhalskette+4
-16505	Rubinhalskette+5
-16506	Rubinhalskette+6
-16507	Rubinhalskette+7
-16508	Rubinhalskette+8
-16509	Rubinhalskette+9
+16500	Turmalinhalskette+0
+16501	Turmalinhalskette+1
+16502	Turmalinhalskette+2
+16503	Turmalinhalskette+3
+16504	Turmalinhalskette+4
+16505	Turmalinhalskette+5
+16506	Turmalinhalskette+6
+16507	Turmalinhalskette+7
+16508	Turmalinhalskette+8
+16509	Turmalinhalskette+9
 16520	Granathalskette+0
 16521	Granathalskette+1
 16522	Granathalskette+2
@@ -4876,16 +4876,16 @@ VNUM	LOCALE_NAME
 17227	Seelenkristallohrringe+7
 17228	Seelenkristallohrringe+8
 17229	Seelenkristallohrringe+9
-17500	Rubinohrringe+0
-17501	Rubinohrringe+1
-17502	Rubinohrringe+2
-17503	Rubinohrringe+3
-17504	Rubinohrringe+4
-17505	Rubinohrringe+5
-17506	Rubinohrringe+6
-17507	Rubinohrringe+7
-17508	Rubinohrringe+8
-17509	Rubinohrringe+9
+17500	Turmalinohrringe+0
+17501	Turmalinohrringe+1
+17502	Turmalinohrringe+2
+17503	Turmalinohrringe+3
+17504	Turmalinohrringe+4
+17505	Turmalinohrringe+5
+17506	Turmalinohrringe+6
+17507	Turmalinohrringe+7
+17508	Turmalinohrringe+8
+17509	Turmalinohrringe+9
 17520	Granatohrringe+0
 17521	Granatohrringe+1
 17522	Granatohrringe+2
