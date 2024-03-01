@@ -161,7 +161,7 @@
         },
         {
             "type" : "DUNGEON_FLOOR_BOSS",
-            "vnum" : 6051,
+            "vnum" : 6091,
             "count": 1,
             "warp" : {
                 "x" : 684,
