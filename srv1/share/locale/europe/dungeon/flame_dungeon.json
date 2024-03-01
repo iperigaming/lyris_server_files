@@ -9,6 +9,76 @@
     },
     "floors" : [
         {
+            "type" : "DUNGEON_FLOOR_KILL",
+            "count": 100,
+            "warp": {
+                "x" : 262,
+                "y" : 450
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/flame_dungeon/fd_a.txt"
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_SEAL",
+            "vnum" : 20386,
+            "count": 7,
+            "warp" : {
+                "x" : 479,
+                "y" : 335
+            },
+            "regen": [
+                {
+                    "type": 1,
+                    "path": "data/dungeon/flame_dungeon/fd_e.txt"
+                }
+            ],
+            "drop": {
+                "vnum": 30329,
+                "pct": 100
+            },
+            "unique": [
+                {
+                    "vnum": 20386,
+                    "x": 195,
+                    "y": 352
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_KILL",
+            "count": 100,
+            "warp": {
+                "x" : 298,
+                "y" : 261
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/flame_dungeon/fd_c.txt"
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_BOSS",
+            "vnum" : 6051,
+            "count": 1,
+            "warp" : {
+                "x" : 445,
+                "y" : 226
+            },
+            "unique": [
+                {
+                    "vnum": 6051,
+                    "x": 470,
+                    "y": 175
+                }
+            ]
+        },
+        {
             "type" : "DUNGEON_FLOOR_SEAL",
             "vnum" : 20386,
             "count": 7,
@@ -65,20 +135,6 @@
             ]
         },
         {
-            "type" : "DUNGEON_FLOOR_KILL",
-            "count": 50,
-            "warp": {
-                "x" : 262,
-                "y" : 450
-            },
-            "regen": [
-                {
-                    "type": 0,
-                    "path": "data/dungeon/flame_dungeon/fd_a.txt"
-                }
-            ]
-        },
-        {
             "type" : "DUNGEON_FLOOR_STONE",
             "count": 3,
             "warp" : {
@@ -108,14 +164,14 @@
             "vnum" : 6051,
             "count": 1,
             "warp" : {
-                "x" : 445,
-                "y" : 226
+                "x" : 684,
+                "y" : 713
             },
             "unique": [
                 {
-                    "vnum": 6051,
-                    "x": 470,
-                    "y": 175
+                    "vnum": 6091,
+                    "x": 686,
+                    "y": 637
                 }
             ]
         }
