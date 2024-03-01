@@ -46,7 +46,6 @@
         },
         {
             "type" : "DUNGEON_FLOOR_STONE_RANDOM",
-            "count": 1,
             "chance": 30.0,
             "unique": [
                 {
