@@ -179,8 +179,13 @@
             ]
         },
         {
-            "type" : "DUNGEON_FLOOR_STONE",
-            "count": 3,
+            "type" : "DUNGEON_FLOOR_STONE_DROP",
+            "count": 1,
+            "chance": 100,
+            "drop": {
+                "vnum": 30304,
+                "pct": 100
+            },
             "regen": [
                 {
                     "type": 1,
