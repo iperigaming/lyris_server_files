@@ -45,16 +45,44 @@
             ]
         },
         {
-            "type" : "DUNGEON_FLOOR_STONE",
+            "type" : "DUNGEON_FLOOR_STONE_RANDOM",
             "count": 1,
-            "warp": {
-                "x" : 369,
-                "y" : 629
-            },
-            "regen": [
+            "chance": 30.0,
+            "unique": [
                 {
-                    "type": 0,
-                    "path": "data/dungeon/nuyah_dungeon_lv75_dt/4_regen.txt"
+                    "vnum": 8017,
+                    "x": 368,
+                    "y": 629
+                },
+                {
+                    "vnum": 8017,
+                    "x": 419,
+                    "y": 630
+                },
+                {
+                    "vnum": 8017,
+                    "x": 428,
+                    "y": 653
+                },
+                {
+                    "vnum": 8017,
+                    "x": 422,
+                    "y": 679
+                },
+                {
+                    "vnum": 8017,
+                    "x": 395,
+                    "y": 689
+                },
+                {
+                    "vnum": 8017,
+                    "x": 369,
+                    "y": 679
+                },
+                {
+                    "vnum": 8017,
+                    "x": 361,
+                    "y": 658
                 }
             ]
         },
@@ -63,24 +91,44 @@
             "vnum" : 20386,
             "count": 1,
             "warp" : {
-                "x" : 241,
-                "y" : 359
+                "x" : 369,
+                "y" : 401
             },
             "regen": [
                 {
                     "type": 1,
-                    "path": "data/dungeon/flame_dungeon/fd_b.txt"
+                    "path": "data/dungeon/nuyah_dungeon_lv75_dt/5_regen.txt"
                 }
             ],
             "drop": {
-                "vnum": 30329,
+                "vnum": 50084,
                 "pct": 100
             },
             "unique": [
                 {
-                    "vnum": 20386,
-                    "x": 195,
-                    "y": 352
+                    "vnum": 20073,
+                    "x": 421,
+                    "y": 452
+                },
+                {
+                    "vnum": 20073,
+                    "x": 380,
+                    "y": 460
+                },
+                {
+                    "vnum": 20073,
+                    "x": 428,
+                    "y": 414
+                },
+                {
+                    "vnum": 20073,
+                    "x": 398,
+                    "y": 392
+                },
+                {
+                    "vnum": 20073,
+                    "x": 359,
+                    "y": 426
                 }
             ]
         },
