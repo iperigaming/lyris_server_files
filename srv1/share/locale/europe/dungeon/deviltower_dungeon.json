@@ -1,0 +1,200 @@
+{
+    "map_index" : 66,
+    "duration" : 3600,
+    "cooltime" : 3600,
+    "out_pos" : {
+        "map_index": 66,
+        "x" : 2165,
+        "y" : 7270
+    },
+    "floors" : [
+        {
+            "type" : "DUNGEON_FLOOR_BOSS",
+            "count": 1,
+            "warp": {
+                "x" : 126,
+                "y" : 384
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/nuyah_dungeon_lv75_dt/2_regen.txt"
+                }
+            ],
+            "unique": [
+                {
+                    "vnum": 1091,
+                    "x": 189,
+                    "y": 424
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_STONE",
+            "count": 1,
+            "warp": {
+                "x" : 369,
+                "y" : 629
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/nuyah_dungeon_lv75_dt/4_regen.txt"
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_SEAL",
+            "vnum" : 20386,
+            "count": 1,
+            "warp" : {
+                "x" : 241,
+                "y" : 359
+            },
+            "regen": [
+                {
+                    "type": 1,
+                    "path": "data/dungeon/flame_dungeon/fd_b.txt"
+                }
+            ],
+            "drop": {
+                "vnum": 30329,
+                "pct": 100
+            },
+            "unique": [
+                {
+                    "vnum": 20386,
+                    "x": 195,
+                    "y": 352
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_KILL",
+            "count": 100,
+            "warp": {
+                "x" : 298,
+                "y" : 261
+            },
+            "regen": [
+                {
+                    "type": 0,
+                    "path": "data/dungeon/flame_dungeon/fd_c.txt"
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_BOSS",
+            "vnum" : 6051,
+            "count": 1,
+            "warp" : {
+                "x" : 445,
+                "y" : 226
+            },
+            "unique": [
+                {
+                    "vnum": 6051,
+                    "x": 470,
+                    "y": 175
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_SEAL",
+            "vnum" : 20386,
+            "count": 7,
+            "warp" : {
+                "x" : 479,
+                "y" : 335
+            },
+            "regen": [
+                {
+                    "type": 1,
+                    "path": "data/dungeon/flame_dungeon/fd_e.txt"
+                }
+            ],
+            "drop": {
+                "vnum": 30330,
+                "pct": 100
+            },
+            "unique": [
+                {
+                    "vnum": 20386,
+                    "x": 486,
+                    "y": 345
+                },
+                {
+                    "vnum": 20386,
+                    "x": 511,
+                    "y": 336
+                },
+                {
+                    "vnum": 20386,
+                    "x": 525,
+                    "y": 349
+                },
+                {
+                    "vnum": 20386,
+                    "x": 521,
+                    "y": 365
+                },
+                {
+                    "vnum": 20386,
+                    "x": 503,
+                    "y": 372
+                },
+                {
+                    "vnum": 20386,
+                    "x": 486,
+                    "y": 365
+                },
+                {
+                    "vnum": 20386,
+                    "x": 500,
+                    "y": 354
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_STONE",
+            "count": 3,
+            "warp" : {
+                "x" : 454,
+                "y" : 457
+            },
+            "unique": [
+                {
+                    "vnum": 8057,
+                    "x": 511,
+                    "y": 480
+                },
+                {
+                    "vnum": 8057,
+                    "x": 506,
+                    "y": 506
+                },
+                {
+                    "vnum": 8057,
+                    "x": 497,
+                    "y": 487
+                }
+            ]
+        },
+        {
+            "type" : "DUNGEON_FLOOR_BOSS",
+            "vnum" : 6091,
+            "count": 1,
+            "warp" : {
+                "x" : 684,
+                "y" : 713
+            },
+            "unique": [
+                {
+                    "vnum": 6091,
+                    "x": 686,
+                    "y": 637
+                }
+            ]
+        }
+    ]
+}
