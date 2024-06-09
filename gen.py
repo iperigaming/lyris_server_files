@@ -71,7 +71,9 @@ def SymLinkCreateFile(src, dst):
 
 def SymLinkCreateFileExe(src, dst):
 	if v_system=="Windows":
+		src+="_d.exe"
 		dst+=".exe"
+	
 	SymLinkCreate(src, dst, is_file=True)
 
 def WriteHostConfig(szConfFile, szGameName):
@@ -152,9 +154,13 @@ def genInitSrv(szSvr):
 		CreateFolder("%s/%s"%(szSvr, val1))
 		# print "%s/%s"%(szSvr, val1)
 	#
-	for val1 in ("share/conf/BANIP","share/conf/CMD","share/conf/CRC","share/conf/VERSION","share/conf/state_user_count","share/bin/db","share/bin/game"):
-		TouchFile("%s/%s" % (szSvr, val1))
-		# print "%s/%s"%(szSvr, val1)
+
+	if v_system in ("FreeBSD", "Linux"):
+		for val1 in ("share/conf/BANIP","share/conf/CMD","share/conf/CRC","share/conf/VERSION","share/conf/state_user_count","share/bin/db","share/bin/game"):
+			TouchFile("%s/%s" % (szSvr, val1))
+	elif v_system=="Windows":
+		for val1 in ("share/conf/BANIP","share/conf/CMD","share/conf/CRC","share/conf/VERSION","share/conf/state_user_count","share/bin/db.exe","share/bin/game.exe"):
+			TouchFile("%s/%s" % (szSvr, val1))
 	#
 	for val1 in ("share/conf/item_names.txt","share/conf/item_proto.txt","share/conf/mob_names.txt","share/conf/mob_proto.txt"):
 		TouchFile("%s/%s" % (szSvr, val1))
