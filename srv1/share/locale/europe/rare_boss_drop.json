@@ -1,0 +1,46 @@
+[
+    {
+        "mob": [1092, 1093],
+        "rare_level": "UNCOMMON",
+        "items": [
+            {
+                "vnum": 30000,
+                "count": 1,
+                "chance": 100.0
+            }
+        ]
+    },
+    {
+        "mob": 1093,
+        "rare_level": "RARE",
+        "items": [
+            {
+                "vnum": 30000,
+                "count": 1,
+                "chance": 100.0
+            }
+        ]
+    },
+    {
+        "mob": 1093,
+        "rare_level": "EPIC",
+        "items": [
+            {
+                "vnum": 30000,
+                "count": 1,
+                "chance": 100.0
+            }
+        ]
+    },
+    {
+        "mob": 1093,
+        "rare_level": "LEGENDARY",
+        "items": [
+            {
+                "vnum": 30000,
+                "count": 1,
+                "chance": 100.0
+            }
+        ]
+    }
+]

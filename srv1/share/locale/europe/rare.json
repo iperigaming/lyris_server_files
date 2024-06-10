@@ -1,0 +1,24 @@
+{
+    "reward": {
+        "UNCOMMON": {
+            "vnum": 30000,
+            "min": 1,
+            "max": 5
+        },
+        "RARE": {
+            "vnum": 30001,
+            "min": 1,
+            "max": 5
+        },
+        "EPIC": {
+            "vnum": 30002,
+            "min": 1,
+            "max": 5
+        },
+        "LEGENDARY": {
+            "vnum": 30003,
+            "min": 1,
+            "max": 5
+        }
+    }
+}

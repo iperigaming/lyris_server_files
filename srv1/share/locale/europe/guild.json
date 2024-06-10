@@ -1,0 +1,44 @@
+{
+    "missions": {
+        "1": {
+            "type": "MISSION_MONSTER",
+            "count": 100,
+            "value": 101,
+            "exp": 500000,
+            "reward": {
+                "vnum": 30000,
+                "count": 1
+            }
+        },
+        "2": {
+            "type": "MISSION_MONSTER",
+            "count": 1,
+            "value": 102,
+            "exp": 500000,
+            "reward": {
+                "vnum": 30000,
+                "count": 1
+            }
+        },
+        "3": {
+            "type": "MISSION_MONSTER",
+            "count": 1,
+            "value": 101,
+            "exp": 500000,
+            "reward": {
+                "vnum": 30000,
+                "count": 1
+            }
+        },
+        "4": {
+            "type": "MISSION_MONSTER",
+            "count": 1,
+            "value": 101,
+            "exp": 500000,
+            "reward": {
+                "vnum": 30000,
+                "count": 1
+            }
+        }
+    }
+}

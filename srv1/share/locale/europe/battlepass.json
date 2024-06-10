@@ -1,0 +1,595 @@
+{
+	"passes" :  [
+		{
+			"index" : 2,
+			"start" : 1710162949,
+			"end" : 1711162949,
+			"mission_weekly": {
+				"1": [ 1, 2, 3, 4, 5 ]
+			},
+			"missions": [
+				{
+					"index": 1,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 100,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 2,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 150,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 3,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 10,
+					"sub": 101,
+					"exp": 450
+				},
+				{
+					"index": 4,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 20,
+					"sub": 101,
+					"exp": 450
+				},
+				{
+					"index": 5,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 30,
+					"sub": 101,
+					"exp": 650
+				},
+				{
+					"index": 6,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 125,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 7,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 150,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 8,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 175,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 9,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 200,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 10,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 102,
+					"exp": 100
+				},
+				{
+					"index": 11,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 102,
+					"exp": 100
+				},
+				{
+					"index": 12,
+					"type": "MISSION_BOSS",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 1093,
+					"exp": 100
+				},
+				{
+					"index": 13,
+					"type": "MISSION_DUNGEON",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 0,
+					"exp": 100
+				},
+				{
+					"index": 14,
+					"type": "MISSION_DUNGEON",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 12,
+					"sub": 66,
+					"exp": 100
+				},
+				{
+					"index": 15,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 104,
+					"exp": 100
+				}
+				
+			],
+			"levels": [
+				{
+					"level": 1,
+					"exp": 200,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 2,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 3,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 4,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 5,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 6,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 7,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 8,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 9,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 10,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 },
+						{ "vnum": 30001, "count": 1 }
+					]
+				},
+				{
+					"level": 11,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 12,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 13,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 14,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 15,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 16,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 17,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 18,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 19,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 20,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 },
+						{ "vnum": 30001, "count": 1 }
+					]
+				}
+			]
+		},
+		{
+			"index" : 2,
+			"start" : 1710163249,
+			"end" : 1712838049,
+			"mission_weekly": {
+				"1": [ 1, 2, 3, 4, 5 ],
+				"2": [ 1, 2, 3, 4, 5 ]
+			},
+			"missions": [
+				{
+					"index": 1,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 100,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 2,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 150,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 3,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 10,
+					"sub": 101,
+					"exp": 450
+				},
+				{
+					"index": 4,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 20,
+					"sub": 101,
+					"exp": 450
+				},
+				{
+					"index": 5,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_WEEK",
+					"value": 30,
+					"sub": 101,
+					"exp": 650
+				},
+				{
+					"index": 6,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 125,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 7,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 150,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 8,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 175,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 9,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 200,
+					"sub": 101,
+					"exp": 100
+				},
+				{
+					"index": 10,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 102,
+					"exp": 100
+				},
+				{
+					"index": 11,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 102,
+					"exp": 100
+				},
+				{
+					"index": 12,
+					"type": "MISSION_BOSS",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 1093,
+					"exp": 100
+				},
+				{
+					"index": 13,
+					"type": "MISSION_DUNGEON",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 0,
+					"exp": 100
+				},
+				{
+					"index": 14,
+					"type": "MISSION_DUNGEON",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 12,
+					"sub": 66,
+					"exp": 100
+				},
+				{
+					"index": 15,
+					"type": "MISSION_MONSTER",
+					"interval": "MISSION_TYPE_DAY",
+					"value": 225,
+					"sub": 104,
+					"exp": 100
+				}
+				
+			],
+			"levels": [
+				{
+					"level": 1,
+					"exp": 200,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 2,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 3,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 4,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 5,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 6,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 7,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 8,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 9,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 10,
+					"exp": 150,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 },
+						{ "vnum": 30001, "count": 1 }
+					]
+				},
+				{
+					"level": 11,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 12,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 13,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 14,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 15,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 16,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 17,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 18,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 19,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 }
+					]
+				},
+				{
+					"level": 20,
+					"exp": 100,
+					"free" : { "vnum": 30000, "count": 1 },
+					"premium": [
+						{ "vnum": 30000, "count": 1 },
+						{ "vnum": 30001, "count": 1 }
+					]
+				}
+			]
+		}
+	]
+}
