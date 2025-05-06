@@ -1164,6 +1164,26 @@ gold	5000000
 percent	100
 end
 
+section
+npc	20001
+item	50614	100	-- Seelenkristallerz
+item	27990	30	-- 30 Steinstück
+reward	50634	1	-- Seelenkristall
+sockets	3600	0	0
+gold	5000000
+percent	100
+end
+
+section
+npc	20001
+item	50614	100	-- Seelenkristallerz
+item	27990	30	-- 30 Steinstück
+reward	50634	1	-- Seelenkristall
+sockets	1892160000	0	0
+gold	5000000
+percent	100
+end
+
 #ALCHEMIST ENDE
 
 #SCHMIED

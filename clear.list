@@ -16,53 +16,5 @@
         "path": "srv1/log/srv1/chan/ch1/core1", 
         "chan": 1, 
         "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch1/core2", 
-        "chan": 1, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch1/core3", 
-        "chan": 1, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch1/core4", 
-        "chan": 1, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch1/core5", 
-        "chan": 1, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch99/core1", 
-        "chan": 99, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch99/core2", 
-        "chan": 99, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch99/core3", 
-        "chan": 99, 
-        "type": 5
-    }, 
-    {
-        "serv": "srv1", 
-        "path": "srv1/log/srv1/chan/ch99/core4", 
-        "chan": 99, 
-        "type": 5
     }
 ]
