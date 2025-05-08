@@ -275,6 +275,14 @@ Group	cordrop
 	5	51514	1	1
 }
 
+Group BiologEvent
+{
+	vnum	10036
+	type	special
+	1	71035	1	1
+	2	72349	1	1
+}
+
 Group	mondi
 {
 	Vnum	50011 -- Mondi
