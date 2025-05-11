@@ -1,0 +1,423 @@
+May  8 11:00:18 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:01:14 :: SYSTEM: new connection from [127.0.0.1] fd: 844 handshake 4084747200 output input_len 0, ptr 0000024CF9628F20
+May  8 11:01:14 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:01:14 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:01:14 :: Handshake: lower than zero -8
+May  8 11:01:14 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:01:14 :: Handshake: client_time 0 server_time 2490546
+May  8 11:01:14 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:01:14 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:01:14 ::  InputAuth Analyze Header[111] 
+May  8 11:01:14 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:01:14 :: SetLoginKey 17474
+May  8 11:01:14 :: InputAuth::Login : key 17474:0xb2ede9d login n2lyze
+May  8 11:01:14 :: QID_AUTH_LOGIN: START 17474 0000024CF9628F20
+May  8 11:01:14 :: Create_Time 28800 19700101
+May  8 11:01:14 :: Block Time -1 
+May  8 11:01:14 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:01:14 :: SetRemainSecs n2lyze 0
+May  8 11:01:14 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:01:14 :: DBCLIENT: header 122 handle 4 size 1 bytes 10
+May  8 11:01:14 :: AuthLogin result 1 key 17474
+May  8 11:01:14 :: SYSTEM: closing socket. DESC #844
+May  8 11:01:18 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:02:01 :: SYSTEM: new connection from [127.0.0.1] fd: 868 handshake 3316944771 output input_len 0, ptr 0000024CF9628F20
+May  8 11:02:01 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:02:01 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:02:01 :: Handshake: lower than zero -8
+May  8 11:02:01 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:02:01 :: Handshake: client_time 0 server_time 2537765
+May  8 11:02:01 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:02:01 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:02:01 ::  InputAuth Analyze Header[111] 
+May  8 11:02:01 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:02:01 :: SetLoginKey 22142
+May  8 11:02:01 :: InputAuth::Login : key 22142:0x5bb54b81 login n2lyze
+May  8 11:02:01 :: QID_AUTH_LOGIN: START 22142 0000024CF9628F20
+May  8 11:02:01 :: Create_Time 28800 19700101
+May  8 11:02:01 :: Block Time -1 
+May  8 11:02:01 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:02:01 :: SetRemainSecs n2lyze 0
+May  8 11:02:01 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:02:01 :: DBCLIENT: header 122 handle 5 size 1 bytes 10
+May  8 11:02:01 :: AuthLogin result 1 key 22142
+May  8 11:02:02 :: SYSTEM: closing socket. DESC #868
+May  8 11:02:17 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:03:16 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:03:38 :: SYSTEM: new connection from [127.0.0.1] fd: 960 handshake 658574468 output input_len 0, ptr 0000024CF9628F20
+May  8 11:03:38 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:03:39 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:03:39 :: Handshake: client_time 0 server_time 2635046
+May  8 11:03:39 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:03:39 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:03:39 ::  InputAuth Analyze Header[111] 
+May  8 11:03:39 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:03:39 :: SetLoginKey 14853
+May  8 11:03:39 :: InputAuth::Login : key 14853:0x5c614a56 login n2lyze
+May  8 11:03:39 :: QID_AUTH_LOGIN: START 14853 0000024CF9628F20
+May  8 11:03:39 :: Create_Time 28800 19700101
+May  8 11:03:39 :: Block Time -1 
+May  8 11:03:39 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:03:39 :: SetRemainSecs n2lyze 0
+May  8 11:03:39 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:03:39 :: DBCLIENT: header 122 handle 6 size 1 bytes 10
+May  8 11:03:39 :: AuthLogin result 1 key 14853
+May  8 11:03:39 :: SYSTEM: closing socket. DESC #960
+May  8 11:04:16 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:04:27 :: SYSTEM: new connection from [127.0.0.1] fd: 772 handshake 3837723522 output input_len 0, ptr 0000024CF9628F20
+May  8 11:04:27 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:04:27 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:04:27 :: Handshake: client_time 0 server_time 2683250
+May  8 11:04:27 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:04:27 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:04:27 ::  InputAuth Analyze Header[111] 
+May  8 11:04:27 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:04:27 :: SetLoginKey 12534
+May  8 11:04:27 :: InputAuth::Login : key 12534:0x28e699aa login n2lyze
+May  8 11:04:27 :: QID_AUTH_LOGIN: START 12534 0000024CF9628F20
+May  8 11:04:27 :: Create_Time 28800 19700101
+May  8 11:04:27 :: Block Time -1 
+May  8 11:04:27 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:04:27 :: SetRemainSecs n2lyze 0
+May  8 11:04:27 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:04:27 :: DBCLIENT: header 122 handle 7 size 1 bytes 10
+May  8 11:04:27 :: AuthLogin result 1 key 12534
+May  8 11:04:27 :: SYSTEM: closing socket. DESC #772
+May  8 11:05:15 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:05:59 :: SYSTEM: new connection from [127.0.0.1] fd: 904 handshake 606856067 output input_len 0, ptr 0000024CF76C5E70
+May  8 11:05:59 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:05:59 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:05:59 :: Handshake: client_time 0 server_time 2775328
+May  8 11:05:59 :: AUTH_PHASE 0000024CF76C5E70
+May  8 11:05:59 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:05:59 ::  InputAuth Analyze Header[111] 
+May  8 11:05:59 :: InputAuth::Login : n2lyze(6) desc 0000024CF76C5E70
+May  8 11:05:59 :: SetLoginKey 12524
+May  8 11:05:59 :: InputAuth::Login : key 12524:0x75c539ae login n2lyze
+May  8 11:05:59 :: QID_AUTH_LOGIN: START 12524 0000024CF76C5E70
+May  8 11:05:59 :: Create_Time 28800 19700101
+May  8 11:05:59 :: Block Time -1 
+May  8 11:05:59 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:05:59 :: SetRemainSecs n2lyze 0
+May  8 11:05:59 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:05:59 :: DBCLIENT: header 122 handle 8 size 1 bytes 10
+May  8 11:05:59 :: AuthLogin result 1 key 12524
+May  8 11:05:59 :: SYSTEM: closing socket. DESC #904
+May  8 11:06:15 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:07:14 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:08:14 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:09:13 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:10:12 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:11:12 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:12:11 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:12:16 :: SYSTEM: new connection from [127.0.0.1] fd: 768 handshake 2557703503 output input_len 0, ptr 0000024CF9628F20
+May  8 11:12:16 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:12:17 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:12:17 :: Handshake: client_time 0 server_time 3153046
+May  8 11:12:17 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:12:17 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:12:17 ::  InputAuth Analyze Header[111] 
+May  8 11:12:17 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:12:17 :: SetLoginKey 12900
+May  8 11:12:17 :: InputAuth::Login : key 12900:0x5933ab67 login n2lyze
+May  8 11:12:17 :: QID_AUTH_LOGIN: START 12900 0000024CF9628F20
+May  8 11:12:17 :: Create_Time 28800 19700101
+May  8 11:12:17 :: Block Time -1 
+May  8 11:12:17 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:12:17 :: SetRemainSecs n2lyze 0
+May  8 11:12:17 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:12:17 :: DBCLIENT: header 122 handle 9 size 1 bytes 10
+May  8 11:12:17 :: AuthLogin result 1 key 12900
+May  8 11:12:17 :: SYSTEM: closing socket. DESC #768
+May  8 11:13:06 :: SYSTEM: new connection from [127.0.0.1] fd: 920 handshake 974842163 output input_len 0, ptr 0000024CF9628F20
+May  8 11:13:06 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:13:06 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:13:06 :: Handshake: client_time 0 server_time 3202421
+May  8 11:13:06 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:13:06 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:13:06 ::  InputAuth Analyze Header[111] 
+May  8 11:13:06 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:13:06 :: SetLoginKey 6267
+May  8 11:13:06 :: InputAuth::Login : key 6267:0x5a8c17f login n2lyze
+May  8 11:13:06 :: QID_AUTH_LOGIN: START 6267 0000024CF9628F20
+May  8 11:13:06 :: Create_Time 28800 19700101
+May  8 11:13:06 :: Block Time -1 
+May  8 11:13:06 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:13:06 :: SetRemainSecs n2lyze 0
+May  8 11:13:06 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:13:06 :: DBCLIENT: header 122 handle 10 size 1 bytes 10
+May  8 11:13:06 :: AuthLogin result 1 key 6267
+May  8 11:13:06 :: SYSTEM: closing socket. DESC #920
+May  8 11:13:11 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:14:10 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:15:09 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:16:08 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:16:40 :: SYSTEM: new connection from [127.0.0.1] fd: 928 handshake 92560427 output input_len 0, ptr 0000024CF9628F20
+May  8 11:16:40 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:16:40 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  8 11:16:40 :: Handshake: client_time 0 server_time 3416390
+May  8 11:16:40 :: AUTH_PHASE 0000024CF9628F20
+May  8 11:16:40 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  8 11:16:40 ::  InputAuth Analyze Header[111] 
+May  8 11:16:40 :: InputAuth::Login : n2lyze(6) desc 0000024CF9628F20
+May  8 11:16:40 :: SetLoginKey 23421
+May  8 11:16:40 :: InputAuth::Login : key 23421:0x26a35dc1 login n2lyze
+May  8 11:16:40 :: QID_AUTH_LOGIN: START 23421 0000024CF9628F20
+May  8 11:16:40 :: Create_Time 28800 19700101
+May  8 11:16:40 :: Block Time -1 
+May  8 11:16:40 :: DISCORD_ID n2lyze 247130372301783040
+May  8 11:16:40 :: SetRemainSecs n2lyze 0
+May  8 11:16:40 :: SendAuthLogin n2lyze language 6 key 1
+May  8 11:16:40 :: DBCLIENT: header 122 handle 11 size 1 bytes 10
+May  8 11:16:40 :: AuthLogin result 1 key 23421
+May  8 11:16:40 :: SYSTEM: closing socket. DESC #928
+May  8 11:17:08 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:18:07 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:19:07 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:20:06 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:21:06 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:22:05 :: CHARACTER COUNT vid 0 pid 0
+May  8 11:23:04 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:03:58 :: SYSTEM: BINDING TCP PORT ON [11001] (fd 660)
+May  9 17:03:58 :: SYSTEM: BINDING TCP PORT ON [11002] (fd 680)
+May  9 17:03:58 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:00 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:00 :: Initializing Guild
+May  9 17:04:00 :: 	No need for auth server
+May  9 17:04:00 :: FISH: ²Î                       vnum     0 prob 3000 3000 2100 2000 len 0 0 0
+May  9 17:04:00 :: FISH: ±Ý¹ÝÁö                   vnum 50002 prob   50   50  200  200 len 0 0 0
+May  9 17:04:00 :: FISH: ÇÇ¶ó¹Ì                   vnum 27802 prob 2000 1800  800 2200 len 500 550 600
+May  9 17:04:00 :: FISH: ºØ¾î                     vnum 27803 prob 1950 1600  800  700 len 1000 2500 2800
+May  9 17:04:00 :: FISH: ½î°¡¸®                   vnum 27804 prob  900  800  700  600 len 2000 3500 3800
+May  9 17:04:00 :: FISH: ¿ùÃ´ºØ¾î                 vnum 27805 prob  700  700  700  600 len 3030 3500 4300
+May  9 17:04:00 :: FISH: À×¾î                     vnum 27806 prob  200  300  600  800 len 4000 6000 10000
+May  9 17:04:00 :: FISH: ¿¬¾î                     vnum 27807 prob  200  200  500  600 len 6000 8000 10000
+May  9 17:04:00 :: FISH: Çâ¾î                     vnum 27808 prob  100  100  250  200 len 1500 3000 3800
+May  9 17:04:00 :: FISH: ¼Û¾î                     vnum 27809 prob  100  100  250  350 len 5000 7000 8000
+May  9 17:04:00 :: FISH: ¹Î¹°Àå¾î                 vnum 27810 prob    0  100  250  200 len 4000 5000 6000
+May  9 17:04:00 :: FISH: ¹«Áö°³¼Û¾î               vnum 27811 prob    0  100  250  150 len 5000 7000 8000
+May  9 17:04:00 :: FISH: °­¼Û¾î                   vnum 27812 prob    0  100  250  150 len 4000 6000 7000
+May  9 17:04:00 :: FISH: ·¯µå                     vnum 27813 prob    0  100  200  100 len 4000 6000 10000
+May  9 17:04:00 :: FISH: ÆÛÄ¡                     vnum 27814 prob    0  100  200  100 len 3000 4000 5000
+May  9 17:04:00 :: FISH: ÅÙÄ¡                     vnum 27815 prob    0   50  200  100 len 3500 5500 8000
+May  9 17:04:00 :: FISH: ¸Þ±â                     vnum 27816 prob   50   50  200  100 len 3000 5000 10000
+May  9 17:04:00 :: FISH: ¹Ì²Ù¶óÁö                 vnum 27817 prob    0    0    0    0 len 1800 2200 3000
+May  9 17:04:00 :: FISH: ¹é·Ã                     vnum 27818 prob   50   50  200  100 len 5000 8000 10000
+May  9 17:04:00 :: FISH: Àº¾î                     vnum 27819 prob    0    0    0    0 len 1500 3000 3800
+May  9 17:04:00 :: FISH: ºù¾î                     vnum 27820 prob    0    0    0    0 len 1500 3000 3800
+May  9 17:04:00 :: FISH: ½¬¸®                     vnum 27821 prob    0    0    0    0 len 1000 1500 2000
+May  9 17:04:00 :: FISH: ºñ´ÃÀ×¾î                 vnum 27822 prob    0    0    0    0 len 4000 6000 10000
+May  9 17:04:00 :: FISH: È²±ÝºØ¾î                 vnum 27823 prob    0    0    0    0 len 1000 3000 3500
+May  9 17:04:00 :: FISH: Å»»ö¾à                   vnum 70201 prob  100  100    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ¿°»ö¾à(Èò»ö)             vnum 70202 prob   85   85    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ¿°»ö¾à(±Ý»ö)             vnum 70203 prob   85   85    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ¿°»ö¾à(»¡°£»ö)           vnum 70204 prob   85   85    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ¿°»ö¾à(°¥»ö)             vnum 70205 prob   85   85    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ¿°»ö¾à(°ËÀº»ö)           vnum 70206 prob   85   85    0    0 len 0 0 0
+May  9 17:04:00 :: FISH: ÀºµÐÀÚÀÇ ¸ÁÅä            vnum 70048 prob   25   25  200  100 len 0 0 0
+May  9 17:04:00 :: FISH: Çà¿îÀÇ ¹ÝÁö              vnum 70049 prob   25   25  200  100 len 0 0 0
+May  9 17:04:00 :: FISH: ¼±¿ÕÀÇ ÁõÇ¥              vnum 70050 prob   25   25  200  100 len 0 0 0
+May  9 17:04:00 :: FISH: ¼±¿ÕÀÇ Àå°©              vnum 70051 prob   25   25  200  100 len 0 0 0
+May  9 17:04:00 :: FISH: ±Ýµ¢¾î¸®                 vnum 80008 prob   25   25  100  100 len 0 0 0
+May  9 17:04:00 :: FISH: Àº¿­¼è                   vnum 50009 prob    0    0  150  100 len 0 0 0
+May  9 17:04:00 :: FISH: ±Ý¿­¼è                   vnum 50008 prob    0    0  100   50 len 0 0 0
+May  9 17:04:00 :: FISH: prob table 0 9950
+May  9 17:04:00 :: FISH: prob table 1 9950
+May  9 17:04:00 :: FISH: prob table 2 9800
+May  9 17:04:00 :: FISH: prob table 3 9900
+May  9 17:04:00 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+May  9 17:04:00 :: Blend_Item_init locale/europe/blend.txt 
+SYSERR: May  9 17:04:02 :: main: Failed to Load ClientPackageCryptInfo File(package/)
+May  9 17:04:02 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:04 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:05 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:07 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:08 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:10 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:11 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:13 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:14 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:16 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:17 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May  9 17:04:19 :: socket_connect: HOST localhost:11000, could not connect.
+May  9 17:04:20 :: SYSTEM: Trying to connect to localhost:11000
+May  9 17:04:20 :: SYSTEM: connected to server (fd 776, ptr 0000025E94BBBC30)
+May  9 17:04:49 :: SYSTEM: new connection from [127.0.0.1] fd: 804 handshake 813857386 output input_len 0, ptr 0000025E92C118C0
+May  9 17:04:49 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:04:49 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:04:49 :: Handshake: client_time 0 server_time 47828
+May  9 17:04:49 :: AUTH_PHASE 0000025E92C118C0
+May  9 17:04:49 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  9 17:04:49 ::  InputAuth Analyze Header[111] 
+May  9 17:04:49 :: InputAuth::Login : n2lyze(6) desc 0000025E92C118C0
+May  9 17:04:49 :: SetLoginKey 2061
+May  9 17:04:49 :: InputAuth::Login : key 2061:0x7dc91a1a login n2lyze
+May  9 17:04:49 :: QID_AUTH_LOGIN: START 2061 0000025E92C118C0
+May  9 17:04:49 :: Create_Time 28800 19700101
+May  9 17:04:49 :: Block Time -1 
+May  9 17:04:49 :: DISCORD_ID n2lyze 247130372301783040
+May  9 17:04:49 :: SetRemainSecs n2lyze 0
+May  9 17:04:49 :: SendAuthLogin n2lyze language 6 key 1
+May  9 17:04:49 :: DBCLIENT: header 122 handle 1 size 1 bytes 10
+May  9 17:04:49 :: AuthLogin result 1 key 2061
+May  9 17:04:50 :: SYSTEM: closing socket. DESC #804
+May  9 17:04:58 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:05:03 :: SYSTEM: new connection from [127.0.0.1] fd: 812 handshake 2919544610 output input_len 0, ptr 0000025E92C118C0
+May  9 17:05:03 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:05:03 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:05:03 :: Handshake: client_time 0 server_time 62062
+May  9 17:05:03 :: AUTH_PHASE 0000025E92C118C0
+May  9 17:05:03 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  9 17:05:03 ::  InputAuth Analyze Header[111] 
+May  9 17:05:03 :: InputAuth::Login : n2lyze(6) desc 0000025E92C118C0
+May  9 17:05:03 :: SetLoginKey 19867
+May  9 17:05:03 :: InputAuth::Login : key 19867:0x19bec9b2 login n2lyze
+May  9 17:05:03 :: QID_AUTH_LOGIN: START 19867 0000025E92C118C0
+May  9 17:05:03 :: Create_Time 28800 19700101
+May  9 17:05:03 :: Block Time -1 
+May  9 17:05:03 :: DISCORD_ID n2lyze 247130372301783040
+May  9 17:05:03 :: SetRemainSecs n2lyze 0
+May  9 17:05:03 :: SendAuthLogin n2lyze language 6 key 1
+May  9 17:05:03 :: DBCLIENT: header 122 handle 2 size 1 bytes 10
+May  9 17:05:03 :: AuthLogin result 1 key 19867
+May  9 17:05:04 :: SYSTEM: closing socket. DESC #812
+May  9 17:05:57 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:06:48 :: SYSTEM: new connection from [127.0.0.1] fd: 820 handshake 1082363230 output input_len 0, ptr 0000025E92C118C0
+May  9 17:06:48 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:06:48 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:06:48 :: Handshake: client_time 0 server_time 167046
+May  9 17:06:48 :: AUTH_PHASE 0000025E92C118C0
+May  9 17:06:48 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  9 17:06:48 ::  InputAuth Analyze Header[111] 
+May  9 17:06:48 :: InputAuth::Login : n2lyze(6) desc 0000025E92C118C0
+May  9 17:06:48 :: SetLoginKey 21916
+May  9 17:06:48 :: InputAuth::Login : key 21916:0x6066472a login n2lyze
+May  9 17:06:48 :: QID_AUTH_LOGIN: START 21916 0000025E92C118C0
+May  9 17:06:48 :: Create_Time 28800 19700101
+May  9 17:06:48 :: Block Time -1 
+May  9 17:06:48 :: DISCORD_ID n2lyze 247130372301783040
+May  9 17:06:48 :: SetRemainSecs n2lyze 0
+May  9 17:06:48 :: SendAuthLogin n2lyze language 6 key 1
+May  9 17:06:48 :: DBCLIENT: header 122 handle 3 size 1 bytes 10
+May  9 17:06:48 :: AuthLogin result 1 key 21916
+May  9 17:06:49 :: SYSTEM: closing socket. DESC #820
+May  9 17:06:57 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:07:56 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:08:29 :: SYSTEM: new connection from [127.0.0.1] fd: 860 handshake 1042827268 output input_len 0, ptr 0000025E92C14800
+May  9 17:08:29 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:08:29 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:08:29 :: Handshake: client_time 0 server_time 267640
+May  9 17:08:29 :: AUTH_PHASE 0000025E92C14800
+May  9 17:08:29 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  9 17:08:29 ::  InputAuth Analyze Header[111] 
+May  9 17:08:29 :: InputAuth::Login : n2lyze(6) desc 0000025E92C14800
+May  9 17:08:29 :: SetLoginKey 5697
+May  9 17:08:29 :: InputAuth::Login : key 5697:0x4dc30364 login n2lyze
+May  9 17:08:29 :: QID_AUTH_LOGIN: START 5697 0000025E92C14800
+May  9 17:08:29 :: Create_Time 28800 19700101
+May  9 17:08:29 :: Block Time -1 
+May  9 17:08:29 :: DISCORD_ID n2lyze 247130372301783040
+May  9 17:08:29 :: SetRemainSecs n2lyze 0
+May  9 17:08:29 :: SendAuthLogin n2lyze language 6 key 1
+May  9 17:08:29 :: DBCLIENT: header 122 handle 4 size 1 bytes 10
+May  9 17:08:29 :: AuthLogin result 1 key 5697
+May  9 17:08:29 :: SYSTEM: closing socket. DESC #860
+May  9 17:08:55 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:09:55 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:10:53 :: SYSTEM: new connection from [127.0.0.1] fd: 840 handshake 4284398280 output input_len 0, ptr 0000025E94B69D70
+May  9 17:10:53 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:10:53 :: Packet Analyze [Header 255][bufferLeft 13] 
+May  9 17:10:53 :: Handshake: client_time 0 server_time 412046
+May  9 17:10:53 :: AUTH_PHASE 0000025E94B69D70
+May  9 17:10:53 :: Packet Analyze [Header 111][bufferLeft 216] 
+May  9 17:10:53 ::  InputAuth Analyze Header[111] 
+May  9 17:10:53 :: InputAuth::Login : n2lyze(6) desc 0000025E94B69D70
+May  9 17:10:53 :: SetLoginKey 24627
+May  9 17:10:53 :: InputAuth::Login : key 24627:0x1afdf43a login n2lyze
+May  9 17:10:53 :: QID_AUTH_LOGIN: START 24627 0000025E94B69D70
+May  9 17:10:53 :: Create_Time 28800 19700101
+May  9 17:10:53 :: Block Time -1 
+May  9 17:10:53 :: DISCORD_ID n2lyze 247130372301783040
+May  9 17:10:53 :: SetRemainSecs n2lyze 0
+May  9 17:10:53 :: SendAuthLogin n2lyze language 6 key 1
+May  9 17:10:53 :: DBCLIENT: header 122 handle 5 size 1 bytes 10
+May  9 17:10:53 :: AuthLogin result 1 key 24627
+May  9 17:10:54 :: SYSTEM: closing socket. DESC #840
+May  9 17:10:54 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:11:54 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:12:53 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:13:53 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:14:52 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:15:51 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:16:51 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:17:50 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:18:49 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:19:49 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:20:48 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:21:48 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:22:47 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:23:46 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:24:46 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:25:45 :: CHARACTER COUNT vid 0 pid 0
+May  9 17:26:45 :: CHARACTER COUNT vid 0 pid 0
+May 11 12:56:57 :: SYSTEM: BINDING TCP PORT ON [11001] (fd 696)
+May 11 12:56:57 :: SYSTEM: BINDING TCP PORT ON [11002] (fd 700)
+May 11 12:56:57 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:56:59 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:56:59 :: Initializing Guild
+May 11 12:56:59 :: 	No need for auth server
+May 11 12:56:59 :: FISH: ²Î                       vnum     0 prob 3000 3000 2100 2000 len 0 0 0
+May 11 12:56:59 :: FISH: ±Ý¹ÝÁö                   vnum 50002 prob   50   50  200  200 len 0 0 0
+May 11 12:56:59 :: FISH: ÇÇ¶ó¹Ì                   vnum 27802 prob 2000 1800  800 2200 len 500 550 600
+May 11 12:56:59 :: FISH: ºØ¾î                     vnum 27803 prob 1950 1600  800  700 len 1000 2500 2800
+May 11 12:56:59 :: FISH: ½î°¡¸®                   vnum 27804 prob  900  800  700  600 len 2000 3500 3800
+May 11 12:56:59 :: FISH: ¿ùÃ´ºØ¾î                 vnum 27805 prob  700  700  700  600 len 3030 3500 4300
+May 11 12:56:59 :: FISH: À×¾î                     vnum 27806 prob  200  300  600  800 len 4000 6000 10000
+May 11 12:56:59 :: FISH: ¿¬¾î                     vnum 27807 prob  200  200  500  600 len 6000 8000 10000
+May 11 12:56:59 :: FISH: Çâ¾î                     vnum 27808 prob  100  100  250  200 len 1500 3000 3800
+May 11 12:56:59 :: FISH: ¼Û¾î                     vnum 27809 prob  100  100  250  350 len 5000 7000 8000
+May 11 12:56:59 :: FISH: ¹Î¹°Àå¾î                 vnum 27810 prob    0  100  250  200 len 4000 5000 6000
+May 11 12:56:59 :: FISH: ¹«Áö°³¼Û¾î               vnum 27811 prob    0  100  250  150 len 5000 7000 8000
+May 11 12:56:59 :: FISH: °­¼Û¾î                   vnum 27812 prob    0  100  250  150 len 4000 6000 7000
+May 11 12:56:59 :: FISH: ·¯µå                     vnum 27813 prob    0  100  200  100 len 4000 6000 10000
+May 11 12:56:59 :: FISH: ÆÛÄ¡                     vnum 27814 prob    0  100  200  100 len 3000 4000 5000
+May 11 12:56:59 :: FISH: ÅÙÄ¡                     vnum 27815 prob    0   50  200  100 len 3500 5500 8000
+May 11 12:56:59 :: FISH: ¸Þ±â                     vnum 27816 prob   50   50  200  100 len 3000 5000 10000
+May 11 12:56:59 :: FISH: ¹Ì²Ù¶óÁö                 vnum 27817 prob    0    0    0    0 len 1800 2200 3000
+May 11 12:56:59 :: FISH: ¹é·Ã                     vnum 27818 prob   50   50  200  100 len 5000 8000 10000
+May 11 12:56:59 :: FISH: Àº¾î                     vnum 27819 prob    0    0    0    0 len 1500 3000 3800
+May 11 12:56:59 :: FISH: ºù¾î                     vnum 27820 prob    0    0    0    0 len 1500 3000 3800
+May 11 12:56:59 :: FISH: ½¬¸®                     vnum 27821 prob    0    0    0    0 len 1000 1500 2000
+May 11 12:56:59 :: FISH: ºñ´ÃÀ×¾î                 vnum 27822 prob    0    0    0    0 len 4000 6000 10000
+May 11 12:56:59 :: FISH: È²±ÝºØ¾î                 vnum 27823 prob    0    0    0    0 len 1000 3000 3500
+May 11 12:56:59 :: FISH: Å»»ö¾à                   vnum 70201 prob  100  100    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ¿°»ö¾à(Èò»ö)             vnum 70202 prob   85   85    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ¿°»ö¾à(±Ý»ö)             vnum 70203 prob   85   85    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ¿°»ö¾à(»¡°£»ö)           vnum 70204 prob   85   85    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ¿°»ö¾à(°¥»ö)             vnum 70205 prob   85   85    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ¿°»ö¾à(°ËÀº»ö)           vnum 70206 prob   85   85    0    0 len 0 0 0
+May 11 12:56:59 :: FISH: ÀºµÐÀÚÀÇ ¸ÁÅä            vnum 70048 prob   25   25  200  100 len 0 0 0
+May 11 12:56:59 :: FISH: Çà¿îÀÇ ¹ÝÁö              vnum 70049 prob   25   25  200  100 len 0 0 0
+May 11 12:56:59 :: FISH: ¼±¿ÕÀÇ ÁõÇ¥              vnum 70050 prob   25   25  200  100 len 0 0 0
+May 11 12:56:59 :: FISH: ¼±¿ÕÀÇ Àå°©              vnum 70051 prob   25   25  200  100 len 0 0 0
+May 11 12:56:59 :: FISH: ±Ýµ¢¾î¸®                 vnum 80008 prob   25   25  100  100 len 0 0 0
+May 11 12:56:59 :: FISH: Àº¿­¼è                   vnum 50009 prob    0    0  150  100 len 0 0 0
+May 11 12:56:59 :: FISH: ±Ý¿­¼è                   vnum 50008 prob    0    0  100   50 len 0 0 0
+May 11 12:56:59 :: FISH: prob table 0 9950
+May 11 12:56:59 :: FISH: prob table 1 9950
+May 11 12:56:59 :: FISH: prob table 2 9800
+May 11 12:56:59 :: FISH: prob table 3 9900
+May 11 12:56:59 :: CLIENT_DESC [db_clientdesc] trying DBPacket() while not connected
+May 11 12:56:59 :: Blend_Item_init locale/europe/blend.txt 
+SYSERR: May 11 12:57:00 :: main: Failed to Load ClientPackageCryptInfo File(package/)
+May 11 12:57:00 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:57:02 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:57:03 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:57:05 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:57:06 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:57:08 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:57:09 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:57:11 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:57:12 :: SYSTEM: Trying to connect to localhost:11000
+SYSERR: May 11 12:57:14 :: socket_connect: HOST localhost:11000, could not connect.
+May 11 12:57:15 :: SYSTEM: Trying to connect to localhost:11000
