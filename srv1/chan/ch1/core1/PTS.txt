@@ -1,7 +1,0 @@
-[  1] event     0/0     idle 0    event 0    heartbeat 0    I/O 2032 chrUpate 0    | WRITE: 0       | PULSE: 87
-[  5] event     0/0     idle 156  event 0    heartbeat 0    I/O 2031 chrUpate 0    | WRITE: 0       | PULSE: 142
-[ 12] event     0/0     idle 438  event 0    heartbeat 0    I/O 0    chrUpate 0    | WRITE: 0       | PULSE: 204
-[ 13] event     0/0     idle 515  event 0    heartbeat 0    I/O 2016 chrUpate 0    | WRITE: 0       | PULSE: 217
-[ 13] event     0/0     idle 484  event 0    heartbeat 0    I/O 0    chrUpate 0    | WRITE: 0       | PULSE: 280
-[ 13] event     0/0     idle 516  event 0    heartbeat 0    I/O 2031 chrUpate 0    | WRITE: 0       | PULSE: 293
-[ 12] event     0/0     idle 438  event 0    heartbeat 0    I/O 0    chrUpate 0    | WRITE: 0       | PULSE: 356
